@@ -1,0 +1,81 @@
+{
+  "league": "classic",
+  "league_id": 423590,
+  "generated_at": "2026-09-01T12:55:37.058623+00:00",
+  "next_deadline": "2026-09-04T17:30:00Z",
+  "current_gw_finalized": false,
+  "updated_from_gws": [
+    1,
+    2
+  ],
+  "manager_of_the_week": [
+    {
+      "gw": 1,
+      "points": 85,
+      "shared": false,
+      "provisional": false,
+      "winners": [
+        {
+          "entry_id": 464574,
+          "team_name": "The Carrick Masters",
+          "manager": "Mohan S Madai"
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "points": 124,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 2310055,
+          "team_name": "NetSix&Chill FC",
+          "manager": "Sabin Shrestha"
+        }
+      ]
+    }
+  ],
+  "manager_of_the_month": [
+    {
+      "month": "August",
+      "label": "August",
+      "points": 192,
+      "shared": false,
+      "provisional": true,
+      "gameweeks": [
+        1,
+        2
+      ],
+      "winners": [
+        {
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
+        }
+      ]
+    }
+  ],
+  "king_of_the_ring": {
+    "points": 124,
+    "shared": false,
+    "provisional": true,
+    "winners": [
+      {
+        "entry_id": 2310055,
+        "team_name": "NetSix&Chill FC",
+        "manager": "Sabin Shrestha",
+        "gw": 2,
+        "points": 124
+      }
+    ]
+  },
+  "centurion": {
+    "achieved": false,
+    "shared": false,
+    "provisional": false,
+    "winners": [],
+    "best": null,
+    "starts": "2027-01"
+  }
+}

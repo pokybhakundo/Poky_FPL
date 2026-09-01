@@ -1,0 +1,176 @@
+name: FPL Tracker
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "scheduled (full external-cron chain) | qualify | live-reseed | init-bracket | advance | dashboard | contests | standings"
+        required: false
+        default: "advance"
+      league:
+        description: "classic | h2h | both"
+        required: false
+        default: "both"
+      start_gw:
+        description: "Knockout start GW"
+        required: false
+        default: "34"
+      live:
+        description: "Include current GW provisional points"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+  pages: write
+  id-token: write
+  deployments: write
+
+concurrency:
+  group: fpl-tracker
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.gate.outputs.poll != 'false' }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Check if a live GW is in play (scheduled runs only)
+        id: gate
+        if: github.event.inputs.mode == 'scheduled'
+        run: |
+          POLL=$(python3 FPL.PY --mode should-poll)
+          echo "poll=$POLL" >> "$GITHUB_OUTPUT"
+          echo "Poll decision: $POLL"
+
+      - name: Run qualify + live advance (scheduled)
+        if: github.event.inputs.mode == 'scheduled' && steps.gate.outputs.poll != 'false'
+        run: |
+          python3 FPL.PY --mode qualify
+          python3 FPL.PY --mode live-reseed --league both
+          python3 FPL.PY --mode advance --league both --live
+          python3 FPL.PY --mode contests
+          python3 FPL.PY --mode archive-season
+
+      - name: Run requested mode (manual dispatch / button)
+        if: github.event.inputs.mode != 'scheduled'
+        run: |
+          FPL_LIVE_FLAG=""
+          if [ "${{ github.event.inputs.live }}" = "true" ]; then FPL_LIVE_FLAG="--live"; fi
+          python3 FPL.PY --mode ${{ github.event.inputs.mode }} \
+            --league ${{ github.event.inputs.league }} \
+            --start-gw ${{ github.event.inputs.start_gw }} \
+            $FPL_LIVE_FLAG
+
+      - name: Rebuild dashboard.json
+        if: steps.gate.outputs.poll != 'false'
+        run: python3 FPL.PY --mode dashboard
+
+      - name: Rebuild current GW standings (all players, classic + h2h)
+        if: steps.gate.outputs.poll != 'false'
+        run: python3 FPL.PY --mode standings
+
+      - name: Mirror state into docs/data for the Pages deploy
+        if: steps.gate.outputs.poll != 'false'
+        run: |
+          mkdir -p docs/data
+          cp state/bracket_state_classic.json docs/data/ 2>/dev/null || true
+          cp state/bracket_state_h2h.json docs/data/ 2>/dev/null || true
+          cp state/dashboard.json docs/data/ 2>/dev/null || true
+          cp state/contests.json docs/data/ 2>/dev/null || true
+          cp state/standings_current.json docs/data/ 2>/dev/null || true
+          cp state/season_history.json docs/data/ 2>/dev/null || true
+          cp state/champions_history.json docs/data/ 2>/dev/null || true
+
+      # docs/data/*.json is deploy output, not source of truth -- it goes to
+      # Pages via the artifact below, not a git commit. state/ is the app's
+      # actual database (bracket progression, seed lists, contest history
+      # persist only as this committed JSON between runs) so it still needs
+      # committing every run.
+      - name: Commit updated state
+        if: steps.gate.outputs.poll != 'false'
+        run: |
+          git config user.name "fpl-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update FPL state [skip ci]"
+
+          # state/ is fully regenerated from live data every run, so on a push
+          # race (another run, or a manual push, landed first) the safe fix is:
+          # keep our freshly-generated state/, but sync everything else to the
+          # new tip exactly — never silently revert files this job doesn't
+          # touch (docs/index.html etc.) back to what they were when the job
+          # started. `git reset --soft` does NOT do this: it moves HEAD but
+          # leaves the index/working tree stale, so re-committing on top wipes
+          # out any other change that landed on origin/main in the meantime.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — another push landed first. Syncing onto it and retrying."
+            git fetch origin
+            git stash push -u -- state/
+            git reset --hard origin/main
+            git stash pop
+            git add state/
+            git commit -m "Update FPL state [skip ci]"
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push updated state after 5 attempts."
+          exit 1
+
+      - name: Upload Pages artifact
+        if: steps.gate.outputs.poll != 'false'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Prune workflow runs older than 15 minutes
+        if: github.event.inputs.mode == 'scheduled'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CUTOFF=$(date -u -d '15 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh run list --workflow fpl-tracker.yml --created "<${CUTOFF}" --limit 100 --json databaseId -q '.[].databaseId' \
+            | xargs -r -n1 gh run delete || true
+
+      - name: Prune Pages deployments older than 15 minutes
+        if: github.event.inputs.mode == 'scheduled'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CUTOFF=$(date -u -d '15 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          LATEST=$(gh api "repos/${{ github.repository }}/deployments?per_page=1" -q '.[0].id')
+          gh api "repos/${{ github.repository }}/deployments" --paginate \
+            | jq -r --arg cutoff "$CUTOFF" --arg latest "$LATEST" \
+              '.[] | select(.id != ($latest|tonumber)) | select(.created_at < $cutoff) | .id' \
+            | while read -r id; do
+                gh api "repos/${{ github.repository }}/deployments/$id/statuses" -X POST -f state=inactive >/dev/null 2>&1 || true
+                gh api "repos/${{ github.repository }}/deployments/$id" -X DELETE >/dev/null 2>&1 || true
+              done
+
+  deploy:
+    needs: run
+    if: needs.run.outputs.should_deploy == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

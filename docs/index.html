@@ -1,0 +1,3170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Poky भकुण्डो FPL 2026/27</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Live knockout bracket, contest standings, and Hall of Fame for the Poky भकुण्डो Fantasy Premier League leagues." />
+<meta name="theme-color" content="#07111f" />
+<meta property="og:title" content="Poky भकुण्डो FPL 2026/27" />
+<meta property="og:description" content="Live knockout bracket, contest standings, and Hall of Fame." />
+<meta property="og:image" content="LOGO.jpeg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #07111f;
+    --bg-2: #0b1728;
+    --card: #13243b;
+    --card-rgb: 19, 36, 59;
+    --card-border: rgba(91, 134, 181, 0.28);
+    --accent: #3b82f6;
+    --accent-rgb: 59, 130, 246;
+    --highlight: #f4c95d;
+    --highlight-rgb: 244, 201, 93;
+    --text: #f7fafc;
+    --sub: #9fb2c8;
+    --winner: #2dd4a7;
+    --winner-rgb: 45, 212, 167;
+    --live: #fb5a65;
+    --live-rgb: 251, 90, 101;
+    --tbd: #758aa3;
+    --line: #5078a5;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --shadow-sm: 0 6px 18px -12px rgba(0, 0, 0, 0.75);
+    --shadow-md: 0 18px 38px -20px rgba(0, 0, 0, 0.8);
+    --shadow-glow: 0 0 0 1px rgba(var(--accent-rgb), 0.22), 0 10px 28px -12px rgba(var(--accent-rgb), 0.75);
+    --condensed: 'Barlow Condensed', 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+    --body-font: 'Barlow', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-xxs: 9px;
+    --font-xs: 11px;
+    --font-sm: 12px;
+    --font-nav: 13px;
+    --font-base: 14px;
+    --font-md: 17px;
+    --font-lg: 18px;
+    --font-xl: 22px;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  ::selection { background: rgba(var(--accent-rgb), 0.35); color: #fff; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(159, 176, 196, 0.25); border-radius: 8px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(159, 176, 196, 0.4); }
+  :focus-visible { outline: 2px solid rgba(var(--accent-rgb), 0.7); outline-offset: 2px; }
+  body {
+    font-family: var(--body-font);
+    font-size: var(--font-base);
+    background:
+      radial-gradient(1100px 560px at 8% -10%, rgba(var(--accent-rgb), 0.18), transparent 60%),
+      radial-gradient(760px 420px at 100% 0%, rgba(var(--highlight-rgb), 0.07), transparent 58%),
+      linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 48%, #07101d 100%);
+    background-attachment: fixed;
+    color: var(--text);
+    margin: 0;
+    padding: 12px 18px 8px;
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .site-header::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(var(--accent-rgb), 0.62), rgba(var(--highlight-rgb), 0.42), transparent);
+  }
+  .brand-badge {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+    border: 2px solid rgba(var(--highlight-rgb), 0.65);
+    box-shadow: 0 6px 20px rgba(var(--highlight-rgb), 0.2), 0 0 0 4px rgba(var(--highlight-rgb), 0.07);
+  }
+  .brand-text {
+    min-width: 0;
+  }
+  .brand-text h1 {
+    font-family: var(--condensed);
+    font-size: var(--font-xl);
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+  }
+  .brand-fpl {
+    background: linear-gradient(135deg, #fff1b8, var(--highlight));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .updated-at { font-size: var(--font-xs); color: var(--sub); margin-top: 2px; }
+  .updated-at.stale { color: var(--live); }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; flex-shrink: 0; }
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    background: rgba(var(--card-rgb), 0.6);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  .nav-toggle span { display: block; width: 18px; height: 2px; margin: 0 auto; background: var(--text); border-radius: 2px; }
+  .nav-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 299;
+    background: rgba(3, 9, 18, 0.76);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.22s ease;
+  }
+  .nav-drawer-head { display: none; }
+  button {
+    background: rgba(var(--card-rgb), 0.78);
+    color: var(--text);
+    border: 1px solid var(--card-border);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-family: var(--condensed);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-size: var(--font-nav);
+    cursor: pointer;
+    transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease, color 0.18s ease;
+  }
+  button:hover { background: rgba(var(--accent-rgb), 0.14); border-color: rgba(var(--accent-rgb), 0.55); transform: translateY(-1px); }
+  button:active { transform: scale(0.97) translateY(0); }
+  button.active {
+    background: linear-gradient(135deg, #4f91ff, #2563eb);
+    border-color: rgba(147, 197, 253, 0.34);
+    color: #fff;
+    box-shadow: var(--shadow-glow);
+  }
+  .tab-wrap { display: inline-flex; align-items: center; gap: 4px; }
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 6px;
+  }
+  .card-title h2 { margin: 0; }
+
+  .rules-page { padding: 8px 2px 16px; }
+  .rules-page > header { margin-bottom: 12px; }
+  .rules-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .rules-card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .rules-card:hover { border-color: rgba(var(--accent-rgb), 0.4); box-shadow: var(--shadow-md); }
+  .rules-card h4 {
+    font-family: var(--condensed);
+    font-size: var(--font-md);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+    color: var(--accent);
+  }
+  .rules-card .rule-image {
+    display: block;
+    width: min(100%, 560px);
+    height: auto;
+    margin: 10px 0 0;
+    border-radius: 6px;
+    object-fit: contain;
+  }
+  .rules-page h3 {
+    font-family: var(--condensed);
+    font-size: var(--font-lg);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--accent);
+  }
+  .rules-page .league-tag {
+    display: inline-block;
+    font-size: var(--font-sm);
+    color: var(--sub);
+    margin-bottom: 10px;
+  }
+  .rules-page .ko-section-heading {
+    color: var(--highlight);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .rules-page .ko-brackets-heading { margin-top: 20px; }
+  .rules-page ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: var(--font-base);
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .rules-page li + li { margin-top: 6px; }
+  .rules-page ol {
+    margin: 6px 0 0;
+    padding-left: 18px;
+  }
+
+  .toolbar.sub { margin-top: 2px; margin-bottom: 6px; }
+  .toolbar.sub button { font-size: var(--font-sm); padding: 6px 14px; }
+
+  .panel { display: none; flex: 1; min-height: 0; overflow: auto; }
+  .panel.active { display: flex; flex-direction: column; }
+  #panel-knockout.active { overflow: hidden; }
+
+  .contest-panel { padding: 8px 2px 16px; }
+  .contest-rule {
+    color: var(--sub);
+    font-size: var(--font-nav);
+    margin: 0 0 14px;
+    max-width: 720px;
+    line-height: 1.45;
+  }
+  .contest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 14px;
+  }
+  .contest-card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .contest-card:hover { border-color: rgba(var(--accent-rgb), 0.4); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .contest-card h2 {
+    font-family: var(--condensed);
+    font-size: var(--font-md);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+    color: var(--accent);
+  }
+  .contest-card .subrule { color: var(--sub); font-size: var(--font-sm); margin: 0 0 12px; line-height: 1.4; }
+  .contest-hero {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--highlight);
+    margin-bottom: 4px;
+  }
+  .contest-meta { color: var(--sub); font-size: var(--font-sm); }
+  .award-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    max-width: 1180px;
+  }
+  .award-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 292px;
+    overflow: hidden;
+    padding: 24px 26px 26px;
+    background:
+      radial-gradient(circle at 92% 5%, rgba(var(--award-rgb), 0.18), transparent 34%),
+      rgba(var(--card-rgb), 0.92);
+    border: 1px solid rgba(var(--award-rgb), 0.42);
+    border-top: 3px solid var(--award-color);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 20px 44px -28px rgba(var(--award-rgb), 0.8);
+  }
+  .award-card--king { --award-color: var(--highlight); --award-rgb: var(--highlight-rgb); }
+  .award-card--centurion { --award-color: var(--winner); --award-rgb: var(--winner-rgb); }
+  .award-card::after {
+    content: '';
+    position: absolute;
+    top: -62px;
+    right: -48px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgba(var(--award-rgb), 0.16);
+    border-radius: 50%;
+    box-shadow: 0 0 0 22px rgba(var(--award-rgb), 0.035), 0 0 0 44px rgba(var(--award-rgb), 0.025);
+    pointer-events: none;
+  }
+  .award-card-head {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .award-emblem {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    flex: 0 0 56px;
+    color: var(--award-color);
+    background: rgba(var(--award-rgb), 0.1);
+    border: 1px solid rgba(var(--award-rgb), 0.34);
+    border-radius: 14px;
+  }
+  .award-emblem svg { width: 30px; height: 30px; }
+  .award-heading { min-width: 0; flex: 1; }
+  .award-kicker {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--award-color);
+    font-family: var(--condensed);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+  }
+  .award-card .award-title {
+    margin: 0;
+    color: var(--text);
+    font-family: var(--condensed);
+    font-size: clamp(24px, 2.4vw, 32px);
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    line-height: 1;
+    text-transform: none;
+    text-wrap: balance;
+  }
+  .award-subtitle { margin-top: 5px; color: var(--sub); font-size: var(--font-sm); }
+  .award-status { position: relative; z-index: 2; margin-left: auto; white-space: nowrap; }
+  .award-winners { display: grid; gap: 8px; margin-bottom: 20px; }
+  .award-winner {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    min-height: 78px;
+    padding: 12px 14px;
+    background: rgba(4, 14, 27, 0.46);
+    border-left: 3px solid var(--award-color);
+    border-radius: 4px var(--radius-sm) var(--radius-sm) 4px;
+  }
+  .award-winner--waiting { border-left-style: dashed; }
+  .award-team-icon {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    color: var(--award-color);
+    background: rgba(var(--award-rgb), 0.11);
+    border-radius: 10px;
+  }
+  .award-team-icon svg { width: 22px; height: 22px; }
+  .award-winner-copy { min-width: 0; }
+  .award-winner-label {
+    display: block;
+    margin-bottom: 2px;
+    color: var(--sub);
+    font-size: var(--font-xxs);
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+  .award-team-name {
+    display: block;
+    color: var(--text);
+    font-family: var(--condensed);
+    font-size: clamp(22px, 2.3vw, 29px);
+    font-weight: 700;
+    line-height: 1.05;
+    overflow-wrap: anywhere;
+  }
+  .award-manager { display: block; margin-top: 3px; color: var(--sub); font-size: var(--font-sm); }
+  .award-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: auto;
+  }
+  .award-metric {
+    display: grid;
+    grid-template-columns: 38px minmax(0, 1fr);
+    align-items: center;
+    gap: 10px;
+    min-height: 68px;
+    padding: 10px 12px;
+    background: rgba(var(--award-rgb), 0.075);
+    border: 1px solid rgba(var(--award-rgb), 0.2);
+    border-radius: var(--radius-sm);
+  }
+  .award-metric-icon { display: grid; place-items: center; color: var(--award-color); }
+  .award-metric-icon svg { width: 25px; height: 25px; }
+  .award-metric-label {
+    display: block;
+    color: var(--sub);
+    font-size: var(--font-xxs);
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+  .award-metric-value {
+    display: block;
+    margin-top: 1px;
+    color: var(--award-color);
+    font-family: var(--condensed);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .award-note { margin: 12px 0 0; color: var(--sub); font-size: var(--font-xs); line-height: 1.4; }
+  .contest-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 6px;
+    font-size: var(--font-base);
+  }
+  .contest-table th {
+    font-family: var(--condensed);
+    text-align: center;
+    font-size: var(--font-sm);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--card-border);
+    padding: 8px 8px 10px;
+  }
+  .mow-sep { color: var(--sub); font-weight: 400; }
+  .contest-table th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  .contest-table th.sortable:hover { color: var(--highlight); }
+  .contest-table th.sorted { color: var(--highlight); }
+  .contest-table td {
+    padding: 10px 8px;
+    background: rgba(var(--card-rgb), 0.72);
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+    vertical-align: middle;
+    text-align: center;
+    transition: background-color 0.15s ease;
+  }
+  .contest-table td:first-child {
+    border-left: 1px solid var(--card-border);
+    border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+    font-weight: 700;
+    color: var(--sub);
+  }
+  .contest-table td:last-child {
+    border-right: 1px solid var(--card-border);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+  .contest-table tbody tr:hover td { background: rgba(var(--accent-rgb), 0.12); }
+  .contest-table .pts { font-weight: 700; color: var(--winner); white-space: nowrap; }
+  .standings-table-h2h {
+    border-spacing: 0 4px;
+    font-size: var(--font-sm);
+  }
+  .standings-table-h2h th,
+  .standings-table-h2h td { padding: 6px 5px; }
+  .standings-table-h2h th:first-child,
+  .standings-table-h2h td:first-child,
+  .standings-table-h2h th:nth-child(3),
+  .standings-table-h2h td:nth-child(3),
+  .standings-table-h2h th:last-child,
+  .standings-table-h2h td:last-child {
+    width: 1%;
+    white-space: nowrap;
+  }
+  .badge {
+    display: inline-block;
+    font-family: var(--condensed);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 999px;
+    margin-left: 6px;
+  }
+  .badge.shared { background: rgba(var(--highlight-rgb), 0.18); color: var(--highlight); }
+  .badge.live { background: var(--live); color: #fff; box-shadow: 0 0 0 3px rgba(var(--live-rgb), 0.18); }
+
+  .champ-wall-heading {
+    font-family: var(--condensed);
+    font-size: var(--font-lg);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: var(--highlight);
+    margin: 0 0 8px;
+  }
+  .champ-wall-note {
+    font-size: var(--font-sm);
+    color: var(--sub);
+    margin: -4px 0 12px;
+  }
+  .hof-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .hof-podium {
+    margin: 0 0 20px;
+    background: linear-gradient(160deg, rgba(var(--highlight-rgb), 0.14), var(--card) 55%);
+    border: 1px solid rgba(var(--highlight-rgb), 0.4);
+    box-shadow: var(--shadow-md);
+  }
+  .hof-podium .hof-card,
+  .hof-collapse .hof-card { background: transparent; border: none; padding: 8px; box-shadow: none; transform: none; }
+  .hof-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    padding: 16px 12px;
+    transition: transform 0.2s ease;
+  }
+  .hof-card:hover { transform: translateY(-2px); }
+  .hof-rank {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-family: var(--condensed);
+    font-size: var(--font-base);
+    font-weight: 700;
+    background: rgba(var(--highlight-rgb), 0.18);
+    color: var(--highlight);
+    box-shadow: 0 0 0 3px rgba(var(--highlight-rgb), 0.1);
+    flex-shrink: 0;
+  }
+  .hof-card.rank-1 .hof-rank { background: linear-gradient(135deg, #ffe27a, #d9a521); color: #241a02; }
+  .hof-card.rank-2 .hof-rank { background: linear-gradient(135deg, #e4e9f0, #9aa7b8); color: #1a222c; }
+  .hof-card.rank-3 .hof-rank { background: linear-gradient(135deg, #e0a479, #a9673a); color: #241505; }
+  .profile-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background: none;
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: normal;
+    line-height: inherit;
+    text-transform: none;
+    box-shadow: none;
+    vertical-align: baseline;
+  }
+  .profile-trigger:hover,
+  .profile-trigger:active {
+    background: none;
+    border-color: transparent;
+    box-shadow: none;
+    transform: none;
+  }
+  .hof-name { font-weight: 600; font-size: var(--font-base); cursor: pointer; text-decoration: underline; }
+  .hof-name:hover { opacity: 0.8; }
+  .hof-count { display: flex; align-items: center; gap: 4px; color: var(--sub); font-size: var(--font-sm); }
+
+  .hof-collapse { margin: 0 0 20px; }
+  .hof-collapse summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--condensed);
+    font-size: var(--font-md);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: var(--highlight);
+    padding: 6px 0;
+  }
+  .hof-collapse summary::-webkit-details-marker { display: none; }
+  .hof-collapse summary::before { content: '▸'; font-size: var(--font-xl); color: var(--accent); }
+  .hof-collapse[open] summary::before { content: '▾'; }
+  .hof-collapse .hof-grid { margin-top: 8px; grid-template-columns: repeat(5, 1fr); }
+
+  .champ-cluster + .champ-cluster { margin-top: 22px; }
+  .champ-cluster-heading {
+    font-family: var(--condensed);
+    font-size: var(--font-lg);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--highlight);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    margin: 0 0 10px;
+  }
+  .contest-table td.champ-cell { color: var(--highlight); font-weight: 700; }
+
+  .profile-dialog {
+    position: relative;
+    background: linear-gradient(160deg, #142a47, #0a1729 72%);
+    color: var(--text);
+    border: 1px solid rgba(var(--accent-rgb), 0.42);
+    border-radius: var(--radius-lg);
+    padding: 22px;
+    width: min(420px, calc(100vw - 32px));
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: var(--shadow-md);
+  }
+  .profile-dialog::backdrop { background: rgba(2, 4, 9, 0.72); backdrop-filter: blur(3px); }
+  .profile-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: var(--sub);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .profile-name {
+    font-family: var(--condensed);
+    font-size: var(--font-xl);
+    font-weight: 700;
+    color: var(--highlight);
+    margin: 0 0 4px;
+    padding-right: 24px;
+  }
+  .profile-total { display: flex; align-items: center; gap: 6px; color: var(--sub); font-size: var(--font-sm); margin-bottom: 16px; }
+  .profile-section-heading {
+    font-family: var(--condensed);
+    font-size: var(--font-sm);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 8px;
+  }
+  .profile-title-row { display: flex; align-items: center; gap: 6px; font-size: var(--font-md); padding: 6px 0; }
+  .profile-title-row + .profile-title-row { border-top: 1px solid var(--card-border); }
+  .profile-season-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: var(--font-base); padding: 7px 0; }
+  .profile-season-row + .profile-season-row { border-top: 1px solid var(--card-border); }
+  .profile-season-name { font-weight: 600; flex-shrink: 0; }
+  .profile-season-stats { color: var(--sub); font-size: var(--font-sm); text-align: right; white-space: nowrap; }
+  .profile-season-stats b { color: var(--winner); font-size: var(--font-base); }
+  .profile-empty { color: var(--sub); font-size: var(--font-sm); font-style: italic; margin: 0 0 18px; }
+  .profile-footnote { color: var(--sub); font-size: var(--font-xs); line-height: 1.4; margin: 14px 0 0; padding-top: 10px; border-top: 1px solid var(--card-border); }
+
+  .winner-card-dialog {
+    position: fixed;
+    inset: 0;
+    width: max-content;
+    height: max-content;
+    max-width: calc(100vw - 16px);
+    max-height: calc(100dvh - 16px);
+    margin: auto;
+    overflow: visible;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .winner-card-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+  .winner-card-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+  }
+  .winner-card-copy {
+    position: absolute;
+    top: 8px;
+    right: 44px;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .winner-card-copy:hover,
+  .winner-card-copy:focus-visible { background: rgba(var(--accent-rgb), 0.85); outline: none; }
+  .winner-card-copy:disabled { cursor: wait; opacity: 0.65; }
+  .winner-card-copy svg { width: 14px; height: 14px; }
+  .winner-copy-status {
+    position: absolute;
+    top: 42px;
+    right: 8px;
+    z-index: 4;
+    max-width: calc(100% - 16px);
+    padding: 4px 8px;
+    color: #fff;
+    background: rgba(0, 20, 47, 0.92);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.25;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+  }
+  .winner-copy-status.visible { opacity: 1; }
+  .winner-poster-scale {
+    overflow: hidden;
+    border-radius: 10px;
+    background: #00142f;
+  }
+
+  /* ===== Gameweek Winner poster (fixed 1200x1200 design, scaled to fit) ===== */
+  .winner-poster {
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    transform-origin: top left;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+      radial-gradient(circle at 50% 45%, rgba(13, 54, 108, 0.65) 0%, rgba(3, 30, 67, 0.9) 38%, #001b3c 70%, #00142f 100%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .winner-poster.reference-layout {
+    background: #08001f url("winnertemp.png?v=20260901manager") center / cover no-repeat;
+  }
+  .winner-poster.reference-layout > .poky-logo,
+  .winner-poster.reference-layout > .league-title,
+  .winner-poster.reference-layout > .winner-heading,
+  .winner-poster.reference-layout > .star-line,
+  .winner-poster.reference-layout > .congratulations,
+  .winner-poster.reference-layout > .confetti-left,
+  .winner-poster.reference-layout > .confetti-right,
+  .winner-poster.reference-layout > .footer {
+    display: none;
+  }
+  .winner-poster.reference-layout.month-layout > .winner-heading {
+    display: flex;
+    top: 388px;
+    z-index: 1;
+    width: 1080px;
+    height: 205px;
+    gap: 30px;
+    background: radial-gradient(ellipse at center, #17003d 0%, #0d0227 62%, rgba(8, 0, 31, 0.98) 76%, transparent 84%);
+  }
+  .winner-poster.reference-layout.month-layout .gw-title { font-size: 154px; }
+  .winner-poster.reference-layout.month-layout .winner-title { color: #79ff00; font-size: 160px; }
+  .winner-poster::before, .winner-poster::after {
+    content: '';
+    position: absolute;
+    top: 280px;
+    width: 150px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255,255,255,.9) 0%, rgba(120,180,255,.35) 30%, transparent 70%);
+    filter: blur(8px);
+    opacity: 0.65;
+  }
+  .winner-poster::before { left: -50px; }
+  .winner-poster::after { right: -50px; }
+  .poky-logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+  }
+  .league-title {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+  }
+  .league-title > div { font-size: 52px; line-height: 1; }
+  .league-title span { display: inline-block; margin-top: 16px; font-size: 36px; font-weight: 900; color: #ed1c24; }
+  .winner-heading {
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 35px;
+  }
+  .gw-title, .winner-title {
+    font-family: Impact, "Arial Black", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 rgba(0,0,0,.15);
+  }
+  .gw-title { font-size: 180px; color: #ffffff; }
+  .winner-title { font-size: 170px; color: #ed1c24; }
+  .star-line {
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 750px;
+  }
+  .star-line span { width: 220px; height: 3px; background: #ffffff; }
+  .star-line div { font-size: 34px; letter-spacing: 6px; color: #ffffff; }
+  .star-line strong { color: #ed1c24; font-size: 44px; }
+  .winner-panel {
+    position: absolute;
+    top: 660px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 860px;
+    height: 310px;
+    padding: 24px 55px;
+    background: linear-gradient(145deg, rgba(1,27,62,.98), rgba(2,36,79,.98));
+    border: 3px solid #ffffff;
+    clip-path: polygon(6% 0, 94% 0, 100% 50%, 94% 100%, 6% 100%, 0 50%);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45);
+  }
+  .winner-panel::before, .winner-panel::after {
+    content: '';
+    position: absolute;
+    top: 55px;
+    width: 120px;
+    height: 125px;
+    background: #ed1c24;
+    z-index: -1;
+  }
+  .winner-panel::before { left: -80px; clip-path: polygon(0 0, 100% 0, 75% 50%, 100% 100%, 0 100%); }
+  .winner-panel::after { right: -80px; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%); }
+  .winner-name {
+    text-align: center;
+    overflow: hidden;
+    max-height: 132px;
+    margin-bottom: 20px;
+  }
+  .winner-name-team {
+    font-size: 46px;
+    line-height: 1.05;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .winner-name-manager {
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .winner-poster.reference-layout .winner-panel {
+    top: 672px;
+    width: 884px;
+    height: 300px;
+    padding: 22px 52px;
+    background: transparent;
+    border: 0;
+    clip-path: none;
+    box-shadow: none;
+  }
+  .winner-poster.reference-layout .winner-panel::before,
+  .winner-poster.reference-layout .winner-panel::after { display: none; }
+  .winner-poster.reference-layout .winner-name {
+    max-height: 126px;
+    margin-bottom: 8px;
+  }
+  .winner-poster.reference-layout .winner-name-team {
+    display: inline-block;
+    max-width: 100%;
+    padding: 6px 18px;
+    color: #08001f;
+    background: linear-gradient(90deg, #83ff00, #00e7df);
+    border-radius: 16px;
+    font-size: 54px;
+  }
+  .winner-poster.reference-layout .winner-name-manager {
+    margin-top: 4px;
+    font-size: 23px;
+    color: #ffffff;
+  }
+  .winner-stats {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr 2px 150px;
+    align-items: center;
+    width: 100%;
+  }
+  .stat-box { text-align: center; }
+  .stat-label { font-size: 24px; font-weight: 800; letter-spacing: 1.5px; color: #ffffff; }
+  .stat-value { margin-top: 7px; font-size: 46px; font-weight: 900; color: #ed1c24; }
+  .winner-stats .divider { width: 2px; height: 120px; background: rgba(255,255,255,.9); }
+  .winner-stats .trophy { text-align: center; font-size: 78px; }
+  .winner-poster.reference-layout .stat-label { font-size: 22px; }
+  .winner-poster.reference-layout .stat-value { margin-top: 3px; color: #79ff00; font-size: 42px; }
+  .winner-poster.reference-layout .stat-box:nth-child(3) .stat-value { color: #00e7df; }
+  .winner-poster.reference-layout .winner-stats {
+    grid-template-columns: 246px 289px 245px;
+    margin-top: 8px;
+  }
+  .winner-poster.reference-layout .winner-stats .divider { display: none; }
+  .winner-poster.reference-layout .winner-stats .trophy { visibility: hidden; }
+  .congratulations {
+    position: absolute;
+    top: 995px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 78px;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: 0 5px 15px rgba(0,0,0,.45);
+  }
+  .winner-poster .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    font-size: 24px;
+    background: rgba(0,20,48,.95);
+    border-top: 2px solid rgba(255,255,255,.7);
+  }
+  .footer-divider { width: 2px; height: 35px; margin: 0 20px; background: #ffffff; }
+  .winner-poster .footer strong { color: #ed1c24; }
+  .confetti-left, .confetti-right {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    opacity: 0.8;
+    background-image: radial-gradient(circle, #ed1c24 5px, transparent 6px);
+    background-size: 22px 22px;
+  }
+  .confetti-left { top: 0; left: 0; }
+  .confetti-right { right: 0; bottom: 80px; }
+  .champ-trophy { vertical-align: -3px; margin-right: 4px; }
+  .champ-group-note { margin: 10px 0 0; color: var(--sub); font-size: var(--font-xs); line-height: 1.4; }
+
+  #bracketContainer { flex: 1; min-height: 0; overflow: hidden; }
+  .bracket-wrap {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 48px 8px 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .bracket-grid {
+    display: inline-grid;
+    grid-template-rows: repeat(8, auto);
+    column-gap: 36px;
+    row-gap: 6px;
+    position: relative;
+    z-index: 1;
+  }
+  .bracket-grid .match-box { align-self: center; position: relative; z-index: 1; }
+  .row-highlight { background: rgba(var(--accent-rgb), 0.08); border-radius: 6px; }
+
+  .match-box {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    width: 220px;
+    font-size: var(--font-sm);
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .match-box.has-tooltip { cursor: help; }
+  .match-box.has-tooltip:hover,
+  .match-box.has-tooltip:focus-visible {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent), var(--shadow-md);
+    transform: translateY(-1px);
+    outline: none;
+  }
+  .match-box .label {
+    font-family: var(--condensed);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: var(--highlight);
+    background: rgba(var(--highlight-rgb), 0.13);
+    padding: 2px 7px;
+    text-align: center;
+    border-bottom: 1px solid rgba(var(--highlight-rgb), 0.35);
+  }
+  .match-box .team { padding: 4px 7px; display: flex; align-items: center; gap: 6px; text-align: center; }
+  .match-box .team + .team { border-top: 1px solid var(--card-border); }
+  .match-box .team.winner { color: var(--winner); font-weight: 600; }
+  .match-box .team.tbd { color: var(--tbd); font-style: italic; }
+  .match-box .team-main { min-width: 0; flex: 1; text-align: center; }
+  .match-box .team-name {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+  }
+  .match-box .manager-name { color: var(--sub); font-size: var(--font-xs); font-weight: 400; }
+  .match-box .score { font-weight: 700; flex-shrink: 0; }
+  .match-box .team.advanced { background: rgba(var(--accent-rgb), 0.12); }
+  .advanced-tag { color: var(--accent); font-weight: 700; margin-right: 4px; font-size: var(--font-xs); }
+  .live-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background: rgba(var(--live-rgb), 0.16);
+    color: #ffabb2;
+    font-size: var(--font-xxs);
+    font-weight: 700;
+    padding: 1px 5px 1px 4px;
+    border-radius: 3px;
+    letter-spacing: 0.4px;
+  }
+  .live-tag::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--live);
+    animation: live-pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes live-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .live-tag::before { animation: none; }
+    .nav-backdrop, .tooltip-card, #mainTabs { transition: none; }
+  }
+
+  svg.connectors { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 0; }
+  .connectors path { fill: none; stroke: var(--line); stroke-width: 2; }
+  .connectors path.live { stroke: var(--live); stroke-width: 2.5; }
+
+  .round-headers { position: absolute; top: 0; left: 0; height: 24px; z-index: 2; }
+  .round-headers span {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    background: var(--bg);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: var(--condensed);
+    font-size: var(--font-sm);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .round-headers span.round-final { color: var(--highlight); border-color: var(--highlight); }
+
+  .final-topper {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    pointer-events: none;
+  }
+  .final-topper svg { filter: drop-shadow(0 2px 5px rgba(var(--highlight-rgb), 0.42)); }
+  .final-topper span {
+    font-family: var(--condensed);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--highlight);
+  }
+
+  .champion { display: flex; align-items: center; gap: 10px; margin-left: 20px; }
+  .champion .trophy { flex-shrink: 0; filter: drop-shadow(0 2px 4px rgba(217, 165, 33, 0.5)); }
+  .champion .name { font-size: 16px; font-weight: 700; color: var(--highlight); }
+  .empty { color: var(--tbd); font-style: italic; padding: 20px 0; }
+  .bracket-empty {
+    display: grid;
+    gap: 6px;
+    justify-items: center;
+    padding: 42px 16px;
+    text-align: center;
+  }
+  .bracket-empty strong { color: var(--text); font-style: normal; font-size: var(--font-md); }
+  .bracket-empty span { max-width: 520px; line-height: 1.45; }
+
+  .tooltip-card {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    width: min(340px, calc(100vw - 24px));
+    overflow: hidden;
+    background: linear-gradient(160deg, #142d4b, #091728 72%);
+    border: 1px solid rgba(var(--accent-rgb), 0.7);
+    border-radius: 10px;
+    padding: 12px 14px 10px;
+    font-size: var(--font-sm);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(var(--accent-rgb), 0.12);
+    backdrop-filter: blur(8px) saturate(160%);
+    -webkit-backdrop-filter: blur(8px) saturate(160%);
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px) scale(0.96);
+    transition: opacity 0.14s ease, transform 0.14s ease;
+  }
+  .tooltip-card.visible { opacity: 1; transform: translateY(0) scale(1); }
+  .tooltip-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent);
+  }
+  .tooltip-card::after {
+    content: '';
+    position: absolute;
+    left: var(--arrow-x, 50%);
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+  }
+  .tooltip-card.arrow-bottom::after { top: 100%; border-top-color: var(--accent); }
+  .tooltip-card.arrow-top::after { bottom: 100%; border-bottom-color: var(--accent); }
+  .tt-heading {
+    color: var(--highlight);
+    font-weight: 700;
+    font-size: var(--font-sm);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .tt-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 5px 0; }
+  .tt-row + .tt-row { border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .tt-row.tt-winner .tt-name { color: var(--winner); font-weight: 700; }
+  .tt-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+  .tt-id { color: var(--sub); font-weight: 400; font-size: var(--font-base); }
+  .tt-stats { flex-shrink: 0; color: var(--sub); font-size: var(--font-sm); white-space: nowrap; }
+  .tt-stats b { color: var(--text); font-size: var(--font-nav); }
+  .stat-icon { font-size: 0.75em; }
+  .stat-num { font-size: 1.2em; font-weight: 700; color: var(--text); }
+  .cr-value { color: #fff; }
+
+  .mobile-bracket-toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .mobile-bracket-actions,
+  .mobile-round-nav,
+  .mobile-round-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .mobile-bracket-actions { justify-content: flex-end; }
+  .mobile-round-nav { justify-content: space-between; }
+  .mobile-round-nav button { min-width: 44px; }
+  .mobile-round-label {
+    flex: 1;
+    text-align: center;
+    color: var(--accent);
+    font-family: var(--condensed);
+    font-size: var(--font-md);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .mobile-round-tabs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .mobile-round-tabs button { min-width: 0; padding: 7px 3px; }
+  .mobile-round-list { display: grid; gap: 10px; }
+  .mobile-match-card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  .mobile-match-card[open] { border-color: var(--accent); box-shadow: var(--shadow-md); }
+  .mobile-match-card summary {
+    display: block;
+    cursor: pointer;
+    list-style: none;
+  }
+  .mobile-match-card summary::-webkit-details-marker { display: none; }
+  .mobile-match-label {
+    display: block;
+    padding: 6px 10px;
+    color: var(--highlight);
+    background: rgba(var(--highlight-rgb), 0.13);
+    border-bottom: 1px solid rgba(var(--highlight-rgb), 0.35);
+    font-family: var(--condensed);
+    font-size: var(--font-sm);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mobile-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 42px;
+    padding: 8px 12px;
+    font-size: var(--font-base);
+    text-align: left;
+  }
+  .mobile-team + .mobile-team { border-top: 1px solid var(--card-border); }
+  .mobile-team.winner { color: var(--winner); font-weight: 600; }
+  .mobile-team.tbd { color: var(--tbd); font-style: italic; }
+  .mobile-team.advanced { background: rgba(var(--accent-rgb), 0.12); }
+  .mobile-team-name { min-width: 0; overflow-wrap: anywhere; }
+  .mobile-team-score { flex-shrink: 0; font-weight: 700; }
+  .mobile-match-details {
+    padding: 10px 12px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid var(--card-border);
+  }
+  .mobile-detail-heading {
+    margin-bottom: 6px;
+    color: var(--highlight);
+    font-size: var(--font-sm);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .mobile-detail-row { display: grid; gap: 4px; padding: 8px 0; }
+  .mobile-detail-row + .mobile-detail-row { border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .mobile-detail-row.winner { color: var(--winner); font-weight: 600; }
+  .mobile-detail-name { min-width: 0; overflow-wrap: anywhere; line-height: 1.35; }
+  .mobile-detail-stats { color: var(--sub); font-size: var(--font-sm); white-space: normal; }
+  .mobile-detail-empty { margin: 0; color: var(--sub); font-size: var(--font-sm); }
+  .mobile-champion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    color: var(--highlight);
+    font-weight: 700;
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 8px; overflow: auto; height: auto; min-height: 100dvh; }
+    .toolbar button { padding: 8px 12px; flex: 1 1 auto; min-height: 40px; }
+    .tab-wrap { flex: 1 1 auto; }
+    .tab-wrap > button[data-panel],
+    .tab-wrap > #tabClassic,
+    .tab-wrap > #tabH2h { flex: 1; }
+    #panel-knockout.active,
+    #bracketContainer { overflow: visible; }
+    .mobile-bracket-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 8px 0;
+      background: var(--bg);
+    }
+    .mobile-bracket-toolbar button { min-height: 40px; }
+    .bracket-wrap { padding: 42px 4px 20px; -webkit-overflow-scrolling: touch; }
+    .champion { margin-left: 12px; }
+    .champion .trophy { width: 26px; height: 26px; }
+    .champion .name { font-size: var(--font-base); }
+    .tooltip-card { width: min(340px, calc(100vw - 24px)); }
+    .site-header { gap: 8px; justify-content: flex-start; padding-left: 44px; }
+    .brand-badge { width: 40px; height: 40px; }
+    .brand-text h1 { font-size: 16px; }
+    .updated-at { overflow-wrap: break-word; }
+    .hof-grid,
+    .hof-collapse .hof-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .hof-card { padding: 12px 8px; }
+    .hof-rank { width: 28px; height: 28px; font-size: var(--font-sm); }
+    .hof-name { font-size: var(--font-sm); overflow-wrap: anywhere; }
+    .award-grid { grid-template-columns: 1fr; gap: 12px; }
+    .award-card { min-height: 268px; padding: 20px 18px 22px; }
+    .award-card-head { gap: 11px; margin-bottom: 14px; }
+    .award-emblem { width: 48px; height: 48px; flex-basis: 48px; border-radius: 12px; }
+    .award-card .award-title { font-size: 24px; }
+    .award-winner { min-height: 72px; padding: 10px 12px; }
+    .award-team-name { font-size: 23px; }
+    .award-metric { min-height: 62px; padding: 9px 10px; }
+    .award-metric-value { font-size: 23px; }
+
+    .nav-toggle {
+      display: flex;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 301;
+      background: var(--bg);
+    }
+    .nav-backdrop { display: block; }
+    .nav-backdrop.open { opacity: 1; pointer-events: auto; }
+    #mainTabs {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100dvh;
+      width: min(78vw, 300px);
+      flex-direction: column;
+      align-items: stretch;
+      gap: 6px;
+      margin: 0;
+      padding: 16px 14px;
+      background: linear-gradient(180deg, #122947, var(--bg) 68%);
+      border-right: 1px solid var(--card-border);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.55);
+      z-index: 300;
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      overflow-y: auto;
+    }
+    #mainTabs.open { transform: translateX(0); }
+    #mainTabs .tab-wrap { flex: none; width: 100%; }
+    #mainTabs .tab-wrap > button[data-panel] { flex: none; width: 100%; text-align: center; }
+    #mainTabs button[data-panel],
+    #mainTabs #rulesNavBtn { min-height: 44px; padding: 10px 14px; }
+    #mainTabs #rulesNavBtn { width: 100%; text-align: center; }
+    .toolbar.sub button { min-height: 40px; padding: 8px 12px; }
+    .nav-drawer-head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 10px;
+      margin-bottom: 6px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .nav-drawer-title {
+      font-family: var(--condensed);
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: var(--highlight);
+      font-size: var(--font-base);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="site-header">
+    <button type="button" id="navToggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainTabs">
+      <span></span><span></span><span></span>
+    </button>
+    <img class="brand-badge" src="LOGO.jpeg" alt="Poky Bhakundo FPL logo" width="52" height="52" />
+    <div class="brand-text">
+      <h1>Poky भकुण्डो <span class="brand-fpl">FPL</span> 2026/27</h1>
+      <div class="updated-at" id="updatedAt"></div>
+    </div>
+  </div>
+
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+  <div class="toolbar" id="mainTabs" role="tablist" aria-label="Main navigation">
+    <div class="nav-drawer-head">
+      <span class="nav-drawer-title">Menu</span>
+    </div>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabStandings" data-panel="standings" class="active" role="tab" aria-selected="true" aria-controls="panel-standings" tabindex="0">Current GW Rankings</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabMow" data-panel="mow" role="tab" aria-selected="false" aria-controls="panel-mow" tabindex="-1">Manager of the Week</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabMom" data-panel="mom" role="tab" aria-selected="false" aria-controls="panel-mom" tabindex="-1">Manager of the Month</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabKing" data-panel="king" role="tab" aria-selected="false" aria-controls="panel-king" tabindex="-1">King of the Ring &amp; First Centurion</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabKnockout" data-panel="knockout" role="tab" aria-selected="false" aria-controls="panel-knockout" tabindex="-1">Knock Out Contest</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="mainTabChampions" data-panel="champions" role="tab" aria-selected="false" aria-controls="panel-champions" tabindex="-1">Champions Wall</button>
+    </span>
+    <span class="tab-wrap">
+      <button type="button" id="rulesNavBtn" data-panel="rules" role="tab" aria-selected="false" aria-controls="panel-rules" tabindex="-1">Rulebook</button>
+    </span>
+  </div>
+
+  <section id="panel-standings" class="panel active" role="tabpanel" aria-labelledby="mainTabStandings" tabindex="-1">
+    <div class="toolbar sub" id="standingsTabs" role="tablist" aria-label="Standings league">
+      <span class="tab-wrap">
+        <button type="button" id="tabStandingsClassic" class="active" role="tab" aria-selected="true" aria-controls="standingsContent" tabindex="0">Classic League</button>
+      </span>
+      <span class="tab-wrap">
+        <button type="button" id="tabStandingsH2h" role="tab" aria-selected="false" aria-controls="standingsContent" tabindex="-1">H2H League</button>
+      </span>
+    </div>
+    <div class="contest-panel" id="standingsContent"></div>
+  </section>
+
+  <section id="panel-mow" class="panel" role="tabpanel" aria-labelledby="mainTabMow" tabindex="-1" hidden>
+    <div class="contest-panel" id="mowContent"></div>
+  </section>
+  <section id="panel-mom" class="panel" role="tabpanel" aria-labelledby="mainTabMom" tabindex="-1" hidden>
+    <div class="contest-panel" id="momContent"></div>
+  </section>
+  <section id="panel-king" class="panel" role="tabpanel" aria-labelledby="mainTabKing" tabindex="-1" hidden>
+    <div class="contest-panel" id="kingContent"></div>
+  </section>
+  <section id="panel-knockout" class="panel" role="tabpanel" aria-labelledby="mainTabKnockout" tabindex="-1" hidden>
+    <div class="toolbar sub" id="knockoutTabs" role="tablist" aria-label="Knockout league">
+      <span class="tab-wrap">
+        <button type="button" id="tabClassic" class="active" role="tab" aria-selected="true" aria-controls="bracketContainer" tabindex="0">Jota Legends (Classic)</button>
+      </span>
+      <span class="tab-wrap">
+        <button type="button" id="tabH2h" role="tab" aria-selected="false" aria-controls="bracketContainer" tabindex="-1">Diogo Legacy (H2H)</button>
+      </span>
+    </div>
+    <div id="bracketContainer"></div>
+  </section>
+
+  <section id="panel-champions" class="panel" role="tabpanel" aria-labelledby="mainTabChampions" tabindex="-1" hidden>
+    <div class="contest-panel" id="championsContent"></div>
+  </section>
+
+  <section id="panel-rules" class="panel" role="tabpanel" aria-labelledby="rulesNavBtn" tabindex="-1" hidden>
+    <div class="rules-page">
+      <header><h3>Rulebook</h3></header>
+      <div class="rules-grid" id="rulesBody"></div>
+    </div>
+  </section>
+
+<script>
+// Read-only display. Bracket JSON is produced server-side (cron / workflow) into docs/data/.
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const BASE_DISPLAY_GW = 34;
+const ROUND_STAGES = ['Qualifier', 'Round of 16', 'Quarterfinal', 'Semifinal', 'Final'];
+const HIGHLIGHT_MATCHES = [9, 10];
+const MOBILE_MQ = window.matchMedia('(max-width: 640px)');
+const TIEBREAK_LABELS = {
+  gw_points: 'Match Details',
+  goals_scored: 'tied on points — won on goals scored',
+  goals_conceded: 'tied on points+goals scored — won on fewer goals conceded',
+  classic_rank: 'tied on points and goals — won on higher Classic league rank',
+};
+
+// Fixed vertical position for each match on an 8-row grid (from bracket_map shape).
+const ROW_SPAN = {
+  1: [1, 1], 9: [1, 1],
+  5: [2, 2],
+  2: [3, 3], 10: [3, 3],
+  6: [4, 4],
+  3: [5, 5], 11: [5, 5],
+  7: [6, 6],
+  4: [7, 7], 12: [7, 7],
+  8: [8, 8],
+  13: [1, 2], 14: [3, 4], 15: [5, 6], 16: [7, 8],
+  17: [1, 4], 18: [5, 8],
+  19: [1, 8],
+};
+
+const tooltipEl = document.createElement('div');
+tooltipEl.className = 'tooltip-card';
+tooltipEl.id = 'bracketTooltip';
+tooltipEl.setAttribute('role', 'tooltip');
+document.body.appendChild(tooltipEl);
+
+const ESC_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+function escapeHTML(str) {
+  return String(str ?? '').replace(/[&<>"']/g, (c) => ESC_MAP[c]);
+}
+
+function clearScale(el) {
+  el.style.transform = '';
+  el.style.height = '';
+  el.style.width = '';
+  const wrap = el.querySelector?.('.bracket-wrap');
+  if (wrap && wrap !== el) {
+    wrap.style.transform = '';
+    wrap.style.transformOrigin = '';
+  }
+}
+
+function showTooltip(boxEl, html) {
+  tooltipEl.innerHTML = html;
+  tooltipEl.style.display = 'block';
+  tooltipEl.classList.remove('arrow-top', 'arrow-bottom');
+
+  const r = boxEl.getBoundingClientRect();
+  const tw = tooltipEl.offsetWidth;
+  const th = tooltipEl.offsetHeight;
+  let left = Math.max(8, Math.min(r.left + r.width / 2 - tw / 2, window.innerWidth - tw - 8));
+  let top = r.top - th - 12;
+  if (top < 8) {
+    top = r.bottom + 12;
+    tooltipEl.classList.add('arrow-top');
+  } else {
+    tooltipEl.classList.add('arrow-bottom');
+  }
+  tooltipEl.style.setProperty('--arrow-x', `${r.left + r.width / 2 - left}px`);
+  tooltipEl.style.left = `${left}px`;
+  tooltipEl.style.top = `${top}px`;
+  requestAnimationFrame(() => tooltipEl.classList.add('visible'));
+}
+
+function hideTooltip() {
+  tooltipEl.classList.remove('visible');
+  tooltipEl.style.display = 'none';
+  delete tooltipEl.dataset.owner;
+}
+
+document.addEventListener('click', hideTooltip);
+
+function sortedGws(state) {
+  return [...new Set(Object.values(state).map((m) => m.gw))].sort((a, b) => a - b);
+}
+
+function buildRoundMeta(state) {
+  const gwValues = sortedGws(state);
+  const displayGw = {};
+  const labels = {};
+  gwValues.forEach((gw, i) => {
+    const shown = BASE_DISPLAY_GW + i;
+    displayGw[gw] = shown;
+    labels[gw] = `${ROUND_STAGES[i] || `Round ${i + 1}`} (GW ${shown})`;
+  });
+  return { labels, displayGw, finalGw: gwValues[gwValues.length - 1] };
+}
+
+function buildChildrenMap(state) {
+  const children = Object.fromEntries(Object.keys(state).map((no) => [no, []]));
+  for (const [no, match] of Object.entries(state)) {
+    for (const slot of match.slots) {
+      if (typeof slot.seed === 'string' && slot.seed.startsWith('winner:')) {
+        children[no].push(slot.seed.slice(7));
+      }
+    }
+  }
+  return children;
+}
+
+function findRoot(state, childrenMap) {
+  const fed = new Set(Object.values(childrenMap).flat());
+  return Object.keys(state).find((no) => !fed.has(no));
+}
+
+function buildTooltipHTML(m, shownGw) {
+  if (!m.winner_entry_id || !m.tiebreak_detail) return '';
+  const isGw34 = shownGw === 34;
+  const nameFor = (entryId) => m.slots.find((s) => s.entry_id === entryId)?.team_name || 'Unknown';
+  const row = (d) => {
+    const isWinner = d.entry_id === m.winner_entry_id;
+    const rank = d.classic_rank != null ? ` &nbsp; <span class="cr-value">CR ${d.classic_rank}</span>` : '';
+    return `<div class="tt-row${isWinner && !isGw34 ? ' tt-winner' : ''}">
+      <span class="tt-name">${isWinner && !isGw34 ? '🏆 ' : ''}${escapeHTML(nameFor(d.entry_id))}</span>
+      <span class="tt-stats"><b>${d.gw_points}</b>pts &nbsp; <span class="stat-num">${d.goals_scored}</span><span class="stat-icon">⚽</span> &nbsp; <span class="stat-num">${d.goals_conceded}</span><span class="stat-icon">🥅</span>${rank}</span>
+    </div>`;
+  };
+  const { entry_a, entry_b } = m.tiebreak_detail;
+  return `<div class="tt-heading">${TIEBREAK_LABELS[m.tiebreak_reason] || m.tiebreak_reason}</div>${row(entry_a)}${row(entry_b)}`;
+}
+
+function scoreMap(m) {
+  if (!m.tiebreak_detail) return null;
+  const map = new Map();
+  for (const side of [m.tiebreak_detail.entry_a, m.tiebreak_detail.entry_b]) {
+    map.set(side.entry_id, side.gw_points);
+  }
+  return map;
+}
+
+function teamPresentation(slot, m, scores) {
+  const isWinner = m.winner_entry_id && slot.entry_id === m.winner_entry_id;
+  const isTbd = !slot.team_name;
+  const isAdvanced = slot.seed.startsWith('winner:') && !!slot.team_name;
+  const name = slot.team_name || (slot.seed.startsWith('winner:') ? 'TBD' : slot.seed);
+  const cls = [isWinner ? 'winner' : isTbd ? 'tbd' : '', isAdvanced ? 'advanced' : ''].filter(Boolean).join(' ');
+  const score = scores?.get(slot.entry_id);
+  const advancedTag = isAdvanced ? '<span class="advanced-tag" title="Advanced from previous round">▲</span>' : '';
+  const managerHTML = slot.manager ? ` <span class="manager-name">(${escapeHTML(slot.manager)})</span>` : '';
+  return { cls, score, name, advancedTag, managerHTML };
+}
+
+function teamRowHTML(slot, m, scores) {
+  const { cls, score, name, advancedTag, managerHTML } = teamPresentation(slot, m, scores);
+  const scoreHTML = score != null ? `<span class="score">${score}</span>` : '';
+  return `<div class="team ${cls}"><div class="team-main"><div class="team-name">${advancedTag}${escapeHTML(name)}${managerHTML}</div></div>${scoreHTML}</div>`;
+}
+
+function mobileTeamRowHTML(slot, m, scores) {
+  const { cls, score, name, advancedTag, managerHTML } = teamPresentation(slot, m, scores);
+  const scoreHTML = score != null ? `<span class="mobile-team-score">${score}</span>` : '';
+  return `<span class="mobile-team ${cls}"><span class="mobile-team-name">${advancedTag}${escapeHTML(name)}${managerHTML}</span>${scoreHTML}</span>`;
+}
+
+function matchBoxHTML(matchNo, m, shownGw) {
+  const scores = scoreMap(m);
+  const liveTag = m.provisional ? ' <span class="live-tag">LIVE</span>' : '';
+  return `<div class="match-box" data-match="${matchNo}" data-gw="${m.gw}">
+    <div class="label">M${matchNo} - GW${shownGw}${liveTag}</div>
+    ${teamRowHTML(m.slots[0], m, scores)}
+    ${teamRowHTML(m.slots[1], m, scores)}
+  </div>`;
+}
+
+function mobileMatchDetailsHTML(m) {
+  if (!m.tiebreak_detail) {
+    return '<div class="mobile-match-details"><p class="mobile-detail-empty">Match details will appear after the Gameweek updates.</p></div>';
+  }
+  const row = (detail) => {
+    const slot = m.slots.find((item) => item.entry_id === detail.entry_id);
+    const team = slot?.team_name || 'Unknown';
+    const manager = slot?.manager ? ` (${escapeHTML(slot.manager)})` : '';
+    const rank = detail.classic_rank != null ? ` · <span class="cr-value">CR ${detail.classic_rank}</span>` : '';
+    const winnerClass = detail.entry_id === m.winner_entry_id ? ' winner' : '';
+    const winnerIcon = winnerClass ? '🏆 ' : '';
+    return `<div class="mobile-detail-row${winnerClass}">
+      <span class="mobile-detail-name">${winnerIcon}${escapeHTML(team)}${manager}</span>
+      <span class="mobile-detail-stats">${detail.gw_points} pts · <span class="stat-num">${detail.goals_scored}</span><span class="stat-icon">⚽</span> · <span class="stat-num">${detail.goals_conceded}</span><span class="stat-icon">🥅</span>${rank}</span>
+    </div>`;
+  };
+  const { entry_a, entry_b } = m.tiebreak_detail;
+  const heading = TIEBREAK_LABELS[m.tiebreak_reason] || m.tiebreak_reason;
+  return `<div class="mobile-match-details"><div class="mobile-detail-heading">${escapeHTML(heading)}</div>${row(entry_a)}${row(entry_b)}</div>`;
+}
+
+function mobileMatchCardHTML(matchNo, m, shownGw, isOpen) {
+  const scores = scoreMap(m);
+  const liveTag = m.provisional ? ' <span class="live-tag">LIVE</span>' : '';
+  return `<details class="mobile-match-card" data-match="${matchNo}"${isOpen ? ' open' : ''}>
+    <summary aria-label="M${matchNo} GW${shownGw} match details">
+      <span class="mobile-match-label">M${matchNo} - GW${shownGw}${liveTag}</span>
+      ${mobileTeamRowHTML(m.slots[0], m, scores)}
+      ${mobileTeamRowHTML(m.slots[1], m, scores)}
+    </summary>
+    ${mobileMatchDetailsHTML(m)}
+  </details>`;
+}
+
+function bindTooltip(boxEl, matchNo, html) {
+  boxEl.classList.add('has-tooltip');
+  boxEl.tabIndex = 0;
+  boxEl.setAttribute('aria-describedby', 'bracketTooltip');
+  const open = () => showTooltip(boxEl, html);
+  boxEl.addEventListener('mouseenter', open);
+  boxEl.addEventListener('mouseleave', hideTooltip);
+  boxEl.addEventListener('focus', open);
+  boxEl.addEventListener('blur', hideTooltip);
+  boxEl.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (tooltipEl.style.display === 'block' && tooltipEl.dataset.owner === matchNo) {
+      hideTooltip();
+    } else {
+      open();
+      tooltipEl.dataset.owner = matchNo;
+    }
+  });
+}
+
+function renderBracketGrid(state, roundMeta) {
+  const colIndex = Object.fromEntries(sortedGws(state).map((gw, i) => [gw, i + 1]));
+  const grid = document.createElement('div');
+  grid.className = 'bracket-grid';
+  const frag = document.createDocumentFragment();
+
+  for (const no of HIGHLIGHT_MATCHES) {
+    if (!state[no]) continue;
+    const [rowStart, rowEnd] = ROW_SPAN[no] || [1, 1];
+    const band = document.createElement('div');
+    band.className = 'row-highlight';
+    band.style.gridColumn = '1 / -1';
+    band.style.gridRow = `${rowStart} / ${rowEnd + 1}`;
+    frag.appendChild(band);
+  }
+
+  const tpl = document.createElement('template');
+  for (const matchNo of Object.keys(state)) {
+    const m = state[matchNo];
+    const [rowStart, rowEnd] = ROW_SPAN[matchNo] || [1, 1];
+    tpl.innerHTML = matchBoxHTML(matchNo, m, roundMeta.displayGw[m.gw]).trim();
+    const boxEl = tpl.content.firstElementChild;
+    boxEl.style.gridColumn = String(colIndex[m.gw]);
+    boxEl.style.gridRow = `${rowStart} / ${rowEnd + 1}`;
+    const tip = buildTooltipHTML(m, roundMeta.displayGw[m.gw]);
+    if (tip) bindTooltip(boxEl, matchNo, tip);
+    frag.appendChild(boxEl);
+  }
+
+  grid.appendChild(frag);
+  return grid;
+}
+
+function trophySVG(size, gradId) {
+  return `<svg class="trophy" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="true">
+    <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe27a" /><stop offset="1" stop-color="#d9a521" />
+    </linearGradient></defs>
+    <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4Z" fill="url(#${gradId})" stroke="#c9971f" stroke-width="0.5" />
+    <path d="M6 5H3v2a4 4 0 0 0 4 4" stroke="#c9971f" stroke-width="1.2" fill="none" />
+    <path d="M18 5h3v2a4 4 0 0 1-4 4" stroke="#c9971f" stroke-width="1.2" fill="none" />
+    <rect x="10" y="13" width="4" height="4" fill="#d9a521" />
+    <rect x="7" y="18" width="10" height="2.4" rx="1" fill="#d9a521" />
+  </svg>`;
+}
+
+function measureBracket(wrap, treeEl) {
+  const wrapRect = wrap.getBoundingClientRect();
+  const rectsByMatch = new Map();
+  for (const box of treeEl.querySelectorAll('.match-box')) {
+    const r = box.getBoundingClientRect();
+    rectsByMatch.set(box.dataset.match, {
+      left: r.left - wrapRect.left,
+      right: r.right - wrapRect.left,
+      top: r.top - wrapRect.top,
+      width: r.width,
+      cy: r.top - wrapRect.top + r.height / 2,
+      gw: box.dataset.gw,
+    });
+  }
+  return { scrollWidth: treeEl.scrollWidth, scrollHeight: treeEl.scrollHeight, rectsByMatch };
+}
+
+function drawConnectors(svg, childrenMap, measurements, state) {
+  const { scrollWidth, scrollHeight, rectsByMatch } = measurements;
+  svg.setAttribute('width', scrollWidth);
+  svg.setAttribute('height', scrollHeight);
+  const frag = document.createDocumentFragment();
+  for (const [parentNo, kids] of Object.entries(childrenMap)) {
+    const parentPos = rectsByMatch.get(parentNo);
+    if (!parentPos) continue;
+    for (const childNo of kids) {
+      const childPos = rectsByMatch.get(childNo);
+      if (!childPos) continue;
+      const midX = (childPos.right + parentPos.left) / 2;
+      const path = document.createElementNS(SVG_NS, 'path');
+      path.setAttribute('d', `M ${childPos.right} ${childPos.cy} H ${midX} V ${parentPos.cy} H ${parentPos.left}`);
+      if (state[childNo]?.provisional) path.classList.add('live');
+      frag.appendChild(path);
+    }
+  }
+  svg.replaceChildren(frag);
+}
+
+function drawRoundHeaders(headerEl, measurements, roundMeta) {
+  const frag = document.createDocumentFragment();
+  const seenGw = new Set();
+  for (const pos of measurements.rectsByMatch.values()) {
+    if (seenGw.has(pos.gw)) continue;
+    seenGw.add(pos.gw);
+    const gw = Number(pos.gw);
+    const span = document.createElement('span');
+    if (gw === roundMeta.finalGw) span.classList.add('round-final');
+    span.style.left = `${pos.left + pos.width / 2}px`;
+    span.textContent = roundMeta.labels[gw] || `GW ${gw}`;
+    frag.appendChild(span);
+  }
+  headerEl.replaceChildren(frag);
+}
+
+function drawFinalTopper(wrap, measurements, rootNo) {
+  wrap.querySelector('.final-topper')?.remove();
+  const pos = measurements.rectsByMatch.get(rootNo);
+  if (!pos) return;
+  const topper = document.createElement('div');
+  topper.className = 'final-topper';
+  topper.innerHTML = `${trophySVG(22, 'finalTrophyGrad')}<span>Final</span>`;
+  wrap.appendChild(topper);
+  topper.style.left = `${pos.left + pos.width / 2}px`;
+  topper.style.top = `${pos.top - topper.offsetHeight - 6}px`;
+  topper.style.transform = 'translateX(-50%)';
+}
+
+function fitBracketToViewport(container) {
+  clearScale(container);
+  if (MOBILE_MQ.matches) return;
+  const wrap = container.querySelector('.bracket-wrap');
+  if (!wrap) return;
+  const available = window.innerHeight - container.getBoundingClientRect().top - 8;
+  const naturalH = wrap.scrollHeight;
+  if (naturalH <= 0 || available <= 0) return;
+  const scale = Math.min(1, available / naturalH);
+  if (scale === 1) return;
+  wrap.style.transformOrigin = 'top left';
+  wrap.style.transform = `scale(${scale})`;
+}
+
+function renderFullBracket(container, state) {
+  clearScale(container);
+  if (!state) {
+    container.innerHTML = '<div class="empty">No data available.</div>';
+    return;
+  }
+
+  const childrenMap = buildChildrenMap(state);
+  const rootNo = findRoot(state, childrenMap);
+  const roundMeta = buildRoundMeta(state);
+
+  const headers = document.createElement('div');
+  headers.className = 'round-headers';
+
+  const wrap = document.createElement('div');
+  wrap.className = 'bracket-wrap';
+  const grid = renderBracketGrid(state, roundMeta);
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('class', 'connectors');
+  wrap.append(headers, svg, grid);
+
+  const finalMatch = state[rootNo];
+  if (finalMatch?.winner_entry_id) {
+    const name = finalMatch.slots.find((s) => s.entry_id === finalMatch.winner_entry_id)?.team_name;
+    if (name) {
+      const champ = document.createElement('div');
+      champ.className = 'champion';
+      champ.innerHTML = `${trophySVG(34, 'trophyGrad')}<span class="name">${escapeHTML(name)}</span>`;
+      wrap.appendChild(champ);
+    }
+  }
+
+  container.replaceChildren(wrap);
+
+  requestAnimationFrame(() => {
+    const measurements = measureBracket(wrap, grid);
+    drawConnectors(svg, childrenMap, measurements, state);
+    drawRoundHeaders(headers, measurements, roundMeta);
+    drawFinalTopper(wrap, measurements, rootNo);
+    fitBracketToViewport(container);
+  });
+}
+
+function renderMobileRoundBracket(container, state) {
+  clearScale(container);
+  const roundMeta = buildRoundMeta(state);
+  const rounds = sortedGws(state);
+  const index = Math.min(mobileRoundIndex[currentLeague] || 0, rounds.length - 1);
+  const gw = rounds[index];
+  mobileRoundIndex[currentLeague] = index;
+  const matches = Object.entries(state)
+    .filter(([, match]) => match.gw === gw)
+    .sort(([a], [b]) => Number(a) - Number(b));
+  const tabs = rounds.map((roundGw, roundIndex) => {
+    const active = roundIndex === index ? ' class="active"' : '';
+    return `<button type="button" data-round-index="${roundIndex}"${active}>GW${roundMeta.displayGw[roundGw]}</button>`;
+  }).join('');
+  const openMatches = mobileOpenMatches[currentLeague];
+  const cards = matches.map(([matchNo, match]) => (
+    mobileMatchCardHTML(matchNo, match, roundMeta.displayGw[gw], openMatches.has(matchNo))
+  )).join('');
+  const shell = document.createElement('div');
+  shell.className = 'mobile-bracket-shell';
+  shell.innerHTML = `
+    <div class="mobile-bracket-toolbar">
+      <div class="mobile-bracket-actions"><button type="button" data-bracket-view="full">View Full Bracket</button></div>
+      <div class="mobile-round-nav">
+        <button type="button" data-round-step="-1" aria-label="Previous round"${index === 0 ? ' disabled' : ''}>‹</button>
+        <span class="mobile-round-label">${escapeHTML(roundMeta.labels[gw])}</span>
+        <button type="button" data-round-step="1" aria-label="Next round"${index === rounds.length - 1 ? ' disabled' : ''}>›</button>
+      </div>
+      <div class="mobile-round-tabs" role="tablist" aria-label="Knockout rounds">${tabs}</div>
+    </div>
+    <div class="mobile-round-list">${cards}</div>`;
+
+  const childrenMap = buildChildrenMap(state);
+  const rootNo = findRoot(state, childrenMap);
+  const finalMatch = state[rootNo];
+  if (gw === roundMeta.finalGw && finalMatch?.winner_entry_id) {
+    const winner = finalMatch.slots.find((slot) => slot.entry_id === finalMatch.winner_entry_id);
+    if (winner?.team_name) {
+      const manager = winner.manager ? ` (${escapeHTML(winner.manager)})` : '';
+      shell.insertAdjacentHTML('beforeend', `<div class="mobile-champion">${trophySVG(28, 'mobileTrophyGrad')}<span>${escapeHTML(winner.team_name)}${manager}</span></div>`);
+    }
+  }
+  container.replaceChildren(shell);
+
+  const changeRound = (nextIndex) => {
+    if (nextIndex < 0 || nextIndex >= rounds.length) return;
+    mobileRoundIndex[currentLeague] = nextIndex;
+    renderBracket(container, state);
+  };
+  shell.querySelector('[data-bracket-view="full"]').addEventListener('click', () => {
+    mobileBracketMode = 'full';
+    renderBracket(container, state);
+  });
+  shell.querySelectorAll('[data-round-index]').forEach((button) => {
+    button.addEventListener('click', () => changeRound(Number(button.dataset.roundIndex)));
+  });
+  shell.querySelectorAll('[data-round-step]').forEach((button) => {
+    button.addEventListener('click', () => changeRound(index + Number(button.dataset.roundStep)));
+  });
+
+  shell.querySelectorAll('.mobile-match-card').forEach((card) => {
+    const summary = card.querySelector('summary');
+    summary.addEventListener('click', (e) => {
+      e.preventDefault();
+      card.open = !card.open;
+      if (card.dataset.match) {
+        if (card.open) openMatches.add(card.dataset.match);
+        else openMatches.delete(card.dataset.match);
+      }
+      summary.focus({ preventScroll: true });
+    });
+  });
+
+  const list = shell.querySelector('.mobile-round-list');
+  let touchStartX = 0;
+  let touchStartY = 0;
+  list.addEventListener('touchstart', (event) => {
+    touchStartX = event.changedTouches[0].clientX;
+    touchStartY = event.changedTouches[0].clientY;
+  }, { passive: true });
+  list.addEventListener('touchend', (event) => {
+    const deltaX = event.changedTouches[0].clientX - touchStartX;
+    const deltaY = event.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(deltaX) < 50 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
+    changeRound(index + (deltaX < 0 ? 1 : -1));
+  }, { passive: true });
+}
+
+function renderMobileFullBracket(container, state) {
+  renderFullBracket(container, state);
+  const toolbar = document.createElement('div');
+  toolbar.className = 'mobile-bracket-toolbar';
+  toolbar.innerHTML = '<div class="mobile-bracket-actions"><button type="button">Round View</button></div>';
+  toolbar.querySelector('button').addEventListener('click', () => {
+    mobileBracketMode = 'round';
+    renderBracket(container, state);
+  });
+  container.prepend(toolbar);
+}
+
+function renderBracket(container, state) {
+  hideTooltip();
+  if (!state) {
+    clearScale(container);
+    container.innerHTML = currentLeague === 'h2h'
+      ? '<div class="empty bracket-empty"><strong>Diogo Legacy bracket opens after GW33.</strong><span>H2H qualification and knockout matchups will appear here when that competition becomes active.</span></div>'
+      : '<div class="empty bracket-empty"><strong>Bracket data is not available yet.</strong><span>Matchups will appear here after qualification data is generated.</span></div>';
+    return;
+  }
+  if (!MOBILE_MQ.matches) {
+    renderFullBracket(container, state);
+    return;
+  }
+  if (mobileBracketMode === 'full') {
+    renderMobileFullBracket(container, state);
+    return;
+  }
+  renderMobileRoundBracket(container, state);
+}
+
+let currentLeague = 'classic';
+let currentPanel = 'standings';
+let currentStandingsLeague = 'classic';
+let standingsData = { gw: null, classic: [], h2h: [] };
+let seasonHistoryData = null;
+const STANDINGS_COLUMNS = {
+  classic: [
+    { key: 'rank', label: 'Rank', dir: 'asc' },
+    { key: 'manager', label: 'Manager', dir: 'asc' },
+    { key: 'gw_points', label: 'GW Pts', dir: 'desc' },
+    { key: 'total_points', label: 'Total', dir: 'desc' },
+  ],
+  h2h: [
+    { key: 'rank', label: 'Rank', dir: 'asc' },
+    { key: 'manager', label: 'Manager', dir: 'asc' },
+    { key: 'matches_won', label: 'W-D-L', dir: 'desc' },
+    { key: 'total_points', label: 'Points', dir: 'desc' },
+  ],
+};
+const standingsSort = {
+  classic: { key: 'gw_points', dir: 'desc' },
+  h2h: { key: 'total_points', dir: 'desc' },
+};
+
+function sortStandingsRows(rows, league) {
+  const { key, dir } = standingsSort[league];
+  const sign = dir === 'asc' ? 1 : -1;
+  return [...rows].sort((a, b) => {
+    let av = a[key];
+    let bv = b[key];
+    if (key === 'manager') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    if (av < bv) return -1 * sign;
+    if (av > bv) return 1 * sign;
+    return a.rank - b.rank;
+  });
+}
+let mobileBracketMode = 'round';
+const mobileRoundIndex = { classic: 0, h2h: 0 };
+const mobileOpenMatches = { classic: new Set(), h2h: new Set() };
+const bracketData = { classic: null, h2h: null };
+const tabClassic = document.getElementById('tabClassic');
+const tabH2h = document.getElementById('tabH2h');
+const bracketContainer = document.getElementById('bracketContainer');
+let resizeTimer = 0;
+
+function winnersLabel(winners, separator = '<br>') {
+  return winners.map((w) => `${escapeHTML(w.team_name)} <span class="contest-meta">(${escapeHTML(w.manager)})</span>`).join(separator);
+}
+
+function awardIcon(name) {
+  const icons = {
+    crown: '<path d="M3 8.5 7.2 12l4.8-7 4.8 7L21 8.5l-1.4 9H4.4L3 8.5Z"/><path d="M5 20h14"/>',
+    centurion: '<path d="M12 2.5 19 5v5.8c0 4.7-2.9 8.4-7 10.7-4.1-2.3-7-6-7-10.7V5l7-2.5Z"/><path d="M8.1 11.2h7.8M9.2 8.7v5M12 8.7v5M14.8 8.7v5"/>',
+    team: '<path d="m8.2 4-4.7 2.3L5.2 11l2.5-1.1V20h8.6V9.9l2.5 1.1 1.7-4.7L15.8 4A4.9 4.9 0 0 1 12 5.8 4.9 4.9 0 0 1 8.2 4Z"/>',
+    points: '<path d="m13.2 2-7 11h5.2l-.6 9 7-11h-5.2l.6-9Z"/>',
+    gw: '<path d="M5 21V4m0 1h12l-2.4 3L17 11H5"/>',
+  };
+  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || ''}</svg>`;
+}
+
+function awardWinnerHTML(winner, label, waiting = false) {
+  return `<div class="award-winner${waiting ? ' award-winner--waiting' : ''}">
+    <span class="award-team-icon">${awardIcon('team')}</span>
+    <div class="award-winner-copy">
+      <span class="award-winner-label">${escapeHTML(label)}</span>
+      <strong class="award-team-name">${escapeHTML(winner.team_name)}</strong>
+      <span class="award-manager">${escapeHTML(winner.manager)}</span>
+    </div>
+  </div>`;
+}
+
+function awardMetricHTML(icon, label, value) {
+  return `<div class="award-metric">
+    <span class="award-metric-icon">${awardIcon(icon)}</span>
+    <div>
+      <span class="award-metric-label">${escapeHTML(label)}</span>
+      <strong class="award-metric-value">${escapeHTML(String(value))}</strong>
+    </div>
+  </div>`;
+}
+
+function winnerCardTriggerHTML(winners, points, kind, periodValue, separator = '<br>') {
+  return winners.map((w) => `<button type="button" class="hof-name winner-card-trigger" data-entry-id="${w.entry_id}" data-team="${escapeHTML(w.team_name)}" data-manager="${escapeHTML(w.manager)}" data-points="${points}" data-kind="${kind}" data-period="${escapeHTML(String(periodValue))}">${escapeHTML(w.team_name)}</button> <span class="contest-meta">(${escapeHTML(w.manager)})</span>`).join(separator);
+}
+
+const RULES = {
+  legends: {
+    title: 'Jota Legends League (Classic)',
+    body: `
+      <div class="league-tag">Source: Classic league standing</div>
+      <ul>
+        <li>Played in two rounds: Qualification Stage and Knock Out Stage.</li>
+        <li>Qualification Stage runs till GW 33.</li>
+        <li>The Top 20 of the Classic league will qualify for the Knockout Stage:
+          <ol>
+            <li>Top 12 qualifies directly to Round of 16.</li>
+            <li>Bottom 8 plays a Qualifier in GW 34 and winners advance to R16.</li>
+          </ol>
+        </li>
+        <li>In the event of a tie between teams (KO Stage):
+          <ol>
+            <li>Most goals scored in the Gameweek.</li>
+            <li>Fewest goals conceded in the Gameweek.</li>
+            <li>Highest Classic league rank until the current GW.</li>
+          </ol>
+        </li>
+      </ul>`,
+  },
+  legacy: {
+    title: 'Diogo Legacy League (H2H)',
+    body: `
+      <div class="league-tag">Source: H2H league standing</div>
+      <ul>
+        <li>Played in two rounds: Qualification Stage and Knock Out Stage.</li>
+        <li>Qualification Stage runs till GW 33.</li>
+        <li>The Top 20 of the H2H league will qualify for the Knockout Stage:
+          <ol>
+            <li>Top 12 qualifies directly to Round of 16.</li>
+            <li>Bottom 8 plays a Qualifier in GW 34 and winners advance to R16.</li>
+          </ol>
+        </li>
+        <li>In the event of a tie between teams (KO Stage):
+          <ol>
+            <li>Most goals scored in the Gameweek.</li>
+            <li>Fewest goals conceded in the Gameweek.</li>
+            <li>Highest Classic league rank until the current GW.</li>
+          </ol>
+        </li>
+      </ul>`,
+  },
+  ko_details: {
+    title: 'Jota Legends & Diogo Legacy — KO Details',
+    body: `
+      <div class="league-tag ko-section-heading">Gameweeks &amp; Stages</div>
+      <ul>
+        <li>Qualifier: GW 34</li>
+        <li>Round of 16: GW 35</li>
+        <li>Quarterfinal: GW 36</li>
+        <li>Semifinal: GW 37</li>
+        <li>Final: GW 38</li>
+      </ul>
+      <div class="league-tag ko-section-heading ko-brackets-heading">Brackets</div>
+      <img class="rule-image" src="brackets.jpeg" alt="Knockout bracket structure" />`,
+  },
+  mow: {
+    title: 'Manager of the Week',
+    body: `
+      <div class="league-tag">Source: Classic league only</div>
+      <ul>
+        <li>The highest scoring manager of each Gameweek will be the winner.</li>
+        <li>Negative points will be deducted.</li>
+        <li>In the event of a tie between teams:
+          <ol>
+            <li>Most goals scored in the Gameweek.</li>
+            <li>Fewest goals conceded in the Gameweek.</li>
+            <li>Prize amount will be shared.</li>
+          </ol>
+        </li>
+      </ul>`,
+  },
+  mom: {
+    title: 'Manager of the Month',
+    body: `
+      <div class="league-tag">Source: Classic league only</div>
+      <ul>
+        <li>The highest scoring manager of the month will be the winner.</li>
+        <li>In the event of a tie between teams, the prize amount will be shared.</li>
+      </ul>
+      <img class="rule-image" src="gwmom.jpeg" alt="Manager of the Month gameweek phases" />`,
+  },
+  king_only: {
+    title: 'King of the Ring',
+    body: `
+      <div class="league-tag">Source: Classic league only</div>
+      <ul>
+        <li>Manager scoring the individual highest Gameweek points (negative points will count) in the overall season will be the winner.</li>
+        <li>In the event of a tie between managers, the prize amount will be shared.</li>
+      </ul>`,
+  },
+  centurion: {
+    title: 'First Centurion of the Year',
+    body: `
+      <div class="league-tag">Source: Classic league only · Starts January 2027 (GW 19)</div>
+      <ul>
+        <li>The manager scoring the first century in the year 2027 (starting GW 19) will be the winner.</li>
+        <li>The winner will get free entry next season.</li>
+        <li>Negative points will be deducted.</li>
+        <li>In the event of multiple centurions:
+          <ol>
+            <li>The highest scorer of the current GW.</li>
+            <li>Most goals scored in the current Gameweek.</li>
+            <li>Fewest goals conceded in the current Gameweek.</li>
+            <li>Prize amount will be shared.</li>
+          </ol>
+        </li>
+      </ul>`,
+  },
+};
+
+const RULES_ORDER = ['legends', 'legacy', 'ko_details', 'mow', 'mom', 'king_only', 'centurion'];
+
+const rulesBody = document.getElementById('rulesBody');
+
+function renderRules() {
+  rulesBody.innerHTML = RULES_ORDER.map((key) => {
+    const rule = RULES[key];
+    return `<article class="rules-card"><h4>${rule.title}</h4>${rule.body}</article>`;
+  }).join('');
+}
+
+let CHAMPIONS_CLUSTERS = [];
+
+function champTrophyIcon(size) {
+  return `<svg class="champ-trophy" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4Z" fill="#d9a521" stroke="#c9971f" stroke-width="0.5" />
+    <path d="M6 5H3v2a4 4 0 0 0 4 4" stroke="#c9971f" stroke-width="1.2" fill="none" />
+    <path d="M18 5h3v2a4 4 0 0 1-4 4" stroke="#c9971f" stroke-width="1.2" fill="none" />
+    <rect x="10" y="13" width="4" height="4" fill="#d9a521" />
+    <rect x="7" y="18" width="10" height="2.4" rx="1" fill="#d9a521" />
+  </svg>`;
+}
+
+const HOF_LEAGUES = new Set(['Classic League', 'H2H League', 'Poky FPL Cup', 'Jota Legends League', 'Diogo Legacy League']);
+
+function computeHallOfFame(clusters) {
+  const counts = new Map();
+  for (const cluster of clusters) {
+    for (const group of cluster.groups) {
+      if (!HOF_LEAGUES.has(group.title)) continue;
+      for (const row of group.rows) {
+        for (const name of row[1].split('&').map((n) => n.trim()).filter(Boolean)) {
+          counts.set(name, (counts.get(name) || 0) + 1);
+        }
+      }
+    }
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+function hofCardHTML([name, count], rank) {
+  if (!rank) {
+    return `<article class="contest-card hof-card">
+      <button type="button" class="hof-name profile-trigger manager-profile-trigger">${champTrophyIcon(14)}${escapeHTML(name)}</button>
+    </article>`;
+  }
+  return `<article class="contest-card hof-card rank-${rank}">
+      <div class="hof-rank">${rank}</div>
+      <button type="button" class="hof-name profile-trigger manager-profile-trigger">${escapeHTML(name)}</button>
+      <div class="hof-count">${champTrophyIcon(14)}<span>${count} title${count === 1 ? '' : 's'}</span></div>
+    </article>`;
+}
+
+const profileDialog = document.createElement('dialog');
+profileDialog.className = 'profile-dialog';
+profileDialog.innerHTML = '<button type="button" class="profile-close" aria-label="Close">&times;</button><div class="profile-body"></div>';
+document.body.appendChild(profileDialog);
+profileDialog.querySelector('.profile-close').addEventListener('click', () => profileDialog.close());
+profileDialog.addEventListener('click', (e) => {
+  const r = profileDialog.getBoundingClientRect();
+  const inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+  if (!inside) profileDialog.close();
+});
+
+const winnerCardDialog = document.createElement('dialog');
+winnerCardDialog.className = 'winner-card-dialog';
+winnerCardDialog.innerHTML = `
+  <button type="button" class="profile-close winner-card-close" aria-label="Close">&times;</button>
+  <button type="button" class="winner-card-copy" aria-label="Copy winner card image" title="Copy image">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="8" y="8" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
+      <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="2" />
+    </svg>
+  </button>
+  <div class="winner-copy-status" role="status" aria-live="polite"></div>
+  <div class="winner-poster-scale">
+    <div class="winner-poster">
+      <img class="poky-logo" src="LOGO.jpeg" alt="Poky भकुण्डो logo" />
+      <div class="league-title">
+        <div>POKY भकुण्डो</div>
+        <span>FPL 2026/27</span>
+      </div>
+      <div class="winner-heading">
+        <span class="gw-title">GW</span>
+        <span class="winner-title">WINNER</span>
+      </div>
+      <div class="star-line">
+        <span></span>
+        <div>&#9733; &#9733; <strong>&#9733;</strong> &#9733; &#9733;</div>
+        <span></span>
+      </div>
+      <div class="winner-panel">
+        <div class="winner-name">
+          <div class="winner-name-team"></div>
+          <div class="winner-name-manager"></div>
+        </div>
+        <div class="winner-stats">
+          <div class="stat-box">
+            <div class="stat-label wp-stat1-label"></div>
+            <div class="stat-value wp-stat1-value"></div>
+          </div>
+          <div class="divider"></div>
+          <div class="stat-box">
+            <div class="stat-label wp-stat2-label"></div>
+            <div class="stat-value wp-stat2-value"></div>
+          </div>
+          <div class="divider"></div>
+          <div class="trophy">&#127942;</div>
+        </div>
+      </div>
+      <div class="congratulations">Congratulations!</div>
+      <div class="confetti-left"></div>
+      <div class="confetti-right"></div>
+      <div class="footer">#Poky भकुण्डो FPL <span class="footer-divider"></span> <strong>Compete. Plan. Win.</strong></div>
+    </div>
+  </div>`;
+document.body.appendChild(winnerCardDialog);
+winnerCardDialog.querySelector('.winner-card-close').addEventListener('click', () => winnerCardDialog.close());
+winnerCardDialog.addEventListener('click', (e) => {
+  const r = winnerCardDialog.getBoundingClientRect();
+  const inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+  if (!inside) winnerCardDialog.close();
+});
+
+const WINNER_POSTER_SIZE = 1200;
+const winnerTemplateImage = new Image();
+winnerTemplateImage.decoding = 'async';
+winnerTemplateImage.src = 'winnertemp.png?v=20260901manager';
+let winnerTemplateLoadPromise;
+let winnerCopyStatusTimer;
+let preparedWinnerBlob;
+let winnerShareFallbackReady = false;
+let braveBrowserDetected = false;
+const isIOSAlternativeBrowser = /iP(?:hone|ad|od)/.test(navigator.userAgent)
+  && /(?:CriOS|FxiOS|EdgiOS|OPiOS|Brave)/.test(navigator.userAgent);
+
+if (navigator.brave?.isBrave) {
+  Promise.resolve(navigator.brave.isBrave()).then((isBrave) => {
+    braveBrowserDetected = Boolean(isBrave);
+  }).catch(() => {});
+}
+
+function loadWinnerTemplateImage() {
+  if (winnerTemplateImage.complete && winnerTemplateImage.naturalWidth) return Promise.resolve(winnerTemplateImage);
+  if (!winnerTemplateLoadPromise) {
+    winnerTemplateLoadPromise = new Promise((resolve, reject) => {
+      winnerTemplateImage.addEventListener('load', () => resolve(winnerTemplateImage), { once: true });
+      winnerTemplateImage.addEventListener('error', () => reject(new Error('Winner template image failed to load.')), { once: true });
+    });
+  }
+  return winnerTemplateLoadPromise;
+}
+
+function drawWinnerPanel(ctx, data) {
+  ctx.save();
+  const banner = ctx.createLinearGradient(210, 0, 990, 0);
+  banner.addColorStop(0, '#83ff00');
+  banner.addColorStop(1, '#00e7df');
+  ctx.fillStyle = banner;
+  ctx.beginPath();
+  ctx.moveTo(226, 696);
+  ctx.lineTo(974, 696);
+  ctx.quadraticCurveTo(990, 696, 990, 712);
+  ctx.lineTo(990, 756);
+  ctx.quadraticCurveTo(990, 772, 974, 772);
+  ctx.lineTo(226, 772);
+  ctx.quadraticCurveTo(210, 772, 210, 756);
+  ctx.lineTo(210, 712);
+  ctx.quadraticCurveTo(210, 696, 226, 696);
+  ctx.closePath();
+  ctx.fill();
+
+  const managerText = data.manager.toUpperCase();
+  let managerSize = 64;
+  do {
+    ctx.font = `italic 900 ${managerSize}px "Arial Black", Arial, sans-serif`;
+    if (ctx.measureText(managerText).width <= 760) break;
+    managerSize -= 2;
+  } while (managerSize > 28);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = '#08001f';
+  ctx.fillText(managerText, 600, 734);
+
+  ctx.font = '600 23px Arial, sans-serif';
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.78)';
+  ctx.fillText(data.team, 600, 798);
+
+  ctx.fillStyle = '#ffffff';
+  ctx.font = '800 22px Arial, sans-serif';
+  ctx.fillText(data.kind === 'mom' ? 'MONTH' : 'GAMEWEEK', 333, 852);
+  ctx.fillText(data.kind === 'mom' ? 'POINTS' : 'GW POINTS', 601, 852);
+
+  ctx.fillStyle = '#79ff00';
+  ctx.font = '900 42px Arial, sans-serif';
+  ctx.fillText(data.kind === 'mom' ? data.period : `GW ${data.period}`, 333, 900);
+  ctx.fillStyle = '#00e7df';
+  ctx.fillText(`${data.points} PTS`, 601, 900);
+  ctx.restore();
+}
+
+function drawMonthHeading(ctx) {
+  const glow = ctx.createRadialGradient(600, 485, 40, 600, 485, 560);
+  glow.addColorStop(0, '#17003d');
+  glow.addColorStop(0.72, '#0d0227');
+  glow.addColorStop(1, 'rgba(8, 0, 31, 0)');
+  ctx.fillStyle = glow;
+  ctx.fillRect(60, 382, 1080, 210);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.font = 'italic 900 145px Impact, "Arial Black", sans-serif';
+  ctx.fillStyle = '#ffffff';
+  ctx.fillText('MONTH', 370, 490);
+  ctx.fillStyle = '#79ff00';
+  ctx.fillText('WINNER', 835, 490);
+}
+
+async function createWinnerPosterBlob() {
+  const image = await loadWinnerTemplateImage();
+  const poster = winnerCardDialog.querySelector('.winner-poster');
+  const canvas = document.createElement('canvas');
+  canvas.width = WINNER_POSTER_SIZE;
+  canvas.height = WINNER_POSTER_SIZE;
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(image, 0, 0, WINNER_POSTER_SIZE, WINNER_POSTER_SIZE);
+  if (poster.dataset.kind === 'mom') drawMonthHeading(ctx);
+  drawWinnerPanel(ctx, poster.dataset);
+  return new Promise((resolve, reject) => {
+    canvas.toBlob((blob) => blob ? resolve(blob) : reject(new Error('Could not create the winner image.')), 'image/png');
+  });
+}
+
+function showWinnerCopyStatus(message) {
+  const status = winnerCardDialog.querySelector('.winner-copy-status');
+  status.textContent = message;
+  status.classList.add('visible');
+  clearTimeout(winnerCopyStatusTimer);
+  winnerCopyStatusTimer = setTimeout(() => status.classList.remove('visible'), 2200);
+}
+
+function winnerShareFile() {
+  const poster = winnerCardDialog.querySelector('.winner-poster');
+  const period = poster.dataset.kind === 'mom' ? poster.dataset.period : `gw-${poster.dataset.period}`;
+  return new File([preparedWinnerBlob], `poky-fpl-winner-${period}.png`, { type: 'image/png' });
+}
+
+function canShareWinnerFile(file) {
+  if (!navigator.share) return false;
+  try {
+    return !navigator.canShare || navigator.canShare({ files: [file] });
+  } catch {
+    return false;
+  }
+}
+
+async function shareWinnerImage() {
+  const file = winnerShareFile();
+  if (!canShareWinnerFile(file)) {
+    showWinnerCopyStatus('Image sharing is not supported in this browser.');
+    return;
+  }
+  try {
+    await navigator.share({ files: [file], title: 'Poky FPL winner' });
+    showWinnerCopyStatus('Image shared.');
+  } catch (error) {
+    if (error.name !== 'AbortError') {
+      console.error('Winner image share failed:', error);
+      showWinnerCopyStatus('Could not share image.');
+    }
+  }
+}
+
+winnerCardDialog.querySelector('.winner-card-copy').addEventListener('click', async () => {
+  const button = winnerCardDialog.querySelector('.winner-card-copy');
+  if (!preparedWinnerBlob) {
+    showWinnerCopyStatus('Image is still preparing…');
+    return;
+  }
+  if (winnerShareFallbackReady || isIOSAlternativeBrowser || braveBrowserDetected) {
+    await shareWinnerImage();
+    return;
+  }
+  if (!navigator.clipboard?.write || !window.ClipboardItem) {
+    winnerShareFallbackReady = true;
+    await shareWinnerImage();
+    return;
+  }
+  button.disabled = true;
+  showWinnerCopyStatus('Copying image…');
+  try {
+    await navigator.clipboard.write([new ClipboardItem({ 'image/png': Promise.resolve(preparedWinnerBlob) })]);
+    showWinnerCopyStatus('Image copied.');
+  } catch (error) {
+    console.error('Winner image copy failed:', error);
+    winnerShareFallbackReady = true;
+    button.title = 'Share image';
+    button.setAttribute('aria-label', 'Share winner card image');
+    showWinnerCopyStatus('Copy blocked here. Tap again to share.');
+  } finally {
+    button.disabled = false;
+  }
+});
+
+function prepareWinnerImage() {
+  const button = winnerCardDialog.querySelector('.winner-card-copy');
+  const status = winnerCardDialog.querySelector('.winner-copy-status');
+  preparedWinnerBlob = null;
+  winnerShareFallbackReady = false;
+  button.disabled = true;
+  const usesShareSheet = isIOSAlternativeBrowser || braveBrowserDetected;
+  button.title = usesShareSheet ? 'Copy or share image' : 'Copy image';
+  button.setAttribute('aria-label', usesShareSheet ? 'Share winner card image' : 'Copy winner card image');
+  status.classList.remove('visible');
+  createWinnerPosterBlob().then((blob) => {
+    preparedWinnerBlob = blob;
+    button.disabled = false;
+  }).catch((error) => {
+    console.error('Winner image preparation failed:', error);
+    showWinnerCopyStatus('Could not prepare image.');
+  });
+}
+
+function scaleWinnerPoster() {
+  const viewportWidth = window.visualViewport?.width || window.innerWidth;
+  const viewportHeight = window.visualViewport?.height || window.innerHeight;
+  const scale = Math.min(1, (viewportWidth - 16) / 1200, (viewportHeight - 16) / 1200);
+  const poster = winnerCardDialog.querySelector('.winner-poster');
+  const wrap = winnerCardDialog.querySelector('.winner-poster-scale');
+  poster.style.transform = `scale(${scale})`;
+  wrap.style.width = `${1200 * scale}px`;
+  wrap.style.height = `${1200 * scale}px`;
+}
+window.addEventListener('resize', () => {
+  if (winnerCardDialog.open) scaleWinnerPoster();
+});
+window.visualViewport?.addEventListener('resize', () => {
+  if (winnerCardDialog.open) scaleWinnerPoster();
+});
+
+function renderWinnerCard(trigger) {
+  const team = trigger.dataset.team;
+  const manager = trigger.dataset.manager;
+  const points = trigger.dataset.points;
+  const kind = trigger.dataset.kind;
+  const period = trigger.dataset.period;
+
+  const poster = winnerCardDialog.querySelector('.winner-poster');
+  poster.classList.add('reference-layout');
+  poster.classList.toggle('month-layout', kind === 'mom');
+  poster.dataset.team = team;
+  poster.dataset.manager = manager;
+  poster.dataset.points = points;
+  poster.dataset.kind = kind;
+  poster.dataset.period = period;
+
+  winnerCardDialog.querySelector('.gw-title').textContent = kind === 'mom' ? 'MONTH' : 'GW';
+
+  const nameEl = winnerCardDialog.querySelector('.winner-name');
+  const teamEl = winnerCardDialog.querySelector('.winner-name-team');
+  const initialNameSize = 64;
+  teamEl.style.fontSize = `${initialNameSize}px`;
+  teamEl.textContent = manager;
+  winnerCardDialog.querySelector('.winner-name-manager').textContent = team;
+
+  const stat1Label = winnerCardDialog.querySelector('.wp-stat1-label');
+  const stat1Value = winnerCardDialog.querySelector('.wp-stat1-value');
+  const stat2Label = winnerCardDialog.querySelector('.wp-stat2-label');
+  const stat2Value = winnerCardDialog.querySelector('.wp-stat2-value');
+  if (kind === 'mom') {
+    stat1Label.textContent = 'MONTH';
+    stat1Value.textContent = period;
+    stat2Label.textContent = 'POINTS';
+    stat2Value.textContent = `${points} PTS`;
+  } else {
+    stat1Label.textContent = 'GAMEWEEK';
+    stat1Value.textContent = `GW ${period}`;
+    stat2Label.textContent = 'GW POINTS';
+    stat2Value.textContent = `${points} PTS`;
+  }
+
+  winnerCardDialog.showModal();
+  scaleWinnerPoster();
+
+  // Shrink the manager name until manager+team together fit the panel, so a
+  // long manager name never overflows the fixed 1200px poster.
+  let fontSize = initialNameSize;
+  while (nameEl.scrollHeight > nameEl.clientHeight + 4 && fontSize > 20) {
+    fontSize -= 2;
+    teamEl.style.fontSize = `${fontSize}px`;
+  }
+  prepareWinnerImage();
+}
+
+function computeManagerTitles(name) {
+  const titles = [];
+  for (const cluster of CHAMPIONS_CLUSTERS) {
+    for (const group of cluster.groups) {
+      for (const row of group.rows) {
+        const champs = row[1].split('&').map((n) => n.trim());
+        if (champs.includes(name)) titles.push({ league: group.title, year: row[0], counts: HOF_LEAGUES.has(group.title) });
+      }
+    }
+  }
+  titles.sort((a, b) => b.year.localeCompare(a.year));
+  return titles;
+}
+
+function renderManagerProfile(name) {
+  const titles = computeManagerTitles(name);
+  const titleCount = titles.filter((t) => t.counts).length;
+  const titleRows = titles.length
+    ? titles.map((t) => `<div class="profile-title-row">${champTrophyIcon(15)}<span>${escapeHTML(t.league)} — ${escapeHTML(t.year)}</span></div>`).join('')
+    : '<p class="profile-empty">No titles on record yet.</p>';
+
+  profileDialog.querySelector('.profile-body').innerHTML = `
+    <h2 class="profile-name">${escapeHTML(name)}</h2>
+    <div class="profile-total">${champTrophyIcon(16)}<span>${titleCount} career title${titleCount === 1 ? '' : 's'}</span></div>
+    <h3 class="profile-section-heading">All-Time Titles</h3>
+    ${titleRows}
+    <p class="profile-footnote">Only Classic, H2H, Poky FPL Cup, Jota Legends, and Diogo Legacy count toward the title total.</p>`;
+  profileDialog.showModal();
+}
+
+function renderSeasonHistoryProfile(entryId, name) {
+  const entry = seasonHistoryData?.entries?.[entryId];
+  const seasons = entry?.seasons || [];
+  const rows = seasons.length
+    ? seasons.map((s) => `<div class="profile-season-row">
+        <span class="profile-season-name">${escapeHTML(s.season_name)}</span>
+        <span class="profile-season-stats"><b>${s.total_points.toLocaleString()}</b> pts${s.rank ? ` &middot; Rank ${s.rank.toLocaleString()}` : ''}</span>
+      </div>`).join('')
+    : '<p class="profile-empty">No past-season FPL history on record yet.</p>';
+
+  profileDialog.querySelector('.profile-body').innerHTML = `
+    <h2 class="profile-name">${escapeHTML(name)} <span class="tt-id">Team ID: ${entryId}</span></h2>
+    <div class="profile-total"><span>${seasons.length} season${seasons.length === 1 ? '' : 's'} of FPL history</span></div>
+    <h3 class="profile-section-heading">Season History</h3>
+    ${rows}
+    <p class="profile-footnote">Total points and overall rank for each season, from this manager's official Fantasy Premier League history.</p>`;
+  profileDialog.showModal();
+}
+
+document.addEventListener('click', (e) => {
+  const sortTh = e.target.closest('#standingsContent th[data-sort-key]');
+  if (sortTh) {
+    const league = currentStandingsLeague;
+    const key = sortTh.dataset.sortKey;
+    if (standingsSort[league].key === key) {
+      standingsSort[league].dir = standingsSort[league].dir === 'asc' ? 'desc' : 'asc';
+    } else {
+      const col = STANDINGS_COLUMNS[league].find((c) => c.key === key);
+      standingsSort[league] = { key, dir: col.dir };
+    }
+    renderStandingsTable();
+    return;
+  }
+  const seasonEl = e.target.closest('.season-history-trigger');
+  if (seasonEl) {
+    renderSeasonHistoryProfile(seasonEl.dataset.entryId, seasonEl.textContent.trim());
+    return;
+  }
+  const winnerCardEl = e.target.closest('.winner-card-trigger');
+  if (winnerCardEl) {
+    renderWinnerCard(winnerCardEl);
+    return;
+  }
+  const nameEl = e.target.closest('.manager-profile-trigger');
+  if (!nameEl) return;
+  const name = nameEl.textContent.trim();
+  if (name) renderManagerProfile(name);
+});
+
+function renderHallOfFame(entries) {
+  if (!entries.length) return '';
+  const topTier = entries.filter(([, count]) => count >= 3);
+  const twoTier = entries.filter(([, count]) => count === 2);
+  const oneTier = entries.filter(([, count]) => count === 1);
+
+  let rank = 0;
+  let lastCount = null;
+  const topCards = topTier.map(([name, count]) => {
+    if (count !== lastCount) { rank += 1; lastCount = count; }
+    return hofCardHTML([name, count], rank);
+  }).join('');
+  const collapse = (tier, label) => {
+    if (!tier.length) return '';
+    const cards = tier.map((e) => hofCardHTML(e, null)).join('');
+    return `<details class="hof-collapse">
+      <summary>${label} (${tier.length})</summary>
+      <article class="contest-card"><div class="hof-grid">${cards}</div></article>
+    </details>`;
+  };
+  const podium = topTier.length
+    ? `<article class="contest-card hof-podium"><div class="hof-grid">${topCards}</div></article>`
+    : '';
+
+  return `<div class="champ-wall-heading">Hall of Fame — Most Titles</div>
+    <p class="champ-wall-note">Click a manager name for trophy details</p>
+    ${podium}
+    ${collapse(twoTier, 'TWO TITLES')}
+    ${collapse(oneTier, 'ONE TITLE')}`;
+}
+
+function renderChampionsGroup(group) {
+  const head = group.columns.map((c) => `<th>${escapeHTML(c)}</th>`).join('');
+  const body = group.rows.map((row) => {
+    const cells = row.map((val, i) => {
+      if (i === 0) return `<td>${escapeHTML(val)}</td>`;
+      if (i === 1) return `<td class="champ-cell">${escapeHTML(val)}</td>`;
+      return `<td>${escapeHTML(val)}</td>`;
+    }).join('');
+    return `<tr>${cells}</tr>`;
+  }).join('');
+  const note = group.note ? `<p class="champ-group-note">${escapeHTML(group.note)}</p>` : '';
+  return `<article class="contest-card">
+    <div class="card-title"><h2>${escapeHTML(group.title)}</h2></div>
+    <table class="contest-table">
+      <thead><tr>${head}</tr></thead>
+      <tbody>${body}</tbody>
+    </table>
+    ${note}
+  </article>`;
+}
+
+function renderChampions() {
+  const clusters = CHAMPIONS_CLUSTERS.map((cluster) => `
+    <div class="champ-cluster">
+      <h3 class="champ-cluster-heading">${escapeHTML(cluster.heading)}</h3>
+      <div class="contest-grid">${cluster.groups.map(renderChampionsGroup).join('')}</div>
+    </div>`).join('');
+  const hof = renderHallOfFame(computeHallOfFame(CHAMPIONS_CLUSTERS));
+  document.getElementById('championsContent').innerHTML = `
+    ${hof}
+    ${clusters}`;
+}
+
+function standingsRowHTML(row, league) {
+  const managerCell = `<button type="button" class="hof-name profile-trigger season-history-trigger" data-entry-id="${row.entry_id}">${escapeHTML(row.manager)}</button> <span class="contest-meta">(${escapeHTML(row.team_name)})</span>`;
+  if (league === 'h2h') {
+    return `<tr>
+      <td>${row.rank}</td>
+      <td>${managerCell}</td>
+      <td class="standings-record">${row.matches_won}-${row.matches_drawn}-${row.matches_lost}</td>
+      <td class="pts">${row.total_points}</td>
+    </tr>`;
+  }
+  return `<tr>
+    <td>${row.rank}</td>
+    <td>${managerCell}</td>
+    <td class="pts">${row.gw_points}</td>
+    <td>${row.total_points}</td>
+  </tr>`;
+}
+
+function renderStandingsTable() {
+  const league = currentStandingsLeague;
+  const rows = sortStandingsRows(standingsData[league] || [], league);
+  const sort = standingsSort[league];
+  const head = `<tr>${STANDINGS_COLUMNS[league].map((c) => {
+    const active = c.key === sort.key;
+    const arrow = active ? (sort.dir === 'asc' ? ' ▲' : ' ▼') : '';
+    return `<th data-sort-key="${c.key}" class="sortable${active ? ' sorted' : ''}">${c.label}${arrow}</th>`;
+  }).join('')}</tr>`;
+  const body = rows.length
+    ? rows.map((r) => standingsRowHTML(r, league)).join('')
+    : '<tr><td colspan="4" class="empty">No standings data yet.</td></tr>';
+  const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
+  document.getElementById('standingsContent').innerHTML = `
+    <div class="champ-wall-heading">${gwLabel}</div>
+    <table class="contest-table standings-table standings-table-${league}">
+      <thead>${head}</thead>
+      <tbody>${body}</tbody>
+    </table>`;
+}
+
+function renderMow(data) {
+  const rows = data?.manager_of_the_week || [];
+  const body = rows.length
+    ? rows.map((r) => {
+        const badges = [
+          r.shared ? '<span class="badge shared">Shared</span>' : '',
+          r.provisional ? '<span class="badge live">Live</span>' : '',
+        ].join('');
+        return `<tr>
+          <td>GW ${r.gw}${badges}</td>
+          <td>${winnerCardTriggerHTML(r.winners, r.points, 'mow', r.gw, ' <span class="mow-sep">|</span> ')}</td>
+          <td class="pts">${r.points}</td>
+        </tr>`;
+      }).join('')
+    : '<tr><td colspan="3" class="empty">No gameweek data yet.</td></tr>';
+  document.getElementById('mowContent').innerHTML = `
+    <div class="champ-wall-heading">Manager of the Week</div>
+    <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
+    <table class="contest-table">
+      <thead><tr><th>Gameweek</th><th>Winner</th><th>Points</th></tr></thead>
+      <tbody>${body}</tbody>
+    </table>`;
+}
+
+function renderMom(data) {
+  const rows = data?.manager_of_the_month || [];
+  const body = rows.length
+    ? rows.map((r) => {
+        const badges = [
+          r.shared ? '<span class="badge shared">Shared</span>' : '',
+          r.provisional ? '<span class="badge live">Live</span>' : '',
+        ].join('');
+        return `<tr>
+          <td>${escapeHTML(r.label)}${badges}<div class="contest-meta">GW ${r.gameweeks.join(', ')}</div></td>
+          <td>${winnerCardTriggerHTML(r.winners, r.points, 'mom', r.label)}</td>
+          <td class="pts">${r.points}</td>
+        </tr>`;
+      }).join('')
+    : '<tr><td colspan="3" class="empty">No finished month yet — winners lock when gameweeks finalize.</td></tr>';
+  document.getElementById('momContent').innerHTML = `
+    <div class="champ-wall-heading">Manager of the Month</div>
+    <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
+    <table class="contest-table">
+      <thead><tr><th>Month</th><th>Winner</th><th>Points</th></tr></thead>
+      <tbody>${body}</tbody>
+    </table>`;
+}
+
+function renderKing(data) {
+  const king = data?.king_of_the_ring;
+  const cent = data?.centurion;
+  const kingWinners = king?.winners || [];
+  const kingBadges = [
+    king?.shared ? '<span class="badge shared">Shared</span>' : '',
+    king?.provisional ? '<span class="badge live">Live</span>' : '',
+  ].join('');
+  const kingGameweeks = [...new Set(kingWinners.map((winner) => winner.gw).filter(Boolean))];
+  const kingWinnerCards = kingWinners.length
+    ? kingWinners.map((winner) => awardWinnerHTML(winner, king?.shared ? 'Joint season leader' : 'Season leader')).join('')
+    : awardWinnerHTML({ team_name: 'Awaiting standings', manager: 'The first completed gameweek will set the leader' }, 'Current status', true);
+
+  const centWinners = cent?.winners || [];
+  const centBadges = [
+    cent?.shared ? '<span class="badge shared">Shared</span>' : '',
+    cent?.provisional ? '<span class="badge live">Live</span>' : '',
+  ].join('');
+  let centKicker = 'Opens from GW 19';
+  let centWinnerCards = awardWinnerHTML(
+    { team_name: 'Awaiting the first 100-point score', manager: 'Contest opens from GW 19' },
+    'Target not unlocked',
+    true,
+  );
+  let centPoints = '100 pts';
+  let centGameweek = 'GW 19';
+  let centPointsLabel = 'Target';
+  let centGameweekLabel = 'Opens';
+
+  if (cent?.achieved && centWinners.length) {
+    centKicker = cent.shared ? 'Joint first centurions' : 'First centurion';
+    centWinnerCards = centWinners.map((winner) => awardWinnerHTML(winner, cent.shared ? 'Joint winner' : 'Winner')).join('');
+    centPoints = `${cent.points} pts`;
+    centGameweek = `GW ${cent.gw}`;
+    centPointsLabel = 'Winning points';
+    centGameweekLabel = 'Gameweek';
+  } else if (cent?.best) {
+    centKicker = 'Closest score so far';
+    centWinnerCards = awardWinnerHTML(cent.best, 'Best score from GW 19');
+    centPoints = `${cent.best.points} pts`;
+    centGameweek = `GW ${cent.best.gw}`;
+    centPointsLabel = 'Best points';
+    centGameweekLabel = 'Gameweek';
+  }
+
+  document.getElementById('kingContent').innerHTML = `
+    <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
+    <div class="award-grid">
+      <article class="award-card award-card--king">
+        <div class="award-card-head">
+          <span class="award-emblem">${awardIcon('crown')}</span>
+          <div class="award-heading">
+            <span class="award-kicker">Highest single-GW score</span>
+            <h2 class="award-title">King of the Ring</h2>
+            <div class="award-subtitle">Season 2026/27</div>
+          </div>
+          <div class="award-status">${kingBadges}</div>
+        </div>
+        <div class="award-winners">${kingWinnerCards}</div>
+        <div class="award-metrics">
+          ${awardMetricHTML('points', 'Points', king?.points == null ? '—' : `${king.points} pts`)}
+          ${awardMetricHTML('gw', kingGameweeks.length > 1 ? 'Gameweeks' : 'Gameweek', kingGameweeks.length ? `GW ${kingGameweeks.join(', ')}` : '—')}
+        </div>
+      </article>
+      <article class="award-card award-card--centurion">
+        <div class="award-card-head">
+          <span class="award-emblem">${awardIcon('centurion')}</span>
+          <div class="award-heading">
+            <span class="award-kicker">${escapeHTML(centKicker)}</span>
+            <h2 class="award-title">First Centurion of the Year</h2>
+            <div class="award-subtitle">First manager to reach 100 points</div>
+          </div>
+          <div class="award-status">${centBadges}</div>
+        </div>
+        <div class="award-winners">${centWinnerCards}</div>
+        <div class="award-metrics">
+          ${awardMetricHTML('points', centPointsLabel, centPoints)}
+          ${awardMetricHTML('gw', centGameweekLabel, centGameweek)}
+        </div>
+      </article>
+    </div>`;
+}
+
+function setSelectedTab(buttons, activeButton) {
+  buttons.forEach((button) => {
+    const selected = button === activeButton;
+    button.classList.toggle('active', selected);
+    button.setAttribute('aria-selected', String(selected));
+    button.tabIndex = selected ? 0 : -1;
+  });
+}
+
+function bindTabKeyboard(tablist) {
+  tablist.addEventListener('keydown', (e) => {
+    const current = e.target.closest('[role="tab"]');
+    if (!current || !tablist.contains(current)) return;
+    const tabs = [...tablist.querySelectorAll('[role="tab"]:not([disabled])')];
+    const index = tabs.indexOf(current);
+    let nextIndex = null;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextIndex = (index + 1) % tabs.length;
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') nextIndex = (index - 1 + tabs.length) % tabs.length;
+    if (e.key === 'Home') nextIndex = 0;
+    if (e.key === 'End') nextIndex = tabs.length - 1;
+    if (nextIndex === null) return;
+    e.preventDefault();
+    tabs[nextIndex].focus();
+    tabs[nextIndex].click();
+  });
+}
+
+function showLeague(league) {
+  currentLeague = league;
+  setSelectedTab([tabClassic, tabH2h], league === 'classic' ? tabClassic : tabH2h);
+  if (currentPanel === 'knockout') {
+    renderBracket(bracketContainer, bracketData[league]);
+  }
+}
+
+function showPanel(panel) {
+  currentPanel = panel;
+  document.querySelectorAll('#mainTabs button[data-panel]').forEach((btn) => {
+    const selected = btn.dataset.panel === panel;
+    btn.classList.toggle('active', selected);
+    btn.setAttribute('aria-selected', String(selected));
+    btn.tabIndex = selected ? 0 : -1;
+  });
+  document.querySelectorAll('.panel').forEach((el) => {
+    const selected = el.id === `panel-${panel}`;
+    el.classList.toggle('active', selected);
+    el.hidden = !selected;
+  });
+  if (panel === 'knockout') {
+    renderBracket(bracketContainer, bracketData[currentLeague]);
+  }
+}
+
+const mainTabsEl = document.getElementById('mainTabs');
+mainTabsEl.addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-panel]');
+  if (btn) {
+    showPanel(btn.dataset.panel);
+    if (MOBILE_MQ.matches) closeNavDrawer();
+  }
+});
+
+tabClassic.addEventListener('click', () => showLeague('classic'));
+tabH2h.addEventListener('click', () => showLeague('h2h'));
+
+const tabStandingsClassic = document.getElementById('tabStandingsClassic');
+const tabStandingsH2h = document.getElementById('tabStandingsH2h');
+function showStandingsLeague(league) {
+  currentStandingsLeague = league;
+  setSelectedTab(
+    [tabStandingsClassic, tabStandingsH2h],
+    league === 'classic' ? tabStandingsClassic : tabStandingsH2h,
+  );
+  renderStandingsTable();
+}
+tabStandingsClassic.addEventListener('click', () => showStandingsLeague('classic'));
+tabStandingsH2h.addEventListener('click', () => showStandingsLeague('h2h'));
+
+const navToggle = document.getElementById('navToggle');
+const navBackdrop = document.getElementById('navBackdrop');
+let drawerPreviousFocus = null;
+let drawerPreviousOverflow = '';
+
+function setPanelsInert(inert) {
+  document.querySelectorAll('.panel').forEach((panel) => panel.toggleAttribute('inert', inert));
+}
+
+function openNavDrawer() {
+  drawerPreviousFocus = document.activeElement;
+  drawerPreviousOverflow = document.body.style.overflow;
+  mainTabsEl.classList.add('open');
+  mainTabsEl.removeAttribute('inert');
+  navBackdrop.classList.add('open');
+  navBackdrop.setAttribute('aria-hidden', 'false');
+  navToggle.setAttribute('aria-expanded', 'true');
+  navToggle.setAttribute('aria-label', 'Close menu');
+  setPanelsInert(true);
+  document.body.style.overflow = 'hidden';
+  requestAnimationFrame(() => mainTabsEl.querySelector('[role="tab"][aria-selected="true"]')?.focus());
+}
+function closeNavDrawer({ restoreFocus = true } = {}) {
+  mainTabsEl.classList.remove('open');
+  mainTabsEl.toggleAttribute('inert', MOBILE_MQ.matches);
+  navBackdrop.classList.remove('open');
+  navBackdrop.setAttribute('aria-hidden', 'true');
+  navToggle.setAttribute('aria-expanded', 'false');
+  navToggle.setAttribute('aria-label', 'Open menu');
+  setPanelsInert(false);
+  document.body.style.overflow = drawerPreviousOverflow;
+  if (restoreFocus) (drawerPreviousFocus || navToggle).focus();
+  drawerPreviousFocus = null;
+}
+navToggle.addEventListener('click', () => {
+  if (mainTabsEl.classList.contains('open')) closeNavDrawer();
+  else openNavDrawer();
+});
+navBackdrop.addEventListener('click', closeNavDrawer);
+document.addEventListener('keydown', (e) => {
+  if (!mainTabsEl.classList.contains('open')) return;
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    closeNavDrawer();
+    return;
+  }
+  if (e.key !== 'Tab') return;
+  const focusables = [navToggle, ...mainTabsEl.querySelectorAll('button:not([disabled])')];
+  const index = focusables.indexOf(document.activeElement);
+  if (e.shiftKey && index <= 0) {
+    e.preventDefault();
+    focusables.at(-1).focus();
+  } else if (!e.shiftKey && index === focusables.length - 1) {
+    e.preventDefault();
+    focusables[0].focus();
+  }
+});
+MOBILE_MQ.addEventListener('change', (e) => {
+  if (!e.matches) closeNavDrawer({ restoreFocus: false });
+  else mainTabsEl.toggleAttribute('inert', !mainTabsEl.classList.contains('open'));
+  if (currentPanel === 'knockout') renderBracket(bracketContainer, bracketData[currentLeague]);
+});
+
+[mainTabsEl, document.getElementById('standingsTabs'), document.getElementById('knockoutTabs')].forEach(bindTabKeyboard);
+mainTabsEl.toggleAttribute('inert', MOBILE_MQ.matches);
+
+async function loadJson(path) {
+  try {
+    const res = await fetch(path);
+    return res.ok ? res.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+const STALE_MS = 20 * 60 * 1000; // no successful GW-live refresh should take longer than this
+// Mirrors FPL.PY's POLL_DEADLINE_BUFFER — before this window, the tracker is
+// intentionally idle (GW finalized, next deadline still far off), so a big
+// "Updated X ago" gap there is expected, not a sign the pipeline is stuck.
+const POLL_DEADLINE_BUFFER_MS = 60 * 60 * 1000;
+const updatedAtEl = document.getElementById('updatedAt');
+
+function formatDeadline(iso) {
+  return new Date(iso).toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+}
+
+function renderUpdatedAt(generatedAt, nextDeadline, currentGwFinalized) {
+  if (!generatedAt) { updatedAtEl.textContent = ''; return; }
+  const genTime = new Date(generatedAt);
+  const ageMs = Date.now() - genTime.getTime();
+  const mins = Math.max(0, Math.round(ageMs / 60000));
+  const hours = Math.round(mins / 60);
+  const days = Math.round(hours / 24);
+  const label = mins < 1 ? 'just now'
+    : mins < 60 ? `${mins} min ago`
+    : hours < 24 ? `${hours} hour${hours === 1 ? '' : 's'} ago`
+    : `${days} day${days === 1 ? '' : 's'} ago`;
+
+  const deadlineMs = nextDeadline ? new Date(nextDeadline).getTime() : null;
+  // Only meaningful once the current GW is actually finished — while it's
+  // still live, updates are ongoing no matter how far off the next deadline is.
+  const idleByDesign = currentGwFinalized === true && deadlineMs !== null && Date.now() < deadlineMs - POLL_DEADLINE_BUFFER_MS;
+
+  if (idleByDesign) {
+    updatedAtEl.textContent = `Updated ${label} · next update near ${formatDeadline(nextDeadline)}`;
+    updatedAtEl.classList.remove('stale');
+  } else {
+    updatedAtEl.textContent = `Updated ${label}`;
+    updatedAtEl.classList.toggle('stale', ageMs > STALE_MS);
+  }
+}
+
+let stateLoading = false;
+let lastGeneratedAt = null;
+let lastNextDeadline = null;
+let lastCurrentGwFinalized = null;
+async function loadState() {
+  if (stateLoading) return;
+  stateLoading = true;
+  const bust = `?t=${Date.now()}`;
+  try {
+    const [classic, h2h, contests, standings] = await Promise.all([
+      loadJson(`data/bracket_state_classic.json${bust}`),
+      loadJson(`data/bracket_state_h2h.json${bust}`),
+      loadJson(`data/contests.json${bust}`),
+      loadJson(`data/standings_current.json${bust}`),
+    ]);
+    if (classic) bracketData.classic = classic;
+    if (h2h) bracketData.h2h = h2h;
+    if (standings) {
+      standingsData = standings;
+      renderStandingsTable();
+    }
+    if (contests) {
+      renderMow(contests);
+      renderMom(contests);
+      renderKing(contests);
+      lastGeneratedAt = contests.generated_at || lastGeneratedAt;
+      lastNextDeadline = contests.next_deadline ?? lastNextDeadline;
+      lastCurrentGwFinalized = contests.current_gw_finalized ?? lastCurrentGwFinalized;
+    }
+    renderRules();
+    renderChampions();
+    showPanel(currentPanel);
+    renderUpdatedAt(lastGeneratedAt, lastNextDeadline, lastCurrentGwFinalized);
+  } finally {
+    stateLoading = false;
+  }
+}
+
+window.addEventListener('resize', () => {
+  if (currentPanel !== 'knockout') return;
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => showLeague(currentLeague), 120);
+});
+
+loadJson('data/season_history.json').then((d) => { if (d) seasonHistoryData = d; });
+loadJson('data/champions_history.json').then((d) => {
+  if (!d) return;
+  CHAMPIONS_CLUSTERS = d;
+  renderChampions();
+});
+loadState();
+setInterval(() => {
+  if (!document.hidden) loadState();
+}, 60_000);
+setInterval(() => renderUpdatedAt(lastGeneratedAt, lastNextDeadline, lastCurrentGwFinalized), 30_000);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) loadState();
+});
+</script>
+</body>
+</html>

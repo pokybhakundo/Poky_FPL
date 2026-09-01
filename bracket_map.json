@@ -1,0 +1,16 @@
+{
+  "_comment": "Fixed single-elimination tail shared by both leagues (GW36 QF -> GW37 SF -> GW38 Final). GW34 qualifier and GW35 R16 use the fixed seed map from the official bracket artwork in generate_bracket_draw().",
+  "gw36_qf": [
+    {"match": 13, "gw": 36, "slots": ["winner:9", "winner:5"]},
+    {"match": 14, "gw": 36, "slots": ["winner:10", "winner:6"]},
+    {"match": 15, "gw": 36, "slots": ["winner:11", "winner:7"]},
+    {"match": 16, "gw": 36, "slots": ["winner:12", "winner:8"]}
+  ],
+  "gw37_sf": [
+    {"match": 17, "gw": 37, "slots": ["winner:13", "winner:14"]},
+    {"match": 18, "gw": 37, "slots": ["winner:15", "winner:16"]}
+  ],
+  "gw38_final": [
+    {"match": 19, "gw": 38, "slots": ["winner:17", "winner:18"]}
+  ]
+}

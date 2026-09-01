@@ -1,0 +1,106 @@
+[
+  {
+    "heading": "Main Leagues",
+    "groups": [
+      {
+        "title": "Classic League",
+        "columns": ["Year", "Champion", "Runner Up", "Third Place"],
+        "rows": [
+          ["25/26", "Ganesh Sapkota", "Sabin Shrestha", "Anil Ghimire"],
+          ["24/25", "Swapnil Tiwari", "Anil Ghimire", "Anit Yadav"],
+          ["23/24", "Arjun Prasai", "Swapnil Tiwari", "Sabin Shrestha"],
+          ["22/23", "Shakti Karki", "Ganesh Sapkota", "Rajesh Jaiswal"],
+          ["21/22", "Arun Bhandari", "Swapnil Tiwari", "Anit Yadav"],
+          ["18/19", "Mahesh Acharya", "-", "-"],
+          ["17/18", "Rajesh Jaiswal", "-", "-"],
+          ["16/17", "Mohan S Madai", "-", "-"]
+        ],
+        "note": "19/20 voided (COVID-19 halted the season) and 20/21 voided (non-Poky FPL managers participated) — excluded from the official record."
+      },
+      {
+        "title": "H2H League",
+        "columns": ["Year", "Champion", "Runner Up", "League Leader"],
+        "rows": [
+          ["25/26", "Saujan Acharya", "Ankit Bhaukajee", "Ganesh Sapkota"],
+          ["24/25", "Anit Yadav", "Anil Ghimire", "Anit Yadav"],
+          ["23/24", "Arjun Prasai", "Sabin Shrestha", "Sabin Shrestha"],
+          ["22/23", "Shakti Karki", "Bishal Neupane", "Shakti Karki"],
+          ["21/22", "Rojin Tuladhar", "Swapnil Tiwari", "Swapnil Tiwari"],
+          ["18/19", "Rajesh Baduwal", "Don The God", "Rajesh Baduwal"],
+          ["17/18", "Saujan Acharya", "Rajesh Jaiswal", "Rajesh Jaiswal"],
+          ["16/17", "Rajesh Baduwal", "Mohan S Madai", "Subigya Shah"]
+        ],
+        "note": "19/20 voided (COVID-19 halted the season) and 20/21 voided (non-Poky FPL managers participated) — excluded from the official record."
+      }
+    ]
+  },
+  {
+    "heading": "Legends & Legacy",
+    "groups": [
+      {
+        "title": "Jota Legends League",
+        "columns": ["Year", "Champion", "Runner Up"],
+        "rows": [
+          ["25/26", "Bishal Neupane", "Swapnil Tiwari"],
+          ["24/25", "Anit Yadav", "Rikesh Puri"],
+          ["23/24", "Arjun Prasai", "Aayush Palikhel"],
+          ["22/23", "Rikesh Puri", "Ganesh Sapkota"],
+          ["21/22", "Binayak KC", "Arun Bhandari"],
+          ["18/19", "Rajesh Baduwal", "-"],
+          ["17/18", "Arun Bhandari", "-"]
+        ]
+      },
+      {
+        "title": "Diogo Legacy League",
+        "columns": ["Year", "Champion", "Runner Up"],
+        "rows": [
+          ["25/26", "Swapnil Tiwari", "Ankit Bhaukajee"],
+          ["24/25", "Swapnil Tiwari", "Anil Ghimire"],
+          ["23/24", "Arjun Prasai", "Ganesh Sapkota"],
+          ["22/23", "Nischal Koirala", "Don The God"],
+          ["21/22", "Binayak KC", "Rajesh Baduwal"],
+          ["18/19", "Arjun Prasai", "-"],
+          ["17/18", "Manoj Timilsena", "-"]
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Cups & Individual Awards",
+    "groups": [
+      {
+        "title": "Poky FPL Cup",
+        "columns": ["Year", "Champion"],
+        "rows": [
+          ["25/26", "Anil Ghimire"],
+          ["24/25", "Anil Ghimire"],
+          ["23/24", "Arjun Prasai"],
+          ["22/23", "Rikesh Puri"],
+          ["21/22", "Aayush Palikhel"]
+        ]
+      },
+      {
+        "title": "King of the Ring",
+        "columns": ["Year", "Winner"],
+        "rows": [
+          ["25/26", "Sabin Shrestha & Anil Ghimire"],
+          ["24/25", "Biraj Shakya"],
+          ["23/24", "Sabin Shrestha"],
+          ["22/23", "Subigya Shah"],
+          ["21/22", "Govinda Subedi"]
+        ],
+        "note": "Highest single-Gameweek score of all time: 177 pts — Govinda Subedi (21/22 Season)."
+      },
+      {
+        "title": "First Centurion of the Year",
+        "columns": ["Year", "Winner"],
+        "rows": [
+          ["25/26", "Sabin Shrestha & Anil Ghimire"],
+          ["24/25", "Mahesh Acharya"],
+          ["23/24", "Swapnil Tiwari"],
+          ["22/23", "Anit Yadav"]
+        ]
+      }
+    ]
+  }
+]

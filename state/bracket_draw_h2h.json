@@ -1,0 +1,102 @@
+{
+  "gw34_qualifier": [
+    {
+      "match": 1,
+      "gw": 34,
+      "slots": [
+        "T16",
+        "T17"
+      ]
+    },
+    {
+      "match": 2,
+      "gw": 34,
+      "slots": [
+        "T13",
+        "T20"
+      ]
+    },
+    {
+      "match": 3,
+      "gw": 34,
+      "slots": [
+        "T15",
+        "T18"
+      ]
+    },
+    {
+      "match": 4,
+      "gw": 34,
+      "slots": [
+        "T14",
+        "T19"
+      ]
+    }
+  ],
+  "gw35_r16": [
+    {
+      "match": 5,
+      "gw": 35,
+      "slots": [
+        "T8",
+        "T9"
+      ]
+    },
+    {
+      "match": 6,
+      "gw": 35,
+      "slots": [
+        "T5",
+        "T12"
+      ]
+    },
+    {
+      "match": 7,
+      "gw": 35,
+      "slots": [
+        "T7",
+        "T10"
+      ]
+    },
+    {
+      "match": 8,
+      "gw": 35,
+      "slots": [
+        "T6",
+        "T11"
+      ]
+    },
+    {
+      "match": 9,
+      "gw": 35,
+      "slots": [
+        "T1",
+        "winner:1"
+      ]
+    },
+    {
+      "match": 10,
+      "gw": 35,
+      "slots": [
+        "T4",
+        "winner:2"
+      ]
+    },
+    {
+      "match": 11,
+      "gw": 35,
+      "slots": [
+        "T2",
+        "winner:3"
+      ]
+    },
+    {
+      "match": 12,
+      "gw": 35,
+      "slots": [
+        "T3",
+        "winner:4"
+      ]
+    }
+  ]
+}
