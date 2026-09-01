@@ -1,6 +1,13 @@
 name: FPL Tracker
 
 on:
+  schedule:
+    # Backstop only -- the external cron-job.org caller drives the real 5-min
+    # cadence via workflow_dispatch. GitHub's native cron is not that precise,
+    # but it guarantees should-poll still gets re-checked (and catches a GW's
+    # data_checked flipping true) even if the external caller ever misses a
+    # tick or goes down.
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -46,14 +53,14 @@ jobs:
 
       - name: Check if a live GW is in play (scheduled runs only)
         id: gate
-        if: github.event.inputs.mode == 'scheduled'
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'scheduled'
         run: |
           POLL=$(python3 FPL.PY --mode should-poll)
           echo "poll=$POLL" >> "$GITHUB_OUTPUT"
           echo "Poll decision: $POLL"
 
       - name: Run qualify + live advance (scheduled)
-        if: github.event.inputs.mode == 'scheduled' && steps.gate.outputs.poll != 'false'
+        if: (github.event_name == 'schedule' || github.event.inputs.mode == 'scheduled') && steps.gate.outputs.poll != 'false'
         run: |
           python3 FPL.PY --mode qualify
           python3 FPL.PY --mode live-reseed --league both
@@ -62,7 +69,7 @@ jobs:
           python3 FPL.PY --mode archive-season
 
       - name: Run requested mode (manual dispatch / button)
-        if: github.event.inputs.mode != 'scheduled'
+        if: github.event_name != 'schedule' && github.event.inputs.mode != 'scheduled'
         run: |
           FPL_LIVE_FLAG=""
           if [ "${{ github.event.inputs.live }}" = "true" ]; then FPL_LIVE_FLAG="--live"; fi
@@ -140,7 +147,7 @@ jobs:
           path: docs
 
       - name: Prune workflow runs older than 15 minutes
-        if: github.event.inputs.mode == 'scheduled'
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'scheduled'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -149,7 +156,7 @@ jobs:
             | xargs -r -n1 gh run delete || true
 
       - name: Prune Pages deployments older than 15 minutes
-        if: github.event.inputs.mode == 'scheduled'
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'scheduled'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
