@@ -94,6 +94,17 @@ def should_poll():
     if current is None or not (current["finished"] and current.get("data_checked")):
         return True  # no current GW yet, or it's still live/unconfirmed
 
+    # FPL just finalized this GW, but our own state may not have caught the
+    # flip yet — the tick that *observes* data_checked turning true must still
+    # run the pipeline once to write the confirmed numbers (contests.json etc),
+    # or the site is left showing stale provisional data indefinitely.
+    try:
+        persisted = read_json(os.path.join(STATE_DIR, "contests.json"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        persisted = {}
+    if persisted.get("current_gw") != current["id"] or not persisted.get("current_gw_finalized"):
+        return True
+
     nxt = next((e for e in events if e.get("is_next")), None)
     if nxt is None:
         return False  # season over, nothing left to poll for
@@ -847,6 +858,7 @@ def compute_contests(league_id=CLASSIC_LEAGUE_ID):
         "league_id": league_id,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "next_deadline": nxt["deadline_time"] if nxt else None,
+        "current_gw": current_gw,
         # Mirrors should_poll(): only once the current GW is finished AND
         # data-checked does "time until next deadline" mean anything — while
         # it's still live, updates are ongoing regardless of how far the next
