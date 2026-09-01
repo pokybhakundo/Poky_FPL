@@ -285,13 +285,6 @@
     margin: 0 0 6px;
     color: var(--accent);
   }
-  .contest-card .subrule { color: var(--sub); font-size: var(--font-sm); margin: 0 0 12px; line-height: 1.4; }
-  .contest-hero {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--highlight);
-    margin-bottom: 4px;
-  }
   .contest-meta { color: var(--sub); font-size: var(--font-sm); }
   .award-grid {
     display: grid;
@@ -451,7 +444,6 @@
     font-weight: 700;
     line-height: 1;
   }
-  .award-note { margin: 12px 0 0; color: var(--sub); font-size: var(--font-xs); line-height: 1.4; }
   .contest-table {
     width: 100%;
     border-collapse: separate;
@@ -2057,10 +2049,6 @@ const tabH2h = document.getElementById('tabH2h');
 const bracketContainer = document.getElementById('bracketContainer');
 let resizeTimer = 0;
 
-function winnersLabel(winners, separator = '<br>') {
-  return winners.map((w) => `${escapeHTML(w.team_name)} <span class="contest-meta">(${escapeHTML(w.manager)})</span>`).join(separator);
-}
-
 function awardIcon(name) {
   const icons = {
     crown: '<path d="M3 8.5 7.2 12l4.8-7 4.8 7L21 8.5l-1.4 9H4.4L3 8.5Z"/><path d="M5 20h14"/>',
@@ -3136,8 +3124,6 @@ async function loadState() {
       lastNextDeadline = contests.next_deadline ?? lastNextDeadline;
       lastCurrentGwFinalized = contests.current_gw_finalized ?? lastCurrentGwFinalized;
     }
-    renderRules();
-    renderChampions();
     showPanel(currentPanel);
     renderUpdatedAt(lastGeneratedAt, lastNextDeadline, lastCurrentGwFinalized);
   } finally {
@@ -3152,6 +3138,7 @@ window.addEventListener('resize', () => {
 });
 
 loadJson('data/season_history.json').then((d) => { if (d) seasonHistoryData = d; });
+renderRules();
 loadJson('data/champions_history.json').then((d) => {
   if (!d) return;
   CHAMPIONS_CLUSTERS = d;

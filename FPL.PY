@@ -283,15 +283,11 @@ def _empty_slot(seed, entry_id=None, team_name=None, manager=None):
     return {"seed": seed, "entry_id": entry_id, "team_name": team_name, "manager": manager}
 
 
-def init_bracket(league_key, start_gw=BASE_KNOCKOUT_START_GW):
-    lock_gw = start_gw - 1
-    seed_map = load_seed_list(league_key, lock_gw)
-    matches = load_or_create_bracket_draw(league_key) + load_bracket_tail()
-    offset = start_gw - BASE_KNOCKOUT_START_GW
+def _build_bracket_state(seed_map, matches, gw_for_match):
     state = {}
-    for m in matches:
+    for match in matches:
         slots = []
-        for token in m["slots"]:
+        for token in match["slots"]:
             if token.startswith("T"):
                 seed_row = seed_map.get(token)
                 slots.append(
@@ -304,14 +300,23 @@ def init_bracket(league_key, start_gw=BASE_KNOCKOUT_START_GW):
                 )
             else:
                 slots.append(_empty_slot(token))
-        state[str(m["match"])] = {
-            "gw": m["gw"] + offset,
+        state[str(match["match"])] = {
+            "gw": gw_for_match(match),
             "slots": slots,
             "winner_entry_id": None,
             "tiebreak_reason": None,
             "tiebreak_detail": None,
             "provisional": None,
         }
+    return state
+
+
+def init_bracket(league_key, start_gw=BASE_KNOCKOUT_START_GW):
+    lock_gw = start_gw - 1
+    seed_map = load_seed_list(league_key, lock_gw)
+    matches = load_or_create_bracket_draw(league_key) + load_bracket_tail()
+    offset = start_gw - BASE_KNOCKOUT_START_GW
+    state = _build_bracket_state(seed_map, matches, lambda match: match["gw"] + offset)
     path = bracket_state_path(league_key)
     write_json(path, state)
     print(f"Wrote {path} (knockout starts GW{start_gw})")
@@ -446,6 +451,7 @@ def advance_bracket(league_key, live=False):
     events = get_all_events()
     events_by_id = {e["id"]: e for e in events}
     current_event = next((e for e in events if e["is_current"]), None)
+    classic_rows = None
     classic_gw_points = None
     classic_history_cache = None
     classic_ranks_by_gw = {}
@@ -471,16 +477,19 @@ def advance_bracket(league_key, live=False):
         gw = m["gw"]
         if gw not in live_stats_by_gw:
             live_stats_by_gw[gw] = get_live_stats(gw)
-        if classic_history_cache is None:
+        if classic_rows is None:
             classic_rows = fetch_classic_standings(CLASSIC_LEAGUE_ID, top_n=None)
             classic_gw_points = {row["entry_id"]: row["gw_points"] for row in classic_rows}
-            classic_history_cache = {
-                row["entry_id"]: get_entry_history(row["entry_id"]).get("current", [])
-                for row in classic_rows
-            }
         if gw not in classic_ranks_by_gw:
-            live_lookup = classic_gw_points if is_live_now else None
-            classic_ranks_by_gw[gw] = classic_ranks_through_gw(gw, classic_history_cache, live_lookup)
+            if is_live_now:
+                classic_ranks_by_gw[gw] = {row["entry_id"]: row["rank"] for row in classic_rows}
+            else:
+                if classic_history_cache is None:
+                    classic_history_cache = {
+                        row["entry_id"]: get_entry_history(row["entry_id"]).get("current", [])
+                        for row in classic_rows
+                    }
+                classic_ranks_by_gw[gw] = classic_ranks_through_gw(gw, classic_history_cache)
         classic_ranks = classic_ranks_by_gw[gw]
 
         winner_id, reason, detail = resolve_match_winner(
@@ -745,7 +754,6 @@ def compute_contests(league_id=CLASSIC_LEAGUE_ID):
     month_scores = {}  # "August" -> {entry_id: total}
     month_gws = {}
     for gw in active_gws:
-        ev = events_by_id[gw]
         phase = _phase_for_gw(gw)
         if phase is None:
             continue
@@ -963,28 +971,11 @@ def reseed_live_classic_test(source_gw=None, label_gw=BASE_KNOCKOUT_START_GW):
     seed_list = write_seed_list("classic", rows, gw)
     seed_map = {row["seed"]: row for row in seed_list}
     matches = load_or_create_bracket_draw("classic") + load_bracket_tail()
-    state = {}
-    for m in matches:
-        slots = []
-        for token in m["slots"]:
-            if token.startswith("T"):
-                seed_row = seed_map.get(token)
-                slots.append(_empty_slot(
-                    token,
-                    seed_row["entry_id"] if seed_row else None,
-                    seed_row["team_name"] if seed_row else None,
-                    seed_row.get("manager") if seed_row else None,
-                ))
-            else:
-                slots.append(_empty_slot(token))
-        state[str(m["match"])] = {
-            "gw": gw if m["gw"] == label_gw else m["gw"],
-            "slots": slots,
-            "winner_entry_id": None,
-            "tiebreak_reason": None,
-            "tiebreak_detail": None,
-            "provisional": None,
-        }
+    state = _build_bracket_state(
+        seed_map,
+        matches,
+        lambda match: gw if match["gw"] == label_gw else match["gw"],
+    )
     path = bracket_state_path("classic")
     write_json(path, state)
     print(f"Wrote {path} (classic qualifier test: source GW{gw}, displayed as GW{label_gw})")
