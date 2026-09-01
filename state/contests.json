@@ -1,9 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-01T12:55:37.058623+00:00",
+  "generated_at": "2026-09-01T22:32:17.774379+00:00",
   "next_deadline": "2026-09-04T17:30:00Z",
-  "current_gw_finalized": false,
+  "current_gw": 2,
+  "current_gw_finalized": true,
   "updated_from_gws": [
     1,
     2
@@ -26,7 +27,7 @@
       "gw": 2,
       "points": 124,
       "shared": false,
-      "provisional": true,
+      "provisional": false,
       "winners": [
         {
           "entry_id": 2310055,
@@ -42,7 +43,7 @@
       "label": "August",
       "points": 192,
       "shared": false,
-      "provisional": true,
+      "provisional": false,
       "gameweeks": [
         1,
         2
@@ -59,7 +60,7 @@
   "king_of_the_ring": {
     "points": 124,
     "shared": false,
-    "provisional": true,
+    "provisional": false,
     "winners": [
       {
         "entry_id": 2310055,
