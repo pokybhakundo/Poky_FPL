@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-04T19:10:22.677479+00:00",
+  "generated_at": "2026-09-04T19:15:19.105493+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -39,7 +39,7 @@
     },
     {
       "gw": 3,
-      "points": 2,
+      "points": 6,
       "shared": true,
       "provisional": true,
       "winners": [
@@ -83,7 +83,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 2,
+      "points": 6,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -104,11 +104,6 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
         }
       ]
     }
