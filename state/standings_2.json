@@ -43,14 +43,6 @@
     },
     {
       "rank": 6,
-      "entry_id": 1966033,
-      "team_name": "Or3gonian",
-      "manager": "Biraj Shakya",
-      "gw_points": 108,
-      "total_points": 177
-    },
-    {
-      "rank": 6,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -58,12 +50,12 @@
       "total_points": 177
     },
     {
-      "rank": 8,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 106,
-      "total_points": 176
+      "rank": 6,
+      "entry_id": 1966033,
+      "team_name": "Or3gonian",
+      "manager": "Biraj Shakya",
+      "gw_points": 108,
+      "total_points": 177
     },
     {
       "rank": 8,
@@ -71,6 +63,14 @@
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 91,
+      "total_points": 176
+    },
+    {
+      "rank": 8,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 106,
       "total_points": 176
     },
     {
