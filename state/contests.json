@@ -1,13 +1,14 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-04T17:25:19.018461+00:00",
-  "next_deadline": "2026-09-04T17:30:00Z",
-  "current_gw": 2,
-  "current_gw_finalized": true,
+  "generated_at": "2026-09-04T18:20:24.993423+00:00",
+  "next_deadline": "2026-09-12T12:30:00Z",
+  "current_gw": 3,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
-    2
+    2,
+    3
   ],
   "manager_of_the_week": [
     {
@@ -35,6 +36,19 @@
           "manager": "Sabin Shrestha"
         }
       ]
+    },
+    {
+      "gw": 3,
+      "points": 124,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 2310055,
+          "team_name": "NetSix&Chill FC",
+          "manager": "Sabin Shrestha"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -55,18 +69,42 @@
           "manager": "Swapnil Tiwari"
         }
       ]
+    },
+    {
+      "month": "September",
+      "label": "September",
+      "points": 124,
+      "shared": false,
+      "provisional": true,
+      "gameweeks": [
+        3
+      ],
+      "winners": [
+        {
+          "entry_id": 2310055,
+          "team_name": "NetSix&Chill FC",
+          "manager": "Sabin Shrestha"
+        }
+      ]
     }
   ],
   "king_of_the_ring": {
     "points": 124,
-    "shared": false,
-    "provisional": false,
+    "shared": true,
+    "provisional": true,
     "winners": [
       {
         "entry_id": 2310055,
         "team_name": "NetSix&Chill FC",
         "manager": "Sabin Shrestha",
         "gw": 2,
+        "points": 124
+      },
+      {
+        "entry_id": 2310055,
+        "team_name": "NetSix&Chill FC",
+        "manager": "Sabin Shrestha",
+        "gw": 3,
         "points": 124
       }
     ]
