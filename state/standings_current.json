@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-04T20:02:13.771181+00:00",
+  "generated_at": "2026-09-04T20:05:28.433968+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 9,
-      "total_points": 177
-    },
-    {
-      "rank": 9,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 1,
+      "total_points": 177
+    },
+    {
+      "rank": 9,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 9,
       "total_points": 177
     },
     {
@@ -236,17 +236,17 @@
     },
     {
       "rank": 30,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
       "gw_points": 1,
       "total_points": 135
     },
     {
       "rank": 30,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
       "gw_points": 1,
       "total_points": 135
     },
