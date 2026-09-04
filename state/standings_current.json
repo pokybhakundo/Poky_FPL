@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-04T19:20:24.061063+00:00",
+  "generated_at": "2026-09-04T19:25:18.709478+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,24 +15,24 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 10,
-      "total_points": 189
+      "gw_points": 13,
+      "total_points": 192
     },
     {
       "rank": 3,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 10,
-      "total_points": 188
+      "gw_points": 13,
+      "total_points": 191
     },
     {
       "rank": 4,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gw_points": 10,
-      "total_points": 187
+      "gw_points": 13,
+      "total_points": 190
     },
     {
       "rank": 5,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 7,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 9,
+      "total_points": 179
+    },
+    {
+      "rank": 8,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -59,15 +67,7 @@
       "total_points": 178
     },
     {
-      "rank": 8,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 7,
-      "total_points": 177
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -75,20 +75,20 @@
       "total_points": 177
     },
     {
-      "rank": 10,
+      "rank": 9,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 9,
+      "total_points": 177
+    },
+    {
+      "rank": 11,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 1,
       "total_points": 177
-    },
-    {
-      "rank": 11,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 7,
-      "total_points": 175
     },
     {
       "rank": 12,
@@ -103,8 +103,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 7,
-      "total_points": 165
+      "gw_points": 9,
+      "total_points": 167
     },
     {
       "rank": 14,
@@ -183,24 +183,24 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 9,
+      "gw_points": 12,
+      "total_points": 150
+    },
+    {
+      "rank": 24,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 12,
       "total_points": 147
     },
     {
-      "rank": 23,
+      "rank": 25,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 1,
       "total_points": 147
-    },
-    {
-      "rank": 25,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 9,
-      "total_points": 144
     },
     {
       "rank": 26,
@@ -223,8 +223,8 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 7,
-      "total_points": 138
+      "gw_points": 9,
+      "total_points": 140
     },
     {
       "rank": 29,
