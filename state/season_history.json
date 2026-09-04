@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:35:29.193366+00:00",
+  "generated_at": "2026-09-04T23:40:27.655982+00:00",
   "entries": {
     "33334": {
       "entry_id": 33334,
@@ -357,48 +357,6 @@
         }
       ]
     },
-    "1575639": {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2340,
-          "rank": 69708
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2361,
-          "rank": 875811
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2341,
-          "rank": 702498
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2537,
-          "rank": 79860
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2538,
-          "rank": 60387
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2300,
-          "rank": 362919
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 727,
-          "rank": 7321641
-        }
-      ]
-    },
     "395170": {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
@@ -463,6 +421,48 @@
           "season_name": "2014/15",
           "total_points": 1557,
           "rank": 2308544
+        }
+      ]
+    },
+    "1575639": {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2340,
+          "rank": 69708
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2361,
+          "rank": 875811
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2341,
+          "rank": 702498
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2537,
+          "rank": 79860
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2538,
+          "rank": 60387
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2300,
+          "rank": 362919
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 727,
+          "rank": 7321641
         }
       ]
     },
