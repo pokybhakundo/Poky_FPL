@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:20:25.634544+00:00",
+  "generated_at": "2026-09-04T20:25:16.606644+00:00",
   "entries": {
     "33334": {
       "entry_id": 33334,
@@ -357,6 +357,73 @@
         }
       ]
     },
+    "395170": {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2129,
+          "rank": 1819440
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2409,
+          "rank": 515009
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2187,
+          "rank": 2358800
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2310,
+          "rank": 1421600
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2377,
+          "rank": 375247
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2270,
+          "rank": 497786
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2306,
+          "rank": 42733
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2329,
+          "rank": 34222
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2104,
+          "rank": 470547
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 2097,
+          "rank": 248817
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1626,
+          "rank": 2485985
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1557,
+          "rank": 2308544
+        }
+      ]
+    },
     "1575639": {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
@@ -463,73 +530,6 @@
           "season_name": "2014/15",
           "total_points": 1823,
           "rank": 988226
-        }
-      ]
-    },
-    "395170": {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2129,
-          "rank": 1819440
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2409,
-          "rank": 515009
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2187,
-          "rank": 2358800
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2310,
-          "rank": 1421600
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2377,
-          "rank": 375247
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2270,
-          "rank": 497786
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2306,
-          "rank": 42733
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2329,
-          "rank": 34222
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2104,
-          "rank": 470547
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 2097,
-          "rank": 248817
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1626,
-          "rank": 2485985
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1557,
-          "rank": 2308544
         }
       ]
     },
@@ -910,6 +910,53 @@
         }
       ]
     },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
+        }
+      ]
+    },
     "4048482": {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
@@ -966,53 +1013,6 @@
           "season_name": "2021/22",
           "total_points": 2112,
           "rank": 1826181
-        }
-      ]
-    },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
         }
       ]
     },
@@ -1230,6 +1230,33 @@
         }
       ]
     },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
+        }
+      ]
+    },
     "969893": {
       "entry_id": 969893,
       "team_name": "Team Utthan",
@@ -1264,33 +1291,6 @@
           "season_name": "2020/21",
           "total_points": 2121,
           "rank": 1520478
-        }
-      ]
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
         }
       ]
     },
@@ -1357,23 +1357,6 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
-        }
-      ]
-    },
     "2798038": {
       "entry_id": 2798038,
       "team_name": "CookedRice",
@@ -1428,6 +1411,23 @@
           "season_name": "2016/17",
           "total_points": 1899,
           "rank": 1172988
+        }
+      ]
+    },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-04T20:20:25.634047+00:00",
+  "generated_at": "2026-09-04T20:25:16.606166+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -39,7 +39,7 @@
     },
     {
       "gw": 3,
-      "points": 14,
+      "points": 16,
       "shared": true,
       "provisional": true,
       "winners": [
@@ -47,6 +47,11 @@
           "entry_id": 1845615,
           "team_name": "Kylian Dictator",
           "manager": "Rakesh Itani"
+        },
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
         },
         {
           "entry_id": 2310055,
@@ -78,7 +83,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 14,
+      "points": 16,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -94,6 +99,11 @@
           "entry_id": 2310055,
           "team_name": "NetSix&Chill FC",
           "manager": "Sabin Shrestha"
+        },
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
         }
       ]
     }
