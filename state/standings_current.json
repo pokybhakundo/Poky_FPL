@@ -1,6 +1,6 @@
 {
   "gw": 2,
-  "generated_at": "2026-09-04T17:20:29.198816+00:00",
+  "generated_at": "2026-09-04T17:25:19.540706+00:00",
   "classic": [
     {
       "rank": 1,
@@ -60,18 +60,18 @@
     },
     {
       "rank": 8,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 91,
-      "total_points": 176
-    },
-    {
-      "rank": 8,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 106,
+      "total_points": 176
+    },
+    {
+      "rank": 8,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 91,
       "total_points": 176
     },
     {
