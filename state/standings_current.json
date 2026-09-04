@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-04T20:45:19.889377+00:00",
+  "generated_at": "2026-09-04T20:50:28.750159+00:00",
   "classic": [
     {
       "rank": 1,
@@ -143,16 +143,8 @@
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 4,
-      "total_points": 157
-    },
-    {
-      "rank": 19,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 3,
-      "total_points": 156
+      "gw_points": 6,
+      "total_points": 159
     },
     {
       "rank": 19,
@@ -160,6 +152,14 @@
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 0,
+      "total_points": 156
+    },
+    {
+      "rank": 19,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 3,
       "total_points": 156
     },
     {
@@ -236,17 +236,17 @@
     },
     {
       "rank": 30,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
       "gw_points": 3,
       "total_points": 137
     },
     {
       "rank": 30,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
       "gw_points": 3,
       "total_points": 137
     },
@@ -263,8 +263,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 1,
-      "total_points": 127
+      "gw_points": 3,
+      "total_points": 129
     },
     {
       "rank": 34,
