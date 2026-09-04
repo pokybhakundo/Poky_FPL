@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-04T21:10:24.685108+00:00",
+  "generated_at": "2026-09-04T21:15:28.835302+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 3,
-      "total_points": 179
-    },
-    {
-      "rank": 9,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 11,
+      "total_points": 179
+    },
+    {
+      "rank": 9,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 3,
       "total_points": 179
     },
     {
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 0,
-      "total_points": 156
-    },
-    {
-      "rank": 19,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 3,
+      "total_points": 156
+    },
+    {
+      "rank": 19,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 0,
       "total_points": 156
     },
     {
