@@ -43,18 +43,18 @@
     },
     {
       "rank": 6,
-      "entry_id": 1966033,
-      "team_name": "Or3gonian",
-      "manager": "Biraj Shakya",
-      "gw_points": 108,
-      "total_points": 177
-    },
-    {
-      "rank": 6,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 98,
+      "total_points": 177
+    },
+    {
+      "rank": 6,
+      "entry_id": 1966033,
+      "team_name": "Or3gonian",
+      "manager": "Biraj Shakya",
+      "gw_points": 108,
       "total_points": 177
     },
     {
