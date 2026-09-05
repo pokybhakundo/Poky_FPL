@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:20:18.691917+00:00",
+  "generated_at": "2026-09-05T11:25:17.845897+00:00",
   "entries": {
     "33334": {
       "entry_id": 33334,
@@ -957,33 +957,6 @@
         }
       ]
     },
-    "4048482": {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2197,
-          "rank": 931100
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2095,
-          "rank": 4345394
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2184,
-          "rank": 2392396
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2409,
-          "rank": 593509
-        }
-      ]
-    },
     "1913463": {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
@@ -1013,6 +986,33 @@
           "season_name": "2021/22",
           "total_points": 2112,
           "rank": 1826181
+        }
+      ]
+    },
+    "4048482": {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2197,
+          "rank": 931100
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2095,
+          "rank": 4345394
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2184,
+          "rank": 2392396
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2409,
+          "rank": 593509
         }
       ]
     },
@@ -1357,6 +1357,23 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
+        }
+      ]
+    },
     "2798038": {
       "entry_id": 2798038,
       "team_name": "CookedRice",
@@ -1411,23 +1428,6 @@
           "season_name": "2016/17",
           "total_points": 1899,
           "rank": 1172988
-        }
-      ]
-    },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
         }
       ]
     },
