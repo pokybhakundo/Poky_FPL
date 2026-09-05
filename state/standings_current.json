@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T18:02:13.967307+00:00",
+  "generated_at": "2026-09-05T18:05:22.501404+00:00",
   "classic": [
     {
       "rank": 1,
@@ -159,8 +159,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 55,
-      "total_points": 190
+      "gw_points": 54,
+      "total_points": 189
     },
     {
       "rank": 21,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 27,
-      "total_points": 188
-    },
-    {
-      "rank": 23,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 42,
+      "total_points": 188
+    },
+    {
+      "rank": 23,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 27,
       "total_points": 188
     },
     {
