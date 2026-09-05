@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:15:19.219305+00:00",
+  "generated_at": "2026-09-05T15:20:23.177234+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -533,6 +533,53 @@
         }
       ]
     },
+    "5917809": {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1772,
+          "rank": 8077899
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1870,
+          "rank": 6362442
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2205,
+          "rank": 2631584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1919,
+          "rank": 3575952
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1814,
+          "rank": 4371524
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2041,
+          "rank": 1453200
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1981,
+          "rank": 2113798
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1921,
+          "rank": 1836480
+        }
+      ]
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -782,53 +829,6 @@
       "manager": "Karna Karki",
       "seasons": []
     },
-    "5917809": {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1772,
-          "rank": 8077899
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 1870,
-          "rank": 6362442
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2205,
-          "rank": 2631584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1919,
-          "rank": 3575952
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1814,
-          "rank": 4371524
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2041,
-          "rank": 1453200
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1981,
-          "rank": 2113798
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1921,
-          "rank": 1836480
-        }
-      ]
-    },
     "228817": {
       "entry_id": 228817,
       "team_name": "4toothee1",
@@ -906,58 +906,6 @@
         }
       ]
     },
-    "75325": {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2193,
-          "rank": 969552
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 486643
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2257,
-          "rank": 1479159
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2273,
-          "rank": 1818278
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1963,
-          "rank": 2978500
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2118,
-          "rank": 770267
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2160,
-          "rank": 446177
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1856,
-          "rank": 2376437
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1732,
-          "rank": 2284233
-        }
-      ]
-    },
     "3769764": {
       "entry_id": 3769764,
       "team_name": "XabiBaby",
@@ -1012,6 +960,58 @@
           "season_name": "2013/14",
           "total_points": 249,
           "rank": 3194089
+        }
+      ]
+    },
+    "75325": {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2193,
+          "rank": 969552
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2413,
+          "rank": 486643
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2257,
+          "rank": 1479159
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2273,
+          "rank": 1818278
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1963,
+          "rank": 2978500
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2118,
+          "rank": 770267
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2160,
+          "rank": 446177
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1856,
+          "rank": 2376437
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1732,
+          "rank": 2284233
         }
       ]
     },
@@ -1268,6 +1268,48 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
+    "2435657": {
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2113,
+          "rank": 2058309
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2180,
+          "rank": 3139666
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1934,
+          "rank": 5587691
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2237,
+          "rank": 2242880
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2027,
+          "rank": 2543198
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1828,
+          "rank": 4249101
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1125,
+          "rank": 7065574
+        }
+      ]
+    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -1428,48 +1470,6 @@
           "season_name": "2024/25",
           "total_points": 2297,
           "rank": 1545990
-        }
-      ]
-    },
-    "2435657": {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2113,
-          "rank": 2058309
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2180,
-          "rank": 3139666
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 1934,
-          "rank": 5587691
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2237,
-          "rank": 2242880
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2027,
-          "rank": 2543198
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1828,
-          "rank": 4249101
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1125,
-          "rank": 7065574
         }
       ]
     },
