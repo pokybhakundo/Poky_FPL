@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T17:50:21.049175+00:00",
+  "generated_at": "2026-09-05T17:55:16.293683+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,6 +148,22 @@
     },
     {
       "rank": 19,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 41,
+      "total_points": 191
+    },
+    {
+      "rank": 20,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 55,
+      "total_points": 190
+    },
+    {
+      "rank": 21,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -155,7 +171,7 @@
       "total_points": 189
     },
     {
-      "rank": 20,
+      "rank": 22,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -163,7 +179,7 @@
       "total_points": 188
     },
     {
-      "rank": 21,
+      "rank": 23,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -171,7 +187,7 @@
       "total_points": 188
     },
     {
-      "rank": 21,
+      "rank": 23,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -179,15 +195,7 @@
       "total_points": 188
     },
     {
-      "rank": 23,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 36,
-      "total_points": 186
-    },
-    {
-      "rank": 24,
+      "rank": 25,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -195,20 +203,12 @@
       "total_points": 183
     },
     {
-      "rank": 25,
+      "rank": 26,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 27,
       "total_points": 180
-    },
-    {
-      "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 44,
-      "total_points": 179
     },
     {
       "rank": 27,
@@ -236,6 +236,14 @@
     },
     {
       "rank": 30,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 40,
+      "total_points": 171
+    },
+    {
+      "rank": 31,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
@@ -243,20 +251,12 @@
       "total_points": 171
     },
     {
-      "rank": 31,
+      "rank": 32,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
       "gw_points": 30,
       "total_points": 168
-    },
-    {
-      "rank": 32,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 35,
-      "total_points": 166
     },
     {
       "rank": 33,
