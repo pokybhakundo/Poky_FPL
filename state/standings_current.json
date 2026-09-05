@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T15:02:22.398890+00:00",
+  "generated_at": "2026-09-05T15:05:21.533047+00:00",
   "classic": [
     {
       "rank": 1,
@@ -228,18 +228,18 @@
     },
     {
       "rank": 29,
-      "entry_id": 1955412,
-      "team_name": "EGO AJT YAMAL 0.786",
-      "manager": "MESSI GOAT",
-      "gw_points": 21,
-      "total_points": 159
-    },
-    {
-      "rank": 29,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 25,
+      "total_points": 159
+    },
+    {
+      "rank": 29,
+      "entry_id": 1955412,
+      "team_name": "EGO AJT YAMAL 0.786",
+      "manager": "MESSI GOAT",
+      "gw_points": 21,
       "total_points": 159
     },
     {
