@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T12:55:23.500623+00:00",
+  "generated_at": "2026-09-05T13:00:38.159938+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 3,
-      "total_points": 184
-    },
-    {
-      "rank": 7,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 16,
+      "total_points": 184
+    },
+    {
+      "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 3,
       "total_points": 184
     },
     {
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 3,
-      "total_points": 163
-    },
-    {
-      "rank": 15,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 10,
+      "total_points": 163
+    },
+    {
+      "rank": 15,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 3,
       "total_points": 163
     },
     {
