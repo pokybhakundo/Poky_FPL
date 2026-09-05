@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T05:35:16.907905+00:00",
+  "generated_at": "2026-09-05T05:40:19.346804+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 3,
-      "total_points": 179
-    },
-    {
-      "rank": 9,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 11,
+      "total_points": 179
+    },
+    {
+      "rank": 9,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 3,
       "total_points": 179
     },
     {
