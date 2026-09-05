@@ -453,16 +453,16 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
-          "gw_points": 3,
+          "gw_points": 10,
           "goals_scored": 0,
           "goals_conceded": 0,
           "classic_rank": 11
         },
         "entry_b": {
           "entry_id": 3309536,
-          "gw_points": 7,
+          "gw_points": 14,
           "goals_scored": 0,
-          "goals_conceded": 2,
+          "goals_conceded": 3,
           "classic_rank": 5
         }
       },
@@ -489,16 +489,16 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 36783,
-          "gw_points": 3,
+          "gw_points": 10,
           "goals_scored": 0,
-          "goals_conceded": 0,
+          "goals_conceded": 1,
           "classic_rank": 7
         },
         "entry_b": {
           "entry_id": 1845615,
-          "gw_points": 16,
+          "gw_points": 24,
           "goals_scored": 2,
-          "goals_conceded": 0,
+          "goals_conceded": 2,
           "classic_rank": 2
         }
       },
@@ -525,17 +525,17 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 33334,
-          "gw_points": 4,
+          "gw_points": 12,
           "goals_scored": 0,
-          "goals_conceded": 2,
+          "goals_conceded": 4,
           "classic_rank": 1
         },
         "entry_b": {
           "entry_id": 1966033,
-          "gw_points": 16,
+          "gw_points": 24,
           "goals_scored": 2,
-          "goals_conceded": 0,
-          "classic_rank": 4
+          "goals_conceded": 3,
+          "classic_rank": 3
         }
       },
       "provisional": true
@@ -561,16 +561,16 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 1548786,
-          "gw_points": 4,
+          "gw_points": 13,
           "goals_scored": 0,
-          "goals_conceded": 2,
+          "goals_conceded": 4,
           "classic_rank": 9
         },
         "entry_b": {
           "entry_id": 1575639,
-          "gw_points": 3,
+          "gw_points": 10,
           "goals_scored": 0,
-          "goals_conceded": 0,
+          "goals_conceded": 1,
           "classic_rank": 10
         }
       },

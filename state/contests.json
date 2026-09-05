@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-05T14:05:21.755903+00:00",
+  "generated_at": "2026-09-05T14:10:21.587554+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -39,24 +39,14 @@
     },
     {
       "gw": 3,
-      "points": 16,
-      "shared": true,
+      "points": 24,
+      "shared": false,
       "provisional": true,
       "winners": [
         {
           "entry_id": 1845615,
           "team_name": "Kylian Dictator",
           "manager": "Rakesh Itani"
-        },
-        {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 2310055,
-          "team_name": "NetSix&Chill FC",
-          "manager": "Sabin Shrestha"
         }
       ]
     }
@@ -83,7 +73,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 16,
+      "points": 24,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -96,11 +86,6 @@
           "manager": "Rakesh Itani"
         },
         {
-          "entry_id": 2310055,
-          "team_name": "NetSix&Chill FC",
-          "manager": "Sabin Shrestha"
-        },
-        {
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
@@ -109,11 +94,6 @@
           "entry_id": 254926,
           "team_name": "Vrum Vrummmmmm",
           "manager": "Mahesh Acharya"
-        },
-        {
-          "entry_id": 395170,
-          "team_name": "Idaho Potatoes XI",
-          "manager": "Rajesh Baduwal"
         }
       ]
     }
