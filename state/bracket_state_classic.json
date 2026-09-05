@@ -447,7 +447,7 @@
         "manager": "Anil Ghimire"
       }
     ],
-    "winner_entry_id": 3309536,
+    "winner_entry_id": 464574,
     "tiebreak_reason": "gw_points",
     "tiebreak_detail": {
       "entry_a": {
@@ -455,14 +455,14 @@
         "gw_points": 39,
         "goals_scored": 1,
         "goals_conceded": 3,
-        "classic_rank": 10
+        "classic_rank": 11
       },
       "entry_b": {
         "entry_id": 3309536,
-        "gw_points": 45,
+        "gw_points": 36,
         "goals_scored": 1,
         "goals_conceded": 5,
-        "classic_rank": 2
+        "classic_rank": 8
       }
     },
     "provisional": true
@@ -488,14 +488,14 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 36783,
-        "gw_points": 37,
+        "gw_points": 43,
         "goals_scored": 1,
         "goals_conceded": 3,
-        "classic_rank": 8
+        "classic_rank": 6
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 56,
+        "gw_points": 63,
         "goals_scored": 3,
         "goals_conceded": 2,
         "classic_rank": 1
@@ -524,17 +524,17 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 33334,
-        "gw_points": 34,
+        "gw_points": 47,
         "goals_scored": 1,
         "goals_conceded": 3,
-        "classic_rank": 4
+        "classic_rank": 2
       },
       "entry_b": {
         "entry_id": 1966033,
-        "gw_points": 45,
+        "gw_points": 52,
         "goals_scored": 3,
         "goals_conceded": 2,
-        "classic_rank": 5
+        "classic_rank": 4
       }
     },
     "provisional": true
@@ -560,17 +560,17 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 1548786,
-        "gw_points": 44,
+        "gw_points": 50,
         "goals_scored": 1,
         "goals_conceded": 5,
-        "classic_rank": 7
+        "classic_rank": 5
       },
       "entry_b": {
         "entry_id": 1575639,
-        "gw_points": 36,
+        "gw_points": 42,
         "goals_scored": 1,
         "goals_conceded": 3,
-        "classic_rank": 11
+        "classic_rank": 9
       }
     },
     "provisional": true
@@ -580,9 +580,9 @@
     "slots": [
       {
         "seed": "winner:13",
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire"
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai"
       },
       {
         "seed": "winner:14",
