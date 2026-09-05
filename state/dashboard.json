@@ -448,8 +448,8 @@
           "manager": "Anil Ghimire"
         }
       ],
-      "winner_entry_id": 3309536,
-      "tiebreak_reason": "gw_points",
+      "winner_entry_id": 464574,
+      "tiebreak_reason": "goals_conceded",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
@@ -460,9 +460,9 @@
         },
         "entry_b": {
           "entry_id": 3309536,
-          "gw_points": 4,
+          "gw_points": 3,
           "goals_scored": 0,
-          "goals_conceded": 1,
+          "goals_conceded": 2,
           "classic_rank": 5
         }
       },
@@ -527,7 +527,7 @@
           "entry_id": 33334,
           "gw_points": 4,
           "goals_scored": 0,
-          "goals_conceded": 1,
+          "goals_conceded": 2,
           "classic_rank": 1
         },
         "entry_b": {
@@ -563,8 +563,8 @@
           "entry_id": 1548786,
           "gw_points": 4,
           "goals_scored": 0,
-          "goals_conceded": 1,
-          "classic_rank": 9
+          "goals_conceded": 2,
+          "classic_rank": 8
         },
         "entry_b": {
           "entry_id": 1575639,
@@ -581,9 +581,9 @@
       "slots": [
         {
           "seed": "winner:13",
-          "entry_id": 3309536,
-          "team_name": "Everest Eleven",
-          "manager": "Anil Ghimire"
+          "entry_id": 464574,
+          "team_name": "The Carrick Masters",
+          "manager": "Mohan S Madai"
         },
         {
           "seed": "winner:14",
