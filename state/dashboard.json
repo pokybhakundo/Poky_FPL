@@ -462,7 +462,7 @@
           "entry_id": 3309536,
           "gw_points": 4,
           "goals_scored": 0,
-          "goals_conceded": 0,
+          "goals_conceded": 1,
           "classic_rank": 5
         }
       },
@@ -527,7 +527,7 @@
           "entry_id": 33334,
           "gw_points": 4,
           "goals_scored": 0,
-          "goals_conceded": 0,
+          "goals_conceded": 1,
           "classic_rank": 1
         },
         "entry_b": {
@@ -563,7 +563,7 @@
           "entry_id": 1548786,
           "gw_points": 4,
           "goals_scored": 0,
-          "goals_conceded": 0,
+          "goals_conceded": 1,
           "classic_rank": 9
         },
         "entry_b": {
