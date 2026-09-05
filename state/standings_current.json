@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T14:15:19.224635+00:00",
+  "generated_at": "2026-09-05T14:20:30.590345+00:00",
   "classic": [
     {
       "rank": 1,
@@ -155,15 +155,7 @@
       "total_points": 163
     },
     {
-      "rank": 19,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 17,
-      "total_points": 163
-    },
-    {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -171,7 +163,7 @@
       "total_points": 161
     },
     {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -179,7 +171,7 @@
       "total_points": 161
     },
     {
-      "rank": 23,
+      "rank": 22,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -187,11 +179,19 @@
       "total_points": 159
     },
     {
-      "rank": 24,
+      "rank": 23,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 7,
+      "total_points": 157
+    },
+    {
+      "rank": 24,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 11,
       "total_points": 157
     },
     {
