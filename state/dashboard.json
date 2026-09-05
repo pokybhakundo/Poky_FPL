@@ -460,7 +460,7 @@
         },
         "entry_b": {
           "entry_id": 3309536,
-          "gw_points": 6,
+          "gw_points": 7,
           "goals_scored": 0,
           "goals_conceded": 2,
           "classic_rank": 5
@@ -492,7 +492,7 @@
           "gw_points": 3,
           "goals_scored": 0,
           "goals_conceded": 0,
-          "classic_rank": 6
+          "classic_rank": 7
         },
         "entry_b": {
           "entry_id": 1845615,
@@ -525,7 +525,7 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 33334,
-          "gw_points": 3,
+          "gw_points": 4,
           "goals_scored": 0,
           "goals_conceded": 2,
           "classic_rank": 1
@@ -556,12 +556,12 @@
           "manager": "Ganesh Sapkota"
         }
       ],
-      "winner_entry_id": 1575639,
-      "tiebreak_reason": "goals_conceded",
+      "winner_entry_id": 1548786,
+      "tiebreak_reason": "gw_points",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 1548786,
-          "gw_points": 3,
+          "gw_points": 4,
           "goals_scored": 0,
           "goals_conceded": 2,
           "classic_rank": 9
@@ -608,9 +608,9 @@
         },
         {
           "seed": "winner:16",
-          "entry_id": 1575639,
-          "team_name": "SpecialOne",
-          "manager": "Ganesh Sapkota"
+          "entry_id": 1548786,
+          "team_name": "ThunderYeti",
+          "manager": "Samir Gyawali"
         }
       ],
       "winner_entry_id": null,

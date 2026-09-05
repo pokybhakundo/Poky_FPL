@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-05T12:50:23.409429+00:00",
+  "generated_at": "2026-09-05T12:55:22.547692+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -104,6 +104,16 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
+        },
+        {
+          "entry_id": 254926,
+          "team_name": "Vrum Vrummmmmm",
+          "manager": "Mahesh Acharya"
+        },
+        {
+          "entry_id": 395170,
+          "team_name": "Idaho Potatoes XI",
+          "manager": "Rajesh Baduwal"
         }
       ]
     }
