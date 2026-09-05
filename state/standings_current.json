@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T17:10:19.928692+00:00",
+  "generated_at": "2026-09-05T17:15:22.148272+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 40,
-      "total_points": 200
-    },
-    {
-      "rank": 13,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 48,
+      "total_points": 200
+    },
+    {
+      "rank": 13,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 40,
       "total_points": 200
     },
     {
@@ -164,18 +164,18 @@
     },
     {
       "rank": 21,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 27,
-      "total_points": 188
-    },
-    {
-      "rank": 21,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 42,
+      "total_points": 188
+    },
+    {
+      "rank": 21,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 27,
       "total_points": 188
     },
     {
@@ -196,19 +196,19 @@
     },
     {
       "rank": 25,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 46,
-      "total_points": 181
-    },
-    {
-      "rank": 26,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 27,
       "total_points": 180
+    },
+    {
+      "rank": 26,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 44,
+      "total_points": 179
     },
     {
       "rank": 27,
@@ -255,8 +255,8 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 36,
-      "total_points": 167
+      "gw_points": 35,
+      "total_points": 166
     },
     {
       "rank": 33,
