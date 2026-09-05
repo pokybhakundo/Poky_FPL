@@ -1,14 +1,14 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T15:05:21.533047+00:00",
+  "generated_at": "2026-09-05T15:10:19.972226+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 45,
-      "total_points": 224
+      "gw_points": 44,
+      "total_points": 223
     },
     {
       "rank": 2,
@@ -23,32 +23,32 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 44,
-      "total_points": 222
+      "gw_points": 43,
+      "total_points": 221
     },
     {
       "rank": 4,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gw_points": 41,
-      "total_points": 218
+      "gw_points": 40,
+      "total_points": 217
     },
     {
       "rank": 5,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gw_points": 38,
-      "total_points": 215
+      "gw_points": 36,
+      "total_points": 213
     },
     {
       "rank": 6,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 32,
-      "total_points": 213
+      "gw_points": 31,
+      "total_points": 212
     },
     {
       "rank": 7,
@@ -68,14 +68,6 @@
     },
     {
       "rank": 9,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 31,
-      "total_points": 207
-    },
-    {
-      "rank": 10,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -83,7 +75,15 @@
       "total_points": 207
     },
     {
-      "rank": 11,
+      "rank": 10,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 30,
+      "total_points": 206
+    },
+    {
+      "rank": 10,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -123,12 +123,12 @@
       "total_points": 186
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gw_points": 34,
-      "total_points": 186
+      "gw_points": 33,
+      "total_points": 185
     },
     {
       "rank": 17,
@@ -175,8 +175,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 23,
-      "total_points": 176
+      "gw_points": 22,
+      "total_points": 175
     },
     {
       "rank": 23,
@@ -207,8 +207,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 12,
-      "total_points": 168
+      "gw_points": 11,
+      "total_points": 167
     },
     {
       "rank": 27,
@@ -231,27 +231,19 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 25,
-      "total_points": 159
+      "gw_points": 26,
+      "total_points": 160
     },
     {
-      "rank": 29,
+      "rank": 30,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 21,
-      "total_points": 159
+      "gw_points": 20,
+      "total_points": 158
     },
     {
       "rank": 31,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 30,
-      "total_points": 156
-    },
-    {
-      "rank": 32,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
@@ -259,12 +251,20 @@
       "total_points": 156
     },
     {
+      "rank": 32,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 29,
+      "total_points": 155
+    },
+    {
       "rank": 33,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 26,
-      "total_points": 153
+      "gw_points": 27,
+      "total_points": 154
     },
     {
       "rank": 34,
