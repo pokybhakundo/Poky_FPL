@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T14:55:22.017862+00:00",
+  "generated_at": "2026-09-05T15:00:27.120460+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "gw_points": 34,
-      "total_points": 186
-    },
-    {
-      "rank": 15,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 33,
+      "total_points": 186
+    },
+    {
+      "rank": 15,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "gw_points": 34,
       "total_points": 186
     },
     {

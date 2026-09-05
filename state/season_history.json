@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:55:21.283079+00:00",
+  "generated_at": "2026-09-05T15:00:26.733813+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -729,12 +729,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
     "4122498": {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
@@ -781,6 +775,12 @@
           "rank": 3150399
         }
       ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "5917809": {
       "entry_id": 5917809,
