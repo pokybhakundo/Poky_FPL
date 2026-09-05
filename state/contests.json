@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-05T14:10:21.587554+00:00",
+  "generated_at": "2026-09-05T14:15:18.853469+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -40,13 +40,18 @@
     {
       "gw": 3,
       "points": 24,
-      "shared": false,
+      "shared": true,
       "provisional": true,
       "winners": [
         {
           "entry_id": 1845615,
           "team_name": "Kylian Dictator",
           "manager": "Rakesh Itani"
+        },
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
         }
       ]
     }

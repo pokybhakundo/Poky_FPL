@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T14:10:22.165313+00:00",
+  "generated_at": "2026-09-05T14:15:19.224635+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 10,
-      "total_points": 191
-    },
-    {
-      "rank": 7,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 23,
+      "total_points": 191
+    },
+    {
+      "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 10,
       "total_points": 191
     },
     {
@@ -155,15 +155,15 @@
       "total_points": 163
     },
     {
-      "rank": 20,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 8,
-      "total_points": 161
+      "rank": 19,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 17,
+      "total_points": 163
     },
     {
-      "rank": 20,
+      "rank": 21,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -171,7 +171,15 @@
       "total_points": 161
     },
     {
-      "rank": 22,
+      "rank": 21,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 8,
+      "total_points": 161
+    },
+    {
+      "rank": 23,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -179,19 +187,11 @@
       "total_points": 159
     },
     {
-      "rank": 23,
+      "rank": 24,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 7,
-      "total_points": 157
-    },
-    {
-      "rank": 24,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 11,
       "total_points": 157
     },
     {
