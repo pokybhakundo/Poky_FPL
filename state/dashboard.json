@@ -456,11 +456,11 @@
           "gw_points": 31,
           "goals_scored": 1,
           "goals_conceded": 3,
-          "classic_rank": 10
+          "classic_rank": 9
         },
         "entry_b": {
           "entry_id": 3309536,
-          "gw_points": 27,
+          "gw_points": 26,
           "goals_scored": 1,
           "goals_conceded": 4,
           "classic_rank": 7
@@ -496,7 +496,7 @@
         },
         "entry_b": {
           "entry_id": 1845615,
-          "gw_points": 45,
+          "gw_points": 44,
           "goals_scored": 3,
           "goals_conceded": 2,
           "classic_rank": 1
@@ -568,10 +568,10 @@
         },
         "entry_b": {
           "entry_id": 1575639,
-          "gw_points": 31,
+          "gw_points": 30,
           "goals_scored": 1,
           "goals_conceded": 2,
-          "classic_rank": 8
+          "classic_rank": 10
         }
       },
       "provisional": true
