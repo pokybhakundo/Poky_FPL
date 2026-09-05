@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:40:23.088315+00:00",
+  "generated_at": "2026-09-05T17:45:18.807674+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -1157,6 +1157,38 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1896,
+          "rank": 5984966
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2242,
+          "rank": 2250336
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2277,
+          "rank": 1262608
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2383,
+          "rank": 776057
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2112,
+          "rank": 1826181
+        }
+      ]
+    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1206,38 +1238,6 @@
           "season_name": "2016/17",
           "total_points": 690,
           "rank": 4334534
-        }
-      ]
-    },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
         }
       ]
     },
