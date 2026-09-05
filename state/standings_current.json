@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T15:55:23.432951+00:00",
+  "generated_at": "2026-09-05T16:00:29.193427+00:00",
   "classic": [
     {
       "rank": 1,
@@ -95,19 +95,19 @@
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 52,
-      "total_points": 205
+      "gw_points": 54,
+      "total_points": 207
     },
     {
       "rank": 13,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gw_points": 49,
-      "total_points": 201
+      "gw_points": 48,
+      "total_points": 200
     },
     {
-      "rank": 14,
+      "rank": 13,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -247,8 +247,8 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 31,
-      "total_points": 169
+      "gw_points": 30,
+      "total_points": 168
     },
     {
       "rank": 32,
