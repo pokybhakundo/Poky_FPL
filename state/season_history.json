@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:50:25.585900+00:00",
+  "generated_at": "2026-09-05T14:55:21.283079+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -357,6 +357,48 @@
         }
       ]
     },
+    "1575639": {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2340,
+          "rank": 69708
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2361,
+          "rank": 875811
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2341,
+          "rank": 702498
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2537,
+          "rank": 79860
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2538,
+          "rank": 60387
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2300,
+          "rank": 362919
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 727,
+          "rank": 7321641
+        }
+      ]
+    },
     "464574": {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
@@ -421,48 +463,6 @@
           "season_name": "2014/15",
           "total_points": 1823,
           "rank": 988226
-        }
-      ]
-    },
-    "1575639": {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2340,
-          "rank": 69708
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2361,
-          "rank": 875811
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2341,
-          "rank": 702498
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2537,
-          "rank": 79860
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2538,
-          "rank": 60387
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2300,
-          "rank": 362919
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 727,
-          "rank": 7321641
         }
       ]
     },
