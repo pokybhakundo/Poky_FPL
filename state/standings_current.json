@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T16:35:20.006720+00:00",
+  "generated_at": "2026-09-05T16:40:17.725975+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 40,
-      "total_points": 200
-    },
-    {
-      "rank": 13,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 48,
+      "total_points": 200
+    },
+    {
+      "rank": 13,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 40,
       "total_points": 200
     },
     {
@@ -183,8 +183,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 35,
-      "total_points": 185
+      "gw_points": 36,
+      "total_points": 186
     },
     {
       "rank": 24,
@@ -204,19 +204,19 @@
     },
     {
       "rank": 26,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 44,
+      "total_points": 179
+    },
+    {
+      "rank": 27,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 22,
       "total_points": 178
-    },
-    {
-      "rank": 27,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 42,
-      "total_points": 177
     },
     {
       "rank": 28,
@@ -255,8 +255,8 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 35,
-      "total_points": 166
+      "gw_points": 36,
+      "total_points": 167
     },
     {
       "rank": 33,
