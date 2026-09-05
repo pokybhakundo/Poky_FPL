@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T15:40:24.871475+00:00",
+  "generated_at": "2026-09-05T15:45:19.158731+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,19 +100,19 @@
     },
     {
       "rank": 13,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "gw_points": 49,
+      "total_points": 201
+    },
+    {
+      "rank": 14,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 40,
       "total_points": 200
-    },
-    {
-      "rank": 14,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "gw_points": 47,
-      "total_points": 199
     },
     {
       "rank": 15,
@@ -255,8 +255,8 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 30,
-      "total_points": 168
+      "gw_points": 32,
+      "total_points": 170
     },
     {
       "rank": 33,
