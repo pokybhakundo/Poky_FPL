@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-05T17:01:59.673747+00:00",
+  "generated_at": "2026-09-05T17:05:21.959740+00:00",
   "classic": [
     {
       "rank": 1,
@@ -196,19 +196,19 @@
     },
     {
       "rank": 25,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 46,
+      "total_points": 181
+    },
+    {
+      "rank": 26,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 27,
       "total_points": 180
-    },
-    {
-      "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 44,
-      "total_points": 179
     },
     {
       "rank": 27,
