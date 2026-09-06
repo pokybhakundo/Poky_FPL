@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:10:18.778342+00:00",
+  "generated_at": "2026-09-06T03:15:21.940321+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -580,6 +580,12 @@
         }
       ]
     },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -656,12 +662,6 @@
           "rank": 2087647
         }
       ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
     },
     "5917809": {
       "entry_id": 5917809,
