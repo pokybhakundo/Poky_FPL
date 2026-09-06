@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:25:16.352477+00:00",
+  "generated_at": "2026-09-06T18:30:23.147670+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -789,83 +789,6 @@
         }
       ]
     },
-    "228817": {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2255,
-          "rank": 423627
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2445,
-          "rank": 318148
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2316,
-          "rank": 900281
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2577,
-          "rank": 27112
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2431,
-          "rank": 231731
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2452,
-          "rank": 28949
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2186,
-          "rank": 356031
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2243,
-          "rank": 148147
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2060,
-          "rank": 730018
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1746,
-          "rank": 2194289
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1984,
-          "rank": 735351
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1917,
-          "rank": 508937
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2184,
-          "rank": 341392
-        },
-        {
-          "season_name": "2012/13",
-          "total_points": 583,
-          "rank": 2570986
-        }
-      ]
-    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -940,6 +863,83 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
+        }
+      ]
+    },
+    "228817": {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2255,
+          "rank": 423627
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2445,
+          "rank": 318148
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2316,
+          "rank": 900281
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2577,
+          "rank": 27112
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2431,
+          "rank": 231731
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2452,
+          "rank": 28949
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2186,
+          "rank": 356031
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2243,
+          "rank": 148147
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2060,
+          "rank": 730018
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1746,
+          "rank": 2194289
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1984,
+          "rank": 735351
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1917,
+          "rank": 508937
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2184,
+          "rank": 341392
+        },
+        {
+          "season_name": "2012/13",
+          "total_points": 583,
+          "rank": 2570986
         }
       ]
     },
