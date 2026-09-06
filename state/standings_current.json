@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T06:25:17.588833+00:00",
+  "generated_at": "2026-09-06T06:30:30.088085+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 40,
-      "total_points": 200
-    },
-    {
-      "rank": 13,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 48,
+      "total_points": 200
+    },
+    {
+      "rank": 13,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 40,
       "total_points": 200
     },
     {
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 42,
-      "total_points": 188
-    },
-    {
-      "rank": 23,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "gw_points": 27,
+      "total_points": 188
+    },
+    {
+      "rank": 23,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 42,
       "total_points": 188
     },
     {
