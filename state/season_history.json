@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:05:17.567795+00:00",
+  "generated_at": "2026-09-06T15:10:19.488461+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -1166,6 +1166,33 @@
         }
       ]
     },
+    "4048482": {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2197,
+          "rank": 931100
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2095,
+          "rank": 4345394
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2184,
+          "rank": 2392396
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2409,
+          "rank": 593509
+        }
+      ]
+    },
     "1913463": {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
@@ -1195,33 +1222,6 @@
           "season_name": "2021/22",
           "total_points": 2112,
           "rank": 1826181
-        }
-      ]
-    },
-    "4048482": {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2197,
-          "rank": 931100
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2095,
-          "rank": 4345394
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2184,
-          "rank": 2392396
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2409,
-          "rank": 593509
         }
       ]
     },

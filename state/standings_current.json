@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T15:05:17.978768+00:00",
+  "generated_at": "2026-09-06T15:10:19.898484+00:00",
   "classic": [
     {
       "rank": 1,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 39,
-      "total_points": 192
-    },
-    {
-      "rank": 24,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 36,
+      "total_points": 192
+    },
+    {
+      "rank": 24,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 39,
       "total_points": 192
     },
     {
