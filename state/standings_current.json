@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T09:20:22.576146+00:00",
+  "generated_at": "2026-09-06T09:25:18.018252+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 42,
-      "total_points": 188
-    },
-    {
-      "rank": 23,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "gw_points": 27,
+      "total_points": 188
+    },
+    {
+      "rank": 23,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 42,
       "total_points": 188
     },
     {
