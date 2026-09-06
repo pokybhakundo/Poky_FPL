@@ -1,22 +1,22 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T14:40:18.988370+00:00",
+  "generated_at": "2026-09-06T14:45:23.322212+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 75,
-      "total_points": 254
+      "gw_points": 76,
+      "total_points": 255
     },
     {
       "rank": 2,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 58,
-      "total_points": 239
+      "gw_points": 59,
+      "total_points": 240
     },
     {
       "rank": 3,
@@ -92,14 +92,14 @@
     },
     {
       "rank": 12,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "gw_points": 64,
-      "total_points": 216
+      "total_points": 217
     },
     {
-      "rank": 12,
+      "rank": 13,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -107,11 +107,11 @@
       "total_points": 216
     },
     {
-      "rank": 12,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 63,
+      "rank": 13,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "gw_points": 64,
       "total_points": 216
     },
     {
@@ -119,8 +119,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 68,
-      "total_points": 211
+      "gw_points": 69,
+      "total_points": 212
     },
     {
       "rank": 16,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 39,
+      "total_points": 206
+    },
+    {
+      "rank": 18,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
       "gw_points": 46,
-      "total_points": 205
-    },
-    {
-      "rank": 18,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 38,
       "total_points": 205
     },
     {
@@ -175,8 +175,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 47,
-      "total_points": 200
+      "gw_points": 48,
+      "total_points": 201
     },
     {
       "rank": 23,
