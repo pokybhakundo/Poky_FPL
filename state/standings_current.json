@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T13:50:20.040988+00:00",
+  "generated_at": "2026-09-06T13:55:18.723861+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 42,
-      "total_points": 200
-    },
-    {
-      "rank": 14,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 40,
+      "total_points": 200
+    },
+    {
+      "rank": 14,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 42,
       "total_points": 200
     },
     {
