@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:20:22.457322+00:00",
+  "generated_at": "2026-09-06T15:25:17.096155+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -794,6 +794,68 @@
         }
       ]
     },
+    "1595343": {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2187,
+          "rank": 1035748
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2359,
+          "rank": 889994
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2166,
+          "rank": 2639105
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2358,
+          "rank": 976749
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2571,
+          "rank": 33898
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2285,
+          "rank": 427450
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2229,
+          "rank": 189546
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1910,
+          "rank": 2973064
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1928,
+          "rank": 1780120
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1759,
+          "rank": 1976803
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2168,
+          "rank": 392079
+        }
+      ]
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -868,68 +930,6 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
-        }
-      ]
-    },
-    "1595343": {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2187,
-          "rank": 1035748
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2359,
-          "rank": 889994
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2166,
-          "rank": 2639105
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2358,
-          "rank": 976749
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2571,
-          "rank": 33898
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2285,
-          "rank": 427450
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2229,
-          "rank": 189546
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1910,
-          "rank": 2973064
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1928,
-          "rank": 1780120
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1759,
-          "rank": 1976803
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2168,
-          "rank": 392079
         }
       ]
     },
