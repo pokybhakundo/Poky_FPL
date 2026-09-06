@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T14:35:18.575634+00:00",
+  "generated_at": "2026-09-06T14:40:18.988370+00:00",
   "classic": [
     {
       "rank": 1,
@@ -28,18 +28,18 @@
     },
     {
       "rank": 4,
-      "entry_id": 33334,
-      "team_name": "Not too Xabi",
-      "manager": "Swapnil Tiwari",
-      "gw_points": 40,
-      "total_points": 232
-    },
-    {
-      "rank": 4,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 56,
+      "total_points": 232
+    },
+    {
+      "rank": 4,
+      "entry_id": 33334,
+      "team_name": "Not too Xabi",
+      "manager": "Swapnil Tiwari",
+      "gw_points": 40,
       "total_points": 232
     },
     {
