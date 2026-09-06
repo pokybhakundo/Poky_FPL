@@ -455,14 +455,14 @@
         "gw_points": 44,
         "goals_scored": 1,
         "goals_conceded": 3,
-        "classic_rank": 9
+        "classic_rank": 10
       },
       "entry_b": {
         "entry_id": 3309536,
         "gw_points": 38,
         "goals_scored": 1,
         "goals_conceded": 5,
-        "classic_rank": 7
+        "classic_rank": 9
       }
     },
     "provisional": true
@@ -488,14 +488,14 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 36783,
-        "gw_points": 41,
+        "gw_points": 49,
         "goals_scored": 2,
         "goals_conceded": 4,
-        "classic_rank": 8
+        "classic_rank": 4
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 60,
+        "gw_points": 68,
         "goals_scored": 4,
         "goals_conceded": 4,
         "classic_rank": 1
@@ -534,7 +534,7 @@
         "gw_points": 50,
         "goals_scored": 3,
         "goals_conceded": 4,
-        "classic_rank": 4
+        "classic_rank": 5
       }
     },
     "provisional": true
@@ -563,14 +563,14 @@
         "gw_points": 49,
         "goals_scored": 1,
         "goals_conceded": 6,
-        "classic_rank": 5
+        "classic_rank": 6
       },
       "entry_b": {
         "entry_id": 1575639,
-        "gw_points": 40,
+        "gw_points": 48,
         "goals_scored": 2,
         "goals_conceded": 4,
-        "classic_rank": 11
+        "classic_rank": 8
       }
     },
     "provisional": true
