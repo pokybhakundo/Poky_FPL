@@ -453,17 +453,17 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
-          "gw_points": 44,
+          "gw_points": 51,
           "goals_scored": 1,
           "goals_conceded": 3,
-          "classic_rank": 10
+          "classic_rank": 8
         },
         "entry_b": {
           "entry_id": 3309536,
-          "gw_points": 38,
+          "gw_points": 40,
           "goals_scored": 1,
           "goals_conceded": 5,
-          "classic_rank": 9
+          "classic_rank": 10
         }
       },
       "provisional": true
@@ -489,14 +489,14 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 36783,
-          "gw_points": 49,
+          "gw_points": 58,
           "goals_scored": 2,
           "goals_conceded": 4,
-          "classic_rank": 4
+          "classic_rank": 2
         },
         "entry_b": {
           "entry_id": 1845615,
-          "gw_points": 68,
+          "gw_points": 75,
           "goals_scored": 4,
           "goals_conceded": 4,
           "classic_rank": 1
@@ -528,14 +528,14 @@
           "gw_points": 40,
           "goals_scored": 1,
           "goals_conceded": 4,
-          "classic_rank": 2
+          "classic_rank": 5
         },
         "entry_b": {
           "entry_id": 1966033,
           "gw_points": 50,
           "goals_scored": 3,
           "goals_conceded": 4,
-          "classic_rank": 5
+          "classic_rank": 7
         }
       },
       "provisional": true
@@ -556,22 +556,22 @@
           "manager": "Ganesh Sapkota"
         }
       ],
-      "winner_entry_id": 1548786,
+      "winner_entry_id": 1575639,
       "tiebreak_reason": "gw_points",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 1548786,
-          "gw_points": 49,
+          "gw_points": 51,
           "goals_scored": 1,
           "goals_conceded": 6,
           "classic_rank": 6
         },
         "entry_b": {
           "entry_id": 1575639,
-          "gw_points": 48,
+          "gw_points": 57,
           "goals_scored": 2,
           "goals_conceded": 4,
-          "classic_rank": 8
+          "classic_rank": 3
         }
       },
       "provisional": true
@@ -608,9 +608,9 @@
         },
         {
           "seed": "winner:16",
-          "entry_id": 1548786,
-          "team_name": "ThunderYeti",
-          "manager": "Samir Gyawali"
+          "entry_id": 1575639,
+          "team_name": "SpecialOne",
+          "manager": "Ganesh Sapkota"
         }
       ],
       "winner_entry_id": null,
