@@ -1,14 +1,14 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T13:35:20.081861+00:00",
+  "generated_at": "2026-09-06T13:40:22.032317+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 60,
-      "total_points": 239
+      "gw_points": 62,
+      "total_points": 241
     },
     {
       "rank": 2,
@@ -52,19 +52,19 @@
     },
     {
       "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 43,
+      "total_points": 224
+    },
+    {
+      "rank": 8,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 38,
       "total_points": 223
-    },
-    {
-      "rank": 8,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 41,
-      "total_points": 222
     },
     {
       "rank": 9,
@@ -95,8 +95,8 @@
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 56,
-      "total_points": 209
+      "gw_points": 58,
+      "total_points": 211
     },
     {
       "rank": 13,
@@ -105,6 +105,14 @@
       "manager": "Karna Karki",
       "gw_points": 50,
       "total_points": 202
+    },
+    {
+      "rank": 14,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 33,
+      "total_points": 200
     },
     {
       "rank": 14,
@@ -123,7 +131,7 @@
       "total_points": 200
     },
     {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -131,20 +139,12 @@
       "total_points": 199
     },
     {
-      "rank": 17,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 31,
-      "total_points": 198
-    },
-    {
       "rank": 18,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 53,
-      "total_points": 196
+      "gw_points": 55,
+      "total_points": 198
     },
     {
       "rank": 19,
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 29,
-      "total_points": 190
-    },
-    {
-      "rank": 22,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 44,
+      "total_points": 190
+    },
+    {
+      "rank": 22,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 29,
       "total_points": 190
     },
     {
@@ -199,8 +199,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 30,
-      "total_points": 183
+      "gw_points": 32,
+      "total_points": 185
     },
     {
       "rank": 26,
