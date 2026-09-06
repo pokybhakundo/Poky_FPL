@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T15:25:17.521590+00:00",
+  "generated_at": "2026-09-06T15:30:23.012543+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,18 +36,18 @@
     },
     {
       "rank": 5,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 51,
-      "total_points": 227
-    },
-    {
-      "rank": 5,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
       "gw_points": 50,
+      "total_points": 227
+    },
+    {
+      "rank": 5,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 51,
       "total_points": 227
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 33,
-      "total_points": 200
-    },
-    {
-      "rank": 18,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 40,
+      "total_points": 200
+    },
+    {
+      "rank": 18,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 33,
       "total_points": 200
     },
     {
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 39,
-      "total_points": 192
-    },
-    {
-      "rank": 24,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 36,
+      "total_points": 192
+    },
+    {
+      "rank": 24,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 39,
       "total_points": 192
     },
     {
