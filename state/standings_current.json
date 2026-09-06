@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-06T16:35:16.994313+00:00",
+  "generated_at": "2026-09-06T16:40:19.099454+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,18 +36,18 @@
     },
     {
       "rank": 5,
-      "entry_id": 1966033,
-      "team_name": "Or3gonian",
-      "manager": "Biraj Shakya",
-      "gw_points": 51,
-      "total_points": 228
-    },
-    {
-      "rank": 5,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 52,
+      "total_points": 228
+    },
+    {
+      "rank": 5,
+      "entry_id": 1966033,
+      "team_name": "Or3gonian",
+      "manager": "Biraj Shakya",
+      "gw_points": 51,
       "total_points": 228
     },
     {
