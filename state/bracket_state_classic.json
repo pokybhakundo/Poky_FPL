@@ -489,14 +489,14 @@
       "entry_a": {
         "entry_id": 36783,
         "gw_points": 41,
-        "goals_scored": 1,
+        "goals_scored": 2,
         "goals_conceded": 4,
         "classic_rank": 8
       },
       "entry_b": {
         "entry_id": 1845615,
         "gw_points": 60,
-        "goals_scored": 3,
+        "goals_scored": 4,
         "goals_conceded": 4,
         "classic_rank": 1
       }
@@ -568,7 +568,7 @@
       "entry_b": {
         "entry_id": 1575639,
         "gw_points": 40,
-        "goals_scored": 1,
+        "goals_scored": 2,
         "goals_conceded": 4,
         "classic_rank": 11
       }
