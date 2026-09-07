@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-07T12:55:20.035797+00:00",
+  "generated_at": "2026-09-07T13:00:30.433902+00:00",
   "next_deadline": "2026-09-12T12:30:00Z",
   "current_gw": 3,
   "current_gw_finalized": false,
@@ -41,7 +41,7 @@
       "gw": 3,
       "points": 71,
       "shared": false,
-      "provisional": true,
+      "provisional": false,
       "winners": [
         {
           "entry_id": 1845615,
@@ -75,7 +75,7 @@
       "label": "September",
       "points": 71,
       "shared": false,
-      "provisional": true,
+      "provisional": false,
       "gameweeks": [
         3
       ],
