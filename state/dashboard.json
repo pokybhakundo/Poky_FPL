@@ -466,7 +466,7 @@
           "classic_rank": 9
         }
       },
-      "provisional": true
+      "provisional": false
     },
     "14": {
       "gw": 3,
@@ -502,7 +502,7 @@
           "classic_rank": 1
         }
       },
-      "provisional": true
+      "provisional": false
     },
     "15": {
       "gw": 3,
@@ -538,7 +538,7 @@
           "classic_rank": 7
         }
       },
-      "provisional": true
+      "provisional": false
     },
     "16": {
       "gw": 3,
@@ -574,7 +574,7 @@
           "classic_rank": 6
         }
       },
-      "provisional": true
+      "provisional": false
     },
     "17": {
       "gw": 4,
