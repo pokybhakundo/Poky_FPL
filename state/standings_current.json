@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-07T09:15:20.584966+00:00",
+  "generated_at": "2026-09-07T09:20:20.144825+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 49,
+      "total_points": 209
+    },
+    {
+      "rank": 18,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -139,19 +147,11 @@
       "total_points": 207
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 44,
-      "total_points": 206
-    },
-    {
-      "rank": 18,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 46,
       "total_points": 206
     },
     {
@@ -167,8 +167,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 40,
-      "total_points": 201
+      "gw_points": 42,
+      "total_points": 203
     },
     {
       "rank": 22,
@@ -236,19 +236,19 @@
     },
     {
       "rank": 30,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 55,
+      "total_points": 181
+    },
+    {
+      "rank": 31,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
       "gw_points": 43,
       "total_points": 181
-    },
-    {
-      "rank": 31,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 53,
-      "total_points": 179
     },
     {
       "rank": 32,
