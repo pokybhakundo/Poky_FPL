@@ -1,6 +1,6 @@
 {
   "gw": 3,
-  "generated_at": "2026-09-07T11:37:08.473206+00:00",
+  "generated_at": "2026-09-07T11:40:26.681668+00:00",
   "classic": [
     {
       "rank": 1,
@@ -278,377 +278,377 @@
   "h2h": [
     {
       "rank": 1,
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "total_points": 9,
-      "matches_won": 3,
-      "matches_drawn": 0,
-      "matches_lost": 0,
-      "points_for": 238
-    },
-    {
-      "rank": 2,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "total_points": 9,
-      "matches_won": 3,
-      "matches_drawn": 0,
-      "matches_lost": 0,
-      "points_for": 234
-    },
-    {
-      "rank": 3,
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 250
-    },
-    {
-      "rank": 4,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 237
-    },
-    {
-      "rank": 5,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 229
-    },
-    {
-      "rank": 5,
-      "entry_id": 1966033,
-      "team_name": "Or3gonian",
-      "manager": "Biraj Shakya",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 229
-    },
-    {
-      "rank": 7,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "total_points": 6,
       "matches_won": 2,
       "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 227
+      "matches_lost": 0,
+      "points_for": 185
     },
     {
-      "rank": 8,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "rank": 2,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
       "total_points": 6,
       "matches_won": 2,
       "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 226
+      "matches_lost": 0,
+      "points_for": 181
     },
     {
-      "rank": 9,
+      "rank": 3,
+      "entry_id": 2310055,
+      "team_name": "NetSix&Chill FC",
+      "manager": "Sabin Shrestha",
+      "total_points": 6,
+      "matches_won": 2,
+      "matches_drawn": 0,
+      "matches_lost": 0,
+      "points_for": 178
+    },
+    {
+      "rank": 4,
+      "entry_id": 1966033,
+      "team_name": "Or3gonian",
+      "manager": "Biraj Shakya",
+      "total_points": 6,
+      "matches_won": 2,
+      "matches_drawn": 0,
+      "matches_lost": 0,
+      "points_for": 177
+    },
+    {
+      "rank": 5,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "total_points": 6,
       "matches_won": 2,
       "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 222
+      "matches_lost": 0,
+      "points_for": 168
     },
     {
-      "rank": 10,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 214
-    },
-    {
-      "rank": 11,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 213
-    },
-    {
-      "rank": 12,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 210
-    },
-    {
-      "rank": 12,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 210
-    },
-    {
-      "rank": 14,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 207
-    },
-    {
-      "rank": 15,
+      "rank": 6,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "total_points": 6,
       "matches_won": 2,
       "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 204
+      "matches_lost": 0,
+      "points_for": 167
     },
     {
-      "rank": 16,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 199
-    },
-    {
-      "rank": 17,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "total_points": 6,
-      "matches_won": 2,
-      "matches_drawn": 0,
-      "matches_lost": 1,
-      "points_for": 197
-    },
-    {
-      "rank": 18,
+      "rank": 7,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "total_points": 4,
       "matches_won": 1,
       "matches_drawn": 1,
-      "matches_lost": 1,
-      "points_for": 188
+      "matches_lost": 0,
+      "points_for": 142
     },
     {
-      "rank": 19,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "total_points": 4,
-      "matches_won": 1,
-      "matches_drawn": 1,
-      "matches_lost": 1,
-      "points_for": 181
-    },
-    {
-      "rank": 20,
+      "rank": 8,
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 235
+      "matches_lost": 1,
+      "points_for": 192
     },
     {
-      "rank": 21,
+      "rank": 9,
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 179
+    },
+    {
+      "rank": 10,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 177
+    },
+    {
+      "rank": 11,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 176
+    },
+    {
+      "rank": 11,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 230
+      "matches_lost": 1,
+      "points_for": 176
     },
     {
-      "rank": 22,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "rank": 13,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 215
+      "matches_lost": 1,
+      "points_for": 170
     },
     {
-      "rank": 23,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "total_points": 3,
-      "matches_won": 1,
-      "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 209
-    },
-    {
-      "rank": 24,
+      "rank": 14,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 206
+      "matches_lost": 1,
+      "points_for": 162
     },
     {
-      "rank": 25,
+      "rank": 15,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 203
+      "matches_lost": 1,
+      "points_for": 161
     },
     {
-      "rank": 26,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
+      "rank": 16,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 200
+      "matches_lost": 1,
+      "points_for": 160
     },
     {
-      "rank": 27,
+      "rank": 17,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 159
+    },
+    {
+      "rank": 18,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 158
+    },
+    {
+      "rank": 19,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 195
+      "matches_lost": 1,
+      "points_for": 156
     },
     {
-      "rank": 28,
+      "rank": 20,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 153
+    },
+    {
+      "rank": 21,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 150
+    },
+    {
+      "rank": 22,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 146
+    },
+    {
+      "rank": 23,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 143
+    },
+    {
+      "rank": 24,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 184
+      "matches_lost": 1,
+      "points_for": 136
     },
     {
-      "rank": 29,
+      "rank": 25,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "total_points": 3,
+      "matches_won": 1,
+      "matches_drawn": 0,
+      "matches_lost": 1,
+      "points_for": 135
+    },
+    {
+      "rank": 26,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
       "total_points": 3,
       "matches_won": 1,
       "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 174
+      "matches_lost": 1,
+      "points_for": 127
     },
     {
-      "rank": 30,
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "total_points": 3,
-      "matches_won": 1,
-      "matches_drawn": 0,
-      "matches_lost": 2,
-      "points_for": 157
-    },
-    {
-      "rank": 31,
+      "rank": 27,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
       "total_points": 1,
       "matches_won": 0,
       "matches_drawn": 1,
-      "matches_lost": 2,
-      "points_for": 182
+      "matches_lost": 1,
+      "points_for": 134
     },
     {
-      "rank": 32,
+      "rank": 28,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "total_points": 1,
       "matches_won": 0,
       "matches_drawn": 1,
-      "matches_lost": 2,
-      "points_for": 177
+      "matches_lost": 1,
+      "points_for": 131
     },
     {
-      "rank": 33,
+      "rank": 29,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "total_points": 1,
+      "matches_won": 0,
+      "matches_drawn": 1,
+      "matches_lost": 1,
+      "points_for": 126
+    },
+    {
+      "rank": 30,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "total_points": 0,
       "matches_won": 0,
       "matches_drawn": 0,
-      "matches_lost": 3,
-      "points_for": 200
+      "matches_lost": 2,
+      "points_for": 153
     },
     {
-      "rank": 34,
+      "rank": 31,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "total_points": 0,
+      "matches_won": 0,
+      "matches_drawn": 0,
+      "matches_lost": 2,
+      "points_for": 152
+    },
+    {
+      "rank": 32,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
       "total_points": 0,
       "matches_won": 0,
       "matches_drawn": 0,
-      "matches_lost": 3,
-      "points_for": 181
+      "matches_lost": 2,
+      "points_for": 138
+    },
+    {
+      "rank": 33,
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "total_points": 0,
+      "matches_won": 0,
+      "matches_drawn": 0,
+      "matches_lost": 2,
+      "points_for": 134
+    },
+    {
+      "rank": 34,
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "total_points": 0,
+      "matches_won": 0,
+      "matches_drawn": 0,
+      "matches_lost": 2,
+      "points_for": 112
     }
   ]
 }
