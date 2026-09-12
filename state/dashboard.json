@@ -597,10 +597,10 @@
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
-          "gw_points": 27,
+          "gw_points": 29,
           "goals_scored": 1,
           "goals_conceded": 4,
-          "classic_rank": 7
+          "classic_rank": 5
         },
         "entry_b": {
           "entry_id": 1845615,
@@ -643,7 +643,7 @@
           "gw_points": 34,
           "goals_scored": 1,
           "goals_conceded": 7,
-          "classic_rank": 7
+          "classic_rank": 8
         }
       },
       "provisional": true
