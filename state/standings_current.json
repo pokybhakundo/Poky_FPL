@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T17:15:18.560489+00:00",
+  "generated_at": "2026-09-12T17:20:20.603134+00:00",
   "classic": [
     {
       "rank": 1,
@@ -43,19 +43,19 @@
       "total_points": 266
     },
     {
-      "rank": 5,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 29,
-      "total_points": 266
-    },
-    {
-      "rank": 7,
+      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 38,
+      "total_points": 265
+    },
+    {
+      "rank": 6,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 28,
       "total_points": 265
     },
     {
@@ -84,19 +84,19 @@
     },
     {
       "rank": 11,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 44,
-      "total_points": 254
-    },
-    {
-      "rank": 11,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 41,
       "total_points": 254
+    },
+    {
+      "rank": 12,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 43,
+      "total_points": 253
     },
     {
       "rank": 13,
@@ -235,12 +235,12 @@
       "total_points": 210
     },
     {
-      "rank": 29,
+      "rank": 30,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 29,
-      "total_points": 210
+      "gw_points": 28,
+      "total_points": 209
     },
     {
       "rank": 31,
