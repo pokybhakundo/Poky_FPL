@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T15:50:20.882842+00:00",
+  "generated_at": "2026-09-12T15:55:15.895288+00:00",
   "next_deadline": "2026-09-18T17:30:00Z",
   "current_gw": 4,
   "current_gw_finalized": false,
@@ -53,14 +53,14 @@
     },
     {
       "gw": 4,
-      "points": 41,
+      "points": 42,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 165293,
-          "team_name": "Power",
-          "manager": "Arjun Prasai"
+          "entry_id": 2546180,
+          "team_name": "Pharaoh's Team",
+          "manager": "Don theGod"
         }
       ]
     }
@@ -87,7 +87,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 99,
+      "points": 102,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -96,9 +96,9 @@
       ],
       "winners": [
         {
-          "entry_id": 2798038,
-          "team_name": "CookedRice",
-          "manager": "Abhishek Jaiswal"
+          "entry_id": 2546180,
+          "team_name": "Pharaoh's Team",
+          "manager": "Don theGod"
         }
       ]
     }
