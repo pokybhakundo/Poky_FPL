@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T14:10:21.870490+00:00",
+  "generated_at": "2026-09-12T14:15:22.815799+00:00",
   "next_deadline": "2026-09-18T17:30:00Z",
   "current_gw": 4,
   "current_gw_finalized": false,
@@ -53,44 +53,14 @@
     },
     {
       "gw": 4,
-      "points": 6,
-      "shared": true,
+      "points": 16,
+      "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 33334,
-          "team_name": "Not too Xabi",
-          "manager": "Swapnil Tiwari"
-        },
-        {
-          "entry_id": 36783,
-          "team_name": "Kids to Unc's FC",
-          "manager": "Bishal Neupane"
-        },
-        {
-          "entry_id": 165293,
-          "team_name": "Power",
-          "manager": "Arjun Prasai"
-        },
-        {
-          "entry_id": 969893,
-          "team_name": "Team Utthan",
-          "manager": "Anit Yadav"
-        },
-        {
-          "entry_id": 1575639,
-          "team_name": "SpecialOne",
-          "manager": "Ganesh Sapkota"
-        },
-        {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 2310055,
-          "team_name": "NetSix&Chill FC",
-          "manager": "Sabin Shrestha"
+          "entry_id": 3309536,
+          "team_name": "Everest Eleven",
+          "manager": "Anil Ghimire"
         }
       ]
     }
@@ -117,7 +87,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 76,
+      "points": 80,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -126,9 +96,9 @@
       ],
       "winners": [
         {
-          "entry_id": 1845615,
-          "team_name": "Kylian Dictator",
-          "manager": "Rakesh Itani"
+          "entry_id": 2798038,
+          "team_name": "CookedRice",
+          "manager": "Abhishek Jaiswal"
         }
       ]
     }
