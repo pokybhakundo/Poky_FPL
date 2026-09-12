@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T16:02:09.705575+00:00",
+  "generated_at": "2026-09-12T16:05:19.273914+00:00",
   "classic": [
     {
       "rank": 1,
@@ -103,23 +103,23 @@
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gw_points": 19,
-      "total_points": 248
-    },
-    {
-      "rank": 14,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 32,
-      "total_points": 241
+      "gw_points": 21,
+      "total_points": 250
     },
     {
       "rank": 14,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 27,
+      "gw_points": 29,
+      "total_points": 243
+    },
+    {
+      "rank": 15,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 32,
       "total_points": 241
     },
     {
@@ -175,8 +175,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 22,
-      "total_points": 225
+      "gw_points": 24,
+      "total_points": 227
     },
     {
       "rank": 23,
@@ -191,11 +191,11 @@
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gw_points": 29,
-      "total_points": 217
+      "gw_points": 31,
+      "total_points": 219
     },
     {
-      "rank": 24,
+      "rank": 25,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -212,27 +212,27 @@
     },
     {
       "rank": 27,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 7,
+      "total_points": 211
+    },
+    {
+      "rank": 28,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 29,
+      "total_points": 211
+    },
+    {
+      "rank": 29,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 15,
       "total_points": 210
-    },
-    {
-      "rank": 28,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 5,
-      "total_points": 209
-    },
-    {
-      "rank": 29,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 27,
-      "total_points": 209
     },
     {
       "rank": 30,
