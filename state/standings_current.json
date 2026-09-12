@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T18:35:17.222407+00:00",
+  "generated_at": "2026-09-12T18:40:20.751664+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 37,
-      "total_points": 244
-    },
-    {
-      "rank": 14,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 38,
+      "total_points": 244
+    },
+    {
+      "rank": 14,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 37,
       "total_points": 244
     },
     {
