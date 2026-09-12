@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T14:40:22.585642+00:00",
+  "generated_at": "2026-09-12T14:45:58.247797+00:00",
   "classic": [
     {
       "rank": 1,
@@ -28,18 +28,18 @@
     },
     {
       "rank": 4,
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "gw_points": 20,
-      "total_points": 247
-    },
-    {
-      "rank": 4,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 18,
+      "total_points": 247
+    },
+    {
+      "rank": 4,
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "gw_points": 20,
       "total_points": 247
     },
     {
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 12,
-      "total_points": 221
-    },
-    {
-      "rank": 17,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 6,
+      "total_points": 221
+    },
+    {
+      "rank": 17,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 12,
       "total_points": 221
     },
     {
@@ -239,16 +239,16 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 12,
-      "total_points": 193
+      "gw_points": 11,
+      "total_points": 192
     },
     {
       "rank": 31,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 9,
-      "total_points": 186
+      "gw_points": 8,
+      "total_points": 185
     },
     {
       "rank": 32,

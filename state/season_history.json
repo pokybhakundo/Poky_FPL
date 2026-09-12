@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:40:22.129543+00:00",
+  "generated_at": "2026-09-12T14:45:57.864728+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -147,6 +147,23 @@
         }
       ]
     },
+    "1548786": {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 783099
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2376,
+          "rank": 748840
+        }
+      ]
+    },
     "3309536": {
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
@@ -176,23 +193,6 @@
           "season_name": "2019/20",
           "total_points": 964,
           "rank": 7183835
-        }
-      ]
-    },
-    "1548786": {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 783099
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2376,
-          "rank": 748840
         }
       ]
     },
@@ -813,6 +813,12 @@
         }
       ]
     },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -889,12 +895,6 @@
           "rank": 2087647
         }
       ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
     },
     "5917809": {
       "entry_id": 5917809,
