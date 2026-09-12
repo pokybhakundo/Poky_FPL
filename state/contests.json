@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T15:35:17.137524+00:00",
+  "generated_at": "2026-09-12T15:40:22.682767+00:00",
   "next_deadline": "2026-09-18T17:30:00Z",
   "current_gw": 4,
   "current_gw_finalized": false,
@@ -53,14 +53,14 @@
     },
     {
       "gw": 4,
-      "points": 41,
+      "points": 39,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 3309536,
-          "team_name": "Everest Eleven",
-          "manager": "Anil Ghimire"
+          "entry_id": 165293,
+          "team_name": "Power",
+          "manager": "Arjun Prasai"
         }
       ]
     }
