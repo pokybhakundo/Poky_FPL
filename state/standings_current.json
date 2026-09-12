@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T18:20:24.831036+00:00",
+  "generated_at": "2026-09-12T18:25:21.163577+00:00",
   "classic": [
     {
       "rank": 1,
@@ -71,8 +71,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 48,
-      "total_points": 258
+      "gw_points": 50,
+      "total_points": 260
     },
     {
       "rank": 10,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 38,
-      "total_points": 244
-    },
-    {
-      "rank": 14,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 37,
+      "total_points": 244
+    },
+    {
+      "rank": 14,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 38,
       "total_points": 244
     },
     {
@@ -215,8 +215,8 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 33,
-      "total_points": 214
+      "gw_points": 35,
+      "total_points": 216
     },
     {
       "rank": 28,
