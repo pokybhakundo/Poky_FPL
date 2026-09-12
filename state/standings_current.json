@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T14:20:25.749713+00:00",
+  "generated_at": "2026-09-12T14:25:18.470819+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,10 +44,10 @@
     },
     {
       "rank": 6,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 9,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 14,
       "total_points": 243
     },
     {
@@ -60,10 +60,10 @@
     },
     {
       "rank": 6,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 14,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 9,
       "total_points": 243
     },
     {
@@ -124,18 +124,18 @@
     },
     {
       "rank": 16,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 13,
-      "total_points": 219
-    },
-    {
-      "rank": 16,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 12,
+      "total_points": 219
+    },
+    {
+      "rank": 16,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 13,
       "total_points": 219
     },
     {
@@ -236,6 +236,14 @@
     },
     {
       "rank": 30,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 10,
+      "total_points": 187
+    },
+    {
+      "rank": 31,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
@@ -243,19 +251,11 @@
       "total_points": 185
     },
     {
-      "rank": 31,
+      "rank": 32,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 3,
-      "total_points": 184
-    },
-    {
-      "rank": 32,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 7,
       "total_points": 184
     },
     {
