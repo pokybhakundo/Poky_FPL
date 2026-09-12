@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T15:10:20.471130+00:00",
+  "generated_at": "2026-09-12T15:15:22.249185+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 15,
-      "total_points": 222
-    },
-    {
-      "rank": 17,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 16,
+      "total_points": 222
+    },
+    {
+      "rank": 17,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 15,
       "total_points": 222
     },
     {
@@ -156,6 +156,14 @@
     },
     {
       "rank": 20,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 18,
+      "total_points": 217
+    },
+    {
+      "rank": 21,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -163,7 +171,7 @@
       "total_points": 217
     },
     {
-      "rank": 21,
+      "rank": 22,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -171,7 +179,7 @@
       "total_points": 216
     },
     {
-      "rank": 22,
+      "rank": 23,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -179,20 +187,12 @@
       "total_points": 216
     },
     {
-      "rank": 23,
+      "rank": 24,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 18,
       "total_points": 215
-    },
-    {
-      "rank": 24,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 11,
-      "total_points": 210
     },
     {
       "rank": 25,
@@ -207,8 +207,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 7,
-      "total_points": 202
+      "gw_points": 6,
+      "total_points": 201
     },
     {
       "rank": 27,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 19,
-      "total_points": 172
+      "gw_points": 17,
+      "total_points": 170
     }
   ],
   "h2h": [

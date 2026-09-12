@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:10:20.068032+00:00",
+  "generated_at": "2026-09-12T15:15:21.709027+00:00",
   "entries": {
     "1845615": {
       "entry_id": 1845615,
@@ -792,33 +792,6 @@
         }
       ]
     },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
-        }
-      ]
-    },
     "228817": {
       "entry_id": 228817,
       "team_name": "4toothee1",
@@ -896,6 +869,33 @@
         }
       ]
     },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
+        }
+      ]
+    },
     "2798038": {
       "entry_id": 2798038,
       "team_name": "CookedRice",
@@ -950,6 +950,58 @@
           "season_name": "2016/17",
           "total_points": 1899,
           "rank": 1172988
+        }
+      ]
+    },
+    "500535": {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2093,
+          "rank": 2391783
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2162,
+          "rank": 3404022
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2138,
+          "rank": 3019570
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2397,
+          "rank": 673150
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1874,
+          "rank": 4040892
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 728,
+          "rank": 7320863
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 602,
+          "rank": 6147669
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2104,
+          "rank": 470986
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 690,
+          "rank": 4334534
         }
       ]
     },
@@ -1138,58 +1190,6 @@
           "season_name": "2016/17",
           "total_points": 1732,
           "rank": 2284233
-        }
-      ]
-    },
-    "500535": {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2093,
-          "rank": 2391783
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2162,
-          "rank": 3404022
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2138,
-          "rank": 3019570
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2397,
-          "rank": 673150
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1874,
-          "rank": 4040892
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 728,
-          "rank": 7320863
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 602,
-          "rank": 6147669
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2104,
-          "rank": 470986
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 690,
-          "rank": 4334534
         }
       ]
     },
