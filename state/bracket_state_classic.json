@@ -592,11 +592,11 @@
       }
     ],
     "winner_entry_id": 464574,
-    "tiebreak_reason": "goals_conceded",
+    "tiebreak_reason": "gw_points",
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 464574,
-        "gw_points": 25,
+        "gw_points": 26,
         "goals_scored": 1,
         "goals_conceded": 4,
         "classic_rank": 8
@@ -642,7 +642,7 @@
         "gw_points": 34,
         "goals_scored": 1,
         "goals_conceded": 7,
-        "classic_rank": 6
+        "classic_rank": 7
       }
     },
     "provisional": true
