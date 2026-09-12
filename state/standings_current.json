@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T17:55:19.160794+00:00",
+  "generated_at": "2026-09-12T18:00:40.828087+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,18 +44,18 @@
     },
     {
       "rank": 6,
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "gw_points": 28,
-      "total_points": 266
-    },
-    {
-      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 39,
+      "total_points": 266
+    },
+    {
+      "rank": 6,
+      "entry_id": 2310055,
+      "team_name": "NetSix&Chill FC",
+      "manager": "Sabin Shrestha",
+      "gw_points": 28,
       "total_points": 266
     },
     {
@@ -108,19 +108,19 @@
     },
     {
       "rank": 14,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 37,
+      "total_points": 244
+    },
+    {
+      "rank": 14,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 38,
       "total_points": 244
-    },
-    {
-      "rank": 15,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 36,
-      "total_points": 243
     },
     {
       "rank": 16,
@@ -255,8 +255,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 33,
-      "total_points": 203
+      "gw_points": 34,
+      "total_points": 204
     },
     {
       "rank": 33,
