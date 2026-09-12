@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T15:40:23.166277+00:00",
+  "generated_at": "2026-09-12T15:45:19.514346+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,18 +44,18 @@
     },
     {
       "rank": 6,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 28,
-      "total_points": 262
-    },
-    {
-      "rank": 6,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 25,
+      "total_points": 262
+    },
+    {
+      "rank": 6,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 28,
       "total_points": 262
     },
     {
@@ -103,16 +103,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 35,
-      "total_points": 245
-    },
-    {
-      "rank": 14,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 27,
-      "total_points": 241
+      "gw_points": 36,
+      "total_points": 246
     },
     {
       "rank": 14,
@@ -120,6 +112,14 @@
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 32,
+      "total_points": 241
+    },
+    {
+      "rank": 14,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 27,
       "total_points": 241
     },
     {
@@ -191,8 +191,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 21,
-      "total_points": 220
+      "gw_points": 19,
+      "total_points": 218
     },
     {
       "rank": 25,
@@ -212,6 +212,14 @@
     },
     {
       "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 15,
+      "total_points": 210
+    },
+    {
+      "rank": 28,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -219,7 +227,7 @@
       "total_points": 209
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
@@ -227,15 +235,7 @@
       "total_points": 209
     },
     {
-      "rank": 29,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 13,
-      "total_points": 208
-    },
-    {
-      "rank": 29,
+      "rank": 30,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
@@ -263,8 +263,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 4,
-      "total_points": 185
+      "gw_points": 3,
+      "total_points": 184
     },
     {
       "rank": 34,
