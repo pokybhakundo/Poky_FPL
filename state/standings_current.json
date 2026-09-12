@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T17:05:18.117016+00:00",
+  "generated_at": "2026-09-12T17:10:19.878345+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,14 +44,6 @@
     },
     {
       "rank": 6,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 28,
-      "total_points": 265
-    },
-    {
-      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
@@ -59,7 +51,15 @@
       "total_points": 265
     },
     {
-      "rank": 8,
+      "rank": 7,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 27,
+      "total_points": 264
+    },
+    {
+      "rank": 7,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
