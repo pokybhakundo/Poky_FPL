@@ -593,18 +593,18 @@
         }
       ],
       "winner_entry_id": 1845615,
-      "tiebreak_reason": "classic_rank",
+      "tiebreak_reason": "gw_points",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
-          "gw_points": 3,
+          "gw_points": 4,
           "goals_scored": 0,
           "goals_conceded": 0,
-          "classic_rank": 3
+          "classic_rank": 4
         },
         "entry_b": {
           "entry_id": 1845615,
-          "gw_points": 3,
+          "gw_points": 5,
           "goals_scored": 0,
           "goals_conceded": 0,
           "classic_rank": 1
@@ -628,22 +628,22 @@
           "manager": "Ganesh Sapkota"
         }
       ],
-      "winner_entry_id": 1966033,
-      "tiebreak_reason": "gw_points",
+      "winner_entry_id": 1575639,
+      "tiebreak_reason": "classic_rank",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 1966033,
-          "gw_points": 4,
-          "goals_scored": 0,
-          "goals_conceded": 0,
-          "classic_rank": 6
-        },
-        "entry_b": {
-          "entry_id": 1575639,
-          "gw_points": 3,
+          "gw_points": 6,
           "goals_scored": 0,
           "goals_conceded": 0,
           "classic_rank": 7
+        },
+        "entry_b": {
+          "entry_id": 1575639,
+          "gw_points": 6,
+          "goals_scored": 0,
+          "goals_conceded": 0,
+          "classic_rank": 6
         }
       },
       "provisional": true
@@ -659,9 +659,9 @@
         },
         {
           "seed": "winner:18",
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
+          "entry_id": 1575639,
+          "team_name": "SpecialOne",
+          "manager": "Ganesh Sapkota"
         }
       ],
       "winner_entry_id": null,
