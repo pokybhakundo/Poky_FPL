@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T13:50:30.425711+00:00",
+  "generated_at": "2026-09-12T13:55:22.645250+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,17 +172,17 @@
     },
     {
       "rank": 22,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
       "gw_points": 0,
       "total_points": 200
     },
     {
       "rank": 22,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
       "gw_points": 0,
       "total_points": 200
     },
