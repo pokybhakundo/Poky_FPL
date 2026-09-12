@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T15:02:03.219030+00:00",
+  "generated_at": "2026-09-12T15:05:19.922951+00:00",
   "classic": [
     {
       "rank": 1,
@@ -28,18 +28,18 @@
     },
     {
       "rank": 4,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 18,
-      "total_points": 247
-    },
-    {
-      "rank": 4,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 20,
+      "total_points": 247
+    },
+    {
+      "rank": 4,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 18,
       "total_points": 247
     },
     {
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 16,
-      "total_points": 222
-    },
-    {
-      "rank": 15,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 15,
+      "total_points": 222
+    },
+    {
+      "rank": 15,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 16,
       "total_points": 222
     },
     {
