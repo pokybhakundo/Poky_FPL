@@ -591,8 +591,8 @@
         "manager": "Rakesh Itani"
       }
     ],
-    "winner_entry_id": 1845615,
-    "tiebreak_reason": "gw_points",
+    "winner_entry_id": 464574,
+    "tiebreak_reason": "goals_conceded",
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 464574,
@@ -603,9 +603,9 @@
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 9,
+        "gw_points": 8,
         "goals_scored": 0,
-        "goals_conceded": 5,
+        "goals_conceded": 6,
         "classic_rank": 1
       }
     },
@@ -652,9 +652,9 @@
     "slots": [
       {
         "seed": "winner:17",
-        "entry_id": 1845615,
-        "team_name": "Kylian Dictator",
-        "manager": "Rakesh Itani"
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai"
       },
       {
         "seed": "winner:18",

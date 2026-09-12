@@ -1,14 +1,14 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T14:45:58.247797+00:00",
+  "generated_at": "2026-09-12T14:50:27.868667+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 9,
-      "total_points": 259
+      "gw_points": 8,
+      "total_points": 258
     },
     {
       "rank": 2,
@@ -148,19 +148,19 @@
     },
     {
       "rank": 19,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 8,
-      "total_points": 218
-    },
-    {
-      "rank": 20,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 18,
       "total_points": 218
+    },
+    {
+      "rank": 20,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 7,
+      "total_points": 217
     },
     {
       "rank": 21,
@@ -255,8 +255,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 2,
-      "total_points": 183
+      "gw_points": 1,
+      "total_points": 182
     },
     {
       "rank": 33,
