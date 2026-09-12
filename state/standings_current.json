@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T15:45:19.514346+00:00",
+  "generated_at": "2026-09-12T15:50:21.198708+00:00",
   "classic": [
     {
       "rank": 1,
@@ -79,8 +79,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 39,
-      "total_points": 252
+      "gw_points": 41,
+      "total_points": 254
     },
     {
       "rank": 11,
