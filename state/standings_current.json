@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-12T14:50:27.868667+00:00",
+  "generated_at": "2026-09-12T14:55:17.321883+00:00",
   "classic": [
     {
       "rank": 1,
@@ -156,19 +156,19 @@
     },
     {
       "rank": 20,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 7,
-      "total_points": 217
-    },
-    {
-      "rank": 21,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "gw_points": 14,
       "total_points": 217
+    },
+    {
+      "rank": 21,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 6,
+      "total_points": 216
     },
     {
       "rank": 22,
@@ -247,8 +247,8 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 8,
-      "total_points": 185
+      "gw_points": 7,
+      "total_points": 184
     },
     {
       "rank": 32,
