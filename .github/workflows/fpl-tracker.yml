@@ -116,17 +116,26 @@ jobs:
           # started. `git reset --soft` does NOT do this: it moves HEAD but
           # leaves the index/working tree stale, so re-committing on top wipes
           # out any other change that landed on origin/main in the meantime.
+          #
+          # Our state/ change is already committed at this point (not just
+          # staged), so `git stash` finds nothing to save and `reset --hard`
+          # would discard it outright. Capture the commit SHA first and
+          # restore state/ from it after resetting, instead of stashing.
           for attempt in 1 2 3 4 5; do
             if git push; then
               echo "Pushed on attempt $attempt."
               exit 0
             fi
             echo "Push rejected (attempt $attempt) — another push landed first. Syncing onto it and retrying."
+            OURS=$(git rev-parse HEAD)
             git fetch origin
-            git stash push -u -- state/
             git reset --hard origin/main
-            git stash pop
+            git checkout "$OURS" -- state/
             git add state/
+            if git diff --cached --quiet; then
+              echo "State already matches origin; nothing left to re-commit."
+              exit 0
+            fi
             git commit -m "Update FPL state [skip ci]"
             sleep $((attempt * 3))
           done
