@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T14:01:54.410106+00:00",
+  "generated_at": "2026-09-12T14:05:19.520066+00:00",
   "next_deadline": "2026-09-18T17:30:00Z",
   "current_gw": 4,
   "current_gw_finalized": false,
@@ -53,10 +53,41 @@
     },
     {
       "gw": 4,
-      "points": 0,
-      "shared": false,
+      "points": 4,
+      "shared": true,
       "provisional": true,
-      "winners": []
+      "winners": [
+        {
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
+        },
+        {
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
+        },
+        {
+          "entry_id": 228817,
+          "team_name": "4toothee1",
+          "manager": "shakti karki"
+        },
+        {
+          "entry_id": 969893,
+          "team_name": "Team Utthan",
+          "manager": "Anit Yadav"
+        },
+        {
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
+        },
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -81,7 +112,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 71,
+      "points": 74,
       "shared": false,
       "provisional": true,
       "gameweeks": [
