@@ -592,10 +592,25 @@
           "manager": "Rakesh Itani"
         }
       ],
-      "winner_entry_id": null,
-      "tiebreak_reason": null,
-      "tiebreak_detail": null,
-      "provisional": null
+      "winner_entry_id": 1845615,
+      "tiebreak_reason": "gw_points",
+      "tiebreak_detail": {
+        "entry_a": {
+          "entry_id": 464574,
+          "gw_points": 61,
+          "goals_scored": 0,
+          "goals_conceded": 0,
+          "classic_rank": 3
+        },
+        "entry_b": {
+          "entry_id": 1845615,
+          "gw_points": 71,
+          "goals_scored": 0,
+          "goals_conceded": 0,
+          "classic_rank": 1
+        }
+      },
+      "provisional": true
     },
     "18": {
       "gw": 4,
@@ -613,25 +628,40 @@
           "manager": "Ganesh Sapkota"
         }
       ],
-      "winner_entry_id": null,
-      "tiebreak_reason": null,
-      "tiebreak_detail": null,
-      "provisional": null
+      "winner_entry_id": 1575639,
+      "tiebreak_reason": "gw_points",
+      "tiebreak_detail": {
+        "entry_a": {
+          "entry_id": 1966033,
+          "gw_points": 52,
+          "goals_scored": 0,
+          "goals_conceded": 0,
+          "classic_rank": 7
+        },
+        "entry_b": {
+          "entry_id": 1575639,
+          "gw_points": 54,
+          "goals_scored": 0,
+          "goals_conceded": 0,
+          "classic_rank": 6
+        }
+      },
+      "provisional": true
     },
     "19": {
       "gw": 5,
       "slots": [
         {
           "seed": "winner:17",
-          "entry_id": null,
-          "team_name": null,
-          "manager": null
+          "entry_id": 1845615,
+          "team_name": "Kylian Dictator",
+          "manager": "Rakesh Itani"
         },
         {
           "seed": "winner:18",
-          "entry_id": null,
-          "team_name": null,
-          "manager": null
+          "entry_id": 1575639,
+          "team_name": "SpecialOne",
+          "manager": "Ganesh Sapkota"
         }
       ],
       "winner_entry_id": null,

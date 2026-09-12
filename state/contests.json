@@ -1,14 +1,15 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T12:25:52.883942+00:00",
-  "next_deadline": "2026-09-12T12:30:00Z",
-  "current_gw": 3,
-  "current_gw_finalized": true,
+  "generated_at": "2026-09-12T13:15:24.245111+00:00",
+  "next_deadline": "2026-09-18T17:30:00Z",
+  "current_gw": 4,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "manager_of_the_week": [
     {
@@ -49,6 +50,19 @@
           "manager": "Rakesh Itani"
         }
       ]
+    },
+    {
+      "gw": 4,
+      "points": 71,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 1845615,
+          "team_name": "Kylian Dictator",
+          "manager": "Rakesh Itani"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -73,11 +87,12 @@
     {
       "month": "September",
       "label": "September",
-      "points": 71,
+      "points": 142,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
-        3
+        3,
+        4
       ],
       "winners": [
         {
