@@ -596,14 +596,14 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 464574,
-        "gw_points": 10,
+        "gw_points": 13,
         "goals_scored": 0,
         "goals_conceded": 4,
-        "classic_rank": 5
+        "classic_rank": 6
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 8,
+        "gw_points": 12,
         "goals_scored": 0,
         "goals_conceded": 6,
         "classic_rank": 1
@@ -632,14 +632,14 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 1966033,
-        "gw_points": 17,
+        "gw_points": 24,
         "goals_scored": 1,
         "goals_conceded": 6,
-        "classic_rank": 6
+        "classic_rank": 4
       },
       "entry_b": {
         "entry_id": 1575639,
-        "gw_points": 11,
+        "gw_points": 16,
         "goals_scored": 0,
         "goals_conceded": 6,
         "classic_rank": 9
