@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-12T15:05:19.407233+00:00",
+  "generated_at": "2026-09-12T15:10:20.067552+00:00",
   "next_deadline": "2026-09-18T17:30:00Z",
   "current_gw": 4,
   "current_gw_finalized": false,
@@ -53,19 +53,14 @@
     },
     {
       "gw": 4,
-      "points": 20,
-      "shared": true,
+      "points": 22,
+      "shared": false,
       "provisional": true,
       "winners": [
         {
           "entry_id": 3309536,
           "team_name": "Everest Eleven",
           "manager": "Anil Ghimire"
-        },
-        {
-          "entry_id": 3479050,
-          "team_name": "chelsea FC",
-          "manager": "Prasis Timilsena"
         }
       ]
     }

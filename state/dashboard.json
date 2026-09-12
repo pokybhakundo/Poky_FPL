@@ -593,14 +593,14 @@
         }
       ],
       "winner_entry_id": 464574,
-      "tiebreak_reason": "goals_conceded",
+      "tiebreak_reason": "gw_points",
       "tiebreak_detail": {
         "entry_a": {
           "entry_id": 464574,
-          "gw_points": 8,
+          "gw_points": 10,
           "goals_scored": 0,
           "goals_conceded": 4,
-          "classic_rank": 7
+          "classic_rank": 5
         },
         "entry_b": {
           "entry_id": 1845615,
@@ -636,14 +636,14 @@
           "gw_points": 17,
           "goals_scored": 1,
           "goals_conceded": 6,
-          "classic_rank": 6
+          "classic_rank": 7
         },
         "entry_b": {
           "entry_id": 1575639,
-          "gw_points": 10,
+          "gw_points": 12,
           "goals_scored": 0,
           "goals_conceded": 5,
-          "classic_rank": 10
+          "classic_rank": 9
         }
       },
       "provisional": true
