@@ -603,7 +603,7 @@
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 56,
+        "gw_points": 59,
         "goals_scored": 2,
         "goals_conceded": 6,
         "classic_rank": 4
@@ -632,7 +632,7 @@
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 1966033,
-        "gw_points": 91,
+        "gw_points": 94,
         "goals_scored": 3,
         "goals_conceded": 7,
         "classic_rank": 1
@@ -642,7 +642,7 @@
         "gw_points": 54,
         "goals_scored": 1,
         "goals_conceded": 7,
-        "classic_rank": 9
+        "classic_rank": 10
       }
     },
     "provisional": true
