@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T15:20:24.913294+00:00",
+  "generated_at": "2026-09-13T15:25:21.839607+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 66,
-      "total_points": 269
-    },
-    {
-      "rank": 18,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -155,12 +147,12 @@
       "total_points": 269
     },
     {
-      "rank": 20,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 70,
-      "total_points": 267
+      "rank": 18,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 66,
+      "total_points": 269
     },
     {
       "rank": 20,
@@ -168,6 +160,14 @@
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 79,
+      "total_points": 267
+    },
+    {
+      "rank": 20,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 70,
       "total_points": 267
     },
     {
