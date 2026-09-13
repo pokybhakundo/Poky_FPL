@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T17:05:21.135920+00:00",
+  "generated_at": "2026-09-13T17:10:22.160060+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,14 +116,6 @@
     },
     {
       "rank": 15,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 61,
-      "total_points": 287
-    },
-    {
-      "rank": 15,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -136,6 +128,14 @@
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 77,
+      "total_points": 287
+    },
+    {
+      "rank": 15,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 61,
       "total_points": 287
     },
     {
