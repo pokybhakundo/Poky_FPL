@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T14:50:20.607669+00:00",
+  "generated_at": "2026-09-13T14:55:18.967076+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,16 +39,16 @@
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
-      "gw_points": 60,
-      "total_points": 295
+      "gw_points": 61,
+      "total_points": 296
     },
     {
       "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 66,
-      "total_points": 293
+      "gw_points": 67,
+      "total_points": 294
     },
     {
       "rank": 7,
@@ -63,24 +63,24 @@
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 53,
-      "total_points": 287
+      "gw_points": 54,
+      "total_points": 288
     },
     {
       "rank": 9,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 53,
-      "total_points": 283
+      "gw_points": 54,
+      "total_points": 284
     },
     {
       "rank": 10,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
-      "gw_points": 60,
-      "total_points": 282
+      "gw_points": 61,
+      "total_points": 283
     },
     {
       "rank": 11,
@@ -95,35 +95,35 @@
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gw_points": 48,
-      "total_points": 277
+      "gw_points": 49,
+      "total_points": 278
     },
     {
       "rank": 13,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 66,
-      "total_points": 276
+      "gw_points": 67,
+      "total_points": 277
     },
     {
       "rank": 13,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
-      "gw_points": 50,
-      "total_points": 276
+      "gw_points": 51,
+      "total_points": 277
     },
     {
       "rank": 15,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 62,
-      "total_points": 276
+      "gw_points": 63,
+      "total_points": 277
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -140,6 +140,14 @@
     },
     {
       "rank": 18,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 70,
+      "total_points": 267
+    },
+    {
+      "rank": 19,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -147,20 +155,12 @@
       "total_points": 266
     },
     {
-      "rank": 19,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 69,
-      "total_points": 266
-    },
-    {
       "rank": 20,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 62,
-      "total_points": 265
+      "gw_points": 63,
+      "total_points": 266
     },
     {
       "rank": 21,
@@ -171,18 +171,26 @@
       "total_points": 264
     },
     {
-      "rank": 22,
+      "rank": 21,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gw_points": 75,
-      "total_points": 263
+      "gw_points": 76,
+      "total_points": 264
     },
     {
       "rank": 23,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
+      "gw_points": 54,
+      "total_points": 254
+    },
+    {
+      "rank": 24,
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
       "gw_points": 53,
       "total_points": 253
     },
@@ -191,56 +199,48 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 71,
-      "total_points": 252
-    },
-    {
-      "rank": 24,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "gw_points": 52,
-      "total_points": 252
+      "gw_points": 72,
+      "total_points": 253
     },
     {
       "rank": 26,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 57,
-      "total_points": 241
+      "gw_points": 58,
+      "total_points": 242
     },
     {
       "rank": 27,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 41,
-      "total_points": 240
+      "gw_points": 42,
+      "total_points": 241
     },
     {
       "rank": 28,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 35,
-      "total_points": 239
+      "gw_points": 36,
+      "total_points": 240
     },
     {
       "rank": 29,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 43,
-      "total_points": 238
+      "gw_points": 44,
+      "total_points": 239
     },
     {
       "rank": 30,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 54,
-      "total_points": 231
+      "gw_points": 55,
+      "total_points": 232
     },
     {
       "rank": 31,
