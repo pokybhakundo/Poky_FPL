@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T14:35:18.919113+00:00",
+  "generated_at": "2026-09-13T14:40:19.994055+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 62,
-      "total_points": 276
-    },
-    {
-      "rank": 14,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 47,
+      "total_points": 276
+    },
+    {
+      "rank": 14,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 62,
       "total_points": 276
     },
     {
@@ -188,18 +188,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 1955412,
-      "team_name": "EGO AJT YAMAL 0.786",
-      "manager": "MESSI GOAT",
-      "gw_points": 71,
-      "total_points": 252
-    },
-    {
-      "rank": 23,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 52,
+      "total_points": 252
+    },
+    {
+      "rank": 23,
+      "entry_id": 1955412,
+      "team_name": "EGO AJT YAMAL 0.786",
+      "manager": "MESSI GOAT",
+      "gw_points": 71,
       "total_points": 252
     },
     {
