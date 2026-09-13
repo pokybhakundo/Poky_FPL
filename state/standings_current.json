@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T17:10:22.160060+00:00",
+  "generated_at": "2026-09-13T17:15:18.766745+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,10 +116,10 @@
     },
     {
       "rank": 15,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 99,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 61,
       "total_points": 287
     },
     {
@@ -131,15 +131,7 @@
       "total_points": 287
     },
     {
-      "rank": 15,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 61,
-      "total_points": 287
-    },
-    {
-      "rank": 18,
+      "rank": 17,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -147,7 +139,15 @@
       "total_points": 287
     },
     {
-      "rank": 19,
+      "rank": 18,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 98,
+      "total_points": 286
+    },
+    {
+      "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -191,16 +191,16 @@
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 60,
-      "total_points": 264
+      "gw_points": 59,
+      "total_points": 263
     },
     {
       "rank": 25,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 63,
-      "total_points": 263
+      "gw_points": 62,
+      "total_points": 262
     },
     {
       "rank": 26,
@@ -255,8 +255,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 50,
-      "total_points": 231
+      "gw_points": 51,
+      "total_points": 232
     },
     {
       "rank": 33,
