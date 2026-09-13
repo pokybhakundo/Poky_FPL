@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:20:19.122402+00:00",
+  "generated_at": "2026-09-13T14:25:16.419527+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -266,43 +266,6 @@
         }
       ]
     },
-    "36783": {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2246,
-          "rank": 481617
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2355,
-          "rank": 929223
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2229,
-          "rank": 1816050
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2357,
-          "rank": 986435
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2211,
-          "rank": 1129960
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1225,
-          "rank": 7456574
-        }
-      ]
-    },
     "165293": {
       "entry_id": 165293,
       "team_name": "Power",
@@ -357,6 +320,43 @@
           "season_name": "2016/17",
           "total_points": 1322,
           "rank": 3930203
+        }
+      ]
+    },
+    "36783": {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2246,
+          "rank": 481617
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2355,
+          "rank": 929223
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2229,
+          "rank": 1816050
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2357,
+          "rank": 986435
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2211,
+          "rank": 1129960
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1225,
+          "rank": 7456574
         }
       ]
     },
@@ -501,75 +501,20 @@
         }
       ]
     },
-    "2546180": {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+    "1548786": {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2261,
-          "rank": 380131
+          "total_points": 2211,
+          "rank": 783099
         },
         {
           "season_name": "2024/25",
-          "total_points": 2424,
-          "rank": 423205
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2265,
-          "rank": 1391170
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2469,
-          "rank": 279651
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2234,
-          "rank": 991621
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2128,
-          "rank": 1456215
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2022,
-          "rank": 1653297
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2306,
-          "rank": 52394
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2011,
-          "rank": 1087794
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1954,
-          "rank": 841761
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1876,
-          "rank": 1370853
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1248,
-          "rank": 3214544
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2202,
-          "rank": 285234
+          "total_points": 2376,
+          "rank": 748840
         }
       ]
     },
@@ -642,6 +587,78 @@
           "season_name": "2013/14",
           "total_points": 2042,
           "rank": 872781
+        }
+      ]
+    },
+    "2546180": {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2261,
+          "rank": 380131
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2424,
+          "rank": 423205
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2265,
+          "rank": 1391170
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2469,
+          "rank": 279651
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2234,
+          "rank": 991621
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2128,
+          "rank": 1456215
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2022,
+          "rank": 1653297
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2306,
+          "rank": 52394
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2011,
+          "rank": 1087794
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1954,
+          "rank": 841761
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1876,
+          "rank": 1370853
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1248,
+          "rank": 3214544
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2202,
+          "rank": 285234
         }
       ]
     },
@@ -722,22 +739,58 @@
         }
       ]
     },
-    "1548786": {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 783099
+          "total_points": 2155,
+          "rank": 1445111
         },
         {
           "season_name": "2024/25",
-          "total_points": 2376,
-          "rank": 748840
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
         }
       ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "2017811": {
       "entry_id": 2017811,
@@ -816,133 +869,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
-        }
-      ]
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
-        }
-      ]
-    },
-    "5917809": {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1772,
-          "rank": 8077899
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 1870,
-          "rank": 6362442
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2205,
-          "rank": 2631584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1919,
-          "rank": 3575952
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1814,
-          "rank": 4371524
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2041,
-          "rank": 1453200
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1981,
-          "rank": 2113798
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1921,
-          "rank": 1836480
-        }
-      ]
-    },
     "75325": {
       "entry_id": 75325,
       "team_name": "CuledBarca",
@@ -995,60 +921,30 @@
         }
       ]
     },
-    "2798038": {
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2122,
-          "rank": 1912754
+          "total_points": 2200,
+          "rank": 893733
         },
         {
           "season_name": "2024/25",
-          "total_points": 2150,
-          "rank": 3572835
+          "total_points": 2219,
+          "rank": 2574655
         },
         {
           "season_name": "2023/24",
-          "total_points": 2327,
-          "rank": 805066
+          "total_points": 2197,
+          "rank": 2227044
         },
         {
           "season_name": "2022/23",
-          "total_points": 2476,
-          "rank": 252480
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2334,
-          "rank": 518578
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2203,
-          "rank": 888781
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2071,
-          "rank": 1162504
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2133,
-          "rank": 601928
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2215,
-          "rank": 95738
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1899,
-          "rank": 1172988
+          "total_points": 2303,
+          "rank": 1493330
         }
       ]
     },
@@ -1106,6 +1002,53 @@
           "season_name": "2013/14",
           "total_points": 249,
           "rank": 3194089
+        }
+      ]
+    },
+    "5917809": {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1772,
+          "rank": 8077899
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1870,
+          "rank": 6362442
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2205,
+          "rank": 2631584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1919,
+          "rank": 3575952
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1814,
+          "rank": 4371524
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2041,
+          "rank": 1453200
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1981,
+          "rank": 2113798
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1921,
+          "rank": 1836480
         }
       ]
     },
@@ -1178,6 +1121,63 @@
         }
       ]
     },
+    "2798038": {
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2122,
+          "rank": 1912754
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2150,
+          "rank": 3572835
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2327,
+          "rank": 805066
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2476,
+          "rank": 252480
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2334,
+          "rank": 518578
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2203,
+          "rank": 888781
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2071,
+          "rank": 1162504
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2133,
+          "rank": 601928
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2215,
+          "rank": 95738
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1899,
+          "rank": 1172988
+        }
+      ]
+    },
     "1955412": {
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
@@ -1209,12 +1209,6 @@
           "rank": 6849411
         }
       ]
-    },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
     },
     "500535": {
       "entry_id": 500535,
@@ -1267,6 +1261,12 @@
           "rank": 4334534
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "1595343": {
       "entry_id": 1595343,
@@ -1330,33 +1330,6 @@
         }
       ]
     },
-    "4048482": {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2197,
-          "rank": 931100
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2095,
-          "rank": 4345394
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2184,
-          "rank": 2392396
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2409,
-          "rank": 593509
-        }
-      ]
-    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -1414,20 +1387,30 @@
         }
       ]
     },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
+    "4048482": {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
+          "total_points": 2197,
+          "rank": 931100
         },
         {
           "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
+          "total_points": 2095,
+          "rank": 4345394
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2184,
+          "rank": 2392396
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2409,
+          "rank": 593509
         }
       ]
     },
@@ -1488,6 +1471,55 @@
         }
       ]
     },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
+        }
+      ]
+    },
+    "3479050": {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2128,
+          "rank": 1829871
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2062,
+          "rank": 4777928
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2111,
+          "rank": 3388711
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 1534,
+          "rank": 9612534
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1590,
+          "rank": 6768609
+        }
+      ]
+    },
     "2435657": {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
@@ -1527,38 +1559,6 @@
           "season_name": "2019/20",
           "total_points": 1125,
           "rank": 7065574
-        }
-      ]
-    },
-    "3479050": {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2128,
-          "rank": 1829871
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2062,
-          "rank": 4777928
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2111,
-          "rank": 3388711
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 1534,
-          "rank": 9612534
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1590,
-          "rank": 6768609
         }
       ]
     }
