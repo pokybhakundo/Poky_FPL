@@ -1,38 +1,38 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T14:40:19.994055+00:00",
+  "generated_at": "2026-09-13T14:45:24.086491+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gw_points": 90,
-      "total_points": 319
+      "gw_points": 91,
+      "total_points": 320
     },
     {
       "rank": 2,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 72,
-      "total_points": 310
+      "gw_points": 73,
+      "total_points": 311
     },
     {
       "rank": 3,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 72,
-      "total_points": 309
+      "gw_points": 73,
+      "total_points": 310
     },
     {
       "rank": 4,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 55,
-      "total_points": 305
+      "gw_points": 56,
+      "total_points": 306
     },
     {
       "rank": 5,
@@ -55,8 +55,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 74,
-      "total_points": 287
+      "gw_points": 75,
+      "total_points": 288
     },
     {
       "rank": 8,
@@ -87,19 +87,19 @@
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 74,
-      "total_points": 280
+      "gw_points": 75,
+      "total_points": 281
     },
     {
       "rank": 12,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 50,
-      "total_points": 276
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 48,
+      "total_points": 277
     },
     {
-      "rank": 12,
+      "rank": 13,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -107,15 +107,15 @@
       "total_points": 276
     },
     {
-      "rank": 14,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 47,
+      "rank": 13,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 50,
       "total_points": 276
     },
     {
-      "rank": 14,
+      "rank": 15,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -123,20 +123,20 @@
       "total_points": 276
     },
     {
-      "rank": 16,
+      "rank": 15,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gw_points": 60,
-      "total_points": 275
+      "gw_points": 61,
+      "total_points": 276
     },
     {
       "rank": 17,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 59,
-      "total_points": 268
+      "gw_points": 60,
+      "total_points": 269
     },
     {
       "rank": 18,
@@ -151,51 +151,43 @@
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 68,
-      "total_points": 265
+      "gw_points": 69,
+      "total_points": 266
     },
     {
       "rank": 20,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 62,
-      "total_points": 265
+      "gw_points": 63,
+      "total_points": 266
     },
     {
       "rank": 21,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 56,
-      "total_points": 263
+      "gw_points": 57,
+      "total_points": 264
     },
     {
       "rank": 22,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gw_points": 74,
-      "total_points": 262
+      "gw_points": 75,
+      "total_points": 263
     },
     {
       "rank": 23,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 52,
-      "total_points": 252
+      "gw_points": 53,
+      "total_points": 253
     },
     {
-      "rank": 23,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "gw_points": 52,
-      "total_points": 252
-    },
-    {
-      "rank": 23,
+      "rank": 24,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
@@ -203,20 +195,28 @@
       "total_points": 252
     },
     {
+      "rank": 24,
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "gw_points": 52,
+      "total_points": 252
+    },
+    {
       "rank": 26,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 41,
-      "total_points": 240
+      "gw_points": 42,
+      "total_points": 241
     },
     {
       "rank": 27,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 56,
-      "total_points": 240
+      "gw_points": 57,
+      "total_points": 241
     },
     {
       "rank": 28,
@@ -239,16 +239,16 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 53,
-      "total_points": 230
+      "gw_points": 54,
+      "total_points": 231
     },
     {
       "rank": 31,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 52,
-      "total_points": 222
+      "gw_points": 53,
+      "total_points": 223
     },
     {
       "rank": 32,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 51,
-      "total_points": 204
+      "gw_points": 52,
+      "total_points": 205
     }
   ],
   "h2h": [
