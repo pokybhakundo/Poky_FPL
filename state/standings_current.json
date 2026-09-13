@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T14:00:28.583235+00:00",
+  "generated_at": "2026-09-13T14:05:18.504518+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 61,
-      "total_points": 271
-    },
-    {
-      "rank": 10,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 45,
+      "total_points": 271
+    },
+    {
+      "rank": 10,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 61,
       "total_points": 271
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 42,
-      "total_points": 226
-    },
-    {
-      "rank": 27,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "gw_points": 22,
+      "total_points": 226
+    },
+    {
+      "rank": 27,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 42,
       "total_points": 226
     },
     {
