@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T15:55:22.124323+00:00",
+  "generated_at": "2026-09-13T16:00:27.810081+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,19 +148,19 @@
     },
     {
       "rank": 19,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 83,
+      "total_points": 271
+    },
+    {
+      "rank": 20,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 62,
       "total_points": 271
-    },
-    {
-      "rank": 20,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 81,
-      "total_points": 269
     },
     {
       "rank": 21,
