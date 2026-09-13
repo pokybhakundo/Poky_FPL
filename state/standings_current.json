@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T15:30:28.050674+00:00",
+  "generated_at": "2026-09-13T15:35:31.386172+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 51,
-      "total_points": 277
-    },
-    {
-      "rank": 15,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 67,
+      "total_points": 277
+    },
+    {
+      "rank": 15,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 51,
       "total_points": 277
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 66,
-      "total_points": 269
-    },
-    {
-      "rank": 18,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 60,
+      "total_points": 269
+    },
+    {
+      "rank": 18,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 66,
       "total_points": 269
     },
     {
