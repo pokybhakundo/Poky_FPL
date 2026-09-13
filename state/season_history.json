@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:45:23.362111+00:00",
+  "generated_at": "2026-09-13T14:50:20.297892+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1210,6 +1210,12 @@
         }
       ]
     },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
+    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1261,12 +1267,6 @@
           "rank": 4334534
         }
       ]
-    },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
     },
     "1595343": {
       "entry_id": 1595343,

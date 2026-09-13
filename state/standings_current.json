@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-13T14:45:24.086491+00:00",
+  "generated_at": "2026-09-13T14:50:20.607669+00:00",
   "classic": [
     {
       "rank": 1,
@@ -159,8 +159,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 63,
-      "total_points": 266
+      "gw_points": 62,
+      "total_points": 265
     },
     {
       "rank": 21,
@@ -204,19 +204,19 @@
     },
     {
       "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 42,
-      "total_points": 241
-    },
-    {
-      "rank": 27,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 57,
       "total_points": 241
+    },
+    {
+      "rank": 27,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 41,
+      "total_points": 240
     },
     {
       "rank": 28,
@@ -263,8 +263,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 27,
-      "total_points": 208
+      "gw_points": 26,
+      "total_points": 207
     },
     {
       "rank": 34,
