@@ -603,7 +603,7 @@
       },
       "entry_b": {
         "entry_id": 1845615,
-        "gw_points": 61,
+        "gw_points": 63,
         "goals_scored": 2,
         "goals_conceded": 7,
         "classic_rank": 4
@@ -639,10 +639,10 @@
       },
       "entry_b": {
         "entry_id": 1575639,
-        "gw_points": 65,
+        "gw_points": 66,
         "goals_scored": 2,
         "goals_conceded": 8,
-        "classic_rank": 9
+        "classic_rank": 10
       }
     },
     "provisional": true
