@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:50:28.837227+00:00",
+  "generated_at": "2026-09-14T22:55:23.000092+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -861,6 +861,78 @@
         }
       ]
     },
+    "2546180": {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2261,
+          "rank": 380131
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2424,
+          "rank": 423205
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2265,
+          "rank": 1391170
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2469,
+          "rank": 279651
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2234,
+          "rank": 991621
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2128,
+          "rank": 1456215
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2022,
+          "rank": 1653297
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2306,
+          "rank": 52394
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2011,
+          "rank": 1087794
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1954,
+          "rank": 841761
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1876,
+          "rank": 1370853
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1248,
+          "rank": 3214544
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2202,
+          "rank": 285234
+        }
+      ]
+    },
     "228817": {
       "entry_id": 228817,
       "team_name": "4toothee1",
@@ -935,78 +1007,6 @@
           "season_name": "2012/13",
           "total_points": 583,
           "rank": 2570986
-        }
-      ]
-    },
-    "2546180": {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2261,
-          "rank": 380131
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2424,
-          "rank": 423205
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2265,
-          "rank": 1391170
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2469,
-          "rank": 279651
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2234,
-          "rank": 991621
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2128,
-          "rank": 1456215
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2022,
-          "rank": 1653297
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2306,
-          "rank": 52394
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2011,
-          "rank": 1087794
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1954,
-          "rank": 841761
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1876,
-          "rank": 1370853
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1248,
-          "rank": 3214544
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2202,
-          "rank": 285234
         }
       ]
     },
@@ -1094,6 +1094,33 @@
         }
       ]
     },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
+        }
+      ]
+    },
     "1595343": {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
@@ -1153,33 +1180,6 @@
           "season_name": "2013/14",
           "total_points": 2168,
           "rank": 392079
-        }
-      ]
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
         }
       ]
     },

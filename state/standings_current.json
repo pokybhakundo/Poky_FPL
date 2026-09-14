@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T22:50:29.307395+00:00",
+  "generated_at": "2026-09-14T22:55:23.391391+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 82,
-      "total_points": 288
-    },
-    {
-      "rank": 19,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 78,
+      "total_points": 288
+    },
+    {
+      "rank": 19,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 82,
       "total_points": 288
     },
     {
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 71,
-      "total_points": 275
-    },
-    {
-      "rank": 23,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 68,
+      "total_points": 275
+    },
+    {
+      "rank": 23,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 71,
       "total_points": 275
     },
     {
