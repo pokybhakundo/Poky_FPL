@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T19:30:26.172525+00:00",
+  "generated_at": "2026-09-14T19:35:20.319692+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,8 +15,8 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 86,
-      "total_points": 324
+      "gw_points": 88,
+      "total_points": 326
     },
     {
       "rank": 3,
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 62,
-      "total_points": 244
+      "gw_points": 59,
+      "total_points": 241
     },
     {
       "rank": 32,
