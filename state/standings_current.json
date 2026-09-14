@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T20:50:24.393847+00:00",
+  "generated_at": "2026-09-14T20:55:20.521109+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,18 +36,18 @@
     },
     {
       "rank": 5,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 75,
+      "total_points": 309
+    },
+    {
+      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 81,
-      "total_points": 308
-    },
-    {
-      "rank": 5,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 74,
       "total_points": 308
     },
     {
@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 75,
+      "total_points": 305
+    },
+    {
+      "rank": 9,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -67,20 +75,12 @@
       "total_points": 304
     },
     {
-      "rank": 8,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 74,
-      "total_points": 304
-    },
-    {
       "rank": 10,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 86,
-      "total_points": 299
+      "gw_points": 87,
+      "total_points": 300
     },
     {
       "rank": 11,
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 80,
+      "total_points": 289
+    },
+    {
+      "rank": 17,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -139,7 +147,7 @@
       "total_points": 289
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -147,7 +155,7 @@
       "total_points": 288
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -155,20 +163,12 @@
       "total_points": 288
     },
     {
-      "rank": 20,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 79,
-      "total_points": 288
-    },
-    {
       "rank": 21,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 81,
-      "total_points": 281
+      "gw_points": 82,
+      "total_points": 282
     },
     {
       "rank": 22,
@@ -187,12 +187,12 @@
       "total_points": 275
     },
     {
-      "rank": 24,
+      "rank": 23,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 70,
-      "total_points": 274
+      "gw_points": 71,
+      "total_points": 275
     },
     {
       "rank": 25,
@@ -204,14 +204,6 @@
     },
     {
       "rank": 26,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 80,
-      "total_points": 262
-    },
-    {
-      "rank": 27,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
@@ -219,7 +211,7 @@
       "total_points": 261
     },
     {
-      "rank": 28,
+      "rank": 27,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -227,12 +219,20 @@
       "total_points": 260
     },
     {
-      "rank": 29,
+      "rank": 28,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 62,
       "total_points": 257
+    },
+    {
+      "rank": 29,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 74,
+      "total_points": 256
     },
     {
       "rank": 30,
