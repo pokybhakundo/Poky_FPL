@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T19:40:24.685983+00:00",
+  "generated_at": "2026-09-14T19:45:22.347229+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,8 +31,8 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 62,
-      "total_points": 312
+      "gw_points": 63,
+      "total_points": 313
     },
     {
       "rank": 5,
@@ -60,18 +60,18 @@
     },
     {
       "rank": 8,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 73,
-      "total_points": 303
-    },
-    {
-      "rank": 8,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 88,
+      "total_points": 303
+    },
+    {
+      "rank": 8,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 73,
       "total_points": 303
     },
     {
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 78,
-      "total_points": 288
-    },
-    {
-      "rank": 17,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 100,
+      "total_points": 288
+    },
+    {
+      "rank": 17,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 78,
       "total_points": 288
     },
     {
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 67,
-      "total_points": 249
+      "gw_points": 66,
+      "total_points": 248
     },
     {
       "rank": 32,
