@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T19:45:22.347229+00:00",
+  "generated_at": "2026-09-14T19:50:27.066646+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,18 +44,18 @@
     },
     {
       "rank": 6,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 73,
-      "total_points": 307
-    },
-    {
-      "rank": 7,
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
       "gw_points": 71,
+      "total_points": 306
+    },
+    {
+      "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 72,
       "total_points": 306
     },
     {
@@ -67,20 +67,20 @@
       "total_points": 303
     },
     {
-      "rank": 8,
+      "rank": 9,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 73,
-      "total_points": 303
+      "gw_points": 72,
+      "total_points": 302
     },
     {
       "rank": 10,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 85,
-      "total_points": 298
+      "gw_points": 84,
+      "total_points": 297
     },
     {
       "rank": 11,
@@ -159,16 +159,16 @@
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 78,
-      "total_points": 287
+      "gw_points": 77,
+      "total_points": 286
     },
     {
       "rank": 21,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 80,
-      "total_points": 280
+      "gw_points": 79,
+      "total_points": 279
     },
     {
       "rank": 22,
@@ -191,8 +191,8 @@
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 69,
-      "total_points": 273
+      "gw_points": 68,
+      "total_points": 272
     },
     {
       "rank": 25,
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 66,
-      "total_points": 248
+      "gw_points": 65,
+      "total_points": 247
     },
     {
       "rank": 32,
