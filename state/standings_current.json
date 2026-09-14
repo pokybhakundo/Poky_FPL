@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T20:30:23.270578+00:00",
+  "generated_at": "2026-09-14T20:35:22.667270+00:00",
   "classic": [
     {
       "rank": 1,
@@ -60,18 +60,18 @@
     },
     {
       "rank": 8,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 74,
-      "total_points": 304
-    },
-    {
-      "rank": 8,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 89,
+      "total_points": 304
+    },
+    {
+      "rank": 8,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 74,
       "total_points": 304
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 82,
-      "total_points": 288
-    },
-    {
-      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 78,
+      "total_points": 288
+    },
+    {
+      "rank": 18,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 82,
       "total_points": 288
     },
     {
@@ -223,8 +223,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 78,
-      "total_points": 260
+      "gw_points": 77,
+      "total_points": 259
     },
     {
       "rank": 29,
