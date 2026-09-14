@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-14T20:45:57.356076+00:00",
+  "generated_at": "2026-09-14T20:50:24.393847+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,18 +36,18 @@
     },
     {
       "rank": 5,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 74,
-      "total_points": 308
-    },
-    {
-      "rank": 5,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 81,
+      "total_points": 308
+    },
+    {
+      "rank": 5,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 74,
       "total_points": 308
     },
     {
@@ -204,6 +204,14 @@
     },
     {
       "rank": 26,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 80,
+      "total_points": 262
+    },
+    {
+      "rank": 27,
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
@@ -211,19 +219,11 @@
       "total_points": 261
     },
     {
-      "rank": 27,
+      "rank": 28,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 83,
-      "total_points": 260
-    },
-    {
-      "rank": 28,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 78,
       "total_points": 260
     },
     {
