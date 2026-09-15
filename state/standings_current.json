@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-15T07:30:26.050439+00:00",
+  "generated_at": "2026-09-15T07:35:20.241938+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 82,
-      "total_points": 288
-    },
-    {
-      "rank": 19,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 78,
+      "total_points": 288
+    },
+    {
+      "rank": 19,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 82,
       "total_points": 288
     },
     {
