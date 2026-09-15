@@ -600,14 +600,14 @@
           "gw_points": 83,
           "goals_scored": 2,
           "goals_conceded": 4,
-          "classic_rank": 3
+          "classic_rank": 4
         },
         "entry_b": {
           "entry_id": 1845615,
-          "gw_points": 64,
+          "gw_points": 72,
           "goals_scored": 2,
           "goals_conceded": 15,
-          "classic_rank": 4
+          "classic_rank": 3
         }
       },
       "provisional": true
