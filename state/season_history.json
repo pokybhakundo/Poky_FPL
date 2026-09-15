@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:00:31.834640+00:00",
+  "generated_at": "2026-09-15T07:05:18.817034+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1094,33 +1094,6 @@
         }
       ]
     },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
-        }
-      ]
-    },
     "1595343": {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
@@ -1180,6 +1153,33 @@
           "season_name": "2013/14",
           "total_points": 2168,
           "rank": 392079
+        }
+      ]
+    },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
         }
       ]
     },
