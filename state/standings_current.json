@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-15T00:25:25.042180+00:00",
+  "generated_at": "2026-09-15T00:30:37.872641+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 71,
-      "total_points": 275
-    },
-    {
-      "rank": 23,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 68,
+      "total_points": 275
+    },
+    {
+      "rank": 23,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 71,
       "total_points": 275
     },
     {
