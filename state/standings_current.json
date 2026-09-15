@@ -1,6 +1,6 @@
 {
   "gw": 4,
-  "generated_at": "2026-09-15T04:01:04.813301+00:00",
+  "generated_at": "2026-09-15T04:05:21.268617+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 86,
-      "total_points": 289
-    },
-    {
-      "rank": 17,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 80,
+      "total_points": 289
+    },
+    {
+      "rank": 17,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 86,
       "total_points": 289
     },
     {
