@@ -664,7 +664,7 @@
       }
     ],
     "winner_entry_id": 1966033,
-    "tiebreak_reason": "classic_rank",
+    "tiebreak_reason": "gw_points",
     "tiebreak_detail": {
       "entry_a": {
         "entry_id": 464574,
@@ -675,7 +675,7 @@
       },
       "entry_b": {
         "entry_id": 1966033,
-        "gw_points": 0,
+        "gw_points": 2,
         "goals_scored": 0,
         "goals_conceded": 0,
         "classic_rank": 1

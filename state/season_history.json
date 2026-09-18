@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:05:22.322014+00:00",
+  "generated_at": "2026-09-18T19:10:21.030915+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -303,6 +303,12 @@
         }
       ]
     },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "1575639": {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
@@ -344,12 +350,6 @@
           "rank": 7321641
         }
       ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
     },
     "3309536": {
       "entry_id": 3309536,
@@ -628,6 +628,53 @@
         }
       ]
     },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
+        }
+      ]
+    },
     "254926": {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
@@ -772,53 +819,6 @@
         }
       ]
     },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
-        }
-      ]
-    },
     "969893": {
       "entry_id": 969893,
       "team_name": "Team Utthan",
@@ -853,83 +853,6 @@
           "season_name": "2020/21",
           "total_points": 2121,
           "rank": 1520478
-        }
-      ]
-    },
-    "2017811": {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2098,
-          "rank": 2302206
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2382,
-          "rank": 701745
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2397,
-          "rank": 378203
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2326,
-          "rank": 1266101
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2432,
-          "rank": 229564
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2349,
-          "rank": 195318
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2099,
-          "rank": 920533
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2032,
-          "rank": 1511690
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1920,
-          "rank": 1850042
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1992,
-          "rank": 644828
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 2120,
-          "rank": 168518
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 2161,
-          "rank": 19573
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2314,
-          "rank": 64299
-        },
-        {
-          "season_name": "2012/13",
-          "total_points": 1501,
-          "rank": 2087647
         }
       ]
     },
@@ -1007,6 +930,83 @@
           "season_name": "2012/13",
           "total_points": 583,
           "rank": 2570986
+        }
+      ]
+    },
+    "2017811": {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2098,
+          "rank": 2302206
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2382,
+          "rank": 701745
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2397,
+          "rank": 378203
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2326,
+          "rank": 1266101
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2432,
+          "rank": 229564
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2349,
+          "rank": 195318
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2099,
+          "rank": 920533
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2032,
+          "rank": 1511690
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1920,
+          "rank": 1850042
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1992,
+          "rank": 644828
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 2120,
+          "rank": 168518
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 2161,
+          "rank": 19573
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2314,
+          "rank": 64299
+        },
+        {
+          "season_name": "2012/13",
+          "total_points": 1501,
+          "rank": 2087647
         }
       ]
     },
@@ -1240,6 +1240,38 @@
         }
       ]
     },
+    "1955412": {
+      "entry_id": 1955412,
+      "team_name": "EGO AJT YAMAL 0.786",
+      "manager": "MESSI GOAT",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1945,
+          "rank": 5077550
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2403,
+          "rank": 550268
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2437,
+          "rank": 221626
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2382,
+          "rank": 782181
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1439,
+          "rank": 6849411
+        }
+      ]
+    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1289,38 +1321,6 @@
           "season_name": "2016/17",
           "total_points": 690,
           "rank": 4334534
-        }
-      ]
-    },
-    "1955412": {
-      "entry_id": 1955412,
-      "team_name": "EGO AJT YAMAL 0.786",
-      "manager": "MESSI GOAT",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1945,
-          "rank": 5077550
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2403,
-          "rank": 550268
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2437,
-          "rank": 221626
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2382,
-          "rank": 782181
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1439,
-          "rank": 6849411
         }
       ]
     },
