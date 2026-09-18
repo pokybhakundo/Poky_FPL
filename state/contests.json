@@ -1,15 +1,16 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-18T17:25:24.200671+00:00",
-  "next_deadline": "2026-09-18T17:30:00Z",
-  "current_gw": 4,
-  "current_gw_finalized": true,
+  "generated_at": "2026-09-18T18:15:29.849830+00:00",
+  "next_deadline": "2026-10-10T10:00:00Z",
+  "current_gw": 5,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
   "manager_of_the_week": [
     {
@@ -63,6 +64,19 @@
           "manager": "Biraj Shakya"
         }
       ]
+    },
+    {
+      "gw": 5,
+      "points": 103,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -87,12 +101,13 @@
     {
       "month": "September",
       "label": "September",
-      "points": 155,
+      "points": 258,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
         3,
-        4
+        4,
+        5
       ],
       "winners": [
         {
