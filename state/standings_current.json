@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T20:55:26.182287+00:00",
+  "generated_at": "2026-09-18T21:00:30.413709+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 4,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -155,12 +147,12 @@
       "total_points": 292
     },
     {
-      "rank": 20,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 2,
-      "total_points": 291
+      "rank": 18,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 4,
+      "total_points": 292
     },
     {
       "rank": 20,
@@ -168,6 +160,14 @@
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 9,
+      "total_points": 291
+    },
+    {
+      "rank": 20,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 2,
       "total_points": 291
     },
     {
@@ -207,16 +207,8 @@
       "entry_id": 1955412,
       "team_name": "EGO AJT YAMAL 0.786",
       "manager": "MESSI GOAT",
-      "gw_points": 10,
-      "total_points": 271
-    },
-    {
-      "rank": 27,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 2,
-      "total_points": 264
+      "gw_points": 13,
+      "total_points": 274
     },
     {
       "rank": 27,
@@ -224,6 +216,14 @@
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 7,
+      "total_points": 264
+    },
+    {
+      "rank": 27,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 2,
       "total_points": 264
     },
     {
