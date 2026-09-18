@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T18:15:30.388780+00:00",
+  "generated_at": "2026-09-18T18:20:32.808094+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 80,
-      "total_points": 290
-    },
-    {
-      "rank": 15,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 64,
+      "total_points": 290
+    },
+    {
+      "rank": 15,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 80,
       "total_points": 290
     },
     {
