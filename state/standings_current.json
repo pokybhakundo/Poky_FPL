@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T19:45:38.798566+00:00",
+  "generated_at": "2026-09-18T19:50:24.408926+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 2,
-      "total_points": 291
-    },
-    {
-      "rank": 17,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 1,
+      "total_points": 291
+    },
+    {
+      "rank": 17,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 2,
       "total_points": 291
     },
     {
@@ -167,8 +167,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 3,
-      "total_points": 285
+      "gw_points": 4,
+      "total_points": 286
     },
     {
       "rank": 22,
@@ -231,8 +231,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 2,
-      "total_points": 259
+      "gw_points": 3,
+      "total_points": 260
     },
     {
       "rank": 30,

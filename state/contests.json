@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-18T19:45:38.371349+00:00",
+  "generated_at": "2026-09-18T19:50:23.877318+00:00",
   "next_deadline": "2026-10-10T10:00:00Z",
   "current_gw": 5,
   "current_gw_finalized": false,
@@ -67,19 +67,14 @@
     },
     {
       "gw": 5,
-      "points": 3,
-      "shared": true,
+      "points": 4,
+      "shared": false,
       "provisional": true,
       "winners": [
         {
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 1955412,
-          "team_name": "EGO AJT YAMAL 0.786",
-          "manager": "MESSI GOAT"
         }
       ]
     }
