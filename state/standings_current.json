@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T19:35:21.642618+00:00",
+  "generated_at": "2026-09-18T19:40:19.788002+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 1,
-      "total_points": 291
-    },
-    {
-      "rank": 17,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 2,
+      "total_points": 291
+    },
+    {
+      "rank": 17,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 1,
       "total_points": 291
     },
     {
