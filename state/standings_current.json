@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T21:15:18.377139+00:00",
+  "generated_at": "2026-09-18T21:20:25.384498+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 4,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 2,
+      "total_points": 292
+    },
+    {
+      "rank": 18,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 4,
       "total_points": 292
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 2,
-      "total_points": 264
-    },
-    {
-      "rank": 27,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 7,
+      "total_points": 264
+    },
+    {
+      "rank": 27,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 2,
       "total_points": 264
     },
     {
