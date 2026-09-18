@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-18T21:45:25.663573+00:00",
+  "generated_at": "2026-09-18T21:50:27.142513+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 2,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -155,12 +147,12 @@
       "total_points": 292
     },
     {
-      "rank": 20,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
+      "rank": 18,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "gw_points": 2,
-      "total_points": 291
+      "total_points": 292
     },
     {
       "rank": 20,
@@ -168,6 +160,14 @@
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 9,
+      "total_points": 291
+    },
+    {
+      "rank": 20,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 2,
       "total_points": 291
     },
     {
