@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T13:35:19.124527+00:00",
+  "generated_at": "2026-09-19T13:40:21.734069+00:00",
   "classic": [
     {
       "rank": 1,
@@ -92,6 +92,14 @@
     },
     {
       "rank": 12,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 10,
+      "total_points": 300
+    },
+    {
+      "rank": 13,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -99,7 +107,7 @@
       "total_points": 298
     },
     {
-      "rank": 13,
+      "rank": 14,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -107,7 +115,7 @@
       "total_points": 298
     },
     {
-      "rank": 14,
+      "rank": 15,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -115,18 +123,10 @@
       "total_points": 296
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 4,
-      "total_points": 294
-    },
-    {
-      "rank": 15,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
       "gw_points": 4,
       "total_points": 294
     },
@@ -196,19 +196,19 @@
     },
     {
       "rank": 25,
+      "entry_id": 1955412,
+      "team_name": "EGO AJT YAMAL 0.786",
+      "manager": "MESSI GOAT",
+      "gw_points": 19,
+      "total_points": 280
+    },
+    {
+      "rank": 26,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "gw_points": 2,
       "total_points": 277
-    },
-    {
-      "rank": 26,
-      "entry_id": 1955412,
-      "team_name": "EGO AJT YAMAL 0.786",
-      "manager": "MESSI GOAT",
-      "gw_points": 13,
-      "total_points": 274
     },
     {
       "rank": 27,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 5,
-      "total_points": 230
+      "gw_points": 4,
+      "total_points": 229
     }
   ],
   "h2h": [
