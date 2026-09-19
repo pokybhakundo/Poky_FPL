@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T08:10:21.072840+00:00",
+  "generated_at": "2026-09-19T08:15:24.290441+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 0,
-      "total_points": 296
-    },
-    {
-      "rank": 13,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 2,
+      "total_points": 296
+    },
+    {
+      "rank": 13,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 0,
       "total_points": 296
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 2,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 4,
+      "total_points": 292
+    },
+    {
+      "rank": 18,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 2,
       "total_points": 292
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 7,
-      "total_points": 264
-    },
-    {
-      "rank": 27,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "gw_points": 2,
+      "total_points": 264
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 7,
       "total_points": 264
     },
     {
