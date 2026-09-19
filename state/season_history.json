@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T03:00:26.534402+00:00",
+  "generated_at": "2026-09-19T03:05:52.597438+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -933,38 +933,6 @@
         }
       ]
     },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
-        }
-      ]
-    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -1039,6 +1007,38 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
+        }
+      ]
+    },
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1896,
+          "rank": 5984966
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2242,
+          "rank": 2250336
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2277,
+          "rank": 1262608
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2383,
+          "rank": 776057
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2112,
+          "rank": 1826181
         }
       ]
     },
