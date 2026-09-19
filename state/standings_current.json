@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T13:40:21.734069+00:00",
+  "generated_at": "2026-09-19T13:45:23.574755+00:00",
   "classic": [
     {
       "rank": 1,
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 7,
-      "total_points": 264
-    },
-    {
-      "rank": 27,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "gw_points": 2,
+      "total_points": 264
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 7,
       "total_points": 264
     },
     {
