@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T14:25:18.947223+00:00",
+  "generated_at": "2026-09-19T14:30:22.831649+00:00",
   "classic": [
     {
       "rank": 1,
@@ -23,8 +23,8 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 11,
-      "total_points": 337
+      "gw_points": 9,
+      "total_points": 335
     },
     {
       "rank": 4,
@@ -103,8 +103,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 9,
-      "total_points": 308
+      "gw_points": 7,
+      "total_points": 306
     },
     {
       "rank": 14,
@@ -148,14 +148,6 @@
     },
     {
       "rank": 19,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 19,
-      "total_points": 301
-    },
-    {
-      "rank": 20,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -163,7 +155,7 @@
       "total_points": 300
     },
     {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -171,12 +163,20 @@
       "total_points": 299
     },
     {
+      "rank": 21,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 17,
+      "total_points": 299
+    },
+    {
       "rank": 22,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 9,
-      "total_points": 298
+      "gw_points": 7,
+      "total_points": 296
     },
     {
       "rank": 23,
@@ -215,16 +215,16 @@
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 11,
-      "total_points": 271
+      "gw_points": 9,
+      "total_points": 269
     },
     {
       "rank": 28,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 7,
-      "total_points": 269
+      "gw_points": 5,
+      "total_points": 267
     },
     {
       "rank": 29,
@@ -252,14 +252,6 @@
     },
     {
       "rank": 32,
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "gw_points": 19,
-      "total_points": 244
-    },
-    {
-      "rank": 33,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
@@ -267,12 +259,20 @@
       "total_points": 243
     },
     {
+      "rank": 33,
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "gw_points": 17,
+      "total_points": 242
+    },
+    {
       "rank": 34,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 12,
-      "total_points": 240
+      "gw_points": 10,
+      "total_points": 238
     }
   ],
   "h2h": [
