@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-19T14:20:21.368993+00:00",
+  "generated_at": "2026-09-19T14:25:18.478491+00:00",
   "next_deadline": "2026-10-10T10:00:00Z",
   "current_gw": 5,
   "current_gw_finalized": false,
@@ -67,14 +67,14 @@
     },
     {
       "gw": 5,
-      "points": 22,
+      "points": 26,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1955412,
-          "team_name": "EGO AJT YAMAL 0.786",
-          "manager": "MESSI GOAT"
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
         }
       ]
     }
@@ -101,7 +101,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 174,
+      "points": 181,
       "shared": false,
       "provisional": true,
       "gameweeks": [
