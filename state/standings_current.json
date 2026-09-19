@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T02:20:20.420117+00:00",
+  "generated_at": "2026-09-19T02:25:21.543679+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 0,
-      "total_points": 296
-    },
-    {
-      "rank": 13,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 2,
+      "total_points": 296
+    },
+    {
+      "rank": 13,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 0,
       "total_points": 296
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 4,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 2,
+      "total_points": 292
+    },
+    {
+      "rank": 18,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 4,
       "total_points": 292
     },
     {
