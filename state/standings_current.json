@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T04:40:23.458092+00:00",
+  "generated_at": "2026-09-19T04:45:18.603122+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 2,
-      "total_points": 292
-    },
-    {
-      "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -155,12 +147,12 @@
       "total_points": 292
     },
     {
-      "rank": 20,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
+      "rank": 18,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "gw_points": 2,
-      "total_points": 291
+      "total_points": 292
     },
     {
       "rank": 20,
@@ -168,6 +160,14 @@
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 9,
+      "total_points": 291
+    },
+    {
+      "rank": 20,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 2,
       "total_points": 291
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 7,
-      "total_points": 264
-    },
-    {
-      "rank": 27,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "gw_points": 2,
+      "total_points": 264
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 7,
       "total_points": 264
     },
     {
