@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T14:45:18.898263+00:00",
+  "generated_at": "2026-09-19T14:50:31.011210+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,8 +31,8 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 5,
-      "total_points": 327
+      "gw_points": 4,
+      "total_points": 326
     },
     {
       "rank": 5,
@@ -123,12 +123,12 @@
       "total_points": 305
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 17,
-      "total_points": 305
+      "gw_points": 16,
+      "total_points": 304
     },
     {
       "rank": 17,
@@ -148,19 +148,19 @@
     },
     {
       "rank": 19,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 19,
-      "total_points": 300
-    },
-    {
-      "rank": 20,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 4,
       "total_points": 300
+    },
+    {
+      "rank": 20,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 17,
+      "total_points": 298
     },
     {
       "rank": 21,
