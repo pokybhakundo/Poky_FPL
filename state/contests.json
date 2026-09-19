@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-19T14:50:30.260262+00:00",
+  "generated_at": "2026-09-19T14:55:18.473508+00:00",
   "next_deadline": "2026-10-10T10:00:00Z",
   "current_gw": 5,
   "current_gw_finalized": false,
@@ -67,14 +67,14 @@
     },
     {
       "gw": 5,
-      "points": 24,
+      "points": 23,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
+          "entry_id": 464574,
+          "team_name": "The Carrick Masters",
+          "manager": "Mohan S Madai"
         }
       ]
     }
@@ -101,7 +101,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 179,
+      "points": 176,
       "shared": false,
       "provisional": true,
       "gameweeks": [

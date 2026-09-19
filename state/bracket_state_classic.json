@@ -663,7 +663,7 @@
         "manager": "Biraj Shakya"
       }
     ],
-    "winner_entry_id": 1966033,
+    "winner_entry_id": 464574,
     "tiebreak_reason": "gw_points",
     "tiebreak_detail": {
       "entry_a": {
@@ -675,7 +675,7 @@
       },
       "entry_b": {
         "entry_id": 1966033,
-        "gw_points": 24,
+        "gw_points": 21,
         "goals_scored": 2,
         "goals_conceded": 14,
         "classic_rank": 1
