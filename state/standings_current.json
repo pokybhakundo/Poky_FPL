@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T17:20:22.733843+00:00",
+  "generated_at": "2026-09-19T17:25:24.301719+00:00",
   "classic": [
     {
       "rank": 1,
@@ -63,8 +63,8 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 23,
-      "total_points": 326
+      "gw_points": 24,
+      "total_points": 327
     },
     {
       "rank": 9,
@@ -212,6 +212,14 @@
     },
     {
       "rank": 27,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 28,
+      "total_points": 282
+    },
+    {
+      "rank": 28,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -219,23 +227,15 @@
       "total_points": 282
     },
     {
-      "rank": 28,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 27,
-      "total_points": 281
-    },
-    {
       "rank": 29,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 18,
-      "total_points": 280
+      "gw_points": 19,
+      "total_points": 281
     },
     {
-      "rank": 29,
+      "rank": 30,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -263,8 +263,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 25,
-      "total_points": 250
+      "gw_points": 26,
+      "total_points": 251
     },
     {
       "rank": 34,
