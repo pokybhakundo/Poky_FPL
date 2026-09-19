@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-19T15:25:18.329504+00:00",
+  "generated_at": "2026-09-19T15:30:21.803957+00:00",
   "next_deadline": "2026-10-10T10:00:00Z",
   "current_gw": 5,
   "current_gw_finalized": false,
@@ -67,14 +67,14 @@
     },
     {
       "gw": 5,
-      "points": 30,
+      "points": 36,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 464574,
-          "team_name": "The Carrick Masters",
-          "manager": "Mohan S Madai"
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
         }
       ]
     }
@@ -101,7 +101,7 @@
     {
       "month": "September",
       "label": "September",
-      "points": 178,
+      "points": 185,
       "shared": false,
       "provisional": true,
       "gameweeks": [
