@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T12:20:24.650498+00:00",
+  "generated_at": "2026-09-19T12:25:22.062270+00:00",
   "classic": [
     {
       "rank": 1,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 7,
-      "total_points": 232
+      "gw_points": 6,
+      "total_points": 231
     }
   ],
   "h2h": [
