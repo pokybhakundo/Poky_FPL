@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T19:10:17.770010+00:00",
+  "generated_at": "2026-09-19T19:15:17.336700+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -625,12 +625,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
     "254926": {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
@@ -729,6 +723,12 @@
           "rank": 1493330
         }
       ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "969893": {
       "entry_id": 969893,
