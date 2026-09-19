@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:05:17.076531+00:00",
+  "generated_at": "2026-09-19T15:10:21.558477+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -554,6 +554,83 @@
         }
       ]
     },
+    "228817": {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2255,
+          "rank": 423627
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2445,
+          "rank": 318148
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2316,
+          "rank": 900281
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2577,
+          "rank": 27112
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2431,
+          "rank": 231731
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2452,
+          "rank": 28949
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2186,
+          "rank": 356031
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2243,
+          "rank": 148147
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2060,
+          "rank": 730018
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1746,
+          "rank": 2194289
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1984,
+          "rank": 735351
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1917,
+          "rank": 508937
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2184,
+          "rank": 341392
+        },
+        {
+          "season_name": "2012/13",
+          "total_points": 583,
+          "rank": 2570986
+        }
+      ]
+    },
     "4122498": {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
@@ -745,83 +822,6 @@
         }
       ]
     },
-    "228817": {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2255,
-          "rank": 423627
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2445,
-          "rank": 318148
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2316,
-          "rank": 900281
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2577,
-          "rank": 27112
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2431,
-          "rank": 231731
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2452,
-          "rank": 28949
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2186,
-          "rank": 356031
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2243,
-          "rank": 148147
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2060,
-          "rank": 730018
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1746,
-          "rank": 2194289
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1984,
-          "rank": 735351
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1917,
-          "rank": 508937
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2184,
-          "rank": 341392
-        },
-        {
-          "season_name": "2012/13",
-          "total_points": 583,
-          "rank": 2570986
-        }
-      ]
-    },
     "969893": {
       "entry_id": 969893,
       "team_name": "Team Utthan",
@@ -916,23 +916,6 @@
         }
       ]
     },
-    "1548786": {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 783099
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2376,
-          "rank": 748840
-        }
-      ]
-    },
     "1843084": {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
@@ -957,6 +940,23 @@
           "season_name": "2022/23",
           "total_points": 2303,
           "rank": 1493330
+        }
+      ]
+    },
+    "1548786": {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 783099
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2376,
+          "rank": 748840
         }
       ]
     },

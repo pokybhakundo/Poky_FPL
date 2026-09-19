@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T15:05:17.475996+00:00",
+  "generated_at": "2026-09-19T15:10:22.257972+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 15,
+      "total_points": 303
+    },
+    {
+      "rank": 14,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -107,7 +115,7 @@
       "total_points": 302
     },
     {
-      "rank": 13,
+      "rank": 14,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -115,7 +123,7 @@
       "total_points": 302
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -123,15 +131,7 @@
       "total_points": 301
     },
     {
-      "rank": 16,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 13,
-      "total_points": 301
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -148,19 +148,19 @@
     },
     {
       "rank": 19,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 16,
+      "total_points": 297
+    },
+    {
+      "rank": 20,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 2,
       "total_points": 296
-    },
-    {
-      "rank": 20,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 14,
-      "total_points": 295
     },
     {
       "rank": 21,
