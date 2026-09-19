@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T15:45:24.076877+00:00",
+  "generated_at": "2026-09-19T15:50:18.992483+00:00",
   "classic": [
     {
       "rank": 1,
@@ -95,16 +95,16 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 31,
-      "total_points": 312
+      "gw_points": 30,
+      "total_points": 311
     },
     {
       "rank": 12,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 24,
-      "total_points": 312
+      "gw_points": 23,
+      "total_points": 311
     },
     {
       "rank": 14,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 16,
-      "total_points": 305
-    },
-    {
-      "rank": 17,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 15,
+      "total_points": 305
+    },
+    {
+      "rank": 17,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 16,
       "total_points": 305
     },
     {
@@ -164,18 +164,18 @@
     },
     {
       "rank": 21,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 12,
-      "total_points": 301
-    },
-    {
-      "rank": 21,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 7,
+      "total_points": 301
+    },
+    {
+      "rank": 21,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 12,
       "total_points": 301
     },
     {
@@ -223,11 +223,11 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 18,
-      "total_points": 280
+      "gw_points": 19,
+      "total_points": 281
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
