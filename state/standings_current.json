@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T18:00:29.147055+00:00",
+  "generated_at": "2026-09-19T18:05:16.294665+00:00",
   "classic": [
     {
       "rank": 1,
@@ -19,12 +19,12 @@
       "total_points": 358
     },
     {
-      "rank": 3,
+      "rank": 2,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 30,
-      "total_points": 356
+      "gw_points": 32,
+      "total_points": 358
     },
     {
       "rank": 4,
