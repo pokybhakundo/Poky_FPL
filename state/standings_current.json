@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T18:55:15.756237+00:00",
+  "generated_at": "2026-09-19T19:00:33.724735+00:00",
   "classic": [
     {
       "rank": 1,
@@ -12,18 +12,18 @@
     },
     {
       "rank": 2,
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "gw_points": 32,
-      "total_points": 358
-    },
-    {
-      "rank": 2,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 38,
+      "total_points": 358
+    },
+    {
+      "rank": 2,
+      "entry_id": 2310055,
+      "team_name": "NetSix&Chill FC",
+      "manager": "Sabin Shrestha",
+      "gw_points": 32,
       "total_points": 358
     },
     {
