@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T13:30:24.129967+00:00",
+  "generated_at": "2026-09-20T13:35:18.422765+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,19 +140,19 @@
     },
     {
       "rank": 18,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 22,
+      "total_points": 312
+    },
+    {
+      "rank": 19,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 21,
       "total_points": 311
-    },
-    {
-      "rank": 19,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 20,
-      "total_points": 310
     },
     {
       "rank": 20,
@@ -219,12 +219,12 @@
       "total_points": 287
     },
     {
-      "rank": 27,
+      "rank": 28,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 27,
-      "total_points": 287
+      "gw_points": 26,
+      "total_points": 286
     },
     {
       "rank": 29,
