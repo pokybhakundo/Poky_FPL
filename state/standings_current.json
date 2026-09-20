@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T16:00:33.160863+00:00",
+  "generated_at": "2026-09-20T16:05:20.580307+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 39,
-      "total_points": 328
-    },
-    {
-      "rank": 17,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 47,
+      "total_points": 328
+    },
+    {
+      "rank": 17,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 39,
       "total_points": 328
     },
     {
@@ -228,18 +228,18 @@
     },
     {
       "rank": 29,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 44,
+      "total_points": 301
+    },
+    {
+      "rank": 30,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 46,
-      "total_points": 300
-    },
-    {
-      "rank": 30,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 43,
       "total_points": 300
     },
     {
@@ -255,8 +255,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 36,
-      "total_points": 292
+      "gw_points": 37,
+      "total_points": 293
     },
     {
       "rank": 33,
