@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T14:40:22.913791+00:00",
+  "generated_at": "2026-09-20T14:45:19.724763+00:00",
   "classic": [
     {
       "rank": 1,
@@ -204,18 +204,18 @@
     },
     {
       "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 34,
-      "total_points": 296
-    },
-    {
-      "rank": 26,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 36,
+      "total_points": 296
+    },
+    {
+      "rank": 26,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 34,
       "total_points": 296
     },
     {
