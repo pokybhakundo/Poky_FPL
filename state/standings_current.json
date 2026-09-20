@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-19T23:55:17.161740+00:00",
+  "generated_at": "2026-09-20T00:00:32.920985+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,18 +100,18 @@
     },
     {
       "rank": 13,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "gw_points": 12,
-      "total_points": 316
-    },
-    {
-      "rank": 13,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 35,
+      "total_points": 316
+    },
+    {
+      "rank": 13,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "gw_points": 12,
       "total_points": 316
     },
     {
