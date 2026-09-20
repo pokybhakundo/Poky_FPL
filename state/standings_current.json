@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T16:55:17.903333+00:00",
+  "generated_at": "2026-09-20T17:00:29.518783+00:00",
   "classic": [
     {
       "rank": 1,
@@ -156,17 +156,17 @@
     },
     {
       "rank": 20,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "gw_points": 36,
       "total_points": 326
     },
     {
       "rank": 20,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "gw_points": 36,
       "total_points": 326
     },
@@ -220,18 +220,18 @@
     },
     {
       "rank": 28,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 47,
-      "total_points": 304
-    },
-    {
-      "rank": 28,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 44,
+      "total_points": 304
+    },
+    {
+      "rank": 28,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 47,
       "total_points": 304
     },
     {
