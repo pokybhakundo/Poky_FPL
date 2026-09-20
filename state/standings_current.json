@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T13:15:20.633414+00:00",
+  "generated_at": "2026-09-20T13:20:22.830393+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 16,
+      "total_points": 312
+    },
+    {
+      "rank": 18,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -139,7 +147,7 @@
       "total_points": 311
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -147,20 +155,12 @@
       "total_points": 310
     },
     {
-      "rank": 19,
+      "rank": 20,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 19,
       "total_points": 309
-    },
-    {
-      "rank": 20,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 12,
-      "total_points": 308
     },
     {
       "rank": 21,
@@ -212,6 +212,14 @@
     },
     {
       "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 29,
+      "total_points": 286
+    },
+    {
+      "rank": 27,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -219,7 +227,7 @@
       "total_points": 286
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -227,20 +235,12 @@
       "total_points": 284
     },
     {
-      "rank": 29,
+      "rank": 30,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "gw_points": 22,
       "total_points": 284
-    },
-    {
-      "rank": 30,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 26,
-      "total_points": 283
     },
     {
       "rank": 31,
