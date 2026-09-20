@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T17:05:19.226028+00:00",
+  "generated_at": "2026-09-20T17:10:22.837855+00:00",
   "classic": [
     {
       "rank": 1,
@@ -212,6 +212,14 @@
     },
     {
       "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 48,
+      "total_points": 305
+    },
+    {
+      "rank": 27,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
@@ -219,19 +227,11 @@
       "total_points": 305
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 44,
-      "total_points": 304
-    },
-    {
-      "rank": 28,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 47,
       "total_points": 304
     },
     {
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 39,
-      "total_points": 295
+      "gw_points": 40,
+      "total_points": 296
     },
     {
       "rank": 32,
