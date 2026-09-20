@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-09-20T15:00:28.647683+00:00",
+  "generated_at": "2026-09-20T15:05:19.534842+00:00",
   "next_deadline": "2026-10-10T10:00:00Z",
   "current_gw": 5,
   "current_gw_finalized": false,
@@ -72,9 +72,9 @@
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2310055,
-          "team_name": "NetSix&Chill FC",
-          "manager": "Sabin Shrestha"
+          "entry_id": 2435657,
+          "team_name": "HawaHawai",
+          "manager": "Rajendra Shrestha"
         }
       ]
     }

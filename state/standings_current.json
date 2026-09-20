@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T15:00:29.149097+00:00",
+  "generated_at": "2026-09-20T15:05:20.025465+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,19 +36,19 @@
     },
     {
       "rank": 5,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 47,
+      "total_points": 350
+    },
+    {
+      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 46,
       "total_points": 350
-    },
-    {
-      "rank": 6,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 46,
-      "total_points": 349
     },
     {
       "rank": 7,
@@ -92,18 +92,18 @@
     },
     {
       "rank": 12,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 39,
-      "total_points": 335
-    },
-    {
-      "rank": 12,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 26,
+      "total_points": 335
+    },
+    {
+      "rank": 12,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 39,
       "total_points": 335
     },
     {
@@ -124,14 +124,6 @@
     },
     {
       "rank": 16,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 39,
-      "total_points": 328
-    },
-    {
-      "rank": 16,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -144,6 +136,14 @@
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 47,
+      "total_points": 328
+    },
+    {
+      "rank": 16,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 39,
       "total_points": 328
     },
     {
@@ -247,8 +247,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 57,
-      "total_points": 292
+      "gw_points": 58,
+      "total_points": 293
     },
     {
       "rank": 32,
