@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T15:05:20.025465+00:00",
+  "generated_at": "2026-09-20T15:10:55.759021+00:00",
   "classic": [
     {
       "rank": 1,
@@ -92,18 +92,18 @@
     },
     {
       "rank": 12,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 26,
-      "total_points": 335
-    },
-    {
-      "rank": 12,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 39,
+      "total_points": 335
+    },
+    {
+      "rank": 12,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 26,
       "total_points": 335
     },
     {
@@ -124,10 +124,10 @@
     },
     {
       "rank": 16,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 40,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 39,
       "total_points": 328
     },
     {
@@ -140,10 +140,10 @@
     },
     {
       "rank": 16,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 39,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 40,
       "total_points": 328
     },
     {
