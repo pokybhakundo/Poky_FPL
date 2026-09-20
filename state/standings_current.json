@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T16:15:21.443880+00:00",
+  "generated_at": "2026-09-20T16:20:20.907278+00:00",
   "classic": [
     {
       "rank": 1,
@@ -212,6 +212,14 @@
     },
     {
       "rank": 26,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 47,
+      "total_points": 304
+    },
+    {
+      "rank": 26,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
@@ -219,20 +227,12 @@
       "total_points": 304
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "gw_points": 41,
       "total_points": 303
-    },
-    {
-      "rank": 29,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 45,
-      "total_points": 302
     },
     {
       "rank": 30,
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 38,
-      "total_points": 294
+      "gw_points": 40,
+      "total_points": 296
     },
     {
       "rank": 32,
@@ -263,8 +263,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 41,
-      "total_points": 266
+      "gw_points": 40,
+      "total_points": 265
     },
     {
       "rank": 34,
