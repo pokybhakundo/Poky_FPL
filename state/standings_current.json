@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T23:50:24.649731+00:00",
+  "generated_at": "2026-09-20T23:55:16.598865+00:00",
   "classic": [
     {
       "rank": 1,
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 48,
-      "total_points": 305
-    },
-    {
-      "rank": 27,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 29,
+      "total_points": 305
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 48,
       "total_points": 305
     },
     {
