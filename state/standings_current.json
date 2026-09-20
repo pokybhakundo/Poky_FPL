@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T21:20:24.135736+00:00",
+  "generated_at": "2026-09-20T21:25:26.333603+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 39,
-      "total_points": 328
-    },
-    {
-      "rank": 17,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 47,
+      "total_points": 328
+    },
+    {
+      "rank": 17,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 39,
       "total_points": 328
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 48,
-      "total_points": 305
-    },
-    {
-      "rank": 27,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 29,
+      "total_points": 305
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 48,
       "total_points": 305
     },
     {
