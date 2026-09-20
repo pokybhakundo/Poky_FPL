@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T02:35:19.141627+00:00",
+  "generated_at": "2026-09-20T02:40:21.736359+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -625,6 +625,12 @@
         }
       ]
     },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "1843084": {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
@@ -651,12 +657,6 @@
           "rank": 1493330
         }
       ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
     },
     "254926": {
       "entry_id": 254926,
