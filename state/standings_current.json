@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T14:05:17.650799+00:00",
+  "generated_at": "2026-09-20T14:10:24.937742+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,8 +15,8 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 38,
-      "total_points": 364
+      "gw_points": 37,
+      "total_points": 363
     },
     {
       "rank": 3,
@@ -39,31 +39,31 @@
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
-      "gw_points": 30,
-      "total_points": 337
+      "gw_points": 29,
+      "total_points": 336
     },
     {
       "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 31,
-      "total_points": 335
+      "gw_points": 30,
+      "total_points": 334
     },
     {
       "rank": 7,
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gw_points": 28,
-      "total_points": 333
-    },
-    {
-      "rank": 8,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
       "gw_points": 29,
+      "total_points": 332
+    },
+    {
+      "rank": 8,
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gw_points": 27,
       "total_points": 332
     },
     {
@@ -87,8 +87,8 @@
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 14,
-      "total_points": 323
+      "gw_points": 13,
+      "total_points": 322
     },
     {
       "rank": 12,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 24,
-      "total_points": 313
-    },
-    {
-      "rank": 19,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -155,23 +147,23 @@
       "total_points": 312
     },
     {
+      "rank": 18,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 23,
+      "total_points": 312
+    },
+    {
       "rank": 20,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 22,
-      "total_points": 311
-    },
-    {
-      "rank": 21,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 28,
+      "gw_points": 21,
       "total_points": 310
     },
     {
-      "rank": 22,
+      "rank": 21,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -179,12 +171,20 @@
       "total_points": 309
     },
     {
+      "rank": 22,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 27,
+      "total_points": 309
+    },
+    {
       "rank": 23,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 28,
-      "total_points": 303
+      "gw_points": 27,
+      "total_points": 302
     },
     {
       "rank": 24,
@@ -199,8 +199,8 @@
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 19,
-      "total_points": 295
+      "gw_points": 18,
+      "total_points": 294
     },
     {
       "rank": 26,
@@ -244,19 +244,19 @@
     },
     {
       "rank": 31,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 14,
-      "total_points": 270
-    },
-    {
-      "rank": 32,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 35,
       "total_points": 270
+    },
+    {
+      "rank": 32,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 13,
+      "total_points": 269
     },
     {
       "rank": 33,
