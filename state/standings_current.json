@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T16:05:20.580307+00:00",
+  "generated_at": "2026-09-20T16:10:18.974166+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 47,
-      "total_points": 328
-    },
-    {
-      "rank": 17,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 39,
+      "total_points": 328
+    },
+    {
+      "rank": 17,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 47,
       "total_points": 328
     },
     {
@@ -204,18 +204,18 @@
     },
     {
       "rank": 26,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 44,
-      "total_points": 304
-    },
-    {
-      "rank": 26,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 28,
+      "total_points": 304
+    },
+    {
+      "rank": 26,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 44,
       "total_points": 304
     },
     {
@@ -231,8 +231,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 44,
-      "total_points": 301
+      "gw_points": 45,
+      "total_points": 302
     },
     {
       "rank": 30,
@@ -244,19 +244,19 @@
     },
     {
       "rank": 31,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 38,
+      "total_points": 294
+    },
+    {
+      "rank": 32,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 59,
       "total_points": 294
-    },
-    {
-      "rank": 32,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 37,
-      "total_points": 293
     },
     {
       "rank": 33,
