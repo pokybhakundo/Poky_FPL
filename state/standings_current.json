@@ -1,14 +1,14 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T17:40:21.385036+00:00",
+  "generated_at": "2026-09-20T17:45:24.314293+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 58,
-      "total_points": 384
+      "gw_points": 60,
+      "total_points": 386
     },
     {
       "rank": 2,
@@ -39,8 +39,8 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 49,
-      "total_points": 352
+      "gw_points": 48,
+      "total_points": 351
     },
     {
       "rank": 6,
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 48,
-      "total_points": 305
-    },
-    {
-      "rank": 27,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 29,
+      "total_points": 305
+    },
+    {
+      "rank": 27,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 48,
       "total_points": 305
     },
     {
@@ -255,8 +255,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 60,
-      "total_points": 295
+      "gw_points": 59,
+      "total_points": 294
     },
     {
       "rank": 33,
