@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T13:50:58.324593+00:00",
+  "generated_at": "2026-09-20T13:55:16.000220+00:00",
   "classic": [
     {
       "rank": 1,
@@ -151,8 +151,8 @@
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 21,
-      "total_points": 311
+      "gw_points": 22,
+      "total_points": 312
     },
     {
       "rank": 20,
@@ -199,8 +199,8 @@
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 18,
-      "total_points": 294
+      "gw_points": 19,
+      "total_points": 295
     },
     {
       "rank": 26,
@@ -244,19 +244,19 @@
     },
     {
       "rank": 31,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 14,
+      "total_points": 270
+    },
+    {
+      "rank": 32,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 35,
       "total_points": 270
-    },
-    {
-      "rank": 32,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 13,
-      "total_points": 269
     },
     {
       "rank": 33,
