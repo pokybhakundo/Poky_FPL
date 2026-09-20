@@ -1,6 +1,6 @@
 {
   "gw": 5,
-  "generated_at": "2026-09-20T13:40:22.936500+00:00",
+  "generated_at": "2026-09-20T13:45:19.415699+00:00",
   "classic": [
     {
       "rank": 1,
@@ -103,19 +103,11 @@
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gw_points": 16,
-      "total_points": 320
-    },
-    {
-      "rank": 14,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 23,
+      "gw_points": 15,
       "total_points": 319
     },
     {
-      "rank": 15,
+      "rank": 14,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -123,11 +115,19 @@
       "total_points": 318
     },
     {
-      "rank": 16,
+      "rank": 15,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 37,
+      "total_points": 318
+    },
+    {
+      "rank": 16,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 22,
       "total_points": 318
     },
     {
@@ -156,19 +156,19 @@
     },
     {
       "rank": 20,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 20,
-      "total_points": 310
-    },
-    {
-      "rank": 21,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 28,
       "total_points": 310
+    },
+    {
+      "rank": 21,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 19,
+      "total_points": 309
     },
     {
       "rank": 22,
@@ -239,8 +239,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 22,
-      "total_points": 284
+      "gw_points": 21,
+      "total_points": 283
     },
     {
       "rank": 31,
