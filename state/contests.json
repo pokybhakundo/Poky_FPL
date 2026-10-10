@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T15:05:17.597261+00:00",
+  "generated_at": "2026-10-10T15:10:19.475413+00:00",
   "next_deadline": "2026-10-17T10:00:00Z",
   "current_gw": 6,
   "current_gw_finalized": false,
@@ -81,14 +81,14 @@
     },
     {
       "gw": 6,
-      "points": 33,
+      "points": 42,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
         }
       ]
     }
@@ -134,22 +134,17 @@
     {
       "month": "October",
       "label": "October",
-      "points": 33,
-      "shared": true,
+      "points": 42,
+      "shared": false,
       "provisional": true,
       "gameweeks": [
         6
       ],
       "winners": [
         {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 1843084,
-          "team_name": "Gura's Invincibles",
-          "manager": "Prashant Guragai"
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
         }
       ]
     }
