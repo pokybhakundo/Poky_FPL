@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T11:50:16.583194+00:00",
+  "generated_at": "2026-10-10T11:55:22.135704+00:00",
   "next_deadline": "2026-10-17T10:00:00Z",
   "current_gw": 6,
   "current_gw_finalized": false,
@@ -81,19 +81,24 @@
     },
     {
       "gw": 6,
-      "points": 4,
+      "points": 6,
       "shared": true,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1595343,
-          "team_name": "Janta Tanna Chahncha",
-          "manager": "Ankit Bhaukajee"
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
         },
         {
-          "entry_id": 1955412,
-          "team_name": "MAGA",
-          "manager": "MESSI GOAT"
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
+        },
+        {
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
         }
       ]
     }
@@ -139,7 +144,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 4,
+      "points": 6,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -147,14 +152,19 @@
       ],
       "winners": [
         {
-          "entry_id": 1595343,
-          "team_name": "Janta Tanna Chahncha",
-          "manager": "Ankit Bhaukajee"
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
         },
         {
-          "entry_id": 1955412,
-          "team_name": "MAGA",
-          "manager": "MESSI GOAT"
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
+        },
+        {
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
         }
       ]
     }
