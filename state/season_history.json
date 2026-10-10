@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:50:18.729686+00:00",
+  "generated_at": "2026-10-10T18:55:18.551417+00:00",
   "entries": {
     "2310055": {
       "entry_id": 2310055,
@@ -1456,6 +1456,23 @@
         }
       ]
     },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
+        }
+      ]
+    },
     "3479050": {
       "entry_id": 3479050,
       "team_name": "chelsea FC",
@@ -1485,23 +1502,6 @@
           "season_name": "2021/22",
           "total_points": 1590,
           "rank": 6768609
-        }
-      ]
-    },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
         }
       ]
     },
