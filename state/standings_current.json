@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T15:45:19.459933+00:00",
+  "generated_at": "2026-10-10T15:50:19.595054+00:00",
   "classic": [
     {
       "rank": 1,
@@ -23,8 +23,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 71,
-      "total_points": 449
+      "gw_points": 66,
+      "total_points": 444
     },
     {
       "rank": 4,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 48,
-      "total_points": 382
-    },
-    {
-      "rank": 19,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 55,
+      "total_points": 382
+    },
+    {
+      "rank": 19,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 48,
       "total_points": 382
     },
     {
@@ -183,16 +183,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 29,
-      "total_points": 374
-    },
-    {
-      "rank": 24,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 61,
-      "total_points": 367
+      "gw_points": 30,
+      "total_points": 375
     },
     {
       "rank": 24,
@@ -201,6 +193,14 @@
       "manager": "Rosham Sharma",
       "gw_points": 41,
       "total_points": 367
+    },
+    {
+      "rank": 25,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 60,
+      "total_points": 366
     },
     {
       "rank": 26,
@@ -263,8 +263,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 50,
-      "total_points": 318
+      "gw_points": 49,
+      "total_points": 317
     },
     {
       "rank": 34,
