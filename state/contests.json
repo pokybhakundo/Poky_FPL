@@ -1,16 +1,17 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T09:55:19.591616+00:00",
-  "next_deadline": "2026-10-10T10:00:00Z",
-  "current_gw": 5,
-  "current_gw_finalized": true,
+  "generated_at": "2026-10-10T10:40:32.768712+00:00",
+  "next_deadline": "2026-10-17T10:00:00Z",
+  "current_gw": 6,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "manager_of_the_week": [
     {
@@ -77,6 +78,19 @@
           "manager": "Sabin Shrestha"
         }
       ]
+    },
+    {
+      "gw": 6,
+      "points": 67,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 2310055,
+          "team_name": "NetSix&Chill FC",
+          "manager": "Sabin Shrestha"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -108,6 +122,23 @@
         3,
         4,
         5
+      ],
+      "winners": [
+        {
+          "entry_id": 2310055,
+          "team_name": "NetSix&Chill FC",
+          "manager": "Sabin Shrestha"
+        }
+      ]
+    },
+    {
+      "month": "October",
+      "label": "October",
+      "points": 67,
+      "shared": false,
+      "provisional": true,
+      "gameweeks": [
+        6
       ],
       "winners": [
         {
