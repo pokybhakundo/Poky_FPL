@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T13:45:19.490794+00:00",
+  "generated_at": "2026-10-10T13:50:22.553073+00:00",
   "classic": [
     {
       "rank": 1,
@@ -92,18 +92,18 @@
     },
     {
       "rank": 12,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 13,
-      "total_points": 353
-    },
-    {
-      "rank": 12,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 9,
+      "total_points": 353
+    },
+    {
+      "rank": 12,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 13,
       "total_points": 353
     },
     {
