@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T12:50:19.456585+00:00",
+  "generated_at": "2026-10-10T12:55:18.057532+00:00",
   "next_deadline": "2026-10-17T10:00:00Z",
   "current_gw": 6,
   "current_gw_finalized": false,
@@ -81,14 +81,19 @@
     },
     {
       "gw": 6,
-      "points": 7,
-      "shared": false,
+      "points": 9,
+      "shared": true,
       "provisional": true,
       "winners": [
         {
           "entry_id": 1595343,
           "team_name": "Janta Tanna Chahncha",
           "manager": "Ankit Bhaukajee"
+        },
+        {
+          "entry_id": 2659214,
+          "team_name": "Yoro Wizard Harry",
+          "manager": "Aayush Jha"
         }
       ]
     }
@@ -134,8 +139,8 @@
     {
       "month": "October",
       "label": "October",
-      "points": 7,
-      "shared": false,
+      "points": 9,
+      "shared": true,
       "provisional": true,
       "gameweeks": [
         6
@@ -145,6 +150,11 @@
           "entry_id": 1595343,
           "team_name": "Janta Tanna Chahncha",
           "manager": "Ankit Bhaukajee"
+        },
+        {
+          "entry_id": 2659214,
+          "team_name": "Yoro Wizard Harry",
+          "manager": "Aayush Jha"
         }
       ]
     }
