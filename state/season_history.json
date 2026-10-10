@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:00:24.493554+00:00",
+  "generated_at": "2026-10-10T12:05:14.761630+00:00",
   "entries": {
     "2310055": {
       "entry_id": 2310055,
@@ -167,38 +167,6 @@
         }
       ]
     },
-    "3309536": {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2321,
-          "rank": 116200
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2241,
-          "rank": 2196244
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1999,
-          "rank": 2802647
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2037,
-          "rank": 2266703
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 964,
-          "rank": 7183835
-        }
-      ]
-    },
     "1845615": {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
@@ -238,6 +206,38 @@
           "season_name": "2019/20",
           "total_points": 444,
           "rank": 7478823
+        }
+      ]
+    },
+    "3309536": {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2321,
+          "rank": 116200
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2241,
+          "rank": 2196244
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1999,
+          "rank": 2802647
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2037,
+          "rank": 2266703
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 964,
+          "rank": 7183835
         }
       ]
     },
@@ -285,6 +285,48 @@
           "season_name": "2017/18",
           "total_points": 1921,
           "rank": 1836480
+        }
+      ]
+    },
+    "1575639": {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2340,
+          "rank": 69708
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2361,
+          "rank": 875811
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2341,
+          "rank": 702498
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2537,
+          "rank": 79860
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2538,
+          "rank": 60387
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2300,
+          "rank": 362919
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 727,
+          "rank": 7321641
         }
       ]
     },
@@ -402,47 +444,11 @@
         }
       ]
     },
-    "1575639": {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2340,
-          "rank": 69708
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2361,
-          "rank": 875811
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2341,
-          "rank": 702498
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2537,
-          "rank": 79860
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2538,
-          "rank": 60387
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2300,
-          "rank": 362919
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 727,
-          "rank": 7321641
-        }
-      ]
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "165293": {
       "entry_id": 165293,
@@ -578,11 +584,42 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
+    "36783": {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2246,
+          "rank": 481617
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2355,
+          "rank": 929223
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2229,
+          "rank": 1816050
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2357,
+          "rank": 986435
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2211,
+          "rank": 1129960
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1225,
+          "rank": 7456574
+        }
+      ]
     },
     "395170": {
       "entry_id": 395170,
@@ -648,43 +685,6 @@
           "season_name": "2014/15",
           "total_points": 1557,
           "rank": 2308544
-        }
-      ]
-    },
-    "36783": {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2246,
-          "rank": 481617
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2355,
-          "rank": 929223
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2229,
-          "rank": 1816050
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2357,
-          "rank": 986435
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2211,
-          "rank": 1129960
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1225,
-          "rank": 7456574
         }
       ]
     },
@@ -804,43 +804,6 @@
         }
       ]
     },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
-        }
-      ]
-    },
     "4122498": {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
@@ -885,6 +848,105 @@
           "season_name": "2018/19",
           "total_points": 1895,
           "rank": 3150399
+        }
+      ]
+    },
+    "1595343": {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2187,
+          "rank": 1035748
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2359,
+          "rank": 889994
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2166,
+          "rank": 2639105
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2358,
+          "rank": 976749
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2571,
+          "rank": 33898
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2285,
+          "rank": 427450
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2229,
+          "rank": 189546
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1910,
+          "rank": 2973064
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1928,
+          "rank": 1780120
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1759,
+          "rank": 1976803
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2168,
+          "rank": 392079
+        }
+      ]
+    },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
         }
       ]
     },
@@ -1034,68 +1096,6 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
-        }
-      ]
-    },
-    "1595343": {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2187,
-          "rank": 1035748
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2359,
-          "rank": 889994
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2166,
-          "rank": 2639105
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2358,
-          "rank": 976749
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2571,
-          "rank": 33898
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2285,
-          "rank": 427450
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2229,
-          "rank": 189546
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1910,
-          "rank": 2973064
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1928,
-          "rank": 1780120
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1759,
-          "rank": 1976803
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2168,
-          "rank": 392079
         }
       ]
     },
