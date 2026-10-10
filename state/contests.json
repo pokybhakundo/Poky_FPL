@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T12:15:17.186155+00:00",
+  "generated_at": "2026-10-10T12:20:17.975435+00:00",
   "next_deadline": "2026-10-17T10:00:00Z",
   "current_gw": 6,
   "current_gw_finalized": false,
@@ -81,14 +81,14 @@
     },
     {
       "gw": 6,
-      "points": 7,
+      "points": 9,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1595343,
-          "team_name": "Janta Tanna Chahncha",
-          "manager": "Ankit Bhaukajee"
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
         }
       ]
     }
@@ -134,7 +134,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 7,
+      "points": 9,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -142,9 +142,9 @@
       ],
       "winners": [
         {
-          "entry_id": 1595343,
-          "team_name": "Janta Tanna Chahncha",
-          "manager": "Ankit Bhaukajee"
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
         }
       ]
     }
