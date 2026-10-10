@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T12:20:18.306736+00:00",
+  "generated_at": "2026-10-10T12:25:20.156033+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 1,
-      "total_points": 337
-    },
-    {
-      "rank": 15,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 3,
+      "total_points": 337
+    },
+    {
+      "rank": 15,
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 1,
       "total_points": 337
     },
     {
