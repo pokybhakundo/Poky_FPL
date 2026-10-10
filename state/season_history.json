@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:55:18.057984+00:00",
+  "generated_at": "2026-10-10T13:00:25.815238+00:00",
   "entries": {
     "2310055": {
       "entry_id": 2310055,
@@ -866,53 +866,6 @@
         }
       ]
     },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
-        }
-      ]
-    },
     "969893": {
       "entry_id": 969893,
       "team_name": "Team Utthan",
@@ -1160,6 +1113,53 @@
           "season_name": "2020/21",
           "total_points": 1439,
           "rank": 6849411
+        }
+      ]
+    },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
         }
       ]
     },
@@ -1425,12 +1425,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "2435657": {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
@@ -1470,6 +1464,44 @@
           "season_name": "2019/20",
           "total_points": 1125,
           "rank": 7065574
+        }
+      ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
+    },
+    "3479050": {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2128,
+          "rank": 1829871
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2062,
+          "rank": 4777928
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2111,
+          "rank": 3388711
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 1534,
+          "rank": 9612534
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1590,
+          "rank": 6768609
         }
       ]
     },
@@ -1527,38 +1559,6 @@
           "season_name": "2016/17",
           "total_points": 1688,
           "rank": 2565142
-        }
-      ]
-    },
-    "3479050": {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2128,
-          "rank": 1829871
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2062,
-          "rank": 4777928
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2111,
-          "rank": 3388711
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 1534,
-          "rank": 9612534
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1590,
-          "rank": 6768609
         }
       ]
     }
