@@ -1,14 +1,14 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T15:50:19.595054+00:00",
+  "generated_at": "2026-10-10T15:55:19.446244+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 64,
-      "total_points": 453
+      "gw_points": 63,
+      "total_points": 452
     },
     {
       "rank": 2,
@@ -23,8 +23,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 66,
-      "total_points": 444
+      "gw_points": 65,
+      "total_points": 443
     },
     {
       "rank": 4,
@@ -164,14 +164,6 @@
     },
     {
       "rank": 21,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 54,
-      "total_points": 378
-    },
-    {
-      "rank": 22,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -179,12 +171,20 @@
       "total_points": 377
     },
     {
+      "rank": 22,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 53,
+      "total_points": 377
+    },
+    {
       "rank": 23,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 30,
-      "total_points": 375
+      "gw_points": 29,
+      "total_points": 374
     },
     {
       "rank": 24,
