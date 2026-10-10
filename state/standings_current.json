@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T14:30:24.563807+00:00",
+  "generated_at": "2026-10-10T14:35:16.635232+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 19,
-      "total_points": 353
-    },
-    {
-      "rank": 18,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -155,19 +147,27 @@
       "total_points": 353
     },
     {
-      "rank": 20,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 25,
-      "total_points": 351
+      "rank": 18,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 19,
+      "total_points": 353
     },
     {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 23,
+      "total_points": 350
+    },
+    {
+      "rank": 21,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 24,
       "total_points": 350
     },
     {
@@ -207,8 +207,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 22,
-      "total_points": 336
+      "gw_points": 21,
+      "total_points": 335
     },
     {
       "rank": 27,
