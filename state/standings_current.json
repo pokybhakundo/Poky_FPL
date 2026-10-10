@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T14:15:17.135035+00:00",
+  "generated_at": "2026-10-10T14:20:21.199486+00:00",
   "classic": [
     {
       "rank": 1,
@@ -23,8 +23,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 26,
-      "total_points": 404
+      "gw_points": 29,
+      "total_points": 407
     },
     {
       "rank": 4,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 21,
-      "total_points": 372
-    },
-    {
-      "rank": 8,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 24,
+      "total_points": 371
+    },
+    {
+      "rank": 8,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 20,
       "total_points": 371
     },
     {
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 19,
-      "total_points": 325
-    },
-    {
-      "rank": 28,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 17,
+      "total_points": 324
+    },
+    {
+      "rank": 28,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 18,
       "total_points": 324
     },
     {
