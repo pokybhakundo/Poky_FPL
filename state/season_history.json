@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:15:19.816543+00:00",
+  "generated_at": "2026-10-10T18:20:18.402345+00:00",
   "entries": {
     "2310055": {
       "entry_id": 2310055,
@@ -583,6 +583,43 @@
         }
       ]
     },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
+        }
+      ]
+    },
     "5917809": {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
@@ -630,40 +667,55 @@
         }
       ]
     },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
+    "75325": {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
+          "total_points": 2193,
+          "rank": 969552
         },
         {
           "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
+          "total_points": 2413,
+          "rank": 486643
         },
         {
           "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
+          "total_points": 2257,
+          "rank": 1479159
         },
         {
           "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
+          "total_points": 2273,
+          "rank": 1818278
         },
         {
           "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
+          "total_points": 1963,
+          "rank": 2978500
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2118,
+          "rank": 770267
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2160,
+          "rank": 446177
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1856,
+          "rank": 2376437
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1732,
+          "rank": 2284233
         }
       ]
     },
@@ -721,58 +773,6 @@
           "season_name": "2016/17",
           "total_points": 1322,
           "rank": 3930203
-        }
-      ]
-    },
-    "75325": {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2193,
-          "rank": 969552
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 486643
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2257,
-          "rank": 1479159
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2273,
-          "rank": 1818278
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1963,
-          "rank": 2978500
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2118,
-          "rank": 770267
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2160,
-          "rank": 446177
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1856,
-          "rank": 2376437
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1732,
-          "rank": 2284233
         }
       ]
     },
@@ -1299,6 +1299,12 @@
         }
       ]
     },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
+    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1350,12 +1356,6 @@
           "rank": 4334534
         }
       ]
-    },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
     },
     "2798038": {
       "entry_id": 2798038,
