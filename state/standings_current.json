@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T18:25:18.753546+00:00",
+  "generated_at": "2026-10-10T18:30:25.905151+00:00",
   "classic": [
     {
       "rank": 1,
@@ -79,11 +79,11 @@
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
-      "gw_points": 62,
-      "total_points": 398
+      "gw_points": 61,
+      "total_points": 397
     },
     {
-      "rank": 11,
+      "rank": 10,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -116,6 +116,14 @@
     },
     {
       "rank": 15,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 52,
+      "total_points": 386
+    },
+    {
+      "rank": 16,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -123,20 +131,12 @@
       "total_points": 385
     },
     {
-      "rank": 16,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 51,
-      "total_points": 385
-    },
-    {
       "rank": 17,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 40,
-      "total_points": 385
+      "gw_points": 39,
+      "total_points": 384
     },
     {
       "rank": 18,
@@ -175,8 +175,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 55,
-      "total_points": 379
+      "gw_points": 56,
+      "total_points": 380
     },
     {
       "rank": 23,
@@ -231,8 +231,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 45,
-      "total_points": 351
+      "gw_points": 44,
+      "total_points": 350
     },
     {
       "rank": 30,
@@ -271,8 +271,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 51,
-      "total_points": 319
+      "gw_points": 52,
+      "total_points": 320
     }
   ],
   "h2h": [
