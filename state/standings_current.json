@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T15:55:19.446244+00:00",
+  "generated_at": "2026-10-10T16:00:25.806882+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,14 +132,6 @@
     },
     {
       "rank": 17,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 57,
-      "total_points": 383
-    },
-    {
-      "rank": 18,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -147,7 +139,7 @@
       "total_points": 382
     },
     {
-      "rank": 19,
+      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -155,11 +147,19 @@
       "total_points": 382
     },
     {
-      "rank": 19,
+      "rank": 18,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 48,
+      "total_points": 382
+    },
+    {
+      "rank": 20,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 56,
       "total_points": 382
     },
     {
