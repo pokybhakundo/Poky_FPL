@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T14:25:16.297964+00:00",
+  "generated_at": "2026-10-10T14:30:24.563807+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 25,
-      "total_points": 353
-    },
-    {
-      "rank": 18,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 19,
+      "total_points": 353
+    },
+    {
+      "rank": 18,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 25,
       "total_points": 353
     },
     {
@@ -207,8 +207,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 21,
-      "total_points": 335
+      "gw_points": 22,
+      "total_points": 336
     },
     {
       "rank": 27,
