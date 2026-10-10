@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-10T17:00:25.822013+00:00",
+  "generated_at": "2026-10-10T17:05:17.362142+00:00",
   "classic": [
     {
       "rank": 1,
@@ -255,8 +255,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 29,
-      "total_points": 325
+      "gw_points": 31,
+      "total_points": 327
     },
     {
       "rank": 33,
@@ -267,12 +267,12 @@
       "total_points": 318
     },
     {
-      "rank": 33,
+      "rank": 34,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 57,
-      "total_points": 318
+      "gw_points": 56,
+      "total_points": 317
     }
   ],
   "h2h": [
