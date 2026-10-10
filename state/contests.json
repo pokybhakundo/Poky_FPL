@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-10T14:50:16.559310+00:00",
+  "generated_at": "2026-10-10T14:55:15.321877+00:00",
   "next_deadline": "2026-10-17T10:00:00Z",
   "current_gw": 6,
   "current_gw_finalized": false,
@@ -81,7 +81,7 @@
     },
     {
       "gw": 6,
-      "points": 34,
+      "points": 33,
       "shared": false,
       "provisional": true,
       "winners": [
@@ -134,8 +134,8 @@
     {
       "month": "October",
       "label": "October",
-      "points": 34,
-      "shared": false,
+      "points": 33,
+      "shared": true,
       "provisional": true,
       "gameweeks": [
         6
@@ -145,6 +145,11 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
+        },
+        {
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
         }
       ]
     }
