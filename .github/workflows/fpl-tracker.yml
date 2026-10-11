@@ -63,6 +63,7 @@ jobs:
           python3 FPL.PY --mode live-reseed --league both
           python3 FPL.PY --mode advance --league both --live
           python3 FPL.PY --mode contests
+          python3 FPL.PY --mode insights
           python3 FPL.PY --mode archive-season
 
       - name: Run requested mode (manual dispatch / button)
@@ -94,6 +95,7 @@ jobs:
           cp state/standings_current.json docs/data/ 2>/dev/null || true
           cp state/season_history.json docs/data/ 2>/dev/null || true
           cp state/champions_history.json docs/data/ 2>/dev/null || true
+          cp state/manager_insights.json docs/data/ 2>/dev/null || true
 
       # docs/data/*.json is deploy output, not source of truth -- it goes to
       # Pages via the artifact below, not a git commit. state/ is the app's

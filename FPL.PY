@@ -647,6 +647,101 @@ def fetch_classic_league_members(league_id=CLASSIC_LEAGUE_ID):
     return fetch_classic_standings(league_id, top_n=None)
 
 
+def build_manager_insights():
+    """Manager-level stats built mostly from data already fetched elsewhere:
+    chip timeline, overall-rank trajectory, and bench points wasted all come
+    straight off entry/history (the same endpoint compute_contests already
+    pulls per member), and the trailing-5-GW form table is just reprocessing
+    the standings_N.json snapshots qualify() already saves -- no new API
+    calls for any of those. Captain of the Week is the one genuinely new
+    call: one picks fetch per member, for the current GW only."""
+    members = fetch_classic_league_members()
+    meta = {row["entry_id"]: _contest_person(row) for row in members}
+
+    chips = []
+    rank_trajectory = []
+    bench_waste = []
+    for row in members:
+        eid = row["entry_id"]
+        history = get_entry_history(eid)
+        entry_chips = [
+            {"name": c["name"], "gw": c["event"]}
+            for c in history.get("chips", [])
+            if c.get("event") is not None
+        ]
+        if entry_chips:
+            chips.append({**meta[eid], "chips": entry_chips})
+
+        current = history.get("current", [])
+        rank_trajectory.append({
+            **meta[eid],
+            "gws": [
+                {"gw": h["event"], "overall_rank": h.get("overall_rank")}
+                for h in current
+                if h.get("event") is not None and h.get("overall_rank") is not None
+            ],
+        })
+        bench_waste.append({**meta[eid], "total": sum(h.get("points_on_bench", 0) for h in current)})
+
+    bench_waste.sort(key=lambda r: r["total"], reverse=True)
+
+    # --- Form table: trailing 5 finalized GWs, from already-saved snapshots ---
+    events = get_all_events()
+    finalized_gws = sorted(e["id"] for e in events if e["finished"] and e.get("data_checked"))
+    form_gws = finalized_gws[-5:]
+    form_by_entry = {}
+    for gw in form_gws:
+        snap_path = os.path.join(STATE_DIR, f"standings_{gw}.json")
+        if not os.path.exists(snap_path):
+            continue
+        for snap_row in read_json(snap_path).get("classic", []):
+            eid = snap_row["entry_id"]
+            entry = form_by_entry.setdefault(eid, {**_contest_person(snap_row), "total": 0, "gws": {}})
+            entry["total"] += snap_row["gw_points"]
+            entry["gws"][str(gw)] = snap_row["gw_points"]
+    form_table = sorted(form_by_entry.values(), key=lambda r: r["total"], reverse=True)
+
+    # --- Captain of the Week: current GW only, one picks call per member ---
+    current_event = get_current_event()
+    current_gw = current_event["id"]
+    has_started = bool(current_event.get("is_current")) or current_event["finished"]
+    captain_picks = []
+    captain_counts = {}
+    if has_started:
+        bootstrap_elements = {el["id"]: el["web_name"] for el in get_bootstrap()["elements"]}
+        live_stats = get_live_stats(current_gw)
+        for row in members:
+            eid = row["entry_id"]
+            picks = get_entry_picks(eid, current_gw)
+            captain = next((p for p in picks.get("picks", []) if p.get("is_captain")), None)
+            if not captain:
+                continue
+            element_id = captain["element"]
+            player_name = bootstrap_elements.get(element_id, "Unknown")
+            points = live_stats.get(element_id, {}).get("total_points", 0)
+            captain_picks.append({**meta[eid], "element_id": element_id, "player_name": player_name, "points": points})
+            bucket = captain_counts.setdefault(element_id, {"player_name": player_name, "count": 0, "points": points})
+            bucket["count"] += 1
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "form": {"gws": form_gws, "table": form_table},
+        "chips": chips,
+        "rank_trajectory": rank_trajectory,
+        "bench_waste": bench_waste,
+        "captain": {
+            "gw": current_gw,
+            "provisional": bool(current_event.get("is_current")) and not current_event["finished"],
+            "picks": captain_picks,
+            "summary": sorted(captain_counts.values(), key=lambda c: c["count"], reverse=True),
+        },
+    }
+    path = os.path.join(STATE_DIR, "manager_insights.json")
+    write_json(path, payload)
+    print(f"Wrote {path}")
+    return payload
+
+
 def _contest_person(row):
     return {
         "entry_id": row["entry_id"],
@@ -1018,7 +1113,7 @@ def main():
     parser = argparse.ArgumentParser(description="FPL league qualification tracker + knockout engine")
     parser.add_argument(
         "--mode",
-        choices=["qualify", "live-reseed", "live-reseed-test", "draw", "init-bracket", "advance", "dashboard", "contests", "standings", "archive-season", "should-poll"],
+        choices=["qualify", "live-reseed", "live-reseed-test", "draw", "init-bracket", "advance", "dashboard", "contests", "insights", "standings", "archive-season", "should-poll"],
         default="qualify",
     )
     parser.add_argument("--gw", type=int, help="Force a specific GW snapshot instead of current event")
@@ -1080,6 +1175,8 @@ def main():
         build_dashboard()
     elif args.mode == "contests":
         compute_contests()
+    elif args.mode == "insights":
+        build_manager_insights()
     elif args.mode == "standings":
         build_current_standings()
     elif args.mode == "archive-season":
