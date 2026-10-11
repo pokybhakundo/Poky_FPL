@@ -28,13 +28,17 @@ permissions:
   id-token: write
   deployments: write
 
-concurrency:
-  group: fpl-tracker
-  cancel-in-progress: false
-
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Scoped to this job only (not the workflow) so the lock releases the
+    # moment `run` finishes -- a `deploy` stuck on GitHub's side (its own
+    # timeout below is best-effort; "waiting" jobs aren't reliably bound by
+    # it) can no longer block every later run the way it did once already.
+    concurrency:
+      group: fpl-tracker
+      cancel-in-progress: false
     outputs:
       should_deploy: ${{ steps.gate.outputs.poll != 'false' }}
     steps:
@@ -179,6 +183,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
