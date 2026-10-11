@@ -2845,17 +2845,23 @@ function renderCaptainPie(slices) {
 
 function trendTraces(seriesList, gws) {
   const x = gws.map((gw) => `GW${gw}`);
-  return seriesList.map((s) => ({
-    type: 'scatter',
-    mode: 'lines+markers',
-    name: s.label,
-    x,
-    y: gws.map((gw) => (s.values[gw] == null ? null : s.values[gw])),
-    connectgaps: false,
-    line: { color: s.color, width: 2.5 },
-    marker: { color: s.color, size: 7 },
-    hovertemplate: `${s.label} — %{x}: %{y}<extra></extra>`,
-  }));
+  return seriesList.map((s, i) => {
+    const y = gws.map((gw) => (s.values[gw] == null ? null : s.values[gw]));
+    return {
+      type: 'scatter',
+      mode: 'lines+markers+text',
+      name: s.label,
+      x,
+      y,
+      text: y.map((v) => (v == null ? '' : String(v))),
+      textposition: i === 0 ? 'top center' : 'bottom center',
+      textfont: { color: s.color, size: 11 },
+      connectgaps: false,
+      line: { color: s.color, width: 2.5 },
+      marker: { color: s.color, size: 7 },
+      hovertemplate: `${s.label} — %{x}: %{y}<extra></extra>`,
+    };
+  });
 }
 
 function renderTrendChart(containerId, seriesList, gws) {
@@ -2867,9 +2873,10 @@ function renderTrendChart(containerId, seriesList, gws) {
   }
   Plotly.newPlot(el, trendTraces(present, gws), {
     ...PLOTLY_BASE_LAYOUT,
-    height: 260,
+    height: 280,
+    margin: { ...PLOTLY_BASE_LAYOUT.margin, t: 34, b: 44 },
     showlegend: present.length > 1,
-    legend: { font: { color: '#9fb2c8' }, orientation: 'h', y: 1.15 },
+    legend: { font: { color: '#9fb2c8' }, orientation: 'h', y: 1.18 },
     xaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
     yaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8', zeroline: false },
   }, PLOTLY_CONFIG);
