@@ -483,15 +483,16 @@
   .badge.shared { background: rgba(var(--highlight-rgb), 0.18); color: var(--highlight); }
   .badge.live { background: var(--live); color: #fff; box-shadow: 0 0 0 3px rgba(var(--live-rgb), 0.18); }
 
-  .insights-table-scroll { overflow-x: auto; }
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
-  .insights-subtext { margin: -4px 0 12px; color: var(--sub); font-size: var(--font-sm); }
-  .rank-delta { font-weight: 700; white-space: nowrap; }
-  .rank-delta.up { color: var(--winner); }
-  .rank-delta.down { color: var(--live); }
-  .rank-delta.flat { color: var(--sub); }
+  .bar-chart { display: grid; gap: 10px; }
+  .bar-row { display: grid; grid-template-columns: minmax(110px, 200px) 1fr; align-items: center; gap: 12px; }
+  .bar-row-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--font-sm); }
+  .bar-plain-label { color: var(--text); font-weight: 700; }
+  .bar-track { display: flex; align-items: center; height: 22px; background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: 4px; }
+  .bar-fill { height: 100%; min-width: 4px; flex-shrink: 0; border-radius: 0 4px 4px 0; }
+  .bar-value { margin-left: 8px; color: var(--text); font-weight: 700; font-size: var(--font-sm); font-variant-numeric: tabular-nums; white-space: nowrap; }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -2759,6 +2760,22 @@ function chipPillHTML(chip) {
   return `<span class="chip-pill ${meta.cls}" title="${escapeHTML(meta.title)} — GW${chip.gw}">${meta.label} <span class="contest-meta">GW${chip.gw}</span></span>`;
 }
 
+function barChartHTML(rows, { color, max, barValue, barLabel, barTitle }) {
+  if (!rows.length) return '<p class="contest-rule">No data yet.</p>';
+  const scale = max || Math.max(...rows.map(barValue), 1);
+  return `<div class="bar-chart">${rows.map((r) => {
+    const value = barValue(r);
+    const pct = Math.max(4, Math.round((value / scale) * 100));
+    return `<div class="bar-row" title="${escapeHTML(barTitle(r))}">
+      <div class="bar-row-label">${barLabel(r)}</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${pct}%;background:${color};"></div>
+        <div class="bar-value">${escapeHTML(String(value.toLocaleString()))}</div>
+      </div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
 function renderManagerInsights(data) {
   if (!data) {
     document.getElementById('insightsContent').innerHTML = '<p class="contest-rule">Insights will appear here once this week’s data has been generated.</p>';
@@ -2766,32 +2783,28 @@ function renderManagerInsights(data) {
   }
 
   const form = data.form || { gws: [], table: [] };
-  const formRows = form.table.length
-    ? form.table.map((r, i) => `<tr>
-        <td>${i + 1}</td>
-        <td>${managerLinkHTML(r.entry_id, r.manager, r.team_name)}</td>
-        ${form.gws.map((gw) => `<td>${r.gws[String(gw)] ?? '—'}</td>`).join('')}
-        <td class="pts">${r.total}</td>
-      </tr>`).join('')
-    : `<tr><td colspan="${form.gws.length + 3}" class="empty">No finalized gameweeks yet.</td></tr>`;
+  const formChart = barChartHTML(form.table, {
+    color: 'var(--winner)',
+    barValue: (r) => r.total,
+    barLabel: (r) => managerLinkHTML(r.entry_id, r.manager, r.team_name),
+    barTitle: (r) => `${r.manager} — ${form.gws.map((gw) => `GW${gw}: ${r.gws[String(gw)] ?? '—'}`).join(', ')}`,
+  });
 
   const captain = data.captain || { gw: null, provisional: false, summary: [] };
   const captainBadge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
-  const captainRows = captain.summary.length
-    ? captain.summary.slice(0, 8).map((c) => `<tr>
-        <td>${escapeHTML(c.player_name)}</td>
-        <td>${c.count}</td>
-        <td class="pts">${c.points}</td>
-      </tr>`).join('')
-    : '<tr><td colspan="3" class="empty">No picks data yet for this gameweek.</td></tr>';
+  const captainChart = barChartHTML(captain.summary.slice(0, 8), {
+    color: 'var(--accent)',
+    barValue: (c) => c.count,
+    barLabel: (c) => `<span class="bar-plain-label">${escapeHTML(c.player_name)}</span>`,
+    barTitle: (c) => `${c.player_name} — picked by ${c.count}, returned ${c.points} pts`,
+  });
 
-  const benchRows = data.bench_waste && data.bench_waste.length
-    ? data.bench_waste.slice(0, 10).map((r, i) => `<tr>
-        <td>${i + 1}</td>
-        <td>${managerLinkHTML(r.entry_id, r.manager, r.team_name)}</td>
-        <td class="pts">${r.total}</td>
-      </tr>`).join('')
-    : '<tr><td colspan="3" class="empty">No bench data yet.</td></tr>';
+  const benchChart = barChartHTML(data.bench_waste ? data.bench_waste.slice(0, 10) : [], {
+    color: 'var(--accent)',
+    barValue: (r) => r.total,
+    barLabel: (r) => managerLinkHTML(r.entry_id, r.manager, r.team_name),
+    barTitle: (r) => `${r.manager} — ${r.total} points left on the bench this season`,
+  });
 
   const chipEntries = (data.chips || []).slice().sort((a, b) => b.chips.length - a.chips.length || a.manager.localeCompare(b.manager));
   const chipRows = chipEntries.length
@@ -2801,63 +2814,22 @@ function renderManagerInsights(data) {
       </div>`).join('')
     : '<p class="contest-rule">No chips played yet.</p>';
 
-  const rankRows = (data.rank_trajectory || [])
-    .map((r) => {
-      const gws = (r.gws || []).slice().sort((a, b) => a.gw - b.gw);
-      if (!gws.length) return null;
-      const start = gws[0].overall_rank;
-      const current = gws[gws.length - 1].overall_rank;
-      return { ...r, start, current, delta: start - current };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.current - b.current);
-  const rankBody = rankRows.length
-    ? rankRows.map((r) => {
-        const dir = r.delta > 0 ? 'up' : r.delta < 0 ? 'down' : 'flat';
-        const arrow = dir === 'up' ? '▲' : dir === 'down' ? '▼' : '—';
-        return `<tr>
-          <td>${managerLinkHTML(r.entry_id, r.manager, r.team_name)}</td>
-          <td>${r.start.toLocaleString()}</td>
-          <td class="pts">${r.current.toLocaleString()}</td>
-          <td class="rank-delta ${dir}">${arrow} ${Math.abs(r.delta).toLocaleString()}</td>
-        </tr>`;
-      }).join('')
-    : '<tr><td colspan="4" class="empty">No rank data yet.</td></tr>';
-
   document.getElementById('insightsContent').innerHTML = `
     <div class="insights-section">
       <div class="champ-wall-heading">Form Guide — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
-      <div class="insights-table-scroll">
-        <table class="contest-table">
-          <thead><tr><th>Rank</th><th>Manager</th>${form.gws.map((gw) => `<th>GW${gw}</th>`).join('')}<th>Total</th></tr></thead>
-          <tbody>${formRows}</tbody>
-        </table>
-      </div>
+      ${formChart}
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${captainBadge}</div>
-      <table class="contest-table">
-        <thead><tr><th>Player</th><th>Picked By</th><th>Points</th></tr></thead>
-        <tbody>${captainRows}</tbody>
-      </table>
+      ${captainChart}
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Bench Points Wasted — Season Total</div>
-      <table class="contest-table">
-        <thead><tr><th>Rank</th><th>Manager</th><th>Points</th></tr></thead>
-        <tbody>${benchRows}</tbody>
-      </table>
+      ${benchChart}
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Chip Usage</div>
       <div class="chip-rows">${chipRows}</div>
-    </div>
-    <div class="insights-section">
-      <div class="champ-wall-heading">Overall Rank Movement — Season So Far</div>
-      <table class="contest-table">
-        <thead><tr><th>Manager</th><th>Start Rank</th><th>Current Rank</th><th>Change</th></tr></thead>
-        <tbody>${rankBody}</tbody>
-      </table>
     </div>`;
 }
 
