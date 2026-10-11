@@ -464,6 +464,8 @@
   .standings-table-h2h td:first-child,
   .standings-table-h2h th:nth-child(3),
   .standings-table-h2h td:nth-child(3),
+  .standings-table-h2h th:nth-child(4),
+  .standings-table-h2h td:nth-child(4),
   .standings-table-h2h th:last-child,
   .standings-table-h2h td:last-child {
     width: 1%;
@@ -2992,17 +2994,17 @@ function standingsRowHTML(row, league, captainMap) {
     return `<tr>
       <td>${row.rank}</td>
       <td>${managerCell}</td>
+      ${captainCell}
       <td class="standings-record">${row.matches_won}-${row.matches_drawn}-${row.matches_lost}</td>
       <td class="pts">${row.total_points}</td>
-      ${captainCell}
     </tr>`;
   }
   return `<tr>
     <td>${row.rank}</td>
     <td>${managerCell}</td>
+    ${captainCell}
     <td class="pts">${row.gw_points}</td>
     <td>${row.total_points}</td>
-    ${captainCell}
   </tr>`;
 }
 
@@ -3027,11 +3029,12 @@ function renderStandingsTable() {
   const captainMap = captainPicks.length
     ? new Map(captainPicks.map((p) => [p.entry_id, p.player_name]))
     : null;
-  const head = `<tr>${STANDINGS_COLUMNS[league].map((c) => {
+  const head = `<tr>${STANDINGS_COLUMNS[league].map((c, i) => {
     const active = c.key === sort.key;
     const arrow = active ? (sort.dir === 'asc' ? ' ▲' : ' ▼') : '';
-    return `<th data-sort-key="${c.key}" class="sortable${active ? ' sorted' : ''}">${c.label}${arrow}</th>`;
-  }).join('')}${captainMap ? '<th>Captain</th>' : ''}</tr>`;
+    const th = `<th data-sort-key="${c.key}" class="sortable${active ? ' sorted' : ''}">${c.label}${arrow}</th>`;
+    return i === 1 && captainMap ? th + '<th>Captain</th>' : th;
+  }).join('')}</tr>`;
   const colCount = STANDINGS_COLUMNS[league].length + (captainMap ? 1 : 0);
   const body = rows.length
     ? rows.map((r) => standingsRowHTML(r, league, captainMap)).join('')
