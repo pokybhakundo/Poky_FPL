@@ -486,6 +486,7 @@
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
+  .insights-row { display: grid; grid-template-columns: minmax(260px, 360px) 1fr; gap: 24px; align-items: start; }
 
   .profile-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
 
@@ -1366,6 +1367,7 @@
     .award-body { padding: 14px 16px 16px; }
     .award-stat-value { font-size: 22px; }
     .award-team-name { font-size: 23px; }
+    .insights-row { grid-template-columns: 1fr; }
 
     .nav-toggle {
       display: flex;
@@ -2944,17 +2946,19 @@ function renderManagerInsights(data) {
   }
 
   document.getElementById('insightsContent').innerHTML = `
-    <div class="insights-section">
-      <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
-      <div class="trend-controls">
-        <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
-        <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
+    <div class="insights-section insights-row">
+      <div>
+        <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${captainBadge}</div>
+        <div id="captainPieChart" class="trend-chart-wrap"></div>
       </div>
-      <div id="formTrendChart"></div>
-    </div>
-    <div class="insights-section">
-      <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${captainBadge}</div>
-      <div id="captainPieChart" class="trend-chart-wrap"></div>
+      <div>
+        <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
+        <div class="trend-controls">
+          <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
+          <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
+        </div>
+        <div id="formTrendChart"></div>
+      </div>
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Bench Points Wasted — By Gameweek</div>
