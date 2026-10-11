@@ -484,7 +484,7 @@
   .badge.live { background: var(--live); color: #fff; box-shadow: 0 0 0 3px rgba(var(--live-rgb), 0.18); }
 
   .mow-captain-toggle { margin-bottom: 14px; }
-  #mowCaptainWrap.insights-section { margin-bottom: 18px; }
+  #standingsCaptainWrap.insights-section { margin-bottom: 18px; }
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
@@ -2717,14 +2717,14 @@ document.addEventListener('click', (e) => {
     renderProfileTabBody();
     return;
   }
-  const mowCaptainToggleEl = e.target.closest('#mowCaptainToggle');
-  if (mowCaptainToggleEl) {
-    mowCaptainOpen = !mowCaptainOpen;
-    mowCaptainToggleEl.classList.toggle('active', mowCaptainOpen);
-    mowCaptainToggleEl.textContent = mowCaptainToggleEl.textContent.replace(/^(Show|Hide)/, mowCaptainOpen ? 'Hide' : 'Show');
-    const wrap = document.getElementById('mowCaptainWrap');
-    wrap.hidden = !mowCaptainOpen;
-    if (mowCaptainOpen) renderMowCaptainPie();
+  const standingsCaptainToggleEl = e.target.closest('#standingsCaptainToggle');
+  if (standingsCaptainToggleEl) {
+    standingsCaptainOpen = !standingsCaptainOpen;
+    standingsCaptainToggleEl.classList.toggle('active', standingsCaptainOpen);
+    standingsCaptainToggleEl.textContent = standingsCaptainToggleEl.textContent.replace(/^(Show|Hide)/, standingsCaptainOpen ? 'Hide' : 'Show');
+    const wrap = document.getElementById('standingsCaptainWrap');
+    wrap.hidden = !standingsCaptainOpen;
+    if (standingsCaptainOpen) renderStandingsCaptainPie();
     return;
   }
   const winnerCardEl = e.target.closest('.winner-card-trigger');
@@ -3003,6 +3003,19 @@ function standingsRowHTML(row, league) {
   </tr>`;
 }
 
+let standingsCaptainOpen = false;
+
+function renderStandingsCaptainPie() {
+  const wrap = document.getElementById('standingsCaptainWrap');
+  if (!wrap) return;
+  const captain = managerInsightsData?.captain || { gw: null, provisional: false };
+  const badge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
+  wrap.innerHTML = `
+    <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}</div>
+    <div id="standingsCaptainPie" class="trend-chart-wrap"></div>`;
+  renderCaptainPie(captainPieSlices(), 'standingsCaptainPie');
+}
+
 function renderStandingsTable() {
   const league = currentStandingsLeague;
   const rows = sortStandingsRows(standingsData[league] || [], league);
@@ -3016,25 +3029,16 @@ function renderStandingsTable() {
     ? rows.map((r) => standingsRowHTML(r, league)).join('')
     : '<tr><td colspan="4" class="empty">No standings data yet.</td></tr>';
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
+  const captainGw = managerInsightsData?.captain?.gw;
   document.getElementById('standingsContent').innerHTML = `
     <div class="champ-wall-heading">${gwLabel}</div>
+    <button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+    <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>
     <table class="contest-table standings-table standings-table-${league}">
       <thead>${head}</thead>
       <tbody>${body}</tbody>
     </table>`;
-}
-
-let mowCaptainOpen = false;
-
-function renderMowCaptainPie() {
-  const wrap = document.getElementById('mowCaptainWrap');
-  if (!wrap) return;
-  const captain = managerInsightsData?.captain || { gw: null, provisional: false };
-  const badge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
-  wrap.innerHTML = `
-    <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}</div>
-    <div id="mowCaptainPie" class="trend-chart-wrap"></div>`;
-  renderCaptainPie(captainPieSlices(), 'mowCaptainPie');
+  if (standingsCaptainOpen) renderStandingsCaptainPie();
 }
 
 function renderMow(data) {
@@ -3052,17 +3056,13 @@ function renderMow(data) {
         </tr>`;
       }).join('')
     : '<tr><td colspan="3" class="empty">No gameweek data yet.</td></tr>';
-  const captainGw = managerInsightsData?.captain?.gw;
   document.getElementById('mowContent').innerHTML = `
     <div class="champ-wall-heading">Manager of the Week</div>
     <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
-    <button type="button" id="mowCaptainToggle" class="mow-captain-toggle${mowCaptainOpen ? ' active' : ''}">${mowCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
-    <div id="mowCaptainWrap" class="insights-section"${mowCaptainOpen ? '' : ' hidden'}></div>
     <table class="contest-table">
       <thead><tr><th>Gameweek</th><th>Winner</th><th>Points</th></tr></thead>
       <tbody>${body}</tbody>
     </table>`;
-  if (mowCaptainOpen) renderMowCaptainPie();
 }
 
 function renderMom(data) {
@@ -3392,11 +3392,11 @@ async function loadState() {
     ]);
     if (classic) bracketData.classic = classic;
     if (h2h) bracketData.h2h = h2h;
+    if (insights) managerInsightsData = insights;
     if (standings) {
       standingsData = standings;
       renderStandingsTable();
     }
-    if (insights) managerInsightsData = insights;
     renderManagerInsights(insights);
     if (contests) {
       renderMow(contests);
