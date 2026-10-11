@@ -486,13 +486,26 @@
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
-  .bar-chart { display: grid; gap: 10px; }
-  .bar-row { display: grid; grid-template-columns: minmax(110px, 200px) 1fr; align-items: center; gap: 12px; }
-  .bar-row-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--font-sm); }
-  .bar-plain-label { color: var(--text); font-weight: 700; }
-  .bar-track { display: flex; align-items: center; height: 22px; background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: 4px; }
-  .bar-fill { height: 100%; min-width: 4px; flex-shrink: 0; border-radius: 0 4px 4px 0; }
-  .bar-value { margin-left: 8px; color: var(--text); font-weight: 700; font-size: var(--font-sm); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .profile-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
+
+  .trend-controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+  .trend-select-wrap { display: flex; align-items: center; gap: 6px; font-size: var(--font-sm); color: var(--sub); }
+  .trend-select-wrap select {
+    background: rgba(var(--card-rgb), 0.78);
+    color: var(--text);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    padding: 6px 10px;
+    font-family: var(--body-font);
+    font-size: var(--font-sm);
+    max-width: 220px;
+  }
+  .trend-select-wrap select:focus-visible { outline: 2px solid rgba(var(--accent-rgb), 0.7); outline-offset: 1px; }
+  .trend-select-a::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+  .trend-select-b::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--highlight); }
+  .trend-chart-wrap { background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: var(--radius-sm); padding: 10px 6px 4px; }
+  .trend-empty { color: var(--sub); font-size: var(--font-sm); padding: 20px 0; text-align: center; }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -1500,6 +1513,11 @@
     </div>
   </section>
 
+<!-- Plotly.js (open source, MIT) renders the Manager Insights charts --
+     dropdown-driven re-render needs a real client-side chart library, not
+     a static image, so this replaces matplotlib/the Python plotly package
+     here: plotly.js is the browser half of the same open-source project. -->
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
 <script>
 // Read-only display. Bracket JSON is produced server-side (cron / workflow) into docs/data/.
 
@@ -2023,6 +2041,7 @@ let currentPanel = 'standings';
 let currentStandingsLeague = 'classic';
 let standingsData = { gw: null, classic: [], h2h: [] };
 let seasonHistoryData = null;
+let managerInsightsData = null;
 const STANDINGS_COLUMNS = {
   classic: [
     { key: 'rank', label: 'Rank', dir: 'asc' },
@@ -2630,22 +2649,44 @@ function renderManagerProfile(name) {
   profileDialog.showModal();
 }
 
-function renderSeasonHistoryProfile(entryId, name) {
-  const entry = seasonHistoryData?.entries?.[entryId];
-  const seasons = entry?.seasons || [];
-  const rows = seasons.length
+function managerChips(entryId) {
+  const entry = (managerInsightsData?.chips || []).find((c) => String(c.entry_id) === String(entryId));
+  return entry?.chips || [];
+}
+
+let profileTabState = { entryId: null, name: null, tab: 'season' };
+
+function renderProfileTabBody() {
+  const { entryId, name, tab } = profileTabState;
+  const seasons = seasonHistoryData?.entries?.[entryId]?.seasons || [];
+  const chips = managerChips(entryId);
+
+  const seasonBody = seasons.length
     ? seasons.map((s) => `<div class="profile-season-row">
         <span class="profile-season-name">${escapeHTML(s.season_name)}</span>
         <span class="profile-season-stats"><b>${s.total_points.toLocaleString()}</b> pts${s.rank ? ` &middot; Rank ${s.rank.toLocaleString()}` : ''}</span>
       </div>`).join('')
     : '<p class="profile-empty">No past-season FPL history on record yet.</p>';
+  const chipBody = chips.length
+    ? `<div class="chip-rows"><div class="chip-row">${chips.map(chipPillHTML).join('')}</div></div>`
+    : '<p class="profile-empty">No chips played yet this season.</p>';
 
+  const isChips = tab === 'chips';
   profileDialog.querySelector('.profile-body').innerHTML = `
     <h2 class="profile-name">${escapeHTML(name)} <span class="tt-id">Team ID: ${entryId}</span></h2>
-    <div class="profile-total"><span>${seasons.length} season${seasons.length === 1 ? '' : 's'} of FPL history</span></div>
-    <h3 class="profile-section-heading">Season History</h3>
-    ${rows}
-    <p class="profile-footnote">Total points and overall rank for each season, from this manager's official Fantasy Premier League history.</p>`;
+    <div class="profile-tabs">
+      <button type="button" class="profile-tab-btn${isChips ? '' : ' active'}" data-tab="season">Season History</button>
+      <button type="button" class="profile-tab-btn${isChips ? ' active' : ''}" data-tab="chips">Chip Usage</button>
+    </div>
+    <div class="profile-total"><span>${isChips ? `${chips.length} chip${chips.length === 1 ? '' : 's'} played this season` : `${seasons.length} season${seasons.length === 1 ? '' : 's'} of FPL history`}</span></div>
+    <h3 class="profile-section-heading">${isChips ? 'Chip Usage' : 'Season History'}</h3>
+    ${isChips ? chipBody : seasonBody}
+    <p class="profile-footnote">${isChips ? 'Wildcard, Free Hit, Bench Boost, and Triple Captain usage this season, with the gameweek each was played.' : "Total points and overall rank for each season, from this manager's official Fantasy Premier League history."}</p>`;
+}
+
+function renderSeasonHistoryProfile(entryId, name) {
+  profileTabState = { entryId, name, tab: 'season' };
+  renderProfileTabBody();
   profileDialog.showModal();
 }
 
@@ -2666,6 +2707,12 @@ document.addEventListener('click', (e) => {
   const seasonEl = e.target.closest('.season-history-trigger');
   if (seasonEl) {
     renderSeasonHistoryProfile(seasonEl.dataset.entryId, seasonEl.textContent.trim());
+    return;
+  }
+  const profileTabEl = e.target.closest('.profile-tab-btn');
+  if (profileTabEl) {
+    profileTabState.tab = profileTabEl.dataset.tab;
+    renderProfileTabBody();
     return;
   }
   const winnerCardEl = e.target.closest('.winner-card-trigger');
@@ -2760,20 +2807,109 @@ function chipPillHTML(chip) {
   return `<span class="chip-pill ${meta.cls}" title="${escapeHTML(meta.title)} — GW${chip.gw}">${meta.label} <span class="contest-meta">GW${chip.gw}</span></span>`;
 }
 
-function barChartHTML(rows, { color, max, barValue, barLabel, barTitle }) {
-  if (!rows.length) return '<p class="contest-rule">No data yet.</p>';
-  const scale = max || Math.max(...rows.map(barValue), 1);
-  return `<div class="bar-chart">${rows.map((r) => {
-    const value = barValue(r);
-    const pct = Math.max(4, Math.round((value / scale) * 100));
-    return `<div class="bar-row" title="${escapeHTML(barTitle(r))}">
-      <div class="bar-row-label">${barLabel(r)}</div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:${pct}%;background:${color};"></div>
-        <div class="bar-value">${escapeHTML(String(value.toLocaleString()))}</div>
-      </div>
-    </div>`;
-  }).join('')}</div>`;
+const CATEGORICAL_COLORS = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300'];
+const OTHER_SLICE_COLOR = '#5a6b82';
+const SERIES_A_COLOR = '#3b82f6';
+const SERIES_B_COLOR = '#f4c95d';
+const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
+const PLOTLY_BASE_LAYOUT = {
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor: 'rgba(0,0,0,0)',
+  font: { family: 'Barlow, sans-serif', color: '#9fb2c8', size: 12 },
+  margin: { l: 44, r: 16, t: 12, b: 36 },
+};
+
+function renderCaptainPie(slices) {
+  const el = document.getElementById('captainPieChart');
+  if (!slices.length) {
+    el.innerHTML = '<p class="trend-empty">No picks data yet for this gameweek.</p>';
+    return;
+  }
+  Plotly.newPlot(el, [{
+    type: 'pie',
+    labels: slices.map((s) => s.label),
+    values: slices.map((s) => s.value),
+    marker: { colors: slices.map((s) => s.color), line: { color: '#13243b', width: 2 } },
+    text: slices.map((s) => s.detail),
+    hovertemplate: '%{label} — %{text}<extra></extra>',
+    textinfo: 'label+percent',
+    textfont: { color: '#f7fafc' },
+  }], {
+    ...PLOTLY_BASE_LAYOUT,
+    height: 280,
+    margin: { l: 10, r: 10, t: 10, b: 10 },
+    showlegend: true,
+    legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
+  }, PLOTLY_CONFIG);
+}
+
+function trendTraces(seriesList, gws) {
+  const x = gws.map((gw) => `GW${gw}`);
+  return seriesList.map((s) => ({
+    type: 'scatter',
+    mode: 'lines+markers',
+    name: s.label,
+    x,
+    y: gws.map((gw) => (s.values[gw] == null ? null : s.values[gw])),
+    connectgaps: false,
+    line: { color: s.color, width: 2.5 },
+    marker: { color: s.color, size: 7 },
+    hovertemplate: `${s.label} — %{x}: %{y}<extra></extra>`,
+  }));
+}
+
+function renderTrendChart(containerId, seriesList, gws) {
+  const el = document.getElementById(containerId);
+  const present = seriesList.filter((s) => gws.some((gw) => s.values[gw] != null));
+  if (!gws.length || !present.length) {
+    el.innerHTML = '<p class="trend-empty">No data yet for the selected manager.</p>';
+    return;
+  }
+  Plotly.newPlot(el, trendTraces(present, gws), {
+    ...PLOTLY_BASE_LAYOUT,
+    height: 260,
+    showlegend: present.length > 1,
+    legend: { font: { color: '#9fb2c8' }, orientation: 'h', y: 1.15 },
+    xaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
+    yaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8', zeroline: false },
+  }, PLOTLY_CONFIG);
+}
+
+const insightsSelect = { formA: null, formB: '', benchA: null, benchB: '' };
+
+function entryOptionsHTML(entries, selectedId, includeNone) {
+  const none = includeNone ? '<option value="">— compare with —</option>' : '';
+  return none + entries.map((e) => `<option value="${e.entry_id}"${String(e.entry_id) === String(selectedId) ? ' selected' : ''}>${escapeHTML(e.manager)}</option>`).join('');
+}
+
+function renderFormTrend() {
+  const form = managerInsightsData?.form || { gws: [], table: [] };
+  const entries = form.table;
+  if (!entries.length) {
+    document.getElementById('formTrendChart').innerHTML = '<p class="trend-empty">No finalized gameweeks yet.</p>';
+    return;
+  }
+  if (!entries.some((e) => String(e.entry_id) === String(insightsSelect.formA))) insightsSelect.formA = entries[0].entry_id;
+  const a = entries.find((e) => String(e.entry_id) === String(insightsSelect.formA));
+  const b = insightsSelect.formB ? entries.find((e) => String(e.entry_id) === String(insightsSelect.formB)) : null;
+  const series = [{ label: a.manager, color: SERIES_A_COLOR, values: a.gws }];
+  if (b) series.push({ label: b.manager, color: SERIES_B_COLOR, values: b.gws });
+  renderTrendChart('formTrendChart', series, form.gws);
+}
+
+function renderBenchTrend() {
+  const entries = managerInsightsData?.bench_waste || [];
+  if (!entries.length) {
+    document.getElementById('benchTrendChart').innerHTML = '<p class="trend-empty">No bench data yet.</p>';
+    return;
+  }
+  const gws = [...new Set(entries.flatMap((e) => Object.keys(e.gws || {})))].map(Number).sort((x, y) => x - y);
+  if (!entries.some((e) => String(e.entry_id) === String(insightsSelect.benchA))) insightsSelect.benchA = entries[0].entry_id;
+  const a = entries.find((e) => String(e.entry_id) === String(insightsSelect.benchA));
+  const b = insightsSelect.benchB ? entries.find((e) => String(e.entry_id) === String(insightsSelect.benchB)) : null;
+  const series = [{ label: a.manager, color: SERIES_A_COLOR, values: a.gws }];
+  if (b) series.push({ label: b.manager, color: SERIES_B_COLOR, values: b.gws });
+  renderTrendChart('benchTrendChart', series, gws);
 }
 
 function renderManagerInsights(data) {
@@ -2783,55 +2919,55 @@ function renderManagerInsights(data) {
   }
 
   const form = data.form || { gws: [], table: [] };
-  const formChart = barChartHTML(form.table, {
-    color: 'var(--winner)',
-    barValue: (r) => r.total,
-    barLabel: (r) => managerLinkHTML(r.entry_id, r.manager, r.team_name),
-    barTitle: (r) => `${r.manager} — ${form.gws.map((gw) => `GW${gw}: ${r.gws[String(gw)] ?? '—'}`).join(', ')}`,
-  });
+  const bench = data.bench_waste || [];
 
   const captain = data.captain || { gw: null, provisional: false, summary: [] };
   const captainBadge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
-  const captainChart = barChartHTML(captain.summary.slice(0, 8), {
-    color: 'var(--accent)',
-    barValue: (c) => c.count,
-    barLabel: (c) => `<span class="bar-plain-label">${escapeHTML(c.player_name)}</span>`,
-    barTitle: (c) => `${c.player_name} — picked by ${c.count}, returned ${c.points} pts`,
-  });
-
-  const benchChart = barChartHTML(data.bench_waste ? data.bench_waste.slice(0, 10) : [], {
-    color: 'var(--accent)',
-    barValue: (r) => r.total,
-    barLabel: (r) => managerLinkHTML(r.entry_id, r.manager, r.team_name),
-    barTitle: (r) => `${r.manager} — ${r.total} points left on the bench this season`,
-  });
-
-  const chipEntries = (data.chips || []).slice().sort((a, b) => b.chips.length - a.chips.length || a.manager.localeCompare(b.manager));
-  const chipRows = chipEntries.length
-    ? chipEntries.map((entry) => `<div class="chip-row">
-        <span class="chip-row-name">${escapeHTML(entry.manager)}</span>
-        ${entry.chips.map(chipPillHTML).join('')}
-      </div>`).join('')
-    : '<p class="contest-rule">No chips played yet.</p>';
+  const topCaptains = captain.summary.slice(0, 5);
+  const otherCount = captain.summary.slice(5).reduce((sum, c) => sum + c.count, 0);
+  const slices = topCaptains.map((c, i) => ({
+    value: c.count,
+    color: CATEGORICAL_COLORS[i],
+    label: c.player_name,
+    detail: `picked by ${c.count}, returned ${c.points} pts`,
+    title: `${c.player_name} — picked by ${c.count}, returned ${c.points} pts`,
+  }));
+  if (otherCount > 0) {
+    slices.push({ value: otherCount, color: OTHER_SLICE_COLOR, label: 'Other', detail: `picked by ${otherCount}`, title: `Other captain picks — ${otherCount}` });
+  }
 
   document.getElementById('insightsContent').innerHTML = `
     <div class="insights-section">
-      <div class="champ-wall-heading">Form Guide — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
-      ${formChart}
+      <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
+      <div class="trend-controls">
+        <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
+        <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
+      </div>
+      <div id="formTrendChart"></div>
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${captainBadge}</div>
-      ${captainChart}
+      <div id="captainPieChart" class="trend-chart-wrap"></div>
     </div>
     <div class="insights-section">
-      <div class="champ-wall-heading">Bench Points Wasted — Season Total</div>
-      ${benchChart}
-    </div>
-    <div class="insights-section">
-      <div class="champ-wall-heading">Chip Usage</div>
-      <div class="chip-rows">${chipRows}</div>
+      <div class="champ-wall-heading">Bench Points Wasted — By Gameweek</div>
+      <div class="trend-controls">
+        <span class="trend-select-wrap trend-select-a">Manager <select id="benchSelectA">${entryOptionsHTML(bench, insightsSelect.benchA, false)}</select></span>
+        <span class="trend-select-wrap trend-select-b">Compare <select id="benchSelectB">${entryOptionsHTML(bench, insightsSelect.benchB, true)}</select></span>
+      </div>
+      <div id="benchTrendChart"></div>
     </div>`;
+  renderFormTrend();
+  renderCaptainPie(slices);
+  renderBenchTrend();
 }
+
+document.addEventListener('change', (e) => {
+  if (e.target.id === 'formSelectA') { insightsSelect.formA = e.target.value; renderFormTrend(); }
+  else if (e.target.id === 'formSelectB') { insightsSelect.formB = e.target.value; renderFormTrend(); }
+  else if (e.target.id === 'benchSelectA') { insightsSelect.benchA = e.target.value; renderBenchTrend(); }
+  else if (e.target.id === 'benchSelectB') { insightsSelect.benchB = e.target.value; renderBenchTrend(); }
+});
 
 function standingsRowHTML(row, league) {
   const managerCell = managerLinkHTML(row.entry_id, row.manager, row.team_name);
@@ -3227,6 +3363,7 @@ async function loadState() {
       standingsData = standings;
       renderStandingsTable();
     }
+    if (insights) managerInsightsData = insights;
     renderManagerInsights(insights);
     if (contests) {
       renderMow(contests);

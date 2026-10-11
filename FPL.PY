@@ -681,7 +681,12 @@ def build_manager_insights():
                 if h.get("event") is not None and h.get("overall_rank") is not None
             ],
         })
-        bench_waste.append({**meta[eid], "total": sum(h.get("points_on_bench", 0) for h in current)})
+        bench_gws = {
+            str(h["event"]): h.get("points_on_bench", 0)
+            for h in current
+            if h.get("event") is not None
+        }
+        bench_waste.append({**meta[eid], "total": sum(bench_gws.values()), "gws": bench_gws})
 
     bench_waste.sort(key=lambda r: r["total"], reverse=True)
 
