@@ -483,10 +483,11 @@
   .badge.shared { background: rgba(var(--highlight-rgb), 0.18); color: var(--highlight); }
   .badge.live { background: var(--live); color: #fff; box-shadow: 0 0 0 3px rgba(var(--live-rgb), 0.18); }
 
+  .mow-captain-toggle { margin-bottom: 14px; }
+  #mowCaptainWrap.insights-section { margin-bottom: 18px; }
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
-  .insights-row { display: grid; grid-template-columns: minmax(260px, 360px) 1fr; gap: 24px; align-items: start; }
 
   .profile-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
 
@@ -1367,7 +1368,6 @@
     .award-body { padding: 14px 16px 16px; }
     .award-stat-value { font-size: 22px; }
     .award-team-name { font-size: 23px; }
-    .insights-row { grid-template-columns: 1fr; }
 
     .nav-toggle {
       display: flex;
@@ -2717,6 +2717,16 @@ document.addEventListener('click', (e) => {
     renderProfileTabBody();
     return;
   }
+  const mowCaptainToggleEl = e.target.closest('#mowCaptainToggle');
+  if (mowCaptainToggleEl) {
+    mowCaptainOpen = !mowCaptainOpen;
+    mowCaptainToggleEl.classList.toggle('active', mowCaptainOpen);
+    mowCaptainToggleEl.textContent = mowCaptainToggleEl.textContent.replace(/^(Show|Hide)/, mowCaptainOpen ? 'Hide' : 'Show');
+    const wrap = document.getElementById('mowCaptainWrap');
+    wrap.hidden = !mowCaptainOpen;
+    if (mowCaptainOpen) renderMowCaptainPie();
+    return;
+  }
   const winnerCardEl = e.target.closest('.winner-card-trigger');
   if (winnerCardEl) {
     renderWinnerCard(winnerCardEl);
@@ -2821,8 +2831,9 @@ const PLOTLY_BASE_LAYOUT = {
   margin: { l: 44, r: 16, t: 12, b: 36 },
 };
 
-function renderCaptainPie(slices) {
-  const el = document.getElementById('captainPieChart');
+function renderCaptainPie(slices, containerId) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
   if (!slices.length) {
     el.innerHTML = '<p class="trend-empty">No picks data yet for this gameweek.</p>';
     return;
@@ -2921,6 +2932,22 @@ function renderBenchTrend() {
   renderTrendChart('benchTrendChart', series, gws);
 }
 
+function captainPieSlices() {
+  const captain = managerInsightsData?.captain || { summary: [] };
+  const topCaptains = captain.summary.slice(0, 5);
+  const otherCount = captain.summary.slice(5).reduce((sum, c) => sum + c.count, 0);
+  const slices = topCaptains.map((c, i) => ({
+    value: c.count,
+    color: CATEGORICAL_COLORS[i],
+    label: c.player_name,
+    detail: `picked by ${c.count}, returned ${c.points} pts`,
+  }));
+  if (otherCount > 0) {
+    slices.push({ value: otherCount, color: OTHER_SLICE_COLOR, label: 'Other', detail: `picked by ${otherCount}` });
+  }
+  return slices;
+}
+
 function renderManagerInsights(data) {
   if (!data) {
     document.getElementById('insightsContent').innerHTML = '<p class="contest-rule">Insights will appear here once this week’s data has been generated.</p>';
@@ -2930,35 +2957,14 @@ function renderManagerInsights(data) {
   const form = data.form || { gws: [], table: [] };
   const bench = data.bench_waste || [];
 
-  const captain = data.captain || { gw: null, provisional: false, summary: [] };
-  const captainBadge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
-  const topCaptains = captain.summary.slice(0, 5);
-  const otherCount = captain.summary.slice(5).reduce((sum, c) => sum + c.count, 0);
-  const slices = topCaptains.map((c, i) => ({
-    value: c.count,
-    color: CATEGORICAL_COLORS[i],
-    label: c.player_name,
-    detail: `picked by ${c.count}, returned ${c.points} pts`,
-    title: `${c.player_name} — picked by ${c.count}, returned ${c.points} pts`,
-  }));
-  if (otherCount > 0) {
-    slices.push({ value: otherCount, color: OTHER_SLICE_COLOR, label: 'Other', detail: `picked by ${otherCount}`, title: `Other captain picks — ${otherCount}` });
-  }
-
   document.getElementById('insightsContent').innerHTML = `
-    <div class="insights-section insights-row">
-      <div>
-        <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${captainBadge}</div>
-        <div id="captainPieChart" class="trend-chart-wrap"></div>
+    <div class="insights-section">
+      <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
+      <div class="trend-controls">
+        <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
+        <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
       </div>
-      <div>
-        <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
-        <div class="trend-controls">
-          <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
-          <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
-        </div>
-        <div id="formTrendChart"></div>
-      </div>
+      <div id="formTrendChart"></div>
     </div>
     <div class="insights-section">
       <div class="champ-wall-heading">Bench Points Wasted — By Gameweek</div>
@@ -2969,7 +2975,6 @@ function renderManagerInsights(data) {
       <div id="benchTrendChart"></div>
     </div>`;
   renderFormTrend();
-  renderCaptainPie(slices);
   renderBenchTrend();
 }
 
@@ -3019,6 +3024,19 @@ function renderStandingsTable() {
     </table>`;
 }
 
+let mowCaptainOpen = false;
+
+function renderMowCaptainPie() {
+  const wrap = document.getElementById('mowCaptainWrap');
+  if (!wrap) return;
+  const captain = managerInsightsData?.captain || { gw: null, provisional: false };
+  const badge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
+  wrap.innerHTML = `
+    <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}</div>
+    <div id="mowCaptainPie" class="trend-chart-wrap"></div>`;
+  renderCaptainPie(captainPieSlices(), 'mowCaptainPie');
+}
+
 function renderMow(data) {
   const rows = data?.manager_of_the_week || [];
   const body = rows.length
@@ -3034,13 +3052,17 @@ function renderMow(data) {
         </tr>`;
       }).join('')
     : '<tr><td colspan="3" class="empty">No gameweek data yet.</td></tr>';
+  const captainGw = managerInsightsData?.captain?.gw;
   document.getElementById('mowContent').innerHTML = `
     <div class="champ-wall-heading">Manager of the Week</div>
     <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
+    <button type="button" id="mowCaptainToggle" class="mow-captain-toggle${mowCaptainOpen ? ' active' : ''}">${mowCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+    <div id="mowCaptainWrap" class="insights-section"${mowCaptainOpen ? '' : ' hidden'}></div>
     <table class="contest-table">
       <thead><tr><th>Gameweek</th><th>Winner</th><th>Points</th></tr></thead>
       <tbody>${body}</tbody>
     </table>`;
+  if (mowCaptainOpen) renderMowCaptainPie();
 }
 
 function renderMom(data) {
