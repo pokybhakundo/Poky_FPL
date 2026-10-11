@@ -2985,14 +2985,16 @@ document.addEventListener('change', (e) => {
   else if (e.target.id === 'benchSelectB') { insightsSelect.benchB = e.target.value; renderBenchTrend(); }
 });
 
-function standingsRowHTML(row, league) {
+function standingsRowHTML(row, league, captainMap) {
   const managerCell = managerLinkHTML(row.entry_id, row.manager, row.team_name);
+  const captainCell = captainMap ? `<td>${escapeHTML(captainMap.get(row.entry_id) || '—')}</td>` : '';
   if (league === 'h2h') {
     return `<tr>
       <td>${row.rank}</td>
       <td>${managerCell}</td>
       <td class="standings-record">${row.matches_won}-${row.matches_drawn}-${row.matches_lost}</td>
       <td class="pts">${row.total_points}</td>
+      ${captainCell}
     </tr>`;
   }
   return `<tr>
@@ -3000,6 +3002,7 @@ function standingsRowHTML(row, league) {
     <td>${managerCell}</td>
     <td class="pts">${row.gw_points}</td>
     <td>${row.total_points}</td>
+    ${captainCell}
   </tr>`;
 }
 
@@ -3020,14 +3023,19 @@ function renderStandingsTable() {
   const league = currentStandingsLeague;
   const rows = sortStandingsRows(standingsData[league] || [], league);
   const sort = standingsSort[league];
+  const captainPicks = managerInsightsData?.captain?.picks || [];
+  const captainMap = captainPicks.length
+    ? new Map(captainPicks.map((p) => [p.entry_id, p.player_name]))
+    : null;
   const head = `<tr>${STANDINGS_COLUMNS[league].map((c) => {
     const active = c.key === sort.key;
     const arrow = active ? (sort.dir === 'asc' ? ' ▲' : ' ▼') : '';
     return `<th data-sort-key="${c.key}" class="sortable${active ? ' sorted' : ''}">${c.label}${arrow}</th>`;
-  }).join('')}</tr>`;
+  }).join('')}${captainMap ? '<th>Captain</th>' : ''}</tr>`;
+  const colCount = STANDINGS_COLUMNS[league].length + (captainMap ? 1 : 0);
   const body = rows.length
-    ? rows.map((r) => standingsRowHTML(r, league)).join('')
-    : '<tr><td colspan="4" class="empty">No standings data yet.</td></tr>';
+    ? rows.map((r) => standingsRowHTML(r, league, captainMap)).join('')
+    : `<tr><td colspan="${colCount}" class="empty">No standings data yet.</td></tr>`;
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
   document.getElementById('standingsContent').innerHTML = `
