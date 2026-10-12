@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-12T23:10:26.936359+00:00",
+  "generated_at": "2026-10-12T23:15:35.888208+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 83,
-      "total_points": 389
-    },
-    {
-      "rank": 23,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 63,
+      "total_points": 389
+    },
+    {
+      "rank": 23,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 83,
       "total_points": 389
     },
     {
@@ -236,18 +236,18 @@
     },
     {
       "rank": 30,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 69,
-      "total_points": 367
-    },
-    {
-      "rank": 30,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "gw_points": 53,
+      "total_points": 367
+    },
+    {
+      "rank": 30,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 69,
       "total_points": 367
     },
     {
