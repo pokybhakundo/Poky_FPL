@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:05:18.636776+00:00",
+  "generated_at": "2026-10-12T19:10:19.888085+00:00",
   "form": {
     "gws": [
       1,
@@ -416,25 +416,6 @@
       ]
     },
     {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -458,6 +439,25 @@
       ]
     },
     {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -477,6 +477,17 @@
       ]
     },
     {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -492,17 +503,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -510,17 +510,6 @@
         {
           "name": "freehit",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
         }
       ]
     },
@@ -536,6 +525,17 @@
         {
           "name": "bboost",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
         }
       ]
     },
@@ -589,17 +589,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -612,6 +601,17 @@
           "name": "3xc",
           "gw": 3
         },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
         {
           "name": "wildcard",
           "gw": 6
@@ -645,21 +645,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -675,6 +660,21 @@
         {
           "name": "wildcard",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 5
         }
       ]
     },
@@ -930,37 +930,6 @@
       ]
     },
     {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 529735
-        },
-        {
-          "gw": 2,
-          "overall_rank": 280868
-        },
-        {
-          "gw": 3,
-          "overall_rank": 271082
-        },
-        {
-          "gw": 4,
-          "overall_rank": 549095
-        },
-        {
-          "gw": 5,
-          "overall_rank": 879943
-        },
-        {
-          "gw": 6,
-          "overall_rank": 603565
-        }
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -988,6 +957,37 @@
         {
           "gw": 6,
           "overall_rank": 660055
+        }
+      ]
+    },
+    {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 529735
+        },
+        {
+          "gw": 2,
+          "overall_rank": 280868
+        },
+        {
+          "gw": 3,
+          "overall_rank": 271082
+        },
+        {
+          "gw": 4,
+          "overall_rank": 549095
+        },
+        {
+          "gw": 5,
+          "overall_rank": 879943
+        },
+        {
+          "gw": 6,
+          "overall_rank": 603565
         }
       ]
     },
@@ -1054,37 +1054,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 481842
-        },
-        {
-          "gw": 3,
-          "overall_rank": 390143
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1244771
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1460091
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1007686
-        }
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1116,6 +1085,37 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 1011629
+        },
+        {
+          "gw": 2,
+          "overall_rank": 481842
+        },
+        {
+          "gw": 3,
+          "overall_rank": 390143
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1244771
+        },
+        {
+          "gw": 5,
+          "overall_rank": 1460091
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1007686
+        }
+      ]
+    },
+    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1143,6 +1143,37 @@
         {
           "gw": 6,
           "overall_rank": 1200998
+        }
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 8092210
+        },
+        {
+          "gw": 2,
+          "overall_rank": 3019222
+        },
+        {
+          "gw": 3,
+          "overall_rank": 3818092
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1306162
+        },
+        {
+          "gw": 5,
+          "overall_rank": 2023698
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1598521
         }
       ]
     },
@@ -1205,37 +1236,6 @@
         {
           "gw": 6,
           "overall_rank": 1571289
-        }
-      ]
-    },
-    {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 3019222
-        },
-        {
-          "gw": 3,
-          "overall_rank": 3818092
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1306162
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2023698
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1598521
         }
       ]
     },
@@ -1333,37 +1333,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2677591
-        },
-        {
-          "gw": 2,
-          "overall_rank": 618053
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1907805
-        },
-        {
-          "gw": 4,
-          "overall_rank": 2343465
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2333176
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1874898
-        }
-      ]
-    },
-    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -1391,6 +1360,37 @@
         {
           "gw": 6,
           "overall_rank": 1885922
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 2677591
+        },
+        {
+          "gw": 2,
+          "overall_rank": 618053
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1907805
+        },
+        {
+          "gw": 4,
+          "overall_rank": 2343465
+        },
+        {
+          "gw": 5,
+          "overall_rank": 2333176
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1874898
         }
       ]
     },
@@ -1457,37 +1457,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1731172
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1029798
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1263867
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2175978
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2195593
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -1515,6 +1484,37 @@
         {
           "gw": 6,
           "overall_rank": 2248379
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 4969899
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1731172
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1029798
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1263867
+        },
+        {
+          "gw": 5,
+          "overall_rank": 2175978
+        },
+        {
+          "gw": 6,
+          "overall_rank": 2195593
         }
       ]
     },
@@ -2329,20 +2329,20 @@
         "points": 6
       },
       {
-        "entry_id": 1575639,
-        "team_name": "SpecialOne",
-        "manager": "Ganesh Sapkota",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 1845615,
         "team_name": "Kylian Dictator",
         "manager": "Rakesh Itani",
         "element_id": 464,
         "player_name": "Wissa",
         "points": 1
+      },
+      {
+        "entry_id": 1575639,
+        "team_name": "SpecialOne",
+        "manager": "Ganesh Sapkota",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 36783,
@@ -2361,14 +2361,6 @@
         "points": 6
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
-      },
-      {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
@@ -2377,12 +2369,28 @@
         "points": 1
       },
       {
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
+      },
+      {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
         "element_id": 426,
         "player_name": "B.Fernandes",
         "points": 1
+      },
+      {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 480,
+        "player_name": "Gibbs-White",
+        "points": 2
       },
       {
         "entry_id": 1913463,
@@ -2398,14 +2406,6 @@
         "manager": "Aayush Palikhel",
         "element_id": 12,
         "player_name": "Saka",
-        "points": 2
-      },
-      {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 480,
-        "player_name": "Gibbs-White",
         "points": 2
       },
       {
@@ -2433,17 +2433,17 @@
         "points": 9
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
         "element_id": 12,
         "player_name": "Saka",
         "points": 2
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 12,
         "player_name": "Saka",
         "points": 2
@@ -2465,20 +2465,20 @@
         "points": 6
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 1843084,
         "team_name": "Gura's Invincibles",
         "manager": "Prashant Guragai",
         "element_id": 154,
         "player_name": "Palmer",
         "points": 8
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 1966921,
