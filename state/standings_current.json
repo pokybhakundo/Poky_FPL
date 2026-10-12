@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-12T20:30:23.089464+00:00",
+  "generated_at": "2026-10-12T20:35:18.809392+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,14 +68,6 @@
     },
     {
       "rank": 9,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 70,
-      "total_points": 415
-    },
-    {
-      "rank": 10,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -83,7 +75,7 @@
       "total_points": 412
     },
     {
-      "rank": 11,
+      "rank": 10,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -91,7 +83,7 @@
       "total_points": 411
     },
     {
-      "rank": 12,
+      "rank": 11,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -99,12 +91,20 @@
       "total_points": 411
     },
     {
-      "rank": 13,
+      "rank": 12,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 74,
       "total_points": 410
+    },
+    {
+      "rank": 13,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 64,
+      "total_points": 409
     },
     {
       "rank": 14,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 83,
-      "total_points": 389
-    },
-    {
-      "rank": 24,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 63,
+      "total_points": 389
+    },
+    {
+      "rank": 24,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 83,
       "total_points": 389
     },
     {

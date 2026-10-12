@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:30:22.676196+00:00",
+  "generated_at": "2026-10-12T20:35:18.315237+00:00",
   "form": {
     "gws": [
       1,
@@ -458,17 +458,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "chips": [
-        {
-          "name": "freehit",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -510,6 +499,17 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "chips": [
+        {
+          "name": "freehit",
+          "gw": 4
         }
       ]
     },
@@ -649,21 +649,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -675,6 +660,21 @@
         {
           "name": "wildcard",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -992,37 +992,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 5859109
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1213143
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1102932
-        },
-        {
-          "gw": 4,
-          "overall_rank": 731330
-        },
-        {
-          "gw": 5,
-          "overall_rank": 976059
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1200998
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1143,6 +1112,37 @@
         {
           "gw": 6,
           "overall_rank": 1007686
+        }
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 5859109
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1213143
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1102932
+        },
+        {
+          "gw": 4,
+          "overall_rank": 731330
+        },
+        {
+          "gw": 5,
+          "overall_rank": 976059
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1200998
         }
       ]
     },
@@ -1457,37 +1457,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 4462746
-        },
-        {
-          "gw": 3,
-          "overall_rank": 5207816
-        },
-        {
-          "gw": 4,
-          "overall_rank": 3719588
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3914069
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2069018
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1515,6 +1484,37 @@
         {
           "gw": 6,
           "overall_rank": 2195593
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 8092210
+        },
+        {
+          "gw": 2,
+          "overall_rank": 4462746
+        },
+        {
+          "gw": 3,
+          "overall_rank": 5207816
+        },
+        {
+          "gw": 4,
+          "overall_rank": 3719588
+        },
+        {
+          "gw": 5,
+          "overall_rank": 3914069
+        },
+        {
+          "gw": 6,
+          "overall_rank": 2069018
         }
       ]
     },
@@ -2345,14 +2345,6 @@
         "points": 6
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 1
-      },
-      {
         "entry_id": 36783,
         "team_name": "Kids to Unc's FC",
         "manager": "Bishal Neupane",
@@ -2383,6 +2375,14 @@
         "element_id": 154,
         "player_name": "Palmer",
         "points": 8
+      },
+      {
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 1
       },
       {
         "entry_id": 969893,
@@ -2465,17 +2465,17 @@
         "points": 8
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
