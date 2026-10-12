@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:00:30.047249+00:00",
+  "generated_at": "2026-10-12T19:05:18.636776+00:00",
   "form": {
     "gws": [
       1,
@@ -2294,7 +2294,7 @@
         "manager": "Sabin Shrestha",
         "element_id": 453,
         "player_name": "Barnes",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 464574,
@@ -2342,7 +2342,7 @@
         "manager": "Rakesh Itani",
         "element_id": 464,
         "player_name": "Wissa",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 36783,
@@ -2587,12 +2587,12 @@
       {
         "player_name": "Barnes",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Wissa",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Rogers",
