@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:20:22.658371+00:00",
+  "generated_at": "2026-10-12T20:25:23.255919+00:00",
   "form": {
     "gws": [
       1,
@@ -458,6 +458,17 @@
       ]
     },
     {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "chips": [
+        {
+          "name": "freehit",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -503,17 +514,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "chips": [
-        {
-          "name": "freehit",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -525,17 +525,6 @@
         {
           "name": "bboost",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
         }
       ]
     },
@@ -565,6 +554,17 @@
         },
         {
           "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
           "gw": 3
         }
       ]
@@ -630,16 +630,20 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
       "chips": [
         {
-          "name": "wildcard",
-          "gw": 2
+          "name": "bboost",
+          "gw": 1
         },
         {
           "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
           "gw": 4
         }
       ]
@@ -660,20 +664,16 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 1
+          "name": "wildcard",
+          "gw": 2
         },
         {
           "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
           "gw": 4
         }
       ]
@@ -992,6 +992,37 @@
       ]
     },
     {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 5859109
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1213143
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1102932
+        },
+        {
+          "gw": 4,
+          "overall_rank": 731330
+        },
+        {
+          "gw": 5,
+          "overall_rank": 976059
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1200998
+        }
+      ]
+    },
+    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1116,37 +1147,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 5859109
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1213143
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1102932
-        },
-        {
-          "gw": 4,
-          "overall_rank": 731330
-        },
-        {
-          "gw": 5,
-          "overall_rank": 976059
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1200998
-        }
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -1174,68 +1174,6 @@
         {
           "gw": 6,
           "overall_rank": 1598521
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2677591
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1667220
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2291554
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1807499
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2353923
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1543822
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1053358
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1427529
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1325466
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1896308
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1571289
         }
       ]
     },
@@ -1298,6 +1236,68 @@
         {
           "gw": 6,
           "overall_rank": 1699811
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 2677591
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1667220
+        },
+        {
+          "gw": 3,
+          "overall_rank": 2291554
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1807499
+        },
+        {
+          "gw": 5,
+          "overall_rank": 2353923
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1543822
+        }
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 1011629
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1053358
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1427529
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1325466
+        },
+        {
+          "gw": 5,
+          "overall_rank": 1896308
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1571289
         }
       ]
     },
@@ -1426,33 +1426,33 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
       "gws": [
         {
           "gw": 1,
-          "overall_rank": 8092210
+          "overall_rank": 1987556
         },
         {
           "gw": 2,
-          "overall_rank": 4462746
+          "overall_rank": 2890221
         },
         {
           "gw": 3,
-          "overall_rank": 5207816
+          "overall_rank": 1609623
         },
         {
           "gw": 4,
-          "overall_rank": 3719588
+          "overall_rank": 1860070
         },
         {
           "gw": 5,
-          "overall_rank": 3914069
+          "overall_rank": 1949757
         },
         {
           "gw": 6,
-          "overall_rank": 2069018
+          "overall_rank": 2248379
         }
       ]
     },
@@ -1488,33 +1488,33 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "gws": [
         {
           "gw": 1,
-          "overall_rank": 1987556
+          "overall_rank": 8092210
         },
         {
           "gw": 2,
-          "overall_rank": 2890221
+          "overall_rank": 4462746
         },
         {
           "gw": 3,
-          "overall_rank": 1609623
+          "overall_rank": 5207816
         },
         {
           "gw": 4,
-          "overall_rank": 1860070
+          "overall_rank": 3719588
         },
         {
           "gw": 5,
-          "overall_rank": 1949757
+          "overall_rank": 3914069
         },
         {
           "gw": 6,
-          "overall_rank": 2248379
+          "overall_rank": 2069018
         }
       ]
     },
@@ -2345,6 +2345,14 @@
         "points": 6
       },
       {
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 1
+      },
+      {
         "entry_id": 36783,
         "team_name": "Kids to Unc's FC",
         "manager": "Bishal Neupane",
@@ -2377,35 +2385,11 @@
         "points": 8
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 1
-      },
-      {
         "entry_id": 969893,
         "team_name": "Team Utthan",
         "manager": "Anit Yadav",
         "element_id": 480,
         "player_name": "Gibbs-White",
-        "points": 2
-      },
-      {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
-        "entry_id": 2017811,
-        "team_name": "HeavyMetal Areola",
-        "manager": "Aayush Palikhel",
-        "element_id": 12,
-        "player_name": "Saka",
         "points": 2
       },
       {
@@ -2423,6 +2407,22 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
+      },
+      {
+        "entry_id": 2017811,
+        "team_name": "HeavyMetal Areola",
+        "manager": "Aayush Palikhel",
+        "element_id": 12,
+        "player_name": "Saka",
+        "points": 2
       },
       {
         "entry_id": 1664566,
@@ -2457,12 +2457,12 @@
         "points": 12
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
       },
       {
         "entry_id": 4122498,
@@ -2473,12 +2473,12 @@
         "points": 6
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 1966921,
@@ -2570,14 +2570,14 @@
         "points": 1
       },
       {
-        "player_name": "Saka",
-        "count": 3,
-        "points": 2
-      },
-      {
         "player_name": "Jo\u00e3o Pedro",
         "count": 3,
         "points": 12
+      },
+      {
+        "player_name": "Saka",
+        "count": 3,
+        "points": 2
       },
       {
         "player_name": "Gibbs-White",
