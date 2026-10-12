@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:55:23.988029+00:00",
+  "generated_at": "2026-10-12T21:00:31.702638+00:00",
   "form": {
     "gws": [
       1,
@@ -630,21 +630,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -656,6 +641,21 @@
         {
           "name": "wildcard",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -1426,37 +1426,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 4462746
-        },
-        {
-          "gw": 3,
-          "overall_rank": 5207816
-        },
-        {
-          "gw": 4,
-          "overall_rank": 3719588
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3914069
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2069018
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1484,6 +1453,37 @@
         {
           "gw": 6,
           "overall_rank": 2195593
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 8092210
+        },
+        {
+          "gw": 2,
+          "overall_rank": 4462746
+        },
+        {
+          "gw": 3,
+          "overall_rank": 5207816
+        },
+        {
+          "gw": 4,
+          "overall_rank": 3719588
+        },
+        {
+          "gw": 5,
+          "overall_rank": 3914069
+        },
+        {
+          "gw": 6,
+          "overall_rank": 2069018
         }
       ]
     },
@@ -2457,17 +2457,17 @@
         "points": 12
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
