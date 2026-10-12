@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:45:19.109931+00:00",
+  "generated_at": "2026-10-12T20:50:20.315992+00:00",
   "form": {
     "gws": [
       1,
@@ -529,6 +529,17 @@
       ]
     },
     {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -554,17 +565,6 @@
         },
         {
           "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
           "gw": 3
         }
       ]
@@ -630,25 +630,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -674,6 +655,25 @@
         },
         {
           "name": "3xc",
+          "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
           "gw": 4
         }
       ]
@@ -1178,68 +1178,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 2439660
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2700348
-        },
-        {
-          "gw": 4,
-          "overall_rank": 2258630
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3531885
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1694595
-        }
-      ]
-    },
-    {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 570762
-        },
-        {
-          "gw": 3,
-          "overall_rank": 544926
-        },
-        {
-          "gw": 4,
-          "overall_rank": 909264
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1218344
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1699811
-        }
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1298,6 +1236,68 @@
         {
           "gw": 6,
           "overall_rank": 1571289
+        }
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 4969899
+        },
+        {
+          "gw": 2,
+          "overall_rank": 2439660
+        },
+        {
+          "gw": 3,
+          "overall_rank": 2700348
+        },
+        {
+          "gw": 4,
+          "overall_rank": 2258630
+        },
+        {
+          "gw": 5,
+          "overall_rank": 3531885
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1694595
+        }
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 1011629
+        },
+        {
+          "gw": 2,
+          "overall_rank": 570762
+        },
+        {
+          "gw": 3,
+          "overall_rank": 544926
+        },
+        {
+          "gw": 4,
+          "overall_rank": 909264
+        },
+        {
+          "gw": 5,
+          "overall_rank": 1218344
+        },
+        {
+          "gw": 6,
+          "overall_rank": 1699811
         }
       ]
     },
@@ -1426,37 +1426,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1987556
-        },
-        {
-          "gw": 2,
-          "overall_rank": 2890221
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1609623
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1860070
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1949757
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2248379
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1515,6 +1484,37 @@
         {
           "gw": 6,
           "overall_rank": 2069018
+        }
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 1987556
+        },
+        {
+          "gw": 2,
+          "overall_rank": 2890221
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1609623
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1860070
+        },
+        {
+          "gw": 5,
+          "overall_rank": 1949757
+        },
+        {
+          "gw": 6,
+          "overall_rank": 2248379
         }
       ]
     },
@@ -1612,37 +1612,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 6124832
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1383722
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2886988
-        },
-        {
-          "gw": 4,
-          "overall_rank": 4034990
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3181539
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3616442
-        }
-      ]
-    },
-    {
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
@@ -1701,6 +1670,37 @@
         {
           "gw": 6,
           "overall_rank": 3766559
+        }
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 6124832
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1383722
+        },
+        {
+          "gw": 3,
+          "overall_rank": 2886988
+        },
+        {
+          "gw": 4,
+          "overall_rank": 4034990
+        },
+        {
+          "gw": 5,
+          "overall_rank": 3181539
+        },
+        {
+          "gw": 6,
+          "overall_rank": 3616442
         }
       ]
     },
@@ -2393,22 +2393,6 @@
         "points": 2
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 12
-      },
-      {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
@@ -2423,6 +2407,22 @@
         "element_id": 12,
         "player_name": "Saka",
         "points": 2
+      },
+      {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 12
+      },
+      {
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 1664566,
@@ -2457,14 +2457,6 @@
         "points": 12
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
-      },
-      {
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
@@ -2479,6 +2471,14 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
+      },
+      {
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
       },
       {
         "entry_id": 1966921,
@@ -2505,14 +2505,6 @@
         "points": 8
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 1
-      },
-      {
         "entry_id": 2798038,
         "team_name": "CookedRice",
         "manager": "Abhishek Jaiswal",
@@ -2527,6 +2519,14 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 1
       },
       {
         "entry_id": 2659214,
@@ -2570,14 +2570,14 @@
         "points": 1
       },
       {
-        "player_name": "Jo\u00e3o Pedro",
-        "count": 3,
-        "points": 12
-      },
-      {
         "player_name": "Saka",
         "count": 3,
         "points": 2
+      },
+      {
+        "player_name": "Jo\u00e3o Pedro",
+        "count": 3,
+        "points": 12
       },
       {
         "player_name": "Gibbs-White",
