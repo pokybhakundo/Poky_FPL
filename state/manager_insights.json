@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:40:20.195424+00:00",
+  "generated_at": "2026-10-12T19:45:21.954001+00:00",
   "form": {
     "gws": [
       1,
@@ -2294,7 +2294,7 @@
         "manager": "Sabin Shrestha",
         "element_id": 453,
         "player_name": "Barnes",
-        "points": 2
+        "points": 1
       },
       {
         "entry_id": 464574,
@@ -2587,7 +2587,7 @@
       {
         "player_name": "Barnes",
         "count": 1,
-        "points": 2
+        "points": 1
       },
       {
         "player_name": "Wissa",
