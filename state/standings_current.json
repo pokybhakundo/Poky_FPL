@@ -1,6 +1,6 @@
 {
   "gw": 6,
-  "generated_at": "2026-10-13T09:25:22.314227+00:00",
+  "generated_at": "2026-10-13T09:30:26.776706+00:00",
   "classic": [
     {
       "rank": 1,
@@ -236,18 +236,18 @@
     },
     {
       "rank": 30,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 53,
-      "total_points": 367
-    },
-    {
-      "rank": 30,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 69,
+      "total_points": 367
+    },
+    {
+      "rank": 30,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 53,
       "total_points": 367
     },
     {
