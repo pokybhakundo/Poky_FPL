@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:20:27.319832+00:00",
+  "generated_at": "2026-10-13T11:25:30.633749+00:00",
   "form": {
     "gws": [
       1,
@@ -770,7 +770,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 21620
+          "overall_rank": 24188
         }
       ]
     },
@@ -801,7 +801,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 31766
+          "overall_rank": 35445
         }
       ]
     },
@@ -832,7 +832,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 132001
+          "overall_rank": 144685
         }
       ]
     },
@@ -863,7 +863,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 314476
+          "overall_rank": 321346
         }
       ]
     },
@@ -894,7 +894,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 339661
+          "overall_rank": 368591
         }
       ]
     },
@@ -925,7 +925,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 394410
+          "overall_rank": 427187
         }
       ]
     },
@@ -956,7 +956,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 506363
+          "overall_rank": 438873
         }
       ]
     },
@@ -987,7 +987,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 631491
+          "overall_rank": 681467
         }
       ]
     },
@@ -1018,7 +1018,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 920143
+          "overall_rank": 989470
         }
       ]
     },
@@ -1049,7 +1049,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 948433
+          "overall_rank": 1019651
         }
       ]
     },
@@ -1080,7 +1080,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 994866
+          "overall_rank": 1068875
         }
       ]
     },
@@ -1111,7 +1111,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1046538
+          "overall_rank": 1123719
         }
       ]
     },
@@ -1142,7 +1142,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1059680
+          "overall_rank": 1137454
         }
       ]
     },
@@ -1173,7 +1173,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1620768
+          "overall_rank": 1503545
         }
       ]
     },
@@ -1204,7 +1204,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1592872
+          "overall_rank": 1530753
         }
       ]
     },
@@ -1235,7 +1235,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 2176716
+          "overall_rank": 1575928
         }
       ]
     },
@@ -1266,7 +1266,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1537509
+          "overall_rank": 1642942
         }
       ]
     },
@@ -1297,7 +1297,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1637711
+          "overall_rank": 1690106
         }
       ]
     },
@@ -1328,7 +1328,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1632614
+          "overall_rank": 1743158
         }
       ]
     },
@@ -1359,7 +1359,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1751437
+          "overall_rank": 1868485
         }
       ]
     },
@@ -1390,7 +1390,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1820735
+          "overall_rank": 1940789
         }
       ]
     },
@@ -1421,7 +1421,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 1928245
+          "overall_rank": 2054550
         }
       ]
     },
@@ -1452,7 +1452,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 2000463
+          "overall_rank": 2130524
         }
       ]
     },
@@ -1483,7 +1483,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 2125041
+          "overall_rank": 2195332
         }
       ]
     },
@@ -1514,7 +1514,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 2125041
+          "overall_rank": 2261031
         }
       ]
     },
@@ -1545,7 +1545,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 2921005
+          "overall_rank": 3091995
         }
       ]
     },
@@ -1576,7 +1576,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 3136101
+          "overall_rank": 3315606
         }
       ]
     },
@@ -1607,7 +1607,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 3165464
+          "overall_rank": 3345608
         }
       ]
     },
@@ -1638,38 +1638,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 3650534
-        }
-      ]
-    },
-    {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 5164662
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4697236
-        },
-        {
-          "gw": 4,
-          "overall_rank": 6057880
-        },
-        {
-          "gw": 5,
-          "overall_rank": 4679668
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3679700
+          "overall_rank": 3617933
         }
       ]
     },
@@ -1700,7 +1669,38 @@
         },
         {
           "gw": 6,
-          "overall_rank": 3679700
+          "overall_rank": 3876169
+        }
+      ]
+    },
+    {
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 8092210
+        },
+        {
+          "gw": 2,
+          "overall_rank": 5164662
+        },
+        {
+          "gw": 3,
+          "overall_rank": 4697236
+        },
+        {
+          "gw": 4,
+          "overall_rank": 6057880
+        },
+        {
+          "gw": 5,
+          "overall_rank": 4679668
+        },
+        {
+          "gw": 6,
+          "overall_rank": 3876169
         }
       ]
     },
@@ -1731,7 +1731,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 4864388
+          "overall_rank": 5084329
         }
       ]
     },
@@ -1762,7 +1762,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 5626941
+          "overall_rank": 5851837
         }
       ]
     },
@@ -1793,7 +1793,7 @@
         },
         {
           "gw": 6,
-          "overall_rank": 5767517
+          "overall_rank": 5992638
         }
       ]
     }
@@ -1803,14 +1803,14 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "total": 106,
+      "total": 102,
       "gws": {
         "1": 0,
         "2": 24,
         "3": 20,
         "4": 36,
         "5": 18,
-        "6": 8
+        "6": 4
       }
     },
     {
@@ -1845,14 +1845,14 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "total": 86,
+      "total": 83,
       "gws": {
         "1": 22,
         "2": 12,
         "3": 20,
         "4": 11,
         "5": 9,
-        "6": 12
+        "6": 9
       }
     },
     {
@@ -1884,20 +1884,6 @@
       }
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "total": 82,
-      "gws": {
-        "1": 0,
-        "2": 15,
-        "3": 11,
-        "4": 25,
-        "5": 9,
-        "6": 22
-      }
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -1926,34 +1912,6 @@
       }
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "total": 77,
-      "gws": {
-        "1": 28,
-        "2": 15,
-        "3": 0,
-        "4": 19,
-        "5": 10,
-        "6": 5
-      }
-    },
-    {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "total": 76,
-      "gws": {
-        "1": 0,
-        "2": 19,
-        "3": 21,
-        "4": 12,
-        "5": 8,
-        "6": 16
-      }
-    },
-    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -1965,6 +1923,34 @@
         "4": 11,
         "5": 0,
         "6": 33
+      }
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "total": 76,
+      "gws": {
+        "1": 28,
+        "2": 15,
+        "3": 0,
+        "4": 19,
+        "5": 10,
+        "6": 4
+      }
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "total": 75,
+      "gws": {
+        "1": 0,
+        "2": 19,
+        "3": 21,
+        "4": 12,
+        "5": 8,
+        "6": 15
       }
     },
     {
@@ -1985,14 +1971,28 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "total": 73,
+      "total": 70,
       "gws": {
         "1": 18,
         "2": 11,
         "3": 11,
         "4": 11,
         "5": 10,
-        "6": 12
+        "6": 9
+      }
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "total": 70,
+      "gws": {
+        "1": 0,
+        "2": 15,
+        "3": 11,
+        "4": 25,
+        "5": 9,
+        "6": 10
       }
     },
     {
@@ -2055,14 +2055,14 @@
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
-      "total": 67,
+      "total": 66,
       "gws": {
         "1": 0,
         "2": 15,
         "3": 6,
         "4": 29,
         "5": 3,
-        "6": 14
+        "6": 13
       }
     },
     {
@@ -2251,14 +2251,14 @@
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "total": 39,
+      "total": 35,
       "gws": {
         "1": 3,
         "2": 8,
         "3": 2,
         "4": 15,
         "5": 0,
-        "6": 11
+        "6": 7
       }
     },
     {
@@ -2513,20 +2513,20 @@
         "points": 6
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 4048482,
         "team_name": "Bhaire FC",
         "manager": "Saujan Acharya",
         "element_id": 426,
         "player_name": "B.Fernandes",
         "points": 1
+      },
+      {
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 2659214,
