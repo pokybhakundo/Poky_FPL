@@ -511,7 +511,8 @@
   .trend-chart-wrap { background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: var(--radius-sm); padding: 10px 6px 4px; }
   .trend-empty { color: var(--sub); font-size: var(--font-sm); padding: 20px 0; text-align: center; }
   .h2h-compare-table td, .h2h-compare-table th { text-align: left; vertical-align: top; }
-  .h2h-compare-table td { width: 50%; }
+  .h2h-compare-table td:first-child { width: 1%; white-space: nowrap; color: var(--sub); font-weight: 700; }
+  .h2h-compare-table td:not(:first-child) { width: 44%; }
   .h2h-compare-common { text-align: center !important; color: var(--sub); font-size: var(--font-sm); background: rgba(var(--card-rgb), 0.4) !important; }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
@@ -2881,13 +2882,19 @@ function formPointsTextHTML(entryId) {
   return `${parts.join(' · ')} — Total: ${entry.total}`;
 }
 
+const CHIP_HALF_BOUNDARY_GW = 19; // each chip is granted once for GW1-18, once for GW19+
+
 function chipsRemainingHTML(entryId) {
-  // shortcut: a manager who has used "wildcard" once is marked as having used
-  // it even though some seasons grant two (one per half) -- upgrade if that
-  // ever needs to be tracked precisely.
-  const used = new Set((managerInsightsData?.chips || [])
-    .find((c) => String(c.entry_id) === String(entryId))?.chips.map((c) => c.name) || []);
-  const remaining = STANDARD_CHIPS.filter((c) => !used.has(c.name));
+  const currentGw = managerInsightsData?.captain?.gw;
+  const inSecondHalf = currentGw != null && currentGw >= CHIP_HALF_BOUNDARY_GW;
+  const used = (managerInsightsData?.chips || [])
+    .find((c) => String(c.entry_id) === String(entryId))?.chips || [];
+  const usedThisHalf = new Set(
+    used
+      .filter((c) => (inSecondHalf ? c.gw >= CHIP_HALF_BOUNDARY_GW : c.gw < CHIP_HALF_BOUNDARY_GW))
+      .map((c) => c.name),
+  );
+  const remaining = STANDARD_CHIPS.filter((c) => !usedThisHalf.has(c.name));
   return remaining.length
     ? remaining.map((c) => escapeHTML(c.label)).join(', ')
     : 'None left';
@@ -2929,24 +2936,24 @@ function renderH2hCompareResult() {
   const squadA = squadFor(aId);
   const squadB = squadFor(bId);
 
-  let rows = `<tr><td colspan="2" class="empty">Squad comparison needs this gameweek's picks data, not available yet.</td></tr>`;
+  let squadRows = `<tr><td colspan="3" class="empty">Squad comparison needs this gameweek's picks data, not available yet.</td></tr>`;
   if (squadA && squadB) {
     const starters = squadGroupCompare(squadA.starters, squadB.starters);
     const bench = squadGroupCompare(squadA.bench, squadB.bench);
-    rows = `
-      <tr><td>${nameListHTML(starters.onlyA)}</td><td>${nameListHTML(starters.onlyB)}</td></tr>
-      <tr><td colspan="2" class="h2h-compare-common">Common starters: ${nameListHTML(starters.common)}</td></tr>
-      <tr><td>${nameListHTML(bench.onlyA)}</td><td>${nameListHTML(bench.onlyB)}</td></tr>
-      <tr><td colspan="2" class="h2h-compare-common">Common bench: ${nameListHTML(bench.common)}</td></tr>`;
+    squadRows = `
+      <tr><td>Starters (only here)</td><td>${nameListHTML(starters.onlyA)}</td><td>${nameListHTML(starters.onlyB)}</td></tr>
+      <tr><td>Common starters</td><td colspan="2" class="h2h-compare-common">${nameListHTML(starters.common)}</td></tr>
+      <tr><td>Bench (only here)</td><td>${nameListHTML(bench.onlyA)}</td><td>${nameListHTML(bench.onlyB)}</td></tr>
+      <tr><td>Common bench</td><td colspan="2" class="h2h-compare-common">${nameListHTML(bench.common)}</td></tr>`;
   }
 
   el.innerHTML = `
     <table class="contest-table h2h-compare-table">
-      <thead><tr><th>${escapeHTML(aName)}</th><th>${escapeHTML(bName)}</th></tr></thead>
+      <thead><tr><th></th><th>${escapeHTML(aName)}</th><th>${escapeHTML(bName)}</th></tr></thead>
       <tbody>
-        <tr><td>${formPointsTextHTML(aId)}</td><td>${formPointsTextHTML(bId)}</td></tr>
-        <tr><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
-        ${rows}
+        <tr><td>Last 5 GW</td><td>${formPointsTextHTML(aId)}</td><td>${formPointsTextHTML(bId)}</td></tr>
+        <tr><td>Chips remaining</td><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
+        ${squadRows}
       </tbody>
     </table>`;
 }
