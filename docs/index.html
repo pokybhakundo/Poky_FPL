@@ -609,16 +609,35 @@
     border: 1px solid var(--card-border);
     border-radius: 50%;
   }
-  .h2h-compare-table td, .h2h-compare-table th { text-align: left; vertical-align: top; }
-  .h2h-compare-table td:first-child { width: 1%; white-space: nowrap; color: var(--sub); font-weight: 700; }
-  .h2h-compare-table td:not(:first-child) { width: 44%; }
-  .h2h-compare-table td:nth-child(2) { box-shadow: inset 2px 0 0 rgba(var(--accent-rgb), 0.3); }
-  .h2h-compare-table td:nth-child(3) { box-shadow: inset 2px 0 0 rgba(var(--highlight-rgb), 0.3); }
-  .h2h-compare-common { text-align: center !important; color: var(--sub); font-size: var(--font-sm); background: rgba(var(--card-rgb), 0.4) !important; box-shadow: none !important; }
-  .h2h-points-row .h2h-stat-cell { padding-top: 8px; }
-  .h2h-stat-total { font-family: var(--condensed); font-weight: 800; font-size: 22px; color: var(--text); font-variant-numeric: tabular-nums; }
-  .h2h-lead-arrow { margin-left: 6px; color: var(--winner); font-size: 12px; }
-  .h2h-stat-breakdown { display: block; margin-top: 3px; color: var(--sub); font-size: var(--font-xs); }
+  .h2h-compare-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .h2h-manager-card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-top: 3px solid var(--accent);
+    border-radius: var(--radius-md);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-sm);
+  }
+  .h2h-manager-card--b { border-top-color: var(--highlight); }
+  .h2h-card-name { font-family: var(--condensed); font-weight: 700; font-size: var(--font-md); color: var(--text); margin-bottom: 8px; overflow-wrap: anywhere; }
+  .h2h-card-points { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid var(--card-border); }
+  .h2h-stat-total { font-family: var(--condensed); font-weight: 800; font-size: 26px; color: var(--text); font-variant-numeric: tabular-nums; }
+  .h2h-lead-arrow { margin-left: 6px; color: var(--winner); font-size: 13px; }
+  .h2h-stat-breakdown { margin-top: 3px; color: var(--sub); font-size: var(--font-xs); }
+  .h2h-card-section { margin-top: 10px; font-size: var(--font-sm); }
+  .h2h-card-label { display: block; margin-bottom: 2px; color: var(--sub); font-size: var(--font-xxs); font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+  .h2h-compare-common {
+    display: grid;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: rgba(var(--card-rgb), 0.4);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-sm);
+    text-align: center;
+  }
+  .h2h-compare-common .h2h-card-label { display: inline; text-transform: none; letter-spacing: 0; font-weight: 700; color: var(--text); }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -1443,6 +1462,7 @@
 
   @media (max-width: 640px) {
     body { padding: 8px; overflow: auto; height: auto; min-height: 100dvh; }
+    .h2h-compare-cards { grid-template-columns: 1fr; }
     .toolbar button { padding: 8px 12px; flex: 1 1 auto; min-height: 44px; }
     .tab-wrap { flex: 1 1 auto; }
     .tab-wrap > button[data-panel],
@@ -3032,6 +3052,28 @@ function nameListHTML(list) {
 
 const h2hCompareSelect = { a: null, b: null };
 
+function h2hManagerCardHTML({ side, name, leads, total, breakdown, chips, onlyStarters, onlyBench }) {
+  return `<div class="h2h-manager-card h2h-manager-card--${side}">
+    <div class="h2h-card-name">${escapeHTML(name)}</div>
+    <div class="h2h-card-points">
+      <span class="h2h-stat-total">${total ?? '—'}</span>${leads ? '<span class="h2h-lead-arrow" title="Leading">▲</span>' : ''}
+      <div class="h2h-stat-breakdown">${breakdown}</div>
+    </div>
+    <div class="h2h-card-section">
+      <div class="h2h-card-label">Chips remaining</div>
+      <div>${chips}</div>
+    </div>
+    <div class="h2h-card-section">
+      <div class="h2h-card-label">Starters only here</div>
+      <div>${onlyStarters}</div>
+    </div>
+    <div class="h2h-card-section">
+      <div class="h2h-card-label">Bench only here</div>
+      <div>${onlyBench}</div>
+    </div>
+  </div>`;
+}
+
 function renderH2hCompareResult() {
   const el = document.getElementById('h2hCompareResult');
   if (!el) return;
@@ -3048,33 +3090,28 @@ function renderH2hCompareResult() {
   const squadA = squadFor(aId);
   const squadB = squadFor(bId);
 
-  let squadRows = `<tr><td colspan="3" class="empty">Squad comparison needs this gameweek's picks data, not available yet.</td></tr>`;
+  let onlyStartersA = '<span class="trend-empty">Squad data not available yet.</span>';
+  let onlyStartersB = onlyStartersA;
+  let onlyBenchA = onlyStartersA;
+  let onlyBenchB = onlyStartersA;
+  let commonBlock = '';
   if (squadA && squadB) {
     const starters = squadGroupCompare(squadA.starters, squadB.starters);
     const bench = squadGroupCompare(squadA.bench, squadB.bench);
-    squadRows = `
-      <tr><td>Starters (only here)</td><td>${nameListHTML(starters.onlyA)}</td><td>${nameListHTML(starters.onlyB)}</td></tr>
-      <tr><td>Common starters</td><td colspan="2" class="h2h-compare-common">${nameListHTML(starters.common)}</td></tr>
-      <tr><td>Bench (only here)</td><td>${nameListHTML(bench.onlyA)}</td><td>${nameListHTML(bench.onlyB)}</td></tr>
-      <tr><td>Common bench</td><td colspan="2" class="h2h-compare-common">${nameListHTML(bench.common)}</td></tr>`;
+    onlyStartersA = nameListHTML(starters.onlyA);
+    onlyStartersB = nameListHTML(starters.onlyB);
+    onlyBenchA = nameListHTML(bench.onlyA);
+    onlyBenchB = nameListHTML(bench.onlyB);
+    commonBlock = `<div class="h2h-compare-common">
+      <div><span class="h2h-card-label">Common starters</span> ${nameListHTML(starters.common)}</div>
+      <div><span class="h2h-card-label">Common bench</span> ${nameListHTML(bench.common)}</div>
+    </div>`;
   }
 
   const totalA = formEntryFor(aId)?.total ?? null;
   const totalB = formEntryFor(bId)?.total ?? null;
   const aLeads = totalA != null && totalB != null && totalA > totalB;
   const bLeads = totalA != null && totalB != null && totalB > totalA;
-  const pointsRowHTML = `
-    <tr class="h2h-points-row">
-      <td>Last 5 GW</td>
-      <td class="h2h-stat-cell${aLeads ? ' h2h-leads' : ''}">
-        <span class="h2h-stat-total">${totalA ?? '—'}</span>${aLeads ? '<span class="h2h-lead-arrow" title="Leading">▲</span>' : ''}
-        <span class="h2h-stat-breakdown">${formBreakdownHTML(aId)}</span>
-      </td>
-      <td class="h2h-stat-cell${bLeads ? ' h2h-leads' : ''}">
-        <span class="h2h-stat-total">${totalB ?? '—'}</span>${bLeads ? '<span class="h2h-lead-arrow" title="Leading">▲</span>' : ''}
-        <span class="h2h-stat-breakdown">${formBreakdownHTML(bId)}</span>
-      </td>
-    </tr>`;
 
   el.innerHTML = `
     <div class="h2h-vs-header">
@@ -3082,13 +3119,17 @@ function renderH2hCompareResult() {
       <div class="h2h-vs-badge">VS</div>
       <div class="h2h-vs-side h2h-vs-b">${escapeHTML(bName)}</div>
     </div>
-    <table class="table table-dark table-hover align-middle contest-table h2h-compare-table">
-      <tbody>
-        ${pointsRowHTML}
-        <tr><td>Chips remaining</td><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
-        ${squadRows}
-      </tbody>
-    </table>`;
+    <div class="h2h-compare-cards">
+      ${h2hManagerCardHTML({
+        side: 'a', name: aName, leads: aLeads, total: totalA, breakdown: formBreakdownHTML(aId),
+        chips: chipsRemainingHTML(aId), onlyStarters: onlyStartersA, onlyBench: onlyBenchA,
+      })}
+      ${h2hManagerCardHTML({
+        side: 'b', name: bName, leads: bLeads, total: totalB, breakdown: formBreakdownHTML(bId),
+        chips: chipsRemainingHTML(bId), onlyStarters: onlyStartersB, onlyBench: onlyBenchB,
+      })}
+    </div>
+    ${commonBlock}`;
 }
 
 function captainPieSlices() {
