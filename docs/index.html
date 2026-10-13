@@ -2828,7 +2828,6 @@ function chipPillHTML(chip) {
 }
 
 const CATEGORICAL_COLORS = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300'];
-const OTHER_SLICE_COLOR = '#5a6b82';
 const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
 const PLOTLY_BASE_LAYOUT = {
   paper_bgcolor: 'rgba(0,0,0,0)',
@@ -2855,7 +2854,7 @@ function renderCaptainPie(slices, containerId) {
     textfont: { color: '#f7fafc' },
   }], {
     ...PLOTLY_BASE_LAYOUT,
-    height: 280,
+    height: Math.max(280, 60 + slices.length * 22),
     margin: { l: 10, r: 10, t: 10, b: 10 },
     showlegend: true,
     legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
@@ -2954,18 +2953,12 @@ function renderH2hCompareResult() {
 
 function captainPieSlices() {
   const captain = managerInsightsData?.captain || { summary: [] };
-  const topCaptains = captain.summary.slice(0, 5);
-  const otherCount = captain.summary.slice(5).reduce((sum, c) => sum + c.count, 0);
-  const slices = topCaptains.map((c, i) => ({
+  return captain.summary.map((c, i) => ({
     value: c.count,
-    color: CATEGORICAL_COLORS[i],
+    color: CATEGORICAL_COLORS[i % CATEGORICAL_COLORS.length],
     label: c.player_name,
     detail: `picked by ${c.count}, returned ${c.points} pts`,
   }));
-  if (otherCount > 0) {
-    slices.push({ value: otherCount, color: OTHER_SLICE_COLOR, label: 'Other', detail: `picked by ${otherCount}` });
-  }
-  return slices;
 }
 
 document.addEventListener('change', (e) => {
