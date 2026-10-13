@@ -561,6 +561,7 @@
 
   .trend-controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
   .trend-select-wrap { display: flex; align-items: center; gap: 6px; font-size: var(--font-sm); color: var(--sub); }
+  .trend-select-wrap label { white-space: nowrap; }
   .trend-select-wrap select {
     background: rgba(var(--card-rgb), 0.78);
     color: var(--text);
@@ -569,7 +570,8 @@
     padding: 6px 10px;
     font-family: var(--body-font);
     font-size: var(--font-sm);
-    max-width: 220px;
+    width: 260px;
+    max-width: 100%;
   }
   .trend-select-wrap select:focus-visible { outline: 2px solid rgba(var(--accent-rgb), 0.7); outline-offset: 1px; }
   .trend-select-a::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
