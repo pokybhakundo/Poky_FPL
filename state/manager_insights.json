@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:40:25.532535+00:00",
+  "generated_at": "2026-10-13T22:28:23.334626+00:00",
   "form": {
     "gws": [
       2,
@@ -718,1538 +718,754 @@
       ]
     }
   ],
-  "rank_trajectory": [
+  "squads": [
     {
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 607076
-        },
-        {
-          "gw": 2,
-          "overall_rank": 255722
-        },
-        {
-          "gw": 3,
-          "overall_rank": 298697
-        },
-        {
-          "gw": 4,
-          "overall_rank": 50100
-        },
-        {
-          "gw": 5,
-          "overall_rank": 68876
-        },
-        {
-          "gw": 6,
-          "overall_rank": 24188
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "Hall",
+        "De Cuyper",
+        "Gro\u00df",
+        "Rogers",
+        "Palmer",
+        "Gibbs-White",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Barry",
+        "Lecomte",
+        "Konsa",
+        "Egan",
+        "Slater"
       ]
     },
     {
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 3208418
-        },
-        {
-          "gw": 2,
-          "overall_rank": 231905
-        },
-        {
-          "gw": 3,
-          "overall_rank": 121594
-        },
-        {
-          "gw": 4,
-          "overall_rank": 102456
-        },
-        {
-          "gw": 5,
-          "overall_rank": 18755
-        },
-        {
-          "gw": 6,
-          "overall_rank": 35445
-        }
+      "players": [
+        "Raya",
+        "De Cuyper",
+        "Ajer",
+        "Calafiori",
+        "Barnes",
+        "Saka",
+        "Palmer",
+        "Gro\u00df",
+        "Jo\u00e3o Pedro",
+        "Gonzalo",
+        "Haaland",
+        "Austin",
+        "Thomas",
+        "van Ewijk",
+        "Hughes"
       ]
     },
     {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 37833
-        },
-        {
-          "gw": 2,
-          "overall_rank": 280868
-        },
-        {
-          "gw": 3,
-          "overall_rank": 136462
-        },
-        {
-          "gw": 4,
-          "overall_rank": 177634
-        },
-        {
-          "gw": 5,
-          "overall_rank": 94288
-        },
-        {
-          "gw": 6,
-          "overall_rank": 144685
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Affengruber",
+        "B.Fernandes",
+        "Rogers",
+        "Saka",
+        "Gro\u00df",
+        "Thiago",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Palmer",
+        "Cherki",
+        "Van Hecke",
+        "Thomas"
       ]
     },
     {
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 691183
-        },
-        {
-          "gw": 2,
-          "overall_rank": 98784
-        },
-        {
-          "gw": 3,
-          "overall_rank": 367654
-        },
-        {
-          "gw": 4,
-          "overall_rank": 451323
-        },
-        {
-          "gw": 5,
-          "overall_rank": 312560
-        },
-        {
-          "gw": 6,
-          "overall_rank": 321346
-        }
+      "players": [
+        "Verbruggen",
+        "Calafiori",
+        "Gvardiol",
+        "Hall",
+        "Rogers",
+        "Gro\u00df",
+        "Saka",
+        "M.Sangar\u00e9",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Barry",
+        "Kinsky",
+        "Szoboszlai",
+        "O'Shea",
+        "N.Williams"
       ]
     },
     {
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 46116
-        },
-        {
-          "gw": 2,
-          "overall_rank": 38083
-        },
-        {
-          "gw": 3,
-          "overall_rank": 159189
-        },
-        {
-          "gw": 4,
-          "overall_rank": 467263
-        },
-        {
-          "gw": 5,
-          "overall_rank": 766213
-        },
-        {
-          "gw": 6,
-          "overall_rank": 368591
-        }
+      "players": [
+        "Verbruggen",
+        "Calafiori",
+        "Hall",
+        "De Cuyper",
+        "Gibbs-White",
+        "Palmer",
+        "Rogers",
+        "King",
+        "Haaland",
+        "Wissa",
+        "Jo\u00e3o Pedro",
+        "Palmer",
+        "Ajer",
+        "M.Sangar\u00e9",
+        "Konsa"
       ]
     },
     {
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4383525
-        },
-        {
-          "gw": 2,
-          "overall_rank": 981251
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2013325
-        },
-        {
-          "gw": 4,
-          "overall_rank": 789492
-        },
-        {
-          "gw": 5,
-          "overall_rank": 693887
-        },
-        {
-          "gw": 6,
-          "overall_rank": 427188
-        }
+      "players": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Maguire",
+        "B.Fernandes",
+        "Rogers",
+        "Gro\u00df",
+        "King",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kinsky",
+        "Calvert-Lewin",
+        "Mosquera",
+        "Thomas"
       ]
     },
     {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 398656
-        },
-        {
-          "gw": 2,
-          "overall_rank": 211464
-        },
-        {
-          "gw": 3,
-          "overall_rank": 22920
-        },
-        {
-          "gw": 4,
-          "overall_rank": 144397
-        },
-        {
-          "gw": 5,
-          "overall_rank": 340807
-        },
-        {
-          "gw": 6,
-          "overall_rank": 438876
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "Mitchell",
+        "De Cuyper",
+        "Barnes",
+        "B.Fernandes",
+        "Palmer",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Jo\u00e3o Pedro",
+        "Wissa",
+        "Horn\u00ed\u010dek",
+        "Mykolenko",
+        "Isak",
+        "Gvardiol"
       ]
     },
     {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 529735
-        },
-        {
-          "gw": 2,
-          "overall_rank": 280868
-        },
-        {
-          "gw": 3,
-          "overall_rank": 271082
-        },
-        {
-          "gw": 4,
-          "overall_rank": 549095
-        },
-        {
-          "gw": 5,
-          "overall_rank": 879943
-        },
-        {
-          "gw": 6,
-          "overall_rank": 681469
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "Egan",
+        "De Cuyper",
+        "Saka",
+        "Gibbs-White",
+        "Rogers",
+        "Gro\u00df",
+        "Haaland",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Dubravka",
+        "Schade",
+        "Thomas",
+        "Van Hecke"
       ]
     },
     {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 279827
-        },
-        {
-          "gw": 2,
-          "overall_rank": 172613
-        },
-        {
-          "gw": 3,
-          "overall_rank": 184021
-        },
-        {
-          "gw": 4,
-          "overall_rank": 421696
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1302814
-        },
-        {
-          "gw": 6,
-          "overall_rank": 989473
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "Egan",
+        "De Cuyper",
+        "Gro\u00df",
+        "Saka",
+        "Rogers",
+        "Gibbs-White",
+        "King",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Bentley",
+        "Thomas",
+        "Calvert-Lewin",
+        "Muharemovi\u0107"
       ]
     },
     {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2935782
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1133449
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1299703
-        },
-        {
-          "gw": 4,
-          "overall_rank": 600242
-        },
-        {
-          "gw": 5,
-          "overall_rank": 686560
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1019654
-        }
+      "players": [
+        "Raya",
+        "Calafiori",
+        "Mitchell",
+        "Davis",
+        "Palmer",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Slater",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Delap",
+        "Palmer",
+        "Gomez",
+        "Gu\u00e9hi",
+        "van Ewijk"
       ]
     },
     {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 912695
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1706389
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1369429
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1012215
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1068878
-        }
+      "players": [
+        "Pickford",
+        "Calafiori",
+        "De Cuyper",
+        "Hall",
+        "B.Fernandes",
+        "Rogers",
+        "Palmer",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Wissa",
+        "Jo\u00e3o Pedro",
+        "Dubravka",
+        "Egan",
+        "N.Williams",
+        "Isak"
       ]
     },
     {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 481842
-        },
-        {
-          "gw": 3,
-          "overall_rank": 390143
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1244771
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1460091
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1123725
-        }
+      "players": [
+        "Verbruggen",
+        "Calafiori",
+        "Gvardiol",
+        "Hall",
+        "Schade",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Palmer",
+        "Mbeumo",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Forster",
+        "Wissa",
+        "Konsa",
+        "Davis"
       ]
     },
     {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 5859109
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1213143
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1102932
-        },
-        {
-          "gw": 4,
-          "overall_rank": 731330
-        },
-        {
-          "gw": 5,
-          "overall_rank": 976059
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1137460
-        }
+      "players": [
+        "Verbruggen",
+        "Aina",
+        "Diop",
+        "Calafiori",
+        "Thomas",
+        "Dewsbury-Hall",
+        "B.Fernandes",
+        "Mbeumo",
+        "Gibbs-White",
+        "Rogers",
+        "Haaland",
+        "Kinsky",
+        "Bogle",
+        "Kusi-Asare",
+        "Brobbey"
       ]
     },
     {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1053358
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1427529
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1325466
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1896308
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1503555
-        }
+      "players": [
+        "Roefs",
+        "Calafiori",
+        "Davis",
+        "De Cuyper",
+        "Gvardiol",
+        "Palmer",
+        "Gro\u00df",
+        "Cherki",
+        "Saka",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Palmer",
+        "Szoboszlai",
+        "van Ewijk",
+        "Walle Egeli"
       ]
     },
     {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2677591
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1667220
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2291554
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1807499
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2353923
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1530764
-        }
+      "players": [
+        "Kinsky",
+        "De Cuyper",
+        "Calafiori",
+        "Ajer",
+        "Diop",
+        "B.Fernandes",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Verbruggen",
+        "Tzolis",
+        "Szoboszlai",
+        "Hato"
       ]
     },
     {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1987556
-        },
-        {
-          "gw": 2,
-          "overall_rank": 2890221
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1609623
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1860070
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1949757
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1575941
-        }
+      "players": [
+        "Pickford",
+        "De Cuyper",
+        "Hall",
+        "Calafiori",
+        "Konsa",
+        "Gibbs-White",
+        "Rogers",
+        "\u00d8degaard",
+        "Palmer",
+        "Jo\u00e3o Pedro",
+        "Wissa",
+        "Kinsky",
+        "Mykolenko",
+        "Haaland",
+        "Yalcouy\u00e9"
       ]
     },
     {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 3019222
-        },
-        {
-          "gw": 3,
-          "overall_rank": 3818092
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1306162
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2023698
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1642956
-        }
+      "players": [
+        "Verbruggen",
+        "Hall",
+        "Calafiori",
+        "De Cuyper",
+        "Konsa",
+        "Gro\u00df",
+        "Gibbs-White",
+        "King",
+        "Palmer",
+        "Wissa",
+        "Jo\u00e3o Pedro",
+        "Martinez",
+        "Haaland",
+        "Szoboszlai",
+        "Gvardiol"
       ]
     },
     {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 570762
-        },
-        {
-          "gw": 3,
-          "overall_rank": 544926
-        },
-        {
-          "gw": 4,
-          "overall_rank": 909264
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1218344
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1690121
-        }
+      "players": [
+        "Verbruggen",
+        "Konsa",
+        "Gvardiol",
+        "Hall",
+        "Calafiori",
+        "Davis",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Rogers",
+        "Haaland",
+        "Wissa",
+        "Steele",
+        "Gakpo",
+        "M.Sangar\u00e9",
+        "Jo\u00e3o Pedro"
       ]
     },
     {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 2439660
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2700348
-        },
-        {
-          "gw": 4,
-          "overall_rank": 2258630
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3531885
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1743174
-        }
+      "players": [
+        "Verbruggen",
+        "De Cuyper",
+        "Calafiori",
+        "Thiaw",
+        "Konsa",
+        "\u00d8degaard",
+        "Rogers",
+        "Palmer",
+        "Jo\u00e3o Pedro",
+        "Wissa",
+        "Haaland",
+        "Kinsky",
+        "Szoboszlai",
+        "Gomez",
+        "Muharemovi\u0107"
       ]
     },
     {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1011629
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1833689
-        },
-        {
-          "gw": 3,
-          "overall_rank": 961038
-        },
-        {
-          "gw": 4,
-          "overall_rank": 584947
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1064099
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1868501
-        }
+      "players": [
+        "Raya",
+        "Tarkowski",
+        "Calafiori",
+        "Hall",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Schade",
+        "Barnes",
+        "Rogers",
+        "Haaland",
+        "Gonzalo",
+        "Tzolakis",
+        "Jo\u00e3o Pedro",
+        "De Cuyper",
+        "Konsa"
       ]
     },
     {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 120623
-        },
-        {
-          "gw": 2,
-          "overall_rank": 255722
-        },
-        {
-          "gw": 3,
-          "overall_rank": 314091
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1035158
-        },
-        {
-          "gw": 5,
-          "overall_rank": 1618362
-        },
-        {
-          "gw": 6,
-          "overall_rank": 1940807
-        }
+      "players": [
+        "Kinsky",
+        "Calafiori",
+        "De Cuyper",
+        "Davis",
+        "Schade",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Saka",
+        "Barnes",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Phillips",
+        "Kostoulas",
+        "Ajayi",
+        "Thomas"
       ]
     },
     {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2677591
-        },
-        {
-          "gw": 2,
-          "overall_rank": 618053
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1907805
-        },
-        {
-          "gw": 4,
-          "overall_rank": 2343465
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2333176
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2054567
-        }
+      "players": [
+        "Raya",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Rogers",
+        "Saka",
+        "Schade",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kinsky",
+        "Van Hecke",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
       ]
     },
     {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4383525
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1980790
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1322832
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1244771
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2099042
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2130542
-        }
+      "players": [
+        "Verbruggen",
+        "Cash",
+        "Calafiori",
+        "Davis",
+        "B.Fernandes",
+        "Wirtz",
+        "\u00d8degaard",
+        "Rogers",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kinsky",
+        "Rudoni",
+        "Egan",
+        "Van Hecke"
       ]
     },
     {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1731172
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1029798
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1263867
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2175978
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2195350
-        }
+      "players": [
+        "Raya",
+        "Konsa",
+        "Davis",
+        "De Cuyper",
+        "Saka",
+        "Gibbs-White",
+        "Rogers",
+        "Palmer",
+        "Wissa",
+        "Barry",
+        "Haaland",
+        "Zetterer",
+        "Andersen",
+        "Slater",
+        "Muharemovi\u0107"
       ]
     },
     {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 4462746
-        },
-        {
-          "gw": 3,
-          "overall_rank": 5207816
-        },
-        {
-          "gw": 4,
-          "overall_rank": 3719588
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3914069
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2261049
-        }
+      "players": [
+        "Verbruggen",
+        "Ajayi",
+        "Calafiori",
+        "De Cuyper",
+        "Kayode",
+        "Cherki",
+        "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kelleher",
+        "Emersonn",
+        "Justin",
+        "Belloumi"
       ]
     },
     {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1785494
-        },
-        {
-          "gw": 2,
-          "overall_rank": 3835742
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4342120
-        },
-        {
-          "gw": 4,
-          "overall_rank": 4304322
-        },
-        {
-          "gw": 5,
-          "overall_rank": 4460866
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3092019
-        }
+      "players": [
+        "Verbruggen",
+        "De Cuyper",
+        "Konsa",
+        "Hall",
+        "Rogers",
+        "Gibbs-White",
+        "Cherki",
+        "Gro\u00df",
+        "Haaland",
+        "Wissa",
+        "Jo\u00e3o Pedro",
+        "Dubravka",
+        "Szoboszlai",
+        "Gvardiol",
+        "Ajer"
       ]
     },
     {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 2434397
-        },
-        {
-          "gw": 2,
-          "overall_rank": 3898676
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2406132
-        },
-        {
-          "gw": 4,
-          "overall_rank": 3515646
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3914069
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3315631
-        }
+      "players": [
+        "Tzolakis",
+        "Calafiori",
+        "De Cuyper",
+        "Egan",
+        "B.Fernandes",
+        "Mbeumo",
+        "Dewsbury-Hall",
+        "Rogers",
+        "Yalcouy\u00e9",
+        "Haaland",
+        "Delap",
+        "Verbruggen",
+        "Bogle",
+        "Isak",
+        "Thomas"
       ]
     },
     {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 893714
-        },
-        {
-          "gw": 2,
-          "overall_rank": 3482015
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4757559
-        },
-        {
-          "gw": 4,
-          "overall_rank": 3647848
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3026421
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3345633
-        }
+      "players": [
+        "Verbruggen",
+        "Calafiori",
+        "White",
+        "Tarkowski",
+        "Gro\u00df",
+        "Saka",
+        "Schade",
+        "Palmer",
+        "Semenyo",
+        "Wissa",
+        "Calvert-Lewin",
+        "Donnarumma",
+        "Gvardiol",
+        "Van Hecke",
+        "Isak"
       ]
     },
     {
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 1987556
-        },
-        {
-          "gw": 2,
-          "overall_rank": 4117061
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2346231
-        },
-        {
-          "gw": 4,
-          "overall_rank": 2282372
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3821253
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3617956
-        }
-      ]
-    },
-    {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 5164662
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4697236
-        },
-        {
-          "gw": 4,
-          "overall_rank": 6057880
-        },
-        {
-          "gw": 5,
-          "overall_rank": 4679668
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3876191
-        }
+      "players": [
+        "Kinsky",
+        "Calafiori",
+        "Maguire",
+        "Gvardiol",
+        "Egan",
+        "\u00d8degaard",
+        "Rogers",
+        "Mbeumo",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Wissa",
+        "Verbruggen",
+        "Tzolis",
+        "Pedro Porro",
+        "Gakpo"
       ]
     },
     {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 6124832
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1383722
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2886988
-        },
-        {
-          "gw": 4,
-          "overall_rank": 4034990
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3181539
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3876191
-        }
+      "players": [
+        "Verbruggen",
+        "White",
+        "Calafiori",
+        "Hall",
+        "Egan",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Schade",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Lammens",
+        "Isidor",
+        "Ndiaye",
+        "Ajer"
       ]
-    },
-    {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 6633922
-        },
-        {
-          "gw": 2,
-          "overall_rank": 4040214
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4628571
-        },
-        {
-          "gw": 4,
-          "overall_rank": 4132582
-        },
-        {
-          "gw": 5,
-          "overall_rank": 4844249
-        },
-        {
-          "gw": 6,
-          "overall_rank": 5084360
-        }
-      ]
-    },
-    {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 7295417
-        },
-        {
-          "gw": 2,
-          "overall_rank": 6978466
-        },
-        {
-          "gw": 3,
-          "overall_rank": 7364909
-        },
-        {
-          "gw": 4,
-          "overall_rank": 6915392
-        },
-        {
-          "gw": 5,
-          "overall_rank": 7088994
-        },
-        {
-          "gw": 6,
-          "overall_rank": 5851869
-        }
-      ]
-    },
-    {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 3208418
-        },
-        {
-          "gw": 2,
-          "overall_rank": 5026449
-        },
-        {
-          "gw": 3,
-          "overall_rank": 5613789
-        },
-        {
-          "gw": 4,
-          "overall_rank": 6376870
-        },
-        {
-          "gw": 5,
-          "overall_rank": 7173702
-        },
-        {
-          "gw": 6,
-          "overall_rank": 5992669
-        }
-      ]
-    }
-  ],
-  "bench_waste": [
-    {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "total": 102,
-      "gws": {
-        "1": 0,
-        "2": 24,
-        "3": 20,
-        "4": 36,
-        "5": 18,
-        "6": 4
-      }
-    },
-    {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "total": 90,
-      "gws": {
-        "1": 0,
-        "2": 23,
-        "3": 12,
-        "4": 17,
-        "5": 22,
-        "6": 16
-      }
-    },
-    {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "total": 86,
-      "gws": {
-        "1": 25,
-        "2": 15,
-        "3": 11,
-        "4": 4,
-        "5": 17,
-        "6": 14
-      }
-    },
-    {
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "total": 83,
-      "gws": {
-        "1": 22,
-        "2": 12,
-        "3": 20,
-        "4": 11,
-        "5": 9,
-        "6": 9
-      }
-    },
-    {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "total": 83,
-      "gws": {
-        "1": 22,
-        "2": 22,
-        "3": 10,
-        "4": 11,
-        "5": 7,
-        "6": 11
-      }
-    },
-    {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "total": 82,
-      "gws": {
-        "1": 0,
-        "2": 18,
-        "3": 14,
-        "4": 25,
-        "5": 17,
-        "6": 8
-      }
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "total": 80,
-      "gws": {
-        "1": 5,
-        "2": 13,
-        "3": 15,
-        "4": 9,
-        "5": 29,
-        "6": 9
-      }
-    },
-    {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "total": 79,
-      "gws": {
-        "1": 0,
-        "2": 33,
-        "3": 7,
-        "4": 29,
-        "5": 0,
-        "6": 10
-      }
-    },
-    {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "total": 76,
-      "gws": {
-        "1": 4,
-        "2": 15,
-        "3": 13,
-        "4": 11,
-        "5": 0,
-        "6": 33
-      }
-    },
-    {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "total": 76,
-      "gws": {
-        "1": 28,
-        "2": 15,
-        "3": 0,
-        "4": 19,
-        "5": 10,
-        "6": 4
-      }
-    },
-    {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "total": 75,
-      "gws": {
-        "1": 0,
-        "2": 19,
-        "3": 21,
-        "4": 12,
-        "5": 8,
-        "6": 15
-      }
-    },
-    {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "total": 73,
-      "gws": {
-        "1": 25,
-        "2": 14,
-        "3": 11,
-        "4": 8,
-        "5": 6,
-        "6": 9
-      }
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "total": 70,
-      "gws": {
-        "1": 18,
-        "2": 11,
-        "3": 11,
-        "4": 11,
-        "5": 10,
-        "6": 9
-      }
-    },
-    {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "total": 70,
-      "gws": {
-        "1": 0,
-        "2": 15,
-        "3": 11,
-        "4": 25,
-        "5": 9,
-        "6": 10
-      }
-    },
-    {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "total": 70,
-      "gws": {
-        "1": 10,
-        "2": 3,
-        "3": 9,
-        "4": 18,
-        "5": 20,
-        "6": 10
-      }
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "total": 70,
-      "gws": {
-        "1": 0,
-        "2": 3,
-        "3": 13,
-        "4": 18,
-        "5": 20,
-        "6": 16
-      }
-    },
-    {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "total": 69,
-      "gws": {
-        "1": 0,
-        "2": 5,
-        "3": 11,
-        "4": 25,
-        "5": 22,
-        "6": 6
-      }
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "total": 69,
-      "gws": {
-        "1": 8,
-        "2": 6,
-        "3": 22,
-        "4": 9,
-        "5": 10,
-        "6": 14
-      }
-    },
-    {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "total": 66,
-      "gws": {
-        "1": 0,
-        "2": 15,
-        "3": 6,
-        "4": 29,
-        "5": 3,
-        "6": 13
-      }
-    },
-    {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "total": 65,
-      "gws": {
-        "1": 12,
-        "2": 4,
-        "3": 10,
-        "4": 0,
-        "5": 26,
-        "6": 13
-      }
-    },
-    {
-      "entry_id": 1966033,
-      "team_name": "Or3gonian",
-      "manager": "Biraj Shakya",
-      "total": 64,
-      "gws": {
-        "1": 0,
-        "2": 20,
-        "3": 11,
-        "4": 4,
-        "5": 22,
-        "6": 7
-      }
-    },
-    {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "total": 63,
-      "gws": {
-        "1": 0,
-        "2": 11,
-        "3": 14,
-        "4": 12,
-        "5": 18,
-        "6": 8
-      }
-    },
-    {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "total": 61,
-      "gws": {
-        "1": 7,
-        "2": 9,
-        "3": 22,
-        "4": 1,
-        "5": 11,
-        "6": 11
-      }
-    },
-    {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "total": 57,
-      "gws": {
-        "1": 0,
-        "2": 15,
-        "3": 4,
-        "4": 29,
-        "5": 2,
-        "6": 7
-      }
-    },
-    {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "total": 55,
-      "gws": {
-        "1": 9,
-        "2": 5,
-        "3": 8,
-        "4": 5,
-        "5": 19,
-        "6": 9
-      }
-    },
-    {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "total": 53,
-      "gws": {
-        "1": 9,
-        "2": 10,
-        "3": 7,
-        "4": 2,
-        "5": 8,
-        "6": 17
-      }
-    },
-    {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "total": 52,
-      "gws": {
-        "1": 17,
-        "2": 10,
-        "3": 6,
-        "4": 10,
-        "5": 7,
-        "6": 2
-      }
-    },
-    {
-      "entry_id": 33334,
-      "team_name": "Not too Xabi",
-      "manager": "Swapnil Tiwari",
-      "total": 51,
-      "gws": {
-        "1": 0,
-        "2": 19,
-        "3": 9,
-        "4": 5,
-        "5": 7,
-        "6": 11
-      }
     },
     {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "total": 50,
-      "gws": {
-        "1": 1,
-        "2": 0,
-        "3": 3,
-        "4": 23,
-        "5": 6,
-        "6": 17
-      }
+      "players": [
+        "Martinez",
+        "Calafiori",
+        "Mitchell",
+        "Davis",
+        "Rogers",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Cherki",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Wissa",
+        "Verbruggen",
+        "Diop",
+        "Hughes",
+        "van Ewijk"
+      ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "total": 48,
-      "gws": {
-        "1": 0,
-        "2": 4,
-        "3": 7,
-        "4": 9,
-        "5": 11,
-        "6": 17
-      }
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "players": [
+        "Lammens",
+        "Muharemovi\u0107",
+        "Calafiori",
+        "Hall",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland",
+        "Barry",
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Gvardiol",
+        "Konsa"
+      ]
     },
     {
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "total": 43,
-      "gws": {
-        "1": 10,
-        "2": 13,
-        "3": 9,
-        "4": 2,
-        "5": 0,
-        "6": 9
-      }
+      "players": [
+        "Suzuki",
+        "De Cuyper",
+        "Hall",
+        "Calafiori",
+        "Rogers",
+        "Saka",
+        "Semenyo",
+        "Gro\u00df",
+        "Cunha",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Austin",
+        "Ajayi",
+        "Delap",
+        "van Ewijk"
+      ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "total": 41,
-      "gws": {
-        "1": 7,
-        "2": 2,
-        "3": 13,
-        "4": 0,
-        "5": 15,
-        "6": 4
-      }
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "total": 35,
-      "gws": {
-        "1": 3,
-        "2": 8,
-        "3": 2,
-        "4": 15,
-        "5": 0,
-        "6": 7
-      }
-    },
-    {
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "total": 33,
-      "gws": {
-        "1": 4,
-        "2": 10,
-        "3": 8,
-        "4": 1,
-        "5": 0,
-        "6": 10
-      }
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "players": [
+        "Kinsky",
+        "De Cuyper",
+        "Mu\u00f1oz",
+        "Kayode",
+        "George",
+        "Palmer",
+        "Tour\u00e9",
+        "Cherki",
+        "Jo\u00e3o Pedro",
+        "Gonzalo",
+        "Haaland",
+        "Rushworth",
+        "Saka",
+        "Dedi\u0107",
+        "van Ewijk"
+      ]
     }
   ],
   "captain": {
@@ -2489,20 +1705,20 @@
         "points": 6
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 4048482,
         "team_name": "Bhaire FC",
         "manager": "Saujan Acharya",
         "element_id": 426,
         "player_name": "B.Fernandes",
         "points": 1
+      },
+      {
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 2659214,
