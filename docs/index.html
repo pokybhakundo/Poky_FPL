@@ -515,10 +515,47 @@
   .trend-select-b::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--highlight); }
   .trend-chart-wrap { background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: var(--radius-sm); padding: 10px 6px 4px; }
   .trend-empty { color: var(--sub); font-size: var(--font-sm); padding: 20px 0; text-align: center; }
+  /* H2H compare: the two managers are opponents, so the layout reads as a
+     duel -- a VS badge splits their names, and each manager keeps their own
+     color (blue/gold) as a thin wash down their column for the rest of the
+     table, so the "two sides" framing survives past the header. */
+  .h2h-vs-header { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .h2h-vs-side {
+    padding: 10px 10px 8px;
+    font-family: var(--condensed);
+    font-weight: 800;
+    font-size: clamp(14px, 1.6vw, 18px);
+    text-align: center;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+    overflow-wrap: anywhere;
+  }
+  .h2h-vs-a { color: var(--accent); background: rgba(var(--accent-rgb), 0.12); border-bottom: 3px solid var(--accent); }
+  .h2h-vs-b { color: var(--highlight); background: rgba(var(--highlight-rgb), 0.12); border-bottom: 3px solid var(--highlight); }
+  .h2h-vs-badge {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    font-family: var(--condensed);
+    font-weight: 800;
+    font-size: var(--font-xs);
+    letter-spacing: 0.5px;
+    color: var(--sub);
+    background: var(--bg);
+    border: 1px solid var(--card-border);
+    border-radius: 50%;
+  }
   .h2h-compare-table td, .h2h-compare-table th { text-align: left; vertical-align: top; }
   .h2h-compare-table td:first-child { width: 1%; white-space: nowrap; color: var(--sub); font-weight: 700; }
   .h2h-compare-table td:not(:first-child) { width: 44%; }
-  .h2h-compare-common { text-align: center !important; color: var(--sub); font-size: var(--font-sm); background: rgba(var(--card-rgb), 0.4) !important; }
+  .h2h-compare-table td:nth-child(2) { box-shadow: inset 2px 0 0 rgba(var(--accent-rgb), 0.3); }
+  .h2h-compare-table td:nth-child(3) { box-shadow: inset 2px 0 0 rgba(var(--highlight-rgb), 0.3); }
+  .h2h-compare-common { text-align: center !important; color: var(--sub); font-size: var(--font-sm); background: rgba(var(--card-rgb), 0.4) !important; box-shadow: none !important; }
+  .h2h-points-row .h2h-stat-cell { padding-top: 8px; }
+  .h2h-stat-total { font-family: var(--condensed); font-weight: 800; font-size: 22px; color: var(--text); font-variant-numeric: tabular-nums; }
+  .h2h-lead-arrow { margin-left: 6px; color: var(--winner); font-size: 12px; }
+  .h2h-stat-breakdown { display: block; margin-top: 3px; color: var(--sub); font-size: var(--font-xs); }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -2882,12 +2919,16 @@ const STANDARD_CHIPS = [
   { name: '3xc', label: 'Triple Captain' },
 ];
 
-function formPointsTextHTML(entryId) {
+function formEntryFor(entryId) {
   const form = managerInsightsData?.form || { gws: [], table: [] };
-  const entry = form.table.find((e) => String(e.entry_id) === String(entryId));
+  return form.table.find((e) => String(e.entry_id) === String(entryId));
+}
+
+function formBreakdownHTML(entryId) {
+  const form = managerInsightsData?.form || { gws: [], table: [] };
+  const entry = formEntryFor(entryId);
   if (!entry) return 'No gameweek data yet.';
-  const parts = form.gws.map((gw) => `GW${gw}: ${entry.gws[String(gw)] ?? '—'}`);
-  return `${parts.join(' · ')} — Total: ${entry.total}`;
+  return form.gws.map((gw) => `GW${gw}: ${entry.gws[String(gw)] ?? '—'}`).join(' · ');
 }
 
 const CHIP_HALF_BOUNDARY_GW = 19; // each chip is granted once for GW1-18, once for GW19+
@@ -2955,11 +2996,32 @@ function renderH2hCompareResult() {
       <tr><td>Common bench</td><td colspan="2" class="h2h-compare-common">${nameListHTML(bench.common)}</td></tr>`;
   }
 
+  const totalA = formEntryFor(aId)?.total ?? null;
+  const totalB = formEntryFor(bId)?.total ?? null;
+  const aLeads = totalA != null && totalB != null && totalA > totalB;
+  const bLeads = totalA != null && totalB != null && totalB > totalA;
+  const pointsRowHTML = `
+    <tr class="h2h-points-row">
+      <td>Last 5 GW</td>
+      <td class="h2h-stat-cell${aLeads ? ' h2h-leads' : ''}">
+        <span class="h2h-stat-total">${totalA ?? '—'}</span>${aLeads ? '<span class="h2h-lead-arrow" title="Leading">▲</span>' : ''}
+        <span class="h2h-stat-breakdown">${formBreakdownHTML(aId)}</span>
+      </td>
+      <td class="h2h-stat-cell${bLeads ? ' h2h-leads' : ''}">
+        <span class="h2h-stat-total">${totalB ?? '—'}</span>${bLeads ? '<span class="h2h-lead-arrow" title="Leading">▲</span>' : ''}
+        <span class="h2h-stat-breakdown">${formBreakdownHTML(bId)}</span>
+      </td>
+    </tr>`;
+
   el.innerHTML = `
+    <div class="h2h-vs-header">
+      <div class="h2h-vs-side h2h-vs-a">${escapeHTML(aName)}</div>
+      <div class="h2h-vs-badge">VS</div>
+      <div class="h2h-vs-side h2h-vs-b">${escapeHTML(bName)}</div>
+    </div>
     <table class="contest-table h2h-compare-table">
-      <thead><tr><th></th><th>${escapeHTML(aName)}</th><th>${escapeHTML(bName)}</th></tr></thead>
       <tbody>
-        <tr><td>Last 5 GW</td><td>${formPointsTextHTML(aId)}</td><td>${formPointsTextHTML(bId)}</td></tr>
+        ${pointsRowHTML}
         <tr><td>Chips remaining</td><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
         ${squadRows}
       </tbody>
