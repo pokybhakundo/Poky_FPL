@@ -702,7 +702,8 @@ def build_manager_insights():
             squad_picks = picks.get("picks", [])
             squads.append({
                 **meta[eid],
-                "players": [bootstrap_elements.get(p["element"], "Unknown") for p in squad_picks],
+                "starters": [bootstrap_elements.get(p["element"], "Unknown") for p in squad_picks if p["position"] <= 11],
+                "bench": [bootstrap_elements.get(p["element"], "Unknown") for p in squad_picks if p["position"] > 11],
             })
             captain = next((p for p in squad_picks if p.get("is_captain")), None)
             if not captain:

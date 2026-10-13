@@ -510,6 +510,9 @@
   .trend-select-b::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--highlight); }
   .trend-chart-wrap { background: rgba(var(--card-rgb), 0.55); border: 1px solid var(--card-border); border-radius: var(--radius-sm); padding: 10px 6px 4px; }
   .trend-empty { color: var(--sub); font-size: var(--font-sm); padding: 20px 0; text-align: center; }
+  .h2h-compare-table td, .h2h-compare-table th { text-align: left; vertical-align: top; }
+  .h2h-compare-table td { width: 50%; }
+  .h2h-compare-common { text-align: center !important; color: var(--sub); font-size: var(--font-sm); background: rgba(var(--card-rgb), 0.4) !important; }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -2895,6 +2898,20 @@ function squadFor(entryId) {
   return (managerInsightsData?.squads || []).find((s) => String(s.entry_id) === String(entryId));
 }
 
+function squadGroupCompare(listA, listB) {
+  const setA = new Set(listA);
+  const setB = new Set(listB);
+  return {
+    common: listA.filter((p) => setB.has(p)),
+    onlyA: listA.filter((p) => !setB.has(p)),
+    onlyB: listB.filter((p) => !setA.has(p)),
+  };
+}
+
+function nameListHTML(list) {
+  return list.length ? list.map(escapeHTML).join(', ') : '<span class="contest-meta">None</span>';
+}
+
 const h2hCompareSelect = { a: null, b: null };
 
 function renderH2hCompareResult() {
@@ -2913,25 +2930,26 @@ function renderH2hCompareResult() {
   const squadA = squadFor(aId);
   const squadB = squadFor(bId);
 
-  let squadHTML = '<p class="trend-empty">Squad comparison needs this gameweek\'s picks data, not available yet.</p>';
+  let rows = `<tr><td colspan="2" class="empty">Squad comparison needs this gameweek's picks data, not available yet.</td></tr>`;
   if (squadA && squadB) {
-    const setA = new Set(squadA.players);
-    const setB = new Set(squadB.players);
-    const common = [...setA].filter((p) => setB.has(p));
-    const onlyA = [...setA].filter((p) => !setB.has(p));
-    const onlyB = [...setB].filter((p) => !setA.has(p));
-    squadHTML = `
-      <p><strong>Common players:</strong> ${common.map(escapeHTML).join(', ') || 'None'}</p>
-      <p><strong>Only ${escapeHTML(aName)}:</strong> ${onlyA.map(escapeHTML).join(', ') || 'None'}</p>
-      <p><strong>Only ${escapeHTML(bName)}:</strong> ${onlyB.map(escapeHTML).join(', ') || 'None'}</p>`;
+    const starters = squadGroupCompare(squadA.starters, squadB.starters);
+    const bench = squadGroupCompare(squadA.bench, squadB.bench);
+    rows = `
+      <tr><td>${nameListHTML(starters.onlyA)}</td><td>${nameListHTML(starters.onlyB)}</td></tr>
+      <tr><td colspan="2" class="h2h-compare-common">Common starters: ${nameListHTML(starters.common)}</td></tr>
+      <tr><td>${nameListHTML(bench.onlyA)}</td><td>${nameListHTML(bench.onlyB)}</td></tr>
+      <tr><td colspan="2" class="h2h-compare-common">Common bench: ${nameListHTML(bench.common)}</td></tr>`;
   }
 
   el.innerHTML = `
-    <p><strong>${escapeHTML(aName)}</strong> — ${formPointsTextHTML(aId)}</p>
-    <p><strong>${escapeHTML(bName)}</strong> — ${formPointsTextHTML(bId)}</p>
-    ${squadHTML}
-    <p><strong>Chips remaining — ${escapeHTML(aName)}:</strong> ${chipsRemainingHTML(aId)}</p>
-    <p><strong>Chips remaining — ${escapeHTML(bName)}:</strong> ${chipsRemainingHTML(bId)}</p>`;
+    <table class="contest-table h2h-compare-table">
+      <thead><tr><th>${escapeHTML(aName)}</th><th>${escapeHTML(bName)}</th></tr></thead>
+      <tbody>
+        <tr><td>${formPointsTextHTML(aId)}</td><td>${formPointsTextHTML(bId)}</td></tr>
+        <tr><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
+        ${rows}
+      </tbody>
+    </table>`;
 }
 
 function captainPieSlices() {
@@ -3025,20 +3043,23 @@ function renderStandingsTable() {
     : `<tr><td colspan="${colCount}" class="empty">No standings data yet.</td></tr>`;
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
+  const captainBlock = league === 'classic'
+    ? `<button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+       <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>`
+    : '';
   const h2hCompareBlock = league === 'h2h'
     ? `<button type="button" id="h2hCompareToggle" class="mow-captain-toggle${h2hCompareOpen ? ' active' : ''}">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
        <div id="h2hCompareWrap" class="insights-section"${h2hCompareOpen ? '' : ' hidden'}></div>`
     : '';
   document.getElementById('standingsContent').innerHTML = `
     <div class="champ-wall-heading">${gwLabel}</div>
-    <button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
-    <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>
+    ${captainBlock}
     ${h2hCompareBlock}
     <table class="contest-table standings-table standings-table-${league}">
       <thead>${head}</thead>
       <tbody>${body}</tbody>
     </table>`;
-  if (standingsCaptainOpen) renderStandingsCaptainPie();
+  if (standingsCaptainOpen && league === 'classic') renderStandingsCaptainPie();
   if (h2hCompareOpen && league === 'h2h') renderH2hCompare();
 }
 
