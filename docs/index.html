@@ -1337,7 +1337,7 @@
 
   @media (max-width: 640px) {
     body { padding: 8px; overflow: auto; height: auto; min-height: 100dvh; }
-    .toolbar button { padding: 8px 12px; flex: 1 1 auto; min-height: 40px; }
+    .toolbar button { padding: 8px 12px; flex: 1 1 auto; min-height: 44px; }
     .tab-wrap { flex: 1 1 auto; }
     .tab-wrap > button[data-panel],
     .tab-wrap > #tabClassic,
@@ -1351,7 +1351,7 @@
       padding: 8px 0;
       background: var(--bg);
     }
-    .mobile-bracket-toolbar button { min-height: 40px; }
+    .mobile-bracket-toolbar button { min-height: 44px; }
     .bracket-wrap { padding: 42px 4px 20px; -webkit-overflow-scrolling: touch; }
     .champion { margin-left: 12px; }
     .champion .trophy { width: 26px; height: 26px; }
@@ -1410,7 +1410,7 @@
     #mainTabs button[data-panel],
     #mainTabs #rulesNavBtn { min-height: 44px; padding: 10px 14px; }
     #mainTabs #rulesNavBtn { width: 100%; text-align: center; }
-    .toolbar.sub button { min-height: 40px; padding: 8px 12px; }
+    .toolbar.sub button { min-height: 44px; padding: 8px 12px; }
     .nav-drawer-head {
       display: flex;
       align-items: center;
@@ -2720,6 +2720,7 @@ document.addEventListener('click', (e) => {
   if (standingsCaptainToggleEl) {
     standingsCaptainOpen = !standingsCaptainOpen;
     standingsCaptainToggleEl.classList.toggle('active', standingsCaptainOpen);
+    standingsCaptainToggleEl.setAttribute('aria-expanded', String(standingsCaptainOpen));
     standingsCaptainToggleEl.textContent = standingsCaptainToggleEl.textContent.replace(/^(Show|Hide)/, standingsCaptainOpen ? 'Hide' : 'Show');
     const wrap = document.getElementById('standingsCaptainWrap');
     wrap.hidden = !standingsCaptainOpen;
@@ -2730,6 +2731,7 @@ document.addEventListener('click', (e) => {
   if (h2hCompareToggleEl) {
     h2hCompareOpen = !h2hCompareOpen;
     h2hCompareToggleEl.classList.toggle('active', h2hCompareOpen);
+    h2hCompareToggleEl.setAttribute('aria-expanded', String(h2hCompareOpen));
     h2hCompareToggleEl.textContent = h2hCompareToggleEl.textContent.replace(/^(Show|Hide)/, h2hCompareOpen ? 'Hide' : 'Show');
     const wrap = document.getElementById('h2hCompareWrap');
     wrap.hidden = !h2hCompareOpen;
@@ -3016,8 +3018,8 @@ function renderH2hCompare() {
   wrap.innerHTML = `
     <div class="champ-wall-heading">Compare 2 Managers</div>
     <div class="trend-controls">
-      <span class="trend-select-wrap trend-select-a">Manager A <select id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
-      <span class="trend-select-wrap trend-select-b">Manager B <select id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
+      <span class="trend-select-wrap trend-select-a"><label for="h2hCompareA">Manager A</label> <select id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
+      <span class="trend-select-wrap trend-select-b"><label for="h2hCompareB">Manager B</label> <select id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
     </div>
     <div id="h2hCompareResult"></div>`;
   renderH2hCompareResult();
@@ -3044,11 +3046,11 @@ function renderStandingsTable() {
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
   const captainBlock = league === 'classic'
-    ? `<button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+    ? `<button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}" aria-expanded="${standingsCaptainOpen}" aria-controls="standingsCaptainWrap">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
        <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>`
     : '';
   const h2hCompareBlock = league === 'h2h'
-    ? `<button type="button" id="h2hCompareToggle" class="mow-captain-toggle${h2hCompareOpen ? ' active' : ''}">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
+    ? `<button type="button" id="h2hCompareToggle" class="mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
        <div id="h2hCompareWrap" class="insights-section"${h2hCompareOpen ? '' : ' hidden'}></div>`
     : '';
   document.getElementById('standingsContent').innerHTML = `
