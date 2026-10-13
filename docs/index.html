@@ -5,7 +5,7 @@
 <title>Poky भकुण्डो FPL 2026/27</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="Live knockout bracket, contest standings, and Hall of Fame for the Poky भकुण्डो Fantasy Premier League leagues." />
-<meta name="theme-color" content="#07111f" />
+<meta name="theme-color" content="#08111f" />
 <meta property="og:title" content="Poky भकुण्डो FPL 2026/27" />
 <meta property="og:description" content="Live knockout bracket, contest standings, and Hall of Fame." />
 <meta property="og:image" content="LOGO.jpeg" />
@@ -19,29 +19,32 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-utilities.min.css" rel="stylesheet" />
 <style>
   :root {
-    --bg: #07111f;
-    --bg-2: #0b1728;
-    --card: #13243b;
-    --card-rgb: 19, 36, 59;
-    --card-border: rgba(91, 134, 181, 0.28);
-    --accent: #3b82f6;
-    --accent-rgb: 59, 130, 246;
-    --highlight: #f4c95d;
-    --highlight-rgb: 244, 201, 93;
-    --text: #f7fafc;
-    --sub: #9fb2c8;
-    --winner: #2dd4a7;
-    --winner-rgb: 45, 212, 167;
-    --live: #fb5a65;
-    --live-rgb: 251, 90, 101;
-    --tbd: #758aa3;
-    --line: #5078a5;
+    --bg: #08111f;
+    --bg-2: #0c1727;
+    --card: #142238;
+    --card-rgb: 20, 34, 56;
+    --card-hover: #192b45;
+    --card-border: rgba(139, 164, 194, 0.18);
+    --accent: #5b8def;
+    --accent-rgb: 91, 141, 239;
+    --accent-hover: #74a0f5;
+    --highlight: #e8bd62;
+    --highlight-rgb: 232, 189, 98;
+    --text: #f1f5f9;
+    --sub: #aab8ca;
+    --muted: #72839a;
+    --winner: #45c99a;
+    --winner-rgb: 69, 201, 154;
+    --live: #f06c75;
+    --live-rgb: 240, 108, 117;
+    --tbd: #72839a;
+    --line: #43658e;
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 18px;
-    --shadow-sm: 0 6px 18px -12px rgba(0, 0, 0, 0.75);
-    --shadow-md: 0 18px 38px -20px rgba(0, 0, 0, 0.8);
-    --shadow-glow: 0 0 0 1px rgba(var(--accent-rgb), 0.22), 0 10px 28px -12px rgba(var(--accent-rgb), 0.75);
+    --shadow-sm: 0 6px 18px -12px rgba(1, 8, 20, 0.78);
+    --shadow-md: 0 18px 38px -20px rgba(1, 8, 20, 0.9);
+    --shadow-glow: 0 0 0 1px rgba(var(--accent-rgb), 0.2), 0 10px 28px -14px rgba(var(--accent-rgb), 0.62);
     --condensed: 'Barlow Condensed', 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
     --body-font: 'Barlow', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-xxs: 9px;
@@ -67,7 +70,7 @@
     background:
       radial-gradient(1100px 560px at 8% -10%, rgba(var(--accent-rgb), 0.18), transparent 60%),
       radial-gradient(760px 420px at 100% 0%, rgba(var(--highlight-rgb), 0.07), transparent 58%),
-      linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 48%, #07101d 100%);
+      linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 48%, #08101d 100%);
     background-attachment: fixed;
     color: var(--text);
     margin: 0;
@@ -94,7 +97,7 @@
     position: absolute;
     left: 0; right: 0; bottom: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(var(--accent-rgb), 0.62), rgba(var(--highlight-rgb), 0.42), transparent);
+    background: linear-gradient(90deg, transparent 16%, rgba(var(--accent-rgb), 0.18), rgba(var(--highlight-rgb), 0.42) 50%, rgba(var(--accent-rgb), 0.18), transparent 84%);
   }
   .brand-badge {
     display: block;
@@ -166,11 +169,11 @@
     cursor: pointer;
     transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease, color 0.18s ease;
   }
-  button:hover { background: rgba(var(--accent-rgb), 0.14); border-color: rgba(var(--accent-rgb), 0.55); transform: translateY(-1px); }
+  button:hover { background: rgba(var(--accent-rgb), 0.14); border-color: var(--accent-hover); transform: translateY(-1px); }
   button:active { transform: scale(0.97) translateY(0); }
   button.active {
-    background: linear-gradient(135deg, #4f91ff, #2563eb);
-    border-color: rgba(147, 197, 253, 0.34);
+    background: var(--accent);
+    border-color: rgba(184, 207, 252, 0.36);
     color: #fff;
     box-shadow: var(--shadow-glow);
   }
@@ -206,7 +209,7 @@
     letter-spacing: 0.3px;
     text-transform: uppercase;
     margin: 0 0 6px;
-    color: var(--accent);
+    color: var(--text);
   }
   .rules-card .rule-image {
     display: block;
@@ -223,7 +226,7 @@
     letter-spacing: 0.4px;
     text-transform: uppercase;
     margin: 0;
-    color: var(--accent);
+    color: var(--text);
   }
   .rules-page .league-tag {
     display: inline-block;
@@ -288,7 +291,7 @@
     letter-spacing: 0.4px;
     text-transform: uppercase;
     margin: 0 0 6px;
-    color: var(--accent);
+    color: var(--text);
   }
   .contest-meta { color: var(--sub); font-size: var(--font-sm); }
   .award-grid { max-width: 1180px; }
@@ -431,8 +434,8 @@
   }
   .mow-sep { color: var(--sub); font-weight: 400; }
   .contest-table th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
-  .contest-table th.sortable:hover { color: var(--highlight); }
-  .contest-table th.sorted { color: var(--highlight); }
+  .contest-table th.sortable:hover { color: var(--accent-hover); }
+  .contest-table th.sorted { color: var(--accent); }
   .contest-table td {
     padding: 10px 8px;
     background: rgba(var(--card-rgb), 0.72);
@@ -452,7 +455,9 @@
     border-right: 1px solid var(--card-border);
     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   }
-  .contest-table tbody tr:hover td { background: rgba(var(--accent-rgb), 0.12); }
+  .contest-table tbody tr:nth-child(odd) td { background: #111e31; }
+  .contest-table tbody tr:nth-child(even) td { background: var(--card); }
+  .contest-table tbody tr:hover td { background: var(--card-hover); }
   .contest-table .pts { font-weight: 700; color: var(--winner); white-space: nowrap; }
   .standings-table-h2h {
     border-spacing: 0 4px;
@@ -552,6 +557,7 @@
     color: var(--highlight);
     margin: 0 0 8px;
   }
+  #standingsContent .champ-wall-heading { color: var(--text); }
   .champ-wall-note {
     font-size: var(--font-sm);
     color: var(--sub);
