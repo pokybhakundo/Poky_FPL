@@ -649,18 +649,16 @@ def fetch_classic_league_members(league_id=CLASSIC_LEAGUE_ID):
 
 def build_manager_insights():
     """Manager-level stats built mostly from data already fetched elsewhere:
-    chip timeline, overall-rank trajectory, and bench points wasted all come
-    straight off entry/history (the same endpoint compute_contests already
-    pulls per member), and the trailing-5-GW form table is just reprocessing
-    the standings_N.json snapshots qualify() already saves -- no new API
-    calls for any of those. Captain of the Week is the one genuinely new
-    call: one picks fetch per member, for the current GW only."""
+    chip timeline comes straight off entry/history (the same endpoint
+    compute_contests already pulls per member), and the trailing-5-GW form
+    table is just reprocessing the standings_N.json snapshots qualify()
+    already saves -- no new API calls for either. Captain picks and squads
+    are the one genuinely new call: one picks fetch per member, for the
+    current GW only."""
     members = fetch_classic_league_members()
     meta = {row["entry_id"]: _contest_person(row) for row in members}
 
     chips = []
-    rank_trajectory = []
-    bench_waste = []
     for row in members:
         eid = row["entry_id"]
         history = get_entry_history(eid)
@@ -671,24 +669,6 @@ def build_manager_insights():
         ]
         if entry_chips:
             chips.append({**meta[eid], "chips": entry_chips})
-
-        current = history.get("current", [])
-        rank_trajectory.append({
-            **meta[eid],
-            "gws": [
-                {"gw": h["event"], "overall_rank": h.get("overall_rank")}
-                for h in current
-                if h.get("event") is not None and h.get("overall_rank") is not None
-            ],
-        })
-        bench_gws = {
-            str(h["event"]): h.get("points_on_bench", 0)
-            for h in current
-            if h.get("event") is not None
-        }
-        bench_waste.append({**meta[eid], "total": sum(bench_gws.values()), "gws": bench_gws})
-
-    bench_waste.sort(key=lambda r: r["total"], reverse=True)
 
     # --- Form table: trailing 5 finalized GWs, from already-saved snapshots ---
     events = get_all_events()
@@ -706,19 +686,25 @@ def build_manager_insights():
             entry["gws"][str(gw)] = snap_row["gw_points"]
     form_table = sorted(form_by_entry.values(), key=lambda r: r["total"], reverse=True)
 
-    # --- Captain of the Week: current GW only, one picks call per member ---
+    # --- Captain picks + full squads: current GW only, one picks call per member ---
     current_event = get_current_event()
     current_gw = current_event["id"]
     has_started = bool(current_event.get("is_current")) or current_event["finished"]
     captain_picks = []
     captain_counts = {}
+    squads = []
     if has_started:
         bootstrap_elements = {el["id"]: el["web_name"] for el in get_bootstrap()["elements"]}
         live_stats = get_live_stats(current_gw)
         for row in members:
             eid = row["entry_id"]
             picks = get_entry_picks(eid, current_gw)
-            captain = next((p for p in picks.get("picks", []) if p.get("is_captain")), None)
+            squad_picks = picks.get("picks", [])
+            squads.append({
+                **meta[eid],
+                "players": [bootstrap_elements.get(p["element"], "Unknown") for p in squad_picks],
+            })
+            captain = next((p for p in squad_picks if p.get("is_captain")), None)
             if not captain:
                 continue
             element_id = captain["element"]
@@ -732,8 +718,7 @@ def build_manager_insights():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "form": {"gws": form_gws, "table": form_table},
         "chips": chips,
-        "rank_trajectory": rank_trajectory,
-        "bench_waste": bench_waste,
+        "squads": squads,
         "captain": {
             "gw": current_gw,
             "provisional": bool(current_event.get("is_current")) and not current_event["finished"],

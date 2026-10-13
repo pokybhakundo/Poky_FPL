@@ -1462,9 +1462,6 @@
       <button type="button" id="mainTabChampions" data-panel="champions" role="tab" aria-selected="false" aria-controls="panel-champions" tabindex="-1">Champions Wall</button>
     </span>
     <span class="tab-wrap">
-      <button type="button" id="mainTabInsights" data-panel="insights" role="tab" aria-selected="false" aria-controls="panel-insights" tabindex="-1">Manager Insights</button>
-    </span>
-    <span class="tab-wrap">
       <button type="button" id="rulesNavBtn" data-panel="rules" role="tab" aria-selected="false" aria-controls="panel-rules" tabindex="-1">Rulebook</button>
     </span>
   </div>
@@ -1504,10 +1501,6 @@
 
   <section id="panel-champions" class="panel" role="tabpanel" aria-labelledby="mainTabChampions" tabindex="-1" hidden>
     <div class="contest-panel" id="championsContent"></div>
-  </section>
-
-  <section id="panel-insights" class="panel" role="tabpanel" aria-labelledby="mainTabInsights" tabindex="-1" hidden>
-    <div class="contest-panel" id="insightsContent"></div>
   </section>
 
   <section id="panel-rules" class="panel" role="tabpanel" aria-labelledby="rulesNavBtn" tabindex="-1" hidden>
@@ -2729,6 +2722,16 @@ document.addEventListener('click', (e) => {
     if (standingsCaptainOpen) renderStandingsCaptainPie();
     return;
   }
+  const h2hCompareToggleEl = e.target.closest('#h2hCompareToggle');
+  if (h2hCompareToggleEl) {
+    h2hCompareOpen = !h2hCompareOpen;
+    h2hCompareToggleEl.classList.toggle('active', h2hCompareOpen);
+    h2hCompareToggleEl.textContent = h2hCompareToggleEl.textContent.replace(/^(Show|Hide)/, h2hCompareOpen ? 'Hide' : 'Show');
+    const wrap = document.getElementById('h2hCompareWrap');
+    wrap.hidden = !h2hCompareOpen;
+    if (h2hCompareOpen) renderH2hCompare();
+    return;
+  }
   const winnerCardEl = e.target.closest('.winner-card-trigger');
   if (winnerCardEl) {
     renderWinnerCard(winnerCardEl);
@@ -2823,8 +2826,6 @@ function chipPillHTML(chip) {
 
 const CATEGORICAL_COLORS = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300'];
 const OTHER_SLICE_COLOR = '#5a6b82';
-const SERIES_A_COLOR = '#3b82f6';
-const SERIES_B_COLOR = '#f4c95d';
 const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
 const PLOTLY_BASE_LAYOUT = {
   paper_bgcolor: 'rgba(0,0,0,0)',
@@ -2858,80 +2859,79 @@ function renderCaptainPie(slices, containerId) {
   }, PLOTLY_CONFIG);
 }
 
-function trendTraces(seriesList, gws) {
-  const x = gws.map((gw) => `GW${gw}`);
-  return seriesList.map((s, i) => {
-    const y = gws.map((gw) => (s.values[gw] == null ? null : s.values[gw]));
-    return {
-      type: 'scatter',
-      mode: 'lines+markers+text',
-      name: s.label,
-      x,
-      y,
-      text: y.map((v) => (v == null ? '' : String(v))),
-      textposition: i === 0 ? 'top center' : 'bottom center',
-      textfont: { color: s.color, size: 11 },
-      connectgaps: false,
-      line: { color: s.color, width: 2.5 },
-      marker: { color: s.color, size: 7 },
-      hovertemplate: `${s.label} — %{x}: %{y}<extra></extra>`,
-    };
-  });
-}
-
-function renderTrendChart(containerId, seriesList, gws) {
-  const el = document.getElementById(containerId);
-  const present = seriesList.filter((s) => gws.some((gw) => s.values[gw] != null));
-  if (!gws.length || !present.length) {
-    el.innerHTML = '<p class="trend-empty">No data yet for the selected manager.</p>';
-    return;
-  }
-  Plotly.newPlot(el, trendTraces(present, gws), {
-    ...PLOTLY_BASE_LAYOUT,
-    height: 280,
-    margin: { ...PLOTLY_BASE_LAYOUT.margin, t: 34, b: 44 },
-    showlegend: present.length > 1,
-    legend: { font: { color: '#9fb2c8' }, orientation: 'h', y: 1.18 },
-    xaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
-    yaxis: { gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8', zeroline: false },
-  }, PLOTLY_CONFIG);
-}
-
-const insightsSelect = { formA: null, formB: '', benchA: null, benchB: '' };
-
 function entryOptionsHTML(entries, selectedId, includeNone) {
   const none = includeNone ? '<option value="">— compare with —</option>' : '';
   return none + entries.map((e) => `<option value="${e.entry_id}"${String(e.entry_id) === String(selectedId) ? ' selected' : ''}>${escapeHTML(e.manager)}</option>`).join('');
 }
 
-function renderFormTrend() {
+const STANDARD_CHIPS = [
+  { name: 'wildcard', label: 'Wildcard' },
+  { name: 'freehit', label: 'Free Hit' },
+  { name: 'bboost', label: 'Bench Boost' },
+  { name: '3xc', label: 'Triple Captain' },
+];
+
+function formPointsTextHTML(entryId) {
   const form = managerInsightsData?.form || { gws: [], table: [] };
-  const entries = form.table;
-  if (!entries.length) {
-    document.getElementById('formTrendChart').innerHTML = '<p class="trend-empty">No finalized gameweeks yet.</p>';
-    return;
-  }
-  if (!entries.some((e) => String(e.entry_id) === String(insightsSelect.formA))) insightsSelect.formA = entries[0].entry_id;
-  const a = entries.find((e) => String(e.entry_id) === String(insightsSelect.formA));
-  const b = insightsSelect.formB ? entries.find((e) => String(e.entry_id) === String(insightsSelect.formB)) : null;
-  const series = [{ label: a.manager, color: SERIES_A_COLOR, values: a.gws }];
-  if (b) series.push({ label: b.manager, color: SERIES_B_COLOR, values: b.gws });
-  renderTrendChart('formTrendChart', series, form.gws);
+  const entry = form.table.find((e) => String(e.entry_id) === String(entryId));
+  if (!entry) return 'No gameweek data yet.';
+  const parts = form.gws.map((gw) => `GW${gw}: ${entry.gws[String(gw)] ?? '—'}`);
+  return `${parts.join(' · ')} — Total: ${entry.total}`;
 }
 
-function renderBenchTrend() {
-  const entries = managerInsightsData?.bench_waste || [];
+function chipsRemainingHTML(entryId) {
+  // shortcut: a manager who has used "wildcard" once is marked as having used
+  // it even though some seasons grant two (one per half) -- upgrade if that
+  // ever needs to be tracked precisely.
+  const used = new Set((managerInsightsData?.chips || [])
+    .find((c) => String(c.entry_id) === String(entryId))?.chips.map((c) => c.name) || []);
+  const remaining = STANDARD_CHIPS.filter((c) => !used.has(c.name));
+  return remaining.length
+    ? remaining.map((c) => escapeHTML(c.label)).join(', ')
+    : 'None left';
+}
+
+function squadFor(entryId) {
+  return (managerInsightsData?.squads || []).find((s) => String(s.entry_id) === String(entryId));
+}
+
+const h2hCompareSelect = { a: null, b: null };
+
+function renderH2hCompareResult() {
+  const el = document.getElementById('h2hCompareResult');
+  if (!el) return;
+  const entries = managerInsightsData?.form?.table || [];
   if (!entries.length) {
-    document.getElementById('benchTrendChart').innerHTML = '<p class="trend-empty">No bench data yet.</p>';
+    el.innerHTML = '<p class="trend-empty">No data available yet.</p>';
     return;
   }
-  const gws = [...new Set(entries.flatMap((e) => Object.keys(e.gws || {})))].map(Number).sort((x, y) => x - y);
-  if (!entries.some((e) => String(e.entry_id) === String(insightsSelect.benchA))) insightsSelect.benchA = entries[0].entry_id;
-  const a = entries.find((e) => String(e.entry_id) === String(insightsSelect.benchA));
-  const b = insightsSelect.benchB ? entries.find((e) => String(e.entry_id) === String(insightsSelect.benchB)) : null;
-  const series = [{ label: a.manager, color: SERIES_A_COLOR, values: a.gws }];
-  if (b) series.push({ label: b.manager, color: SERIES_B_COLOR, values: b.gws });
-  renderTrendChart('benchTrendChart', series, gws);
+  if (!entries.some((e) => String(e.entry_id) === String(h2hCompareSelect.a))) h2hCompareSelect.a = entries[0]?.entry_id ?? null;
+  if (!entries.some((e) => String(e.entry_id) === String(h2hCompareSelect.b))) h2hCompareSelect.b = entries[1]?.entry_id ?? entries[0]?.entry_id ?? null;
+  const aId = h2hCompareSelect.a, bId = h2hCompareSelect.b;
+  const aName = entries.find((e) => String(e.entry_id) === String(aId))?.manager || '—';
+  const bName = entries.find((e) => String(e.entry_id) === String(bId))?.manager || '—';
+  const squadA = squadFor(aId);
+  const squadB = squadFor(bId);
+
+  let squadHTML = '<p class="trend-empty">Squad comparison needs this gameweek\'s picks data, not available yet.</p>';
+  if (squadA && squadB) {
+    const setA = new Set(squadA.players);
+    const setB = new Set(squadB.players);
+    const common = [...setA].filter((p) => setB.has(p));
+    const onlyA = [...setA].filter((p) => !setB.has(p));
+    const onlyB = [...setB].filter((p) => !setA.has(p));
+    squadHTML = `
+      <p><strong>Common players:</strong> ${common.map(escapeHTML).join(', ') || 'None'}</p>
+      <p><strong>Only ${escapeHTML(aName)}:</strong> ${onlyA.map(escapeHTML).join(', ') || 'None'}</p>
+      <p><strong>Only ${escapeHTML(bName)}:</strong> ${onlyB.map(escapeHTML).join(', ') || 'None'}</p>`;
+  }
+
+  el.innerHTML = `
+    <p><strong>${escapeHTML(aName)}</strong> — ${formPointsTextHTML(aId)}</p>
+    <p><strong>${escapeHTML(bName)}</strong> — ${formPointsTextHTML(bId)}</p>
+    ${squadHTML}
+    <p><strong>Chips remaining — ${escapeHTML(aName)}:</strong> ${chipsRemainingHTML(aId)}</p>
+    <p><strong>Chips remaining — ${escapeHTML(bName)}:</strong> ${chipsRemainingHTML(bId)}</p>`;
 }
 
 function captainPieSlices() {
@@ -2950,41 +2950,9 @@ function captainPieSlices() {
   return slices;
 }
 
-function renderManagerInsights(data) {
-  if (!data) {
-    document.getElementById('insightsContent').innerHTML = '<p class="contest-rule">Insights will appear here once this week’s data has been generated.</p>';
-    return;
-  }
-
-  const form = data.form || { gws: [], table: [] };
-  const bench = data.bench_waste || [];
-
-  document.getElementById('insightsContent').innerHTML = `
-    <div class="insights-section">
-      <div class="champ-wall-heading">Points per Gameweek — Last ${form.gws.length} Gameweek${form.gws.length === 1 ? '' : 's'}</div>
-      <div class="trend-controls">
-        <span class="trend-select-wrap trend-select-a">Manager <select id="formSelectA">${entryOptionsHTML(form.table, insightsSelect.formA, false)}</select></span>
-        <span class="trend-select-wrap trend-select-b">Compare <select id="formSelectB">${entryOptionsHTML(form.table, insightsSelect.formB, true)}</select></span>
-      </div>
-      <div id="formTrendChart"></div>
-    </div>
-    <div class="insights-section">
-      <div class="champ-wall-heading">Bench Points Wasted — By Gameweek</div>
-      <div class="trend-controls">
-        <span class="trend-select-wrap trend-select-a">Manager <select id="benchSelectA">${entryOptionsHTML(bench, insightsSelect.benchA, false)}</select></span>
-        <span class="trend-select-wrap trend-select-b">Compare <select id="benchSelectB">${entryOptionsHTML(bench, insightsSelect.benchB, true)}</select></span>
-      </div>
-      <div id="benchTrendChart"></div>
-    </div>`;
-  renderFormTrend();
-  renderBenchTrend();
-}
-
 document.addEventListener('change', (e) => {
-  if (e.target.id === 'formSelectA') { insightsSelect.formA = e.target.value; renderFormTrend(); }
-  else if (e.target.id === 'formSelectB') { insightsSelect.formB = e.target.value; renderFormTrend(); }
-  else if (e.target.id === 'benchSelectA') { insightsSelect.benchA = e.target.value; renderBenchTrend(); }
-  else if (e.target.id === 'benchSelectB') { insightsSelect.benchB = e.target.value; renderBenchTrend(); }
+  if (e.target.id === 'h2hCompareA') { h2hCompareSelect.a = e.target.value; renderH2hCompareResult(); }
+  else if (e.target.id === 'h2hCompareB') { h2hCompareSelect.b = e.target.value; renderH2hCompareResult(); }
 });
 
 function standingsRowHTML(row, league, captainMap) {
@@ -3021,6 +2989,22 @@ function renderStandingsCaptainPie() {
   renderCaptainPie(captainPieSlices(), 'standingsCaptainPie');
 }
 
+let h2hCompareOpen = false;
+
+function renderH2hCompare() {
+  const wrap = document.getElementById('h2hCompareWrap');
+  if (!wrap) return;
+  const entries = managerInsightsData?.form?.table || [];
+  wrap.innerHTML = `
+    <div class="champ-wall-heading">Compare 2 Managers</div>
+    <div class="trend-controls">
+      <span class="trend-select-wrap trend-select-a">Manager A <select id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
+      <span class="trend-select-wrap trend-select-b">Manager B <select id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
+    </div>
+    <div id="h2hCompareResult"></div>`;
+  renderH2hCompareResult();
+}
+
 function renderStandingsTable() {
   const league = currentStandingsLeague;
   const rows = sortStandingsRows(standingsData[league] || [], league);
@@ -3041,15 +3025,21 @@ function renderStandingsTable() {
     : `<tr><td colspan="${colCount}" class="empty">No standings data yet.</td></tr>`;
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
+  const h2hCompareBlock = league === 'h2h'
+    ? `<button type="button" id="h2hCompareToggle" class="mow-captain-toggle${h2hCompareOpen ? ' active' : ''}">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
+       <div id="h2hCompareWrap" class="insights-section"${h2hCompareOpen ? '' : ' hidden'}></div>`
+    : '';
   document.getElementById('standingsContent').innerHTML = `
     <div class="champ-wall-heading">${gwLabel}</div>
     <button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
     <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>
+    ${h2hCompareBlock}
     <table class="contest-table standings-table standings-table-${league}">
       <thead>${head}</thead>
       <tbody>${body}</tbody>
     </table>`;
   if (standingsCaptainOpen) renderStandingsCaptainPie();
+  if (h2hCompareOpen && league === 'h2h') renderH2hCompare();
 }
 
 function renderMow(data) {
@@ -3408,7 +3398,6 @@ async function loadState() {
       standingsData = standings;
       renderStandingsTable();
     }
-    renderManagerInsights(insights);
     if (contests) {
       renderMow(contests);
       renderMom(contests);
