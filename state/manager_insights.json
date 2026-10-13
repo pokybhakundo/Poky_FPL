@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:30:29.130804+00:00",
+  "generated_at": "2026-10-13T10:35:16.806827+00:00",
   "form": {
     "gws": [
       1,
@@ -1643,37 +1643,6 @@
       ]
     },
     {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 8092210
-        },
-        {
-          "gw": 2,
-          "overall_rank": 5164662
-        },
-        {
-          "gw": 3,
-          "overall_rank": 4697236
-        },
-        {
-          "gw": 4,
-          "overall_rank": 6057880
-        },
-        {
-          "gw": 5,
-          "overall_rank": 4679668
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3679700
-        }
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1697,6 +1666,37 @@
         {
           "gw": 5,
           "overall_rank": 3181539
+        },
+        {
+          "gw": 6,
+          "overall_rank": 3679700
+        }
+      ]
+    },
+    {
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 8092210
+        },
+        {
+          "gw": 2,
+          "overall_rank": 5164662
+        },
+        {
+          "gw": 3,
+          "overall_rank": 4697236
+        },
+        {
+          "gw": 4,
+          "overall_rank": 6057880
+        },
+        {
+          "gw": 5,
+          "overall_rank": 4679668
         },
         {
           "gw": 6,
@@ -2513,20 +2513,20 @@
         "points": 6
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 6
-      },
-      {
         "entry_id": 4048482,
         "team_name": "Bhaire FC",
         "manager": "Saujan Acharya",
         "element_id": 426,
         "player_name": "B.Fernandes",
         "points": 1
+      },
+      {
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 6
       },
       {
         "entry_id": 2659214,
