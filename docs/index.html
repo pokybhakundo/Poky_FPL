@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
 <meta charset="utf-8" />
 <title>Poky भकुण्डो FPL 2026/27</title>
@@ -12,11 +12,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
-<!-- Bootstrap grid + utilities only (no reboot/components) -- used for the King
-     of the Ring / Centurion card layout without touching this page's own
-     hand-tuned styling of everything else. -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css" rel="stylesheet" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-utilities.min.css" rel="stylesheet" />
+<!-- Bootstrap supplies the shared component and utility layer. The local
+     theme below maps those components to the Poky matchday palette. -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 <style>
   :root {
     --bg: #08111f;
@@ -80,6 +78,17 @@
     --bs-body-bg: var(--bg);
     --bs-body-color: var(--text);
     --bs-border-color: var(--card-border);
+    --bs-card-bg: var(--card);
+    --bs-card-border-color: var(--card-border);
+    --bs-table-color: var(--text);
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--card-border);
+    --bs-link-color: var(--accent-hover);
+    --bs-link-hover-color: var(--text);
+    --bs-nav-pills-link-active-bg: var(--accent);
+    --bs-border-radius: var(--radius-sm);
+    --bs-border-radius-lg: var(--radius-md);
+    --bs-border-radius-pill: 999px;
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; }
@@ -153,7 +162,7 @@
   }
   .updated-at { font-size: var(--font-xs); color: var(--sub); margin-top: 2px; }
   .updated-at.stale { color: var(--live); }
-  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; flex-shrink: 0; }
+  .toolbar { gap: 8px; margin-bottom: 4px; flex-shrink: 0; }
   .nav-toggle {
     display: none;
     flex-direction: column;
@@ -180,7 +189,8 @@
     transition: opacity 0.22s ease;
   }
   .nav-drawer-head { display: none; }
-  button {
+  .btn,
+  .nav-link {
     background: rgba(var(--card-rgb), 0.78);
     color: var(--text);
     border: 1px solid var(--card-border);
@@ -194,9 +204,12 @@
     cursor: pointer;
     transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease, color 0.18s ease;
   }
-  button:hover { background: rgba(var(--accent-rgb), 0.14); border-color: var(--accent-hover); transform: translateY(-1px); }
-  button:active { transform: scale(0.97) translateY(0); }
-  button.active {
+  .btn:hover,
+  .nav-link:hover { background: rgba(var(--accent-rgb), 0.14); border-color: var(--accent-hover); color: var(--text); transform: translateY(-1px); }
+  .btn:active,
+  .nav-link:active { transform: scale(0.97) translateY(0); }
+  .btn.active,
+  .nav-link.active {
     background: var(--accent);
     border-color: rgba(184, 207, 252, 0.36);
     color: #fff;
@@ -222,10 +235,11 @@
     background: var(--card);
     border: 1px solid var(--card-border);
     border-radius: var(--radius-md);
-    padding: 16px 18px;
+    padding: 0;
     box-shadow: var(--shadow-sm);
     transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   }
+  .rules-card .card-body { padding: 16px 18px; }
   .rules-card:hover { border-color: rgba(var(--accent-rgb), 0.4); box-shadow: var(--shadow-md); }
   .rules-card h4 {
     font-family: var(--condensed);
@@ -442,6 +456,8 @@
     line-height: 1.1;
   }
   .contest-table {
+    --bs-table-bg: transparent;
+    --bs-table-hover-bg: transparent;
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 6px;
@@ -502,7 +518,6 @@
     white-space: nowrap;
   }
   .badge {
-    display: inline-block;
     font-family: var(--condensed);
     font-size: var(--font-xs);
     font-weight: 700;
@@ -514,6 +529,27 @@
   }
   .badge.shared { background: rgba(var(--highlight-rgb), 0.18); color: var(--highlight); }
   .badge.live { background: var(--live); color: #fff; box-shadow: 0 0 0 3px rgba(var(--live-rgb), 0.18); }
+
+  .card { color: var(--text); }
+  .btn-link,
+  .btn-link:hover,
+  .btn-link:active {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: inherit;
+    padding: 0;
+    text-transform: none;
+    transform: none;
+  }
+  .form-select {
+    --bs-form-select-bg-img: none;
+    min-width: 10rem;
+    background-color: rgba(var(--card-rgb), 0.78);
+    border-color: var(--card-border);
+    color: var(--text);
+    font-size: var(--font-sm);
+  }
 
   .mow-captain-toggle { margin-bottom: 14px; }
   #standingsCaptainWrap.insights-section { margin-bottom: 18px; }
@@ -1511,42 +1547,42 @@
   </div>
 
   <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
-  <div class="toolbar" id="mainTabs" role="tablist" aria-label="Main navigation">
+  <nav class="toolbar nav nav-pills flex-wrap" id="mainTabs" role="tablist" aria-label="Main navigation">
     <div class="nav-drawer-head">
       <span class="nav-drawer-title">Menu</span>
     </div>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabStandings" data-panel="standings" class="active" role="tab" aria-selected="true" aria-controls="panel-standings" tabindex="0">Current GW Rankings</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabStandings" data-panel="standings" class="nav-link active" role="tab" aria-selected="true" aria-controls="panel-standings" tabindex="0">Current GW Rankings</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabMow" data-panel="mow" role="tab" aria-selected="false" aria-controls="panel-mow" tabindex="-1">Manager of the Week</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabMow" data-panel="mow" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-mow" tabindex="-1">Manager of the Week</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabMom" data-panel="mom" role="tab" aria-selected="false" aria-controls="panel-mom" tabindex="-1">Manager of the Month</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabMom" data-panel="mom" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-mom" tabindex="-1">Manager of the Month</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabKing" data-panel="king" role="tab" aria-selected="false" aria-controls="panel-king" tabindex="-1">King of the Ring &amp; First Centurion</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabKing" data-panel="king" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-king" tabindex="-1">King of the Ring &amp; First Centurion</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabKnockout" data-panel="knockout" role="tab" aria-selected="false" aria-controls="panel-knockout" tabindex="-1">Knock Out Contest</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabKnockout" data-panel="knockout" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-knockout" tabindex="-1">Knock Out Contest</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="mainTabChampions" data-panel="champions" role="tab" aria-selected="false" aria-controls="panel-champions" tabindex="-1">Champions Wall</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="mainTabChampions" data-panel="champions" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-champions" tabindex="-1">Champions Wall</button>
     </span>
-    <span class="tab-wrap">
-      <button type="button" id="rulesNavBtn" data-panel="rules" role="tab" aria-selected="false" aria-controls="panel-rules" tabindex="-1">Rulebook</button>
+    <span class="tab-wrap nav-item">
+      <button type="button" id="rulesNavBtn" data-panel="rules" class="nav-link" role="tab" aria-selected="false" aria-controls="panel-rules" tabindex="-1">Rulebook</button>
     </span>
-  </div>
+  </nav>
 
   <section id="panel-standings" class="panel active" role="tabpanel" aria-labelledby="mainTabStandings" tabindex="-1">
-    <div class="toolbar sub" id="standingsTabs" role="tablist" aria-label="Standings league">
-      <span class="tab-wrap">
-        <button type="button" id="tabStandingsClassic" class="active" role="tab" aria-selected="true" aria-controls="standingsContent" tabindex="0">Classic League</button>
+    <nav class="toolbar sub nav nav-pills" id="standingsTabs" role="tablist" aria-label="Standings league">
+      <span class="tab-wrap nav-item">
+        <button type="button" id="tabStandingsClassic" class="nav-link active" role="tab" aria-selected="true" aria-controls="standingsContent" tabindex="0">Classic League</button>
       </span>
-      <span class="tab-wrap">
-        <button type="button" id="tabStandingsH2h" role="tab" aria-selected="false" aria-controls="standingsContent" tabindex="-1">H2H League</button>
+      <span class="tab-wrap nav-item">
+        <button type="button" id="tabStandingsH2h" class="nav-link" role="tab" aria-selected="false" aria-controls="standingsContent" tabindex="-1">H2H League</button>
       </span>
-    </div>
+    </nav>
     <div class="contest-panel" id="standingsContent"></div>
   </section>
 
@@ -1560,14 +1596,14 @@
     <div class="contest-panel" id="kingContent"></div>
   </section>
   <section id="panel-knockout" class="panel" role="tabpanel" aria-labelledby="mainTabKnockout" tabindex="-1" hidden>
-    <div class="toolbar sub" id="knockoutTabs" role="tablist" aria-label="Knockout league">
-      <span class="tab-wrap">
-        <button type="button" id="tabClassic" class="active" role="tab" aria-selected="true" aria-controls="bracketContainer" tabindex="0">Jota Legends (Classic)</button>
+    <nav class="toolbar sub nav nav-pills" id="knockoutTabs" role="tablist" aria-label="Knockout league">
+      <span class="tab-wrap nav-item">
+        <button type="button" id="tabClassic" class="nav-link active" role="tab" aria-selected="true" aria-controls="bracketContainer" tabindex="0">Jota Legends (Classic)</button>
       </span>
-      <span class="tab-wrap">
-        <button type="button" id="tabH2h" role="tab" aria-selected="false" aria-controls="bracketContainer" tabindex="-1">Diogo Legacy (H2H)</button>
+      <span class="tab-wrap nav-item">
+        <button type="button" id="tabH2h" class="nav-link" role="tab" aria-selected="false" aria-controls="bracketContainer" tabindex="-1">Diogo Legacy (H2H)</button>
       </span>
-    </div>
+    </nav>
     <div id="bracketContainer"></div>
   </section>
 
@@ -1996,8 +2032,8 @@ function renderMobileRoundBracket(container, state) {
     .filter(([, match]) => match.gw === gw)
     .sort(([a], [b]) => Number(a) - Number(b));
   const tabs = rounds.map((roundGw, roundIndex) => {
-    const active = roundIndex === index ? ' class="active"' : '';
-    return `<button type="button" data-round-index="${roundIndex}"${active}>GW${roundMeta.displayGw[roundGw]}</button>`;
+    const active = roundIndex === index;
+    return `<button type="button" class="btn btn-sm btn-outline-primary${active ? ' active' : ''}" data-round-index="${roundIndex}">GW${roundMeta.displayGw[roundGw]}</button>`;
   }).join('');
   const openMatches = mobileOpenMatches[currentLeague];
   const cards = matches.map(([matchNo, match]) => (
@@ -2007,11 +2043,11 @@ function renderMobileRoundBracket(container, state) {
   shell.className = 'mobile-bracket-shell';
   shell.innerHTML = `
     <div class="mobile-bracket-toolbar">
-      <div class="mobile-bracket-actions"><button type="button" data-bracket-view="full">View Full Bracket</button></div>
+      <div class="mobile-bracket-actions"><button type="button" class="btn btn-sm btn-outline-primary" data-bracket-view="full">View Full Bracket</button></div>
       <div class="mobile-round-nav">
-        <button type="button" data-round-step="-1" aria-label="Previous round"${index === 0 ? ' disabled' : ''}>‹</button>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-round-step="-1" aria-label="Previous round"${index === 0 ? ' disabled' : ''}>‹</button>
         <span class="mobile-round-label">${escapeHTML(roundMeta.labels[gw])}</span>
-        <button type="button" data-round-step="1" aria-label="Next round"${index === rounds.length - 1 ? ' disabled' : ''}>›</button>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-round-step="1" aria-label="Next round"${index === rounds.length - 1 ? ' disabled' : ''}>›</button>
       </div>
       <div class="mobile-round-tabs" role="tablist" aria-label="Knockout rounds">${tabs}</div>
     </div>
@@ -2077,7 +2113,7 @@ function renderMobileFullBracket(container, state) {
   renderFullBracket(container, state);
   const toolbar = document.createElement('div');
   toolbar.className = 'mobile-bracket-toolbar';
-  toolbar.innerHTML = '<div class="mobile-bracket-actions"><button type="button">Round View</button></div>';
+  toolbar.innerHTML = '<div class="mobile-bracket-actions"><button type="button" class="btn btn-sm btn-outline-primary">Round View</button></div>';
   toolbar.querySelector('button').addEventListener('click', () => {
     mobileBracketMode = 'round';
     renderBracket(container, state);
@@ -2178,7 +2214,7 @@ function awardStatHTML(label, value) {
 }
 
 function winnerCardTriggerHTML(winners, points, kind, periodValue, separator = '<br>') {
-  return winners.map((w) => `<button type="button" class="hof-name winner-card-trigger" data-entry-id="${w.entry_id}" data-team="${escapeHTML(w.team_name)}" data-manager="${escapeHTML(w.manager)}" data-points="${points}" data-kind="${kind}" data-period="${escapeHTML(String(periodValue))}">${escapeHTML(w.team_name)}</button> <span class="contest-meta">(${escapeHTML(w.manager)})</span>`).join(separator);
+  return winners.map((w) => `<button type="button" class="btn btn-link hof-name winner-card-trigger" data-entry-id="${w.entry_id}" data-team="${escapeHTML(w.team_name)}" data-manager="${escapeHTML(w.manager)}" data-points="${points}" data-kind="${kind}" data-period="${escapeHTML(String(periodValue))}">${escapeHTML(w.team_name)}</button> <span class="contest-meta">(${escapeHTML(w.manager)})</span>`).join(separator);
 }
 
 const RULES = {
@@ -2302,7 +2338,7 @@ const rulesBody = document.getElementById('rulesBody');
 function renderRules() {
   rulesBody.innerHTML = RULES_ORDER.map((key) => {
     const rule = RULES[key];
-    return `<article class="rules-card"><h4>${rule.title}</h4>${rule.body}</article>`;
+    return `<article class="card rules-card"><div class="card-body"><h4 class="card-title">${rule.title}</h4>${rule.body}</div></article>`;
   }).join('');
 }
 
@@ -2337,13 +2373,13 @@ function computeHallOfFame(clusters) {
 
 function hofCardHTML([name, count], rank) {
   if (!rank) {
-    return `<article class="contest-card hof-card">
-      <button type="button" class="hof-name profile-trigger manager-profile-trigger">${champTrophyIcon(14)}${escapeHTML(name)}</button>
+    return `<article class="card contest-card hof-card">
+      <button type="button" class="btn btn-link hof-name profile-trigger manager-profile-trigger">${champTrophyIcon(14)}${escapeHTML(name)}</button>
     </article>`;
   }
-  return `<article class="contest-card hof-card rank-${rank}">
+  return `<article class="card contest-card hof-card rank-${rank}">
       <div class="hof-rank">${rank}</div>
-      <button type="button" class="hof-name profile-trigger manager-profile-trigger">${escapeHTML(name)}</button>
+      <button type="button" class="btn btn-link hof-name profile-trigger manager-profile-trigger">${escapeHTML(name)}</button>
       <div class="hof-count">${champTrophyIcon(14)}<span>${count} title${count === 1 ? '' : 's'}</span></div>
     </article>`;
 }
@@ -2744,8 +2780,8 @@ function renderProfileTabBody() {
   profileDialog.querySelector('.profile-body').innerHTML = `
     <h2 class="profile-name">${escapeHTML(name)} <span class="tt-id">Team ID: ${entryId}</span></h2>
     <div class="profile-tabs">
-      <button type="button" class="profile-tab-btn${isChips ? '' : ' active'}" data-tab="season">Season History</button>
-      <button type="button" class="profile-tab-btn${isChips ? ' active' : ''}" data-tab="chips">Chip Usage</button>
+      <button type="button" class="btn btn-sm btn-outline-primary profile-tab-btn${isChips ? '' : ' active'}" data-tab="season">Season History</button>
+      <button type="button" class="btn btn-sm btn-outline-primary profile-tab-btn${isChips ? ' active' : ''}" data-tab="chips">Chip Usage</button>
     </div>
     <div class="profile-total"><span>${isChips ? `${chips.length} chip${chips.length === 1 ? '' : 's'} played this season` : `${seasons.length} season${seasons.length === 1 ? '' : 's'} of FPL history`}</span></div>
     <h3 class="profile-section-heading">${isChips ? 'Chip Usage' : 'Season History'}</h3>
@@ -2834,11 +2870,11 @@ function renderHallOfFame(entries) {
     const cards = tier.map((e) => hofCardHTML(e, null)).join('');
     return `<details class="hof-collapse">
       <summary>${label} (${tier.length})</summary>
-      <article class="contest-card"><div class="hof-grid">${cards}</div></article>
+      <article class="card contest-card"><div class="hof-grid">${cards}</div></article>
     </details>`;
   };
   const podium = topTier.length
-    ? `<article class="contest-card hof-podium"><div class="hof-grid">${topCards}</div></article>`
+    ? `<article class="card contest-card hof-podium"><div class="hof-grid">${topCards}</div></article>`
     : '';
 
   return `<div class="champ-wall-heading">Hall of Fame — Most Titles</div>
@@ -2859,9 +2895,9 @@ function renderChampionsGroup(group) {
     return `<tr>${cells}</tr>`;
   }).join('');
   const note = group.note ? `<p class="champ-group-note">${escapeHTML(group.note)}</p>` : '';
-  return `<article class="contest-card">
+  return `<article class="card contest-card">
     <div class="card-title"><h2>${escapeHTML(group.title)}</h2></div>
-    <table class="contest-table">
+    <table class="table table-dark table-hover align-middle contest-table">
       <thead><tr>${head}</tr></thead>
       <tbody>${body}</tbody>
     </table>
@@ -2882,7 +2918,7 @@ function renderChampions() {
 }
 
 function managerLinkHTML(entryId, manager, teamName) {
-  return `<button type="button" class="hof-name profile-trigger season-history-trigger" data-entry-id="${entryId}">${escapeHTML(manager)}</button> <span class="contest-meta">(${escapeHTML(teamName)})</span>`;
+  return `<button type="button" class="btn btn-link hof-name profile-trigger season-history-trigger" data-entry-id="${entryId}">${escapeHTML(manager)}</button> <span class="contest-meta">(${escapeHTML(teamName)})</span>`;
 }
 
 const CHIP_LABELS = {
@@ -3044,7 +3080,7 @@ function renderH2hCompareResult() {
       <div class="h2h-vs-badge">VS</div>
       <div class="h2h-vs-side h2h-vs-b">${escapeHTML(bName)}</div>
     </div>
-    <table class="contest-table h2h-compare-table">
+    <table class="table table-dark table-hover align-middle contest-table h2h-compare-table">
       <tbody>
         ${pointsRowHTML}
         <tr><td>Chips remaining</td><td>${chipsRemainingHTML(aId)}</td><td>${chipsRemainingHTML(bId)}</td></tr>
@@ -3095,7 +3131,7 @@ function renderStandingsCaptainPie() {
   const wrap = document.getElementById('standingsCaptainWrap');
   if (!wrap) return;
   const captain = managerInsightsData?.captain || { gw: null, provisional: false };
-  const badge = captain.provisional ? ' <span class="badge live">Live</span>' : '';
+  const badge = captain.provisional ? ' <span class="badge rounded-pill live">Live</span>' : '';
   wrap.innerHTML = `
     <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}</div>
     <div id="standingsCaptainPie" class="trend-chart-wrap"></div>`;
@@ -3111,8 +3147,8 @@ function renderH2hCompare() {
   wrap.innerHTML = `
     <div class="champ-wall-heading">Compare 2 Managers</div>
     <div class="trend-controls">
-      <span class="trend-select-wrap trend-select-a"><label for="h2hCompareA">Manager A</label> <select id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
-      <span class="trend-select-wrap trend-select-b"><label for="h2hCompareB">Manager B</label> <select id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
+      <span class="trend-select-wrap trend-select-a"><label for="h2hCompareA">Manager A</label> <select class="form-select form-select-sm" id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
+      <span class="trend-select-wrap trend-select-b"><label for="h2hCompareB">Manager B</label> <select class="form-select form-select-sm" id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
     </div>
     <div id="h2hCompareResult"></div>`;
   renderH2hCompareResult();
@@ -3139,18 +3175,18 @@ function renderStandingsTable() {
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
   const captainBlock = league === 'classic'
-    ? `<button type="button" id="standingsCaptainToggle" class="mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}" aria-expanded="${standingsCaptainOpen}" aria-controls="standingsCaptainWrap">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+    ? `<button type="button" id="standingsCaptainToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}" aria-expanded="${standingsCaptainOpen}" aria-controls="standingsCaptainWrap">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
        <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>`
     : '';
   const h2hCompareBlock = league === 'h2h'
-    ? `<button type="button" id="h2hCompareToggle" class="mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
+    ? `<button type="button" id="h2hCompareToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
        <div id="h2hCompareWrap" class="insights-section"${h2hCompareOpen ? '' : ' hidden'}></div>`
     : '';
   document.getElementById('standingsContent').innerHTML = `
     <div class="champ-wall-heading">${gwLabel}</div>
     ${captainBlock}
     ${h2hCompareBlock}
-    <table class="contest-table standings-table standings-table-${league}">
+    <table class="table table-dark table-hover align-middle contest-table standings-table standings-table-${league}">
       <thead>${head}</thead>
       <tbody>${body}</tbody>
     </table>`;
@@ -3163,8 +3199,8 @@ function renderMow(data) {
   const body = rows.length
     ? rows.map((r) => {
         const badges = [
-          r.shared ? '<span class="badge shared">Shared</span>' : '',
-          r.provisional ? '<span class="badge live">Live</span>' : '',
+          r.shared ? '<span class="badge rounded-pill shared">Shared</span>' : '',
+          r.provisional ? '<span class="badge rounded-pill live">Live</span>' : '',
         ].join('');
         return `<tr>
           <td>GW ${r.gw}${badges}</td>
@@ -3176,7 +3212,7 @@ function renderMow(data) {
   document.getElementById('mowContent').innerHTML = `
     <div class="champ-wall-heading">Manager of the Week</div>
     <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
-    <table class="contest-table">
+    <table class="table table-dark table-hover align-middle contest-table">
       <thead><tr><th>Gameweek</th><th>Winner</th><th>Points</th></tr></thead>
       <tbody>${body}</tbody>
     </table>`;
@@ -3187,8 +3223,8 @@ function renderMom(data) {
   const body = rows.length
     ? rows.map((r) => {
         const badges = [
-          r.shared ? '<span class="badge shared">Shared</span>' : '',
-          r.provisional ? '<span class="badge live">Live</span>' : '',
+          r.shared ? '<span class="badge rounded-pill shared">Shared</span>' : '',
+          r.provisional ? '<span class="badge rounded-pill live">Live</span>' : '',
         ].join('');
         return `<tr>
           <td>${escapeHTML(r.label)}${badges}<div class="contest-meta">GW ${r.gameweeks.join(', ')}</div></td>
@@ -3200,7 +3236,7 @@ function renderMom(data) {
   document.getElementById('momContent').innerHTML = `
     <div class="champ-wall-heading">Manager of the Month</div>
     <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
-    <table class="contest-table">
+    <table class="table table-dark table-hover align-middle contest-table">
       <thead><tr><th>Month</th><th>Winner</th><th>Points</th></tr></thead>
       <tbody>${body}</tbody>
     </table>`;
@@ -3211,8 +3247,8 @@ function renderKing(data) {
   const cent = data?.centurion;
   const kingWinners = king?.winners || [];
   const kingBadges = [
-    king?.shared ? '<span class="badge shared">Shared</span>' : '',
-    king?.provisional ? '<span class="badge live">Live</span>' : '',
+    king?.shared ? '<span class="badge rounded-pill shared">Shared</span>' : '',
+    king?.provisional ? '<span class="badge rounded-pill live">Live</span>' : '',
   ].join('');
   const kingGameweeks = [...new Set(kingWinners.map((winner) => winner.gw).filter(Boolean))];
   const kingWinnerCards = kingWinners.length
@@ -3221,8 +3257,8 @@ function renderKing(data) {
 
   const centWinners = cent?.winners || [];
   const centBadges = [
-    cent?.shared ? '<span class="badge shared">Shared</span>' : '',
-    cent?.provisional ? '<span class="badge live">Live</span>' : '',
+    cent?.shared ? '<span class="badge rounded-pill shared">Shared</span>' : '',
+    cent?.provisional ? '<span class="badge rounded-pill live">Live</span>' : '',
   ].join('');
   let centKicker = 'Opens from GW 19';
   let centWinnerCards = awardWinnerHTML(
@@ -3255,7 +3291,7 @@ function renderKing(data) {
     <p class="contest-rule">Click on <strong>Rulebook</strong> from Nav Bar to See Contest Details</p>
     <div class="award-grid row g-3">
       <div class="col-12 col-md-6">
-      <article class="award-card award-card--king h-100">
+      <article class="card award-card award-card--king h-100">
         <div class="award-band d-flex">
           <span class="award-emblem">${awardIcon('crown')}</span>
           <div class="award-heading">
@@ -3277,7 +3313,7 @@ function renderKing(data) {
       </article>
       </div>
       <div class="col-12 col-md-6">
-      <article class="award-card award-card--centurion h-100">
+      <article class="card award-card award-card--centurion h-100">
         <div class="award-band d-flex">
           <span class="award-emblem">${awardIcon('centurion')}</span>
           <div class="award-heading">
