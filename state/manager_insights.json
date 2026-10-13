@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T01:00:32.536129+00:00",
+  "generated_at": "2026-10-13T01:05:26.938820+00:00",
   "form": {
     "gws": [
       1,
@@ -630,21 +630,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
-        }
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -656,6 +641,21 @@
         {
           "name": "3xc",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 5
         }
       ]
     },
@@ -1426,37 +1426,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 4969899
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1731172
-        },
-        {
-          "gw": 3,
-          "overall_rank": 1029798
-        },
-        {
-          "gw": 4,
-          "overall_rank": 1263867
-        },
-        {
-          "gw": 5,
-          "overall_rank": 2175978
-        },
-        {
-          "gw": 6,
-          "overall_rank": 2125041
-        }
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1480,6 +1449,37 @@
         {
           "gw": 5,
           "overall_rank": 3914069
+        },
+        {
+          "gw": 6,
+          "overall_rank": 2125041
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 4969899
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1731172
+        },
+        {
+          "gw": 3,
+          "overall_rank": 1029798
+        },
+        {
+          "gw": 4,
+          "overall_rank": 1263867
+        },
+        {
+          "gw": 5,
+          "overall_rank": 2175978
         },
         {
           "gw": 6,
@@ -1643,37 +1643,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gws": [
-        {
-          "gw": 1,
-          "overall_rank": 6124832
-        },
-        {
-          "gw": 2,
-          "overall_rank": 1383722
-        },
-        {
-          "gw": 3,
-          "overall_rank": 2886988
-        },
-        {
-          "gw": 4,
-          "overall_rank": 4034990
-        },
-        {
-          "gw": 5,
-          "overall_rank": 3181539
-        },
-        {
-          "gw": 6,
-          "overall_rank": 3679700
-        }
-      ]
-    },
-    {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
@@ -1697,6 +1666,37 @@
         {
           "gw": 5,
           "overall_rank": 4679668
+        },
+        {
+          "gw": 6,
+          "overall_rank": 3679700
+        }
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gws": [
+        {
+          "gw": 1,
+          "overall_rank": 6124832
+        },
+        {
+          "gw": 2,
+          "overall_rank": 1383722
+        },
+        {
+          "gw": 3,
+          "overall_rank": 2886988
+        },
+        {
+          "gw": 4,
+          "overall_rank": 4034990
+        },
+        {
+          "gw": 5,
+          "overall_rank": 3181539
         },
         {
           "gw": 6,
@@ -2457,17 +2457,17 @@
         "points": 12
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
@@ -2513,20 +2513,20 @@
         "points": 6
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 1
-      },
-      {
         "entry_id": 2435657,
         "team_name": "HawaHawai",
         "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 1
       },
       {
         "entry_id": 2659214,
