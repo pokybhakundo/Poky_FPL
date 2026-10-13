@@ -55,6 +55,31 @@
     --font-md: 17px;
     --font-lg: 18px;
     --font-xl: 22px;
+
+    /* Map Bootstrap's theme variables to our own palette (Bootstrap 5.3's
+       utilities read these at use-time via var()), so any .bg-primary /
+       .text-success / .btn-danger etc rendered in-brand instead of
+       Bootstrap's defaults -- nothing currently uses them, so this is a
+       no-op until a future utility class reaches for one. */
+    --bs-primary: var(--accent);
+    --bs-primary-rgb: var(--accent-rgb);
+    --bs-info: var(--accent);
+    --bs-info-rgb: var(--accent-rgb);
+    --bs-success: var(--winner);
+    --bs-success-rgb: var(--winner-rgb);
+    --bs-danger: var(--live);
+    --bs-danger-rgb: var(--live-rgb);
+    --bs-warning: var(--highlight);
+    --bs-warning-rgb: var(--highlight-rgb);
+    --bs-secondary: var(--sub);
+    --bs-secondary-rgb: 170, 184, 202;
+    --bs-dark: var(--bg);
+    --bs-dark-rgb: 8, 17, 31;
+    --bs-light: var(--card);
+    --bs-light-rgb: var(--card-rgb);
+    --bs-body-bg: var(--bg);
+    --bs-body-color: var(--text);
+    --bs-border-color: var(--card-border);
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; }
