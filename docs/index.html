@@ -552,7 +552,6 @@
   }
 
   .mow-captain-toggle { margin-bottom: 14px; }
-  #standingsCaptainWrap.insights-section { margin-bottom: 18px; }
   .insights-section { margin-bottom: 30px; }
   .insights-section:last-child { margin-bottom: 0; }
   .insights-section .champ-wall-heading { margin-bottom: 10px; }
@@ -800,6 +799,8 @@
     box-shadow: var(--shadow-md);
   }
   .profile-dialog::backdrop { background: rgba(2, 4, 9, 0.72); backdrop-filter: blur(3px); }
+  .chart-dialog { width: min(640px, calc(100vw - 32px)); }
+  .chart-dialog #chartDialogTitle { margin-bottom: 12px; }
   .profile-close {
     position: absolute;
     top: 10px;
@@ -2417,6 +2418,23 @@ profileDialog.addEventListener('click', (e) => {
   if (!inside) profileDialog.close();
 });
 
+// Charts (Captain Picks, Top Owned Players) render into their own popup --
+// a Plotly chart toggled inline inside the scrolling table panel measured
+// its container before the browser had committed layout for the
+// just-unhidden element, rendering at the wrong size and overlapping the
+// table below. A <dialog> sidesteps that: it's a separate top-layer
+// element with its own scroll region, fully decoupled from the page.
+const chartDialog = document.createElement('dialog');
+chartDialog.className = 'profile-dialog chart-dialog';
+chartDialog.innerHTML = '<button type="button" class="profile-close" aria-label="Close">&times;</button><div class="profile-body"><div class="champ-wall-heading" id="chartDialogTitle"></div><div id="chartDialogBody"></div></div>';
+document.body.appendChild(chartDialog);
+chartDialog.querySelector('.profile-close').addEventListener('click', () => chartDialog.close());
+chartDialog.addEventListener('click', (e) => {
+  const r = chartDialog.getBoundingClientRect();
+  const inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+  if (!inside) chartDialog.close();
+});
+
 const winnerCardDialog = document.createElement('dialog');
 winnerCardDialog.className = 'winner-card-dialog';
 winnerCardDialog.innerHTML = `
@@ -2844,24 +2862,12 @@ document.addEventListener('click', (e) => {
   }
   const standingsCaptainToggleEl = e.target.closest('#standingsCaptainToggle');
   if (standingsCaptainToggleEl) {
-    standingsCaptainOpen = !standingsCaptainOpen;
-    standingsCaptainToggleEl.classList.toggle('active', standingsCaptainOpen);
-    standingsCaptainToggleEl.setAttribute('aria-expanded', String(standingsCaptainOpen));
-    standingsCaptainToggleEl.textContent = standingsCaptainToggleEl.textContent.replace(/^(Show|Hide)/, standingsCaptainOpen ? 'Hide' : 'Show');
-    const wrap = document.getElementById('standingsCaptainWrap');
-    wrap.hidden = !standingsCaptainOpen;
-    if (standingsCaptainOpen) renderStandingsCaptainPie();
+    openChartDialog('Captain Picks', renderStandingsCaptainPie);
     return;
   }
   const ownedPlayersToggleEl = e.target.closest('#ownedPlayersToggle');
   if (ownedPlayersToggleEl) {
-    ownedPlayersOpen = !ownedPlayersOpen;
-    ownedPlayersToggleEl.classList.toggle('active', ownedPlayersOpen);
-    ownedPlayersToggleEl.setAttribute('aria-expanded', String(ownedPlayersOpen));
-    ownedPlayersToggleEl.textContent = ownedPlayersToggleEl.textContent.replace(/^(Show|Hide)/, ownedPlayersOpen ? 'Hide' : 'Show');
-    const ownedWrap = document.getElementById('ownedPlayersWrap');
-    ownedWrap.hidden = !ownedPlayersOpen;
-    if (ownedPlayersOpen) renderOwnedPlayersChart();
+    openChartDialog('Top 15 Owned Players', renderOwnedPlayersChart);
     return;
   }
   const h2hCompareToggleEl = e.target.closest('#h2hCompareToggle');
@@ -2999,6 +3005,7 @@ function renderCaptainPie(slices, containerId) {
     showlegend: true,
     legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
   }, PLOTLY_CONFIG);
+  requestAnimationFrame(() => Plotly.Plots.resize(el));
 }
 
 function ownedPlayersTop15() {
@@ -3017,18 +3024,14 @@ function ownedPlayersTop15() {
 }
 
 function renderOwnedPlayersChart() {
-  const wrap = document.getElementById('ownedPlayersWrap');
-  if (!wrap) return;
+  const body = document.getElementById('chartDialogBody');
+  if (!body) return;
   const top = ownedPlayersTop15();
   if (!top.length) {
-    wrap.innerHTML = `
-      <div class="champ-wall-heading">Top Owned Players</div>
-      <p class="trend-empty">Ownership needs this gameweek's picks data, not available yet.</p>`;
+    body.innerHTML = '<p class="trend-empty">Ownership needs this gameweek\'s picks data, not available yet.</p>';
     return;
   }
-  wrap.innerHTML = `
-    <div class="champ-wall-heading">Top 15 Owned Players</div>
-    <div id="ownedPlayersChart" class="trend-chart-wrap"></div>`;
+  body.innerHTML = '<div id="ownedPlayersChart" class="trend-chart-wrap"></div>';
   const el = document.getElementById('ownedPlayersChart');
   const ordered = [...top].reverse(); // Plotly h-bars plot bottom-up by default; reverse so #1 lands on top
   Plotly.newPlot(el, [{
@@ -3048,6 +3051,7 @@ function renderOwnedPlayersChart() {
     xaxis: { title: 'Owned by (%)', range: [0, 100], gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
     yaxis: { color: '#9fb2c8', automargin: true },
   }, PLOTLY_CONFIG);
+  requestAnimationFrame(() => Plotly.Plots.resize(el));
 }
 
 function entryOptionsHTML(entries, selectedId, includeNone) {
@@ -3228,17 +3232,19 @@ function standingsRowHTML(row, league, captainMap) {
   </tr>`;
 }
 
-let standingsCaptainOpen = false;
-let ownedPlayersOpen = false;
+function openChartDialog(title, renderFn) {
+  document.getElementById('chartDialogTitle').textContent = title;
+  document.getElementById('chartDialogBody').innerHTML = '';
+  chartDialog.showModal();
+  renderFn();
+}
 
 function renderStandingsCaptainPie() {
-  const wrap = document.getElementById('standingsCaptainWrap');
-  if (!wrap) return;
   const captain = managerInsightsData?.captain || { gw: null, provisional: false };
   const badge = captain.provisional ? ' <span class="badge rounded-pill live">Live</span>' : '';
-  wrap.innerHTML = `
-    <div class="champ-wall-heading">Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}</div>
-    <div id="standingsCaptainPie" class="trend-chart-wrap"></div>`;
+  document.getElementById('chartDialogTitle').innerHTML = `Captain Picks${captain.gw ? ` — GW${captain.gw}` : ''}${badge}`;
+  const body = document.getElementById('chartDialogBody');
+  body.innerHTML = '<div id="standingsCaptainPie" class="trend-chart-wrap"></div>';
   renderCaptainPie(captainPieSlices(), 'standingsCaptainPie');
 }
 
@@ -3279,10 +3285,8 @@ function renderStandingsTable() {
   const gwLabel = standingsData.gw ? `Live Gameweek ${standingsData.gw} Standings` : 'Standings';
   const captainGw = managerInsightsData?.captain?.gw;
   const captainBlock = league === 'classic'
-    ? `<button type="button" id="standingsCaptainToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${standingsCaptainOpen ? ' active' : ''}" aria-expanded="${standingsCaptainOpen}" aria-controls="standingsCaptainWrap">${standingsCaptainOpen ? 'Hide' : 'Show'} Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
-       <button type="button" id="ownedPlayersToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${ownedPlayersOpen ? ' active' : ''}" aria-expanded="${ownedPlayersOpen}" aria-controls="ownedPlayersWrap">${ownedPlayersOpen ? 'Hide' : 'Show'} Top Owned Players</button>
-       <div id="standingsCaptainWrap" class="insights-section"${standingsCaptainOpen ? '' : ' hidden'}></div>
-       <div id="ownedPlayersWrap" class="insights-section"${ownedPlayersOpen ? '' : ' hidden'}></div>`
+    ? `<button type="button" id="standingsCaptainToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
+       <button type="button" id="ownedPlayersToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Top Owned Players</button>`
     : '';
   const h2hCompareBlock = league === 'h2h'
     ? `<button type="button" id="h2hCompareToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
@@ -3296,8 +3300,6 @@ function renderStandingsTable() {
       <thead>${head}</thead>
       <tbody>${body}</tbody>
     </table>`;
-  if (standingsCaptainOpen && league === 'classic') renderStandingsCaptainPie();
-  if (ownedPlayersOpen && league === 'classic') renderOwnedPlayersChart();
   if (h2hCompareOpen && league === 'h2h') renderH2hCompare();
 }
 
