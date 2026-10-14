@@ -2997,6 +2997,10 @@ function renderCaptainPie(slices, containerId) {
     el.innerHTML = '<p class="trend-empty">No picks data yet for this gameweek.</p>';
     return;
   }
+  const width = dialogChartWidth();
+  const narrow = width < 520;
+  // Narrow screens: slice labels would collide, so show only the % on the
+  // slices and let the legend (below the pie) carry the names.
   Plotly.newPlot(el, [{
     type: 'pie',
     labels: slices.map((s) => s.label),
@@ -3004,17 +3008,19 @@ function renderCaptainPie(slices, containerId) {
     marker: { colors: slices.map((s) => s.color), line: { color: '#13243b', width: 2 } },
     text: slices.map((s) => s.detail),
     hovertemplate: '%{label} — %{text}<extra></extra>',
-    textinfo: 'label+percent',
-    textposition: 'auto',
-    automargin: true,
-    textfont: { color: '#f7fafc', size: 13 },
+    textinfo: narrow ? 'percent' : 'label+percent',
+    textposition: narrow ? 'inside' : 'auto',
+    automargin: !narrow,
+    textfont: { color: '#f7fafc', size: narrow ? 11 : 13 },
   }], {
     ...PLOTLY_BASE_LAYOUT,
-    width: dialogChartWidth(),
-    height: Math.max(500, 160 + slices.length * 30),
-    margin: { l: 70, r: 70, t: 50, b: 50 },
+    width,
+    height: narrow ? width + 30 + slices.length * 20 : Math.max(500, 160 + slices.length * 30),
+    margin: narrow ? { l: 10, r: 10, t: 10, b: 10 } : { l: 70, r: 70, t: 50, b: 50 },
     showlegend: true,
-    legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
+    legend: narrow
+      ? { font: { color: '#9fb2c8', size: 11 }, orientation: 'h', x: 0.5, xanchor: 'center', y: -0.02, yanchor: 'top' }
+      : { font: { color: '#9fb2c8' }, orientation: 'v' },
   }, DIALOG_CHART_CONFIG);
 }
 
@@ -3053,7 +3059,7 @@ function renderOwnedPlayersChart() {
     text: ordered.map((p) => `${p.pct.toFixed(0)}%`),
     textposition: 'outside',
     textfont: { color: '#f1f5f9' },
-    hovertemplate: '%{y} — owned by %{x:.0f}%<extra></extra>',
+    hoverinfo: 'none',
   }], {
     ...PLOTLY_BASE_LAYOUT,
     width: dialogChartWidth(),
@@ -3061,7 +3067,7 @@ function renderOwnedPlayersChart() {
     margin: { l: 10, r: 50, t: 10, b: 40 },
     xaxis: { title: 'Owned by (%)', range: [0, 112], gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
     yaxis: { color: '#9fb2c8', automargin: true },
-  }, DIALOG_CHART_CONFIG);
+  }, { ...DIALOG_CHART_CONFIG, staticPlot: true }); // all 15 bars already show their %, so no tap/hover interaction
 }
 
 function entryOptionsHTML(entries, selectedId, includeNone) {
