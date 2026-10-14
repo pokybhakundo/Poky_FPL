@@ -2867,7 +2867,7 @@ document.addEventListener('click', (e) => {
   }
   const ownedPlayersToggleEl = e.target.closest('#ownedPlayersToggle');
   if (ownedPlayersToggleEl) {
-    openChartDialog('Top 15 Owned Players', renderOwnedPlayersChart);
+    openChartDialog('Top 15 Owned Players (Overall)', renderOwnedPlayersChart);
     return;
   }
   const h2hCompareToggleEl = e.target.closest('#h2hCompareToggle');
@@ -3293,7 +3293,7 @@ function renderStandingsTable() {
   const captainGw = managerInsightsData?.captain?.gw;
   const captainBlock = league === 'classic'
     ? `<button type="button" id="standingsCaptainToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Captain Picks${captainGw ? ` — GW${captainGw}` : ''}</button>
-       <button type="button" id="ownedPlayersToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Top Owned Players</button>`
+       <button type="button" id="ownedPlayersToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Top Owned Players (Overall)</button>`
     : '';
   const h2hCompareBlock = league === 'h2h'
     ? `<button type="button" id="h2hCompareToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Managers Insights</button>
