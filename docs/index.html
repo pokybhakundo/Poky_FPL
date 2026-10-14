@@ -3262,7 +3262,7 @@ function renderH2hCompare() {
   if (!wrap) return;
   const entries = managerInsightsData?.form?.table || [];
   wrap.innerHTML = `
-    <div class="champ-wall-heading">Compare 2 Managers</div>
+    <div class="champ-wall-heading">Managers Insights</div>
     <div class="trend-controls">
       <span class="trend-select-wrap trend-select-a"><label for="h2hCompareA">Manager A</label> <select class="form-select form-select-sm" id="h2hCompareA">${entryOptionsHTML(entries, h2hCompareSelect.a, false)}</select></span>
       <span class="trend-select-wrap trend-select-b"><label for="h2hCompareB">Manager B</label> <select class="form-select form-select-sm" id="h2hCompareB">${entryOptionsHTML(entries, h2hCompareSelect.b, false)}</select></span>
@@ -3296,7 +3296,7 @@ function renderStandingsTable() {
        <button type="button" id="ownedPlayersToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle">Top Owned Players</button>`
     : '';
   const h2hCompareBlock = league === 'h2h'
-    ? `<button type="button" id="h2hCompareToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Compare 2 Managers</button>
+    ? `<button type="button" id="h2hCompareToggle" class="btn btn-sm btn-outline-primary mow-captain-toggle${h2hCompareOpen ? ' active' : ''}" aria-expanded="${h2hCompareOpen}" aria-controls="h2hCompareWrap">${h2hCompareOpen ? 'Hide' : 'Show'} Managers Insights</button>
        <div id="h2hCompareWrap" class="insights-section"${h2hCompareOpen ? '' : ' hidden'}></div>`
     : '';
   document.getElementById('standingsContent').innerHTML = `
