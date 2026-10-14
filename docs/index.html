@@ -799,7 +799,7 @@
     box-shadow: var(--shadow-md);
   }
   .profile-dialog::backdrop { background: rgba(2, 4, 9, 0.72); backdrop-filter: blur(3px); }
-  .chart-dialog { width: min(640px, calc(100vw - 32px)); }
+  .chart-dialog { width: min(960px, calc(100vw - 32px)); max-height: 92vh; }
   .chart-dialog #chartDialogTitle { margin-bottom: 12px; }
   .profile-close {
     position: absolute;
@@ -2986,7 +2986,8 @@ const PLOTLY_BASE_LAYOUT = {
 // settle on a wrong (shrunk) size a moment after the chart first rendered.
 const DIALOG_CHART_CONFIG = { displayModeBar: false, responsive: false };
 function dialogChartWidth() {
-  return Math.max(260, chartDialog.clientWidth - 44);
+  // 44 = dialog padding; 16 more for .trend-chart-wrap's padding + border
+  return Math.max(260, chartDialog.clientWidth - 60);
 }
 
 function renderCaptainPie(slices, containerId) {
@@ -3004,12 +3005,14 @@ function renderCaptainPie(slices, containerId) {
     text: slices.map((s) => s.detail),
     hovertemplate: '%{label} — %{text}<extra></extra>',
     textinfo: 'label+percent',
-    textfont: { color: '#f7fafc' },
+    textposition: 'auto',
+    automargin: true,
+    textfont: { color: '#f7fafc', size: 13 },
   }], {
     ...PLOTLY_BASE_LAYOUT,
     width: dialogChartWidth(),
-    height: Math.max(280, 60 + slices.length * 22),
-    margin: { l: 10, r: 10, t: 10, b: 10 },
+    height: Math.max(500, 160 + slices.length * 30),
+    margin: { l: 70, r: 70, t: 50, b: 50 },
     showlegend: true,
     legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
   }, DIALOG_CHART_CONFIG);
@@ -3054,9 +3057,9 @@ function renderOwnedPlayersChart() {
   }], {
     ...PLOTLY_BASE_LAYOUT,
     width: dialogChartWidth(),
-    height: 60 + top.length * 28,
-    margin: { l: 110, r: 36, t: 10, b: 30 },
-    xaxis: { title: 'Owned by (%)', range: [0, 100], gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
+    height: 90 + top.length * 36,
+    margin: { l: 10, r: 50, t: 10, b: 40 },
+    xaxis: { title: 'Owned by (%)', range: [0, 112], gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
     yaxis: { color: '#9fb2c8', automargin: true },
   }, DIALOG_CHART_CONFIG);
 }
