@@ -2974,13 +2974,20 @@ function chipPillHTML(chip) {
 }
 
 const CATEGORICAL_COLORS = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300'];
-const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
 const PLOTLY_BASE_LAYOUT = {
   paper_bgcolor: 'rgba(0,0,0,0)',
   plot_bgcolor: 'rgba(0,0,0,0)',
   font: { family: 'Barlow, sans-serif', color: '#9fb2c8', size: 12 },
   margin: { l: 44, r: 16, t: 12, b: 36 },
 };
+// Charts inside the popup dialog get an explicit width computed once at
+// render time, with responsive/auto-resize turned off -- letting Plotly's
+// own ResizeObserver chase the dialog's size caused it to occasionally
+// settle on a wrong (shrunk) size a moment after the chart first rendered.
+const DIALOG_CHART_CONFIG = { displayModeBar: false, responsive: false };
+function dialogChartWidth() {
+  return Math.max(260, chartDialog.clientWidth - 44);
+}
 
 function renderCaptainPie(slices, containerId) {
   const el = document.getElementById(containerId);
@@ -3000,12 +3007,12 @@ function renderCaptainPie(slices, containerId) {
     textfont: { color: '#f7fafc' },
   }], {
     ...PLOTLY_BASE_LAYOUT,
+    width: dialogChartWidth(),
     height: Math.max(280, 60 + slices.length * 22),
     margin: { l: 10, r: 10, t: 10, b: 10 },
     showlegend: true,
     legend: { font: { color: '#9fb2c8' }, orientation: 'v' },
-  }, PLOTLY_CONFIG);
-  requestAnimationFrame(() => Plotly.Plots.resize(el));
+  }, DIALOG_CHART_CONFIG);
 }
 
 function ownedPlayersTop15() {
@@ -3046,12 +3053,12 @@ function renderOwnedPlayersChart() {
     hovertemplate: '%{y} — owned by %{x:.0f}%<extra></extra>',
   }], {
     ...PLOTLY_BASE_LAYOUT,
+    width: dialogChartWidth(),
     height: 60 + top.length * 28,
     margin: { l: 110, r: 36, t: 10, b: 30 },
     xaxis: { title: 'Owned by (%)', range: [0, 100], gridcolor: 'rgba(91,134,181,0.22)', color: '#9fb2c8' },
     yaxis: { color: '#9fb2c8', automargin: true },
-  }, PLOTLY_CONFIG);
-  requestAnimationFrame(() => Plotly.Plots.resize(el));
+  }, DIALOG_CHART_CONFIG);
 }
 
 function entryOptionsHTML(entries, selectedId, includeNone) {
