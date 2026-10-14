@@ -625,19 +625,19 @@
   .h2h-lead-arrow { margin-left: 6px; color: var(--winner); font-size: 13px; }
   .h2h-stat-breakdown { margin-top: 3px; color: var(--sub); font-size: var(--font-xs); }
   .h2h-card-section { margin-top: 10px; font-size: var(--font-sm); }
-  .h2h-card-label { display: block; margin-bottom: 2px; color: var(--sub); font-size: var(--font-xxs); font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+  .h2h-card-label { display: block; margin-bottom: 4px; color: var(--sub); font-size: var(--font-xxs); font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+  .h2h-card-subrow { margin-top: 3px; }
+  .h2h-card-subrow:first-of-type { margin-top: 0; }
+  .h2h-card-sublabel { color: var(--sub); font-weight: 700; margin-right: 4px; }
   .h2h-compare-common {
-    display: grid;
-    gap: 6px;
     margin-top: 12px;
     padding: 10px 14px;
     background: rgba(var(--card-rgb), 0.4);
     border: 1px solid var(--card-border);
     border-radius: var(--radius-sm);
     font-size: var(--font-sm);
-    text-align: center;
   }
-  .h2h-compare-common .h2h-card-label { display: inline; text-transform: none; letter-spacing: 0; font-weight: 700; color: var(--text); }
+  .h2h-compare-common .h2h-card-section { margin-top: 0; }
   .chip-rows { display: grid; gap: 8px; }
   .chip-row {
     display: flex;
@@ -3052,6 +3052,14 @@ function nameListHTML(list) {
 
 const h2hCompareSelect = { a: null, b: null };
 
+function h2hSubsectionHTML(label, startersHTML, benchHTML) {
+  return `<div class="h2h-card-section">
+    <div class="h2h-card-label">${label}</div>
+    <div class="h2h-card-subrow"><span class="h2h-card-sublabel">Starters</span> ${startersHTML}</div>
+    <div class="h2h-card-subrow"><span class="h2h-card-sublabel">Bench</span> ${benchHTML}</div>
+  </div>`;
+}
+
 function h2hManagerCardHTML({ side, name, leads, total, breakdown, chips, onlyStarters, onlyBench }) {
   return `<div class="h2h-manager-card h2h-manager-card--${side}">
     <div class="h2h-card-name">${escapeHTML(name)}</div>
@@ -3063,14 +3071,7 @@ function h2hManagerCardHTML({ side, name, leads, total, breakdown, chips, onlySt
       <div class="h2h-card-label">Chips remaining</div>
       <div>${chips}</div>
     </div>
-    <div class="h2h-card-section">
-      <div class="h2h-card-label">Starters only here</div>
-      <div>${onlyStarters}</div>
-    </div>
-    <div class="h2h-card-section">
-      <div class="h2h-card-label">Bench only here</div>
-      <div>${onlyBench}</div>
-    </div>
+    ${h2hSubsectionHTML('Differential', onlyStarters, onlyBench)}
   </div>`;
 }
 
@@ -3103,8 +3104,7 @@ function renderH2hCompareResult() {
     onlyBenchA = nameListHTML(bench.onlyA);
     onlyBenchB = nameListHTML(bench.onlyB);
     commonBlock = `<div class="h2h-compare-common">
-      <div><span class="h2h-card-label">Common starters</span> ${nameListHTML(starters.common)}</div>
-      <div><span class="h2h-card-label">Common bench</span> ${nameListHTML(bench.common)}</div>
+      ${h2hSubsectionHTML('Common Players', nameListHTML(starters.common), nameListHTML(bench.common))}
     </div>`;
   }
 
