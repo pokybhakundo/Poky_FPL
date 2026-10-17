@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:40:30.378123+00:00",
+  "generated_at": "2026-10-17T10:45:35.443960+00:00",
   "form": {
     "gws": [
       2,
@@ -366,17 +366,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        }
-      ]
-    },
-    {
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
@@ -392,6 +381,17 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
         }
       ]
     },
@@ -457,21 +457,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -497,6 +482,21 @@
         },
         {
           "name": "wildcard",
+          "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        },
+        {
+          "name": "3xc",
           "gw": 7
         }
       ]
@@ -827,30 +827,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "De Cuyper",
-        "Gvardiol",
-        "Cherki",
-        "Saka",
-        "Rogers",
-        "Gro\u00df",
-        "Haaland",
-        "Barry",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hall",
-        "O'Shea",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
@@ -872,6 +848,30 @@
         "Wissa",
         "Gibbs-White",
         "Ajer"
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Gvardiol",
+        "Cherki",
+        "Saka",
+        "Rogers",
+        "Gro\u00df",
+        "Haaland",
+        "Barry",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hall",
+        "O'Shea",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -995,30 +995,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "De Cuyper",
-        "Hall",
-        "Rogers",
-        "Palmer",
-        "Gibbs-White",
-        "Gro\u00df",
-        "Haaland",
-        "Wissa",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Egan",
-        "N.Williams",
-        "Schade"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -1064,6 +1040,30 @@
         "Baleba",
         "Thomas",
         "Giles"
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "De Cuyper",
+        "Hall",
+        "Rogers",
+        "Palmer",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Haaland",
+        "Wissa",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Egan",
+        "N.Williams",
+        "Schade"
       ]
     },
     {
@@ -1451,30 +1451,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "starters": [
-        "Lammens",
-        "White",
-        "Calafiori",
-        "Egan",
-        "Belloumi",
-        "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Ndiaye",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Hall",
-        "Isidor",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
@@ -1496,6 +1472,30 @@
         "Hughes",
         "Davis",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Lammens",
+        "White",
+        "Calafiori",
+        "Egan",
+        "Belloumi",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Ndiaye",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Hall",
+        "Isidor",
+        "Ajer"
       ]
     },
     {
@@ -1600,17 +1600,17 @@
         "points": 0
       },
       {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
+        "entry_id": 33334,
+        "team_name": "Not too Xabi",
+        "manager": "Swapnil Tiwari",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 33334,
-        "team_name": "Not too Xabi",
-        "manager": "Swapnil Tiwari",
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1656,14 +1656,6 @@
         "points": 0
       },
       {
-        "entry_id": 228817,
-        "team_name": "4toothee1",
-        "manager": "shakti karki",
-        "element_id": 124,
-        "player_name": "Gro\u00df",
-        "points": 0
-      },
-      {
         "entry_id": 254926,
         "team_name": "Vrum Vrummmmmm",
         "manager": "Mahesh Acharya",
@@ -1677,6 +1669,14 @@
         "manager": "Arjun Prasai",
         "element_id": 411,
         "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 228817,
+        "team_name": "4toothee1",
+        "manager": "shakti karki",
+        "element_id": 124,
+        "player_name": "Gro\u00df",
         "points": 0
       },
       {
@@ -1808,17 +1808,17 @@
         "points": 0
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
