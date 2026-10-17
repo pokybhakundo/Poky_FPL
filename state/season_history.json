@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:00:23.295463+00:00",
+  "generated_at": "2026-10-17T16:05:17.193357+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -627,6 +627,48 @@
         }
       ]
     },
+    "1845615": {
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1748,
+          "rank": 8434964
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2413,
+          "rank": 490094
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2175,
+          "rank": 2519330
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2293,
+          "rank": 1600584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1798,
+          "rank": 4822541
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1601,
+          "rank": 5978877
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 444,
+          "rank": 7478823
+        }
+      ]
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -701,48 +743,6 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
-        }
-      ]
-    },
-    "1845615": {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1748,
-          "rank": 8434964
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 490094
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2175,
-          "rank": 2519330
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2293,
-          "rank": 1600584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1798,
-          "rank": 4822541
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1601,
-          "rank": 5978877
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 444,
-          "rank": 7478823
         }
       ]
     },
@@ -1131,12 +1131,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -1193,6 +1187,12 @@
           "rank": 290074
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "75325": {
       "entry_id": 75325,

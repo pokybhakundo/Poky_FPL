@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:00:24.688355+00:00",
+  "generated_at": "2026-10-17T16:05:19.597430+00:00",
   "form": {
     "gws": [
       2,
@@ -483,17 +483,6 @@
       ]
     },
     {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -513,6 +502,17 @@
         {
           "name": "freehit",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
         }
       ]
     },
@@ -641,6 +641,21 @@
       ]
     },
     {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -660,21 +675,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
         }
       ]
     },
@@ -1067,30 +1067,6 @@
       ]
     },
     {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "starters": [
-        "Roefs",
-        "Calafiori",
-        "De Cuyper",
-        "Gvardiol",
-        "Palmer",
-        "Szoboszlai",
-        "Cherki",
-        "Saka",
-        "Gro\u00df",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "van Ewijk",
-        "Davis",
-        "Walle Egeli"
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -1112,6 +1088,30 @@
         "Mitchell",
         "Isak",
         "Gvardiol"
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "starters": [
+        "Roefs",
+        "Calafiori",
+        "De Cuyper",
+        "Gvardiol",
+        "Palmer",
+        "Szoboszlai",
+        "Cherki",
+        "Saka",
+        "Gro\u00df",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Palmer",
+        "van Ewijk",
+        "Davis",
+        "Walle Egeli"
       ]
     },
     {
@@ -1307,30 +1307,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Rogers",
-        "Cherki",
-        "Gro\u00df",
-        "Gibbs-White",
-        "Haaland",
-        "Solanke",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Konsa",
-        "Szoboszlai",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1352,6 +1328,30 @@
         "Belloumi",
         "Justin",
         "Kayode"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Rogers",
+        "Cherki",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Haaland",
+        "Solanke",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Konsa",
+        "Szoboszlai",
+        "Ajer"
       ]
     },
     {
@@ -1680,20 +1680,20 @@
         "points": 2
       },
       {
-        "entry_id": 2017811,
-        "team_name": "HeavyMetal Areola",
-        "manager": "Aayush Palikhel",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
-      },
-      {
         "entry_id": 1845615,
         "team_name": "Kylian Dictator",
         "manager": "Rakesh Itani",
         "element_id": 464,
         "player_name": "Wissa",
         "points": 0
+      },
+      {
+        "entry_id": 2017811,
+        "team_name": "HeavyMetal Areola",
+        "manager": "Aayush Palikhel",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 13
       },
       {
         "entry_id": 969893,
@@ -1760,17 +1760,17 @@
         "points": 13
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
