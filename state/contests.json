@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-17T12:35:17.975509+00:00",
+  "generated_at": "2026-10-17T12:40:26.328458+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -105,11 +105,6 @@
           "manager": "Kaushal Raj Ghimire"
         },
         {
-          "entry_id": 1845615,
-          "team_name": "Kylian Dictator",
-          "manager": "Rakesh Itani"
-        },
-        {
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
@@ -118,11 +113,6 @@
           "entry_id": 1955412,
           "team_name": "MAGA",
           "manager": "MESSI GOAT"
-        },
-        {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
         }
       ]
     }
