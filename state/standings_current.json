@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T15:40:20.349386+00:00",
+  "generated_at": "2026-10-17T15:45:26.208558+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,8 +15,8 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 34,
-      "total_points": 496
+      "gw_points": 33,
+      "total_points": 495
     },
     {
       "rank": 3,
@@ -107,19 +107,19 @@
       "total_points": 434
     },
     {
-      "rank": 14,
+      "rank": 13,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 33,
+      "total_points": 434
+    },
+    {
+      "rank": 15,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
       "gw_points": 5,
-      "total_points": 433
-    },
-    {
-      "rank": 15,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 32,
       "total_points": 433
     },
     {
@@ -167,8 +167,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 32,
-      "total_points": 423
+      "gw_points": 33,
+      "total_points": 424
     },
     {
       "rank": 22,
@@ -255,24 +255,24 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 9,
-      "total_points": 383
+      "gw_points": 10,
+      "total_points": 384
     },
     {
       "rank": 33,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 40,
-      "total_points": 379
+      "gw_points": 42,
+      "total_points": 381
     },
     {
       "rank": 34,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 32,
-      "total_points": 373
+      "gw_points": 33,
+      "total_points": 374
     }
   ],
   "h2h": [

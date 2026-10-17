@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:40:19.939566+00:00",
+  "generated_at": "2026-10-17T15:45:25.637985+00:00",
   "form": {
     "gws": [
       2,
@@ -1067,30 +1067,6 @@
       ]
     },
     {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Mykolenko",
-        "Gro\u00df",
-        "Palmer",
-        "B.Fernandes",
-        "Gibbs-White",
-        "Barnes",
-        "Jo\u00e3o Pedro",
-        "Wissa"
-      ],
-      "bench": [
-        "Horn\u00ed\u010dek",
-        "Mitchell",
-        "Isak",
-        "Gvardiol"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1112,6 +1088,30 @@
         "Ajer",
         "Diop",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Mykolenko",
+        "Gro\u00df",
+        "Palmer",
+        "B.Fernandes",
+        "Gibbs-White",
+        "Barnes",
+        "Jo\u00e3o Pedro",
+        "Wissa"
+      ],
+      "bench": [
+        "Horn\u00ed\u010dek",
+        "Mitchell",
+        "Isak",
+        "Gvardiol"
       ]
     },
     {
@@ -1680,20 +1680,20 @@
         "points": 13
       },
       {
-        "entry_id": 1845615,
-        "team_name": "Kylian Dictator",
-        "manager": "Rakesh Itani",
-        "element_id": 464,
-        "player_name": "Wissa",
-        "points": 0
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 2
+      },
+      {
+        "entry_id": 1845615,
+        "team_name": "Kylian Dictator",
+        "manager": "Rakesh Itani",
+        "element_id": 464,
+        "player_name": "Wissa",
+        "points": 0
       },
       {
         "entry_id": 969893,
