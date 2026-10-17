@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T16:55:21.722841+00:00",
+  "generated_at": "2026-10-17T17:00:26.262094+00:00",
   "classic": [
     {
       "rank": 1,
@@ -84,18 +84,18 @@
     },
     {
       "rank": 11,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 28,
-      "total_points": 437
-    },
-    {
-      "rank": 11,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 37,
+      "total_points": 437
+    },
+    {
+      "rank": 11,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 28,
       "total_points": 437
     },
     {
