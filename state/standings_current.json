@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T14:00:26.100325+00:00",
+  "generated_at": "2026-10-17T14:05:18.068748+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,8 +15,8 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 4,
-      "total_points": 466
+      "gw_points": 5,
+      "total_points": 467
     },
     {
       "rank": 3,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 5,
+      "total_points": 407
+    },
+    {
+      "rank": 16,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 6,
-      "total_points": 406
-    },
-    {
-      "rank": 16,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 4,
       "total_points": 406
     },
     {
@@ -271,8 +271,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 4,
-      "total_points": 343
+      "gw_points": 5,
+      "total_points": 344
     }
   ],
   "h2h": [

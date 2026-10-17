@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:00:25.716513+00:00",
+  "generated_at": "2026-10-17T14:05:17.676144+00:00",
   "form": {
     "gws": [
       2,
@@ -502,6 +502,17 @@
       ]
     },
     {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -517,17 +528,6 @@
         {
           "name": "wildcard",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
         }
       ]
     },
@@ -1091,30 +1091,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "starters": [
-        "Kinsky",
-        "Hall",
-        "Calafiori",
-        "De Cuyper",
-        "Rogers",
-        "\u00d8degaard",
-        "Palmer",
-        "Cherki",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Pickford",
-        "Konsa",
-        "Yalcouy\u00e9",
-        "Mykolenko"
-      ]
-    },
-    {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -1136,6 +1112,30 @@
         "van Ewijk",
         "Davis",
         "Walle Egeli"
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "starters": [
+        "Kinsky",
+        "Hall",
+        "Calafiori",
+        "De Cuyper",
+        "Rogers",
+        "\u00d8degaard",
+        "Palmer",
+        "Cherki",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Pickford",
+        "Konsa",
+        "Yalcouy\u00e9",
+        "Mykolenko"
       ]
     },
     {
@@ -1688,17 +1688,17 @@
         "points": 0
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
+        "entry_id": 2017811,
+        "team_name": "HeavyMetal Areola",
+        "manager": "Aayush Palikhel",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 2017811,
-        "team_name": "HeavyMetal Areola",
-        "manager": "Aayush Palikhel",
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
