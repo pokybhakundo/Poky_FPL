@@ -1,17 +1,18 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-17T09:55:17.997047+00:00",
-  "next_deadline": "2026-10-17T10:00:00Z",
-  "current_gw": 6,
-  "current_gw_finalized": true,
+  "generated_at": "2026-10-17T10:40:23.526056+00:00",
+  "next_deadline": "2026-10-23T17:30:00Z",
+  "current_gw": 7,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "manager_of_the_week": [
     {
@@ -91,6 +92,19 @@
           "manager": "Kaushal Raj Ghimire"
         }
       ]
+    },
+    {
+      "gw": 7,
+      "points": 87,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 75325,
+          "team_name": "CuledBarca",
+          "manager": "Kaushal Raj Ghimire"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -134,11 +148,12 @@
     {
       "month": "October",
       "label": "October",
-      "points": 87,
+      "points": 174,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
-        6
+        6,
+        7
       ],
       "winners": [
         {
