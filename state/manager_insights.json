@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:30:23.053943+00:00",
+  "generated_at": "2026-10-17T11:35:15.658952+00:00",
   "form": {
     "gws": [
       2,
@@ -1693,7 +1693,7 @@
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1843084,
@@ -1725,7 +1725,7 @@
         "manager": "Kaushal Raj Ghimire",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1664566,
@@ -1797,7 +1797,7 @@
         "manager": "MESSI GOAT",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2798038,
@@ -1857,7 +1857,7 @@
       {
         "player_name": "Jo\u00e3o Pedro",
         "count": 2,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Cherki",
@@ -1882,7 +1882,7 @@
       {
         "player_name": "Palmer",
         "count": 1,
-        "points": 0
+        "points": 1
       }
     ]
   }
