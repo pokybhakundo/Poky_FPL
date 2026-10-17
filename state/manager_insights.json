@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:50:24.929183+00:00",
+  "generated_at": "2026-10-17T11:55:15.420844+00:00",
   "form": {
     "gws": [
       2,
@@ -1797,7 +1797,7 @@
         "manager": "MESSI GOAT",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 4
       },
       {
         "entry_id": 2798038,
@@ -1882,7 +1882,7 @@
       {
         "player_name": "Palmer",
         "count": 1,
-        "points": 1
+        "points": 4
       }
     ]
   }
