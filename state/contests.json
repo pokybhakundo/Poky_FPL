@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-17T14:20:21.381945+00:00",
+  "generated_at": "2026-10-17T14:25:18.309023+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -95,7 +95,7 @@
     },
     {
       "gw": 7,
-      "points": 19,
+      "points": 20,
       "shared": false,
       "provisional": true,
       "winners": [
@@ -148,8 +148,8 @@
     {
       "month": "October",
       "label": "October",
-      "points": 96,
-      "shared": true,
+      "points": 97,
+      "shared": false,
       "provisional": true,
       "gameweeks": [
         6,
@@ -160,11 +160,6 @@
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 75325,
-          "team_name": "CuledBarca",
-          "manager": "Kaushal Raj Ghimire"
         }
       ]
     }
