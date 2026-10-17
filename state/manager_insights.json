@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:35:27.643497+00:00",
+  "generated_at": "2026-10-17T09:40:18.801449+00:00",
   "form": {
     "gws": [
       2,
@@ -1416,30 +1416,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "starters": [
-        "Verbruggen",
-        "White",
-        "Calafiori",
-        "Hall",
-        "Egan",
-        "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Schade",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Lammens",
-        "Isidor",
-        "Ndiaye",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
@@ -1461,6 +1437,30 @@
         "Diop",
         "Hughes",
         "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Verbruggen",
+        "White",
+        "Calafiori",
+        "Hall",
+        "Egan",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Schade",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Lammens",
+        "Isidor",
+        "Ndiaye",
+        "Ajer"
       ]
     },
     {
@@ -1773,20 +1773,20 @@
         "points": 6
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 1
-      },
-      {
         "entry_id": 2435657,
         "team_name": "HawaHawai",
         "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 6
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 1
       },
       {
         "entry_id": 2659214,
