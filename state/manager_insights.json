@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:00:24.884529+00:00",
+  "generated_at": "2026-10-17T13:05:15.809356+00:00",
   "form": {
     "gws": [
       2,
@@ -596,21 +596,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
-        }
-      ]
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -641,17 +626,17 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "chips": [
         {
-          "name": "wildcard",
-          "gw": 2
+          "name": "bboost",
+          "gw": 3
         },
         {
-          "name": "3xc",
-          "gw": 4
+          "name": "wildcard",
+          "gw": 5
         }
       ]
     },
@@ -671,13 +656,17 @@
       ]
     },
     {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 1
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -712,6 +701,17 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
         }
       ]
     },
@@ -971,30 +971,6 @@
       ]
     },
     {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Mitchell",
-        "Davis",
-        "Palmer",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Slater",
-        "Jo\u00e3o Pedro",
-        "Haaland",
-        "Delap"
-      ],
-      "bench": [
-        "Palmer",
-        "Gomez",
-        "Gu\u00e9hi",
-        "van Ewijk"
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1016,6 +992,30 @@
         "King",
         "Egan",
         "Gibbs-White"
+      ]
+    },
+    {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Mitchell",
+        "Davis",
+        "Palmer",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Slater",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Delap"
+      ],
+      "bench": [
+        "Palmer",
+        "Gomez",
+        "Gu\u00e9hi",
+        "van Ewijk"
       ]
     },
     {
@@ -1235,30 +1235,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Andersen",
-        "De Cuyper",
-        "Saka",
-        "Palmer",
-        "Rogers",
-        "Cherki",
-        "Barry",
-        "Haaland",
-        "Wissa"
-      ],
-      "bench": [
-        "Zetterer",
-        "Slater",
-        "Davis",
-        "Muharemovi\u0107"
-      ]
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -1307,27 +1283,27 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "starters": [
-        "Verbruggen",
-        "Ajayi",
-        "Calafiori",
+        "Raya",
+        "Konsa",
+        "Andersen",
         "De Cuyper",
-        "Cherki",
-        "Gro\u00df",
+        "Saka",
         "Palmer",
-        "Tavernier",
+        "Rogers",
+        "Cherki",
+        "Barry",
         "Haaland",
-        "Jo\u00e3o Pedro",
-        "N.Jackson"
+        "Wissa"
       ],
       "bench": [
-        "Kelleher",
-        "Belloumi",
-        "Justin",
-        "Kayode"
+        "Zetterer",
+        "Slater",
+        "Davis",
+        "Muharemovi\u0107"
       ]
     },
     {
@@ -1355,27 +1331,27 @@
       ]
     },
     {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "starters": [
-        "Donnarumma",
+        "Verbruggen",
+        "Ajayi",
         "Calafiori",
-        "Van Hecke",
-        "Gvardiol",
+        "De Cuyper",
+        "Cherki",
         "Gro\u00df",
-        "Saka",
         "Palmer",
-        "Semenyo",
-        "Wissa",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro"
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "N.Jackson"
       ],
       "bench": [
-        "Verbruggen",
-        "Tarkowski",
-        "White",
-        "Schade"
+        "Kelleher",
+        "Belloumi",
+        "Justin",
+        "Kayode"
       ]
     },
     {
@@ -1424,6 +1400,30 @@
         "Bogle",
         "Delap",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "starters": [
+        "Donnarumma",
+        "Calafiori",
+        "Van Hecke",
+        "Gvardiol",
+        "Gro\u00df",
+        "Saka",
+        "Palmer",
+        "Semenyo",
+        "Wissa",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Tarkowski",
+        "White",
+        "Schade"
       ]
     },
     {
@@ -1648,17 +1648,17 @@
         "points": 2
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1736,14 +1736,6 @@
         "points": 0
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
         "entry_id": 1595343,
         "team_name": "Janta Tanna Chahncha",
         "manager": "Ankit Bhaukajee",
@@ -1760,9 +1752,9 @@
         "points": 0
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1776,12 +1768,12 @@
         "points": 0
       },
       {
-        "entry_id": 1955412,
-        "team_name": "MAGA",
-        "manager": "MESSI GOAT",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 2
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 0
       },
       {
         "entry_id": 1966921,
@@ -1798,6 +1790,14 @@
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 0
+      },
+      {
+        "entry_id": 1955412,
+        "team_name": "MAGA",
+        "manager": "MESSI GOAT",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 2
       },
       {
         "entry_id": 2798038,
@@ -1875,14 +1875,14 @@
         "points": 0
       },
       {
-        "player_name": "Palmer",
-        "count": 1,
-        "points": 2
-      },
-      {
         "player_name": "Mbeumo",
         "count": 1,
         "points": 0
+      },
+      {
+        "player_name": "Palmer",
+        "count": 1,
+        "points": 2
       }
     ]
   }
