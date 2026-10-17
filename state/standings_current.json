@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T15:35:21.159668+00:00",
+  "generated_at": "2026-10-17T15:40:20.349386+00:00",
   "classic": [
     {
       "rank": 1,
@@ -143,8 +143,8 @@
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 34,
-      "total_points": 426
+      "gw_points": 36,
+      "total_points": 428
     },
     {
       "rank": 19,
@@ -215,8 +215,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 37,
-      "total_points": 404
+      "gw_points": 39,
+      "total_points": 406
     },
     {
       "rank": 28,
@@ -228,18 +228,18 @@
     },
     {
       "rank": 29,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 25,
+      "total_points": 399
+    },
+    {
+      "rank": 30,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 30,
-      "total_points": 397
-    },
-    {
-      "rank": 29,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 23,
       "total_points": 397
     },
     {
