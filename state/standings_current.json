@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T12:20:25.947363+00:00",
+  "generated_at": "2026-10-17T12:25:21.535288+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 3,
-      "total_points": 404
-    },
-    {
-      "rank": 14,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 2,
+      "total_points": 404
+    },
+    {
+      "rank": 14,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 3,
       "total_points": 404
     },
     {
