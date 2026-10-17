@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:25:23.090758+00:00",
+  "generated_at": "2026-10-17T14:30:27.375128+00:00",
   "form": {
     "gws": [
       2,
@@ -671,6 +671,17 @@
       ]
     },
     {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -690,17 +701,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
         }
       ]
     },
@@ -1355,30 +1355,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Rogers",
-        "Cherki",
-        "Gro\u00df",
-        "Gibbs-White",
-        "Haaland",
-        "Solanke",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Konsa",
-        "Szoboszlai",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -1400,6 +1376,30 @@
         "Bogle",
         "Delap",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Rogers",
+        "Cherki",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Haaland",
+        "Solanke",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Konsa",
+        "Szoboszlai",
+        "Ajer"
       ]
     },
     {
@@ -1427,30 +1427,6 @@
       ]
     },
     {
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "starters": [
-        "Verbruggen",
-        "Pedro Porro",
-        "Gvardiol",
-        "Calafiori",
-        "Mbeumo",
-        "Rogers",
-        "\u00d8degaard",
-        "Gakpo",
-        "Wissa",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Tzolis",
-        "Maguire",
-        "Egan"
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1472,6 +1448,30 @@
         "Hall",
         "Isidor",
         "Ajer"
+      ]
+    },
+    {
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "starters": [
+        "Verbruggen",
+        "Pedro Porro",
+        "Gvardiol",
+        "Calafiori",
+        "Mbeumo",
+        "Rogers",
+        "\u00d8degaard",
+        "Gakpo",
+        "Wissa",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Tzolis",
+        "Maguire",
+        "Egan"
       ]
     },
     {
@@ -1776,20 +1776,20 @@
         "points": 1
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 1
-      },
-      {
         "entry_id": 500535,
         "team_name": "Jhol Momo",
         "manager": "Akash Shrestha",
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 0
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 1
       },
       {
         "entry_id": 1955412,
@@ -1800,17 +1800,17 @@
         "points": 2
       },
       {
-        "entry_id": 2798038,
-        "team_name": "CookedRice",
-        "manager": "Abhishek Jaiswal",
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
+        "entry_id": 2798038,
+        "team_name": "CookedRice",
+        "manager": "Abhishek Jaiswal",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1

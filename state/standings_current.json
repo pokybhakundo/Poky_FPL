@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T14:25:23.509140+00:00",
+  "generated_at": "2026-10-17T14:30:27.898462+00:00",
   "classic": [
     {
       "rank": 1,
@@ -71,8 +71,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 20,
-      "total_points": 421
+      "gw_points": 22,
+      "total_points": 423
     },
     {
       "rank": 10,
@@ -204,18 +204,18 @@
     },
     {
       "rank": 26,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 12,
+      "total_points": 386
+    },
+    {
+      "rank": 27,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 7,
-      "total_points": 384
-    },
-    {
-      "rank": 27,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 10,
       "total_points": 384
     },
     {
@@ -228,19 +228,19 @@
     },
     {
       "rank": 29,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 10,
+      "total_points": 377
+    },
+    {
+      "rank": 30,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 6,
       "total_points": 376
-    },
-    {
-      "rank": 30,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 8,
-      "total_points": 375
     },
     {
       "rank": 31,
@@ -255,8 +255,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 7,
-      "total_points": 358
+      "gw_points": 9,
+      "total_points": 360
     },
     {
       "rank": 33,
