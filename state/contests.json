@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-17T14:35:15.199407+00:00",
+  "generated_at": "2026-10-17T14:40:19.911141+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -95,14 +95,14 @@
     },
     {
       "gw": 7,
-      "points": 22,
+      "points": 30,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1913463,
-          "team_name": "nkzzz_21",
-          "manager": "Nischal Koirala"
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
         }
       ]
     }
@@ -148,7 +148,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 99,
+      "points": 112,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -157,9 +157,9 @@
       ],
       "winners": [
         {
-          "entry_id": 1913463,
-          "team_name": "nkzzz_21",
-          "manager": "Nischal Koirala"
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
         }
       ]
     }
