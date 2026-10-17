@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-17T12:40:33.067293+00:00",
+  "generated_at": "2026-10-17T12:45:25.074478+00:00",
   "classic": [
     {
       "rank": 1,
@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 7,
+      "total_points": 408
+    },
+    {
+      "rank": 13,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -107,19 +115,11 @@
       "total_points": 408
     },
     {
-      "rank": 14,
+      "rank": 15,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 2,
-      "total_points": 404
-    },
-    {
-      "rank": 14,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 3,
       "total_points": 404
     },
     {

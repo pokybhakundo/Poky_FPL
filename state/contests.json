@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-17T12:40:26.328458+00:00",
+  "generated_at": "2026-10-17T12:45:20.620630+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -95,24 +95,14 @@
     },
     {
       "gw": 7,
-      "points": 3,
-      "shared": true,
+      "points": 7,
+      "shared": false,
       "provisional": true,
       "winners": [
-        {
-          "entry_id": 75325,
-          "team_name": "CuledBarca",
-          "manager": "Kaushal Raj Ghimire"
-        },
         {
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 1955412,
-          "team_name": "MAGA",
-          "manager": "MESSI GOAT"
         }
       ]
     }
