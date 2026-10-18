@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:35:14.432620+00:00",
+  "generated_at": "2026-10-18T15:40:19.024769+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -449,38 +449,6 @@
         }
       ]
     },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
-        }
-      ]
-    },
     "254926": {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
@@ -550,6 +518,38 @@
           "season_name": "2013/14",
           "total_points": 2042,
           "rank": 872781
+        }
+      ]
+    },
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1896,
+          "rank": 5984966
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2242,
+          "rank": 2250336
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2277,
+          "rank": 1262608
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2383,
+          "rank": 776057
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2112,
+          "rank": 1826181
         }
       ]
     },
@@ -630,60 +630,50 @@
         }
       ]
     },
-    "2253554": {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+    "5917809": {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2086,
-          "rank": 2502152
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2262,
-          "rank": 1979283
+          "total_points": 1772,
+          "rank": 8077899
         },
         {
           "season_name": "2023/24",
-          "total_points": 2177,
-          "rank": 2493292
+          "total_points": 1870,
+          "rank": 6362442
         },
         {
           "season_name": "2022/23",
-          "total_points": 2340,
-          "rank": 1132554
+          "total_points": 2205,
+          "rank": 2631584
         },
         {
           "season_name": "2021/22",
-          "total_points": 1845,
-          "rank": 4340847
+          "total_points": 1919,
+          "rank": 3575952
         },
         {
           "season_name": "2020/21",
-          "total_points": 2399,
-          "rank": 88916
+          "total_points": 1814,
+          "rank": 4371524
         },
         {
           "season_name": "2019/20",
-          "total_points": 1957,
-          "rank": 2395020
+          "total_points": 2041,
+          "rank": 1453200
         },
         {
           "season_name": "2018/19",
-          "total_points": 2185,
-          "rank": 328920
+          "total_points": 1981,
+          "rank": 2113798
         },
         {
           "season_name": "2017/18",
-          "total_points": 2155,
-          "rank": 250164
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 2082,
-          "rank": 290074
+          "total_points": 1921,
+          "rank": 1836480
         }
       ]
     },
@@ -766,50 +756,60 @@
         }
       ]
     },
-    "5917809": {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
+    "2253554": {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 1772,
-          "rank": 8077899
+          "total_points": 2086,
+          "rank": 2502152
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2262,
+          "rank": 1979283
         },
         {
           "season_name": "2023/24",
-          "total_points": 1870,
-          "rank": 6362442
+          "total_points": 2177,
+          "rank": 2493292
         },
         {
           "season_name": "2022/23",
-          "total_points": 2205,
-          "rank": 2631584
+          "total_points": 2340,
+          "rank": 1132554
         },
         {
           "season_name": "2021/22",
-          "total_points": 1919,
-          "rank": 3575952
+          "total_points": 1845,
+          "rank": 4340847
         },
         {
           "season_name": "2020/21",
-          "total_points": 1814,
-          "rank": 4371524
+          "total_points": 2399,
+          "rank": 88916
         },
         {
           "season_name": "2019/20",
-          "total_points": 2041,
-          "rank": 1453200
+          "total_points": 1957,
+          "rank": 2395020
         },
         {
           "season_name": "2018/19",
-          "total_points": 1981,
-          "rank": 2113798
+          "total_points": 2185,
+          "rank": 328920
         },
         {
           "season_name": "2017/18",
-          "total_points": 1921,
-          "rank": 1836480
+          "total_points": 2155,
+          "rank": 250164
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 2082,
+          "rank": 290074
         }
       ]
     },
@@ -1079,12 +1079,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "1595343": {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
@@ -1146,6 +1140,12 @@
           "rank": 392079
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "75325": {
       "entry_id": 75325,
@@ -1441,38 +1441,6 @@
         }
       ]
     },
-    "3479050": {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2128,
-          "rank": 1829871
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2062,
-          "rank": 4777928
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2111,
-          "rank": 3388711
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 1534,
-          "rank": 9612534
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1590,
-          "rank": 6768609
-        }
-      ]
-    },
     "1955412": {
       "entry_id": 1955412,
       "team_name": "MAGA",
@@ -1502,6 +1470,38 @@
           "season_name": "2020/21",
           "total_points": 1439,
           "rank": 6849411
+        }
+      ]
+    },
+    "3479050": {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2128,
+          "rank": 1829871
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2062,
+          "rank": 4777928
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2111,
+          "rank": 3388711
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 1534,
+          "rank": 9612534
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1590,
+          "rank": 6768609
         }
       ]
     },

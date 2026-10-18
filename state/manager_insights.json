@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:35:15.904086+00:00",
+  "generated_at": "2026-10-18T15:40:22.375920+00:00",
   "form": {
     "gws": [
       2,
@@ -479,21 +479,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -527,6 +512,21 @@
         },
         {
           "name": "bboost",
+          "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
           "gw": 4
         }
       ]
@@ -630,6 +630,17 @@
       ]
     },
     {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -649,17 +660,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -720,17 +720,6 @@
       ]
     },
     {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -738,6 +727,17 @@
         {
           "name": "bboost",
           "gw": 1
+        }
+      ]
+    },
+    {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -971,30 +971,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
-        "Calafiori",
-        "Semenyo",
-        "Rogers",
-        "Belloumi",
-        "Gro\u00df",
-        "Haaland",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Ajer",
-        "Diop",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -1016,6 +992,30 @@
         "Gibbs-White",
         "Hall",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Semenyo",
+        "Rogers",
+        "Belloumi",
+        "Gro\u00df",
+        "Haaland",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Ajer",
+        "Diop",
+        "Szoboszlai"
       ]
     },
     {
@@ -1043,27 +1043,27 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
       "starters": [
-        "Verbruggen",
-        "Ajayi",
+        "Raya",
         "Calafiori",
-        "De Cuyper",
-        "Cherki",
-        "Gro\u00df",
+        "Mitchell",
+        "Davis",
         "Palmer",
-        "Tavernier",
-        "Haaland",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Slater",
         "Jo\u00e3o Pedro",
-        "N.Jackson"
+        "Haaland",
+        "Delap"
       ],
       "bench": [
-        "Kelleher",
-        "Belloumi",
-        "Justin",
-        "Kayode"
+        "Palmer",
+        "Gomez",
+        "Gu\u00e9hi",
+        "van Ewijk"
       ]
     },
     {
@@ -1115,27 +1115,27 @@
       ]
     },
     {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "starters": [
-        "Raya",
+        "Verbruggen",
+        "Ajayi",
         "Calafiori",
-        "Mitchell",
-        "Davis",
-        "Palmer",
-        "B.Fernandes",
+        "De Cuyper",
+        "Cherki",
         "Gro\u00df",
-        "Slater",
-        "Jo\u00e3o Pedro",
+        "Palmer",
+        "Tavernier",
         "Haaland",
-        "Delap"
+        "Jo\u00e3o Pedro",
+        "N.Jackson"
       ],
       "bench": [
-        "Palmer",
-        "Gomez",
-        "Gu\u00e9hi",
-        "van Ewijk"
+        "Kelleher",
+        "Belloumi",
+        "Justin",
+        "Kayode"
       ]
     },
     {
@@ -1283,30 +1283,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Rogers",
-        "Cherki",
-        "Gro\u00df",
-        "Gibbs-White",
-        "Haaland",
-        "Solanke",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Konsa",
-        "Szoboszlai",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -1328,6 +1304,30 @@
         "Schade",
         "Muharemovi\u0107",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Rogers",
+        "Cherki",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Haaland",
+        "Solanke",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Konsa",
+        "Szoboszlai",
+        "Ajer"
       ]
     },
     {
@@ -1499,30 +1499,6 @@
       ]
     },
     {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "starters": [
-        "Suzuki",
-        "De Cuyper",
-        "Hall",
-        "Calafiori",
-        "Rogers",
-        "Palmer",
-        "Semenyo",
-        "Gro\u00df",
-        "Cunha",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Austin",
-        "Ajayi",
-        "Delap",
-        "van Ewijk"
-      ]
-    },
-    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -1544,6 +1520,30 @@
         "Tarkowski",
         "White",
         "Schade"
+      ]
+    },
+    {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "starters": [
+        "Suzuki",
+        "De Cuyper",
+        "Hall",
+        "Calafiori",
+        "Rogers",
+        "Palmer",
+        "Semenyo",
+        "Gro\u00df",
+        "Cunha",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Austin",
+        "Ajayi",
+        "Delap",
+        "van Ewijk"
       ]
     },
     {
@@ -1648,20 +1648,20 @@
         "points": 13
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 2
-      },
-      {
         "entry_id": 254926,
         "team_name": "Vrum Vrummmmmm",
         "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 2
       },
       {
         "entry_id": 228817,
@@ -1672,9 +1672,9 @@
         "points": 5
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
@@ -1696,9 +1696,9 @@
         "points": 13
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
@@ -1752,17 +1752,17 @@
         "points": 13
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
@@ -1824,20 +1824,20 @@
         "points": 13
       },
       {
-        "entry_id": 3479050,
-        "team_name": "chelsea FC",
-        "manager": "Prasis Timilsena",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
-      },
-      {
         "entry_id": 1955412,
         "team_name": "MAGA",
         "manager": "MESSI GOAT",
         "element_id": 154,
         "player_name": "Palmer",
         "points": 2
+      },
+      {
+        "entry_id": 3479050,
+        "team_name": "chelsea FC",
+        "manager": "Prasis Timilsena",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 13
       },
       {
         "entry_id": 558137,
