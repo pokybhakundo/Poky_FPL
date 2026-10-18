@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:40:18.892952+00:00",
+  "generated_at": "2026-10-18T13:45:23.955792+00:00",
   "classic": [
     {
       "rank": 1,
@@ -60,35 +60,35 @@
     },
     {
       "rank": 8,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 37,
-      "total_points": 449
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "gw_points": 44,
+      "total_points": 453
     },
     {
       "rank": 9,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 42,
+      "total_points": 451
+    },
+    {
+      "rank": 10,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 36,
+      "total_points": 448
+    },
+    {
+      "rank": 11,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
       "gw_points": 34,
       "total_points": 445
-    },
-    {
-      "rank": 10,
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "gw_points": 36,
-      "total_points": 445
-    },
-    {
-      "rank": 11,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 34,
-      "total_points": 443
     },
     {
       "rank": 12,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 48,
-      "total_points": 437
-    },
-    {
-      "rank": 18,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 38,
+      "total_points": 437
+    },
+    {
+      "rank": 18,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 48,
       "total_points": 437
     },
     {
@@ -164,14 +164,6 @@
     },
     {
       "rank": 21,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 39,
-      "total_points": 433
-    },
-    {
-      "rank": 22,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -179,12 +171,12 @@
       "total_points": 432
     },
     {
-      "rank": 23,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "rank": 22,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
       "gw_points": 38,
-      "total_points": 429
+      "total_points": 432
     },
     {
       "rank": 23,
@@ -192,6 +184,14 @@
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 52,
+      "total_points": 429
+    },
+    {
+      "rank": 23,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 38,
       "total_points": 429
     },
     {
@@ -212,27 +212,27 @@
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 46,
-      "total_points": 413
-    },
-    {
-      "rank": 28,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "gw_points": 33,
-      "total_points": 403
-    },
-    {
-      "rank": 29,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 29,
-      "total_points": 403
+      "gw_points": 45,
+      "total_points": 419
+    },
+    {
+      "rank": 28,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 45,
+      "total_points": 412
+    },
+    {
+      "rank": 29,
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "gw_points": 41,
+      "total_points": 411
     },
     {
       "rank": 30,
