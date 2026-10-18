@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:00:30.068165+00:00",
+  "generated_at": "2026-10-18T15:05:16.078316+00:00",
   "form": {
     "gws": [
       2,
@@ -1403,30 +1403,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Lammens",
-        "De Cuyper",
-        "Calafiori",
-        "Gvardiol",
-        "Konsa",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Belloumi",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Hall",
-        "Barry"
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1448,6 +1424,30 @@
         "Hall",
         "Isidor",
         "Ajer"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Lammens",
+        "De Cuyper",
+        "Calafiori",
+        "Gvardiol",
+        "Konsa",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Hall",
+        "Barry"
       ]
     },
     {
@@ -1792,17 +1792,17 @@
         "points": 8
       },
       {
-        "entry_id": 2659214,
-        "team_name": "Yoro Wizard Harry",
-        "manager": "Aayush Jha",
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
+        "entry_id": 2659214,
+        "team_name": "Yoro Wizard Harry",
+        "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
