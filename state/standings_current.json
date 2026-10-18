@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:00:24.777080+00:00",
+  "generated_at": "2026-10-18T13:05:23.282527+00:00",
   "classic": [
     {
       "rank": 1,
@@ -36,19 +36,19 @@
     },
     {
       "rank": 5,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 33,
+      "total_points": 462
+    },
+    {
+      "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
       "gw_points": 32,
       "total_points": 462
-    },
-    {
-      "rank": 6,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 32,
-      "total_points": 461
     },
     {
       "rank": 7,
@@ -116,19 +116,19 @@
     },
     {
       "rank": 15,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 32,
+      "total_points": 434
+    },
+    {
+      "rank": 15,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 33,
       "total_points": 434
-    },
-    {
-      "rank": 16,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 31,
-      "total_points": 433
     },
     {
       "rank": 17,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 35,
+      "total_points": 424
+    },
+    {
+      "rank": 25,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 33,
-      "total_points": 423
-    },
-    {
-      "rank": 24,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 34,
       "total_points": 423
     },
     {
@@ -215,8 +215,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 39,
-      "total_points": 406
+      "gw_points": 40,
+      "total_points": 407
     },
     {
       "rank": 28,

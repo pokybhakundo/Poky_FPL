@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:00:22.952400+00:00",
+  "generated_at": "2026-10-18T13:05:18.614265+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -199,38 +199,6 @@
         }
       ]
     },
-    "3309536": {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2321,
-          "rank": 116200
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2241,
-          "rank": 2196244
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1999,
-          "rank": 2802647
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2037,
-          "rank": 2266703
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 964,
-          "rank": 7183835
-        }
-      ]
-    },
     "3769764": {
       "entry_id": 3769764,
       "team_name": "XabiBaby",
@@ -285,6 +253,38 @@
           "season_name": "2013/14",
           "total_points": 249,
           "rank": 3194089
+        }
+      ]
+    },
+    "3309536": {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2321,
+          "rank": 116200
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2241,
+          "rank": 2196244
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1999,
+          "rank": 2802647
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2037,
+          "rank": 2266703
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 964,
+          "rank": 7183835
         }
       ]
     },
@@ -704,38 +704,6 @@
         }
       ]
     },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
-        }
-      ]
-    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -810,6 +778,38 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
+        }
+      ]
+    },
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1896,
+          "rank": 5984966
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2242,
+          "rank": 2250336
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2277,
+          "rank": 1262608
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2383,
+          "rank": 776057
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2112,
+          "rank": 1826181
         }
       ]
     },
@@ -1090,53 +1090,6 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
-        }
-      ]
-    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -1191,6 +1144,53 @@
           "season_name": "2016/17",
           "total_points": 2082,
           "rank": 290074
+        }
+      ]
+    },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
         }
       ]
     },
