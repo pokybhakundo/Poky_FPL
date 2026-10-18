@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:05:16.055681+00:00",
+  "generated_at": "2026-10-18T14:10:17.571527+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1069,6 +1069,12 @@
         }
       ]
     },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
+    },
     "2546180": {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
@@ -1140,12 +1146,6 @@
           "rank": 285234
         }
       ]
-    },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
     },
     "4122498": {
       "entry_id": 4122498,
@@ -1382,23 +1382,6 @@
         }
       ]
     },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
-        }
-      ]
-    },
     "2435657": {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
@@ -1438,6 +1421,23 @@
           "season_name": "2019/20",
           "total_points": 1125,
           "rank": 7065574
+        }
+      ]
+    },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
         }
       ]
     },

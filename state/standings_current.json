@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T14:05:17.397274+00:00",
+  "generated_at": "2026-10-18T14:10:20.732546+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 38,
-      "total_points": 429
-    },
-    {
-      "rank": 23,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 52,
+      "total_points": 429
+    },
+    {
+      "rank": 23,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 38,
       "total_points": 429
     },
     {
@@ -236,18 +236,18 @@
     },
     {
       "rank": 30,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 51,
-      "total_points": 402
-    },
-    {
-      "rank": 30,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 35,
+      "total_points": 402
+    },
+    {
+      "rank": 30,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 51,
       "total_points": 402
     },
     {
