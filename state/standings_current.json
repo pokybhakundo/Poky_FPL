@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:45:23.955792+00:00",
+  "generated_at": "2026-10-18T13:50:21.765250+00:00",
   "classic": [
     {
       "rank": 1,
@@ -223,8 +223,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 45,
-      "total_points": 412
+      "gw_points": 46,
+      "total_points": 413
     },
     {
       "rank": 29,
@@ -236,19 +236,19 @@
     },
     {
       "rank": 30,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 51,
+      "total_points": 402
+    },
+    {
+      "rank": 30,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 35,
       "total_points": 402
-    },
-    {
-      "rank": 31,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 50,
-      "total_points": 401
     },
     {
       "rank": 32,
