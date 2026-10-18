@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T05:50:16.988799+00:00",
+  "generated_at": "2026-10-18T05:55:14.499302+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1067,12 +1067,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "1548786": {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
@@ -1089,6 +1083,12 @@
           "rank": 748840
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "2253554": {
       "entry_id": 2253554,
