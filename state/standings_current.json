@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T15:15:18.772675+00:00",
+  "generated_at": "2026-10-18T15:20:26.021992+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 64,
-      "total_points": 441
-    },
-    {
-      "rank": 22,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 50,
+      "total_points": 441
+    },
+    {
+      "rank": 22,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 64,
       "total_points": 441
     },
     {
