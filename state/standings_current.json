@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:15:24.521848+00:00",
+  "generated_at": "2026-10-18T13:20:25.597646+00:00",
   "classic": [
     {
       "rank": 1,
@@ -164,19 +164,19 @@
     },
     {
       "rank": 21,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 40,
+      "total_points": 434
+    },
+    {
+      "rank": 22,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "gw_points": 41,
       "total_points": 433
-    },
-    {
-      "rank": 22,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 37,
-      "total_points": 431
     },
     {
       "rank": 23,
