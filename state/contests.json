@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-18T14:10:17.570963+00:00",
+  "generated_at": "2026-10-18T14:15:16.187650+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -95,14 +95,14 @@
     },
     {
       "gw": 7,
-      "points": 56,
+      "points": 57,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 33334,
-          "team_name": "Not too Xabi",
-          "manager": "Swapnil Tiwari"
+          "entry_id": 2659214,
+          "team_name": "Yoro Wizard Harry",
+          "manager": "Aayush Jha"
         }
       ]
     }
