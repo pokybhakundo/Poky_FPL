@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T14:25:20.944337+00:00",
+  "generated_at": "2026-10-18T14:30:21.333773+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,8 +31,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 58,
-      "total_points": 487
+      "gw_points": 60,
+      "total_points": 489
     },
     {
       "rank": 5,
@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 61,
+      "total_points": 450
+    },
+    {
+      "rank": 14,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -107,7 +115,7 @@
       "total_points": 449
     },
     {
-      "rank": 14,
+      "rank": 15,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -115,7 +123,7 @@
       "total_points": 449
     },
     {
-      "rank": 15,
+      "rank": 16,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -123,7 +131,7 @@
       "total_points": 448
     },
     {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -131,27 +139,19 @@
       "total_points": 448
     },
     {
-      "rank": 17,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 59,
-      "total_points": 448
+      "rank": 18,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 44,
+      "total_points": 446
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 47,
-      "total_points": 445
-    },
-    {
-      "rank": 19,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 43,
       "total_points": 445
     },
     {
@@ -231,8 +231,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 49,
-      "total_points": 416
+      "gw_points": 50,
+      "total_points": 417
     },
     {
       "rank": 30,
