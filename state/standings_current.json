@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T10:30:22.815423+00:00",
+  "generated_at": "2026-10-18T10:35:16.399825+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 30,
-      "total_points": 424
-    },
-    {
-      "rank": 22,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 47,
+      "total_points": 424
+    },
+    {
+      "rank": 22,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 30,
       "total_points": 424
     },
     {
