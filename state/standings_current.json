@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T14:15:18.019264+00:00",
+  "generated_at": "2026-10-18T14:20:25.025495+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 46,
+      "total_points": 458
+    },
+    {
+      "rank": 8,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 10,
-      "total_points": 455
-    },
-    {
-      "rank": 8,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 43,
       "total_points": 455
     },
     {
@@ -183,11 +183,11 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 38,
-      "total_points": 429
+      "gw_points": 40,
+      "total_points": 431
     },
     {
-      "rank": 23,
+      "rank": 24,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
