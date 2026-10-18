@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:35:19.438167+00:00",
+  "generated_at": "2026-10-18T13:40:17.087610+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -568,6 +568,48 @@
         }
       ]
     },
+    "1845615": {
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1748,
+          "rank": 8434964
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2413,
+          "rank": 490094
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2175,
+          "rank": 2519330
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2293,
+          "rank": 1600584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1798,
+          "rank": 4822541
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1601,
+          "rank": 5978877
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 444,
+          "rank": 7478823
+        }
+      ]
+    },
     "228817": {
       "entry_id": 228817,
       "team_name": "4toothee1",
@@ -645,48 +687,6 @@
         }
       ]
     },
-    "1845615": {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1748,
-          "rank": 8434964
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 490094
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2175,
-          "rank": 2519330
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2293,
-          "rank": 1600584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1798,
-          "rank": 4822541
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1601,
-          "rank": 5978877
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 444,
-          "rank": 7478823
-        }
-      ]
-    },
     "1913463": {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
@@ -716,6 +716,33 @@
           "season_name": "2021/22",
           "total_points": 2112,
           "rank": 1826181
+        }
+      ]
+    },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
         }
       ]
     },
@@ -783,33 +810,6 @@
           "season_name": "2014/15",
           "total_points": 1557,
           "rank": 2308544
-        }
-      ]
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
         }
       ]
     },
@@ -890,43 +890,6 @@
         }
       ]
     },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
-        }
-      ]
-    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -981,6 +944,43 @@
           "season_name": "2016/17",
           "total_points": 2082,
           "rank": 290074
+        }
+      ]
+    },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
         }
       ]
     },
@@ -1330,48 +1330,6 @@
         }
       ]
     },
-    "2435657": {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2113,
-          "rank": 2058309
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2180,
-          "rank": 3139666
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 1934,
-          "rank": 5587691
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2237,
-          "rank": 2242880
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2027,
-          "rank": 2543198
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1828,
-          "rank": 4249101
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1125,
-          "rank": 7065574
-        }
-      ]
-    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1421,6 +1379,48 @@
           "season_name": "2016/17",
           "total_points": 690,
           "rank": 4334534
+        }
+      ]
+    },
+    "2435657": {
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2113,
+          "rank": 2058309
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2180,
+          "rank": 3139666
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1934,
+          "rank": 5587691
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2237,
+          "rank": 2242880
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2027,
+          "rank": 2543198
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1828,
+          "rank": 4249101
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1125,
+          "rank": 7065574
         }
       ]
     },
