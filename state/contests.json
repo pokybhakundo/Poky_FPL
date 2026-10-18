@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-18T14:20:20.055803+00:00",
+  "generated_at": "2026-10-18T14:25:17.096250+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -95,14 +95,14 @@
     },
     {
       "gw": 7,
-      "points": 57,
+      "points": 68,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2659214,
-          "team_name": "Yoro Wizard Harry",
-          "manager": "Aayush Jha"
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
         }
       ]
     }
@@ -148,7 +148,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 138,
+      "points": 150,
       "shared": false,
       "provisional": true,
       "gameweeks": [
