@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:20:23.253053+00:00",
+  "generated_at": "2026-10-18T12:25:21.764881+00:00",
   "form": {
     "gws": [
       2,
@@ -607,25 +607,6 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -645,6 +626,25 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -1259,30 +1259,6 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "De Cuyper",
-        "Thomas",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Saka",
-        "Barnes",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Kostoulas"
-      ],
-      "bench": [
-        "Phillips",
-        "Ajayi",
-        "Davis",
-        "Schade"
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -1304,6 +1280,30 @@
         "Konsa",
         "Szoboszlai",
         "Ajer"
+      ]
+    },
+    {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "De Cuyper",
+        "Thomas",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Saka",
+        "Barnes",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Phillips",
+        "Ajayi",
+        "Davis",
+        "Schade"
       ]
     },
     {
@@ -1744,17 +1744,17 @@
         "points": 13
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
