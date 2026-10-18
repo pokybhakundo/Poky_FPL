@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:20:25.597646+00:00",
+  "generated_at": "2026-10-18T13:25:25.853158+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,8 +31,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 45,
-      "total_points": 474
+      "gw_points": 47,
+      "total_points": 476
     },
     {
       "rank": 5,
@@ -55,8 +55,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 12,
-      "total_points": 457
+      "gw_points": 11,
+      "total_points": 456
     },
     {
       "rank": 8,
@@ -71,8 +71,8 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 36,
-      "total_points": 447
+      "gw_points": 35,
+      "total_points": 446
     },
     {
       "rank": 10,
@@ -92,19 +92,19 @@
     },
     {
       "rank": 12,
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "gw_points": 15,
-      "total_points": 443
-    },
-    {
-      "rank": 13,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 37,
       "total_points": 443
+    },
+    {
+      "rank": 13,
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "gw_points": 14,
+      "total_points": 442
     },
     {
       "rank": 14,
@@ -140,6 +140,14 @@
     },
     {
       "rank": 18,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 49,
+      "total_points": 438
+    },
+    {
+      "rank": 18,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -147,7 +155,7 @@
       "total_points": 438
     },
     {
-      "rank": 19,
+      "rank": 20,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -155,27 +163,19 @@
       "total_points": 436
     },
     {
-      "rank": 20,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 46,
-      "total_points": 435
-    },
-    {
       "rank": 21,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 40,
-      "total_points": 434
-    },
-    {
-      "rank": 22,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "gw_points": 41,
+      "total_points": 433
+    },
+    {
+      "rank": 22,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 39,
       "total_points": 433
     },
     {
@@ -215,27 +215,11 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 46,
-      "total_points": 413
+      "gw_points": 45,
+      "total_points": 412
     },
     {
       "rank": 28,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 37,
-      "total_points": 404
-    },
-    {
-      "rank": 28,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 30,
-      "total_points": 404
-    },
-    {
-      "rank": 30,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
@@ -243,12 +227,28 @@
       "total_points": 403
     },
     {
+      "rank": 29,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 36,
+      "total_points": 403
+    },
+    {
+      "rank": 29,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 29,
+      "total_points": 403
+    },
+    {
       "rank": 31,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 51,
-      "total_points": 402
+      "gw_points": 50,
+      "total_points": 401
     },
     {
       "rank": 32,
