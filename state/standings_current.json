@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T12:40:22.584879+00:00",
+  "generated_at": "2026-10-18T12:45:18.091595+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,14 +172,6 @@
     },
     {
       "rank": 22,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 47,
-      "total_points": 424
-    },
-    {
-      "rank": 22,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -187,12 +179,12 @@
       "total_points": 424
     },
     {
-      "rank": 24,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 34,
-      "total_points": 423
+      "rank": 22,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 47,
+      "total_points": 424
     },
     {
       "rank": 24,
@@ -200,6 +192,14 @@
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 33,
+      "total_points": 423
+    },
+    {
+      "rank": 24,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 34,
       "total_points": 423
     },
     {
