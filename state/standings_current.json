@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T14:45:23.917964+00:00",
+  "generated_at": "2026-10-18T14:50:18.183136+00:00",
   "classic": [
     {
       "rank": 1,
@@ -179,20 +179,20 @@
       "total_points": 441
     },
     {
-      "rank": 23,
+      "rank": 22,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 50,
+      "total_points": 441
+    },
+    {
+      "rank": 24,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
       "gw_points": 47,
       "total_points": 439
-    },
-    {
-      "rank": 24,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 47,
-      "total_points": 438
     },
     {
       "rank": 25,
@@ -252,18 +252,18 @@
     },
     {
       "rank": 32,
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "gw_points": 57,
+      "total_points": 398
+    },
+    {
+      "rank": 33,
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
       "gw_points": 23,
-      "total_points": 397
-    },
-    {
-      "rank": 33,
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "gw_points": 56,
       "total_points": 397
     },
     {
