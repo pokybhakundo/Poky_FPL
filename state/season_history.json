@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:10:19.750164+00:00",
+  "generated_at": "2026-10-18T13:15:19.815373+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1069,12 +1069,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "2546180": {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
@@ -1146,6 +1140,12 @@
           "rank": 285234
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "4122498": {
       "entry_id": 4122498,

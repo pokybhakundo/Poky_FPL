@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:10:23.758211+00:00",
+  "generated_at": "2026-10-18T13:15:23.194644+00:00",
   "form": {
     "gws": [
       2,
@@ -626,6 +626,21 @@
       ]
     },
     {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -644,21 +659,6 @@
         },
         {
           "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
           "gw": 7
         }
       ]
@@ -1283,30 +1283,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Rogers",
-        "Cherki",
-        "Gro\u00df",
-        "Gibbs-White",
-        "Haaland",
-        "Solanke",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Konsa",
-        "Szoboszlai",
-        "Ajer"
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -1328,6 +1304,30 @@
         "Egan",
         "McGinn",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Rogers",
+        "Cherki",
+        "Gro\u00df",
+        "Gibbs-White",
+        "Haaland",
+        "Solanke",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Konsa",
+        "Szoboszlai",
+        "Ajer"
       ]
     },
     {
@@ -1752,17 +1752,17 @@
         "points": 13
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
