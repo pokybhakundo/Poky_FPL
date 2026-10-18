@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:55:17.438846+00:00",
+  "generated_at": "2026-10-18T14:00:32.121258+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 38,
-      "total_points": 437
-    },
-    {
-      "rank": 18,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 48,
+      "total_points": 437
+    },
+    {
+      "rank": 18,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 38,
       "total_points": 437
     },
     {
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 52,
-      "total_points": 429
-    },
-    {
-      "rank": 23,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 38,
+      "total_points": 429
+    },
+    {
+      "rank": 23,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 52,
       "total_points": 429
     },
     {
