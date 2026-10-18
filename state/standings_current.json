@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T07:40:18.038150+00:00",
+  "generated_at": "2026-10-18T07:45:23.603500+00:00",
   "classic": [
     {
       "rank": 1,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 33,
-      "total_points": 423
-    },
-    {
-      "rank": 24,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 34,
+      "total_points": 423
+    },
+    {
+      "rank": 24,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 33,
       "total_points": 423
     },
     {
