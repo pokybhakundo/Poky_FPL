@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-18T13:30:24.673898+00:00",
+  "generated_at": "2026-10-18T13:35:23.248412+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 49,
-      "total_points": 438
-    },
-    {
-      "rank": 18,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 39,
+      "total_points": 438
+    },
+    {
+      "rank": 18,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 49,
       "total_points": 438
     },
     {
@@ -215,8 +215,8 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 45,
-      "total_points": 412
+      "gw_points": 47,
+      "total_points": 414
     },
     {
       "rank": 28,
@@ -247,8 +247,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 50,
-      "total_points": 401
+      "gw_points": 51,
+      "total_points": 402
     },
     {
       "rank": 32,
