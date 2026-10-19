@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-19T20:20:21.654000+00:00",
+  "generated_at": "2026-10-19T20:25:17.926236+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 73,
-      "total_points": 493
+      "gw_points": 74,
+      "total_points": 494
     },
     {
       "rank": 6,
@@ -63,8 +63,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 37,
-      "total_points": 482
+      "gw_points": 38,
+      "total_points": 483
     },
     {
       "rank": 9,
@@ -131,15 +131,23 @@
       "total_points": 460
     },
     {
-      "rank": 17,
+      "rank": 16,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gw_points": 65,
+      "gw_points": 66,
+      "total_points": 460
+    },
+    {
+      "rank": 18,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 67,
       "total_points": 459
     },
     {
-      "rank": 17,
+      "rank": 19,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -147,20 +155,12 @@
       "total_points": 459
     },
     {
-      "rank": 19,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 66,
-      "total_points": 458
-    },
-    {
       "rank": 20,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 52,
-      "total_points": 458
+      "gw_points": 53,
+      "total_points": 459
     },
     {
       "rank": 21,
@@ -172,19 +172,19 @@
     },
     {
       "rank": 22,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 55,
+      "total_points": 455
+    },
+    {
+      "rank": 23,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 53,
       "total_points": 455
-    },
-    {
-      "rank": 23,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 54,
-      "total_points": 454
     },
     {
       "rank": 24,
@@ -207,8 +207,8 @@
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 64,
-      "total_points": 441
+      "gw_points": 65,
+      "total_points": 442
     },
     {
       "rank": 27,
@@ -255,8 +255,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 33,
-      "total_points": 407
+      "gw_points": 34,
+      "total_points": 408
     },
     {
       "rank": 33,
