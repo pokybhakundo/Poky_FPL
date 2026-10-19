@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-19T19:40:20.561157+00:00",
+  "generated_at": "2026-10-19T19:45:25.210415+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 73,
-      "total_points": 493
+      "gw_points": 74,
+      "total_points": 494
     },
     {
       "rank": 6,
@@ -63,8 +63,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 37,
-      "total_points": 482
+      "gw_points": 38,
+      "total_points": 483
     },
     {
       "rank": 9,
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 67,
+      "total_points": 459
+    },
+    {
+      "rank": 18,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -139,20 +147,12 @@
       "total_points": 459
     },
     {
-      "rank": 17,
+      "rank": 18,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 65,
       "total_points": 459
-    },
-    {
-      "rank": 19,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 66,
-      "total_points": 458
     },
     {
       "rank": 20,
@@ -255,8 +255,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 33,
-      "total_points": 407
+      "gw_points": 34,
+      "total_points": 408
     },
     {
       "rank": 33,
