@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:45:26.568449+00:00",
+  "generated_at": "2026-10-19T20:50:19.849053+00:00",
   "form": {
     "gws": [
       2,
@@ -381,17 +381,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -407,6 +396,17 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
         }
       ]
     },
@@ -875,30 +875,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "De Cuyper",
-        "Gvardiol",
-        "Cherki",
-        "Saka",
-        "Rogers",
-        "Gro\u00df",
-        "Haaland",
-        "Barry",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hall",
-        "O'Shea",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -920,6 +896,30 @@
         "King",
         "Egan",
         "Gibbs-White"
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Gvardiol",
+        "Cherki",
+        "Saka",
+        "Rogers",
+        "Gro\u00df",
+        "Haaland",
+        "Barry",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hall",
+        "O'Shea",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1616,17 +1616,17 @@
         "points": 13
       },
       {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
