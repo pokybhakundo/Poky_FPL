@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-19T20:15:21.152628+00:00",
+  "generated_at": "2026-10-19T20:20:21.654000+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 68,
-      "total_points": 459
-    },
-    {
-      "rank": 17,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 65,
+      "total_points": 459
+    },
+    {
+      "rank": 17,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 68,
       "total_points": 459
     },
     {
