@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-19T20:55:22.692231+00:00",
+  "generated_at": "2026-10-19T21:00:28.222794+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 74,
-      "total_points": 494
+      "gw_points": 76,
+      "total_points": 496
     },
     {
       "rank": 6,
@@ -63,8 +63,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 38,
-      "total_points": 483
+      "gw_points": 40,
+      "total_points": 485
     },
     {
       "rank": 9,
@@ -132,19 +132,19 @@
     },
     {
       "rank": 17,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 69,
+      "total_points": 461
+    },
+    {
+      "rank": 18,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 62,
       "total_points": 460
-    },
-    {
-      "rank": 18,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 67,
-      "total_points": 459
     },
     {
       "rank": 19,
@@ -255,8 +255,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 34,
-      "total_points": 408
+      "gw_points": 36,
+      "total_points": 410
     },
     {
       "rank": 33,
