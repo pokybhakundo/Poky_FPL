@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-19T20:35:24.055086+00:00",
+  "generated_at": "2026-10-19T20:40:30.537439+00:00",
   "classic": [
     {
       "rank": 1,
@@ -124,18 +124,18 @@
     },
     {
       "rank": 16,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 62,
-      "total_points": 460
-    },
-    {
-      "rank": 16,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 66,
+      "total_points": 460
+    },
+    {
+      "rank": 16,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 62,
       "total_points": 460
     },
     {
