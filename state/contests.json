@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-20T06:45:17.607789+00:00",
+  "generated_at": "2026-10-20T06:50:16.574515+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
@@ -17,92 +17,92 @@
   "manager_of_the_week": [
     {
       "gw": 1,
-      "points": 68,
+      "points": 61,
       "shared": false,
       "provisional": false,
       "winners": [
         {
-          "entry_id": 514,
-          "team_name": "Tikka MoSalah",
-          "manager": "Arjun Susarla"
+          "entry_id": 6924675,
+          "team_name": "Shaw Dust",
+          "manager": "Ben Molloy"
         }
       ]
     },
     {
       "gw": 2,
-      "points": 135,
+      "points": 109,
       "shared": false,
       "provisional": false,
       "winners": [
         {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
+          "entry_id": 5866075,
+          "team_name": "Not Too Xabi",
+          "manager": "Pratham Pandya"
         }
       ]
     },
     {
       "gw": 3,
-      "points": 71,
+      "points": 48,
       "shared": false,
       "provisional": false,
       "winners": [
         {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
+          "entry_id": 6924675,
+          "team_name": "Shaw Dust",
+          "manager": "Ben Molloy"
         }
       ]
     },
     {
       "gw": 4,
-      "points": 110,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
-        }
-      ]
-    },
-    {
-      "gw": 5,
-      "points": 43,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
-        }
-      ]
-    },
-    {
-      "gw": 6,
       "points": 80,
       "shared": false,
       "provisional": false,
       "winners": [
         {
-          "entry_id": 493,
-          "team_name": "Ballon d'Orgu",
-          "manager": "Harvey Gill"
+          "entry_id": 5866075,
+          "team_name": "Not Too Xabi",
+          "manager": "Pratham Pandya"
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "points": 63,
+      "shared": false,
+      "provisional": false,
+      "winners": [
+        {
+          "entry_id": 2889086,
+          "team_name": "Badgers' big blowout",
+          "manager": "Richard Bolton"
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "points": 67,
+      "shared": false,
+      "provisional": false,
+      "winners": [
+        {
+          "entry_id": 6924675,
+          "team_name": "Shaw Dust",
+          "manager": "Ben Molloy"
         }
       ]
     },
     {
       "gw": 7,
-      "points": 438,
+      "points": 4359908,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 514,
-          "team_name": "Tikka MoSalah",
-          "manager": "Arjun Susarla"
+          "entry_id": 2889086,
+          "team_name": "Badgers' big blowout",
+          "manager": "Richard Bolton"
         }
       ]
     }
@@ -111,7 +111,7 @@
     {
       "month": "August",
       "label": "August",
-      "points": 197,
+      "points": 156,
       "shared": false,
       "provisional": false,
       "gameweeks": [
@@ -120,16 +120,16 @@
       ],
       "winners": [
         {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
+          "entry_id": 5866075,
+          "team_name": "Not Too Xabi",
+          "manager": "Pratham Pandya"
         }
       ]
     },
     {
       "month": "September",
       "label": "September",
-      "points": 224,
+      "points": 185,
       "shared": false,
       "provisional": false,
       "gameweeks": [
@@ -139,16 +139,16 @@
       ],
       "winners": [
         {
-          "entry_id": 482,
-          "team_name": "Hamza's Team",
-          "manager": "Hamza ayl"
+          "entry_id": 5866075,
+          "team_name": "Not Too Xabi",
+          "manager": "Pratham Pandya"
         }
       ]
     },
     {
       "month": "October",
       "label": "October",
-      "points": 516,
+      "points": 4359954,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -157,24 +157,24 @@
       ],
       "winners": [
         {
-          "entry_id": 514,
-          "team_name": "Tikka MoSalah",
-          "manager": "Arjun Susarla"
+          "entry_id": 2889086,
+          "team_name": "Badgers' big blowout",
+          "manager": "Richard Bolton"
         }
       ]
     }
   ],
   "king_of_the_ring": {
-    "points": 438,
+    "points": 4359908,
     "shared": false,
     "provisional": true,
     "winners": [
       {
-        "entry_id": 514,
-        "team_name": "Tikka MoSalah",
-        "manager": "Arjun Susarla",
+        "entry_id": 2889086,
+        "team_name": "Badgers' big blowout",
+        "manager": "Richard Bolton",
         "gw": 7,
-        "points": 438
+        "points": 4359908
       }
     ]
   },

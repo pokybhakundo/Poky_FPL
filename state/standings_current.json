@@ -1,38 +1,30 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-20T06:45:19.070204+00:00",
+  "generated_at": "2026-10-20T06:50:17.740484+00:00",
   "classic": [
     {
-      "rank": 2738652,
-      "entry_id": 514,
-      "team_name": "Tikka MoSalah",
-      "manager": "Arjun Susarla",
-      "gw_points": 438,
-      "total_points": 479
+      "rank": 4421737,
+      "entry_id": 6924675,
+      "team_name": "Shaw Dust",
+      "manager": "Ben Molloy",
+      "gw_points": 271541,
+      "total_points": 447231
     },
     {
-      "rank": 3740636,
-      "entry_id": 493,
-      "team_name": "Ballon d'Orgu",
-      "manager": "Harvey Gill",
-      "gw_points": 431,
-      "total_points": 479
+      "rank": 8017123,
+      "entry_id": 2889086,
+      "team_name": "Badgers' big blowout",
+      "manager": "Richard Bolton",
+      "gw_points": 4359908,
+      "total_points": 5376775
     },
     {
-      "rank": 890763,
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
-      "gw_points": 430,
-      "total_points": 465
-    },
-    {
-      "rank": 2745414,
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
-      "gw_points": 427,
-      "total_points": 439
+      "rank": 5530164,
+      "entry_id": 5866075,
+      "team_name": "Not Too Xabi",
+      "manager": "Pratham Pandya",
+      "gw_points": 2184606,
+      "total_points": 8245396
     }
   ],
   "h2h": [

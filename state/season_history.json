@@ -1,124 +1,109 @@
 {
-  "generated_at": "2026-10-20T06:45:17.608287+00:00",
+  "generated_at": "2026-10-20T06:50:16.575238+00:00",
   "entries": {
-    "514": {
-      "entry_id": 514,
-      "team_name": "Tikka MoSalah",
-      "manager": "Arjun Susarla",
+    "6924675": {
+      "entry_id": 6924675,
+      "team_name": "Shaw Dust",
+      "manager": "Ben Molloy",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2313,
-          "rank": 138928
+          "total_points": 2190,
+          "rank": 1001821
         },
         {
           "season_name": "2024/25",
-          "total_points": 2562,
-          "rank": 30350
-        }
-      ]
-    },
-    "493": {
-      "entry_id": 493,
-      "team_name": "Ballon d'Orgu",
-      "manager": "Harvey Gill",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2380,
-          "rank": 20167
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2471,
-          "rank": 211813
+          "total_points": 2222,
+          "rank": 2530276
         },
         {
           "season_name": "2023/24",
-          "total_points": 2539,
-          "rank": 29656
+          "total_points": 2258,
+          "rank": 1465694
         },
         {
           "season_name": "2022/23",
-          "total_points": 2526,
-          "rank": 103426
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2605,
-          "rank": 16566
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2524,
-          "rank": 3468
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2247,
-          "rank": 142010
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2491,
-          "rank": 371
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2158,
-          "rank": 239721
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 2306,
-          "rank": 10114
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 2020,
-          "rank": 544777
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 2151,
-          "rank": 23381
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2394,
-          "rank": 11663
-        },
-        {
-          "season_name": "2012/13",
-          "total_points": 2042,
-          "rank": 140033
-        },
-        {
-          "season_name": "2011/12",
-          "total_points": 2083,
-          "rank": 54727
+          "total_points": 2285,
+          "rank": 1682434
         }
       ]
     },
-    "482": {
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
+    "2889086": {
+      "entry_id": 2889086,
+      "team_name": "Badgers' big blowout",
+      "manager": "Richard Bolton",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2162,
-          "rank": 1348770
+          "total_points": 1905,
+          "rank": 5818074
         },
         {
           "season_name": "2024/25",
-          "total_points": 2457,
-          "rank": 264590
+          "total_points": 2057,
+          "rank": 4838498
         },
         {
           "season_name": "2023/24",
-          "total_points": 1386,
-          "rank": 9885437
+          "total_points": 2368,
+          "rank": 525285
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2242,
+          "rank": 2181607
+        }
+      ]
+    },
+    "5866075": {
+      "entry_id": 5866075,
+      "team_name": "Not Too Xabi",
+      "manager": "Pratham Pandya",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2191,
+          "rank": 992452
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2365,
+          "rank": 837605
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1941,
+          "rank": 5498105
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 1901,
+          "rank": 6432639
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1910,
+          "rank": 3666391
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1598,
+          "rank": 5995716
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1914,
+          "rank": 2907930
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1837,
+          "rank": 3739010
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1713,
+          "rank": 3469790
         }
       ]
     }

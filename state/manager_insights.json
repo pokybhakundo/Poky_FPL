@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:45:18.649636+00:00",
+  "generated_at": "2026-10-20T06:50:17.335846+00:00",
   "form": {
     "gws": [
       2,
@@ -313,28 +313,9 @@
   },
   "chips": [
     {
-      "entry_id": 514,
-      "team_name": "Tikka MoSalah",
-      "manager": "Arjun Susarla",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 493,
-      "team_name": "Ballon d'Orgu",
-      "manager": "Harvey Gill",
+      "entry_id": 6924675,
+      "team_name": "Shaw Dust",
+      "manager": "Ben Molloy",
       "chips": [
         {
           "name": "bboost",
@@ -342,7 +323,7 @@
         },
         {
           "name": "wildcard",
-          "gw": 3
+          "gw": 6
         },
         {
           "name": "3xc",
@@ -351,131 +332,88 @@
       ]
     },
     {
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
+      "entry_id": 2889086,
+      "team_name": "Badgers' big blowout",
+      "manager": "Richard Bolton",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 2
-        },
-        {
           "name": "3xc",
-          "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 3
+          "gw": 7
         }
       ]
     }
   ],
   "squads": [
     {
-      "entry_id": 514,
-      "team_name": "Tikka MoSalah",
-      "manager": "Arjun Susarla",
+      "entry_id": 6924675,
+      "team_name": "Shaw Dust",
+      "manager": "Ben Molloy",
       "starters": [
-        "Raya",
+        "Verbruggen",
         "Calafiori",
-        "Van Hecke",
+        "Konsa",
         "De Cuyper",
-        "Palmer",
+        "Saka",
         "Rogers",
-        "Dewsbury-Hall",
         "Gro\u00df",
-        "Calvert-Lewin",
+        "Schade",
+        "Haaland",
+        "Gonzalo",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Petrovi\u0107",
+        "Barnes",
+        "Hall",
+        "Bogle"
+      ]
+    },
+    {
+      "entry_id": 2889086,
+      "team_name": "Badgers' big blowout",
+      "manager": "Richard Bolton",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Konsa",
+        "Van Hecke",
+        "Semenyo",
+        "Gro\u00df",
+        "Saka",
+        "Dewsbury-Hall",
+        "Ndiaye",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
-        "Bentley",
-        "Szoboszlai",
-        "Konsa",
-        "Muharemovi\u0107"
+        "Steele",
+        "Tarkowski",
+        "Wissa",
+        "Mendy"
       ]
     },
     {
-      "entry_id": 493,
-      "team_name": "Ballon d'Orgu",
-      "manager": "Harvey Gill",
+      "entry_id": 5866075,
+      "team_name": "Not Too Xabi",
+      "manager": "Pratham Pandya",
       "starters": [
-        "Raya",
-        "Gvardiol",
-        "Calafiori",
-        "Konsa",
-        "De Cuyper",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Dubravka",
+        "Lammens",
         "Hall",
-        "Gibbs-White",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
-      "starters": [
-        "Raya",
         "Gvardiol",
         "Calafiori",
         "De Cuyper",
-        "Tavernier",
-        "Rogers",
-        "Saka",
         "Gro\u00df",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
+        "Rogers",
+        "Szoboszlai",
+        "B.Fernandes",
+        "Haaland",
+        "Jo\u00e3o Pedro"
       ],
       "bench": [
-        "Rushworth",
-        "Barnes",
-        "Thomas",
-        "Ajer"
-      ]
-    },
-    {
-      "entry_id": 482,
-      "team_name": "Hamza's Team",
-      "manager": "Hamza ayl",
-      "starters": [
-        "Raya",
-        "Gvardiol",
-        "Calafiori",
-        "De Cuyper",
-        "Tavernier",
-        "Rogers",
-        "Saka",
-        "Gro\u00df",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Rushworth",
-        "Barnes",
-        "Thomas",
-        "Ajer"
+        "Kinsky",
+        "Diop",
+        "Hughes",
+        "Kusi-Asare"
       ]
     }
   ],
@@ -484,33 +422,25 @@
     "provisional": true,
     "picks": [
       {
-        "entry_id": 514,
-        "team_name": "Tikka MoSalah",
-        "manager": "Arjun Susarla",
+        "entry_id": 6924675,
+        "team_name": "Shaw Dust",
+        "manager": "Ben Molloy",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 493,
-        "team_name": "Ballon d'Orgu",
-        "manager": "Harvey Gill",
+        "entry_id": 2889086,
+        "team_name": "Badgers' big blowout",
+        "manager": "Richard Bolton",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 482,
-        "team_name": "Hamza's Team",
-        "manager": "Hamza ayl",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
-      },
-      {
-        "entry_id": 482,
-        "team_name": "Hamza's Team",
-        "manager": "Hamza ayl",
+        "entry_id": 5866075,
+        "team_name": "Not Too Xabi",
+        "manager": "Pratham Pandya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
@@ -519,7 +449,7 @@
     "summary": [
       {
         "player_name": "Haaland",
-        "count": 4,
+        "count": 3,
         "points": 13
       }
     ]
