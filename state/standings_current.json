@@ -1,6 +1,6 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-20T14:55:18.203075+00:00",
+  "generated_at": "2026-10-20T15:00:30.268310+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 65,
-      "total_points": 464
-    },
-    {
-      "rank": 15,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 64,
+      "total_points": 464
+    },
+    {
+      "rank": 15,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 65,
       "total_points": 464
     },
     {
