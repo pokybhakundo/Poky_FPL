@@ -1,182 +1,18 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-20T06:50:16.574515+00:00",
+  "generated_at": "2026-10-20T07:00:25.402572+00:00",
   "next_deadline": "2026-10-23T17:30:00Z",
   "current_gw": 7,
   "current_gw_finalized": false,
-  "updated_from_gws": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-  ],
-  "manager_of_the_week": [
-    {
-      "gw": 1,
-      "points": 61,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 6924675,
-          "team_name": "Shaw Dust",
-          "manager": "Ben Molloy"
-        }
-      ]
-    },
-    {
-      "gw": 2,
-      "points": 109,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 5866075,
-          "team_name": "Not Too Xabi",
-          "manager": "Pratham Pandya"
-        }
-      ]
-    },
-    {
-      "gw": 3,
-      "points": 48,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 6924675,
-          "team_name": "Shaw Dust",
-          "manager": "Ben Molloy"
-        }
-      ]
-    },
-    {
-      "gw": 4,
-      "points": 80,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 5866075,
-          "team_name": "Not Too Xabi",
-          "manager": "Pratham Pandya"
-        }
-      ]
-    },
-    {
-      "gw": 5,
-      "points": 63,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 2889086,
-          "team_name": "Badgers' big blowout",
-          "manager": "Richard Bolton"
-        }
-      ]
-    },
-    {
-      "gw": 6,
-      "points": 67,
-      "shared": false,
-      "provisional": false,
-      "winners": [
-        {
-          "entry_id": 6924675,
-          "team_name": "Shaw Dust",
-          "manager": "Ben Molloy"
-        }
-      ]
-    },
-    {
-      "gw": 7,
-      "points": 4359908,
-      "shared": false,
-      "provisional": true,
-      "winners": [
-        {
-          "entry_id": 2889086,
-          "team_name": "Badgers' big blowout",
-          "manager": "Richard Bolton"
-        }
-      ]
-    }
-  ],
-  "manager_of_the_month": [
-    {
-      "month": "August",
-      "label": "August",
-      "points": 156,
-      "shared": false,
-      "provisional": false,
-      "gameweeks": [
-        1,
-        2
-      ],
-      "winners": [
-        {
-          "entry_id": 5866075,
-          "team_name": "Not Too Xabi",
-          "manager": "Pratham Pandya"
-        }
-      ]
-    },
-    {
-      "month": "September",
-      "label": "September",
-      "points": 185,
-      "shared": false,
-      "provisional": false,
-      "gameweeks": [
-        3,
-        4,
-        5
-      ],
-      "winners": [
-        {
-          "entry_id": 5866075,
-          "team_name": "Not Too Xabi",
-          "manager": "Pratham Pandya"
-        }
-      ]
-    },
-    {
-      "month": "October",
-      "label": "October",
-      "points": 4359954,
-      "shared": false,
-      "provisional": true,
-      "gameweeks": [
-        6,
-        7
-      ],
-      "winners": [
-        {
-          "entry_id": 2889086,
-          "team_name": "Badgers' big blowout",
-          "manager": "Richard Bolton"
-        }
-      ]
-    }
-  ],
+  "updated_from_gws": [],
+  "manager_of_the_week": [],
+  "manager_of_the_month": [],
   "king_of_the_ring": {
-    "points": 4359908,
+    "points": null,
     "shared": false,
-    "provisional": true,
-    "winners": [
-      {
-        "entry_id": 2889086,
-        "team_name": "Badgers' big blowout",
-        "manager": "Richard Bolton",
-        "gw": 7,
-        "points": 4359908
-      }
-    ]
+    "provisional": false,
+    "winners": []
   },
   "centurion": {
     "achieved": false,

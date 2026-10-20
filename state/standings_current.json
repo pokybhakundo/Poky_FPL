@@ -1,32 +1,7 @@
 {
   "gw": 7,
-  "generated_at": "2026-10-20T06:50:17.740484+00:00",
-  "classic": [
-    {
-      "rank": 4421737,
-      "entry_id": 6924675,
-      "team_name": "Shaw Dust",
-      "manager": "Ben Molloy",
-      "gw_points": 271541,
-      "total_points": 447231
-    },
-    {
-      "rank": 8017123,
-      "entry_id": 2889086,
-      "team_name": "Badgers' big blowout",
-      "manager": "Richard Bolton",
-      "gw_points": 4359908,
-      "total_points": 5376775
-    },
-    {
-      "rank": 5530164,
-      "entry_id": 5866075,
-      "team_name": "Not Too Xabi",
-      "manager": "Pratham Pandya",
-      "gw_points": 2184606,
-      "total_points": 8245396
-    }
-  ],
+  "generated_at": "2026-10-20T07:00:27.209940+00:00",
+  "classic": [],
   "h2h": [
     {
       "rank": 1,
