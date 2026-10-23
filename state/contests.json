@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-23T18:10:29.114482+00:00",
+  "generated_at": "2026-10-23T18:15:20.843064+00:00",
   "next_deadline": "2026-10-31T11:00:00Z",
   "current_gw": 8,
   "current_gw_finalized": false,
@@ -109,16 +109,10 @@
     },
     {
       "gw": 8,
-      "points": 83,
+      "points": 0,
       "shared": false,
       "provisional": true,
-      "winners": [
-        {
-          "entry_id": 33334,
-          "team_name": "Not too Xabi",
-          "manager": "Swapnil Tiwari"
-        }
-      ]
+      "winners": []
     }
   ],
   "manager_of_the_month": [
@@ -162,7 +156,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 248,
+      "points": 165,
       "shared": false,
       "provisional": true,
       "gameweeks": [
