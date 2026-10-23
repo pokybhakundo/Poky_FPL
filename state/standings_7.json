@@ -115,18 +115,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 65,
-      "total_points": 464
-    },
-    {
-      "rank": 15,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 64,
+      "total_points": 464
+    },
+    {
+      "rank": 15,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 65,
       "total_points": 464
     },
     {
