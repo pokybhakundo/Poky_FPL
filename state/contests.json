@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-23T19:45:22.444391+00:00",
+  "generated_at": "2026-10-23T19:50:21.313038+00:00",
   "next_deadline": "2026-10-31T11:00:00Z",
   "current_gw": 8,
   "current_gw_finalized": false,
@@ -109,7 +109,7 @@
     },
     {
       "gw": 8,
-      "points": 11,
+      "points": 10,
       "shared": false,
       "provisional": true,
       "winners": [
