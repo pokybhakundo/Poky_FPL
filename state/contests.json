@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-23T17:25:17.028572+00:00",
-  "next_deadline": "2026-10-23T17:30:00Z",
-  "current_gw": 7,
-  "current_gw_finalized": true,
+  "generated_at": "2026-10-23T18:10:29.114482+00:00",
+  "next_deadline": "2026-10-31T11:00:00Z",
+  "current_gw": 8,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
@@ -12,7 +12,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "manager_of_the_week": [
     {
@@ -105,6 +106,19 @@
           "manager": "Swapnil Tiwari"
         }
       ]
+    },
+    {
+      "gw": 8,
+      "points": 83,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -148,12 +162,13 @@
     {
       "month": "October",
       "label": "October",
-      "points": 165,
+      "points": 248,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
         6,
-        7
+        7,
+        8
       ],
       "winners": [
         {

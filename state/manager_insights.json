@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:25:20.166516+00:00",
+  "generated_at": "2026-10-23T18:10:43.302865+00:00",
   "form": {
     "gws": [
       3,
@@ -498,6 +498,21 @@
       ]
     },
     {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "bboost",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -512,21 +527,6 @@
         },
         {
           "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
           "gw": 4
         }
       ]
@@ -759,13 +759,13 @@
         "Gro\u00df",
         "Rogers",
         "Palmer",
+        "Gibbs-White",
         "Jo\u00e3o Pedro",
-        "Haaland",
-        "Barry"
+        "Haaland"
       ],
       "bench": [
         "Lecomte",
-        "Gibbs-White",
+        "Barry",
         "Egan",
         "Slater"
       ]
@@ -780,7 +780,7 @@
         "Ajer",
         "Calafiori",
         "Barnes",
-        "Saka",
+        "Schade",
         "Palmer",
         "Gro\u00df",
         "Jo\u00e3o Pedro",
@@ -801,21 +801,21 @@
       "starters": [
         "Verbruggen",
         "Calafiori",
-        "De Cuyper",
         "Konsa",
-        "Hall",
+        "Ajer",
         "Palmer",
-        "Gro\u00df",
-        "King",
         "Rogers",
+        "Gibbs-White",
+        "King",
+        "Gro\u00df",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Palmer",
-        "Wissa",
-        "Gibbs-White",
-        "Ajer"
+        "De Cuyper",
+        "Hall",
+        "Wissa"
       ]
     },
     {
@@ -827,10 +827,10 @@
         "Calafiori",
         "De Cuyper",
         "Thomas",
-        "B.Fernandes",
+        "Palmer",
         "Rogers",
         "Gro\u00df",
-        "King",
+        "Mbeumo",
         "Tavernier",
         "Haaland",
         "Jo\u00e3o Pedro"
@@ -850,19 +850,19 @@
         "Raya",
         "Calafiori",
         "De Cuyper",
-        "Van Hecke",
-        "Saka",
+        "Thomas",
+        "Palmer",
         "Rogers",
         "Gro\u00df",
-        "Manzambi",
+        "Gibbs-White",
         "Haaland",
         "Jo\u00e3o Pedro",
         "Gonzalo"
       ],
       "bench": [
         "Dubravka",
-        "Gibbs-White",
-        "Thomas",
+        "Manzambi",
+        "Van Hecke",
         "Egan"
       ]
     },
@@ -873,21 +873,21 @@
       "starters": [
         "Verbruggen",
         "Calafiori",
-        "Gvardiol",
         "De Cuyper",
-        "Hall",
+        "O'Shea",
+        "Cherki",
+        "M.Sangar\u00e9",
         "Rogers",
         "Gro\u00df",
-        "Saka",
         "Haaland",
-        "Jo\u00e3o Pedro",
-        "Barry"
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "Cherki",
-        "O'Shea",
-        "M.Sangar\u00e9"
+        "Hall",
+        "Gvardiol",
+        "Saka"
       ]
     },
     {
@@ -896,22 +896,22 @@
       "manager": "Mohan S Madai",
       "starters": [
         "Raya",
-        "De Cuyper",
-        "Van Hecke",
         "Calafiori",
+        "De Cuyper",
+        "Affengruber",
         "B.Fernandes",
-        "Saka",
         "Rogers",
         "Gro\u00df",
-        "Thiago",
+        "Cherki",
+        "Gonzalo",
         "Jo\u00e3o Pedro",
-        "Gonzalo"
+        "Thiago"
       ],
       "bench": [
         "Palmer",
-        "Cherki",
-        "Affengruber",
-        "Thomas"
+        "Van Hecke",
+        "Thomas",
+        "Saka"
       ]
     },
     {
@@ -921,12 +921,12 @@
       "starters": [
         "Raya",
         "Calafiori",
-        "Thomas",
         "De Cuyper",
         "Muharemovi\u0107",
         "Gro\u00df",
-        "Saka",
+        "Palmer",
         "Rogers",
+        "Gibbs-White",
         "Haaland",
         "Jo\u00e3o Pedro",
         "Calvert-Lewin"
@@ -934,8 +934,8 @@
       "bench": [
         "Bentley",
         "King",
-        "Egan",
-        "Gibbs-White"
+        "Thomas",
+        "Egan"
       ]
     },
     {
@@ -944,22 +944,22 @@
       "manager": "Arjun Prasai",
       "starters": [
         "Verbruggen",
-        "De Cuyper",
         "Gvardiol",
         "Calafiori",
+        "De Cuyper",
         "Thomas",
-        "Gro\u00df",
-        "Saka",
+        "Cherki",
         "Mbeumo",
-        "Baleba",
+        "Gro\u00df",
+        "Palmer",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "Cherki",
-        "Brobbey",
-        "Giles"
+        "Baleba",
+        "Giles",
+        "Brobbey"
       ]
     },
     {
@@ -969,20 +969,20 @@
       "starters": [
         "Verbruggen",
         "Calafiori",
-        "Gvardiol",
         "Konsa",
-        "Schade",
-        "Gro\u00df",
+        "Gvardiol",
+        "Gibbs-White",
         "Palmer",
         "Mbeumo",
+        "Schade",
         "Wissa",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Forster",
-        "Gibbs-White",
         "Hall",
+        "Gro\u00df",
         "Davis"
       ]
     },
@@ -992,21 +992,21 @@
       "manager": "Karna Karki",
       "starters": [
         "Raya",
-        "De Cuyper",
-        "Konsa",
-        "Hall",
         "Calafiori",
-        "Barnes",
+        "Hall",
+        "Konsa",
+        "De Cuyper",
         "Gro\u00df",
         "Rogers",
-        "Gonzalo",
+        "Schade",
+        "Cherki",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Tzolakis",
-        "Cherki",
-        "Schade",
+        "Barnes",
+        "Calvert-Lewin",
         "Tarkowski"
       ]
     },
@@ -1065,45 +1065,21 @@
       "starters": [
         "Raya",
         "Calafiori",
-        "Mykolenko",
         "De Cuyper",
-        "Mitchell",
-        "Barnes",
-        "B.Fernandes",
-        "Palmer",
+        "Gvardiol",
         "Gro\u00df",
+        "Palmer",
+        "Gomez",
+        "Gibbs-White",
         "Jo\u00e3o Pedro",
+        "Haaland",
         "Wissa"
       ],
       "bench": [
         "Horn\u00ed\u010dek",
-        "Gibbs-White",
-        "Isak",
-        "Gvardiol"
-      ]
-    },
-    {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Hall",
-        "Calafiori",
-        "Konsa",
-        "Rogers",
-        "\u00d8degaard",
-        "Palmer",
-        "Gonzalo",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Pickford",
-        "Cherki",
-        "Yalcouy\u00e9",
-        "Mykolenko"
+        "Barnes",
+        "Mykolenko",
+        "Mitchell"
       ]
     },
     {
@@ -1112,22 +1088,46 @@
       "manager": "Anit Yadav",
       "starters": [
         "Verbruggen",
-        "Gvardiol",
         "Calafiori",
-        "De Cuyper",
+        "Hall",
         "Konsa",
-        "Gro\u00df",
+        "Schade",
         "King",
         "Palmer",
+        "Gibbs-White",
         "Haaland",
         "Jo\u00e3o Pedro",
         "Wissa"
       ],
       "bench": [
         "Kinsky",
+        "Gvardiol",
+        "Gro\u00df",
+        "De Cuyper"
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "starters": [
+        "Leno",
         "Hall",
-        "Szoboszlai",
-        "Gibbs-White"
+        "Calafiori",
+        "Konsa",
+        "Rogers",
+        "\u00d8degaard",
+        "Palmer",
+        "Cherki",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "De Cuyper",
+        "Mykolenko",
+        "Yalcouy\u00e9"
       ]
     },
     {
@@ -1137,21 +1137,21 @@
       "starters": [
         "Kinsky",
         "Calafiori",
-        "De Cuyper",
         "Hall",
-        "Egan",
+        "N.Williams",
+        "Gibbs-White",
         "Rogers",
         "Palmer",
         "Gro\u00df",
-        "Jo\u00e3o Pedro",
+        "Schade",
         "Haaland",
-        "Wissa"
+        "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Dubravka",
-        "Gibbs-White",
-        "N.Williams",
-        "Schade"
+        "Wissa",
+        "De Cuyper",
+        "Egan"
       ]
     },
     {
@@ -1159,13 +1159,13 @@
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "starters": [
-        "Kinsky",
+        "Raya",
         "Calafiori",
         "De Cuyper",
         "Thomas",
         "B.Fernandes",
         "Gro\u00df",
-        "Saka",
+        "Rogers",
         "Barnes",
         "Haaland",
         "Jo\u00e3o Pedro",
@@ -1208,20 +1208,20 @@
       "manager": "Rajesh Baduwal",
       "starters": [
         "Verbruggen",
-        "Konsa",
-        "Gvardiol",
-        "Hall",
         "Calafiori",
-        "Gro\u00df",
-        "Palmer",
+        "Konsa",
+        "Hall",
+        "Gvardiol",
+        "Gibbs-White",
         "Rogers",
-        "Wissa",
-        "Haaland",
-        "Jo\u00e3o Pedro"
+        "Palmer",
+        "Evanilson",
+        "Jo\u00e3o Pedro",
+        "Haaland"
       ],
       "bench": [
         "Steele",
-        "Gibbs-White",
+        "Gro\u00df",
         "M.Sangar\u00e9",
         "Davis"
       ]
@@ -1232,22 +1232,22 @@
       "manager": "Don theGod",
       "starters": [
         "Raya",
-        "Vuskovic",
+        "Davis",
         "Calafiori",
-        "Gu\u00e9hi",
-        "Semenyo",
-        "Barnes",
-        "Saka",
+        "Egan",
         "Gro\u00df",
+        "Mbeumo",
+        "Barnes",
+        "\u00d8degaard",
         "Gonzalo",
         "Haaland",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Dubravka",
-        "Egan",
+        "Gu\u00e9hi",
         "McGinn",
-        "Davis"
+        "Vuskovic"
       ]
     },
     {
@@ -1255,23 +1255,23 @@
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "starters": [
-        "Verbruggen",
-        "Ajayi",
+        "Kelleher",
+        "Kayode",
         "Calafiori",
-        "De Cuyper",
-        "Tavernier",
-        "Belloumi",
-        "Palmer",
+        "Justin",
+        "Cherki",
         "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
         "Jo\u00e3o Pedro",
-        "N.Jackson",
-        "Haaland"
+        "Isak"
       ],
       "bench": [
-        "Kelleher",
-        "Cherki",
-        "Justin",
-        "Kayode"
+        "Verbruggen",
+        "Belloumi",
+        "De Cuyper",
+        "Ajayi"
       ]
     },
     {
@@ -1283,17 +1283,17 @@
         "Calafiori",
         "De Cuyper",
         "Gvardiol",
-        "van Ewijk",
         "Palmer",
+        "Rice",
+        "Cherki",
+        "Neto",
         "Gro\u00df",
-        "Szoboszlai",
-        "Saka",
-        "Haaland",
-        "Jo\u00e3o Pedro"
+        "Jo\u00e3o Pedro",
+        "Haaland"
       ],
       "bench": [
         "Palmer",
-        "Cherki",
+        "van Ewijk",
         "Davis",
         "Walle Egeli"
       ]
@@ -1303,23 +1303,23 @@
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "starters": [
-        "Verbruggen",
-        "Hall",
-        "Gvardiol",
-        "De Cuyper",
+        "Raya",
         "Konsa",
-        "Gro\u00df",
+        "Hall",
+        "Ajer",
         "Rogers",
-        "Szoboszlai",
+        "Cherki",
+        "Gibbs-White",
+        "Gro\u00df",
         "Haaland",
         "Jo\u00e3o Pedro",
         "Solanke"
       ],
       "bench": [
         "Dubravka",
-        "Gibbs-White",
-        "Cherki",
-        "Ajer"
+        "De Cuyper",
+        "Gvardiol",
+        "Szoboszlai"
       ]
     },
     {
@@ -1329,21 +1329,21 @@
       "starters": [
         "Raya",
         "Konsa",
-        "Davis",
+        "Andersen",
         "De Cuyper",
-        "Saka",
-        "Slater",
-        "Rogers",
+        "Foden",
         "Palmer",
-        "Wissa",
+        "Rogers",
+        "Cherki",
         "Barry",
-        "Haaland"
+        "Haaland",
+        "Wissa"
       ],
       "bench": [
         "Zetterer",
-        "Cherki",
-        "Andersen",
-        "Muharemovi\u0107"
+        "Muharemovi\u0107",
+        "Davis",
+        "Slater"
       ]
     },
     {
@@ -1352,22 +1352,22 @@
       "manager": "Kaushal Raj Ghimire",
       "starters": [
         "Verbruggen",
-        "De Cuyper",
+        "Muharemovi\u0107",
         "Calafiori",
-        "Thiaw",
         "Konsa",
         "\u00d8degaard",
         "Rogers",
         "Palmer",
+        "Tavernier",
+        "Calvert-Lewin",
         "Jo\u00e3o Pedro",
-        "Wissa",
         "Haaland"
       ],
       "bench": [
         "Kinsky",
-        "Szoboszlai",
+        "De Cuyper",
         "Gomez",
-        "Muharemovi\u0107"
+        "Thiaw"
       ]
     },
     {
@@ -1375,23 +1375,23 @@
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
       "starters": [
-        "Verbruggen",
+        "Tzolakis",
         "Calafiori",
-        "De Cuyper",
+        "Thomas",
         "Egan",
         "B.Fernandes",
         "Mbeumo",
-        "Dewsbury-Hall",
         "Rogers",
-        "Belloumi",
+        "\u00d8degaard",
         "Haaland",
-        "Jo\u00e3o Pedro"
+        "Jo\u00e3o Pedro",
+        "Delap"
       ],
       "bench": [
-        "Tzolakis",
-        "Bogle",
-        "Delap",
-        "Thomas"
+        "Verbruggen",
+        "De Cuyper",
+        "Belloumi",
+        "Bogle"
       ]
     },
     {
@@ -1424,22 +1424,22 @@
       "manager": "Abhishek Jaiswal",
       "starters": [
         "Verbruggen",
-        "Calafiori",
-        "Maguire",
+        "Bogle",
         "Gvardiol",
-        "Egan",
-        "\u00d8degaard",
-        "Rogers",
+        "Calafiori",
         "Mbeumo",
+        "Rogers",
+        "Tavernier",
+        "Gakpo",
+        "Calvert-Lewin",
         "Haaland",
-        "Jo\u00e3o Pedro",
-        "Wissa"
+        "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "Tzolis",
-        "Pedro Porro",
-        "Gakpo"
+        "\u00d8degaard",
+        "Maguire",
+        "Egan"
       ]
     },
     {
@@ -1447,10 +1447,10 @@
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
       "starters": [
-        "Lammens",
+        "Sels",
         "White",
         "Calafiori",
-        "Egan",
+        "Hall",
         "Belloumi",
         "B.Fernandes",
         "Gro\u00df",
@@ -1461,9 +1461,9 @@
       ],
       "bench": [
         "Verbruggen",
-        "Hall",
-        "Isidor",
-        "Ajer"
+        "Egan",
+        "Ajer",
+        "Isidor"
       ]
     },
     {
@@ -1474,20 +1474,20 @@
         "Verbruggen",
         "Calafiori",
         "Mitchell",
-        "van Ewijk",
+        "Diop",
         "Rogers",
         "B.Fernandes",
         "Gro\u00df",
-        "Hughes",
+        "Cherki",
         "Haaland",
         "Jo\u00e3o Pedro",
-        "Wissa"
+        "Kostoulas"
       ],
       "bench": [
-        "Martinez",
-        "Cherki",
+        "Tzolakis",
+        "van Ewijk",
         "Davis",
-        "Diop"
+        "Hughes"
       ]
     },
     {
@@ -1525,7 +1525,7 @@
         "Calafiori",
         "Rogers",
         "Palmer",
-        "Semenyo",
+        "Cherki",
         "Gro\u00df",
         "Cunha",
         "Jo\u00e3o Pedro",
@@ -1544,28 +1544,28 @@
       "manager": "Rajiv Bhandari",
       "starters": [
         "Leno",
-        "N.Williams",
-        "Matheus N.",
         "De Cuyper",
         "Hume",
-        "Belloumi",
-        "Barcola",
+        "N.Williams",
+        "Rayan",
         "Palmer",
-        "Haaland",
-        "Fernandez-Pardo",
-        "Jo\u00e3o Pedro"
+        "Barcola",
+        "Cherki",
+        "Belloumi",
+        "Jo\u00e3o Pedro",
+        "Haaland"
       ],
       "bench": [
         "Kinsky",
-        "S\u00e1vio",
+        "Fernandez-Pardo",
         "Dedi\u0107",
-        "Cherki"
+        "Matheus N."
       ]
     }
   ],
   "captain": {
-    "gw": 7,
-    "provisional": false,
+    "gw": 8,
+    "provisional": true,
     "picks": [
       {
         "entry_id": 1966033,
@@ -1573,7 +1573,7 @@
         "manager": "Biraj Shakya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 2310055,
@@ -1581,7 +1581,7 @@
         "manager": "Sabin Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 33334,
@@ -1589,15 +1589,15 @@
         "manager": "Swapnil Tiwari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 3769764,
         "team_name": "XabiBaby",
         "manager": "Rikesh Puri",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 0
       },
       {
         "entry_id": 1575639,
@@ -1605,7 +1605,7 @@
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 3309536,
@@ -1613,31 +1613,31 @@
         "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 464574,
         "team_name": "The Carrick Masters",
         "manager": "Mohan S Madai",
-        "element_id": 399,
-        "player_name": "Cherki",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
         "points": 0
       },
       {
         "entry_id": 36783,
         "team_name": "Kids to Unc's FC",
         "manager": "Bishal Neupane",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 427,
+        "player_name": "Mbeumo",
+        "points": 0
       },
       {
         "entry_id": 254926,
@@ -1645,7 +1645,7 @@
         "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1664566,
@@ -1653,7 +1653,7 @@
         "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1913463,
@@ -1661,7 +1661,7 @@
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
-        "points": 2
+        "points": 0
       },
       {
         "entry_id": 5917809,
@@ -1669,15 +1669,23 @@
         "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1845615,
         "team_name": "Kylian Dictator",
         "manager": "Rakesh Itani",
-        "element_id": 464,
-        "player_name": "Wissa",
-        "points": 1
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 1843084,
@@ -1685,23 +1693,15 @@
         "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
-      },
-      {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
-        "element_id": 124,
-        "player_name": "Gro\u00df",
-        "points": 5
+        "element_id": 480,
+        "player_name": "Gibbs-White",
+        "points": 0
       },
       {
         "entry_id": 1548786,
@@ -1709,7 +1709,7 @@
         "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1595343,
@@ -1717,7 +1717,7 @@
         "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 395170,
@@ -1725,15 +1725,15 @@
         "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 2546180,
         "team_name": "Pharaoh's Team",
         "manager": "Don theGod",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 2253554,
@@ -1741,7 +1741,7 @@
         "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 2017811,
@@ -1749,15 +1749,15 @@
         "manager": "Aayush Palikhel",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 480,
+        "player_name": "Gibbs-White",
+        "points": 0
       },
       {
         "entry_id": 4122498,
@@ -1765,7 +1765,7 @@
         "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 75325,
@@ -1773,7 +1773,7 @@
         "manager": "Kaushal Raj Ghimire",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
-        "points": 2
+        "points": 0
       },
       {
         "entry_id": 500535,
@@ -1781,7 +1781,7 @@
         "manager": "Akash Shrestha",
         "element_id": 427,
         "player_name": "Mbeumo",
-        "points": 8
+        "points": 0
       },
       {
         "entry_id": 2659214,
@@ -1789,15 +1789,15 @@
         "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 2798038,
         "team_name": "CookedRice",
         "manager": "Abhishek Jaiswal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 13
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 4048482,
@@ -1805,7 +1805,7 @@
         "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 2435657,
@@ -1813,7 +1813,7 @@
         "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 1955412,
@@ -1821,7 +1821,7 @@
         "manager": "MESSI GOAT",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 2
+        "points": 0
       },
       {
         "entry_id": 3479050,
@@ -1829,7 +1829,7 @@
         "manager": "Prasis Timilsena",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       },
       {
         "entry_id": 558137,
@@ -1837,44 +1837,34 @@
         "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 13
+        "points": 0
       }
     ],
     "summary": [
       {
         "player_name": "Haaland",
-        "count": 27,
-        "points": 13
-      },
-      {
-        "player_name": "Jo\u00e3o Pedro",
-        "count": 2,
-        "points": 2
-      },
-      {
-        "player_name": "Cherki",
-        "count": 1,
+        "count": 21,
         "points": 0
       },
       {
-        "player_name": "Wissa",
-        "count": 1,
-        "points": 1
-      },
-      {
-        "player_name": "Gro\u00df",
-        "count": 1,
-        "points": 5
-      },
-      {
-        "player_name": "Mbeumo",
-        "count": 1,
-        "points": 8
+        "player_name": "Jo\u00e3o Pedro",
+        "count": 7,
+        "points": 0
       },
       {
         "player_name": "Palmer",
-        "count": 1,
-        "points": 2
+        "count": 2,
+        "points": 0
+      },
+      {
+        "player_name": "Mbeumo",
+        "count": 2,
+        "points": 0
+      },
+      {
+        "player_name": "Gibbs-White",
+        "count": 2,
+        "points": 0
       }
     ]
   }
