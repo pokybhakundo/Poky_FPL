@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:10:26.337859+00:00",
+  "generated_at": "2026-10-23T17:15:26.896058+00:00",
   "form": {
     "gws": [
       3,
@@ -498,21 +498,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -527,6 +512,21 @@
         },
         {
           "name": "wildcard",
+          "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "bboost",
           "gw": 4
         }
       ]
@@ -1083,30 +1083,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Verbruggen",
-        "Gvardiol",
-        "Calafiori",
-        "De Cuyper",
-        "Konsa",
-        "Gro\u00df",
-        "King",
-        "Palmer",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Wissa"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hall",
-        "Szoboszlai",
-        "Gibbs-White"
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -1128,6 +1104,30 @@
         "Cherki",
         "Yalcouy\u00e9",
         "Mykolenko"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Verbruggen",
+        "Gvardiol",
+        "Calafiori",
+        "De Cuyper",
+        "Konsa",
+        "Gro\u00df",
+        "King",
+        "Palmer",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Wissa"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hall",
+        "Szoboszlai",
+        "Gibbs-White"
       ]
     },
     {
@@ -1680,17 +1680,17 @@
         "points": 1
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 13
