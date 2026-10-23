@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:20:19.950662+00:00",
+  "generated_at": "2026-10-23T19:25:17.854953+00:00",
   "form": {
     "gws": [
       3,
@@ -1653,7 +1653,7 @@
         "manager": "shakti karki",
         "element_id": 480,
         "player_name": "Gibbs-White",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 5917809,
@@ -1773,7 +1773,7 @@
         "manager": "Rijan Bajagain",
         "element_id": 480,
         "player_name": "Gibbs-White",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 500535,
@@ -1864,7 +1864,7 @@
       {
         "player_name": "Gibbs-White",
         "count": 2,
-        "points": 1
+        "points": 2
       }
     ]
   }
