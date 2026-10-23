@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-23T20:50:22.509747+00:00",
+  "generated_at": "2026-10-23T20:55:23.446634+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 13,
-      "total_points": 472
-    },
-    {
-      "rank": 11,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 0,
+      "total_points": 471
+    },
+    {
+      "rank": 10,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 12,
       "total_points": 471
     },
     {
@@ -271,8 +271,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 9,
-      "total_points": 397
+      "gw_points": 8,
+      "total_points": 396
     }
   ],
   "h2h": [
