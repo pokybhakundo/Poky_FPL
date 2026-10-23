@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-23T20:15:21.163830+00:00",
+  "generated_at": "2026-10-23T20:20:36.384579+00:00",
   "classic": [
     {
       "rank": 1,
@@ -247,8 +247,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 1,
-      "total_points": 418
+      "gw_points": 0,
+      "total_points": 417
     },
     {
       "rank": 32,
