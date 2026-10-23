@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-23T19:40:21.043171+00:00",
+  "generated_at": "2026-10-23T19:45:28.632232+00:00",
   "classic": [
     {
       "rank": 1,
@@ -83,12 +83,12 @@
       "total_points": 471
     },
     {
-      "rank": 10,
+      "rank": 11,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 12,
-      "total_points": 471
+      "gw_points": 11,
+      "total_points": 470
     },
     {
       "rank": 12,
@@ -271,8 +271,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 10,
-      "total_points": 398
+      "gw_points": 9,
+      "total_points": 397
     }
   ],
   "h2h": [
