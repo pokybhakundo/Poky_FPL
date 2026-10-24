@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T18:15:19.987166+00:00",
+  "generated_at": "2026-10-24T18:20:28.418332+00:00",
   "classic": [
     {
       "rank": 1,
@@ -92,19 +92,19 @@
     },
     {
       "rank": 12,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 36,
-      "total_points": 497
-    },
-    {
-      "rank": 13,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 36,
       "total_points": 497
+    },
+    {
+      "rank": 13,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 35,
+      "total_points": 496
     },
     {
       "rank": 14,
@@ -115,12 +115,12 @@
       "total_points": 495
     },
     {
-      "rank": 14,
+      "rank": 15,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 32,
-      "total_points": 495
+      "gw_points": 31,
+      "total_points": 494
     },
     {
       "rank": 16,
@@ -271,8 +271,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 9,
-      "total_points": 419
+      "gw_points": 8,
+      "total_points": 418
     }
   ],
   "h2h": [
