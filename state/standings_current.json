@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T15:45:21.160744+00:00",
+  "generated_at": "2026-10-24T15:50:21.025140+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,14 +52,6 @@
     },
     {
       "rank": 7,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 44,
-      "total_points": 508
-    },
-    {
-      "rank": 8,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -67,11 +59,19 @@
       "total_points": 508
     },
     {
-      "rank": 9,
+      "rank": 8,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 16,
+      "total_points": 507
+    },
+    {
+      "rank": 9,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 43,
       "total_points": 507
     },
     {
@@ -196,18 +196,18 @@
     },
     {
       "rank": 25,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 17,
-      "total_points": 475
-    },
-    {
-      "rank": 25,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 9,
+      "total_points": 475
+    },
+    {
+      "rank": 25,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 17,
       "total_points": 475
     },
     {
@@ -255,8 +255,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 31,
-      "total_points": 427
+      "gw_points": 30,
+      "total_points": 426
     },
     {
       "rank": 33,

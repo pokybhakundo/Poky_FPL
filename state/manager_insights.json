@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:45:20.708914+00:00",
+  "generated_at": "2026-10-24T15:50:20.605395+00:00",
   "form": {
     "gws": [
       3,
@@ -399,25 +399,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -437,6 +418,25 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
         }
       ]
     },
@@ -891,30 +891,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "starters": [
-        "Leno",
-        "Hall",
-        "Calafiori",
-        "Konsa",
-        "Rogers",
-        "\u00d8degaard",
-        "Palmer",
-        "Cherki",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "De Cuyper",
-        "Mykolenko",
-        "Yalcouy\u00e9"
-      ]
-    },
-    {
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -960,6 +936,30 @@
         "Van Hecke",
         "Thomas",
         "Saka"
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "starters": [
+        "Leno",
+        "Hall",
+        "Calafiori",
+        "Konsa",
+        "Rogers",
+        "\u00d8degaard",
+        "Palmer",
+        "Cherki",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "De Cuyper",
+        "Mykolenko",
+        "Yalcouy\u00e9"
       ]
     },
     {
@@ -1323,30 +1323,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Kelleher",
-        "Kayode",
-        "Calafiori",
-        "Justin",
-        "Cherki",
-        "Gro\u00df",
-        "Palmer",
-        "Tavernier",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Isak"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Belloumi",
-        "De Cuyper",
-        "Ajayi"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1368,6 +1344,30 @@
         "Ajer",
         "Diop",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Kelleher",
+        "Kayode",
+        "Calafiori",
+        "Justin",
+        "Cherki",
+        "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Isak"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Belloumi",
+        "De Cuyper",
+        "Ajayi"
       ]
     },
     {
@@ -1616,14 +1616,6 @@
         "points": 8
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 3769764,
         "team_name": "XabiBaby",
         "manager": "Rikesh Puri",
@@ -1638,6 +1630,14 @@
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 1664566,
@@ -1760,20 +1760,20 @@
         "points": 8
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 2659214,
