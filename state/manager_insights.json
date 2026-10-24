@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:00:35.260187+00:00",
+  "generated_at": "2026-10-24T13:05:18.074708+00:00",
   "form": {
     "gws": [
       3,
@@ -577,21 +577,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -602,6 +587,21 @@
         },
         {
           "name": "bboost",
+          "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
           "gw": 4
         }
       ]
@@ -1203,30 +1203,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Kelleher",
-        "Kayode",
-        "Calafiori",
-        "Justin",
-        "Cherki",
-        "Gro\u00df",
-        "Palmer",
-        "Tavernier",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Isak"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Belloumi",
-        "De Cuyper",
-        "Ajayi"
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -1248,6 +1224,30 @@
         "Gvardiol",
         "Gro\u00df",
         "De Cuyper"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Kelleher",
+        "Kayode",
+        "Calafiori",
+        "Justin",
+        "Cherki",
+        "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Isak"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Belloumi",
+        "De Cuyper",
+        "Ajayi"
       ]
     },
     {
@@ -1720,20 +1720,20 @@
         "points": 0
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 969893,
         "team_name": "Team Utthan",
         "manager": "Anit Yadav",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 2017811,
