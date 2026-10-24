@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:50:19.574513+00:00",
+  "generated_at": "2026-10-24T17:55:22.768090+00:00",
   "form": {
     "gws": [
       3,
@@ -373,17 +373,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -403,6 +392,17 @@
       ]
     },
     {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        }
+      ]
+    },
+    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -414,6 +414,25 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -460,25 +479,6 @@
       ]
     },
     {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -494,6 +494,21 @@
       ]
     },
     {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        },
+        {
+          "name": "3xc",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -505,6 +520,17 @@
         {
           "name": "bboost",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -547,21 +573,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -585,13 +596,17 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
       "chips": [
         {
+          "name": "freehit",
+          "gw": 4
+        },
+        {
           "name": "wildcard",
-          "gw": 6
+          "gw": 7
         }
       ]
     },
@@ -611,36 +626,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "chips": [
-        {
-          "name": "freehit",
-          "gw": 4
-        },
-        {
-          "name": "wildcard",
-          "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 7
         }
       ]
     },
@@ -667,6 +652,21 @@
         {
           "name": "3xc",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
         }
       ]
     },
@@ -843,27 +843,27 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
       "starters": [
         "Verbruggen",
         "Calafiori",
         "De Cuyper",
-        "O'Shea",
-        "Cherki",
-        "M.Sangar\u00e9",
+        "Thomas",
+        "Palmer",
         "Rogers",
         "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
         "Haaland",
-        "Calvert-Lewin",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "Hall",
-        "Gvardiol",
-        "Saka"
+        "Calvert-Lewin",
+        "Mosquera",
+        "Maguire"
       ]
     },
     {
@@ -891,27 +891,27 @@
       ]
     },
     {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
       "starters": [
         "Verbruggen",
         "Calafiori",
         "De Cuyper",
-        "Thomas",
-        "Palmer",
+        "O'Shea",
+        "Cherki",
+        "M.Sangar\u00e9",
         "Rogers",
         "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
         "Haaland",
+        "Calvert-Lewin",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "Calvert-Lewin",
-        "Mosquera",
-        "Maguire"
+        "Hall",
+        "Gvardiol",
+        "Saka"
       ]
     },
     {
@@ -936,6 +936,30 @@
         "Hall",
         "Gro\u00df",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Muharemovi\u0107",
+        "Gro\u00df",
+        "Palmer",
+        "Rogers",
+        "Gibbs-White",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Bentley",
+        "King",
+        "Thomas",
+        "Egan"
       ]
     },
     {
@@ -987,30 +1011,6 @@
       ]
     },
     {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Muharemovi\u0107",
-        "Gro\u00df",
-        "Palmer",
-        "Rogers",
-        "Gibbs-White",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Bentley",
-        "King",
-        "Thomas",
-        "Egan"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1032,102 +1032,6 @@
         "Gro\u00df",
         "M.Sangar\u00e9",
         "Davis"
-      ]
-    },
-    {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Hall",
-        "Konsa",
-        "Schade",
-        "King",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Wissa"
-      ],
-      "bench": [
-        "Kinsky",
-        "Gvardiol",
-        "Gro\u00df",
-        "De Cuyper"
-      ]
-    },
-    {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Mitchell",
-        "Davis",
-        "Palmer",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Slater",
-        "Jo\u00e3o Pedro",
-        "Haaland",
-        "Delap"
-      ],
-      "bench": [
-        "Palmer",
-        "Gomez",
-        "Gu\u00e9hi",
-        "van Ewijk"
-      ]
-    },
-    {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Andersen",
-        "De Cuyper",
-        "Foden",
-        "Palmer",
-        "Rogers",
-        "Cherki",
-        "Barry",
-        "Haaland",
-        "Wissa"
-      ],
-      "bench": [
-        "Zetterer",
-        "Muharemovi\u0107",
-        "Davis",
-        "Slater"
-      ]
-    },
-    {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Gvardiol",
-        "Gro\u00df",
-        "Palmer",
-        "Gomez",
-        "Gibbs-White",
-        "Jo\u00e3o Pedro",
-        "Haaland",
-        "Wissa"
-      ],
-      "bench": [
-        "Horn\u00ed\u010dek",
-        "Barnes",
-        "Mykolenko",
-        "Mitchell"
       ]
     },
     {
@@ -1155,27 +1059,27 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
       "starters": [
-        "Raya",
-        "Konsa",
+        "Verbruggen",
+        "Calafiori",
         "Hall",
-        "Ajer",
-        "Rogers",
-        "Cherki",
+        "Konsa",
+        "Schade",
+        "King",
+        "Palmer",
         "Gibbs-White",
-        "Gro\u00df",
         "Haaland",
         "Jo\u00e3o Pedro",
-        "Solanke"
+        "Wissa"
       ],
       "bench": [
-        "Dubravka",
-        "De Cuyper",
+        "Kinsky",
         "Gvardiol",
-        "Szoboszlai"
+        "Gro\u00df",
+        "De Cuyper"
       ]
     },
     {
@@ -1203,27 +1107,99 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Andersen",
+        "De Cuyper",
+        "Foden",
+        "Palmer",
+        "Rogers",
+        "Cherki",
+        "Barry",
+        "Haaland",
+        "Wissa"
+      ],
+      "bench": [
+        "Zetterer",
+        "Muharemovi\u0107",
+        "Davis",
+        "Slater"
+      ]
+    },
+    {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Mitchell",
+        "Davis",
+        "Palmer",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Slater",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Delap"
+      ],
+      "bench": [
+        "Palmer",
+        "Gomez",
+        "Gu\u00e9hi",
+        "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
       "starters": [
         "Raya",
         "Calafiori",
         "De Cuyper",
-        "Thomas",
-        "B.Fernandes",
+        "Gvardiol",
         "Gro\u00df",
-        "Rogers",
-        "Barnes",
-        "Haaland",
+        "Palmer",
+        "Gomez",
+        "Gibbs-White",
         "Jo\u00e3o Pedro",
-        "Kostoulas"
+        "Haaland",
+        "Wissa"
       ],
       "bench": [
-        "Phillips",
-        "Ajayi",
-        "Davis",
-        "Schade"
+        "Horn\u00ed\u010dek",
+        "Barnes",
+        "Mykolenko",
+        "Mitchell"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Hall",
+        "Ajer",
+        "Rogers",
+        "Cherki",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Solanke"
+      ],
+      "bench": [
+        "Dubravka",
+        "De Cuyper",
+        "Gvardiol",
+        "Szoboszlai"
       ]
     },
     {
@@ -1251,27 +1227,51 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
       "starters": [
         "Raya",
-        "Davis",
         "Calafiori",
-        "Egan",
+        "De Cuyper",
+        "Thomas",
+        "B.Fernandes",
         "Gro\u00df",
-        "Mbeumo",
+        "Rogers",
         "Barnes",
-        "\u00d8degaard",
-        "Gonzalo",
         "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Phillips",
+        "Ajayi",
+        "Davis",
+        "Schade"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Semenyo",
+        "Rogers",
+        "Belloumi",
+        "Gro\u00df",
+        "Haaland",
+        "Calvert-Lewin",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
-        "Dubravka",
-        "Gu\u00e9hi",
-        "McGinn",
-        "Vuskovic"
+        "Kinsky",
+        "Ajer",
+        "Diop",
+        "Szoboszlai"
       ]
     },
     {
@@ -1323,27 +1323,27 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
+        "Raya",
+        "Davis",
         "Calafiori",
-        "Semenyo",
-        "Rogers",
-        "Belloumi",
+        "Egan",
         "Gro\u00df",
+        "Mbeumo",
+        "Barnes",
+        "\u00d8degaard",
+        "Gonzalo",
         "Haaland",
-        "Calvert-Lewin",
         "Jo\u00e3o Pedro"
       ],
       "bench": [
-        "Kinsky",
-        "Ajer",
-        "Diop",
-        "Szoboszlai"
+        "Dubravka",
+        "Gu\u00e9hi",
+        "McGinn",
+        "Vuskovic"
       ]
     },
     {
@@ -1600,12 +1600,12 @@
         "points": 8
       },
       {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 3
       },
       {
         "entry_id": 1843084,
@@ -1616,12 +1616,12 @@
         "points": 8
       },
       {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 3
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 254926,
@@ -1630,6 +1630,14 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 464574,
@@ -1648,49 +1656,9 @@
         "points": 8
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
-      },
-      {
         "entry_id": 395170,
         "team_name": "Idaho Potatoes XI",
         "manager": "Rajesh Baduwal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
-      },
-      {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
-        "entry_id": 1845615,
-        "team_name": "Kylian Dictator",
-        "manager": "Rakesh Itani",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
@@ -1704,12 +1672,12 @@
         "points": 2
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 480,
-        "player_name": "Gibbs-White",
-        "points": 2
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 1595343,
@@ -1720,12 +1688,36 @@
         "points": 8
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
+      },
+      {
+        "entry_id": 1845615,
+        "team_name": "Kylian Dictator",
+        "manager": "Rakesh Itani",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 480,
+        "player_name": "Gibbs-White",
+        "points": 2
       },
       {
         "entry_id": 165293,
@@ -1736,9 +1728,17 @@
         "points": 0
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
@@ -1760,9 +1760,9 @@
         "points": 8
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
