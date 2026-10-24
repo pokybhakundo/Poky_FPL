@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T16:00:36.586051+00:00",
+  "generated_at": "2026-10-24T16:05:27.473944+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 25,
-      "total_points": 487
-    },
-    {
-      "rank": 19,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 11,
+      "total_points": 487
+    },
+    {
+      "rank": 19,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 25,
       "total_points": 487
     },
     {
