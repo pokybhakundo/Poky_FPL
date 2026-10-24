@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T14:35:23.679719+00:00",
+  "generated_at": "2026-10-24T14:40:21.026639+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,19 +68,19 @@
     },
     {
       "rank": 9,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 5,
-      "total_points": 496
-    },
-    {
-      "rank": 10,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 27,
       "total_points": 495
+    },
+    {
+      "rank": 10,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 3,
+      "total_points": 494
     },
     {
       "rank": 11,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 29,
-      "total_points": 480
-    },
-    {
-      "rank": 18,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 18,
+      "total_points": 480
+    },
+    {
+      "rank": 18,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 29,
       "total_points": 480
     },
     {
@@ -172,6 +172,14 @@
     },
     {
       "rank": 22,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 20,
+      "total_points": 476
+    },
+    {
+      "rank": 23,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -179,19 +187,11 @@
       "total_points": 474
     },
     {
-      "rank": 22,
+      "rank": 23,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 16,
-      "total_points": 474
-    },
-    {
-      "rank": 24,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 18,
       "total_points": 474
     },
     {
