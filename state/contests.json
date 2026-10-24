@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-24T14:10:21.154684+00:00",
+  "generated_at": "2026-10-24T14:15:22.395642+00:00",
   "next_deadline": "2026-10-31T11:00:00Z",
   "current_gw": 8,
   "current_gw_finalized": false,
@@ -109,14 +109,24 @@
     },
     {
       "gw": 8,
-      "points": 25,
-      "shared": false,
+      "points": 26,
+      "shared": true,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 558137,
-          "team_name": "Morethrillesschill11",
-          "manager": "Rajiv Bhandari"
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
+        },
+        {
+          "entry_id": 1843084,
+          "team_name": "Gura's Invincibles",
+          "manager": "Prashant Guragai"
+        },
+        {
+          "entry_id": 1966033,
+          "team_name": "Or3gonian",
+          "manager": "Biraj Shakya"
         }
       ]
     }
@@ -162,7 +172,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 185,
+      "points": 191,
       "shared": false,
       "provisional": true,
       "gameweeks": [
