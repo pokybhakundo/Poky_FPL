@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T15:25:22.049053+00:00",
+  "generated_at": "2026-10-24T15:30:31.281514+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,19 +44,19 @@
     },
     {
       "rank": 6,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 17,
-      "total_points": 508
-    },
-    {
-      "rank": 7,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 34,
       "total_points": 508
+    },
+    {
+      "rank": 7,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 16,
+      "total_points": 507
     },
     {
       "rank": 8,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 28,
-      "total_points": 492
-    },
-    {
-      "rank": 14,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 41,
+      "total_points": 492
+    },
+    {
+      "rank": 14,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 28,
       "total_points": 492
     },
     {
