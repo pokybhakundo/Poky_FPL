@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T00:15:24.209492+00:00",
+  "generated_at": "2026-10-24T00:20:30.102629+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,27 +44,27 @@
     },
     {
       "rank": 6,
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "gw_points": 2,
+      "total_points": 494
+    },
+    {
+      "rank": 7,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 0,
+      "total_points": 491
+    },
+    {
+      "rank": 8,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 2,
       "total_points": 490
-    },
-    {
-      "rank": 7,
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "gw_points": 2,
-      "total_points": 490
-    },
-    {
-      "rank": 8,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 0,
-      "total_points": 485
     },
     {
       "rank": 9,
@@ -80,15 +80,15 @@
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 0,
-      "total_points": 471
+      "total_points": 476
     },
     {
-      "rank": 10,
+      "rank": 11,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 12,
-      "total_points": 471
+      "total_points": 475
     },
     {
       "rank": 12,
@@ -104,10 +104,10 @@
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 0,
-      "total_points": 466
+      "total_points": 468
     },
     {
-      "rank": 13,
+      "rank": 14,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -132,14 +132,22 @@
     },
     {
       "rank": 17,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 0,
+      "total_points": 464
+    },
+    {
+      "rank": 18,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 2,
-      "total_points": 462
+      "total_points": 463
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -147,7 +155,7 @@
       "total_points": 462
     },
     {
-      "rank": 19,
+      "rank": 20,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -155,7 +163,7 @@
       "total_points": 461
     },
     {
-      "rank": 20,
+      "rank": 21,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -163,36 +171,28 @@
       "total_points": 461
     },
     {
-      "rank": 21,
+      "rank": 22,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 4,
+      "total_points": 459
+    },
+    {
+      "rank": 23,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 0,
-      "total_points": 456
+      "total_points": 458
     },
     {
-      "rank": 22,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 0,
-      "total_points": 455
-    },
-    {
-      "rank": 23,
+      "rank": 24,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 0,
-      "total_points": 455
-    },
-    {
-      "rank": 24,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 0,
-      "total_points": 450
+      "total_points": 456
     },
     {
       "rank": 25,
@@ -200,15 +200,15 @@
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 0,
-      "total_points": 450
+      "total_points": 451
     },
     {
       "rank": 26,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 4,
-      "total_points": 449
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 0,
+      "total_points": 450
     },
     {
       "rank": 27,
@@ -240,7 +240,7 @@
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
       "gw_points": 0,
-      "total_points": 424
+      "total_points": 432
     },
     {
       "rank": 31,
@@ -248,7 +248,7 @@
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 1,
-      "total_points": 418
+      "total_points": 419
     },
     {
       "rank": 32,
@@ -260,19 +260,19 @@
     },
     {
       "rank": 33,
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "gw_points": 8,
+      "total_points": 404
+    },
+    {
+      "rank": 34,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
       "gw_points": 0,
       "total_points": 404
-    },
-    {
-      "rank": 34,
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "gw_points": 8,
-      "total_points": 396
     }
   ],
   "h2h": [
