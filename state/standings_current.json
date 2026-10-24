@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T15:35:18.596537+00:00",
+  "generated_at": "2026-10-24T15:40:22.722992+00:00",
   "classic": [
     {
       "rank": 1,
@@ -60,19 +60,19 @@
     },
     {
       "rank": 8,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 17,
+      "total_points": 508
+    },
+    {
+      "rank": 9,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "gw_points": 10,
       "total_points": 508
-    },
-    {
-      "rank": 9,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 16,
-      "total_points": 507
     },
     {
       "rank": 10,
