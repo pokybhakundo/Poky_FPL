@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T13:55:16.842321+00:00",
+  "generated_at": "2026-10-24T14:00:34.235979+00:00",
   "classic": [
     {
       "rank": 1,
@@ -156,18 +156,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 16,
-      "total_points": 474
-    },
-    {
-      "rank": 19,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 10,
+      "total_points": 474
+    },
+    {
+      "rank": 19,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 16,
       "total_points": 474
     },
     {
