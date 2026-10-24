@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:05:18.074708+00:00",
+  "generated_at": "2026-10-24T13:10:19.746495+00:00",
   "form": {
     "gws": [
       3,
@@ -1179,30 +1179,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
-        "Calafiori",
-        "Semenyo",
-        "Rogers",
-        "Belloumi",
-        "Gro\u00df",
-        "Haaland",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Ajer",
-        "Diop",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -1224,6 +1200,30 @@
         "Gvardiol",
         "Gro\u00df",
         "De Cuyper"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Semenyo",
+        "Rogers",
+        "Belloumi",
+        "Gro\u00df",
+        "Haaland",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Ajer",
+        "Diop",
+        "Szoboszlai"
       ]
     },
     {
@@ -1712,17 +1712,17 @@
         "points": 8
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0

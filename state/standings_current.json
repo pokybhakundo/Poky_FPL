@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T13:05:18.462600+00:00",
+  "generated_at": "2026-10-24T13:10:20.336303+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 8,
-      "total_points": 474
-    },
-    {
-      "rank": 19,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 10,
+      "total_points": 474
+    },
+    {
+      "rank": 19,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 8,
       "total_points": 474
     },
     {
