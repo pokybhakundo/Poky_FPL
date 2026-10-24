@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T16:55:18.209241+00:00",
+  "generated_at": "2026-10-24T17:00:28.421233+00:00",
   "classic": [
     {
       "rank": 1,
@@ -124,6 +124,14 @@
     },
     {
       "rank": 16,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 32,
+      "total_points": 493
+    },
+    {
+      "rank": 17,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -131,7 +139,7 @@
       "total_points": 492
     },
     {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -139,20 +147,12 @@
       "total_points": 492
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 29,
       "total_points": 492
-    },
-    {
-      "rank": 19,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 30,
-      "total_points": 491
     },
     {
       "rank": 20,
@@ -271,8 +271,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 6,
-      "total_points": 416
+      "gw_points": 8,
+      "total_points": 418
     }
   ],
   "h2h": [
