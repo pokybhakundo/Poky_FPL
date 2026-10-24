@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T17:40:21.224485+00:00",
+  "generated_at": "2026-10-24T17:45:22.634389+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 20,
-      "total_points": 508
-    },
-    {
-      "rank": 10,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 40,
+      "total_points": 508
+    },
+    {
+      "rank": 10,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 20,
       "total_points": 508
     },
     {
@@ -140,6 +140,14 @@
     },
     {
       "rank": 18,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 29,
+      "total_points": 490
+    },
+    {
+      "rank": 19,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -147,12 +155,12 @@
       "total_points": 490
     },
     {
-      "rank": 19,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 28,
-      "total_points": 489
+      "rank": 20,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 26,
+      "total_points": 488
     },
     {
       "rank": 20,
@@ -160,14 +168,6 @@
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 12,
-      "total_points": 488
-    },
-    {
-      "rank": 20,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 26,
       "total_points": 488
     },
     {
@@ -271,8 +271,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 6,
-      "total_points": 416
+      "gw_points": 7,
+      "total_points": 417
     }
   ],
   "h2h": [
