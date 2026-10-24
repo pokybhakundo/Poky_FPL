@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:30:27.201447+00:00",
+  "generated_at": "2026-10-24T15:35:17.097344+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -303,6 +303,90 @@
         }
       ]
     },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
+        }
+      ]
+    },
+    "3769764": {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2075,
+          "rank": 2686238
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2401,
+          "rank": 565833
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2281,
+          "rank": 1221144
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2436,
+          "rank": 434282
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2041,
+          "rank": 2422014
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2164,
+          "rank": 1172360
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2010,
+          "rank": 1784470
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1916,
+          "rank": 2904296
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2081,
+          "rank": 594527
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 249,
+          "rank": 3194089
+        }
+      ]
+    },
     "464574": {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
@@ -370,95 +454,11 @@
         }
       ]
     },
-    "3769764": {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2075,
-          "rank": 2686238
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2401,
-          "rank": 565833
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2281,
-          "rank": 1221144
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2436,
-          "rank": 434282
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2041,
-          "rank": 2422014
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2164,
-          "rank": 1172360
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2010,
-          "rank": 1784470
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1916,
-          "rank": 2904296
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2081,
-          "rank": 594527
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 249,
-          "rank": 3194089
-        }
-      ]
-    },
     "1664566": {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "seasons": []
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
-        }
-      ]
     },
     "36783": {
       "entry_id": 36783,
@@ -564,6 +564,43 @@
         }
       ]
     },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
+        }
+      ]
+    },
     "5917809": {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
@@ -658,43 +695,6 @@
         }
       ]
     },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
-        }
-      ]
-    },
     "1845615": {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
@@ -742,6 +742,63 @@
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "seasons": []
+    },
+    "165293": {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2093,
+          "rank": 2387097
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2250,
+          "rank": 2144985
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2484,
+          "rank": 103269
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2289,
+          "rank": 1643568
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2194,
+          "rank": 1235969
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2196,
+          "rank": 939626
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2163,
+          "rank": 473612
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2242,
+          "rank": 150642
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2057,
+          "rank": 750974
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1322,
+          "rank": 3930203
+        }
+      ]
     },
     "1595343": {
       "entry_id": 1595343,
@@ -802,63 +859,6 @@
           "season_name": "2013/14",
           "total_points": 2168,
           "rank": 392079
-        }
-      ]
-    },
-    "165293": {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2093,
-          "rank": 2387097
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2250,
-          "rank": 2144985
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2484,
-          "rank": 103269
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2289,
-          "rank": 1643568
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2194,
-          "rank": 1235969
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2196,
-          "rank": 939626
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2163,
-          "rank": 473612
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2242,
-          "rank": 150642
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2057,
-          "rank": 750974
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1322,
-          "rank": 3930203
         }
       ]
     },

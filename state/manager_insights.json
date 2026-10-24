@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:30:30.703717+00:00",
+  "generated_at": "2026-10-24T15:35:18.202027+00:00",
   "form": {
     "gws": [
       3,
@@ -399,6 +399,25 @@
       ]
     },
     {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -441,25 +460,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -494,21 +494,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
-        }
-      ]
-    },
-    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -520,6 +505,21 @@
         {
           "name": "bboost",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 5
         }
       ]
     },
@@ -570,17 +570,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -592,6 +581,17 @@
         {
           "name": "wildcard",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -891,27 +891,27 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
       "starters": [
-        "Raya",
+        "Leno",
+        "Hall",
         "Calafiori",
-        "De Cuyper",
-        "Affengruber",
-        "B.Fernandes",
+        "Konsa",
         "Rogers",
-        "Gro\u00df",
+        "\u00d8degaard",
+        "Palmer",
         "Cherki",
         "Gonzalo",
         "Jo\u00e3o Pedro",
-        "Thiago"
+        "Haaland"
       ],
       "bench": [
-        "Palmer",
-        "Van Hecke",
-        "Thomas",
-        "Saka"
+        "Kinsky",
+        "De Cuyper",
+        "Mykolenko",
+        "Yalcouy\u00e9"
       ]
     },
     {
@@ -939,6 +939,30 @@
       ]
     },
     {
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Affengruber",
+        "B.Fernandes",
+        "Rogers",
+        "Gro\u00df",
+        "Cherki",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Thiago"
+      ],
+      "bench": [
+        "Palmer",
+        "Van Hecke",
+        "Thomas",
+        "Saka"
+      ]
+    },
+    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -960,30 +984,6 @@
         "Barnes",
         "Calvert-Lewin",
         "Tarkowski"
-      ]
-    },
-    {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "starters": [
-        "Leno",
-        "Hall",
-        "Calafiori",
-        "Konsa",
-        "Rogers",
-        "\u00d8degaard",
-        "Palmer",
-        "Cherki",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "De Cuyper",
-        "Mykolenko",
-        "Yalcouy\u00e9"
       ]
     },
     {
@@ -1035,6 +1035,30 @@
       ]
     },
     {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Hall",
+        "Konsa",
+        "Schade",
+        "King",
+        "Palmer",
+        "Gibbs-White",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Wissa"
+      ],
+      "bench": [
+        "Kinsky",
+        "Gvardiol",
+        "Gro\u00df",
+        "De Cuyper"
+      ]
+    },
+    {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -1080,30 +1104,6 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
-      ]
-    },
-    {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Hall",
-        "Konsa",
-        "Schade",
-        "King",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Wissa"
-      ],
-      "bench": [
-        "Kinsky",
-        "Gvardiol",
-        "Gro\u00df",
-        "De Cuyper"
       ]
     },
     {
@@ -1155,30 +1155,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Calafiori",
-        "Egan",
-        "Van Hecke",
-        "Rogers",
-        "Saka",
-        "Gro\u00df",
-        "Gonzalo",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Schade",
-        "Muharemovi\u0107",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1200,6 +1176,30 @@
         "Baleba",
         "Giles",
         "Brobbey"
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Van Hecke",
+        "Rogers",
+        "Saka",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Schade",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1616,12 +1616,12 @@
         "points": 8
       },
       {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 3769764,
@@ -1632,17 +1632,17 @@
         "points": 0
       },
       {
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
+      },
+      {
         "entry_id": 1664566,
         "team_name": "BIR FC",
         "manager": "Karna Karki",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
@@ -1664,6 +1664,14 @@
         "points": 8
       },
       {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
+      },
+      {
         "entry_id": 5917809,
         "team_name": "Sanjeev's Team",
         "manager": "Sanjeev Niroula",
@@ -1678,14 +1686,6 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
-      },
-      {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
       },
       {
         "entry_id": 1845615,
@@ -1704,20 +1704,20 @@
         "points": 2
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 0
+      },
+      {
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 1548786,
