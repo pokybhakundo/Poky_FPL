@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T14:30:27.151655+00:00",
+  "generated_at": "2026-10-24T14:35:23.679719+00:00",
   "classic": [
     {
       "rank": 1,
@@ -71,8 +71,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 6,
-      "total_points": 497
+      "gw_points": 5,
+      "total_points": 496
     },
     {
       "rank": 10,
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 16,
-      "total_points": 474
-    },
-    {
-      "rank": 22,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 8,
+      "total_points": 474
+    },
+    {
+      "rank": 22,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 16,
       "total_points": 474
     },
     {
