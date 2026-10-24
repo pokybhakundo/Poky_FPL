@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T20:20:38.213904+00:00",
+  "generated_at": "2026-10-24T20:25:33.759428+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 16,
-      "total_points": 482
-    },
-    {
-      "rank": 22,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 23,
+      "total_points": 482
+    },
+    {
+      "rank": 22,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 16,
       "total_points": 482
     },
     {
