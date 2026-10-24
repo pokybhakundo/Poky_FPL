@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:30:32.787595+00:00",
+  "generated_at": "2026-10-24T12:35:24.479450+00:00",
   "form": {
     "gws": [
       3,
@@ -1083,30 +1083,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Hall",
-        "Konsa",
-        "Schade",
-        "King",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Wissa"
-      ],
-      "bench": [
-        "Kinsky",
-        "Gvardiol",
-        "Gro\u00df",
-        "De Cuyper"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1128,6 +1104,30 @@
         "Ajer",
         "Diop",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Hall",
+        "Konsa",
+        "Schade",
+        "King",
+        "Palmer",
+        "Gibbs-White",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Wissa"
+      ],
+      "bench": [
+        "Kinsky",
+        "Gvardiol",
+        "Gro\u00df",
+        "De Cuyper"
       ]
     },
     {
@@ -1680,17 +1680,17 @@
         "points": 1
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
