@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T17:35:22.419266+00:00",
+  "generated_at": "2026-10-24T17:40:21.224485+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "gw_points": 40,
-      "total_points": 508
-    },
-    {
-      "rank": 10,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 20,
+      "total_points": 508
+    },
+    {
+      "rank": 10,
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "gw_points": 40,
       "total_points": 508
     },
     {
