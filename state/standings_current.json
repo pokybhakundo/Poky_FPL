@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-24T16:15:23.198695+00:00",
+  "generated_at": "2026-10-24T16:20:21.314320+00:00",
   "classic": [
     {
       "rank": 1,
@@ -196,18 +196,18 @@
     },
     {
       "rank": 25,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 9,
-      "total_points": 475
-    },
-    {
-      "rank": 25,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 17,
+      "total_points": 475
+    },
+    {
+      "rank": 25,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 9,
       "total_points": 475
     },
     {
