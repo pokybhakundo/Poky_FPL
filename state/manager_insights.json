@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:15:29.224603+00:00",
+  "generated_at": "2026-10-24T15:20:19.749001+00:00",
   "form": {
     "gws": [
       3,
@@ -418,10 +418,14 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
       "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
         {
           "name": "3xc",
           "gw": 3
@@ -437,14 +441,10 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
         {
           "name": "3xc",
           "gw": 3
@@ -939,30 +939,6 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Hall",
-        "Konsa",
-        "De Cuyper",
-        "Gro\u00df",
-        "Rogers",
-        "Schade",
-        "Cherki",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Barnes",
-        "Calvert-Lewin",
-        "Tarkowski"
-      ]
-    },
-    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -984,6 +960,30 @@
         "Van Hecke",
         "Thomas",
         "Saka"
+      ]
+    },
+    {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Hall",
+        "Konsa",
+        "De Cuyper",
+        "Gro\u00df",
+        "Rogers",
+        "Schade",
+        "Cherki",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Barnes",
+        "Calvert-Lewin",
+        "Tarkowski"
       ]
     },
     {
@@ -1632,20 +1632,20 @@
         "points": 0
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 464574,
         "team_name": "The Carrick Masters",
         "manager": "Mohan S Madai",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 1843084,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:15:22.907733+00:00",
+  "generated_at": "2026-10-24T15:20:18.173022+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -397,12 +397,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
     "464574": {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
@@ -469,6 +463,12 @@
           "rank": 988226
         }
       ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "1843084": {
       "entry_id": 1843084,
