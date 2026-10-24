@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:40:20.601167+00:00",
+  "generated_at": "2026-10-24T14:45:24.735625+00:00",
   "form": {
     "gws": [
       3,
@@ -562,6 +562,21 @@
       ]
     },
     {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 5
+        }
+      ]
+    },
+    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -577,21 +592,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
         }
       ]
     },
@@ -1155,30 +1155,6 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Thomas",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Barnes",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Kostoulas"
-      ],
-      "bench": [
-        "Phillips",
-        "Ajayi",
-        "Davis",
-        "Schade"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1200,6 +1176,30 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Thomas",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Barnes",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Phillips",
+        "Ajayi",
+        "Davis",
+        "Schade"
       ]
     },
     {
@@ -1275,30 +1275,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
-        "Calafiori",
-        "Semenyo",
-        "Rogers",
-        "Belloumi",
-        "Gro\u00df",
-        "Haaland",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Ajer",
-        "Diop",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1320,6 +1296,30 @@
         "Belloumi",
         "De Cuyper",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Semenyo",
+        "Rogers",
+        "Belloumi",
+        "Gro\u00df",
+        "Haaland",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Ajer",
+        "Diop",
+        "Szoboszlai"
       ]
     },
     {
@@ -1704,17 +1704,17 @@
         "points": 2
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
@@ -1744,20 +1744,20 @@
         "points": 8
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
-      },
-      {
         "entry_id": 2253554,
         "team_name": "Soraaa",
         "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 2546180,
