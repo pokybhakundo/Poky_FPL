@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:35:19.240194+00:00",
+  "generated_at": "2026-10-25T14:40:19.607571+00:00",
   "form": {
     "gws": [
       3,
@@ -867,30 +867,6 @@
       ]
     },
     {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "De Cuyper",
-        "Thomas",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Calvert-Lewin",
-        "Mosquera",
-        "Maguire"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -936,6 +912,30 @@
         "De Cuyper",
         "Mykolenko",
         "Yalcouy\u00e9"
+      ]
+    },
+    {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Thomas",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Calvert-Lewin",
+        "Mosquera",
+        "Maguire"
       ]
     },
     {
@@ -1608,14 +1608,6 @@
         "points": 8
       },
       {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": -1
-      },
-      {
         "entry_id": 254926,
         "team_name": "Vrum Vrummmmmm",
         "manager": "Mahesh Acharya",
@@ -1630,6 +1622,14 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": -1
       },
       {
         "entry_id": 464574,
