@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T03:05:18.316681+00:00",
+  "generated_at": "2026-10-25T03:10:21.974399+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "gw_points": 26,
-      "total_points": 490
-    },
-    {
-      "rank": 18,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 35,
+      "total_points": 490
+    },
+    {
+      "rank": 18,
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "gw_points": 26,
       "total_points": 490
     },
     {
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 23,
-      "total_points": 482
-    },
-    {
-      "rank": 22,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 16,
+      "total_points": 482
+    },
+    {
+      "rank": 22,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 23,
       "total_points": 482
     },
     {
