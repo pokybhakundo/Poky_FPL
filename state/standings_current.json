@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T17:00:26.276094+00:00",
+  "generated_at": "2026-10-25T17:05:19.264978+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 37,
-      "total_points": 500
-    },
-    {
-      "rank": 15,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 42,
+      "total_points": 500
+    },
+    {
+      "rank": 15,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 37,
       "total_points": 500
     },
     {
@@ -231,8 +231,8 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 33,
-      "total_points": 465
+      "gw_points": 32,
+      "total_points": 464
     },
     {
       "rank": 30,
