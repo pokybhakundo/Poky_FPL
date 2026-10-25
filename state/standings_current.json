@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T16:00:28.200675+00:00",
+  "generated_at": "2026-10-25T16:05:27.502194+00:00",
   "classic": [
     {
       "rank": 1,
@@ -124,18 +124,18 @@
     },
     {
       "rank": 16,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 37,
-      "total_points": 499
-    },
-    {
-      "rank": 16,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 41,
+      "total_points": 499
+    },
+    {
+      "rank": 16,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 37,
       "total_points": 499
     },
     {
@@ -231,8 +231,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 28,
-      "total_points": 462
+      "gw_points": 27,
+      "total_points": 461
     },
     {
       "rank": 30,
