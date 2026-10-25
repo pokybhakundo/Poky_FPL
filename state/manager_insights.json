@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:35:22.460023+00:00",
+  "generated_at": "2026-10-25T17:40:19.835856+00:00",
   "form": {
     "gws": [
       3,
@@ -630,6 +630,21 @@
       ]
     },
     {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -656,21 +671,6 @@
         {
           "name": "wildcard",
           "gw": 5
-        }
-      ]
-    },
-    {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
         }
       ]
     },
@@ -1251,6 +1251,30 @@
       ]
     },
     {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Muharemovi\u0107",
+        "Calafiori",
+        "Konsa",
+        "\u00d8degaard",
+        "Rogers",
+        "Palmer",
+        "Tavernier",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "De Cuyper",
+        "Gomez",
+        "Thiaw"
+      ]
+    },
+    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1296,30 +1320,6 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
-      ]
-    },
-    {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Muharemovi\u0107",
-        "Calafiori",
-        "Konsa",
-        "\u00d8degaard",
-        "Rogers",
-        "Palmer",
-        "Tavernier",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "De Cuyper",
-        "Gomez",
-        "Thiaw"
       ]
     },
     {
@@ -1736,6 +1736,14 @@
         "points": 8
       },
       {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
+      },
+      {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
@@ -1750,14 +1758,6 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
-      },
-      {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
       },
       {
         "entry_id": 1913463,
