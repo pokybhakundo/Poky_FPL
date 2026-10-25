@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T18:15:25.444533+00:00",
+  "generated_at": "2026-10-25T18:20:20.846745+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 30,
+      "total_points": 518
+    },
+    {
+      "rank": 8,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 47,
-      "total_points": 515
-    },
-    {
-      "rank": 7,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 27,
       "total_points": 515
     },
     {
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 49,
+      "total_points": 499
+    },
+    {
+      "rank": 18,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -139,20 +147,12 @@
       "total_points": 499
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 42,
       "total_points": 497
-    },
-    {
-      "rank": 19,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 46,
-      "total_points": 496
     },
     {
       "rank": 20,
@@ -207,8 +207,8 @@
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 30,
-      "total_points": 486
+      "gw_points": 31,
+      "total_points": 487
     },
     {
       "rank": 27,
