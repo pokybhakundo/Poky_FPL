@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T15:40:20.025922+00:00",
+  "generated_at": "2026-10-25T15:45:19.041766+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 25,
-      "total_points": 523
+      "gw_points": 24,
+      "total_points": 522
     },
     {
       "rank": 6,
@@ -132,18 +132,18 @@
     },
     {
       "rank": 17,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 40,
-      "total_points": 498
-    },
-    {
-      "rank": 18,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 42,
+      "total_points": 497
+    },
+    {
+      "rank": 18,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 39,
       "total_points": 497
     },
     {
@@ -172,14 +172,6 @@
     },
     {
       "rank": 22,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 17,
-      "total_points": 493
-    },
-    {
-      "rank": 22,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -187,20 +179,28 @@
       "total_points": 493
     },
     {
-      "rank": 24,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 39,
-      "total_points": 489
+      "rank": 22,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 17,
+      "total_points": 493
     },
     {
-      "rank": 25,
+      "rank": 24,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 23,
       "total_points": 489
+    },
+    {
+      "rank": 25,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 38,
+      "total_points": 488
     },
     {
       "rank": 26,
@@ -231,8 +231,8 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 29,
-      "total_points": 461
+      "gw_points": 28,
+      "total_points": 460
     },
     {
       "rank": 30,

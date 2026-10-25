@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:40:19.691654+00:00",
+  "generated_at": "2026-10-25T15:45:18.657264+00:00",
   "form": {
     "gws": [
       3,
@@ -554,21 +554,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -588,6 +573,21 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -630,21 +630,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "chips": [
-        {
-          "name": "freehit",
-          "gw": 4
-        },
-        {
-          "name": "wildcard",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -656,6 +641,21 @@
         {
           "name": "wildcard",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "chips": [
+        {
+          "name": "freehit",
+          "gw": 4
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
         }
       ]
     },
@@ -1131,30 +1131,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Kelleher",
-        "Kayode",
-        "Calafiori",
-        "Justin",
-        "Cherki",
-        "Gro\u00df",
-        "Palmer",
-        "Tavernier",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Isak"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Belloumi",
-        "De Cuyper",
-        "Ajayi"
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -1176,6 +1152,30 @@
         "De Cuyper",
         "Gvardiol",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Kelleher",
+        "Kayode",
+        "Calafiori",
+        "Justin",
+        "Cherki",
+        "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Isak"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Belloumi",
+        "De Cuyper",
+        "Ajayi"
       ]
     },
     {
@@ -1251,30 +1251,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "starters": [
-        "Verbruggen",
-        "Gvardiol",
-        "Calafiori",
-        "De Cuyper",
-        "Thomas",
-        "Cherki",
-        "Mbeumo",
-        "Gro\u00df",
-        "Palmer",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Baleba",
-        "Giles",
-        "Brobbey"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1299,27 +1275,27 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
       "starters": [
         "Verbruggen",
-        "Muharemovi\u0107",
+        "Gvardiol",
         "Calafiori",
-        "Konsa",
-        "\u00d8degaard",
-        "Rogers",
+        "De Cuyper",
+        "Thomas",
+        "Cherki",
+        "Mbeumo",
+        "Gro\u00df",
         "Palmer",
-        "Tavernier",
-        "Calvert-Lewin",
-        "Jo\u00e3o Pedro",
-        "Haaland"
+        "Haaland",
+        "Jo\u00e3o Pedro"
       ],
       "bench": [
         "Kinsky",
-        "De Cuyper",
-        "Gomez",
-        "Thiaw"
+        "Baleba",
+        "Giles",
+        "Brobbey"
       ]
     },
     {
@@ -1344,6 +1320,30 @@
         "Ajer",
         "Diop",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Muharemovi\u0107",
+        "Calafiori",
+        "Konsa",
+        "\u00d8degaard",
+        "Rogers",
+        "Palmer",
+        "Tavernier",
+        "Calvert-Lewin",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "De Cuyper",
+        "Gomez",
+        "Thiaw"
       ]
     },
     {
@@ -1696,20 +1696,20 @@
         "points": 8
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
         "element_id": 480,
         "player_name": "Gibbs-White",
         "points": 2
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 5917809,
@@ -1736,14 +1736,6 @@
         "points": 0
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
-        "element_id": 427,
-        "player_name": "Mbeumo",
-        "points": 2
-      },
-      {
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
@@ -1752,17 +1744,25 @@
         "points": 8
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
+        "element_id": 427,
+        "player_name": "Mbeumo",
+        "points": 2
       },
       {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
+      },
+      {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
