@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:30:21.157463+00:00",
+  "generated_at": "2026-10-25T14:35:16.801544+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -288,79 +288,6 @@
         }
       ]
     },
-    "464574": {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2185,
-          "rank": 1063318
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2153,
-          "rank": 3541375
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2319,
-          "rank": 875048
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2471,
-          "rank": 275245
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2279,
-          "rank": 756318
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2370,
-          "rank": 144366
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1986,
-          "rank": 2059533
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2255,
-          "rank": 124265
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1954,
-          "rank": 1562362
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 2115,
-          "rank": 204065
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1759,
-          "rank": 1980114
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1823,
-          "rank": 988226
-        }
-      ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
     "254926": {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
@@ -460,6 +387,79 @@
         }
       ]
     },
+    "464574": {
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2185,
+          "rank": 1063318
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2153,
+          "rank": 3541375
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2319,
+          "rank": 875048
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2471,
+          "rank": 275245
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2279,
+          "rank": 756318
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2370,
+          "rank": 144366
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1986,
+          "rank": 2059533
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2255,
+          "rank": 124265
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1954,
+          "rank": 1562362
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 2115,
+          "rank": 204065
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1759,
+          "rank": 1980114
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1823,
+          "rank": 988226
+        }
+      ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "36783": {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
@@ -494,68 +494,6 @@
           "season_name": "2020/21",
           "total_points": 1225,
           "rank": 7456574
-        }
-      ]
-    },
-    "1595343": {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2187,
-          "rank": 1035748
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2359,
-          "rank": 889994
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2166,
-          "rank": 2639105
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2358,
-          "rank": 976749
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2571,
-          "rank": 33898
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2285,
-          "rank": 427450
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2229,
-          "rank": 189546
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1910,
-          "rank": 2973064
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1928,
-          "rank": 1780120
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1759,
-          "rank": 1976803
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2168,
-          "rank": 392079
         }
       ]
     },
@@ -660,6 +598,68 @@
           "season_name": "2020/21",
           "total_points": 2121,
           "rank": 1520478
+        }
+      ]
+    },
+    "1595343": {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2187,
+          "rank": 1035748
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2359,
+          "rank": 889994
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2166,
+          "rank": 2639105
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2358,
+          "rank": 976749
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2571,
+          "rank": 33898
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2285,
+          "rank": 427450
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2229,
+          "rank": 189546
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1910,
+          "rank": 2973064
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1928,
+          "rank": 1780120
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1759,
+          "rank": 1976803
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2168,
+          "rank": 392079
         }
       ]
     },
@@ -793,6 +793,53 @@
       "manager": "Rijan Bajagain",
       "seasons": []
     },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
+        }
+      ]
+    },
     "1845615": {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
@@ -849,53 +896,6 @@
           "season_name": "2024/25",
           "total_points": 2376,
           "rank": 748840
-        }
-      ]
-    },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
         }
       ]
     },
