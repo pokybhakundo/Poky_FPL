@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T14:40:19.948412+00:00",
+  "generated_at": "2026-10-25T14:45:23.896408+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 20,
-      "total_points": 512
+      "gw_points": 21,
+      "total_points": 513
     },
     {
       "rank": 6,
@@ -60,14 +60,6 @@
     },
     {
       "rank": 8,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 11,
-      "total_points": 509
-    },
-    {
-      "rank": 9,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -75,11 +67,19 @@
       "total_points": 508
     },
     {
-      "rank": 10,
+      "rank": 9,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 40,
+      "total_points": 508
+    },
+    {
+      "rank": 10,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 10,
       "total_points": 508
     },
     {
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 27,
-      "total_points": 485
-    },
-    {
-      "rank": 23,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 25,
+      "total_points": 484
+    },
+    {
+      "rank": 22,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 26,
       "total_points": 484
     },
     {
@@ -196,19 +196,19 @@
     },
     {
       "rank": 25,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 28,
-      "total_points": 478
-    },
-    {
-      "rank": 26,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
       "gw_points": 22,
       "total_points": 478
+    },
+    {
+      "rank": 26,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 27,
+      "total_points": 477
     },
     {
       "rank": 27,
@@ -239,24 +239,24 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 15,
-      "total_points": 447
+      "gw_points": 14,
+      "total_points": 446
     },
     {
       "rank": 31,
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "gw_points": 47,
+      "total_points": 443
+    },
+    {
+      "rank": 32,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 20,
       "total_points": 438
-    },
-    {
-      "rank": 32,
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "gw_points": 39,
-      "total_points": 435
     },
     {
       "rank": 33,

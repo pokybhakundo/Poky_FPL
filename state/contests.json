@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-25T14:40:18.219652+00:00",
+  "generated_at": "2026-10-25T14:45:19.964256+00:00",
   "next_deadline": "2026-10-31T11:00:00Z",
   "current_gw": 8,
   "current_gw_finalized": false,
@@ -109,14 +109,14 @@
     },
     {
       "gw": 8,
-      "points": 45,
+      "points": 47,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1843084,
-          "team_name": "Gura's Invincibles",
-          "manager": "Prashant Guragai"
+          "entry_id": 558137,
+          "team_name": "Morethrillesschill11",
+          "manager": "Rajiv Bhandari"
         }
       ]
     }
