@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T17:55:17.246852+00:00",
+  "generated_at": "2026-10-25T18:00:29.436738+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 29,
+      "total_points": 517
+    },
+    {
+      "rank": 8,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 47,
-      "total_points": 515
-    },
-    {
-      "rank": 7,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 27,
       "total_points": 515
     },
     {
@@ -140,19 +140,19 @@
     },
     {
       "rank": 18,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 48,
+      "total_points": 498
+    },
+    {
+      "rank": 19,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 42,
       "total_points": 497
-    },
-    {
-      "rank": 19,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 46,
-      "total_points": 496
     },
     {
       "rank": 20,
@@ -231,8 +231,8 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 38,
-      "total_points": 470
+      "gw_points": 35,
+      "total_points": 467
     },
     {
       "rank": 30,
