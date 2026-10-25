@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T15:30:24.706329+00:00",
+  "generated_at": "2026-10-25T15:35:21.751436+00:00",
   "classic": [
     {
       "rank": 1,
@@ -84,19 +84,19 @@
     },
     {
       "rank": 11,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 49,
+      "total_points": 510
+    },
+    {
+      "rank": 12,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 19,
       "total_points": 507
-    },
-    {
-      "rank": 12,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 44,
-      "total_points": 505
     },
     {
       "rank": 13,
@@ -199,8 +199,8 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 21,
-      "total_points": 487
+      "gw_points": 23,
+      "total_points": 489
     },
     {
       "rank": 26,
@@ -215,16 +215,16 @@
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 42,
-      "total_points": 473
+      "gw_points": 44,
+      "total_points": 475
     },
     {
       "rank": 28,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 37,
-      "total_points": 470
+      "gw_points": 39,
+      "total_points": 472
     },
     {
       "rank": 29,
@@ -247,8 +247,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 48,
-      "total_points": 444
+      "gw_points": 53,
+      "total_points": 449
     },
     {
       "rank": 32,
