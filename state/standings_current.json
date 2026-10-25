@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T09:20:26.825857+00:00",
+  "generated_at": "2026-10-25T09:25:26.566369+00:00",
   "classic": [
     {
       "rank": 1,
@@ -140,18 +140,18 @@
     },
     {
       "rank": 18,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 35,
-      "total_points": 490
-    },
-    {
-      "rank": 18,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
       "gw_points": 26,
+      "total_points": 490
+    },
+    {
+      "rank": 18,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 35,
       "total_points": 490
     },
     {
