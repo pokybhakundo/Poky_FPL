@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T17:15:21.987085+00:00",
+  "generated_at": "2026-10-25T17:20:21.280478+00:00",
   "classic": [
     {
       "rank": 1,
@@ -87,8 +87,8 @@
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 22,
-      "total_points": 510
+      "gw_points": 23,
+      "total_points": 511
     },
     {
       "rank": 12,
@@ -116,18 +116,18 @@
     },
     {
       "rank": 15,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 37,
-      "total_points": 500
-    },
-    {
-      "rank": 15,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 42,
+      "total_points": 500
+    },
+    {
+      "rank": 15,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 37,
       "total_points": 500
     },
     {
@@ -191,8 +191,8 @@
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 41,
-      "total_points": 491
+      "gw_points": 42,
+      "total_points": 492
     },
     {
       "rank": 25,
