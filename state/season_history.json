@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:15:20.821363+00:00",
+  "generated_at": "2026-10-25T03:20:20.470761+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -834,12 +834,6 @@
         }
       ]
     },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
-    },
     "1845615": {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
@@ -881,6 +875,12 @@
           "rank": 7478823
         }
       ]
+    },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
     },
     "1548786": {
       "entry_id": 1548786,
