@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T16:55:34.585328+00:00",
+  "generated_at": "2026-10-25T17:00:26.276094+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,14 +108,6 @@
     },
     {
       "rank": 14,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 43,
-      "total_points": 501
-    },
-    {
-      "rank": 15,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -123,11 +115,19 @@
       "total_points": 500
     },
     {
-      "rank": 16,
+      "rank": 15,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 37,
+      "total_points": 500
+    },
+    {
+      "rank": 15,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 42,
       "total_points": 500
     },
     {
@@ -172,18 +172,18 @@
     },
     {
       "rank": 22,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 42,
-      "total_points": 493
-    },
-    {
-      "rank": 22,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 17,
+      "total_points": 493
+    },
+    {
+      "rank": 22,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 42,
       "total_points": 493
     },
     {
