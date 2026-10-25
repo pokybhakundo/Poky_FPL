@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-25T16:35:23.998690+00:00",
+  "generated_at": "2026-10-25T16:40:22.510923+00:00",
   "classic": [
     {
       "rank": 1,
@@ -47,8 +47,8 @@
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 27,
-      "total_points": 519
+      "gw_points": 28,
+      "total_points": 520
     },
     {
       "rank": 7,
@@ -84,19 +84,19 @@
     },
     {
       "rank": 11,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 21,
+      "total_points": 509
+    },
+    {
+      "rank": 12,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 47,
       "total_points": 508
-    },
-    {
-      "rank": 12,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 19,
-      "total_points": 507
     },
     {
       "rank": 13,
@@ -116,6 +116,14 @@
     },
     {
       "rank": 15,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 42,
+      "total_points": 500
+    },
+    {
+      "rank": 15,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -123,15 +131,7 @@
       "total_points": 500
     },
     {
-      "rank": 16,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 41,
-      "total_points": 499
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -188,46 +188,54 @@
     },
     {
       "rank": 24,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 23,
-      "total_points": 489
-    },
-    {
-      "rank": 25,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 38,
-      "total_points": 488
+      "gw_points": 40,
+      "total_points": 490
+    },
+    {
+      "rank": 25,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 24,
+      "total_points": 490
     },
     {
       "rank": 26,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 24,
-      "total_points": 480
+      "gw_points": 25,
+      "total_points": 481
     },
     {
       "rank": 27,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 43,
-      "total_points": 474
+      "gw_points": 44,
+      "total_points": 475
     },
     {
       "rank": 28,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 39,
-      "total_points": 472
+      "gw_points": 40,
+      "total_points": 473
     },
     {
       "rank": 29,
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "gw_points": 30,
+      "total_points": 462
+    },
+    {
+      "rank": 30,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -235,20 +243,12 @@
       "total_points": 461
     },
     {
-      "rank": 30,
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "gw_points": 28,
-      "total_points": 460
-    },
-    {
       "rank": 31,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 52,
-      "total_points": 448
+      "gw_points": 53,
+      "total_points": 449
     },
     {
       "rank": 32,
@@ -271,8 +271,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 9,
-      "total_points": 419
+      "gw_points": 10,
+      "total_points": 420
     }
   ],
   "h2h": [
