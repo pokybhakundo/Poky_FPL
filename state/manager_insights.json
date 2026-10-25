@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:35:21.191304+00:00",
+  "generated_at": "2026-10-25T15:40:19.691654+00:00",
   "form": {
     "gws": [
       3,
@@ -426,6 +426,21 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -441,21 +456,6 @@
         {
           "name": "wildcard",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
         }
       ]
     },
@@ -554,6 +554,21 @@
       ]
     },
     {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -572,36 +587,6 @@
         },
         {
           "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
           "gw": 7
         }
       ]
@@ -626,6 +611,21 @@
         {
           "name": "freehit",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
         }
       ]
     },
@@ -939,30 +939,6 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "starters": [
-        "Leno",
-        "Hall",
-        "Calafiori",
-        "Konsa",
-        "Rogers",
-        "\u00d8degaard",
-        "Palmer",
-        "Cherki",
-        "Gonzalo",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "De Cuyper",
-        "Mykolenko",
-        "Yalcouy\u00e9"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -984,6 +960,30 @@
         "Hall",
         "Gro\u00df",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "starters": [
+        "Leno",
+        "Hall",
+        "Calafiori",
+        "Konsa",
+        "Rogers",
+        "\u00d8degaard",
+        "Palmer",
+        "Cherki",
+        "Gonzalo",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "De Cuyper",
+        "Mykolenko",
+        "Yalcouy\u00e9"
       ]
     },
     {
@@ -1131,30 +1131,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Hall",
-        "Ajer",
-        "Rogers",
-        "Cherki",
-        "Gibbs-White",
-        "Gro\u00df",
-        "Haaland",
-        "Jo\u00e3o Pedro",
-        "Solanke"
-      ],
-      "bench": [
-        "Dubravka",
-        "De Cuyper",
-        "Gvardiol",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1176,6 +1152,30 @@
         "Belloumi",
         "De Cuyper",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Hall",
+        "Ajer",
+        "Rogers",
+        "Cherki",
+        "Gibbs-White",
+        "Gro\u00df",
+        "Haaland",
+        "Jo\u00e3o Pedro",
+        "Solanke"
+      ],
+      "bench": [
+        "Dubravka",
+        "De Cuyper",
+        "Gvardiol",
+        "Szoboszlai"
       ]
     },
     {
@@ -1203,30 +1203,6 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "starters": [
-        "Raya",
-        "Davis",
-        "Calafiori",
-        "Egan",
-        "Gro\u00df",
-        "Mbeumo",
-        "Barnes",
-        "\u00d8degaard",
-        "Gonzalo",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Dubravka",
-        "Gu\u00e9hi",
-        "McGinn",
-        "Vuskovic"
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -1248,6 +1224,30 @@
         "Barnes",
         "Mykolenko",
         "Mitchell"
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "starters": [
+        "Raya",
+        "Davis",
+        "Calafiori",
+        "Egan",
+        "Gro\u00df",
+        "Mbeumo",
+        "Barnes",
+        "\u00d8degaard",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Dubravka",
+        "Gu\u00e9hi",
+        "McGinn",
+        "Vuskovic"
       ]
     },
     {
@@ -1632,17 +1632,17 @@
         "points": 0
       },
       {
-        "entry_id": 1843084,
-        "team_name": "Gura's Invincibles",
-        "manager": "Prashant Guragai",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 1843084,
+        "team_name": "Gura's Invincibles",
+        "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
@@ -1696,14 +1696,6 @@
         "points": 8
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 480,
-        "player_name": "Gibbs-White",
-        "points": 2
-      },
-      {
         "entry_id": 2253554,
         "team_name": "Soraaa",
         "manager": "Subigya Shah",
@@ -1712,9 +1704,25 @@
         "points": 8
       },
       {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 480,
+        "player_name": "Gibbs-White",
+        "points": 2
+      },
+      {
         "entry_id": 5917809,
         "team_name": "Sanjeev's Team",
         "manager": "Sanjeev Niroula",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
+      },
+      {
+        "entry_id": 1845615,
+        "team_name": "Kylian Dictator",
+        "manager": "Rakesh Itani",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
@@ -1726,14 +1734,6 @@
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
-      },
-      {
-        "entry_id": 1845615,
-        "team_name": "Kylian Dictator",
-        "manager": "Rakesh Itani",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
       },
       {
         "entry_id": 165293,
