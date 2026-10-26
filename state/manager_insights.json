@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:50:22.854270+00:00",
+  "generated_at": "2026-10-26T14:55:24.317333+00:00",
   "form": {
     "gws": [
       3,
@@ -1203,30 +1203,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
-        "Calafiori",
-        "Ajer",
-        "Diop",
-        "Gro\u00df",
-        "Rogers",
-        "Belloumi",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Semenyo",
-        "Jo\u00e3o Pedro",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1248,6 +1224,30 @@
         "Andersen",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Ajer",
+        "Diop",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Semenyo",
+        "Jo\u00e3o Pedro",
+        "Szoboszlai"
       ]
     },
     {
@@ -1720,20 +1720,20 @@
         "points": 8
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
-      },
-      {
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 228817,
