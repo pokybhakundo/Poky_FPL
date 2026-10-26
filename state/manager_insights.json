@@ -1,60 +1,176 @@
 {
-  "generated_at": "2026-10-26T15:15:33.304980+00:00",
+  "generated_at": "2026-10-26T15:20:21.431886+00:00",
   "form": {
     "gws": [
-      3,
       4,
       5,
       6,
-      7
+      7,
+      8
     ],
     "table": [
       {
         "entry_id": 1966033,
         "team_name": "Or3gonian",
         "manager": "Biraj Shakya",
-        "total": 361,
+        "total": 357,
         "gws": {
-          "3": 52,
           "4": 103,
           "5": 49,
           "6": 84,
-          "7": 73
+          "7": 73,
+          "8": 48
         }
       },
       {
         "entry_id": 2310055,
         "team_name": "NetSix&Chill FC",
         "manager": "Sabin Shrestha",
-        "total": 354,
+        "total": 333,
         "gws": {
-          "3": 60,
           "4": 88,
           "5": 67,
           "6": 73,
-          "7": 66
+          "7": 66,
+          "8": 39
         }
       },
       {
         "entry_id": 33334,
         "team_name": "Not too Xabi",
         "manager": "Swapnil Tiwari",
-        "total": 322,
+        "total": 323,
         "gws": {
-          "3": 43,
           "4": 72,
           "5": 42,
           "6": 82,
-          "7": 83
+          "7": 83,
+          "8": 44
+        }
+      },
+      {
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "total": 321,
+        "gws": {
+          "4": 96,
+          "5": 52,
+          "6": 78,
+          "7": 69,
+          "8": 26
+        }
+      },
+      {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "total": 318,
+        "gws": {
+          "4": 101,
+          "5": 39,
+          "6": 71,
+          "7": 65,
+          "8": 42
+        }
+      },
+      {
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
+        "total": 308,
+        "gws": {
+          "4": 89,
+          "5": 39,
+          "6": 52,
+          "7": 73,
+          "8": 55
+        }
+      },
+      {
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
+        "total": 307,
+        "gws": {
+          "4": 81,
+          "5": 60,
+          "6": 70,
+          "7": 62,
+          "8": 34
+        }
+      },
+      {
+        "entry_id": 1575639,
+        "team_name": "SpecialOne",
+        "manager": "Ganesh Sapkota",
+        "total": 297,
+        "gws": {
+          "4": 75,
+          "5": 42,
+          "6": 73,
+          "7": 76,
+          "8": 31
+        }
+      },
+      {
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
+        "total": 293,
+        "gws": {
+          "4": 64,
+          "5": 46,
+          "6": 73,
+          "7": 65,
+          "8": 45
+        }
+      },
+      {
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
+        "total": 291,
+        "gws": {
+          "4": 75,
+          "5": 30,
+          "6": 73,
+          "7": 76,
+          "8": 37
+        }
+      },
+      {
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
+        "total": 290,
+        "gws": {
+          "4": 83,
+          "5": 58,
+          "6": 67,
+          "7": 46,
+          "8": 36
+        }
+      },
+      {
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
+        "total": 286,
+        "gws": {
+          "4": 74,
+          "5": 44,
+          "6": 58,
+          "7": 63,
+          "8": 47
         }
       },
       {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
-        "total": 322,
+        "total": 267,
         "gws": {
-          "3": 55,
           "4": 87,
           "5": 49,
           "6": 64,
@@ -62,90 +178,11 @@
         }
       },
       {
-        "entry_id": 1575639,
-        "team_name": "SpecialOne",
-        "manager": "Ganesh Sapkota",
-        "total": 320,
-        "gws": {
-          "3": 54,
-          "4": 75,
-          "5": 42,
-          "6": 73,
-          "7": 76
-        }
-      },
-      {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
-        "total": 316,
-        "gws": {
-          "3": 63,
-          "4": 89,
-          "5": 39,
-          "6": 52,
-          "7": 73
-        }
-      },
-      {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
-        "total": 315,
-        "gws": {
-          "3": 61,
-          "4": 83,
-          "5": 58,
-          "6": 67,
-          "7": 46
-        }
-      },
-      {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
-        "total": 315,
-        "gws": {
-          "3": 42,
-          "4": 81,
-          "5": 60,
-          "6": 70,
-          "7": 62
-        }
-      },
-      {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
-        "total": 307,
-        "gws": {
-          "3": 53,
-          "4": 75,
-          "5": 30,
-          "6": 73,
-          "7": 76
-        }
-      },
-      {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
-        "total": 306,
-        "gws": {
-          "3": 51,
-          "4": 93,
-          "5": 48,
-          "6": 60,
-          "7": 54
-        }
-      },
-      {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
-        "total": 305,
+        "total": 261,
         "gws": {
-          "3": 44,
           "4": 82,
           "5": 56,
           "6": 66,
@@ -153,113 +190,84 @@
         }
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
-        "total": 304,
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
+        "total": 255,
         "gws": {
-          "3": 56,
-          "4": 64,
-          "5": 46,
-          "6": 73,
-          "7": 65
-        }
-      },
-      {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "total": 295,
-        "gws": {
-          "4": 96,
-          "5": 52,
-          "6": 78,
-          "7": 69
-        }
-      },
-      {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
-        "total": 293,
-        "gws": {
-          "3": 54,
-          "4": 74,
-          "5": 44,
-          "6": 58,
-          "7": 63
+          "4": 93,
+          "5": 48,
+          "6": 60,
+          "7": 54
         }
       },
       {
         "entry_id": 1845615,
         "team_name": "Kylian Dictator",
         "manager": "Rakesh Itani",
-        "total": 285,
+        "total": 252,
         "gws": {
-          "3": 71,
           "4": 72,
           "5": 40,
           "6": 66,
-          "7": 36
-        }
-      },
-      {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "total": 276,
-        "gws": {
-          "4": 101,
-          "5": 39,
-          "6": 71,
-          "7": 65
+          "7": 36,
+          "8": 38
         }
       },
       {
         "entry_id": 1843084,
         "team_name": "Gura's Invincibles",
         "manager": "Prashant Guragai",
-        "total": 247,
+        "total": 233,
         "gws": {
-          "3": 64,
           "5": 48,
           "6": 71,
-          "7": 64
-        }
-      },
-      {
-        "entry_id": 2017811,
-        "team_name": "HeavyMetal Areola",
-        "manager": "Aayush Palikhel",
-        "total": 246,
-        "gws": {
-          "3": 49,
-          "4": 80,
-          "5": 41,
-          "6": 76
+          "7": 64,
+          "8": 50
         }
       },
       {
         "entry_id": 1548786,
         "team_name": "ThunderYeti",
         "manager": "Samir Gyawali",
-        "total": 225,
+        "total": 216,
         "gws": {
-          "3": 52,
           "4": 65,
           "5": 40,
-          "7": 68
+          "7": 68,
+          "8": 43
+        }
+      },
+      {
+        "entry_id": 2017811,
+        "team_name": "HeavyMetal Areola",
+        "manager": "Aayush Palikhel",
+        "total": 197,
+        "gws": {
+          "4": 80,
+          "5": 41,
+          "6": 76
         }
       },
       {
         "entry_id": 2546180,
         "team_name": "Pharaoh's Team",
         "manager": "Don theGod",
-        "total": 177,
+        "total": 162,
         "gws": {
-          "3": 60,
           "4": 80,
-          "5": 37
+          "5": 37,
+          "8": 45
+        }
+      },
+      {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
+        "total": 145,
+        "gws": {
+          "6": 87,
+          "8": 58
         }
       },
       {
@@ -276,29 +284,29 @@
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
-        "total": 137,
+        "total": 127,
         "gws": {
-          "3": 61,
-          "4": 76
+          "4": 76,
+          "8": 51
         }
       },
       {
         "entry_id": 1595343,
         "team_name": "Janta Tanna Chahncha",
         "manager": "Ankit Bhaukajee",
-        "total": 106,
+        "total": 119,
         "gws": {
-          "3": 37,
-          "7": 69
+          "7": 69,
+          "8": 50
         }
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "total": 87,
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "total": 51,
         "gws": {
-          "6": 87
+          "8": 51
         }
       }
     ]
@@ -1203,30 +1211,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Hato",
-        "Calafiori",
-        "Ajer",
-        "Diop",
-        "Gro\u00df",
-        "Rogers",
-        "Belloumi",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Semenyo",
-        "Jo\u00e3o Pedro",
-        "Szoboszlai"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1248,6 +1232,30 @@
         "Andersen",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Hato",
+        "Calafiori",
+        "Ajer",
+        "Diop",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Semenyo",
+        "Jo\u00e3o Pedro",
+        "Szoboszlai"
       ]
     },
     {
@@ -1720,20 +1728,20 @@
         "points": 8
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 165,
-        "player_name": "Jo\u00e3o Pedro",
-        "points": 0
-      },
-      {
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 8
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 165,
+        "player_name": "Jo\u00e3o Pedro",
+        "points": 0
       },
       {
         "entry_id": 228817,
