@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:50:26.992736+00:00",
+  "generated_at": "2026-10-26T08:55:27.190260+00:00",
   "form": {
     "gws": [
       3,
@@ -645,21 +645,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 5
-        }
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -671,6 +656,21 @@
         {
           "name": "wildcard",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 5
         }
       ]
     },
@@ -1275,30 +1275,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Andersen",
-        "De Cuyper",
-        "Foden",
-        "Palmer",
-        "Rogers",
-        "Cherki",
-        "Barry",
-        "Haaland",
-        "Wissa"
-      ],
-      "bench": [
-        "Zetterer",
-        "Muharemovi\u0107",
-        "Davis",
-        "Slater"
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1320,6 +1296,30 @@
         "Baleba",
         "Giles",
         "Brobbey"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Andersen",
+        "De Cuyper",
+        "Foden",
+        "Palmer",
+        "Rogers",
+        "Cherki",
+        "Barry",
+        "Haaland",
+        "Wissa"
+      ],
+      "bench": [
+        "Zetterer",
+        "Muharemovi\u0107",
+        "Davis",
+        "Slater"
       ]
     },
     {
@@ -1744,20 +1744,20 @@
         "points": 8
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 2
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 1913463,
