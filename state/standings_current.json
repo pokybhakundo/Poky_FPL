@@ -1,6 +1,6 @@
 {
   "gw": 8,
-  "generated_at": "2026-10-26T07:05:18.667268+00:00",
+  "generated_at": "2026-10-26T07:10:25.950711+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,18 +180,18 @@
     },
     {
       "rank": 23,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 42,
-      "total_points": 493
-    },
-    {
-      "rank": 23,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 17,
+      "total_points": 493
+    },
+    {
+      "rank": 23,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 42,
       "total_points": 493
     },
     {
