@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:25:17.061468+00:00",
+  "generated_at": "2026-10-26T11:30:36.652758+00:00",
   "form": {
     "gws": [
       3,
@@ -1203,30 +1203,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Muharemovi\u0107",
-        "De Cuyper",
-        "Foden",
-        "Cherki",
-        "Rogers",
-        "Palmer",
-        "Wissa",
-        "Barry",
-        "Haaland"
-      ],
-      "bench": [
-        "Zetterer",
-        "Andersen",
-        "Davis",
-        "Slater"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1248,6 +1224,30 @@
         "Semenyo",
         "Jo\u00e3o Pedro",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Muharemovi\u0107",
+        "De Cuyper",
+        "Foden",
+        "Cherki",
+        "Rogers",
+        "Palmer",
+        "Wissa",
+        "Barry",
+        "Haaland"
+      ],
+      "bench": [
+        "Zetterer",
+        "Andersen",
+        "Davis",
+        "Slater"
       ]
     },
     {
@@ -1720,20 +1720,20 @@
         "points": 8
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 228817,
