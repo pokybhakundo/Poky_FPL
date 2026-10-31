@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T13:15:29.275427+00:00",
+  "generated_at": "2026-10-31T13:20:26.856679+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 1,
-      "total_points": 510
-    },
-    {
-      "rank": 14,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 2,
+      "total_points": 510
+    },
+    {
+      "rank": 14,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 1,
       "total_points": 510
     },
     {
@@ -140,14 +140,6 @@
     },
     {
       "rank": 18,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 2,
-      "total_points": 504
-    },
-    {
-      "rank": 18,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -155,12 +147,12 @@
       "total_points": 504
     },
     {
-      "rank": 20,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 1,
-      "total_points": 503
+      "rank": 18,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 2,
+      "total_points": 504
     },
     {
       "rank": 20,
@@ -168,6 +160,14 @@
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 2,
+      "total_points": 503
+    },
+    {
+      "rank": 20,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 1,
       "total_points": 503
     },
     {
@@ -223,8 +223,8 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 4,
-      "total_points": 482
+      "gw_points": 5,
+      "total_points": 483
     },
     {
       "rank": 29,
