@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T18:00:31.897947+00:00",
+  "generated_at": "2026-10-31T18:05:26.804384+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 44,
-      "total_points": 552
-    },
-    {
-      "rank": 9,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
       "gw_points": 29,
+      "total_points": 552
+    },
+    {
+      "rank": 9,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 44,
       "total_points": 552
     },
     {
@@ -164,18 +164,18 @@
     },
     {
       "rank": 21,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 30,
-      "total_points": 531
-    },
-    {
-      "rank": 21,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 29,
+      "total_points": 531
+    },
+    {
+      "rank": 21,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 30,
       "total_points": 531
     },
     {
@@ -247,8 +247,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 31,
-      "total_points": 496
+      "gw_points": 32,
+      "total_points": 497
     },
     {
       "rank": 32,
