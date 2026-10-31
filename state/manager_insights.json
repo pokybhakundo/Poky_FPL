@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:55:16.541618+00:00",
+  "generated_at": "2026-10-31T17:00:30.950997+00:00",
   "form": {
     "gws": [
       4,
@@ -555,17 +555,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -577,6 +566,17 @@
         {
           "name": "wildcard",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -754,17 +754,6 @@
       ]
     },
     {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -776,6 +765,17 @@
         {
           "name": "wildcard",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     }
@@ -926,30 +926,6 @@
       ]
     },
     {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "Konsa",
-        "Thomas",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
-        "Haaland",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Verbruggen",
-        "De Cuyper",
-        "Maguire",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -970,6 +946,30 @@
         "Dubravka",
         "Calafiori",
         "Thomas",
+        "Jo\u00e3o Pedro"
+      ]
+    },
+    {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "Konsa",
+        "Thomas",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
+        "Haaland",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Verbruggen",
+        "De Cuyper",
+        "Maguire",
         "Jo\u00e3o Pedro"
       ]
     },
@@ -1142,30 +1142,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Calafiori",
-        "Egan",
-        "Van Hecke",
-        "Rogers",
-        "Saka",
-        "Gro\u00df",
-        "Gonzalo",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "Schade",
-        "Muharemovi\u0107",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -1187,6 +1163,30 @@
         "Thiaw",
         "Gomez",
         "De Cuyper"
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Van Hecke",
+        "Rogers",
+        "Saka",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Schade",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1550,30 +1550,6 @@
       ]
     },
     {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "starters": [
-        "Suzuki",
-        "De Cuyper",
-        "Hall",
-        "Calafiori",
-        "Rogers",
-        "Palmer",
-        "Cherki",
-        "Gro\u00df",
-        "Cunha",
-        "Jo\u00e3o Pedro",
-        "Haaland"
-      ],
-      "bench": [
-        "Austin",
-        "Ajayi",
-        "Delap",
-        "van Ewijk"
-      ]
-    },
-    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -1595,6 +1571,30 @@
         "Hall",
         "Calafiori",
         "Gro\u00df"
+      ]
+    },
+    {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "starters": [
+        "Suzuki",
+        "De Cuyper",
+        "Hall",
+        "Calafiori",
+        "Rogers",
+        "Palmer",
+        "Cherki",
+        "Gro\u00df",
+        "Cunha",
+        "Jo\u00e3o Pedro",
+        "Haaland"
+      ],
+      "bench": [
+        "Austin",
+        "Ajayi",
+        "Delap",
+        "van Ewijk"
       ]
     }
   ],
@@ -1651,20 +1651,20 @@
         "points": 2
       },
       {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
-      },
-      {
         "entry_id": 1575639,
         "team_name": "SpecialOne",
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
+      },
+      {
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
       },
       {
         "entry_id": 395170,
@@ -1723,17 +1723,17 @@
         "points": 2
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1859,17 +1859,17 @@
         "points": 2
       },
       {
-        "entry_id": 3479050,
-        "team_name": "chelsea FC",
-        "manager": "Prasis Timilsena",
+        "entry_id": 1955412,
+        "team_name": "MAGA",
+        "manager": "MESSI GOAT",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1955412,
-        "team_name": "MAGA",
-        "manager": "MESSI GOAT",
+        "entry_id": 3479050,
+        "team_name": "chelsea FC",
+        "manager": "Prasis Timilsena",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
