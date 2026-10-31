@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T16:15:27.154692+00:00",
+  "generated_at": "2026-10-31T16:20:20.961076+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -176,7 +176,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 229,
+      "points": 231,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -187,9 +187,9 @@
       ],
       "winners": [
         {
-          "entry_id": 33334,
-          "team_name": "Not too Xabi",
-          "manager": "Swapnil Tiwari"
+          "entry_id": 2253554,
+          "team_name": "Soraaa",
+          "manager": "Subigya Shah"
         }
       ]
     }
