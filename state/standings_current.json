@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T20:20:24.423116+00:00",
+  "generated_at": "2026-10-31T20:25:26.110157+00:00",
   "classic": [
     {
       "rank": 1,
@@ -60,19 +60,19 @@
     },
     {
       "rank": 8,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 46,
-      "total_points": 569
-    },
-    {
-      "rank": 9,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 66,
       "total_points": 568
+    },
+    {
+      "rank": 9,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 44,
+      "total_points": 567
     },
     {
       "rank": 10,
@@ -231,8 +231,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 9,
-      "total_points": 513
+      "gw_points": 7,
+      "total_points": 511
     },
     {
       "rank": 30,

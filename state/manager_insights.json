@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:20:23.942797+00:00",
+  "generated_at": "2026-10-31T20:25:25.439804+00:00",
   "form": {
     "gws": [
       4,
@@ -438,6 +438,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -457,17 +468,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
         }
       ]
     },
@@ -950,30 +950,6 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Van Hecke",
-        "De Cuyper",
-        "B.Fernandes",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "Gonzalo",
-        "Affengruber",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -995,6 +971,30 @@
         "Gro\u00df",
         "Calvert-Lewin",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Van Hecke",
+        "De Cuyper",
+        "B.Fernandes",
+        "Rogers",
+        "Tavernier",
+        "Gro\u00df",
+        "McGinn",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Palmer",
+        "Gonzalo",
+        "Affengruber",
+        "Thomas"
       ]
     },
     {
@@ -1659,17 +1659,17 @@
         "points": 3
       },
       {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
