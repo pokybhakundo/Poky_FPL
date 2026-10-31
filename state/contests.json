@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T15:40:20.104647+00:00",
+  "generated_at": "2026-10-31T15:45:19.207328+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -123,14 +123,14 @@
     },
     {
       "gw": 9,
-      "points": 30,
+      "points": 29,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2017811,
-          "team_name": "HeavyMetal Areola",
-          "manager": "Aayush Palikhel"
+          "entry_id": 395170,
+          "team_name": "Idaho Potatoes XI",
+          "manager": "Rajesh Baduwal"
         }
       ]
     }
