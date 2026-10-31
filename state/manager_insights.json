@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:55:22.965052+00:00",
+  "generated_at": "2026-10-31T15:00:27.969344+00:00",
   "form": {
     "gws": [
       4,
@@ -536,6 +536,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -550,17 +561,6 @@
         },
         {
           "name": "freehit",
-          "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -1118,30 +1118,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Kinsky",
-        "Hill",
-        "Silva",
-        "Van Hecke",
-        "Tavernier",
-        "Palmer",
-        "Rogers",
-        "Manzambi",
-        "Thiago",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Walton",
-        "Tarkowski",
-        "White",
-        "Andrey Santos"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1163,6 +1139,30 @@
         "Gro\u00df",
         "Calvert-Lewin",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Kinsky",
+        "Hill",
+        "Silva",
+        "Van Hecke",
+        "Tavernier",
+        "Palmer",
+        "Rogers",
+        "Manzambi",
+        "Thiago",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Walton",
+        "Tarkowski",
+        "White",
+        "Andrey Santos"
       ]
     },
     {
@@ -1715,17 +1715,17 @@
         "points": 0
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
