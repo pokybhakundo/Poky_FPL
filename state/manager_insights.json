@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:00:27.969344+00:00",
+  "generated_at": "2026-10-31T15:05:19.307283+00:00",
   "form": {
     "gws": [
       4,
@@ -487,21 +487,6 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -525,13 +510,17 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
       "chips": [
         {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
           "name": "wildcard",
-          "gw": 6
+          "gw": 3
         }
       ]
     },
@@ -562,6 +551,17 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -1046,30 +1046,6 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Konsa",
-        "Hall",
-        "Gvardiol",
-        "Manzambi",
-        "Rogers",
-        "Palmer",
-        "Gro\u00df",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Steele",
-        "Isak",
-        "M.Sangar\u00e9",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -1094,27 +1070,27 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
       "starters": [
-        "Raya",
-        "De Cuyper",
+        "Verbruggen",
         "Calafiori",
-        "Egan",
-        "Van Hecke",
+        "Konsa",
+        "Hall",
+        "Gvardiol",
+        "Manzambi",
         "Rogers",
-        "Saka",
+        "Palmer",
         "Gro\u00df",
-        "Gonzalo",
-        "Haaland",
-        "Jo\u00e3o Pedro"
+        "Evanilson",
+        "Haaland"
       ],
       "bench": [
-        "Kinsky",
-        "Schade",
-        "Muharemovi\u0107",
-        "M.Sangar\u00e9"
+        "Steele",
+        "Isak",
+        "M.Sangar\u00e9",
+        "Davis"
       ]
     },
     {
@@ -1163,6 +1139,30 @@
         "Tarkowski",
         "White",
         "Andrey Santos"
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Van Hecke",
+        "Rogers",
+        "Saka",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "Schade",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1608,7 +1608,7 @@
         "manager": "Biraj Shakya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2310055,
@@ -1616,7 +1616,7 @@
         "manager": "Sabin Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 33334,
@@ -1624,7 +1624,7 @@
         "manager": "Swapnil Tiwari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3769764,
@@ -1640,7 +1640,7 @@
         "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1575639,
@@ -1648,7 +1648,7 @@
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3309536,
@@ -1656,7 +1656,7 @@
         "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 464574,
@@ -1664,7 +1664,7 @@
         "manager": "Mohan S Madai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1664566,
@@ -1672,7 +1672,7 @@
         "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 254926,
@@ -1680,7 +1680,7 @@
         "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 75325,
@@ -1688,15 +1688,7 @@
         "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
-      },
-      {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1843084,
@@ -1704,15 +1696,15 @@
         "manager": "Prashant Guragai",
         "element_id": 68,
         "player_name": "Tavernier",
-        "points": 0
+        "points": 1
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1913463,
@@ -1720,7 +1712,7 @@
         "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 4122498,
@@ -1728,7 +1720,15 @@
         "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
+      },
+      {
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 1
       },
       {
         "entry_id": 2253554,
@@ -1736,7 +1736,7 @@
         "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 228817,
@@ -1744,7 +1744,7 @@
         "manager": "shakti karki",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1548786,
@@ -1752,7 +1752,7 @@
         "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 969893,
@@ -1760,7 +1760,7 @@
         "manager": "Anit Yadav",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 5917809,
@@ -1768,7 +1768,7 @@
         "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1966921,
@@ -1776,7 +1776,7 @@
         "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2546180,
@@ -1784,7 +1784,7 @@
         "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 165293,
@@ -1792,7 +1792,7 @@
         "manager": "Arjun Prasai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2017811,
@@ -1800,7 +1800,7 @@
         "manager": "Aayush Palikhel",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1845615,
@@ -1808,7 +1808,7 @@
         "manager": "Rakesh Itani",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2659214,
@@ -1816,7 +1816,7 @@
         "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2798038,
@@ -1832,7 +1832,7 @@
         "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 500535,
@@ -1848,7 +1848,7 @@
         "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2435657,
@@ -1856,7 +1856,7 @@
         "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3479050,
@@ -1864,7 +1864,7 @@
         "manager": "Prasis Timilsena",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1955412,
@@ -1872,14 +1872,14 @@
         "manager": "MESSI GOAT",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       }
     ],
     "summary": [
       {
         "player_name": "Haaland",
         "count": 30,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Palmer",
@@ -1889,7 +1889,7 @@
       {
         "player_name": "Tavernier",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Rogers",
