@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T15:50:36.214420+00:00",
+  "generated_at": "2026-10-31T15:55:26.519409+00:00",
   "classic": [
     {
       "rank": 1,
@@ -55,8 +55,8 @@
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 21,
-      "total_points": 547
+      "gw_points": 22,
+      "total_points": 548
     },
     {
       "rank": 8,
@@ -84,19 +84,19 @@
     },
     {
       "rank": 11,
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "gw_points": 22,
+      "total_points": 536
+    },
+    {
+      "rank": 12,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 17,
       "total_points": 536
-    },
-    {
-      "rank": 12,
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "gw_points": 21,
-      "total_points": 535
     },
     {
       "rank": 13,
@@ -124,27 +124,27 @@
     },
     {
       "rank": 16,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 23,
+      "total_points": 525
+    },
+    {
+      "rank": 16,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 23,
+      "total_points": 525
+    },
+    {
+      "rank": 18,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 16,
       "total_points": 525
-    },
-    {
-      "rank": 17,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 22,
-      "total_points": 524
-    },
-    {
-      "rank": 17,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 22,
-      "total_points": 524
     },
     {
       "rank": 19,
@@ -271,8 +271,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 22,
-      "total_points": 457
+      "gw_points": 23,
+      "total_points": 458
     }
   ],
   "h2h": [

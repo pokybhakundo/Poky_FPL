@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:50:35.809862+00:00",
+  "generated_at": "2026-10-31T15:55:25.899779+00:00",
   "form": {
     "gws": [
       4,
@@ -472,21 +472,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -506,6 +491,21 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -555,32 +555,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -596,6 +570,32 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -1022,30 +1022,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Ajer",
-        "Gvardiol",
-        "Tavernier",
-        "Gro\u00df",
-        "Mbeumo",
-        "Schade",
-        "Palmer",
-        "Isak",
-        "Haaland"
-      ],
-      "bench": [
-        "Forster",
-        "Calafiori",
-        "Davis",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -1067,6 +1043,30 @@
         "Davis",
         "Bogle",
         "Bobb"
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Ajer",
+        "Gvardiol",
+        "Tavernier",
+        "Gro\u00df",
+        "Mbeumo",
+        "Schade",
+        "Palmer",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Calafiori",
+        "Davis",
+        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -1142,27 +1142,27 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "starters": [
-        "Kelleher",
-        "Kayode",
-        "Ajayi",
-        "Justin",
-        "Cherki",
-        "Belloumi",
-        "Palmer",
+        "Kinsky",
+        "Hill",
+        "Silva",
+        "Van Hecke",
         "Tavernier",
+        "Palmer",
+        "Rogers",
+        "Manzambi",
+        "Thiago",
         "Haaland",
-        "N.Jackson",
-        "Isak"
+        "N.Jackson"
       ],
       "bench": [
-        "Verbruggen",
-        "Gro\u00df",
-        "De Cuyper",
-        "Calafiori"
+        "Walton",
+        "Tarkowski",
+        "White",
+        "Andrey Santos"
       ]
     },
     {
@@ -1190,27 +1190,27 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "starters": [
-        "Kinsky",
-        "Hill",
-        "Silva",
-        "Van Hecke",
-        "Tavernier",
+        "Kelleher",
+        "Kayode",
+        "Ajayi",
+        "Justin",
+        "Cherki",
+        "Belloumi",
         "Palmer",
-        "Rogers",
-        "Manzambi",
-        "Thiago",
+        "Tavernier",
         "Haaland",
-        "N.Jackson"
+        "N.Jackson",
+        "Isak"
       ],
       "bench": [
-        "Walton",
-        "Tarkowski",
-        "White",
-        "Andrey Santos"
+        "Verbruggen",
+        "Gro\u00df",
+        "De Cuyper",
+        "Calafiori"
       ]
     },
     {
@@ -1683,19 +1683,19 @@
         "points": 1
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 1
-      },
-      {
         "entry_id": 1843084,
         "team_name": "Gura's Invincibles",
         "manager": "Prashant Guragai",
         "element_id": 68,
         "player_name": "Tavernier",
+        "points": 1
+      },
+      {
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
+        "element_id": 411,
+        "player_name": "Haaland",
         "points": 1
       },
       {
@@ -1723,9 +1723,9 @@
         "points": 1
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
@@ -1739,9 +1739,9 @@
         "points": 1
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
