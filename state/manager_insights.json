@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:15:19.840256+00:00",
+  "generated_at": "2026-10-31T21:20:23.091026+00:00",
   "form": {
     "gws": [
       4,
@@ -732,6 +732,17 @@
       ]
     },
     {
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -743,17 +754,6 @@
         {
           "name": "wildcard",
           "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 7
         }
       ]
     },
@@ -1478,30 +1478,6 @@
       ]
     },
     {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "starters": [
-        "Suzuki",
-        "Van Hecke",
-        "Gvardiol",
-        "Silva",
-        "Mbeumo",
-        "Tavernier",
-        "Rogers",
-        "Manzambi",
-        "N.Jackson",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hall",
-        "Calafiori",
-        "Gro\u00df"
-      ]
-    },
-    {
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
@@ -1523,6 +1499,30 @@
         "Jo\u00e3o Pedro",
         "Dedi\u0107",
         "Matheus N."
+      ]
+    },
+    {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "starters": [
+        "Suzuki",
+        "Van Hecke",
+        "Gvardiol",
+        "Silva",
+        "Mbeumo",
+        "Tavernier",
+        "Rogers",
+        "Manzambi",
+        "N.Jackson",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hall",
+        "Calafiori",
+        "Gro\u00df"
       ]
     },
     {
@@ -1835,17 +1835,17 @@
         "points": 2
       },
       {
-        "entry_id": 1955412,
-        "team_name": "MAGA",
-        "manager": "MESSI GOAT",
+        "entry_id": 558137,
+        "team_name": "Morethrillesschill11",
+        "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 558137,
-        "team_name": "Morethrillesschill11",
-        "manager": "Rajiv Bhandari",
+        "entry_id": 1955412,
+        "team_name": "MAGA",
+        "manager": "MESSI GOAT",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2

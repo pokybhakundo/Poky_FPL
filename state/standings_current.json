@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T21:15:20.194655+00:00",
+  "generated_at": "2026-10-31T21:20:23.532150+00:00",
   "classic": [
     {
       "rank": 1,
@@ -55,8 +55,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 68,
-      "total_points": 582
+      "gw_points": 67,
+      "total_points": 581
     },
     {
       "rank": 8,
@@ -236,19 +236,19 @@
     },
     {
       "rank": 30,
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "gw_points": 67,
-      "total_points": 502
-    },
-    {
-      "rank": 31,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
       "gw_points": 37,
       "total_points": 502
+    },
+    {
+      "rank": 31,
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "gw_points": 66,
+      "total_points": 501
     },
     {
       "rank": 32,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 37,
-      "total_points": 473
+      "gw_points": 36,
+      "total_points": 472
     }
   ],
   "h2h": [
