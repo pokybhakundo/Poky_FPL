@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T13:55:25.604320+00:00",
+  "generated_at": "2026-10-31T14:00:28.863749+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -123,14 +123,14 @@
     },
     {
       "gw": 9,
-      "points": 22,
+      "points": 28,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2798038,
-          "team_name": "CookedRice",
-          "manager": "Abhishek Jaiswal"
+          "entry_id": 3769764,
+          "team_name": "XabiBaby",
+          "manager": "Rikesh Puri"
         }
       ]
     }
@@ -176,7 +176,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 222,
+      "points": 227,
       "shared": false,
       "provisional": true,
       "gameweeks": [
