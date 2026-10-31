@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:45:20.238822+00:00",
+  "generated_at": "2026-10-31T15:50:35.809862+00:00",
   "form": {
     "gws": [
       4,
@@ -600,21 +600,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -626,6 +611,21 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "bboost",
+          "gw": 4
         }
       ]
     },
@@ -1214,30 +1214,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Kinsky",
-        "Hall",
-        "Gvardiol",
-        "Konsa",
-        "Calafiori",
-        "Schade",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Evanilson",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Verbruggen",
-        "King",
-        "Gro\u00df",
-        "De Cuyper"
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1259,6 +1235,30 @@
         "De Cuyper",
         "Jo\u00e3o Pedro",
         "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Kinsky",
+        "Hall",
+        "Gvardiol",
+        "Konsa",
+        "Calafiori",
+        "Schade",
+        "Palmer",
+        "Gibbs-White",
+        "Haaland",
+        "Evanilson",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Verbruggen",
+        "King",
+        "Gro\u00df",
+        "De Cuyper"
       ]
     },
     {
@@ -1747,17 +1747,17 @@
         "points": 1
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
+        "entry_id": 228817,
+        "team_name": "4toothee1",
+        "manager": "shakti karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
       },
       {
-        "entry_id": 228817,
-        "team_name": "4toothee1",
-        "manager": "shakti karki",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1

@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T15:45:20.588217+00:00",
+  "generated_at": "2026-10-31T15:50:36.214420+00:00",
   "classic": [
     {
       "rank": 1,
@@ -148,18 +148,18 @@
     },
     {
       "rank": 19,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 21,
-      "total_points": 523
-    },
-    {
-      "rank": 19,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 22,
+      "total_points": 523
+    },
+    {
+      "rank": 19,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 21,
       "total_points": 523
     },
     {
