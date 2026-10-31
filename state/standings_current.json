@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T12:55:16.131674+00:00",
+  "generated_at": "2026-10-31T13:00:44.249990+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,8 +31,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 7,
-      "total_points": 531
+      "gw_points": 5,
+      "total_points": 529
     },
     {
       "rank": 5,
@@ -79,8 +79,8 @@
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
-      "gw_points": 5,
-      "total_points": 524
+      "gw_points": 3,
+      "total_points": 522
     },
     {
       "rank": 11,
@@ -124,19 +124,19 @@
     },
     {
       "rank": 16,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 4,
-      "total_points": 508
-    },
-    {
-      "rank": 17,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
       "gw_points": 2,
       "total_points": 507
+    },
+    {
+      "rank": 17,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 2,
+      "total_points": 506
     },
     {
       "rank": 18,
@@ -156,14 +156,6 @@
     },
     {
       "rank": 20,
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "gw_points": 5,
-      "total_points": 503
-    },
-    {
-      "rank": 21,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -171,7 +163,7 @@
       "total_points": 503
     },
     {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -179,15 +171,15 @@
       "total_points": 503
     },
     {
-      "rank": 23,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 5,
-      "total_points": 500
+      "rank": 22,
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "gw_points": 3,
+      "total_points": 501
     },
     {
-      "rank": 24,
+      "rank": 23,
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -195,11 +187,19 @@
       "total_points": 499
     },
     {
-      "rank": 25,
+      "rank": 24,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
       "gw_points": 0,
+      "total_points": 498
+    },
+    {
+      "rank": 24,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 3,
       "total_points": 498
     },
     {
@@ -212,6 +212,14 @@
     },
     {
       "rank": 27,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 6,
+      "total_points": 484
+    },
+    {
+      "rank": 28,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -219,28 +227,20 @@
       "total_points": 484
     },
     {
-      "rank": 28,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 3,
-      "total_points": 481
-    },
-    {
       "rank": 29,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 6,
-      "total_points": 478
+      "gw_points": 4,
+      "total_points": 476
     },
     {
       "rank": 30,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 6,
-      "total_points": 472
+      "gw_points": 4,
+      "total_points": 470
     },
     {
       "rank": 31,
@@ -260,19 +260,19 @@
     },
     {
       "rank": 33,
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "gw_points": 5,
-      "total_points": 440
-    },
-    {
-      "rank": 34,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
       "gw_points": 3,
       "total_points": 439
+    },
+    {
+      "rank": 34,
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "gw_points": 3,
+      "total_points": 438
     }
   ],
   "h2h": [
