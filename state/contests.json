@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T10:55:17.372276+00:00",
-  "next_deadline": "2026-10-31T11:00:00Z",
-  "current_gw": 8,
-  "current_gw_finalized": true,
+  "generated_at": "2026-10-31T11:40:27.781748+00:00",
+  "next_deadline": "2026-11-06T18:30:00Z",
+  "current_gw": 9,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
@@ -13,7 +13,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "manager_of_the_week": [
     {
@@ -119,6 +120,19 @@
           "manager": "Rajiv Bhandari"
         }
       ]
+    },
+    {
+      "gw": 9,
+      "points": 69,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 558137,
+          "team_name": "Morethrillesschill11",
+          "manager": "Rajiv Bhandari"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -162,19 +176,20 @@
     {
       "month": "October",
       "label": "October",
-      "points": 209,
+      "points": 266,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
         6,
         7,
-        8
+        8,
+        9
       ],
       "winners": [
         {
-          "entry_id": 33334,
-          "team_name": "Not too Xabi",
-          "manager": "Swapnil Tiwari"
+          "entry_id": 558137,
+          "team_name": "Morethrillesschill11",
+          "manager": "Rajiv Bhandari"
         }
       ]
     }
