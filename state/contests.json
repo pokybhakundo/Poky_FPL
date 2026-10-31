@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T12:35:25.135551+00:00",
+  "generated_at": "2026-10-31T12:40:21.239870+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -123,10 +123,16 @@
     },
     {
       "gw": 9,
-      "points": 0,
+      "points": 4,
       "shared": false,
       "provisional": true,
-      "winners": []
+      "winners": [
+        {
+          "entry_id": 3769764,
+          "team_name": "XabiBaby",
+          "manager": "Rikesh Puri"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -170,7 +176,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 209,
+      "points": 211,
       "shared": false,
       "provisional": true,
       "gameweeks": [
