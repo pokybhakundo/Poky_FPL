@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:25:21.065196+00:00",
+  "generated_at": "2026-10-31T17:30:25.126868+00:00",
   "form": {
     "gws": [
       4,
@@ -926,30 +926,6 @@
       ]
     },
     {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "Konsa",
-        "Thomas",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
-        "Haaland",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Verbruggen",
-        "De Cuyper",
-        "Maguire",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -970,6 +946,30 @@
         "Dubravka",
         "Calafiori",
         "Thomas",
+        "Jo\u00e3o Pedro"
+      ]
+    },
+    {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "Konsa",
+        "Thomas",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
+        "Haaland",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Verbruggen",
+        "De Cuyper",
+        "Maguire",
         "Jo\u00e3o Pedro"
       ]
     },
@@ -1651,20 +1651,20 @@
         "points": 2
       },
       {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
-      },
-      {
         "entry_id": 1575639,
         "team_name": "SpecialOne",
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
+      },
+      {
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
       },
       {
         "entry_id": 395170,
