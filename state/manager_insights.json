@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T10:20:28.398195+00:00",
+  "generated_at": "2026-10-31T10:25:20.902302+00:00",
   "form": {
     "gws": [
       4,
@@ -250,6 +250,17 @@
         }
       },
       {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "total": 178,
+        "gws": {
+          "6": 77,
+          "7": 65,
+          "8": 36
+        }
+      },
+      {
         "entry_id": 2546180,
         "team_name": "Pharaoh's Team",
         "manager": "Don theGod",
@@ -271,26 +282,6 @@
         }
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "total": 142,
-        "gws": {
-          "6": 77,
-          "7": 65
-        }
-      },
-      {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "total": 127,
-        "gws": {
-          "4": 76,
-          "8": 51
-        }
-      },
-      {
         "entry_id": 1595343,
         "team_name": "Janta Tanna Chahncha",
         "manager": "Ankit Bhaukajee",
@@ -298,6 +289,15 @@
         "gws": {
           "7": 69,
           "8": 50
+        }
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "total": 76,
+        "gws": {
+          "4": 76
         }
       },
       {
@@ -1211,30 +1211,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Muharemovi\u0107",
-        "De Cuyper",
-        "Foden",
-        "Cherki",
-        "Rogers",
-        "Palmer",
-        "Wissa",
-        "Barry",
-        "Haaland"
-      ],
-      "bench": [
-        "Zetterer",
-        "Andersen",
-        "Davis",
-        "Slater"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1256,6 +1232,30 @@
         "Semenyo",
         "Jo\u00e3o Pedro",
         "Szoboszlai"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Muharemovi\u0107",
+        "De Cuyper",
+        "Foden",
+        "Cherki",
+        "Rogers",
+        "Palmer",
+        "Wissa",
+        "Barry",
+        "Haaland"
+      ],
+      "bench": [
+        "Zetterer",
+        "Andersen",
+        "Davis",
+        "Slater"
       ]
     },
     {
@@ -1728,20 +1728,20 @@
         "points": 8
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 8
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
         "element_id": 165,
         "player_name": "Jo\u00e3o Pedro",
         "points": 0
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 8
       },
       {
         "entry_id": 228817,
