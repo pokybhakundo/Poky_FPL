@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T11:40:27.781748+00:00",
+  "generated_at": "2026-10-31T11:45:24.748230+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -123,16 +123,10 @@
     },
     {
       "gw": 9,
-      "points": 69,
+      "points": 0,
       "shared": false,
       "provisional": true,
-      "winners": [
-        {
-          "entry_id": 558137,
-          "team_name": "Morethrillesschill11",
-          "manager": "Rajiv Bhandari"
-        }
-      ]
+      "winners": []
     }
   ],
   "manager_of_the_month": [
@@ -176,7 +170,7 @@
     {
       "month": "October",
       "label": "October",
-      "points": 266,
+      "points": 209,
       "shared": false,
       "provisional": true,
       "gameweeks": [
@@ -187,9 +181,9 @@
       ],
       "winners": [
         {
-          "entry_id": 558137,
-          "team_name": "Morethrillesschill11",
-          "manager": "Rajiv Bhandari"
+          "entry_id": 33334,
+          "team_name": "Not too Xabi",
+          "manager": "Swapnil Tiwari"
         }
       ]
     }
