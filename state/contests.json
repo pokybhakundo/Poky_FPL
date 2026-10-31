@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-10-31T13:35:16.766797+00:00",
+  "generated_at": "2026-10-31T13:40:26.556214+00:00",
   "next_deadline": "2026-11-06T18:30:00Z",
   "current_gw": 9,
   "current_gw_finalized": false,
@@ -123,14 +123,19 @@
     },
     {
       "gw": 9,
-      "points": 5,
-      "shared": false,
+      "points": 4,
+      "shared": true,
       "provisional": true,
       "winners": [
         {
           "entry_id": 2659214,
           "team_name": "Yoro Wizard Harry",
           "manager": "Aayush Jha"
+        },
+        {
+          "entry_id": 3769764,
+          "team_name": "XabiBaby",
+          "manager": "Rikesh Puri"
         }
       ]
     }
