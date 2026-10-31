@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T13:20:26.856679+00:00",
+  "generated_at": "2026-10-31T13:25:36.341993+00:00",
   "classic": [
     {
       "rank": 1,
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 2,
-      "total_points": 510
-    },
-    {
-      "rank": 14,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 1,
+      "total_points": 510
+    },
+    {
+      "rank": 14,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 2,
       "total_points": 510
     },
     {
@@ -140,17 +140,17 @@
     },
     {
       "rank": 18,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
       "gw_points": 2,
       "total_points": 504
     },
     {
       "rank": 18,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "gw_points": 2,
       "total_points": 504
     },
