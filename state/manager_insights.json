@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:30:23.528307+00:00",
+  "generated_at": "2026-10-31T12:35:30.955365+00:00",
   "form": {
     "gws": [
       4,
@@ -1648,7 +1648,7 @@
         "manager": "Rikesh Puri",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1664566,
@@ -1832,7 +1832,7 @@
         "manager": "Abhishek Jaiswal",
         "element_id": 40,
         "player_name": "Rogers",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 500535,
@@ -1840,7 +1840,7 @@
         "manager": "Akash Shrestha",
         "element_id": 426,
         "player_name": "B.Fernandes",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 558137,
@@ -1884,7 +1884,7 @@
       {
         "player_name": "Palmer",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Tavernier",
@@ -1894,12 +1894,12 @@
       {
         "player_name": "Rogers",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "B.Fernandes",
         "count": 1,
-        "points": 0
+        "points": 1
       }
     ]
   }
