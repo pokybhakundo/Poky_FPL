@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T17:55:20.002843+00:00",
+  "generated_at": "2026-10-31T18:00:31.897947+00:00",
   "classic": [
     {
       "rank": 1,
@@ -52,18 +52,18 @@
     },
     {
       "rank": 7,
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "gw_points": 35,
-      "total_points": 559
-    },
-    {
-      "rank": 7,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 36,
+      "total_points": 559
+    },
+    {
+      "rank": 7,
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "gw_points": 35,
       "total_points": 559
     },
     {
@@ -247,8 +247,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 26,
-      "total_points": 491
+      "gw_points": 31,
+      "total_points": 496
     },
     {
       "rank": 32,
