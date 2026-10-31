@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-10-31T15:35:16.656638+00:00",
+  "generated_at": "2026-10-31T15:40:25.310144+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,17 +132,17 @@
     },
     {
       "rank": 17,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
       "gw_points": 22,
       "total_points": 524
     },
     {
       "rank": 17,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "gw_points": 22,
       "total_points": 524
     },
@@ -252,19 +252,19 @@
     },
     {
       "rank": 32,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 17,
-      "total_points": 463
-    },
-    {
-      "rank": 33,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
       "gw_points": 27,
       "total_points": 463
+    },
+    {
+      "rank": 33,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 16,
+      "total_points": 462
     },
     {
       "rank": 34,
