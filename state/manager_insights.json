@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:10:26.521258+00:00",
+  "generated_at": "2026-10-31T14:15:21.295434+00:00",
   "form": {
     "gws": [
       4,
@@ -332,17 +332,6 @@
       ]
     },
     {
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
@@ -358,6 +347,17 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 2310055,
+      "team_name": "NetSix&Chill FC",
+      "manager": "Sabin Shrestha",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
         }
       ]
     },
@@ -536,6 +536,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -555,13 +566,17 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
       "chips": [
         {
           "name": "wildcard",
-          "gw": 9
+          "gw": 4
+        },
+        {
+          "name": "3xc",
+          "gw": 7
         }
       ]
     },
@@ -577,21 +592,6 @@
         {
           "name": "3xc",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
         }
       ]
     },
@@ -806,30 +806,6 @@
       ]
     },
     {
-      "entry_id": 2310055,
-      "team_name": "NetSix&Chill FC",
-      "manager": "Sabin Shrestha",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Ajer",
-        "Calafiori",
-        "Barnes",
-        "Schade",
-        "Palmer",
-        "Gro\u00df",
-        "Manzambi",
-        "Isak",
-        "Haaland"
-      ],
-      "bench": [
-        "Austin",
-        "Gonzalo",
-        "van Ewijk",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
@@ -851,6 +827,30 @@
         "Konsa",
         "De Cuyper",
         "Jo\u00e3o Pedro"
+      ]
+    },
+    {
+      "entry_id": 2310055,
+      "team_name": "NetSix&Chill FC",
+      "manager": "Sabin Shrestha",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Ajer",
+        "Calafiori",
+        "Barnes",
+        "Schade",
+        "Palmer",
+        "Gro\u00df",
+        "Manzambi",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Austin",
+        "Gonzalo",
+        "van Ewijk",
+        "Thomas"
       ]
     },
     {
@@ -1118,30 +1118,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Kinsky",
-        "Hill",
-        "Silva",
-        "Van Hecke",
-        "Tavernier",
-        "Palmer",
-        "Rogers",
-        "Manzambi",
-        "Thiago",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Walton",
-        "Tarkowski",
-        "White",
-        "Andrey Santos"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1166,27 +1142,27 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
       "starters": [
-        "Kelleher",
-        "Kayode",
-        "Ajayi",
-        "Justin",
-        "Cherki",
-        "Belloumi",
-        "Palmer",
+        "Kinsky",
+        "Hill",
+        "Silva",
+        "Van Hecke",
         "Tavernier",
+        "Palmer",
+        "Rogers",
+        "Manzambi",
+        "Thiago",
         "Haaland",
-        "N.Jackson",
-        "Isak"
+        "N.Jackson"
       ],
       "bench": [
-        "Verbruggen",
-        "Gro\u00df",
-        "De Cuyper",
-        "Calafiori"
+        "Walton",
+        "Tarkowski",
+        "White",
+        "Andrey Santos"
       ]
     },
     {
@@ -1210,6 +1186,30 @@
         "Dubravka",
         "De Cuyper",
         "Jo\u00e3o Pedro",
+        "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Kelleher",
+        "Kayode",
+        "Ajayi",
+        "Justin",
+        "Cherki",
+        "Belloumi",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Isak"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Gro\u00df",
+        "De Cuyper",
         "Calafiori"
       ]
     },
@@ -1406,30 +1406,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Lammens",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Konsa",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Belloumi",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Calafiori",
-        "Barry"
-      ]
-    },
-    {
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
@@ -1451,6 +1427,30 @@
         "\u00d8degaard",
         "Maguire",
         "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Lammens",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Konsa",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Calafiori",
+        "Barry"
       ]
     },
     {
@@ -1611,17 +1611,17 @@
         "points": 0
       },
       {
-        "entry_id": 2310055,
-        "team_name": "NetSix&Chill FC",
-        "manager": "Sabin Shrestha",
+        "entry_id": 33334,
+        "team_name": "Not too Xabi",
+        "manager": "Swapnil Tiwari",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 33334,
-        "team_name": "Not too Xabi",
-        "manager": "Swapnil Tiwari",
+        "entry_id": 2310055,
+        "team_name": "NetSix&Chill FC",
+        "manager": "Sabin Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1715,14 +1715,6 @@
         "points": 0
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
@@ -1731,9 +1723,9 @@
         "points": 0
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1742,6 +1734,14 @@
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1811,20 +1811,20 @@
         "points": 0
       },
       {
+        "entry_id": 2798038,
+        "team_name": "CookedRice",
+        "manager": "Abhishek Jaiswal",
+        "element_id": 40,
+        "player_name": "Rogers",
+        "points": 8
+      },
+      {
         "entry_id": 2659214,
         "team_name": "Yoro Wizard Harry",
         "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
-      },
-      {
-        "entry_id": 2798038,
-        "team_name": "CookedRice",
-        "manager": "Abhishek Jaiswal",
-        "element_id": 40,
-        "player_name": "Rogers",
-        "points": 9
       },
       {
         "entry_id": 4048482,
@@ -1894,7 +1894,7 @@
       {
         "player_name": "Rogers",
         "count": 1,
-        "points": 9
+        "points": 8
       },
       {
         "player_name": "B.Fernandes",
