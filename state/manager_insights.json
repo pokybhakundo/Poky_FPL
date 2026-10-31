@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:25:24.308555+00:00",
+  "generated_at": "2026-10-31T18:30:23.588815+00:00",
   "form": {
     "gws": [
       4,
@@ -430,6 +430,21 @@
       ]
     },
     {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -453,17 +468,21 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 1
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "freehit",
+          "gw": 5
         },
         {
           "name": "wildcard",
-          "gw": 3
+          "gw": 6
         }
       ]
     },
@@ -487,25 +506,6 @@
         {
           "name": "freehit",
           "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "freehit",
-          "gw": 5
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -974,30 +974,6 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Van Hecke",
-        "De Cuyper",
-        "B.Fernandes",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "Gonzalo",
-        "Affengruber",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1022,27 +998,27 @@
       ]
     },
     {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
       "starters": [
-        "Suzuki",
-        "Gabriel",
+        "Raya",
+        "Calafiori",
         "Van Hecke",
-        "Silva",
+        "De Cuyper",
+        "B.Fernandes",
         "Rogers",
         "Tavernier",
-        "Manzambi",
-        "Schade",
-        "Evanilson",
+        "Gro\u00df",
+        "McGinn",
         "N.Jackson",
         "Haaland"
       ],
       "bench": [
-        "Tzolakis",
-        "Davis",
-        "Bogle",
-        "Bobb"
+        "Palmer",
+        "Gonzalo",
+        "Affengruber",
+        "Thomas"
       ]
     },
     {
@@ -1067,6 +1043,30 @@
         "Calafiori",
         "Cherki",
         "Jo\u00e3o Pedro"
+      ]
+    },
+    {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "starters": [
+        "Suzuki",
+        "Gabriel",
+        "Van Hecke",
+        "Silva",
+        "Rogers",
+        "Tavernier",
+        "Manzambi",
+        "Schade",
+        "Evanilson",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Davis",
+        "Bogle",
+        "Bobb"
       ]
     },
     {
@@ -1667,6 +1667,14 @@
         "points": 2
       },
       {
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 464574,
         "team_name": "The Carrick Masters",
         "manager": "Mohan S Madai",
@@ -1675,9 +1683,9 @@
         "points": 2
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1689,14 +1697,6 @@
         "element_id": 68,
         "player_name": "Tavernier",
         "points": 3
-      },
-      {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
       },
       {
         "entry_id": 4122498,
