@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:25:19.211837+00:00",
+  "generated_at": "2026-11-01T18:30:25.778829+00:00",
   "form": {
     "gws": [
       4,
@@ -396,29 +396,6 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "freehit",
-          "gw": 5
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -438,6 +415,29 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "freehit",
+          "gw": 5
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -902,30 +902,6 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Van Hecke",
-        "De Cuyper",
-        "B.Fernandes",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "Gonzalo",
-        "Affengruber",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -947,6 +923,30 @@
         "Davis",
         "Bogle",
         "Bobb"
+      ]
+    },
+    {
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Van Hecke",
+        "De Cuyper",
+        "B.Fernandes",
+        "Rogers",
+        "Tavernier",
+        "Gro\u00df",
+        "McGinn",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Palmer",
+        "Gonzalo",
+        "Affengruber",
+        "Thomas"
       ]
     },
     {
@@ -1643,20 +1643,20 @@
         "points": 2
       },
       {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 1843084,
         "team_name": "Gura's Invincibles",
         "manager": "Prashant Guragai",
         "element_id": 68,
         "player_name": "Tavernier",
         "points": 3
+      },
+      {
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
       },
       {
         "entry_id": 4122498,
