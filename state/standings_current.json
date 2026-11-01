@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-11-01T18:05:18.348950+00:00",
+  "generated_at": "2026-11-01T18:10:20.332989+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,14 +132,6 @@
     },
     {
       "rank": 17,
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "gw_points": 59,
-      "total_points": 560
-    },
-    {
-      "rank": 17,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -147,12 +139,12 @@
       "total_points": 560
     },
     {
-      "rank": 19,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 52,
-      "total_points": 557
+      "rank": 17,
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "gw_points": 59,
+      "total_points": 560
     },
     {
       "rank": 19,
@@ -160,6 +152,14 @@
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
       "gw_points": 48,
+      "total_points": 557
+    },
+    {
+      "rank": 19,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 52,
       "total_points": 557
     },
     {
