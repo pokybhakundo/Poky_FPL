@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:00:25.873930+00:00",
+  "generated_at": "2026-11-01T18:05:15.609312+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -757,43 +757,6 @@
         }
       ]
     },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
-        }
-      ]
-    },
     "228817": {
       "entry_id": 228817,
       "team_name": "4toothee1",
@@ -871,6 +834,60 @@
         }
       ]
     },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
+        }
+      ]
+    },
+    "1548786": {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 783099
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2376,
+          "rank": 748840
+        }
+      ]
+    },
     "2253554": {
       "entry_id": 2253554,
       "team_name": "Soraaa",
@@ -925,23 +942,6 @@
           "season_name": "2016/17",
           "total_points": 2082,
           "rank": 290074
-        }
-      ]
-    },
-    "1548786": {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 783099
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2376,
-          "rank": 748840
         }
       ]
     },

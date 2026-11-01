@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:00:27.268916+00:00",
+  "generated_at": "2026-11-01T18:05:17.914322+00:00",
   "form": {
     "gws": [
       4,
@@ -566,21 +566,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -596,16 +581,16 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
       "chips": [
         {
           "name": "wildcard",
-          "gw": 2
+          "gw": 3
         },
         {
-          "name": "3xc",
+          "name": "bboost",
           "gw": 4
         }
       ]
@@ -626,6 +611,21 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -1166,30 +1166,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Kinsky",
-        "Hall",
-        "Gvardiol",
-        "Konsa",
-        "Calafiori",
-        "Schade",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Evanilson",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Verbruggen",
-        "King",
-        "Gro\u00df",
-        "De Cuyper"
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1214,27 +1190,27 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
       "starters": [
-        "Kelleher",
-        "Kayode",
-        "Ajayi",
-        "Justin",
-        "Cherki",
-        "Belloumi",
+        "Kinsky",
+        "Hall",
+        "Gvardiol",
+        "Konsa",
+        "Calafiori",
+        "Schade",
         "Palmer",
-        "Tavernier",
+        "Gibbs-White",
         "Haaland",
-        "N.Jackson",
-        "Isak"
+        "Evanilson",
+        "N.Jackson"
       ],
       "bench": [
         "Verbruggen",
+        "King",
         "Gro\u00df",
-        "De Cuyper",
-        "Calafiori"
+        "De Cuyper"
       ]
     },
     {
@@ -1259,6 +1235,30 @@
         "Kostoulas",
         "Davis",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Kelleher",
+        "Kayode",
+        "Ajayi",
+        "Justin",
+        "Cherki",
+        "Belloumi",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Isak"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Gro\u00df",
+        "De Cuyper",
+        "Calafiori"
       ]
     },
     {
@@ -1731,14 +1731,6 @@
         "points": 2
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
@@ -1747,9 +1739,9 @@
         "points": 2
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1758,6 +1750,14 @@
         "entry_id": 1548786,
         "team_name": "ThunderYeti",
         "manager": "Samir Gyawali",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
