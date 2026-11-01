@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:05:17.847240+00:00",
+  "generated_at": "2026-11-01T17:10:19.979338+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -714,55 +714,65 @@
         }
       ]
     },
-    "75325": {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
+    "1595343": {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2193,
-          "rank": 969552
+          "total_points": 2187,
+          "rank": 1035748
         },
         {
           "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 486643
+          "total_points": 2359,
+          "rank": 889994
         },
         {
           "season_name": "2023/24",
-          "total_points": 2257,
-          "rank": 1479159
+          "total_points": 2166,
+          "rank": 2639105
         },
         {
           "season_name": "2022/23",
-          "total_points": 2273,
-          "rank": 1818278
+          "total_points": 2358,
+          "rank": 976749
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2571,
+          "rank": 33898
         },
         {
           "season_name": "2020/21",
-          "total_points": 1963,
-          "rank": 2978500
+          "total_points": 2285,
+          "rank": 427450
         },
         {
           "season_name": "2019/20",
-          "total_points": 2118,
-          "rank": 770267
+          "total_points": 2229,
+          "rank": 189546
         },
         {
           "season_name": "2018/19",
-          "total_points": 2160,
-          "rank": 446177
+          "total_points": 1910,
+          "rank": 2973064
         },
         {
           "season_name": "2017/18",
-          "total_points": 1856,
-          "rank": 2376437
+          "total_points": 1928,
+          "rank": 1780120
         },
         {
-          "season_name": "2016/17",
-          "total_points": 1732,
-          "rank": 2284233
+          "season_name": "2015/16",
+          "total_points": 1759,
+          "rank": 1976803
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2168,
+          "rank": 392079
         }
       ]
     },
@@ -823,65 +833,55 @@
         }
       ]
     },
-    "1595343": {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
+    "75325": {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2187,
-          "rank": 1035748
+          "total_points": 2193,
+          "rank": 969552
         },
         {
           "season_name": "2024/25",
-          "total_points": 2359,
-          "rank": 889994
+          "total_points": 2413,
+          "rank": 486643
         },
         {
           "season_name": "2023/24",
-          "total_points": 2166,
-          "rank": 2639105
+          "total_points": 2257,
+          "rank": 1479159
         },
         {
           "season_name": "2022/23",
-          "total_points": 2358,
-          "rank": 976749
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2571,
-          "rank": 33898
+          "total_points": 2273,
+          "rank": 1818278
         },
         {
           "season_name": "2020/21",
-          "total_points": 2285,
-          "rank": 427450
+          "total_points": 1963,
+          "rank": 2978500
         },
         {
           "season_name": "2019/20",
-          "total_points": 2229,
-          "rank": 189546
+          "total_points": 2118,
+          "rank": 770267
         },
         {
           "season_name": "2018/19",
-          "total_points": 1910,
-          "rank": 2973064
+          "total_points": 2160,
+          "rank": 446177
         },
         {
           "season_name": "2017/18",
-          "total_points": 1928,
-          "rank": 1780120
+          "total_points": 1856,
+          "rank": 2376437
         },
         {
-          "season_name": "2015/16",
-          "total_points": 1759,
-          "rank": 1976803
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2168,
-          "rank": 392079
+          "season_name": "2016/17",
+          "total_points": 1732,
+          "rank": 2284233
         }
       ]
     },
@@ -1379,58 +1379,6 @@
         }
       ]
     },
-    "500535": {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2093,
-          "rank": 2391783
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2162,
-          "rank": 3404022
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2138,
-          "rank": 3019570
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2397,
-          "rank": 673150
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1874,
-          "rank": 4040892
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 728,
-          "rank": 7320863
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 602,
-          "rank": 6147669
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2104,
-          "rank": 470986
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 690,
-          "rank": 4334534
-        }
-      ]
-    },
     "558137": {
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
@@ -1485,6 +1433,58 @@
           "season_name": "2016/17",
           "total_points": 1688,
           "rank": 2565142
+        }
+      ]
+    },
+    "500535": {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2093,
+          "rank": 2391783
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2162,
+          "rank": 3404022
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2138,
+          "rank": 3019570
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2397,
+          "rank": 673150
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1874,
+          "rank": 4040892
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 728,
+          "rank": 7320863
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 602,
+          "rank": 6147669
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2104,
+          "rank": 470986
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 690,
+          "rank": 4334534
         }
       ]
     },
