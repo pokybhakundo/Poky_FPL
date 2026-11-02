@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:50:21.407691+00:00",
+  "generated_at": "2026-11-02T20:55:22.903186+00:00",
   "form": {
     "gws": [
       4,
@@ -506,6 +506,21 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -525,21 +540,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -555,6 +555,17 @@
       ]
     },
     {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -566,17 +577,6 @@
         {
           "name": "bboost",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -1070,30 +1070,6 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "starters": [
-        "Raya",
-        "Tarkowski",
-        "Hall",
-        "Konsa",
-        "De Cuyper",
-        "Gro\u00df",
-        "Rogers",
-        "Tavernier",
-        "Barnes",
-        "Haaland",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Calafiori",
-        "Cherki",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -1114,6 +1090,30 @@
         "Forster",
         "Calafiori",
         "Davis",
+        "Jo\u00e3o Pedro"
+      ]
+    },
+    {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "starters": [
+        "Raya",
+        "Tarkowski",
+        "Hall",
+        "Konsa",
+        "De Cuyper",
+        "Gro\u00df",
+        "Rogers",
+        "Tavernier",
+        "Barnes",
+        "Haaland",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Calafiori",
+        "Cherki",
         "Jo\u00e3o Pedro"
       ]
     },
@@ -1142,30 +1142,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Kinsky",
-        "Hall",
-        "Gvardiol",
-        "Konsa",
-        "Calafiori",
-        "Schade",
-        "Palmer",
-        "Gibbs-White",
-        "Haaland",
-        "Evanilson",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Verbruggen",
-        "King",
-        "Gro\u00df",
-        "De Cuyper"
-      ]
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -1187,6 +1163,30 @@
         "Schade",
         "Muharemovi\u0107",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Kinsky",
+        "Hall",
+        "Gvardiol",
+        "Konsa",
+        "Calafiori",
+        "Schade",
+        "Palmer",
+        "Gibbs-White",
+        "Haaland",
+        "Evanilson",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Verbruggen",
+        "King",
+        "Gro\u00df",
+        "De Cuyper"
       ]
     },
     {
@@ -1699,17 +1699,17 @@
         "points": 2
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1723,17 +1723,17 @@
         "points": 2
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
