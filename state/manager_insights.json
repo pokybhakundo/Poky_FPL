@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:05:26.028828+00:00",
+  "generated_at": "2026-11-02T20:10:21.122958+00:00",
   "form": {
     "gws": [
       4,
@@ -596,6 +596,21 @@
       ]
     },
     {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -611,21 +626,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
         }
       ]
     },
@@ -1214,30 +1214,6 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Ajayi",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Barnes",
-        "Schade",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Phillips",
-        "Kostoulas",
-        "Davis",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1259,6 +1235,30 @@
         "Gro\u00df",
         "De Cuyper",
         "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Ajayi",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Barnes",
+        "Schade",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Phillips",
+        "Kostoulas",
+        "Davis",
+        "Thomas"
       ]
     },
     {
@@ -1747,17 +1747,17 @@
         "points": 2
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
