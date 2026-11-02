@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-11-02T20:10:21.732733+00:00",
+  "generated_at": "2026-11-02T20:20:25.354819+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 69,
-      "total_points": 577
-    },
-    {
-      "rank": 10,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 52,
+      "total_points": 577
+    },
+    {
+      "rank": 10,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 69,
       "total_points": 577
     },
     {
