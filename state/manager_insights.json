@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:30:25.695539+00:00",
+  "generated_at": "2026-11-03T10:35:22.652364+00:00",
   "form": {
     "gws": [
       4,
@@ -702,6 +702,21 @@
       ]
     },
     {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
@@ -717,14 +732,10 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
       "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
         {
           "name": "wildcard",
           "gw": 7
@@ -754,17 +765,6 @@
         {
           "name": "wildcard",
           "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 7
         }
       ]
     },
@@ -902,6 +902,30 @@
       ]
     },
     {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "Konsa",
+        "Thomas",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
+        "Haaland",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Verbruggen",
+        "De Cuyper",
+        "Maguire",
+        "Jo\u00e3o Pedro"
+      ]
+    },
+    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -971,30 +995,6 @@
         "Tarkowski",
         "White",
         "Andrey Santos"
-      ]
-    },
-    {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "Konsa",
-        "Thomas",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
-        "Haaland",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Verbruggen",
-        "De Cuyper",
-        "Maguire",
-        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -1382,30 +1382,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Lammens",
-        "De Cuyper",
-        "Hall",
-        "Gvardiol",
-        "Konsa",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Belloumi",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Calafiori",
-        "Barry"
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -1427,6 +1403,30 @@
         "Calafiori",
         "Gro\u00df",
         "Vuskovic"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Lammens",
+        "De Cuyper",
+        "Hall",
+        "Gvardiol",
+        "Konsa",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Belloumi",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Calafiori",
+        "Barry"
       ]
     },
     {
@@ -1478,6 +1478,30 @@
       ]
     },
     {
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "starters": [
+        "Kinsky",
+        "De Cuyper",
+        "Hume",
+        "N.Williams",
+        "Rayan",
+        "Kudus",
+        "Barcola",
+        "Cherki",
+        "Belloumi",
+        "Fernandez-Pardo",
+        "Haaland"
+      ],
+      "bench": [
+        "Leno",
+        "Jo\u00e3o Pedro",
+        "Dedi\u0107",
+        "Matheus N."
+      ]
+    },
+    {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -1523,30 +1547,6 @@
         "Hall",
         "Calafiori",
         "Gro\u00df"
-      ]
-    },
-    {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Hume",
-        "N.Williams",
-        "Rayan",
-        "Kudus",
-        "Barcola",
-        "Cherki",
-        "Belloumi",
-        "Fernandez-Pardo",
-        "Haaland"
-      ],
-      "bench": [
-        "Leno",
-        "Jo\u00e3o Pedro",
-        "Dedi\u0107",
-        "Matheus N."
       ]
     },
     {
@@ -1643,6 +1643,14 @@
         "points": 2
       },
       {
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 8
+      },
+      {
         "entry_id": 1843084,
         "team_name": "Gura's Invincibles",
         "manager": "Prashant Guragai",
@@ -1665,14 +1673,6 @@
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
-      },
-      {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 8
       },
       {
         "entry_id": 395170,
@@ -1803,17 +1803,17 @@
         "points": 2
       },
       {
-        "entry_id": 2659214,
-        "team_name": "Yoro Wizard Harry",
-        "manager": "Aayush Jha",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 2659214,
+        "team_name": "Yoro Wizard Harry",
+        "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1835,6 +1835,14 @@
         "points": 9
       },
       {
+        "entry_id": 558137,
+        "team_name": "Morethrillesschill11",
+        "manager": "Rajiv Bhandari",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 500535,
         "team_name": "Jhol Momo",
         "manager": "Akash Shrestha",
@@ -1846,14 +1854,6 @@
         "entry_id": 1955412,
         "team_name": "MAGA",
         "manager": "MESSI GOAT",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 558137,
-        "team_name": "Morethrillesschill11",
-        "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1882,14 +1882,14 @@
         "points": 2
       },
       {
-        "player_name": "Tavernier",
-        "count": 1,
-        "points": 3
-      },
-      {
         "player_name": "Palmer",
         "count": 1,
         "points": 8
+      },
+      {
+        "player_name": "Tavernier",
+        "count": 1,
+        "points": 3
       },
       {
         "player_name": "Rogers",
