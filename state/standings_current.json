@@ -1,6 +1,6 @@
 {
   "gw": 9,
-  "generated_at": "2026-11-03T06:20:27.010499+00:00",
+  "generated_at": "2026-11-03T06:25:23.534037+00:00",
   "classic": [
     {
       "rank": 1,
@@ -164,18 +164,18 @@
     },
     {
       "rank": 21,
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "gw_points": 47,
-      "total_points": 545
-    },
-    {
-      "rank": 21,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 50,
+      "total_points": 545
+    },
+    {
+      "rank": 21,
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "gw_points": 47,
       "total_points": 545
     },
     {
