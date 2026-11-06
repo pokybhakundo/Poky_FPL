@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-06T20:50:20.961139+00:00",
+  "generated_at": "2026-11-06T20:55:22.915408+00:00",
   "classic": [
     {
       "rank": 1,
@@ -92,18 +92,18 @@
     },
     {
       "rank": 12,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 1,
-      "total_points": 577
-    },
-    {
-      "rank": 12,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
       "gw_points": 0,
+      "total_points": 577
+    },
+    {
+      "rank": 12,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 1,
       "total_points": 577
     },
     {
