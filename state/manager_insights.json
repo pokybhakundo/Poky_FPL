@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:10:28.116041+00:00",
+  "generated_at": "2026-11-06T19:15:22.533030+00:00",
   "form": {
     "gws": [
       5,
@@ -476,25 +476,6 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "freehit",
-          "gw": 5
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -514,6 +495,25 @@
       ]
     },
     {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "freehit",
+          "gw": 5
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -521,21 +521,6 @@
         {
           "name": "wildcard",
           "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
         }
       ]
     },
@@ -566,6 +551,21 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -577,21 +577,6 @@
         {
           "name": "bboost",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
         }
       ]
     },
@@ -611,6 +596,21 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        },
+        {
+          "name": "3xc",
+          "gw": 7
         }
       ]
     },
@@ -679,29 +679,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "freehit",
-          "gw": 5
-        },
-        {
-          "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -723,6 +700,29 @@
       "chips": [
         {
           "name": "wildcard",
+          "gw": 5
+        },
+        {
+          "name": "3xc",
+          "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "freehit",
           "gw": 5
         },
         {
@@ -1022,30 +1022,6 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "starters": [
-        "Raya",
-        "Tarkowski",
-        "Calafiori",
-        "Konsa",
-        "De Cuyper",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "Barnes",
-        "Haaland",
-        "Evanilson"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Cherki",
-        "Calvert-Lewin",
-        "Hall"
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1070,6 +1046,30 @@
       ]
     },
     {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "starters": [
+        "Raya",
+        "Tarkowski",
+        "Calafiori",
+        "Konsa",
+        "De Cuyper",
+        "Rogers",
+        "Tavernier",
+        "Gro\u00df",
+        "Barnes",
+        "Haaland",
+        "Evanilson"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Cherki",
+        "Calvert-Lewin",
+        "Hall"
+      ]
+    },
+    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1091,30 +1091,6 @@
         "Pedro Porro",
         "Belloumi",
         "Diop"
-      ]
-    },
-    {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Calafiori",
-        "Gvardiol",
-        "Tavernier",
-        "Mbeumo",
-        "Rogers",
-        "Palmer",
-        "Barry",
-        "Isak",
-        "Haaland"
-      ],
-      "bench": [
-        "Forster",
-        "Gro\u00df",
-        "Ajer",
-        "Davis"
       ]
     },
     {
@@ -1166,6 +1142,30 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "Gvardiol",
+        "Tavernier",
+        "Mbeumo",
+        "Rogers",
+        "Palmer",
+        "Barry",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Gro\u00df",
+        "Ajer",
+        "Davis"
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -1190,30 +1190,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "De Cuyper",
-        "Van Hecke",
-        "Tavernier",
-        "Rogers",
-        "Palmer",
-        "Gro\u00df",
-        "Evanilson",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Dubravka",
-        "Hall",
-        "Schade",
-        "Egan"
-      ]
-    },
-    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -1235,6 +1211,30 @@
         "Kostoulas",
         "Davis",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "De Cuyper",
+        "Van Hecke",
+        "Tavernier",
+        "Rogers",
+        "Palmer",
+        "Gro\u00df",
+        "Evanilson",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Dubravka",
+        "Hall",
+        "Schade",
+        "Egan"
       ]
     },
     {
@@ -1331,30 +1331,6 @@
         "van Ewijk",
         "Davis",
         "Walle Egeli"
-      ]
-    },
-    {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Silva",
-        "De Cuyper",
-        "Rogers",
-        "Palmer",
-        "Mbeumo",
-        "Manzambi",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "Muharemovi\u0107",
-        "Gro\u00df",
-        "Hall"
       ]
     },
     {
@@ -1475,6 +1451,30 @@
         "\u00d8degaard",
         "Maguire",
         "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Silva",
+        "De Cuyper",
+        "Rogers",
+        "Palmer",
+        "Mbeumo",
+        "Manzambi",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "Muharemovi\u0107",
+        "Gro\u00df",
+        "Hall"
       ]
     },
     {
@@ -1683,14 +1683,6 @@
         "points": 0
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
         "entry_id": 36783,
         "team_name": "Kids to Unc's FC",
         "manager": "Bishal Neupane",
@@ -1699,17 +1691,17 @@
         "points": 0
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1731,17 +1723,17 @@
         "points": 0
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 154,
-        "player_name": "Palmer",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
+        "element_id": 411,
+        "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 228817,
-        "team_name": "4toothee1",
-        "manager": "shakti karki",
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
         "element_id": 154,
         "player_name": "Palmer",
         "points": 0
@@ -1752,6 +1744,14 @@
         "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 228817,
+        "team_name": "4toothee1",
+        "manager": "shakti karki",
+        "element_id": 154,
+        "player_name": "Palmer",
         "points": 0
       },
       {
@@ -1782,14 +1782,6 @@
         "entry_id": 2017811,
         "team_name": "HeavyMetal Areola",
         "manager": "Aayush Palikhel",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1832,6 +1824,14 @@
         "manager": "Abhishek Jaiswal",
         "element_id": 40,
         "player_name": "Rogers",
+        "points": 0
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 411,
+        "player_name": "Haaland",
         "points": 0
       },
       {
