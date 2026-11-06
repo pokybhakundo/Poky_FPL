@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:15:19.448494+00:00",
+  "generated_at": "2026-11-06T21:20:19.355471+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -315,6 +315,53 @@
         }
       ]
     },
+    "4122498": {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2155,
+          "rank": 1445111
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2254,
+          "rank": 2094683
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2343,
+          "rank": 691802
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1396460
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2340,
+          "rank": 499529
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2122,
+          "rank": 1511349
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 1962,
+          "rank": 2338743
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1895,
+          "rank": 3150399
+        }
+      ]
+    },
     "464574": {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
@@ -382,50 +429,35 @@
         }
       ]
     },
-    "4122498": {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2155,
-          "rank": 1445111
+          "total_points": 1896,
+          "rank": 5984966
         },
         {
           "season_name": "2024/25",
-          "total_points": 2254,
-          "rank": 2094683
+          "total_points": 2242,
+          "rank": 2250336
         },
         {
           "season_name": "2023/24",
-          "total_points": 2343,
-          "rank": 691802
+          "total_points": 2277,
+          "rank": 1262608
         },
         {
           "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1396460
+          "total_points": 2383,
+          "rank": 776057
         },
         {
           "season_name": "2021/22",
-          "total_points": 2340,
-          "rank": 499529
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2122,
-          "rank": 1511349
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 1962,
-          "rank": 2338743
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1895,
-          "rank": 3150399
+          "total_points": 2112,
+          "rank": 1826181
         }
       ]
     },
@@ -539,35 +571,75 @@
         }
       ]
     },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+    "254926": {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
+          "total_points": 2140,
+          "rank": 1658192
         },
         {
           "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
+          "total_points": 2439,
+          "rank": 347105
         },
         {
           "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
+          "total_points": 2268,
+          "rank": 1364118
         },
         {
           "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
+          "total_points": 2212,
+          "rank": 2554626
         },
         {
           "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
+          "total_points": 2316,
+          "rank": 591572
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1518776
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2138,
+          "rank": 629650
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2344,
+          "rank": 25155
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1693,
+          "rank": 3622909
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1628,
+          "rank": 2922776
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1561,
+          "rank": 2706491
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1498,
+          "rank": 2562852
+        },
+        {
+          "season_name": "2013/14",
+          "total_points": 2042,
+          "rank": 872781
         }
       ]
     },
@@ -682,78 +754,6 @@
           "season_name": "2013/14",
           "total_points": 2168,
           "rank": 392079
-        }
-      ]
-    },
-    "254926": {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2140,
-          "rank": 1658192
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2439,
-          "rank": 347105
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2268,
-          "rank": 1364118
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2212,
-          "rank": 2554626
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2316,
-          "rank": 591572
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1518776
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2138,
-          "rank": 629650
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2344,
-          "rank": 25155
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1693,
-          "rank": 3622909
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1628,
-          "rank": 2922776
-        },
-        {
-          "season_name": "2015/16",
-          "total_points": 1561,
-          "rank": 2706491
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1498,
-          "rank": 2562852
-        },
-        {
-          "season_name": "2013/14",
-          "total_points": 2042,
-          "rank": 872781
         }
       ]
     },
@@ -1168,6 +1168,23 @@
         }
       ]
     },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
+        }
+      ]
+    },
     "2546180": {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
@@ -1237,23 +1254,6 @@
           "season_name": "2013/14",
           "total_points": 2202,
           "rank": 285234
-        }
-      ]
-    },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
         }
       ]
     },
