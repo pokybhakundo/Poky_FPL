@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-06T20:25:23.698171+00:00",
+  "generated_at": "2026-11-06T20:30:22.813905+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
   "current_gw_finalized": false,
@@ -137,30 +137,10 @@
     },
     {
       "gw": 10,
-      "points": 1,
+      "points": 4,
       "shared": true,
       "provisional": true,
       "winners": [
-        {
-          "entry_id": 165293,
-          "team_name": "Power",
-          "manager": "Arjun Prasai"
-        },
-        {
-          "entry_id": 254926,
-          "team_name": "Vrum Vrummmmmm",
-          "manager": "Mahesh Acharya"
-        },
-        {
-          "entry_id": 500535,
-          "team_name": "Jhol Momo",
-          "manager": "Akash Shrestha"
-        },
-        {
-          "entry_id": 1664566,
-          "team_name": "BIR FC",
-          "manager": "Karna Karki"
-        },
         {
           "entry_id": 1843084,
           "team_name": "Gura's Invincibles",
@@ -170,31 +150,6 @@
           "entry_id": 1845615,
           "team_name": "Kylian Dictator",
           "manager": "Rakesh Itani"
-        },
-        {
-          "entry_id": 1913463,
-          "team_name": "nkzzz_21",
-          "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 1966921,
-          "team_name": "FalamBottleKagaj",
-          "manager": "Rijan Bajagain"
-        },
-        {
-          "entry_id": 2659214,
-          "team_name": "Yoro Wizard Harry",
-          "manager": "Aayush Jha"
-        },
-        {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
         }
       ]
     }
@@ -260,7 +215,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 1,
+      "points": 4,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -268,59 +223,14 @@
       ],
       "winners": [
         {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
-        },
-        {
           "entry_id": 1843084,
           "team_name": "Gura's Invincibles",
           "manager": "Prashant Guragai"
         },
         {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
-        },
-        {
-          "entry_id": 1664566,
-          "team_name": "BIR FC",
-          "manager": "Karna Karki"
-        },
-        {
-          "entry_id": 1913463,
-          "team_name": "nkzzz_21",
-          "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 254926,
-          "team_name": "Vrum Vrummmmmm",
-          "manager": "Mahesh Acharya"
-        },
-        {
           "entry_id": 1845615,
           "team_name": "Kylian Dictator",
           "manager": "Rakesh Itani"
-        },
-        {
-          "entry_id": 165293,
-          "team_name": "Power",
-          "manager": "Arjun Prasai"
-        },
-        {
-          "entry_id": 2659214,
-          "team_name": "Yoro Wizard Harry",
-          "manager": "Aayush Jha"
-        },
-        {
-          "entry_id": 1966921,
-          "team_name": "FalamBottleKagaj",
-          "manager": "Rijan Bajagain"
-        },
-        {
-          "entry_id": 500535,
-          "team_name": "Jhol Momo",
-          "manager": "Akash Shrestha"
         }
       ]
     }

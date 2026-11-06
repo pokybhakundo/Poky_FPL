@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-06T20:25:28.144826+00:00",
+  "generated_at": "2026-11-06T20:30:27.606697+00:00",
   "classic": [
     {
       "rank": 1,
@@ -47,8 +47,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 1,
-      "total_points": 590
+      "gw_points": 4,
+      "total_points": 593
     },
     {
       "rank": 7,
@@ -167,8 +167,8 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 1,
-      "total_points": 546
+      "gw_points": 4,
+      "total_points": 549
     },
     {
       "rank": 22,
