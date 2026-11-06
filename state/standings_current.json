@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-06T20:45:25.556129+00:00",
+  "generated_at": "2026-11-06T20:50:20.961139+00:00",
   "classic": [
     {
       "rank": 1,
@@ -47,8 +47,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 4,
-      "total_points": 593
+      "gw_points": 3,
+      "total_points": 592
     },
     {
       "rank": 7,
@@ -92,18 +92,18 @@
     },
     {
       "rank": 12,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 0,
-      "total_points": 577
-    },
-    {
-      "rank": 12,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 1,
+      "total_points": 577
+    },
+    {
+      "rank": 12,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 0,
       "total_points": 577
     },
     {
@@ -167,8 +167,8 @@
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 4,
-      "total_points": 549
+      "gw_points": 3,
+      "total_points": 548
     },
     {
       "rank": 22,
