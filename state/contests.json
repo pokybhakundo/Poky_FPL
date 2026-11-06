@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-06T18:25:15.874625+00:00",
-  "next_deadline": "2026-11-06T18:30:00Z",
-  "current_gw": 9,
-  "current_gw_finalized": true,
+  "generated_at": "2026-11-06T19:10:21.345672+00:00",
+  "next_deadline": "2026-11-21T11:00:00Z",
+  "current_gw": 10,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
@@ -14,7 +14,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "manager_of_the_week": [
     {
@@ -133,6 +134,19 @@
           "manager": "Rosham Sharma"
         }
       ]
+    },
+    {
+      "gw": 10,
+      "points": 84,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -190,6 +204,23 @@
           "entry_id": 33334,
           "team_name": "Not too Xabi",
           "manager": "Swapnil Tiwari"
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "label": "November",
+      "points": 84,
+      "shared": false,
+      "provisional": true,
+      "gameweeks": [
+        10
+      ],
+      "winners": [
+        {
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
         }
       ]
     }
