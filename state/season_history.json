@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:40:21.549784+00:00",
+  "generated_at": "2026-11-07T17:45:18.265908+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -461,6 +461,12 @@
         }
       ]
     },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
     "36783": {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
@@ -497,12 +503,6 @@
           "rank": 7456574
         }
       ]
-    },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
     },
     "254926": {
       "entry_id": 254926,
@@ -1076,63 +1076,6 @@
         }
       ]
     },
-    "165293": {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2093,
-          "rank": 2387097
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2250,
-          "rank": 2144985
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2484,
-          "rank": 103269
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2289,
-          "rank": 1643568
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2194,
-          "rank": 1235969
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2196,
-          "rank": 939626
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2163,
-          "rank": 473612
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 2242,
-          "rank": 150642
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 2057,
-          "rank": 750974
-        },
-        {
-          "season_name": "2016/17",
-          "total_points": 1322,
-          "rank": 3930203
-        }
-      ]
-    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -1207,6 +1150,63 @@
           "season_name": "2012/13",
           "total_points": 1501,
           "rank": 2087647
+        }
+      ]
+    },
+    "165293": {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2093,
+          "rank": 2387097
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2250,
+          "rank": 2144985
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2484,
+          "rank": 103269
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2289,
+          "rank": 1643568
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2194,
+          "rank": 1235969
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2196,
+          "rank": 939626
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2163,
+          "rank": 473612
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2242,
+          "rank": 150642
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2057,
+          "rank": 750974
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 1322,
+          "rank": 3930203
         }
       ]
     },
