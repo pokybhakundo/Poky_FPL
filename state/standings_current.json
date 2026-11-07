@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T13:10:26.733247+00:00",
+  "generated_at": "2026-11-07T13:15:25.567903+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 9,
-      "total_points": 598
+      "gw_points": 10,
+      "total_points": 599
     },
     {
       "rank": 6,
@@ -71,8 +71,8 @@
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
-      "gw_points": 1,
-      "total_points": 591
+      "gw_points": 2,
+      "total_points": 592
     },
     {
       "rank": 10,
@@ -92,17 +92,17 @@
     },
     {
       "rank": 12,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
       "gw_points": 2,
       "total_points": 579
     },
     {
       "rank": 12,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "gw_points": 2,
       "total_points": 579
     },
@@ -135,16 +135,16 @@
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gw_points": 1,
-      "total_points": 564
+      "gw_points": 2,
+      "total_points": 565
     },
     {
       "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 2,
-      "total_points": 560
+      "gw_points": 3,
+      "total_points": 561
     },
     {
       "rank": 19,
@@ -247,16 +247,16 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 3,
-      "total_points": 508
+      "gw_points": 5,
+      "total_points": 510
     },
     {
       "rank": 32,
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 1,
-      "total_points": 504
+      "gw_points": 2,
+      "total_points": 505
     },
     {
       "rank": 33,
