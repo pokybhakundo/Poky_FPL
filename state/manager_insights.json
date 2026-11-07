@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:05:19.577975+00:00",
+  "generated_at": "2026-11-07T15:10:27.107988+00:00",
   "form": {
     "gws": [
       5,
@@ -400,25 +400,6 @@
       ]
     },
     {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -434,6 +415,25 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -902,30 +902,6 @@
       ]
     },
     {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Calafiori",
-        "De Cuyper",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Manzambi",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Dubravka",
-        "Egan",
-        "Thomas",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -947,6 +923,30 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Calafiori",
+        "De Cuyper",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Manzambi",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Dubravka",
+        "Egan",
+        "Thomas",
+        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -974,30 +974,6 @@
       ]
     },
     {
-      "entry_id": 3769764,
-      "team_name": "XabiBaby",
-      "manager": "Rikesh Puri",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "Konsa",
-        "De Cuyper",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Mbeumo",
-        "Tavernier",
-        "Haaland",
-        "Evanilson"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Maguire",
-        "Thomas",
-        "Jo\u00e3o Pedro"
-      ]
-    },
-    {
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -1019,6 +995,30 @@
         "McGinn",
         "Affengruber",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 3769764,
+      "team_name": "XabiBaby",
+      "manager": "Rikesh Puri",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "Konsa",
+        "De Cuyper",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Mbeumo",
+        "Tavernier",
+        "Haaland",
+        "Evanilson"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Maguire",
+        "Thomas",
+        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -1430,30 +1430,6 @@
       ]
     },
     {
-      "entry_id": 2798038,
-      "team_name": "CookedRice",
-      "manager": "Abhishek Jaiswal",
-      "starters": [
-        "Verbruggen",
-        "Bogle",
-        "Gvardiol",
-        "Egan",
-        "Mbeumo",
-        "Rogers",
-        "Tavernier",
-        "Gakpo",
-        "Calvert-Lewin",
-        "Haaland",
-        "Jo\u00e3o Pedro"
-      ],
-      "bench": [
-        "Kinsky",
-        "\u00d8degaard",
-        "Maguire",
-        "Calafiori"
-      ]
-    },
-    {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -1499,6 +1475,30 @@
         "Ajer",
         "Calafiori",
         "Isidor"
+      ]
+    },
+    {
+      "entry_id": 2798038,
+      "team_name": "CookedRice",
+      "manager": "Abhishek Jaiswal",
+      "starters": [
+        "Verbruggen",
+        "Bogle",
+        "Gvardiol",
+        "Egan",
+        "Mbeumo",
+        "Rogers",
+        "Tavernier",
+        "Gakpo",
+        "Calvert-Lewin",
+        "Haaland",
+        "Jo\u00e3o Pedro"
+      ],
+      "bench": [
+        "Kinsky",
+        "\u00d8degaard",
+        "Maguire",
+        "Calafiori"
       ]
     },
     {
@@ -1643,17 +1643,17 @@
         "points": 0
       },
       {
-        "entry_id": 1575639,
-        "team_name": "SpecialOne",
-        "manager": "Ganesh Sapkota",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 1575639,
+        "team_name": "SpecialOne",
+        "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1667,17 +1667,17 @@
         "points": 0
       },
       {
-        "entry_id": 3769764,
-        "team_name": "XabiBaby",
-        "manager": "Rikesh Puri",
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
+        "entry_id": 3769764,
+        "team_name": "XabiBaby",
+        "manager": "Rikesh Puri",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1819,14 +1819,6 @@
         "points": 0
       },
       {
-        "entry_id": 2798038,
-        "team_name": "CookedRice",
-        "manager": "Abhishek Jaiswal",
-        "element_id": 40,
-        "player_name": "Rogers",
-        "points": 0
-      },
-      {
         "entry_id": 500535,
         "team_name": "Jhol Momo",
         "manager": "Akash Shrestha",
@@ -1840,6 +1832,14 @@
         "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 2798038,
+        "team_name": "CookedRice",
+        "manager": "Abhishek Jaiswal",
+        "element_id": 40,
+        "player_name": "Rogers",
         "points": 0
       },
       {
@@ -1902,12 +1902,12 @@
         "points": 0
       },
       {
-        "player_name": "Rogers",
+        "player_name": "B.Fernandes",
         "count": 1,
         "points": 0
       },
       {
-        "player_name": "B.Fernandes",
+        "player_name": "Rogers",
         "count": 1,
         "points": 0
       }
