@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-07T12:35:15.614936+00:00",
+  "generated_at": "2026-11-07T12:40:17.871159+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
   "current_gw_finalized": false,
@@ -137,15 +137,10 @@
     },
     {
       "gw": 10,
-      "points": 16,
+      "points": 17,
       "shared": true,
       "provisional": true,
       "winners": [
-        {
-          "entry_id": 254926,
-          "team_name": "Vrum Vrummmmmm",
-          "manager": "Mahesh Acharya"
-        },
         {
           "entry_id": 500535,
           "team_name": "Jhol Momo",
@@ -160,21 +155,6 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
-        },
-        {
-          "entry_id": 1966921,
-          "team_name": "FalamBottleKagaj",
-          "manager": "Rijan Bajagain"
-        },
-        {
-          "entry_id": 2659214,
-          "team_name": "Yoro Wizard Harry",
-          "manager": "Aayush Jha"
-        },
-        {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
         }
       ]
     }
@@ -240,7 +220,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 16,
+      "points": 17,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -253,29 +233,9 @@
           "manager": "Biraj Shakya"
         },
         {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
-        },
-        {
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 254926,
-          "team_name": "Vrum Vrummmmmm",
-          "manager": "Mahesh Acharya"
-        },
-        {
-          "entry_id": 2659214,
-          "team_name": "Yoro Wizard Harry",
-          "manager": "Aayush Jha"
-        },
-        {
-          "entry_id": 1966921,
-          "team_name": "FalamBottleKagaj",
-          "manager": "Rijan Bajagain"
         },
         {
           "entry_id": 500535,
