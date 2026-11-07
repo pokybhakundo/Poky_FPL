@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T16:55:23.274314+00:00",
+  "generated_at": "2026-11-07T17:00:31.107506+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,16 +39,16 @@
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 38,
-      "total_points": 620
+      "gw_points": 40,
+      "total_points": 622
     },
     {
       "rank": 6,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 16,
-      "total_points": 620
+      "gw_points": 18,
+      "total_points": 622
     },
     {
       "rank": 7,
@@ -255,8 +255,8 @@
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 6,
-      "total_points": 511
+      "gw_points": 7,
+      "total_points": 512
     },
     {
       "rank": 33,
