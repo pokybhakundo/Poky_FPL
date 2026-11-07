@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T16:10:20.304807+00:00",
+  "generated_at": "2026-11-07T16:15:25.878149+00:00",
   "classic": [
     {
       "rank": 1,
@@ -31,23 +31,23 @@
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 6,
-      "total_points": 610
+      "gw_points": 7,
+      "total_points": 611
     },
     {
       "rank": 5,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 21,
+      "total_points": 603
+    },
+    {
+      "rank": 6,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
       "gw_points": 13,
-      "total_points": 602
-    },
-    {
-      "rank": 6,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 20,
       "total_points": 602
     },
     {
