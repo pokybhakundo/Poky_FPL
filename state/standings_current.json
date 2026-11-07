@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T17:55:17.024149+00:00",
+  "generated_at": "2026-11-07T18:00:30.049799+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,19 +180,19 @@
     },
     {
       "rank": 23,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 24,
+      "total_points": 559
+    },
+    {
+      "rank": 24,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 27,
       "total_points": 558
-    },
-    {
-      "rank": 24,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 21,
-      "total_points": 556
     },
     {
       "rank": 25,

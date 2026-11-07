@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:55:16.665491+00:00",
+  "generated_at": "2026-11-07T18:00:29.567916+00:00",
   "form": {
     "gws": [
       5,
@@ -1310,30 +1310,6 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "starters": [
-        "Raya",
-        "Gu\u00e9hi",
-        "Calafiori",
-        "Vuskovic",
-        "Tavernier",
-        "Gro\u00df",
-        "Mbeumo",
-        "\u00d8degaard",
-        "Gonzalo",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Dubravka",
-        "McGinn",
-        "Davis",
-        "Egan"
-      ]
-    },
-    {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -1355,6 +1331,30 @@
         "Gomez",
         "Gu\u00e9hi",
         "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "starters": [
+        "Raya",
+        "Gu\u00e9hi",
+        "Calafiori",
+        "Vuskovic",
+        "Tavernier",
+        "Gro\u00df",
+        "Mbeumo",
+        "\u00d8degaard",
+        "Gonzalo",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Dubravka",
+        "McGinn",
+        "Davis",
+        "Egan"
       ]
     },
     {
@@ -1779,17 +1779,17 @@
         "points": 1
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 1
