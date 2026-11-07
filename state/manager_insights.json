@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:30:28.592038+00:00",
+  "generated_at": "2026-11-07T14:35:22.653919+00:00",
   "form": {
     "gws": [
       5,
@@ -1454,30 +1454,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "starters": [
-        "Sels",
-        "White",
-        "Egan",
-        "Hall",
-        "Belloumi",
-        "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Ndiaye",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Ajer",
-        "Calafiori",
-        "Isidor"
-      ]
-    },
-    {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -1499,6 +1475,30 @@
         "Belloumi",
         "Egan",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Sels",
+        "White",
+        "Egan",
+        "Hall",
+        "Belloumi",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Ndiaye",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Ajer",
+        "Calafiori",
+        "Isidor"
       ]
     },
     {
@@ -1827,19 +1827,19 @@
         "points": 0
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
         "entry_id": 500535,
         "team_name": "Jhol Momo",
         "manager": "Akash Shrestha",
         "element_id": 426,
         "player_name": "B.Fernandes",
+        "points": 0
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 411,
+        "player_name": "Haaland",
         "points": 0
       },
       {
