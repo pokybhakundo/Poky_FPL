@@ -1,14 +1,14 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T12:50:20.040187+00:00",
+  "generated_at": "2026-11-07T12:55:21.128876+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gw_points": 17,
-      "total_points": 674
+      "gw_points": 19,
+      "total_points": 676
     },
     {
       "rank": 2,
@@ -23,16 +23,16 @@
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 1,
-      "total_points": 620
+      "gw_points": 3,
+      "total_points": 622
     },
     {
       "rank": 4,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 1,
-      "total_points": 605
+      "gw_points": 3,
+      "total_points": 607
     },
     {
       "rank": 5,
@@ -51,20 +51,20 @@
       "total_points": 598
     },
     {
-      "rank": 7,
+      "rank": 6,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 1,
-      "total_points": 596
+      "gw_points": 3,
+      "total_points": 598
     },
     {
       "rank": 8,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 17,
-      "total_points": 593
+      "gw_points": 19,
+      "total_points": 595
     },
     {
       "rank": 9,
@@ -79,8 +79,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 1,
-      "total_points": 588
+      "gw_points": 3,
+      "total_points": 590
     },
     {
       "rank": 11,
@@ -116,19 +116,19 @@
     },
     {
       "rank": 15,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 3,
+      "total_points": 573
+    },
+    {
+      "rank": 16,
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
       "gw_points": 1,
       "total_points": 572
-    },
-    {
-      "rank": 16,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 1,
-      "total_points": 571
     },
     {
       "rank": 17,
@@ -143,16 +143,16 @@
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
-      "gw_points": 2,
-      "total_points": 560
+      "gw_points": 4,
+      "total_points": 562
     },
     {
       "rank": 19,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
-      "gw_points": 1,
-      "total_points": 558
+      "gw_points": 3,
+      "total_points": 560
     },
     {
       "rank": 20,
@@ -231,16 +231,16 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 17,
-      "total_points": 521
+      "gw_points": 19,
+      "total_points": 523
     },
     {
       "rank": 30,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 2,
-      "total_points": 520
+      "gw_points": 4,
+      "total_points": 522
     },
     {
       "rank": 31,
