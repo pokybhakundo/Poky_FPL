@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-07T16:25:15.759865+00:00",
+  "generated_at": "2026-11-07T16:30:25.215675+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
   "current_gw_finalized": false,
@@ -137,14 +137,14 @@
     },
     {
       "gw": 10,
-      "points": 39,
+      "points": 40,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 1966033,
-          "team_name": "Or3gonian",
-          "manager": "Biraj Shakya"
+          "entry_id": 2659214,
+          "team_name": "Yoro Wizard Harry",
+          "manager": "Aayush Jha"
         }
       ]
     }
@@ -210,8 +210,8 @@
     {
       "month": "November",
       "label": "November",
-      "points": 39,
-      "shared": false,
+      "points": 40,
+      "shared": true,
       "provisional": true,
       "gameweeks": [
         10
@@ -221,6 +221,11 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
+        },
+        {
+          "entry_id": 2659214,
+          "team_name": "Yoro Wizard Harry",
+          "manager": "Aayush Jha"
         }
       ]
     }
