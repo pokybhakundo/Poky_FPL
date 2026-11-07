@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-07T19:05:26.042913+00:00",
+  "generated_at": "2026-11-07T19:10:20.983653+00:00",
   "classic": [
     {
       "rank": 1,
@@ -156,6 +156,14 @@
     },
     {
       "rank": 20,
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "gw_points": 29,
+      "total_points": 574
+    },
+    {
+      "rank": 21,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -163,28 +171,20 @@
       "total_points": 572
     },
     {
-      "rank": 21,
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "gw_points": 26,
-      "total_points": 571
+      "rank": 22,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 31,
+      "total_points": 566
     },
     {
-      "rank": 22,
+      "rank": 23,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
       "gw_points": 36,
       "total_points": 564
-    },
-    {
-      "rank": 23,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 27,
-      "total_points": 562
     },
     {
       "rank": 24,
