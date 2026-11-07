@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-07T13:55:19.678934+00:00",
+  "generated_at": "2026-11-07T14:00:23.753018+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
   "current_gw_finalized": false,
@@ -137,15 +137,10 @@
     },
     {
       "gw": 10,
-      "points": 17,
+      "points": 23,
       "shared": true,
       "provisional": true,
       "winners": [
-        {
-          "entry_id": 500535,
-          "team_name": "Jhol Momo",
-          "manager": "Akash Shrestha"
-        },
         {
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
@@ -220,7 +215,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 17,
+      "points": 23,
       "shared": true,
       "provisional": true,
       "gameweeks": [
@@ -236,11 +231,6 @@
           "entry_id": 1913463,
           "team_name": "nkzzz_21",
           "manager": "Nischal Koirala"
-        },
-        {
-          "entry_id": 500535,
-          "team_name": "Jhol Momo",
-          "manager": "Akash Shrestha"
         }
       ]
     }
