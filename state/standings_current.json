@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T18:30:22.282086+00:00",
+  "generated_at": "2026-11-08T18:35:20.740963+00:00",
   "classic": [
     {
       "rank": 1,
@@ -44,19 +44,19 @@
     },
     {
       "rank": 6,
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
+      "gw_points": 64,
+      "total_points": 651
+    },
+    {
+      "rank": 7,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
       "gw_points": 56,
       "total_points": 651
-    },
-    {
-      "rank": 7,
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "gw_points": 61,
-      "total_points": 648
     },
     {
       "rank": 8,
@@ -132,19 +132,19 @@
     },
     {
       "rank": 17,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 66,
+      "total_points": 624
+    },
+    {
+      "rank": 18,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 60,
       "total_points": 623
-    },
-    {
-      "rank": 18,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 63,
-      "total_points": 621
     },
     {
       "rank": 19,
@@ -180,14 +180,6 @@
     },
     {
       "rank": 23,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 67,
-      "total_points": 595
-    },
-    {
-      "rank": 23,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -195,15 +187,31 @@
       "total_points": 595
     },
     {
+      "rank": 23,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 67,
+      "total_points": 595
+    },
+    {
       "rank": 25,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 52,
-      "total_points": 587
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 87,
+      "total_points": 591
     },
     {
       "rank": 26,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 55,
+      "total_points": 590
+    },
+    {
+      "rank": 27,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -211,28 +219,20 @@
       "total_points": 585
     },
     {
-      "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 81,
-      "total_points": 585
+      "rank": 28,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 54,
+      "total_points": 581
     },
     {
-      "rank": 28,
+      "rank": 29,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 62,
       "total_points": 580
-    },
-    {
-      "rank": 29,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 51,
-      "total_points": 578
     },
     {
       "rank": 30,
@@ -263,16 +263,16 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 56,
-      "total_points": 546
+      "gw_points": 59,
+      "total_points": 549
     },
     {
       "rank": 34,
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 50,
-      "total_points": 532
+      "gw_points": 48,
+      "total_points": 530
     }
   ],
   "h2h": [
