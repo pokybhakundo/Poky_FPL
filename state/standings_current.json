@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T15:05:24.315008+00:00",
+  "generated_at": "2026-11-08T15:10:18.162880+00:00",
   "classic": [
     {
       "rank": 1,
@@ -172,14 +172,6 @@
     },
     {
       "rank": 22,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 43,
-      "total_points": 578
-    },
-    {
-      "rank": 23,
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -187,11 +179,11 @@
       "total_points": 578
     },
     {
-      "rank": 24,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 47,
+      "rank": 23,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 40,
       "total_points": 575
     },
     {
@@ -200,6 +192,14 @@
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 44,
+      "total_points": 575
+    },
+    {
+      "rank": 24,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 47,
       "total_points": 575
     },
     {
@@ -263,8 +263,8 @@
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
-      "gw_points": 34,
-      "total_points": 524
+      "gw_points": 33,
+      "total_points": 523
     },
     {
       "rank": 34,
