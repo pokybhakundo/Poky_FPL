@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-08T15:20:17.921475+00:00",
+  "generated_at": "2026-11-08T15:25:17.264346+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
   "current_gw_finalized": false,
@@ -137,7 +137,7 @@
     },
     {
       "gw": 10,
-      "points": 60,
+      "points": 65,
       "shared": false,
       "provisional": true,
       "winners": [
@@ -210,8 +210,8 @@
     {
       "month": "November",
       "label": "November",
-      "points": 60,
-      "shared": false,
+      "points": 65,
+      "shared": true,
       "provisional": true,
       "gameweeks": [
         10
@@ -221,6 +221,11 @@
           "entry_id": 1843084,
           "team_name": "Gura's Invincibles",
           "manager": "Prashant Guragai"
+        },
+        {
+          "entry_id": 1845615,
+          "team_name": "Kylian Dictator",
+          "manager": "Rakesh Itani"
         }
       ]
     }
