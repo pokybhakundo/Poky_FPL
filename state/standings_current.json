@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T17:00:30.476936+00:00",
+  "generated_at": "2026-11-08T17:05:17.174108+00:00",
   "classic": [
     {
       "rank": 1,
@@ -63,8 +63,8 @@
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
-      "gw_points": 57,
-      "total_points": 644
+      "gw_points": 56,
+      "total_points": 643
     },
     {
       "rank": 9,
@@ -143,8 +143,8 @@
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
-      "gw_points": 59,
-      "total_points": 617
+      "gw_points": 58,
+      "total_points": 616
     },
     {
       "rank": 19,
@@ -199,19 +199,11 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 52,
-      "total_points": 587
+      "gw_points": 51,
+      "total_points": 586
     },
     {
       "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 80,
-      "total_points": 584
-    },
-    {
-      "rank": 27,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -219,12 +211,20 @@
       "total_points": 583
     },
     {
+      "rank": 27,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 78,
+      "total_points": 582
+    },
+    {
       "rank": 28,
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
-      "gw_points": 51,
-      "total_points": 578
+      "gw_points": 50,
+      "total_points": 577
     },
     {
       "rank": 29,
@@ -252,19 +252,19 @@
     },
     {
       "rank": 32,
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "gw_points": 56,
-      "total_points": 546
-    },
-    {
-      "rank": 33,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
       "gw_points": 41,
       "total_points": 546
+    },
+    {
+      "rank": 33,
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "gw_points": 55,
+      "total_points": 545
     },
     {
       "rank": 34,
