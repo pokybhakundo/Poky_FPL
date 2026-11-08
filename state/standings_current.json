@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T16:45:25.652061+00:00",
+  "generated_at": "2026-11-08T16:50:20.747858+00:00",
   "classic": [
     {
       "rank": 1,
@@ -76,18 +76,18 @@
     },
     {
       "rank": 10,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 59,
-      "total_points": 635
-    },
-    {
-      "rank": 10,
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
       "gw_points": 58,
+      "total_points": 635
+    },
+    {
+      "rank": 10,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 59,
       "total_points": 635
     },
     {

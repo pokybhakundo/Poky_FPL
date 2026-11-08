@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:45:25.010653+00:00",
+  "generated_at": "2026-11-08T16:50:20.373760+00:00",
   "form": {
     "gws": [
       5,
@@ -461,17 +461,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -487,6 +476,17 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
         }
       ]
     },
@@ -998,30 +998,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Hill",
-        "Silva",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Kinsky",
-        "Pedro Porro",
-        "Belloumi",
-        "Diop"
-      ]
-    },
-    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -1043,6 +1019,30 @@
         "Cherki",
         "Calvert-Lewin",
         "Hall"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Hill",
+        "Silva",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Kinsky",
+        "Pedro Porro",
+        "Belloumi",
+        "Diop"
       ]
     },
     {
@@ -1675,17 +1675,17 @@
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1816,7 +1816,7 @@
         "manager": "Akash Shrestha",
         "element_id": 426,
         "player_name": "B.Fernandes",
-        "points": 1
+        "points": 6
       },
       {
         "entry_id": 4048482,
@@ -1904,7 +1904,7 @@
       {
         "player_name": "B.Fernandes",
         "count": 1,
-        "points": 1
+        "points": 6
       },
       {
         "player_name": "Rogers",
