@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:30:20.988015+00:00",
+  "generated_at": "2026-11-08T14:35:19.256818+00:00",
   "form": {
     "gws": [
       5,
@@ -385,21 +385,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -414,6 +399,21 @@
         },
         {
           "name": "freehit",
+          "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -878,30 +878,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Gabriel",
-        "De Cuyper",
-        "Manzambi",
-        "Tavernier",
-        "Rogers",
-        "Gro\u00df",
-        "Haaland",
-        "N.Jackson",
-        "Evanilson"
-      ],
-      "bench": [
-        "Kinsky",
-        "McGinn",
-        "Silva",
-        "Konsa"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -923,6 +899,30 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Gabriel",
+        "De Cuyper",
+        "Manzambi",
+        "Tavernier",
+        "Rogers",
+        "Gro\u00df",
+        "Haaland",
+        "N.Jackson",
+        "Evanilson"
+      ],
+      "bench": [
+        "Kinsky",
+        "McGinn",
+        "Silva",
+        "Konsa"
       ]
     },
     {
@@ -1635,17 +1635,17 @@
         "points": 2
       },
       {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
