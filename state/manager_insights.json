@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:50:20.081277+00:00",
+  "generated_at": "2026-11-08T15:55:20.519030+00:00",
   "form": {
     "gws": [
       5,
@@ -457,6 +457,25 @@
       ]
     },
     {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -491,28 +510,24 @@
       ]
     },
     {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
       "chips": [
         {
           "name": "bboost",
           "gw": 1
         },
         {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
           "name": "wildcard",
-          "gw": 6
+          "gw": 3
         }
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
       "chips": [
         {
           "name": "bboost",
@@ -540,17 +555,17 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 1
+          "name": "wildcard",
+          "gw": 2
         },
         {
-          "name": "wildcard",
-          "gw": 3
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -600,21 +615,6 @@
         {
           "name": "freehit",
           "gw": 5
-        }
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
         }
       ]
     },
@@ -998,6 +998,30 @@
       ]
     },
     {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Muharemovi\u0107",
+        "Gro\u00df",
+        "Palmer",
+        "Rogers",
+        "Manzambi",
+        "Haaland",
+        "Isak",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Bentley",
+        "King",
+        "Egan",
+        "Thomas"
+      ]
+    },
+    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1046,30 +1070,6 @@
       ]
     },
     {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Muharemovi\u0107",
-        "Gro\u00df",
-        "Palmer",
-        "Rogers",
-        "Manzambi",
-        "Haaland",
-        "Isak",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Bentley",
-        "King",
-        "Egan",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1091,6 +1091,30 @@
         "Hall",
         "Davis",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "Gvardiol",
+        "Tavernier",
+        "Mbeumo",
+        "Rogers",
+        "Palmer",
+        "Barry",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Gro\u00df",
+        "Ajer",
+        "Davis"
       ]
     },
     {
@@ -1118,27 +1142,27 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "starters": [
-        "Verbruggen",
-        "Konsa",
+        "Kelleher",
+        "De Cuyper",
         "Calafiori",
-        "Gvardiol",
-        "Tavernier",
-        "Mbeumo",
-        "Rogers",
+        "Justin",
+        "Cherki",
+        "Gro\u00df",
         "Palmer",
-        "Barry",
-        "Isak",
-        "Haaland"
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Isak"
       ],
       "bench": [
-        "Forster",
-        "Gro\u00df",
-        "Ajer",
-        "Davis"
+        "Verbruggen",
+        "Belloumi",
+        "Kayode",
+        "Ajayi"
       ]
     },
     {
@@ -1211,30 +1235,6 @@
         "Gomez",
         "Mitchell",
         "Wissa"
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Kelleher",
-        "De Cuyper",
-        "Calafiori",
-        "Justin",
-        "Cherki",
-        "Gro\u00df",
-        "Palmer",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson",
-        "Isak"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Belloumi",
-        "Kayode",
-        "Ajayi"
       ]
     },
     {
@@ -1526,30 +1526,6 @@
       ]
     },
     {
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Matheus N.",
-        "Dedi\u0107",
-        "Rayan",
-        "Kudus",
-        "Barcola",
-        "Cherki",
-        "Belloumi",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Leno",
-        "Jo\u00e3o Pedro",
-        "N.Williams",
-        "Hume"
-      ]
-    },
-    {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
@@ -1571,6 +1547,30 @@
         "Davis",
         "van Ewijk",
         "Hughes"
+      ]
+    },
+    {
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "starters": [
+        "Kinsky",
+        "De Cuyper",
+        "Matheus N.",
+        "Dedi\u0107",
+        "Rayan",
+        "Kudus",
+        "Barcola",
+        "Cherki",
+        "Belloumi",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Leno",
+        "Jo\u00e3o Pedro",
+        "N.Williams",
+        "Hume"
       ]
     },
     {
@@ -1616,7 +1616,7 @@
         "manager": "Swapnil Tiwari",
         "element_id": 379,
         "player_name": "Isak",
-        "points": 2
+        "points": 7
       },
       {
         "entry_id": 2310055,
@@ -1675,6 +1675,14 @@
         "points": 2
       },
       {
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
@@ -1691,17 +1699,17 @@
         "points": 2
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1715,9 +1723,9 @@
         "points": 2
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1745,14 +1753,6 @@
         "element_id": 79,
         "player_name": "Evanilson",
         "points": 9
-      },
-      {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
       },
       {
         "entry_id": 228817,
@@ -1851,17 +1851,17 @@
         "points": 2
       },
       {
-        "entry_id": 558137,
-        "team_name": "Morethrillesschill11",
-        "manager": "Rajiv Bhandari",
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
+        "entry_id": 558137,
+        "team_name": "Morethrillesschill11",
+        "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1889,7 +1889,7 @@
       {
         "player_name": "Isak",
         "count": 1,
-        "points": 2
+        "points": 7
       },
       {
         "player_name": "Evanilson",
