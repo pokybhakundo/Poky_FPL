@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:10:17.817958+00:00",
+  "generated_at": "2026-11-08T15:15:19.704946+00:00",
   "form": {
     "gws": [
       5,
@@ -1736,7 +1736,7 @@
         "manager": "Anit Yadav",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 3
       },
       {
         "entry_id": 1845615,
@@ -1768,7 +1768,7 @@
         "manager": "shakti karki",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 3
       },
       {
         "entry_id": 2017811,
@@ -1884,7 +1884,7 @@
       {
         "player_name": "Palmer",
         "count": 2,
-        "points": 1
+        "points": 3
       },
       {
         "player_name": "Isak",
