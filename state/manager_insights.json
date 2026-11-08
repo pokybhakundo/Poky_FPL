@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:15:19.704946+00:00",
+  "generated_at": "2026-11-08T15:20:20.312924+00:00",
   "form": {
     "gws": [
       5,
@@ -438,6 +438,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -453,17 +464,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
         }
       ]
     },
@@ -619,6 +619,21 @@
       ]
     },
     {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        },
+        {
+          "name": "3xc",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -634,21 +649,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
         }
       ]
     },
@@ -974,30 +974,6 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "starters": [
-        "Raya",
-        "Tarkowski",
-        "Calafiori",
-        "Konsa",
-        "De Cuyper",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "Barnes",
-        "Haaland",
-        "Evanilson"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Cherki",
-        "Calvert-Lewin",
-        "Hall"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1019,6 +995,30 @@
         "Pedro Porro",
         "Belloumi",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "starters": [
+        "Raya",
+        "Tarkowski",
+        "Calafiori",
+        "Konsa",
+        "De Cuyper",
+        "Rogers",
+        "Tavernier",
+        "Gro\u00df",
+        "Barnes",
+        "Haaland",
+        "Evanilson"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Cherki",
+        "Calvert-Lewin",
+        "Hall"
       ]
     },
     {
@@ -1238,30 +1238,6 @@
       ]
     },
     {
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Ajayi",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Rogers",
-        "Barnes",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Phillips",
-        "Kostoulas",
-        "Davis",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1283,6 +1259,30 @@
         "Hall",
         "Schade",
         "Egan"
+      ]
+    },
+    {
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Ajayi",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Rogers",
+        "Barnes",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Phillips",
+        "Kostoulas",
+        "Davis",
+        "Thomas"
       ]
     },
     {
@@ -1667,17 +1667,17 @@
         "points": 2
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1736,7 +1736,7 @@
         "manager": "Anit Yadav",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 3
+        "points": 1
       },
       {
         "entry_id": 1845615,
@@ -1744,7 +1744,7 @@
         "manager": "Rakesh Itani",
         "element_id": 79,
         "player_name": "Evanilson",
-        "points": 8
+        "points": 9
       },
       {
         "entry_id": 2253554,
@@ -1755,20 +1755,20 @@
         "points": 2
       },
       {
+        "entry_id": 228817,
+        "team_name": "4toothee1",
+        "manager": "shakti karki",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 1
+      },
+      {
         "entry_id": 1548786,
         "team_name": "ThunderYeti",
         "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
-      },
-      {
-        "entry_id": 228817,
-        "team_name": "4toothee1",
-        "manager": "shakti karki",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 3
       },
       {
         "entry_id": 2017811,
@@ -1884,7 +1884,7 @@
       {
         "player_name": "Palmer",
         "count": 2,
-        "points": 3
+        "points": 1
       },
       {
         "player_name": "Isak",
@@ -1894,7 +1894,7 @@
       {
         "player_name": "Evanilson",
         "count": 1,
-        "points": 8
+        "points": 9
       },
       {
         "player_name": "Mbeumo",
