@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:30:25.994684+00:00",
+  "generated_at": "2026-11-08T15:35:19.968175+00:00",
   "form": {
     "gws": [
       5,
@@ -419,17 +419,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -464,6 +453,17 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
         }
       ]
     },
@@ -510,21 +510,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -536,6 +521,21 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
         }
       ]
     },
@@ -709,6 +709,17 @@
       ]
     },
     {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -728,17 +739,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
         }
       ]
     },
@@ -950,30 +950,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Hill",
-        "Silva",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Kinsky",
-        "Pedro Porro",
-        "Belloumi",
-        "Diop"
-      ]
-    },
-    {
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -1019,6 +995,30 @@
         "Cherki",
         "Calvert-Lewin",
         "Hall"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Hill",
+        "Silva",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Kinsky",
+        "Pedro Porro",
+        "Belloumi",
+        "Diop"
       ]
     },
     {
@@ -1070,30 +1070,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Calafiori",
-        "De Cuyper",
-        "\u00d8degaard",
-        "Rogers",
-        "Palmer",
-        "Tavernier",
-        "Calvert-Lewin",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Muharemovi\u0107",
-        "Gomez",
-        "Thiaw"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1115,6 +1091,30 @@
         "Hall",
         "Davis",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "De Cuyper",
+        "\u00d8degaard",
+        "Rogers",
+        "Palmer",
+        "Tavernier",
+        "Calvert-Lewin",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Muharemovi\u0107",
+        "Gomez",
+        "Thiaw"
       ]
     },
     {
@@ -1406,30 +1406,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Silva",
-        "De Cuyper",
-        "Rogers",
-        "Palmer",
-        "Mbeumo",
-        "Manzambi",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "Muharemovi\u0107",
-        "Gro\u00df",
-        "Hall"
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1475,6 +1451,30 @@
         "Belloumi",
         "Egan",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Silva",
+        "De Cuyper",
+        "Rogers",
+        "Palmer",
+        "Mbeumo",
+        "Manzambi",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "Muharemovi\u0107",
+        "Gro\u00df",
+        "Hall"
       ]
     },
     {
@@ -1659,14 +1659,6 @@
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 1575639,
         "team_name": "SpecialOne",
         "manager": "Ganesh Sapkota",
@@ -1678,6 +1670,14 @@
         "entry_id": 1664566,
         "team_name": "BIR FC",
         "manager": "Karna Karki",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1699,17 +1699,17 @@
         "points": 2
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1811,14 +1811,6 @@
         "points": 2
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 4048482,
         "team_name": "Bhaire FC",
         "manager": "Saujan Acharya",
@@ -1833,6 +1825,14 @@
         "element_id": 426,
         "player_name": "B.Fernandes",
         "points": 0
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
       },
       {
         "entry_id": 2798038,
