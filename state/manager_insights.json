@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:40:18.224615+00:00",
+  "generated_at": "2026-11-08T14:45:24.147875+00:00",
   "form": {
     "gws": [
       5,
@@ -385,21 +385,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -414,6 +399,21 @@
         },
         {
           "name": "freehit",
+          "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -491,6 +491,21 @@
       ]
     },
     {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -506,21 +521,6 @@
         {
           "name": "wildcard",
           "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
         }
       ]
     },
@@ -878,30 +878,6 @@
       ]
     },
     {
-      "entry_id": 3309536,
-      "team_name": "Everest Eleven",
-      "manager": "Anil Ghimire",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Gabriel",
-        "De Cuyper",
-        "Manzambi",
-        "Tavernier",
-        "Rogers",
-        "Gro\u00df",
-        "Haaland",
-        "N.Jackson",
-        "Evanilson"
-      ],
-      "bench": [
-        "Kinsky",
-        "McGinn",
-        "Silva",
-        "Konsa"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -923,6 +899,30 @@
         "Muharemovi\u0107",
         "Davis",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 3309536,
+      "team_name": "Everest Eleven",
+      "manager": "Anil Ghimire",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Gabriel",
+        "De Cuyper",
+        "Manzambi",
+        "Tavernier",
+        "Rogers",
+        "Gro\u00df",
+        "Haaland",
+        "N.Jackson",
+        "Evanilson"
+      ],
+      "bench": [
+        "Kinsky",
+        "McGinn",
+        "Silva",
+        "Konsa"
       ]
     },
     {
@@ -1046,30 +1046,6 @@
       ]
     },
     {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "De Cuyper",
-        "Muharemovi\u0107",
-        "Gro\u00df",
-        "Palmer",
-        "Rogers",
-        "Manzambi",
-        "Haaland",
-        "Isak",
-        "Calvert-Lewin"
-      ],
-      "bench": [
-        "Bentley",
-        "King",
-        "Egan",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1091,6 +1067,30 @@
         "Hall",
         "Davis",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Muharemovi\u0107",
+        "Gro\u00df",
+        "Palmer",
+        "Rogers",
+        "Manzambi",
+        "Haaland",
+        "Isak",
+        "Calvert-Lewin"
+      ],
+      "bench": [
+        "Bentley",
+        "King",
+        "Egan",
+        "Thomas"
       ]
     },
     {
@@ -1406,6 +1406,30 @@
       ]
     },
     {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Sels",
+        "White",
+        "Egan",
+        "Hall",
+        "Belloumi",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Ndiaye",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Ajer",
+        "Calafiori",
+        "Isidor"
+      ]
+    },
+    {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -1451,30 +1475,6 @@
         "Muharemovi\u0107",
         "Gro\u00df",
         "Hall"
-      ]
-    },
-    {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "starters": [
-        "Sels",
-        "White",
-        "Egan",
-        "Hall",
-        "Belloumi",
-        "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Ndiaye",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Ajer",
-        "Calafiori",
-        "Isidor"
       ]
     },
     {
@@ -1635,17 +1635,17 @@
         "points": 2
       },
       {
-        "entry_id": 3309536,
-        "team_name": "Everest Eleven",
-        "manager": "Anil Ghimire",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 3309536,
+        "team_name": "Everest Eleven",
+        "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1691,17 +1691,17 @@
         "points": 2
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1811,6 +1811,14 @@
         "points": 0
       },
       {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 500535,
         "team_name": "Jhol Momo",
         "manager": "Akash Shrestha",
@@ -1822,14 +1830,6 @@
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
