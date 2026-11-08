@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T18:15:21.902881+00:00",
+  "generated_at": "2026-11-08T18:20:24.090418+00:00",
   "classic": [
     {
       "rank": 1,
@@ -204,18 +204,18 @@
     },
     {
       "rank": 26,
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "gw_points": 81,
-      "total_points": 585
-    },
-    {
-      "rank": 26,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
       "gw_points": 40,
+      "total_points": 585
+    },
+    {
+      "rank": 26,
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "gw_points": 81,
       "total_points": 585
     },
     {

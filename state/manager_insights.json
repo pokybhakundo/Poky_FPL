@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:15:21.511911+00:00",
+  "generated_at": "2026-11-08T18:20:23.477295+00:00",
   "form": {
     "gws": [
       5,
@@ -694,17 +694,6 @@
       ]
     },
     {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -716,6 +705,17 @@
         {
           "name": "wildcard",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -1382,30 +1382,6 @@
       ]
     },
     {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Bogle",
-        "Calafiori",
-        "B.Fernandes",
-        "Mbeumo",
-        "\u00d8degaard",
-        "Rogers",
-        "Haaland",
-        "Barry",
-        "Evanilson"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Belloumi",
-        "Egan",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1426,6 +1402,30 @@
         "Kinsky",
         "Cherki",
         "Giles",
+        "Thomas"
+      ]
+    },
+    {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Bogle",
+        "Calafiori",
+        "B.Fernandes",
+        "Mbeumo",
+        "\u00d8degaard",
+        "Rogers",
+        "Haaland",
+        "Barry",
+        "Evanilson"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Belloumi",
+        "Egan",
         "Thomas"
       ]
     },
@@ -1803,20 +1803,20 @@
         "points": 2
       },
       {
-        "entry_id": 500535,
-        "team_name": "Jhol Momo",
-        "manager": "Akash Shrestha",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 7
-      },
-      {
         "entry_id": 165293,
         "team_name": "Power",
         "manager": "Arjun Prasai",
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 2
+      },
+      {
+        "entry_id": 500535,
+        "team_name": "Jhol Momo",
+        "manager": "Akash Shrestha",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
+        "points": 7
       },
       {
         "entry_id": 1966921,
@@ -1897,14 +1897,14 @@
         "points": 9
       },
       {
-        "player_name": "B.Fernandes",
-        "count": 1,
-        "points": 7
-      },
-      {
         "player_name": "Mbeumo",
         "count": 1,
         "points": 2
+      },
+      {
+        "player_name": "B.Fernandes",
+        "count": 1,
+        "points": 7
       },
       {
         "player_name": "Rogers",
