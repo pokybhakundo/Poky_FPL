@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-08T15:00:30.330017+00:00",
+  "generated_at": "2026-11-08T15:05:24.315008+00:00",
   "classic": [
     {
       "rank": 1,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 44,
-      "total_points": 575
-    },
-    {
-      "rank": 24,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
       "gw_points": 47,
+      "total_points": 575
+    },
+    {
+      "rank": 24,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 44,
       "total_points": 575
     },
     {
