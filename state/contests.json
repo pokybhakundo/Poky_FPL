@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-09T14:55:25.340751+00:00",
+  "generated_at": "2026-11-09T15:00:27.000208+00:00",
   "next_deadline": "2026-11-21T11:00:00Z",
   "current_gw": 10,
-  "current_gw_finalized": false,
+  "current_gw_finalized": true,
   "updated_from_gws": [
     1,
     2,
