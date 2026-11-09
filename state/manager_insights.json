@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:30:28.508329+00:00",
+  "generated_at": "2026-11-09T10:35:17.407525+00:00",
   "form": {
     "gws": [
       5,
@@ -1411,21 +1411,21 @@
       "manager": "Saujan Acharya",
       "starters": [
         "Sels",
-        "White",
         "Egan",
+        "Ajer",
         "Hall",
-        "Belloumi",
+        "Calafiori",
         "B.Fernandes",
-        "Gro\u00df",
         "E.Le F\u00e9e",
+        "Gro\u00df",
         "Ndiaye",
         "Evanilson",
         "Haaland"
       ],
       "bench": [
         "Verbruggen",
-        "Ajer",
-        "Calafiori",
+        "White",
+        "Belloumi",
         "Isidor"
       ]
     },
