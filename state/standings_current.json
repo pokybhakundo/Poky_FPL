@@ -1,6 +1,6 @@
 {
   "gw": 10,
-  "generated_at": "2026-11-09T11:10:24.223845+00:00",
+  "generated_at": "2026-11-09T11:15:25.565759+00:00",
   "classic": [
     {
       "rank": 1,
@@ -84,17 +84,17 @@
     },
     {
       "rank": 11,
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
       "gw_points": 58,
       "total_points": 635
     },
     {
       "rank": 11,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "gw_points": 58,
       "total_points": 635
     },
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "gw_points": 67,
-      "total_points": 595
-    },
-    {
-      "rank": 24,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 64,
+      "total_points": 595
+    },
+    {
+      "rank": 24,
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "gw_points": 67,
       "total_points": 595
     },
     {
