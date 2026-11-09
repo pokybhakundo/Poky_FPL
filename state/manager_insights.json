@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:40:20.877209+00:00",
+  "generated_at": "2026-11-09T10:45:22.188103+00:00",
   "form": {
     "gws": [
       5,
@@ -1199,17 +1199,17 @@
         "Calafiori",
         "Egan",
         "Van Hecke",
+        "Muharemovi\u0107",
         "Rogers",
-        "Saka",
+        "Schade",
         "Gro\u00df",
-        "Gonzalo",
         "Haaland",
-        "Jo\u00e3o Pedro"
+        "Gonzalo"
       ],
       "bench": [
         "Kinsky",
-        "Schade",
-        "Muharemovi\u0107",
+        "Saka",
+        "Jo\u00e3o Pedro",
         "M.Sangar\u00e9"
       ]
     },
@@ -1298,13 +1298,13 @@
         "B.Fernandes",
         "Gro\u00df",
         "Slater",
-        "Jo\u00e3o Pedro",
+        "Gomez",
         "Haaland",
         "Delap"
       ],
       "bench": [
         "Palmer",
-        "Gomez",
+        "Jo\u00e3o Pedro",
         "Gu\u00e9hi",
         "van Ewijk"
       ]
@@ -1411,21 +1411,21 @@
       "manager": "Saujan Acharya",
       "starters": [
         "Sels",
-        "White",
         "Egan",
+        "Ajer",
         "Hall",
-        "Belloumi",
+        "Calafiori",
         "B.Fernandes",
-        "Gro\u00df",
         "E.Le F\u00e9e",
+        "Gro\u00df",
         "Ndiaye",
         "Evanilson",
         "Haaland"
       ],
       "bench": [
         "Verbruggen",
-        "Ajer",
-        "Calafiori",
+        "White",
+        "Belloumi",
         "Isidor"
       ]
     },
@@ -1483,20 +1483,20 @@
       "manager": "Abhishek Jaiswal",
       "starters": [
         "Verbruggen",
+        "Egan",
         "Bogle",
         "Gvardiol",
-        "Egan",
-        "Mbeumo",
-        "Rogers",
-        "Tavernier",
         "Gakpo",
-        "Calvert-Lewin",
+        "Rogers",
+        "Mbeumo",
+        "Tavernier",
+        "\u00d8degaard",
         "Haaland",
-        "Jo\u00e3o Pedro"
+        "Calvert-Lewin"
       ],
       "bench": [
         "Kinsky",
-        "\u00d8degaard",
+        "Jo\u00e3o Pedro",
         "Maguire",
         "Calafiori"
       ]
@@ -1531,21 +1531,21 @@
       "manager": "Rajiv Bhandari",
       "starters": [
         "Kinsky",
-        "De Cuyper",
-        "Matheus N.",
         "Dedi\u0107",
+        "Matheus N.",
+        "De Cuyper",
+        "N.Williams",
         "Rayan",
-        "Kudus",
-        "Barcola",
         "Cherki",
-        "Belloumi",
-        "N.Jackson",
-        "Haaland"
+        "Barcola",
+        "Kudus",
+        "Haaland",
+        "N.Jackson"
       ],
       "bench": [
         "Leno",
         "Jo\u00e3o Pedro",
-        "N.Williams",
+        "Belloumi",
         "Hume"
       ]
     },
@@ -1584,15 +1584,15 @@
         "Calafiori",
         "Rogers",
         "Palmer",
-        "Cherki",
-        "Gro\u00df",
         "Cunha",
-        "Jo\u00e3o Pedro",
+        "Gro\u00df",
+        "Cherki",
+        "Delap",
         "Haaland"
       ],
       "bench": [
         "Austin",
-        "Delap",
+        "Jo\u00e3o Pedro",
         "van Ewijk",
         "Ajayi"
       ]
