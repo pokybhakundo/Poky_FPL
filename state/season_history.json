@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:45:16.607718+00:00",
+  "generated_at": "2026-11-09T08:50:17.914425+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -461,12 +461,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
     "36783": {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
@@ -503,6 +497,12 @@
           "rank": 7456574
         }
       ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
     },
     "75325": {
       "entry_id": 75325,
