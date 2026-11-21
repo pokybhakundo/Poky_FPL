@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-21T16:20:20.029300+00:00",
+  "generated_at": "2026-11-21T16:25:15.374105+00:00",
   "next_deadline": "2026-11-27T18:30:00Z",
   "current_gw": 11,
   "current_gw_finalized": false,
@@ -151,14 +151,14 @@
     },
     {
       "gw": 11,
-      "points": 30,
+      "points": 42,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2798038,
-          "team_name": "CookedRice",
-          "manager": "Abhishek Jaiswal"
+          "entry_id": 1955412,
+          "team_name": "MAGA",
+          "manager": "MESSI GOAT"
         }
       ]
     }
@@ -224,7 +224,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 107,
+      "points": 109,
       "shared": false,
       "provisional": true,
       "gameweeks": [
