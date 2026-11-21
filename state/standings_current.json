@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T16:50:27.891514+00:00",
+  "generated_at": "2026-11-21T16:55:22.713168+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 21,
+      "total_points": 648
+    },
+    {
+      "rank": 18,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -139,20 +147,12 @@
       "total_points": 648
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 25,
       "total_points": 647
-    },
-    {
-      "rank": 19,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 19,
-      "total_points": 646
     },
     {
       "rank": 20,
