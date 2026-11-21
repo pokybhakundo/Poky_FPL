@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:25:18.409268+00:00",
+  "generated_at": "2026-11-21T16:30:26.573772+00:00",
   "form": {
     "gws": [
       6,
@@ -442,6 +442,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -456,17 +467,6 @@
         },
         {
           "name": "freehit",
-          "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -525,21 +525,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -551,6 +536,21 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "bboost",
+          "gw": 4
         }
       ]
     },
@@ -974,30 +974,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Raya",
-        "Konsa",
-        "Gabriel",
-        "De Cuyper",
-        "Tavernier",
-        "Palmer",
-        "Rogers",
-        "Cherki",
-        "Barry",
-        "Haaland",
-        "Kostoulas"
-      ],
-      "bench": [
-        "Zetterer",
-        "Davis",
-        "Muharemovi\u0107",
-        "Slater"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1019,6 +995,30 @@
         "Hill",
         "Belloumi",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Raya",
+        "Konsa",
+        "Gabriel",
+        "De Cuyper",
+        "Tavernier",
+        "Palmer",
+        "Rogers",
+        "Cherki",
+        "Barry",
+        "Haaland",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Zetterer",
+        "Davis",
+        "Muharemovi\u0107",
+        "Slater"
       ]
     },
     {
@@ -1094,30 +1094,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "De Cuyper",
-        "Silva",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Evanilson",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Konsa",
-        "Hall",
-        "Gibbs-White"
-      ]
-    },
-    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1139,6 +1115,30 @@
         "Hall",
         "Schade",
         "Egan"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Silva",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Evanilson",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Konsa",
+        "Hall",
+        "Gibbs-White"
       ]
     },
     {
@@ -1667,17 +1667,17 @@
         "points": 2
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1707,20 +1707,20 @@
         "points": 2
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 2
-      },
-      {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
         "element_id": 124,
         "player_name": "Gro\u00df",
         "points": 0
+      },
+      {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 2
       },
       {
         "entry_id": 1595343,

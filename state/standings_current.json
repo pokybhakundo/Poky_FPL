@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T16:25:18.918419+00:00",
+  "generated_at": "2026-11-21T16:30:26.849854+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "gw_points": 18,
-      "total_points": 666
-    },
-    {
-      "rank": 9,
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
       "gw_points": 25,
+      "total_points": 666
+    },
+    {
+      "rank": 9,
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "gw_points": 18,
       "total_points": 666
     },
     {
@@ -108,18 +108,18 @@
     },
     {
       "rank": 14,
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "gw_points": 36,
-      "total_points": 655
-    },
-    {
-      "rank": 15,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 37,
+      "total_points": 654
+    },
+    {
+      "rank": 15,
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "gw_points": 35,
       "total_points": 654
     },
     {
@@ -231,16 +231,16 @@
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 24,
-      "total_points": 604
+      "gw_points": 23,
+      "total_points": 603
     },
     {
       "rank": 30,
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 42,
-      "total_points": 602
+      "gw_points": 41,
+      "total_points": 601
     },
     {
       "rank": 31,
