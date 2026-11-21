@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T16:10:20.680347+00:00",
+  "generated_at": "2026-11-21T16:15:19.957569+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,19 +116,19 @@
     },
     {
       "rank": 15,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 13,
+      "total_points": 640
+    },
+    {
+      "rank": 16,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 21,
       "total_points": 640
-    },
-    {
-      "rank": 16,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 12,
-      "total_points": 639
     },
     {
       "rank": 17,
@@ -175,8 +175,8 @@
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 19,
-      "total_points": 616
+      "gw_points": 20,
+      "total_points": 617
     },
     {
       "rank": 23,
@@ -215,8 +215,8 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 6,
-      "total_points": 603
+      "gw_points": 5,
+      "total_points": 602
     },
     {
       "rank": 28,
