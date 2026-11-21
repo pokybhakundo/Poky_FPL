@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:05:18.573666+00:00",
+  "generated_at": "2026-11-21T16:10:20.413464+00:00",
   "form": {
     "gws": [
       6,
@@ -491,21 +491,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -521,6 +506,21 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
         }
       ]
     },
@@ -604,6 +604,17 @@
       ]
     },
     {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -615,17 +626,6 @@
         {
           "name": "wildcard",
           "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -1046,30 +1046,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Calafiori",
-        "De Cuyper",
-        "\u00d8degaard",
-        "Rogers",
-        "Palmer",
-        "Tavernier",
-        "Calvert-Lewin",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Muharemovi\u0107",
-        "Gomez",
-        "Thiaw"
-      ]
-    },
-    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1091,6 +1067,30 @@
         "King",
         "Egan",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "De Cuyper",
+        "\u00d8degaard",
+        "Rogers",
+        "Palmer",
+        "Tavernier",
+        "Calvert-Lewin",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Muharemovi\u0107",
+        "Gomez",
+        "Thiaw"
       ]
     },
     {
@@ -1214,30 +1214,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Calafiori",
-        "Van Hecke",
-        "Tavernier",
-        "Gro\u00df",
-        "Rogers",
-        "Palmer",
-        "Mbeumo",
-        "Isak",
-        "Haaland"
-      ],
-      "bench": [
-        "Forster",
-        "Barry",
-        "Muharemovi\u0107",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -1259,6 +1235,30 @@
         "Schade",
         "Muharemovi\u0107",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "Van Hecke",
+        "Tavernier",
+        "Gro\u00df",
+        "Rogers",
+        "Palmer",
+        "Mbeumo",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Barry",
+        "Muharemovi\u0107",
+        "Davis"
       ]
     },
     {
@@ -1691,17 +1691,17 @@
         "points": 2
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
+        "entry_id": 36783,
+        "team_name": "Kids to Unc's FC",
+        "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 36783,
-        "team_name": "Kids to Unc's FC",
-        "manager": "Bishal Neupane",
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1747,17 +1747,17 @@
         "points": 2
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
