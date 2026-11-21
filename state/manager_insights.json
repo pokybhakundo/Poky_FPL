@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:15:19.507562+00:00",
+  "generated_at": "2026-11-21T16:20:25.583516+00:00",
   "form": {
     "gws": [
       6,
@@ -472,21 +472,17 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
       "chips": [
         {
           "name": "3xc",
           "gw": 3
         },
         {
-          "name": "freehit",
-          "gw": 5
-        },
-        {
           "name": "wildcard",
-          "gw": 6
+          "gw": 4
         }
       ]
     },
@@ -510,47 +506,21 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "chips": [
         {
           "name": "3xc",
           "gw": 3
         },
         {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
+          "name": "freehit",
+          "gw": 5
         },
         {
           "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
+          "gw": 6
         }
       ]
     },
@@ -570,6 +540,21 @@
       ]
     },
     {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
+        }
+      ]
+    },
+    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -581,6 +566,21 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -1022,27 +1022,27 @@
       ]
     },
     {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
       "starters": [
-        "Raya",
-        "Calafiori",
+        "Verbruggen",
         "Konsa",
+        "Calafiori",
         "De Cuyper",
-        "Van Hecke",
+        "\u00d8degaard",
         "Rogers",
-        "Tavernier",
-        "Gro\u00df",
         "Palmer",
-        "Haaland",
-        "Evanilson"
+        "Tavernier",
+        "Calvert-Lewin",
+        "N.Jackson",
+        "Haaland"
       ],
       "bench": [
-        "Tzolakis",
-        "Hall",
-        "Calvert-Lewin",
-        "Barnes"
+        "Kinsky",
+        "Muharemovi\u0107",
+        "Gomez",
+        "Thiaw"
       ]
     },
     {
@@ -1070,75 +1070,27 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
       "starters": [
-        "Verbruggen",
-        "Konsa",
+        "Raya",
         "Calafiori",
+        "Konsa",
         "De Cuyper",
-        "\u00d8degaard",
-        "Rogers",
-        "Palmer",
-        "Tavernier",
-        "Calvert-Lewin",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Muharemovi\u0107",
-        "Gomez",
-        "Thiaw"
-      ]
-    },
-    {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Konsa",
         "Van Hecke",
-        "Manzambi",
         "Rogers",
-        "Palmer",
-        "Cunha",
-        "Evanilson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Steele",
-        "Hall",
-        "Davis",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Calafiori",
-        "Justin",
-        "Cherki",
+        "Tavernier",
         "Gro\u00df",
         "Palmer",
-        "Tavernier",
         "Haaland",
-        "N.Jackson",
-        "Isak"
+        "Evanilson"
       ],
       "bench": [
-        "Kelleher",
-        "Belloumi",
-        "Kayode",
-        "Ajayi"
+        "Tzolakis",
+        "Hall",
+        "Calvert-Lewin",
+        "Barnes"
       ]
     },
     {
@@ -1166,6 +1118,30 @@
       ]
     },
     {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Calafiori",
+        "Justin",
+        "Cherki",
+        "Gro\u00df",
+        "Palmer",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Isak"
+      ],
+      "bench": [
+        "Kelleher",
+        "Belloumi",
+        "Kayode",
+        "Ajayi"
+      ]
+    },
+    {
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
@@ -1187,6 +1163,30 @@
         "Hall",
         "Schade",
         "Egan"
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Konsa",
+        "Van Hecke",
+        "Manzambi",
+        "Rogers",
+        "Palmer",
+        "Cunha",
+        "Evanilson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Steele",
+        "Hall",
+        "Davis",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1358,30 +1358,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Hall",
-        "Konsa",
-        "Calafiori",
-        "Mbeumo",
-        "Gro\u00df",
-        "Rogers",
-        "N.Jackson",
-        "Haaland",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Gvardiol",
-        "Belloumi"
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1403,6 +1379,30 @@
         "Belloumi",
         "Egan",
         "Hall"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Hall",
+        "Konsa",
+        "Calafiori",
+        "Mbeumo",
+        "Gro\u00df",
+        "Rogers",
+        "N.Jackson",
+        "Haaland",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Gvardiol",
+        "Belloumi"
       ]
     },
     {
@@ -1550,30 +1550,6 @@
       ]
     },
     {
-      "entry_id": 2435657,
-      "team_name": "HawaHawai",
-      "manager": "Rajendra Shrestha",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Mitchell",
-        "van Ewijk",
-        "Rogers",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Cherki",
-        "Haaland",
-        "Isak",
-        "Kostoulas"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Hughes",
-        "Diop",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
@@ -1595,6 +1571,30 @@
         "Delap",
         "van Ewijk",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 2435657,
+      "team_name": "HawaHawai",
+      "manager": "Rajendra Shrestha",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Mitchell",
+        "van Ewijk",
+        "Rogers",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Cherki",
+        "Haaland",
+        "Isak",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Hughes",
+        "Diop",
+        "Davis"
       ]
     }
   ],
@@ -1683,9 +1683,9 @@
         "points": 2
       },
       {
-        "entry_id": 1664566,
-        "team_name": "BIR FC",
-        "manager": "Karna Karki",
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1699,25 +1699,9 @@
         "points": 2
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 1664566,
+        "team_name": "BIR FC",
+        "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1731,12 +1715,28 @@
         "points": 1
       },
       {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 228817,
         "team_name": "4toothee1",
         "manager": "shakti karki",
         "element_id": 124,
         "player_name": "Gro\u00df",
         "points": 0
+      },
+      {
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
       },
       {
         "entry_id": 1548786,
@@ -1768,7 +1768,7 @@
         "manager": "Rakesh Itani",
         "element_id": 166,
         "player_name": "N.Jackson",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 2017811,
@@ -1795,17 +1795,17 @@
         "points": 2
       },
       {
-        "entry_id": 2659214,
-        "team_name": "Yoro Wizard Harry",
-        "manager": "Aayush Jha",
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
+        "entry_id": 2659214,
+        "team_name": "Yoro Wizard Harry",
+        "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1859,17 +1859,17 @@
         "points": 2
       },
       {
-        "entry_id": 2435657,
-        "team_name": "HawaHawai",
-        "manager": "Rajendra Shrestha",
+        "entry_id": 3479050,
+        "team_name": "chelsea FC",
+        "manager": "Prasis Timilsena",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 3479050,
-        "team_name": "chelsea FC",
-        "manager": "Prasis Timilsena",
+        "entry_id": 2435657,
+        "team_name": "HawaHawai",
+        "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1894,7 +1894,7 @@
       {
         "player_name": "N.Jackson",
         "count": 1,
-        "points": 1
+        "points": 2
       },
       {
         "player_name": "Isak",

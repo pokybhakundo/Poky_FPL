@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:15:16.782650+00:00",
+  "generated_at": "2026-11-21T16:20:20.069944+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -461,49 +461,6 @@
         }
       ]
     },
-    "1664566": {
-      "entry_id": 1664566,
-      "team_name": "BIR FC",
-      "manager": "Karna Karki",
-      "seasons": []
-    },
-    "36783": {
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2246,
-          "rank": 481617
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2355,
-          "rank": 929223
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2229,
-          "rank": 1816050
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2357,
-          "rank": 986435
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2211,
-          "rank": 1129960
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1225,
-          "rank": 7456574
-        }
-      ]
-    },
     "75325": {
       "entry_id": 75325,
       "team_name": "CuledBarca",
@@ -556,70 +513,83 @@
         }
       ]
     },
-    "395170": {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
+    "36783": {
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
       "seasons": [
         {
           "season_name": "2025/26",
-          "total_points": 2129,
-          "rank": 1819440
+          "total_points": 2246,
+          "rank": 481617
         },
         {
           "season_name": "2024/25",
-          "total_points": 2409,
-          "rank": 515009
+          "total_points": 2355,
+          "rank": 929223
         },
         {
           "season_name": "2023/24",
-          "total_points": 2187,
-          "rank": 2358800
+          "total_points": 2229,
+          "rank": 1816050
         },
         {
           "season_name": "2022/23",
-          "total_points": 2310,
-          "rank": 1421600
+          "total_points": 2357,
+          "rank": 986435
         },
         {
           "season_name": "2021/22",
-          "total_points": 2377,
-          "rank": 375247
+          "total_points": 2211,
+          "rank": 1129960
         },
         {
           "season_name": "2020/21",
-          "total_points": 2270,
-          "rank": 497786
+          "total_points": 1225,
+          "rank": 7456574
+        }
+      ]
+    },
+    "1664566": {
+      "entry_id": 1664566,
+      "team_name": "BIR FC",
+      "manager": "Karna Karki",
+      "seasons": []
+    },
+    "969893": {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2157,
+          "rank": 1420163
         },
         {
-          "season_name": "2019/20",
-          "total_points": 2306,
-          "rank": 42733
+          "season_name": "2024/25",
+          "total_points": 2468,
+          "rank": 223531
         },
         {
-          "season_name": "2018/19",
-          "total_points": 2329,
-          "rank": 34222
+          "season_name": "2023/24",
+          "total_points": 2406,
+          "rank": 338987
         },
         {
-          "season_name": "2017/18",
-          "total_points": 2104,
-          "rank": 470547
+          "season_name": "2022/23",
+          "total_points": 2461,
+          "rank": 317366
         },
         {
-          "season_name": "2016/17",
-          "total_points": 2097,
-          "rank": 248817
+          "season_name": "2021/22",
+          "total_points": 2577,
+          "rank": 30401
         },
         {
-          "season_name": "2015/16",
-          "total_points": 1626,
-          "rank": 2485985
-        },
-        {
-          "season_name": "2014/15",
-          "total_points": 1557,
-          "rank": 2308544
+          "season_name": "2020/21",
+          "total_points": 2121,
+          "rank": 1520478
         }
       ]
     },
@@ -677,43 +647,6 @@
           "season_name": "2016/17",
           "total_points": 2082,
           "rank": 290074
-        }
-      ]
-    },
-    "969893": {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2157,
-          "rank": 1420163
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2468,
-          "rank": 223531
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2406,
-          "rank": 338987
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2461,
-          "rank": 317366
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2577,
-          "rank": 30401
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 2121,
-          "rank": 1520478
         }
       ]
     },
@@ -791,6 +724,73 @@
           "season_name": "2012/13",
           "total_points": 583,
           "rank": 2570986
+        }
+      ]
+    },
+    "395170": {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2129,
+          "rank": 1819440
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2409,
+          "rank": 515009
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2187,
+          "rank": 2358800
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2310,
+          "rank": 1421600
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2377,
+          "rank": 375247
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 2270,
+          "rank": 497786
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2306,
+          "rank": 42733
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 2329,
+          "rank": 34222
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 2104,
+          "rank": 470547
+        },
+        {
+          "season_name": "2016/17",
+          "total_points": 2097,
+          "rank": 248817
+        },
+        {
+          "season_name": "2015/16",
+          "total_points": 1626,
+          "rank": 2485985
+        },
+        {
+          "season_name": "2014/15",
+          "total_points": 1557,
+          "rank": 2308544
         }
       ]
     },
@@ -1188,23 +1188,6 @@
         }
       ]
     },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
-        }
-      ]
-    },
     "4048482": {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
@@ -1229,6 +1212,23 @@
           "season_name": "2022/23",
           "total_points": 2409,
           "rank": 593509
+        }
+      ]
+    },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
         }
       ]
     },
@@ -1488,6 +1488,38 @@
         }
       ]
     },
+    "3479050": {
+      "entry_id": 3479050,
+      "team_name": "chelsea FC",
+      "manager": "Prasis Timilsena",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2128,
+          "rank": 1829871
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2062,
+          "rank": 4777928
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2111,
+          "rank": 3388711
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 1534,
+          "rank": 9612534
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1590,
+          "rank": 6768609
+        }
+      ]
+    },
     "2435657": {
       "entry_id": 2435657,
       "team_name": "HawaHawai",
@@ -1527,38 +1559,6 @@
           "season_name": "2019/20",
           "total_points": 1125,
           "rank": 7065574
-        }
-      ]
-    },
-    "3479050": {
-      "entry_id": 3479050,
-      "team_name": "chelsea FC",
-      "manager": "Prasis Timilsena",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2128,
-          "rank": 1829871
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2062,
-          "rank": 4777928
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2111,
-          "rank": 3388711
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 1534,
-          "rank": 9612534
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1590,
-          "rank": 6768609
         }
       ]
     }
