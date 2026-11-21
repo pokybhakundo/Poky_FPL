@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T15:40:30.858392+00:00",
+  "generated_at": "2026-11-21T15:45:20.116325+00:00",
   "classic": [
     {
       "rank": 1,
@@ -119,8 +119,8 @@
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
-      "gw_points": 20,
-      "total_points": 639
+      "gw_points": 21,
+      "total_points": 640
     },
     {
       "rank": 16,
@@ -132,19 +132,19 @@
     },
     {
       "rank": 17,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "gw_points": 10,
+      "total_points": 637
+    },
+    {
+      "rank": 18,
       "entry_id": 228817,
       "team_name": "4toothee1",
       "manager": "shakti karki",
       "gw_points": 20,
       "total_points": 637
-    },
-    {
-      "rank": 18,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 9,
-      "total_points": 636
     },
     {
       "rank": 19,
@@ -175,8 +175,8 @@
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
-      "gw_points": 14,
-      "total_points": 611
+      "gw_points": 15,
+      "total_points": 612
     },
     {
       "rank": 23,
@@ -212,14 +212,6 @@
     },
     {
       "rank": 27,
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "gw_points": 8,
-      "total_points": 603
-    },
-    {
-      "rank": 27,
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -227,12 +219,20 @@
       "total_points": 603
     },
     {
+      "rank": 27,
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "gw_points": 8,
+      "total_points": 603
+    },
+    {
       "rank": 29,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 13,
-      "total_points": 593
+      "gw_points": 14,
+      "total_points": 594
     },
     {
       "rank": 30,
@@ -247,8 +247,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 15,
-      "total_points": 575
+      "gw_points": 16,
+      "total_points": 576
     },
     {
       "rank": 32,

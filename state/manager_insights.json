@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:40:30.014863+00:00",
+  "generated_at": "2026-11-21T15:45:19.752184+00:00",
   "form": {
     "gws": [
       6,
@@ -566,21 +566,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 4
-        },
-        {
-          "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -592,6 +577,21 @@
         {
           "name": "3xc",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 4
+        },
+        {
+          "name": "3xc",
+          "gw": 7
         }
       ]
     },
@@ -690,13 +690,13 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
       "chips": [
         {
-          "name": "3xc",
-          "gw": 3
+          "name": "freehit",
+          "gw": 4
         },
         {
           "name": "wildcard",
@@ -705,13 +705,13 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "chips": [
         {
-          "name": "freehit",
-          "gw": 4
+          "name": "3xc",
+          "gw": 3
         },
         {
           "name": "wildcard",
@@ -1166,30 +1166,6 @@
       ]
     },
     {
-      "entry_id": 228817,
-      "team_name": "4toothee1",
-      "manager": "shakti karki",
-      "starters": [
-        "Kinsky",
-        "Calafiori",
-        "De Cuyper",
-        "Van Hecke",
-        "Tavernier",
-        "Rogers",
-        "Palmer",
-        "Gro\u00df",
-        "Evanilson",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Dubravka",
-        "Hall",
-        "Schade",
-        "Egan"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1211,6 +1187,30 @@
         "Belloumi",
         "Kayode",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 228817,
+      "team_name": "4toothee1",
+      "manager": "shakti karki",
+      "starters": [
+        "Kinsky",
+        "Calafiori",
+        "De Cuyper",
+        "Van Hecke",
+        "Tavernier",
+        "Rogers",
+        "Palmer",
+        "Gro\u00df",
+        "Evanilson",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Dubravka",
+        "Hall",
+        "Schade",
+        "Egan"
       ]
     },
     {
@@ -1406,30 +1406,6 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "starters": [
-        "Raya",
-        "Gu\u00e9hi",
-        "Calafiori",
-        "Vuskovic",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "\u00d8degaard",
-        "N.Jackson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Dubravka",
-        "Mbeumo",
-        "Egan",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
@@ -1451,6 +1427,30 @@
         "Giles",
         "Thomas",
         "Brobbey"
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "starters": [
+        "Raya",
+        "Gu\u00e9hi",
+        "Calafiori",
+        "Vuskovic",
+        "Tavernier",
+        "Gro\u00df",
+        "McGinn",
+        "\u00d8degaard",
+        "N.Jackson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Dubravka",
+        "Mbeumo",
+        "Egan",
+        "Davis"
       ]
     },
     {
@@ -1731,20 +1731,20 @@
         "points": 2
       },
       {
-        "entry_id": 228817,
-        "team_name": "4toothee1",
-        "manager": "shakti karki",
-        "element_id": 124,
-        "player_name": "Gro\u00df",
-        "points": 0
-      },
-      {
         "entry_id": 2253554,
         "team_name": "Soraaa",
         "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
+      },
+      {
+        "entry_id": 228817,
+        "team_name": "4toothee1",
+        "manager": "shakti karki",
+        "element_id": 124,
+        "player_name": "Gro\u00df",
+        "points": 0
       },
       {
         "entry_id": 1548786,
@@ -1811,17 +1811,17 @@
         "points": 2
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
