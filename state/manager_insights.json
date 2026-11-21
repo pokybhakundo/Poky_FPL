@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:25:15.946188+00:00",
+  "generated_at": "2026-11-21T19:30:25.064412+00:00",
   "form": {
     "gws": [
       6,
@@ -555,17 +555,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -578,6 +567,17 @@
           "name": "3xc",
           "gw": 3
         },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
         {
           "name": "wildcard",
           "gw": 6
@@ -1142,30 +1142,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Calafiori",
-        "Egan",
-        "Van Hecke",
-        "Rogers",
-        "Palmer",
-        "Gro\u00df",
-        "Gonzalo",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Raya",
-        "Schade",
-        "Muharemovi\u0107",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -1187,6 +1163,30 @@
         "Kostoulas",
         "Davis",
         "Thomas"
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Kinsky",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Van Hecke",
+        "Rogers",
+        "Palmer",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Raya",
+        "Schade",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1723,17 +1723,17 @@
         "points": 2
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
+        "entry_id": 1548786,
+        "team_name": "ThunderYeti",
+        "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 1548786,
-        "team_name": "ThunderYeti",
-        "manager": "Samir Gyawali",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
