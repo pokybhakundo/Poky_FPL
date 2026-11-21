@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:50:20.034977+00:00",
+  "generated_at": "2026-11-21T18:55:16.225606+00:00",
   "form": {
     "gws": [
       6,
@@ -600,21 +600,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -626,6 +611,21 @@
         {
           "name": "3xc",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -1214,30 +1214,6 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Calafiori",
-        "Van Hecke",
-        "Tavernier",
-        "Gro\u00df",
-        "Rogers",
-        "Palmer",
-        "Mbeumo",
-        "Isak",
-        "Haaland"
-      ],
-      "bench": [
-        "Forster",
-        "Barry",
-        "Muharemovi\u0107",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1259,6 +1235,30 @@
         "Belloumi",
         "Kayode",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Calafiori",
+        "Van Hecke",
+        "Tavernier",
+        "Gro\u00df",
+        "Rogers",
+        "Palmer",
+        "Mbeumo",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Barry",
+        "Muharemovi\u0107",
+        "Davis"
       ]
     },
     {
@@ -1747,17 +1747,17 @@
         "points": 2
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
