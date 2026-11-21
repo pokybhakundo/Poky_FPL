@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:35:24.736948+00:00",
+  "generated_at": "2026-11-21T16:40:18.672860+00:00",
   "form": {
     "gws": [
       6,
@@ -664,17 +664,6 @@
       ]
     },
     {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -686,6 +675,17 @@
         {
           "name": "wildcard",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -1310,30 +1310,6 @@
       ]
     },
     {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Bogle",
-        "Calafiori",
-        "B.Fernandes",
-        "Manzambi",
-        "\u00d8degaard",
-        "Rogers",
-        "Haaland",
-        "Barry",
-        "Evanilson"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Belloumi",
-        "Egan",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -1358,27 +1334,27 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
       "starters": [
         "Verbruggen",
-        "Konsa",
-        "Ajer",
+        "De Cuyper",
+        "Bogle",
         "Calafiori",
         "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Ndiaye",
-        "N.Jackson",
-        "Evanilson",
-        "Haaland"
+        "Manzambi",
+        "\u00d8degaard",
+        "Rogers",
+        "Haaland",
+        "Barry",
+        "Evanilson"
       ],
       "bench": [
-        "Sels",
+        "Tzolakis",
         "Belloumi",
         "Egan",
-        "Hall"
+        "Thomas"
       ]
     },
     {
@@ -1427,6 +1403,30 @@
         "M.Sangar\u00e9",
         "Gvardiol",
         "Belloumi"
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Ajer",
+        "Calafiori",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Ndiaye",
+        "N.Jackson",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Sels",
+        "Belloumi",
+        "Egan",
+        "Hall"
       ]
     },
     {
@@ -1779,14 +1779,6 @@
         "points": 0
       },
       {
-        "entry_id": 500535,
-        "team_name": "Jhol Momo",
-        "manager": "Akash Shrestha",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 2546180,
         "team_name": "Pharaoh's Team",
         "manager": "Don theGod",
@@ -1795,9 +1787,9 @@
         "points": 2
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
+        "entry_id": 500535,
+        "team_name": "Jhol Momo",
+        "manager": "Akash Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1814,6 +1806,14 @@
         "entry_id": 2659214,
         "team_name": "Yoro Wizard Harry",
         "manager": "Aayush Jha",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
