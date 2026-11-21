@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-21T14:05:16.466565+00:00",
+  "generated_at": "2026-11-21T14:10:17.023404+00:00",
   "next_deadline": "2026-11-27T18:30:00Z",
   "current_gw": 11,
   "current_gw_finalized": false,
@@ -152,18 +152,13 @@
     {
       "gw": 11,
       "points": 6,
-      "shared": true,
+      "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 2546180,
-          "team_name": "Pharaoh's Team",
-          "manager": "Don theGod"
-        },
-        {
-          "entry_id": 4048482,
-          "team_name": "Bhaire FC",
-          "manager": "Saujan Acharya"
+          "entry_id": 165293,
+          "team_name": "Power",
+          "manager": "Arjun Prasai"
         }
       ]
     }

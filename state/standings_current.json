@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T14:05:19.636035+00:00",
+  "generated_at": "2026-11-21T14:10:18.535583+00:00",
   "classic": [
     {
       "rank": 1,
@@ -116,6 +116,14 @@
     },
     {
       "rank": 15,
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "gw_points": 5,
+      "total_points": 628
+    },
+    {
+      "rank": 16,
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -123,20 +131,12 @@
       "total_points": 628
     },
     {
-      "rank": 16,
+      "rank": 17,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
       "gw_points": 4,
       "total_points": 628
-    },
-    {
-      "rank": 17,
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "gw_points": 4,
-      "total_points": 627
     },
     {
       "rank": 18,
@@ -188,18 +188,18 @@
     },
     {
       "rank": 24,
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "gw_points": 3,
+      "total_points": 600
+    },
+    {
+      "rank": 25,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
       "gw_points": 4,
-      "total_points": 599
-    },
-    {
-      "rank": 25,
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "gw_points": 2,
       "total_points": 599
     },
     {
@@ -223,8 +223,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 5,
-      "total_points": 590
+      "gw_points": 6,
+      "total_points": 591
     },
     {
       "rank": 29,
@@ -239,8 +239,8 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 2,
-      "total_points": 562
+      "gw_points": 3,
+      "total_points": 563
     },
     {
       "rank": 31,

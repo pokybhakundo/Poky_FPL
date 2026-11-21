@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T14:05:19.236073+00:00",
+  "generated_at": "2026-11-21T14:10:18.159469+00:00",
   "form": {
     "gws": [
       6,
@@ -540,6 +540,17 @@
       ]
     },
     {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -570,17 +581,6 @@
         {
           "name": "wildcard",
           "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -668,6 +668,17 @@
       ]
     },
     {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
@@ -679,17 +690,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
         }
       ]
     },
@@ -1118,6 +1118,30 @@
       ]
     },
     {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Kinsky",
+        "De Cuyper",
+        "Calafiori",
+        "Egan",
+        "Van Hecke",
+        "Rogers",
+        "Palmer",
+        "Gro\u00df",
+        "Gonzalo",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Raya",
+        "Schade",
+        "Muharemovi\u0107",
+        "M.Sangar\u00e9"
+      ]
+    },
+    {
       "entry_id": 1548786,
       "team_name": "ThunderYeti",
       "manager": "Samir Gyawali",
@@ -1162,30 +1186,6 @@
         "Steele",
         "Hall",
         "Davis",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Calafiori",
-        "Egan",
-        "Van Hecke",
-        "Rogers",
-        "Palmer",
-        "Gro\u00df",
-        "Gonzalo",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Raya",
-        "Schade",
-        "Muharemovi\u0107",
         "M.Sangar\u00e9"
       ]
     },
@@ -1334,30 +1334,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Hall",
-        "Konsa",
-        "Calafiori",
-        "Mbeumo",
-        "Gro\u00df",
-        "Rogers",
-        "N.Jackson",
-        "Haaland",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Gvardiol",
-        "Belloumi"
-      ]
-    },
-    {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -1379,6 +1355,30 @@
         "van Ewijk",
         "Davis",
         "Neto"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Hall",
+        "Konsa",
+        "Calafiori",
+        "Mbeumo",
+        "Gro\u00df",
+        "Rogers",
+        "N.Jackson",
+        "Haaland",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Gvardiol",
+        "Belloumi"
       ]
     },
     {
@@ -1715,6 +1715,14 @@
         "points": 2
       },
       {
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 1548786,
         "team_name": "ThunderYeti",
         "manager": "Samir Gyawali",
@@ -1726,14 +1734,6 @@
         "entry_id": 395170,
         "team_name": "Idaho Potatoes XI",
         "manager": "Rajesh Baduwal",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1787,20 +1787,20 @@
         "points": 2
       },
       {
-        "entry_id": 2659214,
-        "team_name": "Yoro Wizard Harry",
-        "manager": "Aayush Jha",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 2017811,
         "team_name": "HeavyMetal Areola",
         "manager": "Aayush Palikhel",
         "element_id": 379,
         "player_name": "Isak",
         "points": 0
+      },
+      {
+        "entry_id": 2659214,
+        "team_name": "Yoro Wizard Harry",
+        "manager": "Aayush Jha",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
       },
       {
         "entry_id": 500535,
