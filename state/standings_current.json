@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T19:15:18.932160+00:00",
+  "generated_at": "2026-11-21T19:20:20.973871+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 32,
-      "total_points": 688
+      "gw_points": 33,
+      "total_points": 689
     },
     {
       "rank": 6,
@@ -68,19 +68,19 @@
     },
     {
       "rank": 9,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 39,
+      "total_points": 671
+    },
+    {
+      "rank": 10,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 23,
       "total_points": 671
-    },
-    {
-      "rank": 10,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 38,
-      "total_points": 670
     },
     {
       "rank": 11,
@@ -183,16 +183,16 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 25,
-      "total_points": 620
+      "gw_points": 26,
+      "total_points": 621
     },
     {
       "rank": 24,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 27,
-      "total_points": 618
+      "gw_points": 28,
+      "total_points": 619
     },
     {
       "rank": 25,
