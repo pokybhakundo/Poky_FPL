@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:45:26.041359+00:00",
+  "generated_at": "2026-11-21T16:50:27.539757+00:00",
   "form": {
     "gws": [
       6,
@@ -442,17 +442,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -467,6 +456,17 @@
         },
         {
           "name": "freehit",
+          "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -720,6 +720,21 @@
       ]
     },
     {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -739,21 +754,6 @@
         {
           "name": "3xc",
           "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 9
         }
       ]
     },
@@ -974,30 +974,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "De Cuyper",
-        "Vuskovic",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hill",
-        "Belloumi",
-        "Diop"
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1019,6 +995,30 @@
         "Davis",
         "Muharemovi\u0107",
         "Slater"
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "De Cuyper",
+        "Vuskovic",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hill",
+        "Belloumi",
+        "Diop"
       ]
     },
     {
@@ -1454,30 +1454,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Raya",
-        "Silva",
-        "De Cuyper",
-        "Vuskovic",
-        "Gro\u00df",
-        "Rogers",
-        "Manzambi",
-        "Palmer",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "Konsa",
-        "Mbeumo",
-        "Muharemovi\u0107"
-      ]
-    },
-    {
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
@@ -1499,6 +1475,30 @@
         "Evanilson",
         "Lewis",
         "Konsa"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Raya",
+        "Silva",
+        "De Cuyper",
+        "Vuskovic",
+        "Gro\u00df",
+        "Rogers",
+        "Manzambi",
+        "Palmer",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "Konsa",
+        "Mbeumo",
+        "Muharemovi\u0107"
       ]
     },
     {
@@ -1667,17 +1667,17 @@
         "points": 2
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1827,19 +1827,19 @@
         "points": 2
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
         "entry_id": 1955412,
         "team_name": "MAGA",
         "manager": "MESSI GOAT",
         "element_id": 154,
         "player_name": "Palmer",
+        "points": 2
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 411,
+        "player_name": "Haaland",
         "points": 2
       },
       {
