@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:35:21.350774+00:00",
+  "generated_at": "2026-11-21T15:40:30.014863+00:00",
   "form": {
     "gws": [
       6,
@@ -690,13 +690,13 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
       "chips": [
         {
-          "name": "freehit",
-          "gw": 4
+          "name": "3xc",
+          "gw": 3
         },
         {
           "name": "wildcard",
@@ -705,13 +705,13 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
       "chips": [
         {
-          "name": "3xc",
-          "gw": 3
+          "name": "freehit",
+          "gw": 4
         },
         {
           "name": "wildcard",
@@ -1406,30 +1406,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "starters": [
-        "Verbruggen",
-        "Gvardiol",
-        "De Cuyper",
-        "Calafiori",
-        "Mbeumo",
-        "Gro\u00df",
-        "Palmer",
-        "Rudoni",
-        "Cherki",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Kinsky",
-        "Giles",
-        "Thomas",
-        "Brobbey"
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -1451,6 +1427,30 @@
         "Mbeumo",
         "Egan",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "starters": [
+        "Verbruggen",
+        "Gvardiol",
+        "De Cuyper",
+        "Calafiori",
+        "Mbeumo",
+        "Gro\u00df",
+        "Palmer",
+        "Rudoni",
+        "Cherki",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Kinsky",
+        "Giles",
+        "Thomas",
+        "Brobbey"
       ]
     },
     {
@@ -1811,17 +1811,17 @@
         "points": 2
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2

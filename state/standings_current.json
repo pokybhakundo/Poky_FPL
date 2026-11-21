@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T15:35:21.766958+00:00",
+  "generated_at": "2026-11-21T15:40:30.858392+00:00",
   "classic": [
     {
       "rank": 1,
@@ -212,18 +212,18 @@
     },
     {
       "rank": 27,
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "gw_points": 18,
-      "total_points": 603
-    },
-    {
-      "rank": 27,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 8,
+      "total_points": 603
+    },
+    {
+      "rank": 27,
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "gw_points": 18,
       "total_points": 603
     },
     {
