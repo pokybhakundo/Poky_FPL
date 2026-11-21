@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-21T18:35:18.057502+00:00",
+  "generated_at": "2026-11-21T18:40:21.381846+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 28,
-      "total_points": 684
+      "gw_points": 27,
+      "total_points": 683
     },
     {
       "rank": 6,
@@ -87,8 +87,8 @@
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
-      "gw_points": 34,
-      "total_points": 666
+      "gw_points": 33,
+      "total_points": 665
     },
     {
       "rank": 12,
@@ -124,6 +124,14 @@
     },
     {
       "rank": 16,
+      "entry_id": 1548786,
+      "team_name": "ThunderYeti",
+      "manager": "Samir Gyawali",
+      "gw_points": 29,
+      "total_points": 653
+    },
+    {
+      "rank": 17,
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
@@ -131,7 +139,7 @@
       "total_points": 651
     },
     {
-      "rank": 17,
+      "rank": 18,
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -139,7 +147,7 @@
       "total_points": 650
     },
     {
-      "rank": 18,
+      "rank": 19,
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -147,20 +155,12 @@
       "total_points": 649
     },
     {
-      "rank": 19,
+      "rank": 20,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
       "gw_points": 27,
       "total_points": 649
-    },
-    {
-      "rank": 20,
-      "entry_id": 1548786,
-      "team_name": "ThunderYeti",
-      "manager": "Samir Gyawali",
-      "gw_points": 22,
-      "total_points": 646
     },
     {
       "rank": 21,
@@ -183,16 +183,16 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 21,
-      "total_points": 616
+      "gw_points": 20,
+      "total_points": 615
     },
     {
       "rank": 24,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 23,
-      "total_points": 614
+      "gw_points": 22,
+      "total_points": 613
     },
     {
       "rank": 25,
