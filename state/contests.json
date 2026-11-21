@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-21T12:30:23.852520+00:00",
+  "generated_at": "2026-11-21T12:35:16.856668+00:00",
   "next_deadline": "2026-11-27T18:30:00Z",
   "current_gw": 11,
   "current_gw_finalized": false,
@@ -151,10 +151,21 @@
     },
     {
       "gw": 11,
-      "points": 0,
-      "shared": false,
+      "points": 3,
+      "shared": true,
       "provisional": true,
-      "winners": []
+      "winners": [
+        {
+          "entry_id": 2546180,
+          "team_name": "Pharaoh's Team",
+          "manager": "Don theGod"
+        },
+        {
+          "entry_id": 4048482,
+          "team_name": "Bhaire FC",
+          "manager": "Saujan Acharya"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -218,7 +229,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 87,
+      "points": 89,
       "shared": false,
       "provisional": true,
       "gameweeks": [

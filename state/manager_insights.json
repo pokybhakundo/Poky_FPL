@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:30:25.117030+00:00",
+  "generated_at": "2026-11-21T12:35:19.166861+00:00",
   "form": {
     "gws": [
       6,
@@ -653,6 +653,21 @@
       ]
     },
     {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
+        }
+      ]
+    },
+    {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -674,21 +689,6 @@
         },
         {
           "name": "3xc",
-          "gw": 7
-        }
-      ]
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
           "gw": 7
         }
       ]
@@ -1310,6 +1310,30 @@
       ]
     },
     {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "starters": [
+        "Raya",
+        "Gu\u00e9hi",
+        "Calafiori",
+        "Vuskovic",
+        "Tavernier",
+        "Gro\u00df",
+        "McGinn",
+        "\u00d8degaard",
+        "N.Jackson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Dubravka",
+        "Mbeumo",
+        "Egan",
+        "Davis"
+      ]
+    },
+    {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
       "manager": "Aayush Palikhel",
@@ -1355,30 +1379,6 @@
         "M.Sangar\u00e9",
         "Gvardiol",
         "Belloumi"
-      ]
-    },
-    {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "starters": [
-        "Raya",
-        "Gu\u00e9hi",
-        "Calafiori",
-        "Vuskovic",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "\u00d8degaard",
-        "N.Jackson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Dubravka",
-        "Mbeumo",
-        "Egan",
-        "Davis"
       ]
     },
     {
@@ -1608,7 +1608,7 @@
         "manager": "Biraj Shakya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 33334,
@@ -1616,7 +1616,7 @@
         "manager": "Swapnil Tiwari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2310055,
@@ -1624,7 +1624,7 @@
         "manager": "Sabin Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3309536,
@@ -1632,7 +1632,7 @@
         "manager": "Anil Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1843084,
@@ -1640,7 +1640,7 @@
         "manager": "Prashant Guragai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 464574,
@@ -1648,7 +1648,7 @@
         "manager": "Mohan S Madai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1575639,
@@ -1656,7 +1656,7 @@
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 4122498,
@@ -1664,7 +1664,7 @@
         "manager": "Rosham Sharma",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3769764,
@@ -1672,7 +1672,7 @@
         "manager": "Rikesh Puri",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1913463,
@@ -1680,7 +1680,7 @@
         "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 36783,
@@ -1688,7 +1688,7 @@
         "manager": "Bishal Neupane",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 75325,
@@ -1696,7 +1696,7 @@
         "manager": "Kaushal Raj Ghimire",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1664566,
@@ -1704,7 +1704,7 @@
         "manager": "Karna Karki",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2253554,
@@ -1712,7 +1712,7 @@
         "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1548786,
@@ -1720,7 +1720,7 @@
         "manager": "Samir Gyawali",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 395170,
@@ -1728,7 +1728,7 @@
         "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1595343,
@@ -1736,7 +1736,7 @@
         "manager": "Ankit Bhaukajee",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 254926,
@@ -1744,7 +1744,7 @@
         "manager": "Mahesh Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 969893,
@@ -1776,7 +1776,15 @@
         "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
+      },
+      {
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 1
       },
       {
         "entry_id": 2017811,
@@ -1792,15 +1800,7 @@
         "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
-      },
-      {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 500535,
@@ -1808,7 +1808,7 @@
         "manager": "Akash Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 4048482,
@@ -1816,7 +1816,7 @@
         "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 165293,
@@ -1824,7 +1824,7 @@
         "manager": "Arjun Prasai",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1966921,
@@ -1832,7 +1832,7 @@
         "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2798038,
@@ -1856,7 +1856,7 @@
         "manager": "Rajiv Bhandari",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 2435657,
@@ -1864,7 +1864,7 @@
         "manager": "Rajendra Shrestha",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 3479050,
@@ -1872,14 +1872,14 @@
         "manager": "Prasis Timilsena",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
+        "points": 1
       }
     ],
     "summary": [
       {
         "player_name": "Haaland",
         "count": 28,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "Palmer",
