@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-21T10:55:18.267179+00:00",
-  "next_deadline": "2026-11-21T11:00:00Z",
-  "current_gw": 10,
-  "current_gw_finalized": true,
+  "generated_at": "2026-11-21T11:40:25.120425+00:00",
+  "next_deadline": "2026-11-27T18:30:00Z",
+  "current_gw": 11,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
@@ -15,7 +15,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "manager_of_the_week": [
     {
@@ -147,6 +148,13 @@
           "manager": "Akash Shrestha"
         }
       ]
+    },
+    {
+      "gw": 11,
+      "points": 0,
+      "shared": false,
+      "provisional": true,
+      "winners": []
     }
   ],
   "manager_of_the_month": [
@@ -212,9 +220,10 @@
       "label": "November",
       "points": 87,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
-        10
+        10,
+        11
       ],
       "winners": [
         {
