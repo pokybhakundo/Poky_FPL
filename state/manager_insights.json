@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:05:17.635481+00:00",
+  "generated_at": "2026-11-22T14:10:18.396326+00:00",
   "form": {
     "gws": [
       6,
@@ -442,6 +442,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -472,17 +483,6 @@
         {
           "name": "wildcard",
           "gw": 4
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
         }
       ]
     },
@@ -585,21 +585,6 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -611,6 +596,21 @@
         {
           "name": "3xc",
           "gw": 4
+        }
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
         }
       ]
     },
@@ -720,21 +720,6 @@
       ]
     },
     {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -754,6 +739,21 @@
         {
           "name": "3xc",
           "gw": 7
+        }
+      ]
+    },
+    {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 9
         }
       ]
     },
@@ -974,6 +974,30 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "De Cuyper",
+        "Vuskovic",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Haaland",
+        "N.Jackson",
+        "Barry"
+      ],
+      "bench": [
+        "Kinsky",
+        "Hill",
+        "Belloumi",
+        "Diop"
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -1019,30 +1043,6 @@
         "Muharemovi\u0107",
         "Gomez",
         "Thiaw"
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "De Cuyper",
-        "Vuskovic",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Haaland",
-        "N.Jackson",
-        "Barry"
-      ],
-      "bench": [
-        "Kinsky",
-        "Hill",
-        "Belloumi",
-        "Diop"
       ]
     },
     {
@@ -1190,30 +1190,6 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Konsa",
-        "Van Hecke",
-        "Manzambi",
-        "Rogers",
-        "Palmer",
-        "Cunha",
-        "Evanilson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Steele",
-        "Hall",
-        "Davis",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 2253554,
       "team_name": "Soraaa",
       "manager": "Subigya Shah",
@@ -1235,6 +1211,30 @@
         "Belloumi",
         "Kayode",
         "Ajayi"
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Konsa",
+        "Van Hecke",
+        "Manzambi",
+        "Rogers",
+        "Palmer",
+        "Cunha",
+        "Evanilson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Steele",
+        "Hall",
+        "Davis",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1454,30 +1454,6 @@
       ]
     },
     {
-      "entry_id": 1955412,
-      "team_name": "MAGA",
-      "manager": "MESSI GOAT",
-      "starters": [
-        "Suzuki",
-        "Calafiori",
-        "Silva",
-        "Van Hecke",
-        "Manzambi",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Palmer",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Evanilson",
-        "Lewis",
-        "Konsa"
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -1499,6 +1475,30 @@
         "Konsa",
         "Mbeumo",
         "Muharemovi\u0107"
+      ]
+    },
+    {
+      "entry_id": 1955412,
+      "team_name": "MAGA",
+      "manager": "MESSI GOAT",
+      "starters": [
+        "Suzuki",
+        "Calafiori",
+        "Silva",
+        "Van Hecke",
+        "Manzambi",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Palmer",
+        "N.Jackson",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Evanilson",
+        "Lewis",
+        "Konsa"
       ]
     },
     {
@@ -1667,6 +1667,14 @@
         "points": 2
       },
       {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 2
+      },
+      {
         "entry_id": 4122498,
         "team_name": "The Dawgsss",
         "manager": "Rosham Sharma",
@@ -1678,14 +1686,6 @@
         "entry_id": 75325,
         "team_name": "CuledBarca",
         "manager": "Kaushal Raj Ghimire",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 2
-      },
-      {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1739,17 +1739,17 @@
         "points": 2
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
@@ -1827,19 +1827,19 @@
         "points": 2
       },
       {
-        "entry_id": 1955412,
-        "team_name": "MAGA",
-        "manager": "MESSI GOAT",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 2
-      },
-      {
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
         "element_id": 411,
         "player_name": "Haaland",
+        "points": 2
+      },
+      {
+        "entry_id": 1955412,
+        "team_name": "MAGA",
+        "manager": "MESSI GOAT",
+        "element_id": 154,
+        "player_name": "Palmer",
         "points": 2
       },
       {
