@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-22T17:55:19.526720+00:00",
+  "generated_at": "2026-11-22T18:00:34.346448+00:00",
   "classic": [
     {
       "rank": 1,
@@ -252,19 +252,19 @@
     },
     {
       "rank": 32,
+      "entry_id": 558137,
+      "team_name": "Morethrillesschill11",
+      "manager": "Rajiv Bhandari",
+      "gw_points": 26,
+      "total_points": 578
+    },
+    {
+      "rank": 33,
       "entry_id": 2435657,
       "team_name": "HawaHawai",
       "manager": "Rajendra Shrestha",
       "gw_points": 27,
       "total_points": 576
-    },
-    {
-      "rank": 33,
-      "entry_id": 558137,
-      "team_name": "Morethrillesschill11",
-      "manager": "Rajiv Bhandari",
-      "gw_points": 23,
-      "total_points": 575
     },
     {
       "rank": 34,
