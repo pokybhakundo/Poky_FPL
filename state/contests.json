@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-22T17:50:20.432964+00:00",
+  "generated_at": "2026-11-22T17:55:16.364977+00:00",
   "next_deadline": "2026-11-27T18:30:00Z",
   "current_gw": 11,
   "current_gw_finalized": false,
@@ -151,14 +151,14 @@
     },
     {
       "gw": 11,
-      "points": 48,
+      "points": 49,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 228817,
-          "team_name": "4toothee1",
-          "manager": "shakti karki"
+          "entry_id": 2017811,
+          "team_name": "HeavyMetal Areola",
+          "manager": "Aayush Palikhel"
         }
       ]
     }
@@ -224,7 +224,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 117,
+      "points": 118,
       "shared": false,
       "provisional": true,
       "gameweeks": [
