@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-22T14:15:20.293038+00:00",
+  "generated_at": "2026-11-22T14:20:19.944339+00:00",
   "classic": [
     {
       "rank": 1,
@@ -68,18 +68,18 @@
     },
     {
       "rank": 9,
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "gw_points": 31,
-      "total_points": 672
-    },
-    {
-      "rank": 9,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
       "gw_points": 24,
+      "total_points": 672
+    },
+    {
+      "rank": 9,
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "gw_points": 31,
       "total_points": 672
     },
     {
