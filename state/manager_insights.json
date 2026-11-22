@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:00:31.180379+00:00",
+  "generated_at": "2026-11-22T14:05:17.635481+00:00",
   "form": {
     "gws": [
       6,
@@ -1712,7 +1712,7 @@
         "manager": "shakti karki",
         "element_id": 124,
         "player_name": "Gro\u00df",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 969893,
@@ -1889,7 +1889,7 @@
       {
         "player_name": "Gro\u00df",
         "count": 1,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "N.Jackson",
