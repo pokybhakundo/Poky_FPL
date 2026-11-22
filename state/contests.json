@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-22T15:55:15.902565+00:00",
+  "generated_at": "2026-11-22T16:00:25.233316+00:00",
   "next_deadline": "2026-11-27T18:30:00Z",
   "current_gw": 11,
   "current_gw_finalized": false,
@@ -151,14 +151,14 @@
     },
     {
       "gw": 11,
-      "points": 57,
+      "points": 48,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 969893,
-          "team_name": "Team Utthan",
-          "manager": "Anit Yadav"
+          "entry_id": 228817,
+          "team_name": "4toothee1",
+          "manager": "shakti karki"
         }
       ]
     }
@@ -224,7 +224,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 129,
+      "points": 116,
       "shared": false,
       "provisional": true,
       "gameweeks": [
