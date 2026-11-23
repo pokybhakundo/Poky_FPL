@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-23T21:25:21.043905+00:00",
+  "generated_at": "2026-11-23T21:30:23.285394+00:00",
   "classic": [
     {
       "rank": 1,
@@ -39,8 +39,8 @@
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 32,
-      "total_points": 688
+      "gw_points": 33,
+      "total_points": 689
     },
     {
       "rank": 6,
@@ -71,16 +71,16 @@
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
-      "gw_points": 34,
-      "total_points": 675
+      "gw_points": 35,
+      "total_points": 676
     },
     {
       "rank": 10,
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
-      "gw_points": 26,
-      "total_points": 674
+      "gw_points": 27,
+      "total_points": 675
     },
     {
       "rank": 11,
@@ -191,31 +191,31 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 32,
-      "total_points": 623
+      "gw_points": 33,
+      "total_points": 624
     },
     {
       "rank": 25,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 20,
-      "total_points": 617
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 33,
+      "total_points": 622
     },
     {
       "rank": 26,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 22,
-      "total_points": 617
+      "gw_points": 23,
+      "total_points": 618
     },
     {
       "rank": 27,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 28,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 20,
       "total_points": 617
     },
     {
@@ -231,8 +231,8 @@
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 29,
-      "total_points": 609
+      "gw_points": 30,
+      "total_points": 610
     },
     {
       "rank": 30,
