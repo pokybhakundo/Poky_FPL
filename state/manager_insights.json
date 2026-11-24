@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:50:30.788528+00:00",
+  "generated_at": "2026-11-24T10:55:32.369373+00:00",
   "form": {
     "gws": [
       6,
@@ -1245,18 +1245,18 @@
         "Kinsky",
         "De Cuyper",
         "Calafiori",
-        "Egan",
         "Van Hecke",
+        "Schade",
         "Rogers",
         "Palmer",
         "Gro\u00df",
-        "Gonzalo",
+        "N.Jackson",
         "Haaland",
-        "N.Jackson"
+        "Gonzalo"
       ],
       "bench": [
         "Raya",
-        "Schade",
+        "Egan",
         "Muharemovi\u0107",
         "M.Sangar\u00e9"
       ]
@@ -1394,13 +1394,13 @@
         "B.Fernandes",
         "Gro\u00df",
         "Slater",
-        "Jo\u00e3o Pedro",
+        "Gomez",
         "Haaland",
         "Delap"
       ],
       "bench": [
         "Palmer",
-        "Gomez",
+        "Jo\u00e3o Pedro",
         "Gu\u00e9hi",
         "van Ewijk"
       ]
@@ -1507,22 +1507,22 @@
       "manager": "Abhishek Jaiswal",
       "starters": [
         "Verbruggen",
+        "Maguire",
         "Bogle",
         "Gvardiol",
-        "Egan",
-        "Mbeumo",
+        "Calafiori",
+        "\u00d8degaard",
         "Rogers",
+        "Mbeumo",
         "Tavernier",
-        "Gakpo",
-        "Calvert-Lewin",
         "Haaland",
-        "Jo\u00e3o Pedro"
+        "Calvert-Lewin"
       ],
       "bench": [
         "Kinsky",
-        "\u00d8degaard",
-        "Maguire",
-        "Calafiori"
+        "Gakpo",
+        "Egan",
+        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -1531,21 +1531,21 @@
       "manager": "Rajiv Bhandari",
       "starters": [
         "Kinsky",
-        "De Cuyper",
-        "Van de Ven",
         "N.Williams",
+        "Hume",
+        "De Cuyper",
         "Rayan",
-        "Kudus",
-        "Barcola",
         "Cherki",
-        "Jo\u00e3o Pedro",
-        "N.Jackson",
-        "Haaland"
+        "Barcola",
+        "Kudus",
+        "Belloumi",
+        "Haaland",
+        "N.Jackson"
       ],
       "bench": [
         "Leno",
-        "Belloumi",
-        "Hume",
+        "Jo\u00e3o Pedro",
+        "Van de Ven",
         "Dedi\u0107"
       ]
     },
@@ -1584,15 +1584,15 @@
         "Calafiori",
         "Rogers",
         "Palmer",
-        "Cherki",
-        "Gro\u00df",
         "Cunha",
-        "Jo\u00e3o Pedro",
+        "Gro\u00df",
+        "Cherki",
+        "Delap",
         "Haaland"
       ],
       "bench": [
         "Austin",
-        "Delap",
+        "Jo\u00e3o Pedro",
         "van Ewijk",
         "Ajayi"
       ]
