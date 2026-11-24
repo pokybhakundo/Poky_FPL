@@ -1,6 +1,6 @@
 {
   "gw": 11,
-  "generated_at": "2026-11-24T10:35:15.946438+00:00",
+  "generated_at": "2026-11-24T10:40:20.933716+00:00",
   "classic": [
     {
       "rank": 1,
@@ -159,8 +159,8 @@
       "entry_id": 1595343,
       "team_name": "Janta Tanna Chahncha",
       "manager": "Ankit Bhaukajee",
-      "gw_points": 33,
-      "total_points": 656
+      "gw_points": 34,
+      "total_points": 657
     },
     {
       "rank": 21,
@@ -204,19 +204,19 @@
     },
     {
       "rank": 26,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 23,
+      "total_points": 620
+    },
+    {
+      "rank": 27,
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
       "gw_points": 23,
       "total_points": 618
-    },
-    {
-      "rank": 27,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 20,
-      "total_points": 617
     },
     {
       "rank": 28,
@@ -247,16 +247,16 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 37,
-      "total_points": 597
+      "gw_points": 46,
+      "total_points": 606
     },
     {
       "rank": 32,
       "entry_id": 558137,
       "team_name": "Morethrillesschill11",
       "manager": "Rajiv Bhandari",
-      "gw_points": 26,
-      "total_points": 578
+      "gw_points": 38,
+      "total_points": 590
     },
     {
       "rank": 33,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 31,
-      "total_points": 574
+      "gw_points": 32,
+      "total_points": 575
     }
   ],
   "h2h": [

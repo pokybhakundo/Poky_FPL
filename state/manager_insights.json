@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:35:15.605071+00:00",
+  "generated_at": "2026-11-24T10:40:20.530363+00:00",
   "form": {
     "gws": [
       6,
@@ -1382,30 +1382,6 @@
       ]
     },
     {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "starters": [
-        "Raya",
-        "De Cuyper",
-        "Hall",
-        "Konsa",
-        "Calafiori",
-        "Mbeumo",
-        "Gro\u00df",
-        "Rogers",
-        "N.Jackson",
-        "Haaland",
-        "Barry"
-      ],
-      "bench": [
-        "Dubravka",
-        "M.Sangar\u00e9",
-        "Gvardiol",
-        "Belloumi"
-      ]
-    },
-    {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -1427,6 +1403,30 @@
         "Gomez",
         "Gu\u00e9hi",
         "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "starters": [
+        "Raya",
+        "De Cuyper",
+        "Hall",
+        "Konsa",
+        "Calafiori",
+        "Mbeumo",
+        "Gro\u00df",
+        "Rogers",
+        "N.Jackson",
+        "Haaland",
+        "Barry"
+      ],
+      "bench": [
+        "Dubravka",
+        "M.Sangar\u00e9",
+        "Gvardiol",
+        "Belloumi"
       ]
     },
     {
@@ -1803,17 +1803,17 @@
         "points": 2
       },
       {
-        "entry_id": 2659214,
-        "team_name": "Yoro Wizard Harry",
-        "manager": "Aayush Jha",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 2659214,
+        "team_name": "Yoro Wizard Harry",
+        "manager": "Aayush Jha",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 2

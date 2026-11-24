@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:35:14.616639+00:00",
+  "generated_at": "2026-11-24T10:40:18.291085+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -1215,23 +1215,6 @@
         }
       ]
     },
-    "2659214": {
-      "entry_id": 2659214,
-      "team_name": "Yoro Wizard Harry",
-      "manager": "Aayush Jha",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2211,
-          "rank": 785696
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2297,
-          "rank": 1545990
-        }
-      ]
-    },
     "5917809": {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
@@ -1276,6 +1259,23 @@
           "season_name": "2017/18",
           "total_points": 1921,
           "rank": 1836480
+        }
+      ]
+    },
+    "2659214": {
+      "entry_id": 2659214,
+      "team_name": "Yoro Wizard Harry",
+      "manager": "Aayush Jha",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2211,
+          "rank": 785696
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2297,
+          "rank": 1545990
         }
       ]
     },
