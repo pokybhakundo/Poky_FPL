@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-27T20:00:26.523234+00:00",
+  "generated_at": "2026-11-27T20:05:23.256034+00:00",
   "next_deadline": "2026-12-01T18:30:00Z",
   "current_gw": 12,
   "current_gw_finalized": false,
@@ -165,10 +165,16 @@
     },
     {
       "gw": 12,
-      "points": 0,
+      "points": 4,
       "shared": false,
       "provisional": true,
-      "winners": []
+      "winners": [
+        {
+          "entry_id": 4122498,
+          "team_name": "The Dawgsss",
+          "manager": "Rosham Sharma"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -232,7 +238,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 120,
+      "points": 121,
       "shared": false,
       "provisional": true,
       "gameweeks": [
