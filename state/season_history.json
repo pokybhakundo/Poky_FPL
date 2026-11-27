@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:10:22.207766+00:00",
+  "generated_at": "2026-11-27T21:15:21.838516+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -382,6 +382,38 @@
         }
       ]
     },
+    "1913463": {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1896,
+          "rank": 5984966
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2242,
+          "rank": 2250336
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2277,
+          "rank": 1262608
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2383,
+          "rank": 776057
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 2112,
+          "rank": 1826181
+        }
+      ]
+    },
     "4122498": {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
@@ -426,38 +458,6 @@
           "season_name": "2018/19",
           "total_points": 1895,
           "rank": 3150399
-        }
-      ]
-    },
-    "1913463": {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1896,
-          "rank": 5984966
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2242,
-          "rank": 2250336
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2277,
-          "rank": 1262608
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2383,
-          "rank": 776057
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 2112,
-          "rank": 1826181
         }
       ]
     },
@@ -945,6 +945,48 @@
         }
       ]
     },
+    "1845615": {
+      "entry_id": 1845615,
+      "team_name": "Kylian Dictator",
+      "manager": "Rakesh Itani",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1748,
+          "rank": 8434964
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2413,
+          "rank": 490094
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2175,
+          "rank": 2519330
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2293,
+          "rank": 1600584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1798,
+          "rank": 4822541
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1601,
+          "rank": 5978877
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 444,
+          "rank": 7478823
+        }
+      ]
+    },
     "2017811": {
       "entry_id": 2017811,
       "team_name": "HeavyMetal Areola",
@@ -1022,48 +1064,6 @@
         }
       ]
     },
-    "1845615": {
-      "entry_id": 1845615,
-      "team_name": "Kylian Dictator",
-      "manager": "Rakesh Itani",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1748,
-          "rank": 8434964
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2413,
-          "rank": 490094
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2175,
-          "rank": 2519330
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2293,
-          "rank": 1600584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1798,
-          "rank": 4822541
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1601,
-          "rank": 5978877
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 444,
-          "rank": 7478823
-        }
-      ]
-    },
     "2546180": {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
@@ -1136,6 +1136,53 @@
         }
       ]
     },
+    "5917809": {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 1772,
+          "rank": 8077899
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 1870,
+          "rank": 6362442
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2205,
+          "rank": 2631584
+        },
+        {
+          "season_name": "2021/22",
+          "total_points": 1919,
+          "rank": 3575952
+        },
+        {
+          "season_name": "2020/21",
+          "total_points": 1814,
+          "rank": 4371524
+        },
+        {
+          "season_name": "2019/20",
+          "total_points": 2041,
+          "rank": 1453200
+        },
+        {
+          "season_name": "2018/19",
+          "total_points": 1981,
+          "rank": 2113798
+        },
+        {
+          "season_name": "2017/18",
+          "total_points": 1921,
+          "rank": 1836480
+        }
+      ]
+    },
     "500535": {
       "entry_id": 500535,
       "team_name": "Jhol Momo",
@@ -1185,53 +1232,6 @@
           "season_name": "2016/17",
           "total_points": 690,
           "rank": 4334534
-        }
-      ]
-    },
-    "5917809": {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 1772,
-          "rank": 8077899
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 1870,
-          "rank": 6362442
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2205,
-          "rank": 2631584
-        },
-        {
-          "season_name": "2021/22",
-          "total_points": 1919,
-          "rank": 3575952
-        },
-        {
-          "season_name": "2020/21",
-          "total_points": 1814,
-          "rank": 4371524
-        },
-        {
-          "season_name": "2019/20",
-          "total_points": 2041,
-          "rank": 1453200
-        },
-        {
-          "season_name": "2018/19",
-          "total_points": 1981,
-          "rank": 2113798
-        },
-        {
-          "season_name": "2017/18",
-          "total_points": 1921,
-          "rank": 1836480
         }
       ]
     },

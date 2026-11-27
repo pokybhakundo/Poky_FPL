@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-27T21:10:22.207267+00:00",
+  "generated_at": "2026-11-27T21:15:21.837933+00:00",
   "next_deadline": "2026-12-01T18:30:00Z",
   "current_gw": 12,
   "current_gw_finalized": false,
@@ -165,14 +165,14 @@
     },
     {
       "gw": 12,
-      "points": 4,
+      "points": 6,
       "shared": false,
       "provisional": true,
       "winners": [
         {
-          "entry_id": 4122498,
-          "team_name": "The Dawgsss",
-          "manager": "Rosham Sharma"
+          "entry_id": 1845615,
+          "team_name": "Kylian Dictator",
+          "manager": "Rakesh Itani"
         }
       ]
     }

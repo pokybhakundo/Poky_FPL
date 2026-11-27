@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:10:26.619801+00:00",
+  "generated_at": "2026-11-27T21:15:24.911077+00:00",
   "form": {
     "gws": [
       7,
@@ -434,6 +434,17 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 9
+        }
+      ]
+    },
+    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -448,17 +459,6 @@
         },
         {
           "name": "freehit",
-          "gw": 9
-        }
-      ]
-    },
-    {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -622,17 +622,6 @@
       ]
     },
     {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        }
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -652,6 +641,17 @@
         {
           "name": "freehit",
           "gw": 5
+        }
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
         }
       ]
     },
@@ -966,30 +966,6 @@
       ]
     },
     {
-      "entry_id": 4122498,
-      "team_name": "The Dawgsss",
-      "manager": "Rosham Sharma",
-      "starters": [
-        "Martinez",
-        "Muharemovi\u0107",
-        "Gabriel",
-        "De Cuyper",
-        "Tavernier",
-        "Palmer",
-        "Rogers",
-        "Cherki",
-        "Barry",
-        "Haaland",
-        "Kostoulas"
-      ],
-      "bench": [
-        "Zetterer",
-        "Slater",
-        "Konsa",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 1913463,
       "team_name": "nkzzz_21",
       "manager": "Nischal Koirala",
@@ -1011,6 +987,30 @@
         "N.Jackson",
         "Barry",
         "Diop"
+      ]
+    },
+    {
+      "entry_id": 4122498,
+      "team_name": "The Dawgsss",
+      "manager": "Rosham Sharma",
+      "starters": [
+        "Martinez",
+        "Muharemovi\u0107",
+        "Gabriel",
+        "De Cuyper",
+        "Tavernier",
+        "Palmer",
+        "Rogers",
+        "Cherki",
+        "Barry",
+        "Haaland",
+        "Kostoulas"
+      ],
+      "bench": [
+        "Zetterer",
+        "Slater",
+        "Konsa",
+        "Davis"
       ]
     },
     {
@@ -1254,30 +1254,6 @@
       ]
     },
     {
-      "entry_id": 2017811,
-      "team_name": "HeavyMetal Areola",
-      "manager": "Aayush Palikhel",
-      "starters": [
-        "Roefs",
-        "Calafiori",
-        "De Cuyper",
-        "Justin",
-        "Palmer",
-        "Rice",
-        "Tavernier",
-        "Gro\u00df",
-        "Isak",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "Neto",
-        "Davis",
-        "van Ewijk"
-      ]
-    },
-    {
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
@@ -1299,6 +1275,30 @@
         "Gvardiol",
         "Barnes",
         "Mykolenko"
+      ]
+    },
+    {
+      "entry_id": 2017811,
+      "team_name": "HeavyMetal Areola",
+      "manager": "Aayush Palikhel",
+      "starters": [
+        "Roefs",
+        "Calafiori",
+        "De Cuyper",
+        "Justin",
+        "Palmer",
+        "Rice",
+        "Tavernier",
+        "Gro\u00df",
+        "Isak",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Palmer",
+        "Neto",
+        "Davis",
+        "van Ewijk"
       ]
     },
     {
@@ -1326,30 +1326,6 @@
       ]
     },
     {
-      "entry_id": 500535,
-      "team_name": "Jhol Momo",
-      "manager": "Akash Shrestha",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Bogle",
-        "Calafiori",
-        "B.Fernandes",
-        "Manzambi",
-        "\u00d8degaard",
-        "Rogers",
-        "Belloumi",
-        "Barry",
-        "Evanilson"
-      ],
-      "bench": [
-        "Tzolakis",
-        "Haaland",
-        "Egan",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -1371,6 +1347,30 @@
         "Gomez",
         "Gu\u00e9hi",
         "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 500535,
+      "team_name": "Jhol Momo",
+      "manager": "Akash Shrestha",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Bogle",
+        "Calafiori",
+        "B.Fernandes",
+        "Manzambi",
+        "\u00d8degaard",
+        "Rogers",
+        "Belloumi",
+        "Barry",
+        "Evanilson"
+      ],
+      "bench": [
+        "Tzolakis",
+        "Haaland",
+        "Egan",
+        "Thomas"
       ]
     },
     {
@@ -1659,20 +1659,20 @@
         "points": 0
       },
       {
-        "entry_id": 4122498,
-        "team_name": "The Dawgsss",
-        "manager": "Rosham Sharma",
-        "element_id": 154,
-        "player_name": "Palmer",
-        "points": 1
-      },
-      {
         "entry_id": 1913463,
         "team_name": "nkzzz_21",
         "manager": "Nischal Koirala",
         "element_id": 379,
         "player_name": "Isak",
         "points": 0
+      },
+      {
+        "entry_id": 4122498,
+        "team_name": "The Dawgsss",
+        "manager": "Rosham Sharma",
+        "element_id": 154,
+        "player_name": "Palmer",
+        "points": 1
       },
       {
         "entry_id": 36783,
@@ -1755,19 +1755,19 @@
         "points": 0
       },
       {
-        "entry_id": 2017811,
-        "team_name": "HeavyMetal Areola",
-        "manager": "Aayush Palikhel",
-        "element_id": 79,
-        "player_name": "Evanilson",
-        "points": 0
-      },
-      {
         "entry_id": 1845615,
         "team_name": "Kylian Dictator",
         "manager": "Rakesh Itani",
         "element_id": 166,
         "player_name": "N.Jackson",
+        "points": 0
+      },
+      {
+        "entry_id": 2017811,
+        "team_name": "HeavyMetal Areola",
+        "manager": "Aayush Palikhel",
+        "element_id": 79,
+        "player_name": "Evanilson",
         "points": 0
       },
       {
@@ -1779,19 +1779,19 @@
         "points": 0
       },
       {
-        "entry_id": 500535,
-        "team_name": "Jhol Momo",
-        "manager": "Akash Shrestha",
-        "element_id": 426,
-        "player_name": "B.Fernandes",
-        "points": 0
-      },
-      {
         "entry_id": 5917809,
         "team_name": "Sanjeev's Team",
         "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
+        "points": 0
+      },
+      {
+        "entry_id": 500535,
+        "team_name": "Jhol Momo",
+        "manager": "Akash Shrestha",
+        "element_id": 426,
+        "player_name": "B.Fernandes",
         "points": 0
       },
       {
