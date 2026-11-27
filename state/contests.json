@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-27T21:25:15.645878+00:00",
+  "generated_at": "2026-11-27T21:30:24.895617+00:00",
   "next_deadline": "2026-12-01T18:30:00Z",
   "current_gw": 12,
   "current_gw_finalized": false,
@@ -170,9 +170,9 @@
       "provisional": true,
       "winners": [
         {
-          "entry_id": 5917809,
-          "team_name": "Sanjeev's Team",
-          "manager": "Sanjeev Niroula"
+          "entry_id": 1845615,
+          "team_name": "Kylian Dictator",
+          "manager": "Rakesh Itani"
         }
       ]
     }
