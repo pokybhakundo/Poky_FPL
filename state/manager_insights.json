@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:30:30.791042+00:00",
+  "generated_at": "2026-11-27T21:35:17.712726+00:00",
   "form": {
     "gws": [
       7,
@@ -1302,30 +1302,6 @@
       ]
     },
     {
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "starters": [
-        "Raya",
-        "Calafiori",
-        "Mitchell",
-        "Davis",
-        "Palmer",
-        "B.Fernandes",
-        "Gro\u00df",
-        "Slater",
-        "Jo\u00e3o Pedro",
-        "Haaland",
-        "Delap"
-      ],
-      "bench": [
-        "Palmer",
-        "Gomez",
-        "Gu\u00e9hi",
-        "van Ewijk"
-      ]
-    },
-    {
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
@@ -1347,6 +1323,30 @@
         "McGinn",
         "Gu\u00e9hi",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "starters": [
+        "Raya",
+        "Calafiori",
+        "Mitchell",
+        "Davis",
+        "Palmer",
+        "B.Fernandes",
+        "Gro\u00df",
+        "Slater",
+        "Jo\u00e3o Pedro",
+        "Haaland",
+        "Delap"
+      ],
+      "bench": [
+        "Palmer",
+        "Gomez",
+        "Gu\u00e9hi",
+        "van Ewijk"
       ]
     },
     {
@@ -1771,17 +1771,17 @@
         "points": 0
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0

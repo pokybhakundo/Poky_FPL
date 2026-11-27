@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-27T21:30:31.321498+00:00",
+  "generated_at": "2026-11-27T21:35:18.125053+00:00",
   "classic": [
     {
       "rank": 1,
@@ -163,12 +163,12 @@
       "total_points": 659
     },
     {
-      "rank": 21,
+      "rank": 20,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 8,
-      "total_points": 652
+      "gw_points": 15,
+      "total_points": 659
     },
     {
       "rank": 22,
@@ -180,19 +180,19 @@
     },
     {
       "rank": 23,
-      "entry_id": 5917809,
-      "team_name": "Sanjeev's Team",
-      "manager": "Sanjeev Niroula",
-      "gw_points": 8,
-      "total_points": 628
-    },
-    {
-      "rank": 24,
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
       "gw_points": 0,
       "total_points": 628
+    },
+    {
+      "rank": 24,
+      "entry_id": 5917809,
+      "team_name": "Sanjeev's Team",
+      "manager": "Sanjeev Niroula",
+      "gw_points": 7,
+      "total_points": 627
     },
     {
       "rank": 25,
