@@ -1,10 +1,10 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-27T18:25:23.855842+00:00",
-  "next_deadline": "2026-11-27T18:30:00Z",
-  "current_gw": 11,
-  "current_gw_finalized": true,
+  "generated_at": "2026-11-27T19:10:22.109134+00:00",
+  "next_deadline": "2026-12-01T18:30:00Z",
+  "current_gw": 12,
+  "current_gw_finalized": false,
   "updated_from_gws": [
     1,
     2,
@@ -16,7 +16,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "manager_of_the_week": [
     {
@@ -161,6 +162,19 @@
           "manager": "Aayush Palikhel"
         }
       ]
+    },
+    {
+      "gw": 12,
+      "points": 49,
+      "shared": false,
+      "provisional": true,
+      "winners": [
+        {
+          "entry_id": 2017811,
+          "team_name": "HeavyMetal Areola",
+          "manager": "Aayush Palikhel"
+        }
+      ]
     }
   ],
   "manager_of_the_month": [
@@ -224,18 +238,19 @@
     {
       "month": "November",
       "label": "November",
-      "points": 120,
+      "points": 155,
       "shared": false,
-      "provisional": false,
+      "provisional": true,
       "gameweeks": [
         10,
-        11
+        11,
+        12
       ],
       "winners": [
         {
-          "entry_id": 500535,
-          "team_name": "Jhol Momo",
-          "manager": "Akash Shrestha"
+          "entry_id": 228817,
+          "team_name": "4toothee1",
+          "manager": "shakti karki"
         }
       ]
     }
