@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:10:29.518595+00:00",
+  "generated_at": "2026-11-27T19:15:21.466914+00:00",
   "form": {
     "gws": [
       7,
@@ -697,21 +697,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "chips": [
-        {
-          "name": "freehit",
-          "gw": 4
-        },
-        {
-          "name": "wildcard",
-          "gw": 7
-        }
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -746,6 +731,21 @@
         {
           "name": "wildcard",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "chips": [
+        {
+          "name": "freehit",
+          "gw": 4
+        },
+        {
+          "name": "wildcard",
+          "gw": 7
         }
       ]
     },
@@ -1422,30 +1422,6 @@
       ]
     },
     {
-      "entry_id": 165293,
-      "team_name": "Power",
-      "manager": "Arjun Prasai",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "De Cuyper",
-        "Pedro Porro",
-        "Mbeumo",
-        "Gro\u00df",
-        "Rogers",
-        "Szoboszlai",
-        "Haaland",
-        "N.Jackson",
-        "Isak"
-      ],
-      "bench": [
-        "Kinsky",
-        "Rudoni",
-        "Thomas",
-        "Coyle"
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -1515,6 +1491,30 @@
         "\u00d8degaard",
         "Maguire",
         "Calafiori"
+      ]
+    },
+    {
+      "entry_id": 165293,
+      "team_name": "Power",
+      "manager": "Arjun Prasai",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "De Cuyper",
+        "Pedro Porro",
+        "Mbeumo",
+        "Gro\u00df",
+        "Rogers",
+        "Szoboszlai",
+        "Haaland",
+        "N.Jackson",
+        "Isak"
+      ],
+      "bench": [
+        "Kinsky",
+        "Rudoni",
+        "Thomas",
+        "Coyle"
       ]
     },
     {
@@ -1811,14 +1811,6 @@
         "points": 0
       },
       {
-        "entry_id": 165293,
-        "team_name": "Power",
-        "manager": "Arjun Prasai",
-        "element_id": 427,
-        "player_name": "Mbeumo",
-        "points": 0
-      },
-      {
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
@@ -1840,6 +1832,14 @@
         "manager": "Abhishek Jaiswal",
         "element_id": 40,
         "player_name": "Rogers",
+        "points": 0
+      },
+      {
+        "entry_id": 165293,
+        "team_name": "Power",
+        "manager": "Arjun Prasai",
+        "element_id": 427,
+        "player_name": "Mbeumo",
         "points": 0
       },
       {
