@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-27T21:45:21.640241+00:00",
+  "generated_at": "2026-11-27T21:50:19.536945+00:00",
   "classic": [
     {
       "rank": 1,
@@ -163,12 +163,12 @@
       "total_points": 659
     },
     {
-      "rank": 20,
+      "rank": 21,
       "entry_id": 1845615,
       "team_name": "Kylian Dictator",
       "manager": "Rakesh Itani",
-      "gw_points": 15,
-      "total_points": 659
+      "gw_points": 14,
+      "total_points": 658
     },
     {
       "rank": 22,
