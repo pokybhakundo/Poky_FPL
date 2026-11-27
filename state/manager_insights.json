@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:15:24.911077+00:00",
+  "generated_at": "2026-11-27T21:20:28.077891+00:00",
   "form": {
     "gws": [
       7,
@@ -434,17 +434,6 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 9
-        }
-      ]
-    },
-    {
       "entry_id": 4122498,
       "team_name": "The Dawgsss",
       "manager": "Rosham Sharma",
@@ -459,6 +448,17 @@
         },
         {
           "name": "freehit",
+          "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "chips": [
+        {
+          "name": "wildcard",
           "gw": 9
         }
       ]
@@ -483,21 +483,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -513,6 +498,21 @@
         {
           "name": "wildcard",
           "gw": 6
+        }
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
         }
       ]
     },
@@ -918,30 +918,6 @@
       ]
     },
     {
-      "entry_id": 464574,
-      "team_name": "The Carrick Masters",
-      "manager": "Mohan S Madai",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Van Hecke",
-        "De Cuyper",
-        "B.Fernandes",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "McGinn",
-        "N.Jackson",
-        "Haaland"
-      ],
-      "bench": [
-        "Palmer",
-        "Gonzalo",
-        "Affengruber",
-        "Thomas"
-      ]
-    },
-    {
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
@@ -966,27 +942,27 @@
       ]
     },
     {
-      "entry_id": 1913463,
-      "team_name": "nkzzz_21",
-      "manager": "Nischal Koirala",
+      "entry_id": 464574,
+      "team_name": "The Carrick Masters",
+      "manager": "Mohan S Madai",
       "starters": [
-        "Kinsky",
+        "Verbruggen",
+        "Calafiori",
         "Van Hecke",
         "De Cuyper",
-        "Hill",
-        "Vuskovic",
+        "B.Fernandes",
         "Rogers",
-        "Gro\u00df",
         "Tavernier",
-        "Belloumi",
-        "Palmer",
-        "Isak"
+        "Gro\u00df",
+        "McGinn",
+        "N.Jackson",
+        "Haaland"
       ],
       "bench": [
-        "Raya",
-        "N.Jackson",
-        "Barry",
-        "Diop"
+        "Palmer",
+        "Gonzalo",
+        "Affengruber",
+        "Thomas"
       ]
     },
     {
@@ -1014,6 +990,30 @@
       ]
     },
     {
+      "entry_id": 1913463,
+      "team_name": "nkzzz_21",
+      "manager": "Nischal Koirala",
+      "starters": [
+        "Kinsky",
+        "Van Hecke",
+        "De Cuyper",
+        "Hill",
+        "Vuskovic",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Belloumi",
+        "Palmer",
+        "Isak"
+      ],
+      "bench": [
+        "Raya",
+        "N.Jackson",
+        "Barry",
+        "Diop"
+      ]
+    },
+    {
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
@@ -1038,30 +1038,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Hill",
-        "Muharemovi\u0107",
-        "De Cuyper",
-        "Van Hecke",
-        "Wirtz",
-        "Tavernier",
-        "Gomez",
-        "N.Jackson",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Palmer",
-        "\u00d8degaard",
-        "Calafiori"
-      ]
-    },
-    {
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
@@ -1083,6 +1059,30 @@
         "Hall",
         "Calafiori",
         "Barnes"
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Hill",
+        "Muharemovi\u0107",
+        "De Cuyper",
+        "Van Hecke",
+        "Wirtz",
+        "Tavernier",
+        "Gomez",
+        "N.Jackson",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Palmer",
+        "\u00d8degaard",
+        "Calafiori"
       ]
     },
     {
@@ -1302,30 +1302,6 @@
       ]
     },
     {
-      "entry_id": 2546180,
-      "team_name": "Pharaoh's Team",
-      "manager": "Don theGod",
-      "starters": [
-        "Kinsky",
-        "Egan",
-        "Calafiori",
-        "Vuskovic",
-        "Tavernier",
-        "Gro\u00df",
-        "\u00d8degaard",
-        "Mbeumo",
-        "N.Jackson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Dubravka",
-        "McGinn",
-        "Gu\u00e9hi",
-        "Davis"
-      ]
-    },
-    {
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
@@ -1347,6 +1323,30 @@
         "Gomez",
         "Gu\u00e9hi",
         "van Ewijk"
+      ]
+    },
+    {
+      "entry_id": 2546180,
+      "team_name": "Pharaoh's Team",
+      "manager": "Don theGod",
+      "starters": [
+        "Kinsky",
+        "Egan",
+        "Calafiori",
+        "Vuskovic",
+        "Tavernier",
+        "Gro\u00df",
+        "\u00d8degaard",
+        "Mbeumo",
+        "N.Jackson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Dubravka",
+        "McGinn",
+        "Gu\u00e9hi",
+        "Davis"
       ]
     },
     {
@@ -1632,7 +1632,7 @@
         "manager": "Prashant Guragai",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 1575639,
@@ -1640,14 +1640,6 @@
         "manager": "Ganesh Sapkota",
         "element_id": 411,
         "player_name": "Haaland",
-        "points": 0
-      },
-      {
-        "entry_id": 464574,
-        "team_name": "The Carrick Masters",
-        "manager": "Mohan S Madai",
-        "element_id": 166,
-        "player_name": "N.Jackson",
         "points": 0
       },
       {
@@ -1659,11 +1651,11 @@
         "points": 0
       },
       {
-        "entry_id": 1913463,
-        "team_name": "nkzzz_21",
-        "manager": "Nischal Koirala",
-        "element_id": 379,
-        "player_name": "Isak",
+        "entry_id": 464574,
+        "team_name": "The Carrick Masters",
+        "manager": "Mohan S Madai",
+        "element_id": 166,
+        "player_name": "N.Jackson",
         "points": 0
       },
       {
@@ -1672,7 +1664,15 @@
         "manager": "Rosham Sharma",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 2
+      },
+      {
+        "entry_id": 1913463,
+        "team_name": "nkzzz_21",
+        "manager": "Nischal Koirala",
+        "element_id": 379,
+        "player_name": "Isak",
+        "points": 0
       },
       {
         "entry_id": 36783,
@@ -1683,19 +1683,19 @@
         "points": 0
       },
       {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 346,
-        "player_name": "Calvert-Lewin",
-        "points": 0
-      },
-      {
         "entry_id": 1664566,
         "team_name": "BIR FC",
         "manager": "Karna Karki",
         "element_id": 115,
         "player_name": "De Cuyper",
+        "points": 0
+      },
+      {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
+        "element_id": 346,
+        "player_name": "Calvert-Lewin",
         "points": 0
       },
       {
@@ -1771,17 +1771,17 @@
         "points": 0
       },
       {
-        "entry_id": 2546180,
-        "team_name": "Pharaoh's Team",
-        "manager": "Don theGod",
+        "entry_id": 5917809,
+        "team_name": "Sanjeev's Team",
+        "manager": "Sanjeev Niroula",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
       },
       {
-        "entry_id": 5917809,
-        "team_name": "Sanjeev's Team",
-        "manager": "Sanjeev Niroula",
+        "entry_id": 2546180,
+        "team_name": "Pharaoh's Team",
+        "manager": "Don theGod",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
@@ -1832,7 +1832,7 @@
         "manager": "Abhishek Jaiswal",
         "element_id": 40,
         "player_name": "Rogers",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 165293,
@@ -1848,7 +1848,7 @@
         "manager": "Rajiv Bhandari",
         "element_id": 154,
         "player_name": "Palmer",
-        "points": 1
+        "points": 2
       },
       {
         "entry_id": 3479050,
@@ -1891,7 +1891,7 @@
       {
         "player_name": "Palmer",
         "count": 3,
-        "points": 1
+        "points": 2
       },
       {
         "player_name": "Cunha",
@@ -1926,7 +1926,7 @@
       {
         "player_name": "Rogers",
         "count": 1,
-        "points": 1
+        "points": 2
       }
     ]
   }
