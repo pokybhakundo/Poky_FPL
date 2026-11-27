@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-27T21:40:21.944600+00:00",
+  "generated_at": "2026-11-27T21:45:21.640241+00:00",
   "classic": [
     {
       "rank": 1,
@@ -191,8 +191,8 @@
       "entry_id": 5917809,
       "team_name": "Sanjeev's Team",
       "manager": "Sanjeev Niroula",
-      "gw_points": 7,
-      "total_points": 627
+      "gw_points": 6,
+      "total_points": 626
     },
     {
       "rank": 25,
