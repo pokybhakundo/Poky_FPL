@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T17:45:22.175048+00:00",
+  "generated_at": "2026-11-28T17:50:26.648806+00:00",
   "form": {
     "gws": [
       7,
@@ -592,21 +592,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 3
-        },
-        {
-          "name": "bboost",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -618,6 +603,21 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 3
+        },
+        {
+          "name": "bboost",
+          "gw": 4
         }
       ]
     },
@@ -1206,30 +1206,6 @@
       ]
     },
     {
-      "entry_id": 969893,
-      "team_name": "Team Utthan",
-      "manager": "Anit Yadav",
-      "starters": [
-        "Kinsky",
-        "Jacquet",
-        "De Cuyper",
-        "Silva",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Haaland",
-        "Evanilson",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Verbruggen",
-        "Gibbs-White",
-        "Calafiori",
-        "Konsa"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1251,6 +1227,30 @@
         "Hall",
         "Davis",
         "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 969893,
+      "team_name": "Team Utthan",
+      "manager": "Anit Yadav",
+      "starters": [
+        "Kinsky",
+        "Jacquet",
+        "De Cuyper",
+        "Silva",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Haaland",
+        "Evanilson",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Verbruggen",
+        "Gibbs-White",
+        "Calafiori",
+        "Konsa"
       ]
     },
     {
@@ -1739,19 +1739,19 @@
         "points": 0
       },
       {
-        "entry_id": 969893,
-        "team_name": "Team Utthan",
-        "manager": "Anit Yadav",
-        "element_id": 166,
-        "player_name": "N.Jackson",
-        "points": 1
-      },
-      {
         "entry_id": 395170,
         "team_name": "Idaho Potatoes XI",
         "manager": "Rajesh Baduwal",
         "element_id": 428,
         "player_name": "Cunha",
+        "points": 1
+      },
+      {
+        "entry_id": 969893,
+        "team_name": "Team Utthan",
+        "manager": "Anit Yadav",
+        "element_id": 166,
+        "player_name": "N.Jackson",
         "points": 1
       },
       {

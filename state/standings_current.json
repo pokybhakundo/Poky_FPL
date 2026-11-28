@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-28T17:45:22.556582+00:00",
+  "generated_at": "2026-11-28T17:50:27.151580+00:00",
   "classic": [
     {
       "rank": 1,
@@ -15,40 +15,40 @@
       "entry_id": 33334,
       "team_name": "Not too Xabi",
       "manager": "Swapnil Tiwari",
-      "gw_points": 15,
-      "total_points": 752
+      "gw_points": 18,
+      "total_points": 755
     },
     {
       "rank": 3,
       "entry_id": 3309536,
       "team_name": "Everest Eleven",
       "manager": "Anil Ghimire",
-      "gw_points": 5,
-      "total_points": 713
+      "gw_points": 8,
+      "total_points": 716
     },
     {
       "rank": 4,
       "entry_id": 2310055,
       "team_name": "NetSix&Chill FC",
       "manager": "Sabin Shrestha",
-      "gw_points": 5,
-      "total_points": 712
+      "gw_points": 8,
+      "total_points": 715
     },
     {
       "rank": 5,
       "entry_id": 36783,
       "team_name": "Kids to Unc's FC",
       "manager": "Bishal Neupane",
-      "gw_points": 27,
-      "total_points": 697
+      "gw_points": 30,
+      "total_points": 700
     },
     {
       "rank": 6,
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
-      "gw_points": 7,
-      "total_points": 697
+      "gw_points": 10,
+      "total_points": 700
     },
     {
       "rank": 7,
@@ -67,12 +67,12 @@
       "total_points": 695
     },
     {
-      "rank": 9,
+      "rank": 7,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
-      "gw_points": 6,
-      "total_points": 692
+      "gw_points": 9,
+      "total_points": 695
     },
     {
       "rank": 10,
@@ -148,19 +148,19 @@
     },
     {
       "rank": 19,
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "gw_points": 10,
+      "total_points": 668
+    },
+    {
+      "rank": 20,
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
       "gw_points": 6,
       "total_points": 668
-    },
-    {
-      "rank": 20,
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "gw_points": 7,
-      "total_points": 665
     },
     {
       "rank": 21,
@@ -183,8 +183,8 @@
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
-      "gw_points": 16,
-      "total_points": 640
+      "gw_points": 19,
+      "total_points": 643
     },
     {
       "rank": 24,
@@ -199,8 +199,8 @@
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 23,
-      "total_points": 633
+      "gw_points": 26,
+      "total_points": 636
     },
     {
       "rank": 26,
