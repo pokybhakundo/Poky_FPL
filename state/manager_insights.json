@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T15:35:19.432789+00:00",
+  "generated_at": "2026-11-28T15:40:24.475654+00:00",
   "form": {
     "gws": [
       7,
@@ -551,6 +551,21 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "wildcard",
+          "gw": 3
+        }
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -581,17 +596,13 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
       "chips": [
         {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
           "name": "wildcard",
-          "gw": 3
+          "gw": 6
         }
       ]
     },
@@ -607,17 +618,6 @@
         {
           "name": "wildcard",
           "gw": 3
-        }
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
         }
       ]
     },
@@ -1134,6 +1134,30 @@
       ]
     },
     {
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
+      "starters": [
+        "Verbruggen",
+        "Muharemovi\u0107",
+        "Calafiori",
+        "Van Hecke",
+        "Tavernier",
+        "Gro\u00df",
+        "Rogers",
+        "Wirtz",
+        "Mbeumo",
+        "Isak",
+        "Haaland"
+      ],
+      "bench": [
+        "Forster",
+        "Barry",
+        "Konsa",
+        "Davis"
+      ]
+    },
+    {
       "entry_id": 969893,
       "team_name": "Team Utthan",
       "manager": "Anit Yadav",
@@ -1182,27 +1206,27 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
       "starters": [
-        "Verbruggen",
+        "Kinsky",
+        "De Cuyper",
         "Muharemovi\u0107",
-        "Calafiori",
         "Van Hecke",
+        "Rogers",
         "Tavernier",
         "Gro\u00df",
-        "Rogers",
         "Wirtz",
-        "Mbeumo",
-        "Isak",
-        "Haaland"
+        "Evanilson",
+        "Haaland",
+        "N.Jackson"
       ],
       "bench": [
-        "Forster",
-        "Barry",
-        "Konsa",
-        "Davis"
+        "Raya",
+        "Calafiori",
+        "Egan",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1226,30 +1250,6 @@
         "Steele",
         "Hall",
         "Davis",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Muharemovi\u0107",
-        "Van Hecke",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "Wirtz",
-        "Evanilson",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Raya",
-        "Calafiori",
-        "Egan",
         "M.Sangar\u00e9"
       ]
     },
@@ -1715,6 +1715,14 @@
         "points": 0
       },
       {
+        "entry_id": 254926,
+        "team_name": "Vrum Vrummmmmm",
+        "manager": "Mahesh Acharya",
+        "element_id": 379,
+        "player_name": "Isak",
+        "points": 0
+      },
+      {
         "entry_id": 969893,
         "team_name": "Team Utthan",
         "manager": "Anit Yadav",
@@ -1731,11 +1739,11 @@
         "points": 0
       },
       {
-        "entry_id": 254926,
-        "team_name": "Vrum Vrummmmmm",
-        "manager": "Mahesh Acharya",
-        "element_id": 379,
-        "player_name": "Isak",
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
+        "element_id": 68,
+        "player_name": "Tavernier",
         "points": 0
       },
       {
@@ -1744,14 +1752,6 @@
         "manager": "Rajesh Baduwal",
         "element_id": 428,
         "player_name": "Cunha",
-        "points": 0
-      },
-      {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
-        "element_id": 68,
-        "player_name": "Tavernier",
         "points": 0
       },
       {
