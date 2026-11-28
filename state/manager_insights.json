@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T17:50:26.648806+00:00",
+  "generated_at": "2026-11-28T17:55:18.213184+00:00",
   "form": {
     "gws": [
       7,
@@ -411,6 +411,25 @@
       ]
     },
     {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "chips": [
+        {
+          "name": "bboost",
+          "gw": 1
+        },
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 6
+        }
+      ]
+    },
+    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -441,25 +460,6 @@
         {
           "name": "freehit",
           "gw": 5
-        },
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "chips": [
-        {
-          "name": "bboost",
-          "gw": 1
-        },
-        {
-          "name": "3xc",
-          "gw": 3
         },
         {
           "name": "wildcard",
@@ -581,17 +581,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 6
-        }
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -603,6 +592,17 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 6
         }
       ]
     },
@@ -918,6 +918,30 @@
       ]
     },
     {
+      "entry_id": 1575639,
+      "team_name": "SpecialOne",
+      "manager": "Ganesh Sapkota",
+      "starters": [
+        "Raya",
+        "Van Hecke",
+        "Calafiori",
+        "De Cuyper",
+        "Palmer",
+        "Rogers",
+        "Gro\u00df",
+        "Tavernier",
+        "Manzambi",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Dubravka",
+        "Egan",
+        "Thomas",
+        "Jo\u00e3o Pedro"
+      ]
+    },
+    {
       "entry_id": 75325,
       "team_name": "CuledBarca",
       "manager": "Kaushal Raj Ghimire",
@@ -963,30 +987,6 @@
         "Gonzalo",
         "Affengruber",
         "Thomas"
-      ]
-    },
-    {
-      "entry_id": 1575639,
-      "team_name": "SpecialOne",
-      "manager": "Ganesh Sapkota",
-      "starters": [
-        "Raya",
-        "Van Hecke",
-        "Calafiori",
-        "De Cuyper",
-        "Palmer",
-        "Rogers",
-        "Gro\u00df",
-        "Tavernier",
-        "Manzambi",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Dubravka",
-        "Egan",
-        "Thomas",
-        "Jo\u00e3o Pedro"
       ]
     },
     {
@@ -1182,30 +1182,6 @@
       ]
     },
     {
-      "entry_id": 1595343,
-      "team_name": "Janta Tanna Chahncha",
-      "manager": "Ankit Bhaukajee",
-      "starters": [
-        "Kinsky",
-        "De Cuyper",
-        "Muharemovi\u0107",
-        "Van Hecke",
-        "Rogers",
-        "Tavernier",
-        "Gro\u00df",
-        "Wirtz",
-        "Evanilson",
-        "Haaland",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Raya",
-        "Calafiori",
-        "Egan",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 395170,
       "team_name": "Idaho Potatoes XI",
       "manager": "Rajesh Baduwal",
@@ -1226,6 +1202,30 @@
         "Steele",
         "Hall",
         "Davis",
+        "M.Sangar\u00e9"
+      ]
+    },
+    {
+      "entry_id": 1595343,
+      "team_name": "Janta Tanna Chahncha",
+      "manager": "Ankit Bhaukajee",
+      "starters": [
+        "Kinsky",
+        "De Cuyper",
+        "Muharemovi\u0107",
+        "Van Hecke",
+        "Rogers",
+        "Tavernier",
+        "Gro\u00df",
+        "Wirtz",
+        "Evanilson",
+        "Haaland",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Raya",
+        "Calafiori",
+        "Egan",
         "M.Sangar\u00e9"
       ]
     },
@@ -1643,6 +1643,14 @@
         "points": 2
       },
       {
+        "entry_id": 1575639,
+        "team_name": "SpecialOne",
+        "manager": "Ganesh Sapkota",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 0
+      },
+      {
         "entry_id": 75325,
         "team_name": "CuledBarca",
         "manager": "Kaushal Raj Ghimire",
@@ -1657,14 +1665,6 @@
         "element_id": 166,
         "player_name": "N.Jackson",
         "points": 1
-      },
-      {
-        "entry_id": 1575639,
-        "team_name": "SpecialOne",
-        "manager": "Ganesh Sapkota",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
       },
       {
         "entry_id": 3769764,
@@ -1731,20 +1731,20 @@
         "points": 1
       },
       {
-        "entry_id": 1595343,
-        "team_name": "Janta Tanna Chahncha",
-        "manager": "Ankit Bhaukajee",
-        "element_id": 68,
-        "player_name": "Tavernier",
-        "points": 0
-      },
-      {
         "entry_id": 395170,
         "team_name": "Idaho Potatoes XI",
         "manager": "Rajesh Baduwal",
         "element_id": 428,
         "player_name": "Cunha",
         "points": 1
+      },
+      {
+        "entry_id": 1595343,
+        "team_name": "Janta Tanna Chahncha",
+        "manager": "Ankit Bhaukajee",
+        "element_id": 68,
+        "player_name": "Tavernier",
+        "points": 0
       },
       {
         "entry_id": 969893,

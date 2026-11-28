@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-28T17:50:21.045359+00:00",
+  "generated_at": "2026-11-28T17:55:15.242188+00:00",
   "next_deadline": "2026-12-01T18:30:00Z",
   "current_gw": 12,
   "current_gw_finalized": false,
@@ -165,7 +165,7 @@
     },
     {
       "gw": 12,
-      "points": 30,
+      "points": 31,
       "shared": false,
       "provisional": true,
       "winners": [
@@ -238,7 +238,7 @@
     {
       "month": "November",
       "label": "November",
-      "points": 139,
+      "points": 140,
       "shared": false,
       "provisional": true,
       "gameweeks": [
