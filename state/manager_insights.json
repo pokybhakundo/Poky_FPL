@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:00:31.829784+00:00",
+  "generated_at": "2026-11-28T16:05:25.643402+00:00",
   "form": {
     "gws": [
       7,
@@ -566,21 +566,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "chips": [
-        {
-          "name": "wildcard",
-          "gw": 2
-        },
-        {
-          "name": "3xc",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -592,6 +577,21 @@
         {
           "name": "wildcard",
           "gw": 3
+        }
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "chips": [
+        {
+          "name": "wildcard",
+          "gw": 2
+        },
+        {
+          "name": "3xc",
+          "gw": 4
         }
       ]
     },
@@ -1158,30 +1158,6 @@
       ]
     },
     {
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "starters": [
-        "Verbruggen",
-        "De Cuyper",
-        "Ajayi",
-        "Justin",
-        "Cunha",
-        "Gro\u00df",
-        "Rogers",
-        "Tavernier",
-        "Haaland",
-        "Evanilson",
-        "Isak"
-      ],
-      "bench": [
-        "Kelleher",
-        "Belloumi",
-        "Kayode",
-        "Calafiori"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -1203,6 +1179,30 @@
         "Barry",
         "Konsa",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
+      "starters": [
+        "Verbruggen",
+        "De Cuyper",
+        "Ajayi",
+        "Justin",
+        "Cunha",
+        "Gro\u00df",
+        "Rogers",
+        "Tavernier",
+        "Haaland",
+        "Evanilson",
+        "Isak"
+      ],
+      "bench": [
+        "Kelleher",
+        "Belloumi",
+        "Kayode",
+        "Calafiori"
       ]
     },
     {
@@ -1723,19 +1723,19 @@
         "points": 0
       },
       {
-        "entry_id": 2253554,
-        "team_name": "Soraaa",
-        "manager": "Subigya Shah",
-        "element_id": 428,
-        "player_name": "Cunha",
-        "points": 0
-      },
-      {
         "entry_id": 254926,
         "team_name": "Vrum Vrummmmmm",
         "manager": "Mahesh Acharya",
         "element_id": 379,
         "player_name": "Isak",
+        "points": 0
+      },
+      {
+        "entry_id": 2253554,
+        "team_name": "Soraaa",
+        "manager": "Subigya Shah",
+        "element_id": 428,
+        "player_name": "Cunha",
         "points": 0
       },
       {
@@ -1824,7 +1824,7 @@
         "manager": "Rijan Bajagain",
         "element_id": 427,
         "player_name": "Mbeumo",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 1955412,
@@ -1840,7 +1840,7 @@
         "manager": "Arjun Prasai",
         "element_id": 427,
         "player_name": "Mbeumo",
-        "points": 0
+        "points": 1
       },
       {
         "entry_id": 558137,
@@ -1901,7 +1901,7 @@
       {
         "player_name": "Mbeumo",
         "count": 2,
-        "points": 0
+        "points": 1
       },
       {
         "player_name": "De Cuyper",

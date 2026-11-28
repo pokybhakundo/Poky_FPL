@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-28T16:00:32.338653+00:00",
+  "generated_at": "2026-11-28T16:05:26.285386+00:00",
   "classic": [
     {
       "rank": 1,
@@ -132,17 +132,17 @@
     },
     {
       "rank": 17,
-      "entry_id": 2253554,
-      "team_name": "Soraaa",
-      "manager": "Subigya Shah",
-      "gw_points": 3,
-      "total_points": 664
-    },
-    {
-      "rank": 18,
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
+      "gw_points": 4,
+      "total_points": 665
+    },
+    {
+      "rank": 18,
+      "entry_id": 2253554,
+      "team_name": "Soraaa",
+      "manager": "Subigya Shah",
       "gw_points": 3,
       "total_points": 664
     },
@@ -191,8 +191,8 @@
       "entry_id": 2546180,
       "team_name": "Pharaoh's Team",
       "manager": "Don theGod",
-      "gw_points": 0,
-      "total_points": 628
+      "gw_points": 1,
+      "total_points": 629
     },
     {
       "rank": 25,
@@ -215,24 +215,24 @@
       "entry_id": 2659214,
       "team_name": "Yoro Wizard Harry",
       "manager": "Aayush Jha",
-      "gw_points": 2,
-      "total_points": 620
+      "gw_points": 3,
+      "total_points": 621
     },
     {
       "rank": 28,
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 12,
-      "total_points": 618
+      "gw_points": 13,
+      "total_points": 619
     },
     {
       "rank": 29,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
-      "gw_points": 6,
-      "total_points": 616
+      "gw_points": 8,
+      "total_points": 618
     },
     {
       "rank": 30,
@@ -247,8 +247,8 @@
       "entry_id": 165293,
       "team_name": "Power",
       "manager": "Arjun Prasai",
-      "gw_points": 2,
-      "total_points": 600
+      "gw_points": 4,
+      "total_points": 602
     },
     {
       "rank": 32,
