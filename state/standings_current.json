@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-28T19:15:28.509449+00:00",
+  "generated_at": "2026-11-28T19:20:25.299653+00:00",
   "classic": [
     {
       "rank": 1,
@@ -239,8 +239,8 @@
       "entry_id": 1955412,
       "team_name": "MAGA",
       "manager": "MESSI GOAT",
-      "gw_points": 7,
-      "total_points": 614
+      "gw_points": 8,
+      "total_points": 615
     },
     {
       "rank": 31,
@@ -271,8 +271,8 @@
       "entry_id": 3479050,
       "team_name": "chelsea FC",
       "manager": "Prasis Timilsena",
-      "gw_points": 6,
-      "total_points": 581
+      "gw_points": 7,
+      "total_points": 582
     }
   ],
   "h2h": [
