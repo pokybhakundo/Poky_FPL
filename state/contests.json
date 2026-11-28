@@ -1,7 +1,7 @@
 {
   "league": "classic",
   "league_id": 423590,
-  "generated_at": "2026-11-28T16:20:20.659281+00:00",
+  "generated_at": "2026-11-28T16:25:16.503953+00:00",
   "next_deadline": "2026-12-01T18:30:00Z",
   "current_gw": 12,
   "current_gw_finalized": false,
@@ -165,7 +165,7 @@
     },
     {
       "gw": 12,
-      "points": 29,
+      "points": 26,
       "shared": false,
       "provisional": true,
       "winners": [
@@ -238,8 +238,8 @@
     {
       "month": "November",
       "label": "November",
-      "points": 134,
-      "shared": false,
+      "points": 131,
+      "shared": true,
       "provisional": true,
       "gameweeks": [
         10,
@@ -251,6 +251,11 @@
           "entry_id": 1966033,
           "team_name": "Or3gonian",
           "manager": "Biraj Shakya"
+        },
+        {
+          "entry_id": 500535,
+          "team_name": "Jhol Momo",
+          "manager": "Akash Shrestha"
         }
       ]
     }
