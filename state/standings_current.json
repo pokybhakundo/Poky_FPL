@@ -1,14 +1,14 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-28T15:45:18.936430+00:00",
+  "generated_at": "2026-11-28T15:50:19.788427+00:00",
   "classic": [
     {
       "rank": 1,
       "entry_id": 1966033,
       "team_name": "Or3gonian",
       "manager": "Biraj Shakya",
-      "gw_points": 19,
-      "total_points": 783
+      "gw_points": 17,
+      "total_points": 781
     },
     {
       "rank": 2,
@@ -44,14 +44,6 @@
     },
     {
       "rank": 6,
-      "entry_id": 36783,
-      "team_name": "Kids to Unc's FC",
-      "manager": "Bishal Neupane",
-      "gw_points": 21,
-      "total_points": 691
-    },
-    {
-      "rank": 7,
       "entry_id": 1575639,
       "team_name": "SpecialOne",
       "manager": "Ganesh Sapkota",
@@ -59,15 +51,15 @@
       "total_points": 690
     },
     {
-      "rank": 8,
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "gw_points": 17,
+      "rank": 7,
+      "entry_id": 36783,
+      "team_name": "Kids to Unc's FC",
+      "manager": "Bishal Neupane",
+      "gw_points": 19,
       "total_points": 689
     },
     {
-      "rank": 8,
+      "rank": 7,
       "entry_id": 464574,
       "team_name": "The Carrick Masters",
       "manager": "Mohan S Madai",
@@ -75,12 +67,20 @@
       "total_points": 689
     },
     {
-      "rank": 10,
+      "rank": 9,
       "entry_id": 3769764,
       "team_name": "XabiBaby",
       "manager": "Rikesh Puri",
       "gw_points": 4,
       "total_points": 689
+    },
+    {
+      "rank": 10,
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "gw_points": 15,
+      "total_points": 687
     },
     {
       "rank": 11,
@@ -95,8 +95,8 @@
       "entry_id": 1664566,
       "team_name": "BIR FC",
       "manager": "Karna Karki",
-      "gw_points": 13,
-      "total_points": 683
+      "gw_points": 12,
+      "total_points": 682
     },
     {
       "rank": 13,
@@ -223,8 +223,8 @@
       "entry_id": 2798038,
       "team_name": "CookedRice",
       "manager": "Abhishek Jaiswal",
-      "gw_points": 13,
-      "total_points": 619
+      "gw_points": 12,
+      "total_points": 618
     },
     {
       "rank": 29,
