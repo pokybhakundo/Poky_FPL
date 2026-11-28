@@ -1,6 +1,6 @@
 {
   "gw": 12,
-  "generated_at": "2026-11-28T16:40:22.757103+00:00",
+  "generated_at": "2026-11-28T16:45:29.054911+00:00",
   "classic": [
     {
       "rank": 1,
@@ -180,6 +180,14 @@
     },
     {
       "rank": 23,
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "gw_points": 14,
+      "total_points": 636
+    },
+    {
+      "rank": 24,
       "entry_id": 500535,
       "team_name": "Jhol Momo",
       "manager": "Akash Shrestha",
@@ -187,20 +195,12 @@
       "total_points": 635
     },
     {
-      "rank": 24,
+      "rank": 25,
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
       "gw_points": 21,
       "total_points": 631
-    },
-    {
-      "rank": 25,
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "gw_points": 8,
-      "total_points": 630
     },
     {
       "rank": 26,
