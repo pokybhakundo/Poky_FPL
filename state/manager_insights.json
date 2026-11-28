@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:30:24.837165+00:00",
+  "generated_at": "2026-11-28T16:35:26.635271+00:00",
   "form": {
     "gws": [
       7,
@@ -388,21 +388,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "chips": [
-        {
-          "name": "3xc",
-          "gw": 3
-        },
-        {
-          "name": "wildcard",
-          "gw": 4
-        }
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -422,6 +407,21 @@
         {
           "name": "freehit",
           "gw": 9
+        }
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "chips": [
+        {
+          "name": "3xc",
+          "gw": 3
+        },
+        {
+          "name": "wildcard",
+          "gw": 4
         }
       ]
     },
@@ -894,30 +894,6 @@
       ]
     },
     {
-      "entry_id": 75325,
-      "team_name": "CuledBarca",
-      "manager": "Kaushal Raj Ghimire",
-      "starters": [
-        "Verbruggen",
-        "Hill",
-        "Muharemovi\u0107",
-        "De Cuyper",
-        "Van Hecke",
-        "Wirtz",
-        "Tavernier",
-        "Gomez",
-        "N.Jackson",
-        "Calvert-Lewin",
-        "Haaland"
-      ],
-      "bench": [
-        "Kinsky",
-        "Palmer",
-        "\u00d8degaard",
-        "Calafiori"
-      ]
-    },
-    {
       "entry_id": 1843084,
       "team_name": "Gura's Invincibles",
       "manager": "Prashant Guragai",
@@ -939,6 +915,30 @@
         "Cherki",
         "Konsa",
         "Mykolenko"
+      ]
+    },
+    {
+      "entry_id": 75325,
+      "team_name": "CuledBarca",
+      "manager": "Kaushal Raj Ghimire",
+      "starters": [
+        "Verbruggen",
+        "Hill",
+        "Muharemovi\u0107",
+        "De Cuyper",
+        "Van Hecke",
+        "Wirtz",
+        "Tavernier",
+        "Gomez",
+        "N.Jackson",
+        "Calvert-Lewin",
+        "Haaland"
+      ],
+      "bench": [
+        "Kinsky",
+        "Palmer",
+        "\u00d8degaard",
+        "Calafiori"
       ]
     },
     {
@@ -1326,30 +1326,6 @@
       ]
     },
     {
-      "entry_id": 4048482,
-      "team_name": "Bhaire FC",
-      "manager": "Saujan Acharya",
-      "starters": [
-        "Verbruggen",
-        "Konsa",
-        "Ajer",
-        "Calafiori",
-        "B.Fernandes",
-        "Gro\u00df",
-        "E.Le F\u00e9e",
-        "Ndiaye",
-        "N.Jackson",
-        "Evanilson",
-        "Haaland"
-      ],
-      "bench": [
-        "Sels",
-        "Belloumi",
-        "Egan",
-        "Hall"
-      ]
-    },
-    {
       "entry_id": 1966921,
       "team_name": "FalamBottleKagaj",
       "manager": "Rijan Bajagain",
@@ -1371,6 +1347,30 @@
         "Haaland",
         "Barry",
         "Konsa"
+      ]
+    },
+    {
+      "entry_id": 4048482,
+      "team_name": "Bhaire FC",
+      "manager": "Saujan Acharya",
+      "starters": [
+        "Verbruggen",
+        "Konsa",
+        "Ajer",
+        "Calafiori",
+        "B.Fernandes",
+        "Gro\u00df",
+        "E.Le F\u00e9e",
+        "Ndiaye",
+        "N.Jackson",
+        "Evanilson",
+        "Haaland"
+      ],
+      "bench": [
+        "Sels",
+        "Belloumi",
+        "Egan",
+        "Hall"
       ]
     },
     {
@@ -1600,7 +1600,7 @@
         "manager": "Biraj Shakya",
         "element_id": 346,
         "player_name": "Calvert-Lewin",
-        "points": 8
+        "points": 7
       },
       {
         "entry_id": 33334,
@@ -1632,15 +1632,7 @@
         "manager": "Bishal Neupane",
         "element_id": 346,
         "player_name": "Calvert-Lewin",
-        "points": 8
-      },
-      {
-        "entry_id": 75325,
-        "team_name": "CuledBarca",
-        "manager": "Kaushal Raj Ghimire",
-        "element_id": 346,
-        "player_name": "Calvert-Lewin",
-        "points": 8
+        "points": 7
       },
       {
         "entry_id": 1843084,
@@ -1649,6 +1641,14 @@
         "element_id": 154,
         "player_name": "Palmer",
         "points": 2
+      },
+      {
+        "entry_id": 75325,
+        "team_name": "CuledBarca",
+        "manager": "Kaushal Raj Ghimire",
+        "element_id": 346,
+        "player_name": "Calvert-Lewin",
+        "points": 7
       },
       {
         "entry_id": 4122498,
@@ -1779,20 +1779,20 @@
         "points": 2
       },
       {
-        "entry_id": 4048482,
-        "team_name": "Bhaire FC",
-        "manager": "Saujan Acharya",
-        "element_id": 411,
-        "player_name": "Haaland",
-        "points": 0
-      },
-      {
         "entry_id": 1966921,
         "team_name": "FalamBottleKagaj",
         "manager": "Rijan Bajagain",
         "element_id": 427,
         "player_name": "Mbeumo",
         "points": 1
+      },
+      {
+        "entry_id": 4048482,
+        "team_name": "Bhaire FC",
+        "manager": "Saujan Acharya",
+        "element_id": 411,
+        "player_name": "Haaland",
+        "points": 0
       },
       {
         "entry_id": 2546180,
@@ -1886,7 +1886,7 @@
       {
         "player_name": "Calvert-Lewin",
         "count": 3,
-        "points": 8
+        "points": 7
       },
       {
         "player_name": "Palmer",

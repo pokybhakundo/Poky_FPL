@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:30:22.133389+00:00",
+  "generated_at": "2026-11-28T16:35:23.511768+00:00",
   "entries": {
     "1966033": {
       "entry_id": 1966033,
@@ -226,6 +226,33 @@
         }
       ]
     },
+    "1843084": {
+      "entry_id": 1843084,
+      "team_name": "Gura's Invincibles",
+      "manager": "Prashant Guragai",
+      "seasons": [
+        {
+          "season_name": "2025/26",
+          "total_points": 2200,
+          "rank": 893733
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2219,
+          "rank": 2574655
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2197,
+          "rank": 2227044
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2303,
+          "rank": 1493330
+        }
+      ]
+    },
     "75325": {
       "entry_id": 75325,
       "team_name": "CuledBarca",
@@ -275,33 +302,6 @@
           "season_name": "2016/17",
           "total_points": 1732,
           "rank": 2284233
-        }
-      ]
-    },
-    "1843084": {
-      "entry_id": 1843084,
-      "team_name": "Gura's Invincibles",
-      "manager": "Prashant Guragai",
-      "seasons": [
-        {
-          "season_name": "2025/26",
-          "total_points": 2200,
-          "rank": 893733
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2219,
-          "rank": 2574655
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2197,
-          "rank": 2227044
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2303,
-          "rank": 1493330
         }
       ]
     },
@@ -1116,6 +1116,12 @@
         }
       ]
     },
+    "1966921": {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "seasons": []
+    },
     "4048482": {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
@@ -1142,12 +1148,6 @@
           "rank": 593509
         }
       ]
-    },
-    "1966921": {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "seasons": []
     },
     "2546180": {
       "entry_id": 2546180,
