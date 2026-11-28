@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T19:00:29.812951+00:00",
+  "generated_at": "2026-11-28T19:05:17.493966+00:00",
   "form": {
     "gws": [
       7,
@@ -551,9 +551,9 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
+      "entry_id": 254926,
+      "team_name": "Vrum Vrummmmmm",
+      "manager": "Mahesh Acharya",
       "chips": [
         {
           "name": "bboost",
@@ -566,9 +566,9 @@
       ]
     },
     {
-      "entry_id": 254926,
-      "team_name": "Vrum Vrummmmmm",
-      "manager": "Mahesh Acharya",
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
       "chips": [
         {
           "name": "bboost",
@@ -1134,30 +1134,6 @@
       ]
     },
     {
-      "entry_id": 395170,
-      "team_name": "Idaho Potatoes XI",
-      "manager": "Rajesh Baduwal",
-      "starters": [
-        "Verbruggen",
-        "Calafiori",
-        "Konsa",
-        "Van Hecke",
-        "Manzambi",
-        "Rogers",
-        "Palmer",
-        "Cunha",
-        "Evanilson",
-        "Haaland",
-        "Isak"
-      ],
-      "bench": [
-        "Steele",
-        "Hall",
-        "Davis",
-        "M.Sangar\u00e9"
-      ]
-    },
-    {
       "entry_id": 254926,
       "team_name": "Vrum Vrummmmmm",
       "manager": "Mahesh Acharya",
@@ -1179,6 +1155,30 @@
         "Barry",
         "Konsa",
         "Davis"
+      ]
+    },
+    {
+      "entry_id": 395170,
+      "team_name": "Idaho Potatoes XI",
+      "manager": "Rajesh Baduwal",
+      "starters": [
+        "Verbruggen",
+        "Calafiori",
+        "Konsa",
+        "Van Hecke",
+        "Manzambi",
+        "Rogers",
+        "Palmer",
+        "Cunha",
+        "Evanilson",
+        "Haaland",
+        "Isak"
+      ],
+      "bench": [
+        "Steele",
+        "Hall",
+        "Davis",
+        "M.Sangar\u00e9"
       ]
     },
     {
@@ -1326,30 +1326,6 @@
       ]
     },
     {
-      "entry_id": 1966921,
-      "team_name": "FalamBottleKagaj",
-      "manager": "Rijan Bajagain",
-      "starters": [
-        "Trafford",
-        "De Cuyper",
-        "Vuskovic",
-        "Muharemovi\u0107",
-        "Silva",
-        "Palmer",
-        "Rogers",
-        "Mbeumo",
-        "Gro\u00df",
-        "Manzambi",
-        "N.Jackson"
-      ],
-      "bench": [
-        "Dubravka",
-        "Haaland",
-        "Barry",
-        "Konsa"
-      ]
-    },
-    {
       "entry_id": 4048482,
       "team_name": "Bhaire FC",
       "manager": "Saujan Acharya",
@@ -1371,6 +1347,30 @@
         "Belloumi",
         "Egan",
         "Hall"
+      ]
+    },
+    {
+      "entry_id": 1966921,
+      "team_name": "FalamBottleKagaj",
+      "manager": "Rijan Bajagain",
+      "starters": [
+        "Trafford",
+        "De Cuyper",
+        "Vuskovic",
+        "Muharemovi\u0107",
+        "Silva",
+        "Palmer",
+        "Rogers",
+        "Mbeumo",
+        "Gro\u00df",
+        "Manzambi",
+        "N.Jackson"
+      ],
+      "bench": [
+        "Dubravka",
+        "Haaland",
+        "Barry",
+        "Konsa"
       ]
     },
     {
@@ -1715,20 +1715,20 @@
         "points": 0
       },
       {
-        "entry_id": 395170,
-        "team_name": "Idaho Potatoes XI",
-        "manager": "Rajesh Baduwal",
-        "element_id": 428,
-        "player_name": "Cunha",
-        "points": 1
-      },
-      {
         "entry_id": 254926,
         "team_name": "Vrum Vrummmmmm",
         "manager": "Mahesh Acharya",
         "element_id": 379,
         "player_name": "Isak",
         "points": 0
+      },
+      {
+        "entry_id": 395170,
+        "team_name": "Idaho Potatoes XI",
+        "manager": "Rajesh Baduwal",
+        "element_id": 428,
+        "player_name": "Cunha",
+        "points": 1
       },
       {
         "entry_id": 2253554,
@@ -1779,20 +1779,20 @@
         "points": 4
       },
       {
-        "entry_id": 1966921,
-        "team_name": "FalamBottleKagaj",
-        "manager": "Rijan Bajagain",
-        "element_id": 427,
-        "player_name": "Mbeumo",
-        "points": 1
-      },
-      {
         "entry_id": 4048482,
         "team_name": "Bhaire FC",
         "manager": "Saujan Acharya",
         "element_id": 411,
         "player_name": "Haaland",
         "points": 0
+      },
+      {
+        "entry_id": 1966921,
+        "team_name": "FalamBottleKagaj",
+        "manager": "Rijan Bajagain",
+        "element_id": 427,
+        "player_name": "Mbeumo",
+        "points": 1
       },
       {
         "entry_id": 5917809,
